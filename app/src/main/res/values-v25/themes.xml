@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.MagicNumbers" parent="Theme.MagicNumbers" tools:ignore="ResourceCycle">
+        <!-- Primärfarben -->
+        <item name="android:colorPrimary">@color/purple_500</item>
+        <item name="android:content">@color/purple_700</item>
+        <item name="android:colorPrimaryDark">@color/white</item>
+        <!-- Sekundärfarben -->
+        <item name="android:colorSecondary">@color/teal_200</item>
+        <item name="android:textColorSecondary">@color/black</item>
+    </style>
+</resources>

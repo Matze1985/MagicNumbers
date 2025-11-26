@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Magic Numbers</string>
+
+    <!-- UI Texts -->
+    <string name="new_message">New Message</string>
+    <string name="copy_message">Copy Message</string>
+    <string name="clipboard_label">Magic Message</string>
+    <string name="welcome_message">Click \'New Message\' to receive the rhythm of the moment.</string>
+    <string name="message_for_the_moment">Message for the moment: %1$s</string>
+    <string name="your_cross_sum_is">Your cross sum is: %1$s</string>
+    <string name="digit_occurrence">(appears %1$dx, amplified)</string>
+
+    <!-- Section Headers -->
+    <string name="section_vibration">🧬 Vibration of the Digits:</string>
+    <string name="section_your_message">💌 Your Message:</string>
+    <string name="section_summary">✨ In short:</string>
+    <string name="section_energy">⚡️ Energy:</string>
+
+    <!-- Digit Message Templates -->
+    <string name="digit_0_intro">✨ The **\'0\'**%1$s enhances everything. It is a sign of divine presence and unlimited potential.</string>
+    <string name="digit_1_intro">✨ The **\'1\'**%1$s calls you to a **powerful new beginning**. Your thoughts are manifesting quickly now.</string>
+    <string name="digit_2_intro">✨ The **\'2\'**%1$s brings **balance and harmony**, especially in relationships. You are not alone.</string>
+    <string name="digit_3_intro">✨ The **\'3\'**%1$s activates your **creativity and communication**. Express yourself, the spiritual world is listening.</string>
+    <string name="digit_4_intro">✨ The **\'4\'**%1$s creates a **stable foundation**. This energy brings protection and structure into your life.</string>
+    <string name="digit_5_intro">✨ The **\'5\'**%1$s signals a **wave of change and freedom**. Be open to adventure and breaking old chains.</string>
+    <string name="digit_6_intro">✨ The **\'6\'**%1$s focuses on **healing for heart and home**. Family and harmony are now central.</string>
+    <string name="digit_7_intro">✨ The **\'7\'**%1$s makes your **intuition the most important compass**. Listen within, the truth lies inside you.</string>
+    <string name="digit_8_intro">✨ The **\'8\'**%1$s activates the energy of **abundance and success**. Be open to material and spiritual prosperity.</string>
+    <string name="digit_9_intro">✨ The **\'9\'**%1$s indicates the **completion of an important cycle**. Let go of the old to make room for the new.</string>
+
+    <!-- Specific Summaries & Energy Flows -->
+    <string name="summary_default">Your main message is: Listen to your inner voice, you are being guided.</string>
+    <string name="energy_flow_default">Clarity → Trust → Action</string>
+    <string name="summary_99_1">A very significant karmic cycle is finally complete. This creates space for a powerful, divinely guided new beginning.</string>
+    <string name="energy_flow_99_1">Completion → Liberation → New Beginning</string>
+    <string name="summary_8_55">A massive, positive change (double 5) brings you into your abundance and material improvement (8). A breakthrough is near.</string>
+    <string name="energy_flow_8_55">Breakthrough → Freedom → Stability</string>
+
+    <!-- Numerology Special Meanings -->
+    <string name="numerology_unknown">Unknown</string>
+    <string name="master_number_11">(Master Number: Intuition &amp; Enlightenment)</string>
+    <string name="master_number_22">(Master Number: Master Builder &amp; Manifestation)</string>
+    <string name="master_number_33">(Master Number: Universal Love &amp; Healing)</string>
+    <string name="karmic_lesson_13">(Karmic Lesson: Discipline &amp; Work)</string>
+    <string name="karmic_lesson_14">(Karmic Lesson: Responsible Freedom)</string>
+    <string name="karmic_lesson_16">(Karmic Lesson: Ego &amp; Reconstruction)</string>
+    <string name="karmic_lesson_19">(Karmic Lesson: Power &amp; Independence)</string>
+    <!-- Numerology Base Meanings -->
+    <string name="numerology_1">New Beginnings &amp; Leadership</string>
+    <string name="numerology_2">Harmony &amp; Balance</string>
+    <string name="numerology_3">Creativity &amp; Growth</string>
+    <string name="numerology_4">Stability &amp; Protection</string>
+    <string name="numerology_5">Freedom &amp; Change</string>
+    <string name="numerology_6">Love &amp; Harmony</string>
+    <string name="numerology_7">Intuition &amp; Awakening</string>
+    <string name="numerology_8">Success &amp; Abundance</string>
+    <string name="numerology_9">Completion &amp; Wisdom</string>
+    <string name="numerology_11">Master Intuition</string>
+    <string name="numerology_22">Master Manifestor</string>
+    <string name="numerology_33">Master Healer</string>
+
+    <!-- Numerology Keywords for Components/Energy Flow -->
+    <string name="keyword_0">Source</string>
+    <string name="keyword_1">New Beginning</string>
+    <string name="keyword_2">Balance</string>
+    <string name="keyword_3">Creativity</string>
+    <string name="keyword_4">Stability</string>
+    <string name="keyword_5">Change</string>
+    <string name="keyword_6">Harmony</string>
+    <string name="keyword_7">Intuition</string>
+    <string name="keyword_8">Abundance</string>
+    <string name="keyword_9">Completion</string>
+</resources>

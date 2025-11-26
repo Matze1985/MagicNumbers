@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Magische Zahlen</string>
+
+    <!-- UI Texte -->
+    <string name="new_message">Neue Botschaft</string>
+    <string name="copy_message">Botschaft kopieren</string>
+    <string name="clipboard_label">Magische Botschaft</string>
+    <string name="welcome_message">Klicke auf \'Neue Botschaft\', um den Rhythmus des Moments zu empfangen.</string>
+    <string name="message_for_the_moment">Botschaft für den Moment: %1$s</string>
+    <string name="your_cross_sum_is">Deine Quersumme lautet: %1$s</string>
+    <string name="digit_occurrence">(kommt %1$dx vor, verstärkt)</string>
+
+    <!-- Sektionsüberschriften -->
+    <string name="section_vibration">🧬 Schwingung der Ziffern:</string>
+    <string name="section_your_message">💌 Deine Botschaft:</string>
+    <string name="section_summary">✨ Kurz:</string>
+    <string name="section_energy">⚡️ Energie:</string>
+
+    <!-- Hauptbotschaft-Vorlagen (pro Ziffer) -->
+    <string name="digit_0_intro">✨ Die **\'0\'**%1$s verstärkt alles. Sie ist ein Zeichen göttlicher Präsenz und unbegrenzten Potenzials.</string>
+    <string name="digit_1_intro">✨ Die **\'1\'**%1$s ruft dich zu einem **kraftvollen Neubeginn** auf. Deine Gedanken manifestieren sich jetzt schnell.</string>
+    <string name="digit_2_intro">✨ Die **\'2\'**%1$s bringt **Balance und Harmonie**, besonders in Beziehungen. Du bist nicht allein.</string>
+    <string name="digit_3_intro">✨ Die **\'3\'**%1$s aktiviert deine **Kreativität und Kommunikation**. Drücke dich aus, die geistige Welt hört zu.</string>
+    <string name="digit_4_intro">✨ Die **\'4\'**%1$s schafft ein **stabiles Fundament**. Diese Energie bringt Schutz und Struktur in dein Leben.</string>
+    <string name="digit_5_intro">✨ Die **\'5\'**%1$s signalisiert eine **Welle der Veränderung und Freiheit**. Sei offen für Abenteuer und das Sprengen alter Fesseln.</string>
+    <string name="digit_6_intro">✨ Die **\'6\'**%1$s fokussiert auf **Heilung für Herz und Heim**. Familie und Harmonie sind jetzt zentral.</string>
+    <string name="digit_7_intro">✨ Die **\'7\'**%1$s macht deine **Intuition zum wichtigsten Kompass**. Lausche nach innen, die Wahrheit liegt in dir.</string>
+    <string name="digit_8_intro">✨ Die **\'8\'**%1$s aktiviert die Energie der **Fülle und des Erfolgs**. Sei offen für materiellen und spirituellen Wohlstand.</string>
+    <string name="digit_9_intro">✨ Die **\'9\'**%1$s zeigt den **Abschluss eines wichtigen Zyklus** an. Lasse Altes los, um Platz für Neues zu schaffen.</string>
+
+    <!-- Spezifische Zusammenfassungen & Energieflüsse -->
+    <string name="summary_default">Deine Hauptbotschaft lautet: Höre auf deine innere Stimme, du wirst geführt.</string>
+    <string name="energy_flow_default">Klarheit → Vertrauen → Handlung</string>
+    <string name="summary_99_1">Ein sehr bedeutender karmischer Zyklus ist endgültig abgeschlossen. Dies schafft Raum für einen kraftvollen, göttlich geführten Neubeginn.</string>
+    <string name="energy_flow_99_1">Abschluss → Befreiung → Neubeginn</string>
+    <string name="summary_8_55">Eine massive, positive Veränderung (doppelte 5) bringt dich in deine Fülle und materielle Verbesserung (8). Ein Durchbruch ist nahe.</string>
+    <string name="energy_flow_8_55">Durchbruch → Freiheit → Stabilität</string>
+
+    <!-- Numerologie Spezialbedeutungen -->
+    <string name="numerology_unknown">Unbekannt</string>
+    <string name="master_number_11">(Meisterzahl: Intuition &amp; Erleuchtung)</string>
+    <string name="master_number_22">(Meisterzahl: Meisterbauer &amp; Manifestation)</string>
+    <string name="master_number_33">(Meisterzahl: Universelle Liebe &amp; Heilung)</string>
+    <string name="karmic_lesson_13">(Karmische Lektion: Disziplin &amp; Arbeit)</string>
+    <string name="karmic_lesson_14">(Karmische Lektion: Verantwortungsvolle Freiheit)</string>
+    <string name="karmic_lesson_16">(Karmische Lektion: Ego &amp; Wiederaufbau)</string>
+    <string name="karmic_lesson_19">(Karmische Lektion: Macht &amp; Unabhängigkeit)</string>
+
+    <!-- Numerologie Basis-Bedeutungen -->
+    <string name="numerology_1">Neubeginn &amp; Führung</string>
+    <string name="numerology_2">Harmonie &amp; Balance</string>
+    <string name="numerology_3">Kreativität &amp; Wachstum</string>
+    <string name="numerology_4">Stabilität &amp; Schutz</string>
+    <string name="numerology_5">Freiheit &amp; Wandel</string>
+    <string name="numerology_6">Liebe &amp; Harmonie</string>
+    <string name="numerology_7">Intuition &amp; Erwachen</string>
+    <string name="numerology_8">Erfolg &amp; Fülle</string>
+    <string name="numerology_9">Vollendung &amp; Weisheit</string>
+    <string name="numerology_11">Meister-Intuition</string>
+    <string name="numerology_22">Meister-Manifestierer</string>
+    <string name="numerology_33">Meister-Heiler</string>
+
+    <!-- Numerologie-Schlüsselwörter für Komponenten/Energiefluss -->
+    <string name="keyword_0">Quelle</string>
+    <string name="keyword_1">Neubeginn</string>
+    <string name="keyword_2">Balance</string>
+    <string name="keyword_3">Kreativität</string>
+    <string name="keyword_4">Stabilität</string>
+    <string name="keyword_5">Veränderung</string>
+    <string name="keyword_6">Harmonie</string>
+    <string name="keyword_7">Intuition</string>
+    <string name="keyword_8">Fülle</string>
+    <string name="keyword_9">Abschluss</string>
+</resources>
