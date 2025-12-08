@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Magiska Nummer</string>
+
+    <!-- UI Texts -->
+    <string name="new_message">Nytt Meddelande</string>
+    <string name="copy_message">Kopiera Meddelande</string>
+    <string name="clipboard_label">Magiskt Meddelande</string>
+    <string name="welcome_message">Klicka på \'Nytt Meddelande\' för att ta emot stundens rytm.</string>
+    <string name="message_for_the_moment">Meddelande för stunden: %1$s</string>
+    <string name="your_cross_sum_is">Din siffersumma är: %1$s</string>
+    <string name="digit_occurrence">(visas %1$dx, förstärkt)</string>
+
+    <!-- Section Headers -->
+    <string name="section_vibration">🧬 Siffrornas Vibration:</string>
+    <string name="section_your_message">💌 Ditt Meddelande:</string>
+    <string name="section_summary">✨ I korthet:</string>
+    <string name="section_energy">⚡️ Energi:</string>
+
+    <!-- Digit Message Templates -->
+    <string name="digit_0_intro">✨ **\'0\'**%1$s förstärker allt. Det är ett tecken på gudomlig närvaro och obegränsad potential.</string>
+    <string name="digit_1_intro">✨ **\'1\'**%1$s kallar dig till en **kraftfull ny början**. Dina tankar manifesteras snabbt nu.</string>
+    <string name="digit_2_intro">✨ **\'2\'**%1$s för med sig **balans och harmoni**, särskilt i relationer. Du är inte ensam.</string>
+    <string name="digit_3_intro">✨ **\'3\'**%1$s aktiverar din **kreativitet och kommunikation**. Uttryck dig, den andliga världen lyssnar.</string>
+    <string name="digit_4_intro">✨ **\'4\'**%1$s skapar en **stabil grund**. Denna energi för med sig skydd och struktur i ditt liv.</string>
+    <string name="digit_5_intro">✨ **\'5\'**%1$s signalerar en **våg av förändring och frihet**. Var öppen för äventyr och att bryta gamla bojor.</string>
+    <string name="digit_6_intro">✨ **\'6\'**%1$s fokuserar på **helande för hjärta och hem**. Familj och harmoni är nu centrala.</string>
+    <string name="digit_7_intro">✨ **\'7\'**%1$s gör din **intuition till den viktigaste kompassen**. Lyssna inåt, sanningen finns inom dig.</string>
+    <string name="digit_8_intro">✨ **\'8\'**%1$s aktiverar energin av **överflöd och framgång**. Var öppen för materiellt och andligt välstånd.</string>
+    <string name="digit_9_intro">✨ **\'9\'**%1$s indikerar **fullbordandet av en viktig cykel**. Släpp det gamla för att göra plats för det nya.</string>
+
+    <!-- Specific Summaries & Energy Flows -->
+    <string name="summary_default">Ditt huvudbudskap är: Lyssna på din inre röst, du blir vägledd.</string>
+    <string name="energy_flow_default">Klarhet → Förtroende → Handling</string>
+    <string name="summary_99_1">En mycket betydelsefull karmisk cykel är äntligen slutförd. Detta skapar utrymme för en kraftfull, gudomligt ledd ny början.</string>
+    <string name="energy_flow_99_1">Fullbordan → Befrielse → Ny Början</string>
+    <string name="summary_8_55">En massiv, positiv förändring (dubbel 5) för dig in i ditt överflöd och materiella förbättring (8). Ett genombrott är nära.</string>
+    <string name="energy_flow_8_55">Genombrott → Frihet → Stabilitet</string>
+
+    <!-- Numerology Special Meanings -->
+    <string name="numerology_unknown">Okänt</string>
+    <string name="master_number_11">(Mästertal: Intuition &amp; Upplysning)</string>
+    <string name="master_number_22">(Mästertal: Mästarbyggare &amp; Manifestation)</string>
+    <string name="master_number_33">(Mästertal: Universell Kärlek &amp; Helande)</string>
+    <string name="karmic_lesson_13">(Karmisk Lektion: Disciplin &amp; Arbete)</string>
+    <string name="karmic_lesson_14">(Karmisk Lektion: Ansvarsfull Frihet)</string>
+    <string name="karmic_lesson_16">(Karmisk Lektion: Ego &amp; Återuppbyggnad)</string>
+    <string name="karmic_lesson_19">(Karmisk Lektion: Makt &amp; Oberoende)</string>
+
+    <!-- Numerology Base Meanings -->
+    <string name="numerology_1">Nya starter &amp; Ledarskap</string>
+    <string name="numerology_2">Harmoni &amp; Balans</string>
+    <string name="numerology_3">Kreativitet &amp; Tillväxt</string>
+    <string name="numerology_4">Stabilitet &amp; Skydd</string>
+    <string name="numerology_5">Frihet &amp; Förändring</string>
+    <string name="numerology_6">Kärlek &amp; Harmoni</string>
+    <string name="numerology_7">Intuition &amp; Uppvaknande</string>
+    <string name="numerology_8">Framgång &amp; Överflöd</string>
+    <string name="numerology_9">Fullbordan &amp; Visdom</string>
+    <string name="numerology_11">Mästarintuition</string>
+    <string name="numerology_22">Mästarmanifesterare</string>
+    <string name="numerology_33">Mästarhelare</string>
+
+    <!-- Numerology Keywords for Components/Energy Flow -->
+    <string name="keyword_0">Källa</string>
+    <string name="keyword_1">Ny Början</string>
+    <string name="keyword_2">Balans</string>
+    <string name="keyword_3">Kreativitet</string>
+    <string name="keyword_4">Stabilitet</string>
+    <string name="keyword_5">Förändring</string>
+    <string name="keyword_6">Harmoni</string>
+    <string name="keyword_7">Intuition</string>
+    <string name="keyword_8">Överflöd</string>
+    <string name="keyword_9">Fullbordan</string>
+</resources>
