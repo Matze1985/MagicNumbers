@@ -16,9 +16,9 @@
 
 ## 📱 Screenshots
 
-| Welcome Screen                               | Message View                                 |
-| :-------------------------------------------: | :-----------------------------------------: |
-| <img src="art/screenshot_welcome.png" width="250"> | <img src="art/screenshot_message.png" width="250"> |
+|                   Welcome Screen                   |                    Message View                    |
+|:--------------------------------------------------:|:--------------------------------------------------:|
+| <img src="art/screenshot_welcome.jpg" width="250"> | <img src="art/screenshot_message.jpg" width="250"> |
 
 *(To display these images, create an `art` folder in the project's root directory and place your app's icon and screenshots there.)*
 
