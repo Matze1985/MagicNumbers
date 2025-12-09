@@ -196,8 +196,12 @@ fun MagicNumberApp() {
         remember { DetailedMessage() }
     }
     fun triggerGeneration() {
-        currentNumber = Random.nextInt(100_000, 1_000_000).toString()
+        val seed = System.currentTimeMillis()
+        val random = Random(seed) // Initialisiere den Zufallsgenerator mit diesem Samen.
+        // Generiere eine Zahl im gleichen Bereich wie zuvor, aber basierend auf dem Zeit-Samen.
+        currentNumber = random.nextInt(100_000, 1_000_000).toString()
     }
+
 
     val darkBackgroundColor = Color(0xFF1C1B1F)
     val cardBackgroundColor = Color(0xFF2E2C32)
