@@ -47,6 +47,11 @@
     <string name="karmic_lesson_14">(Karmische Lektion: Verantwortungsvolle Freiheit)</string>
     <string name="karmic_lesson_16">(Karmische Lektion: Ego &amp; Wiederaufbau)</string>
     <string name="karmic_lesson_19">(Karmische Lektion: Macht &amp; Unabhängigkeit)</string>
+    <string name="karmic_lesson_4">(Karmische Lektion: Stabilität &amp; Prozess)</string>
+    <string name="karmic_lesson_5">(Karmische Lektion: Angst vor Veränderung)</string>
+    <string name="karmic_lesson_6">(Karmische Lektion: Verantwortung &amp; Verpflichtung)</string>
+    <string name="karmic_lesson_8">(Karmische Lektion: Macht &amp; Geld)</string>
+
 
     <!-- Numerologie Basis-Bedeutungen -->
     <string name="numerology_1">Neubeginn &amp; Führung</string>
