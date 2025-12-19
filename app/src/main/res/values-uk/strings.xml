@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Магічні числа</string>
+    <string name="frequency_label">Частота</string>
     <string name="new_message">Нове повідомлення</string>
     <string name="copy_message">Копіювати</string>
     <string name="clipboard_label">Магічне повідомлення</string>

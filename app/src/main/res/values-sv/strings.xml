@@ -3,6 +3,9 @@
     <!-- App Name -->
     <string name="app_name">Magiska Nummer</string>
 
+    <!-- Frequency Label -->
+    <string name="frequency_label">Frekvens</string>
+
     <!-- UI Texts -->
     <string name="new_message">Nytt Meddelande</string>
     <string name="copy_message">Kopiera Meddelande</string>

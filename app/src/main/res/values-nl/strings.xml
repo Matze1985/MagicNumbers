@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Magische Getallen</string>
+    <string name="frequency_label">Frequentie</string>
     <string name="new_message">Nieuw Bericht</string>
     <string name="copy_message">Kopiëren</string>
     <string name="clipboard_label">Magisch Bericht</string>

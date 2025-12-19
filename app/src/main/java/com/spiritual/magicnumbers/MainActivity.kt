@@ -3,11 +3,14 @@ package com.spiritual.magicnumbers
 import android.content.ClipData
 import android.content.ClipboardManager
 import android.content.Context
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.SystemBarStyle
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -17,10 +20,10 @@ import androidx.compose.material.icons.filled.ContentCopy
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.setValue
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.platform.LocalContext
@@ -43,7 +46,8 @@ data class DetailedMessage(
     val components: List<Pair<Char, String>> = emptyList(),
     val message: String = "",
     val summary: String = "",
-    val energyFlow: String = ""
+    val energyFlow: String = "",
+    val frequencyScore: Float = 0f // Wert zwischen 0.0 und 1.0 für die Skala
 ) {
     fun asFormattedString(
         vibrationHeader: String, messageHeader: String, summaryHeader: String, energyHeader: String
@@ -84,6 +88,20 @@ class MainActivity : ComponentActivity() {
 
 // --- LOGIK-FUNKTIONEN ---
 
+// Berechnet Farbe für Frequenz-Balken (Rot -> Gelb -> Grün/Cyan)
+fun getFrequencyColor(percentage: Float): Color {
+    return when {
+        percentage < 0.5f -> {
+            val p = percentage * 2
+            Color(red = 1f, green = p, blue = 0f, alpha = 1f)
+        }
+        else -> {
+            val p = (percentage - 0.5f) * 2
+            Color(red = 1f - p, green = 1f, blue = p * 0.5f, alpha = 1f)
+        }
+    }
+}
+
 @Composable
 fun getKeywordForDigit(digit: Char): String {
     return when (digit) {
@@ -108,11 +126,25 @@ fun createDetailedMessage(number: String): DetailedMessage {
     val title = stringResource(R.string.message_for_the_moment, number)
     val subtitle = stringResource(R.string.your_cross_sum_is, quersummeBedeutung)
 
-    // Hier nutzen wir die Hilfsfunktion getKeywordForDigit
     val components = uniqueDigitsInOrder.map { digit -> digit to getKeywordForDigit(digit) }
 
     val digitCounts = number.groupingBy { it }.eachCount()
     val messageBuilder = StringBuilder()
+
+    // --- FREQUENZ BERECHNUNG ---
+    var scoreSum = 0.0
+    number.forEach { char -> scoreSum += char.digitToInt() }
+
+    // Durchschnittswert normalisieren (0 bis 9) -> (0.0 bis 1.0)
+    var normalizedScore = (scoreSum / number.length) / 9.0
+
+    // Boni für hohe Schwingungen (Meisterzahlen, Schnapszahlen)
+    if (number.contains("11") || number.contains("22") || number.contains("33")) normalizedScore += 0.15
+    if (number.contains("99") || number.contains("88") || number.contains("77")) normalizedScore += 0.1
+
+    // Begrenzen auf 0.1 bis 1.0
+    val finalFrequency = normalizedScore.coerceIn(0.1, 1.0).toFloat()
+    // ---------------------------
 
     uniqueDigitsInOrder.forEach { digit ->
         val count = digitCounts[digit] ?: 1
@@ -148,7 +180,7 @@ fun createDetailedMessage(number: String): DetailedMessage {
             energyFlow = stringResource(R.string.energy_flow_8_55)
         }
     }
-    return DetailedMessage(number, title, subtitle, components, messageBuilder.toString().trim(), summary, energyFlow)
+    return DetailedMessage(number, title, subtitle, components, messageBuilder.toString().trim(), summary, energyFlow, finalFrequency)
 }
 
 @Composable
@@ -159,7 +191,6 @@ fun getNumerologyMeaning(num: String): NumberMeaning {
     val sumBeforeReduce = clean.sumOf { it.digitToInt() }
     var s = sumBeforeReduce
 
-    // Wir sammeln jetzt alle speziellen Bedeutungen in einer Liste
     val specialMeanings = mutableListOf<String>()
 
     // Prüfung auf Meisterzahlen
@@ -169,7 +200,7 @@ fun getNumerologyMeaning(num: String): NumberMeaning {
         33 -> specialMeanings.add(stringResource(R.string.master_number_33))
     }
 
-    // Prüfung auf Karmische Lektionen
+    // Prüfung auf Karmische Lektionen (Alle inklusive 4, 5, 6, 8)
     when (sumBeforeReduce) {
         13 -> specialMeanings.add(stringResource(R.string.karmic_lesson_13))
         14 -> specialMeanings.add(stringResource(R.string.karmic_lesson_14))
@@ -181,7 +212,7 @@ fun getNumerologyMeaning(num: String): NumberMeaning {
         8 -> specialMeanings.add(stringResource(R.string.karmic_lesson_8))
     }
 
-    // Reduziere auf eine Ziffer (außer es ist eine Meisterzahl, die wir behalten wollen)
+    // Reduziere auf eine Ziffer (außer es ist eine Meisterzahl)
     if (sumBeforeReduce !in listOf(11, 22, 33)) {
         while (s > 9) {
             s = s.toString().sumOf { it.digitToInt() }
@@ -204,7 +235,6 @@ fun getNumerologyMeaning(num: String): NumberMeaning {
         else -> stringResource(id = R.string.numerology_unknown)
     }
 
-    // Baue den finalen String zusammen
     val finalString = if (specialMeanings.isNotEmpty()) {
         "$baseMeaning\n" + specialMeanings.joinToString("\n")
     } else {
@@ -215,12 +245,12 @@ fun getNumerologyMeaning(num: String): NumberMeaning {
 }
 
 /* -------------------------------------------------------------
-   UI (FINAL MIT NEUER STRUKTUR)
+   UI (FINAL MIT NEUER STRUKTUR UND FREQUENZ-BALKEN)
 ------------------------------------------------------------- */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun MagicNumberApp() {
-    var currentNumber by remember { mutableStateOf("") }
+    var currentNumber by rememberSaveable { mutableStateOf("") }
 
     val detailedMessage = if (currentNumber.isNotEmpty()) {
         createDetailedMessage(number = currentNumber)
@@ -247,7 +277,9 @@ fun MagicNumberApp() {
         bottomBar = {
             BottomAppBar(containerColor = darkBackgroundColor.copy(alpha = 0.95f), tonalElevation = 8.dp) {
                 Row(
-                    modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp),
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(horizontal = 16.dp),
                     horizontalArrangement = Arrangement.SpaceBetween,
                     verticalAlignment = Alignment.CenterVertically
                 ) {
@@ -261,6 +293,7 @@ fun MagicNumberApp() {
                         val clipboardLabel = stringResource(R.string.clipboard_label)
                         val copyMessageDescription = stringResource(R.string.copy_message)
 
+                        // 1. Der Copy-Button
                         IconButton(onClick = {
                             val clipboard = context.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
                             val clip = ClipData.newPlainText(
@@ -280,6 +313,18 @@ fun MagicNumberApp() {
                                 tint = secondaryTextColor
                             )
                         }
+
+                        // 2. NEU: Der Donate Button mit Handshake
+                        IconButton(onClick = {
+                            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://paypal.me/MathiasN"))
+                            context.startActivity(intent)
+                        }) {
+                            Text(
+                                text = "🤝",
+                                fontSize = 24.sp
+                            )
+                        }
+
                     } else {
                         Spacer(Modifier.size(48.dp))
                     }
@@ -334,7 +379,7 @@ fun MagicNumberApp() {
                     }
                 }
 
-                // KARTE 2: DETAILS
+                // KARTE 2: DETAILS MIT FREQUENZ
                 Card(
                     modifier = Modifier
                         .fillMaxWidth(cardWidth)
@@ -348,6 +393,57 @@ fun MagicNumberApp() {
                     ) {
                         // Sektion: Schwingung
                         Text(stringResource(R.string.section_vibration), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold, color = primaryTextColor)
+
+                        // --- FREQUENZ ZEILE (Kompakt) ---
+                        Row(
+                            modifier = Modifier.fillMaxWidth(),
+                            verticalAlignment = Alignment.CenterVertically,
+                            horizontalArrangement = Arrangement.spacedBy(12.dp) // Abstand zwischen Symbol und Balken
+                        ) {
+                            // 1. Das Symbol und Label
+                            Text("🌀", style = MaterialTheme.typography.bodyLarge)
+
+                            // 2. Der Balken und Prozentwert (nehmen den Rest des Platzes ein)
+                            Column(modifier = Modifier.weight(1f)) {
+                                Row(
+                                    modifier = Modifier.fillMaxWidth(),
+                                    horizontalArrangement = Arrangement.SpaceBetween
+                                ) {
+                                    // NEU (Übersetzt):
+                                    Text(stringResource(R.string.frequency_label), style = MaterialTheme.typography.bodySmall, color = secondaryTextColor)
+                                    val percentText = (detailedMessage.frequencyScore * 100).toInt()
+                                    Text("$percentText%", style = MaterialTheme.typography.bodySmall, color = getFrequencyColor(detailedMessage.frequencyScore))
+                                }
+
+                                Spacer(modifier = Modifier.height(4.dp))
+
+                                // Der Balken
+                                Box(
+                                    modifier = Modifier
+                                        .fillMaxWidth()
+                                        .height(8.dp)
+                                        .background(Color.Black.copy(alpha = 0.3f), RoundedCornerShape(4.dp))
+                                ) {
+                                    Box(
+                                        modifier = Modifier
+                                            .fillMaxWidth(detailedMessage.frequencyScore)
+                                            .fillMaxHeight()
+                                            .background(
+                                                brush = Brush.horizontalGradient(
+                                                    colors = listOf(
+                                                        Color(0xFFFF5252), // Rot
+                                                        Color(0xFFFFD740), // Gelb
+                                                        getFrequencyColor(detailedMessage.frequencyScore) // Ziel-Farbe
+                                                    )
+                                                ),
+                                                shape = RoundedCornerShape(4.dp)
+                                            )
+                                    )
+                                }
+                            }
+                        }
+                        // ---------------------------
+
                         Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
                             detailedMessage.components.forEach { (digit, meaning) ->
                                 Text(buildAnnotatedString {
@@ -392,4 +488,9 @@ fun MagicNumberApp() {
             }
         }
     }
+}
+
+@Composable
+fun StringResource(x0: Int) {
+    TODO("Not yet implemented")
 }

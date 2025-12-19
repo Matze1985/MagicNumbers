@@ -2,17 +2,53 @@
 
 ![App Icon](art/icon.png)
 
-**Discover the hidden meaning of the numbers around you.** "Magic Numbers" is a simple and beautiful numerology app for Android, built with Jetpack Compose and Kotlin. It generates random numbers and instantly provides a spiritual and numerological interpretation for the present moment.
+**Magic Numbers** is an ad-free, offline, and open-source Android app that generates spiritual numerology messages based on the "rhythm of the moment". It combines clean Material 3 design with mystical insights.
 
-## 🌟 Features
+## ✨ Features
 
--   **Instant Insights:** Get a personal message for the moment with a single tap.
--   **Detailed Analysis:** Understand the vibration of each individual digit within your number.
--   **Cross Sum Meaning:** Discover the overarching message, including interpretations for Master Numbers (11, 22, 33) and Karmic Lessons.
--   **Energy Flow:** See the energetic path your number suggests, guiding you from clarity to action.
--   **Modern UI:** A clean, beautiful user interface built with Material Design 3 in a dark theme.
--   **Multi-Language:** Fully supports English and German.
--   **100% Offline & Privacy-Focused:** The app requires no internet connection and collects absolutely no user data. Your privacy is guaranteed.
+*   **Rhythm of the Earth Generation**: The numbers are not just random; they are generated based on the exact millisecond of your interaction (`System.currentTimeMillis()`), capturing the unique energy of that specific moment.
+*   **Deep Numerology Analysis**:
+    *   Calculates the cross sum (digit sum) to find your core message.
+    *   Identifies **Master Numbers** (11, 22, 33).
+    *   Identifies **Karmic Lessons** based on special number constellations (13, 14, 16, 19, plus new insights for 4, 5, 6, 8).
+*   **Vibration Frequency Meter** 🌀: A visual bar indicates the energetic frequency of the generated number – from grounding (red/orange) to high spiritual vibration (green/cyan).
+*   **Detailed Interpretations**:
+    *   Individual meaning of every digit (0-9).
+    *   Special messages for repeating numbers (Angel Numbers like 111, 222).
+    *   Energy flow visualization (e.g., Clarity → Trust → Action).
+*   **Privacy First**:
+    *   100% Offline.
+    *   No tracking, no analytics, no ads.
+    *   No internet permission required (except for the optional donate link).
+*   **User Friendly**:
+    *   Modern Material 3 Design (Dark Mode).
+    *   Copy functionality for sharing messages.
+    *   **Donate Button** 🤝: Support the developer directly via PayPal.
+
+## 🛠 Technical Details
+
+*   **Language**: Kotlin
+*   **UI Framework**: Jetpack Compose (Material 3)
+*   **Architecture**: Single Activity, State Management via `rememberSaveable` (screen rotation support).
+*   **Minimum SDK**: 24 (Android 7.0)
+*   **Target SDK**: 35+
+*   **License**: MIT License
+
+## 🌍 Localization
+
+The app is fully translated into:
+*   🇬🇧 English
+*   🇩🇪 German
+*   🇨🇿 Czech
+*   🇪🇸 Spanish
+*   🇫🇷 French
+*   🇳🇱 Dutch
+*   🇳🇴 Norwegian
+*   🇵🇱 Polish
+*   🇵🇹 Portuguese
+*   🇷🇺 Russian
+*   🇸🇪 Swedish
+*   🇺🇦 Ukrainian
 
 ## 📱 Screenshots
 
@@ -43,7 +79,12 @@ You can download the app from the Google Play Store (link will be added here onc
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/matze1985/magicnumbers/issues).
+Contributions are welcome!
+1.  Fork the project.
+2.  Create your feature branch (`git checkout -b feature/AmazingFeature`).
+3.  Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+4.  Push to the branch (`git push origin feature/AmazingFeature`).
+5.  Open a Pull Request.
 
 ## 📜 License
 

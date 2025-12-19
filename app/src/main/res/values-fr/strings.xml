@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Nombres Magiques</string>
+    <string name="frequency_label">Fréquence</string>
     <string name="new_message">Nouveau Message</string>
     <string name="copy_message">Copier</string>
     <string name="clipboard_label">Message Magique</string>

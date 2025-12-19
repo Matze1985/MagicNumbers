@@ -3,6 +3,9 @@
     <!-- App Name -->
     <string name="app_name">Números Mágicos</string>
 
+    <!-- Frequency Label -->
+    <string name="frequency_label">Frequência</string>
+
     <!-- UI Texts -->
     <string name="new_message">Nova Mensagem</string>
     <string name="copy_message">Copiar Mensagem</string>

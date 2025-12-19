@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Magiske Tall</string>
+    <string name="frequency_label">Frekvens</string>
     <string name="new_message">Ny Melding</string>
     <string name="copy_message">Kopier</string>
     <string name="clipboard_label">Magisk Melding</string>
