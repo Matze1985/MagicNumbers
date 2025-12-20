@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Mágikus Számok</string>
+
+    <!-- UI Texte -->
+    <string name="new_message">Új Üzenet</string>
+    <string name="copy_message">Üzenet másolása</string>
+    <string name="clipboard_label">Mágikus Üzenet</string>
+    <string name="welcome_message">Kattints az \'Új Üzenet\' gombra, hogy megkapd a pillanat ritmusát.</string>
+    <string name="message_for_the_moment">A pillanat üzenete: %1$s</string>
+    <string name="your_cross_sum_is">A keresztösszeged: %1$s</string>
+    <string name="digit_occurrence">(%1$dx jelenik meg, felerősítve)</string>
+    <string name="frequency_label">Frekvencia</string>
+
+    <!-- Abschnittsüberschriften -->
+    <string name="section_vibration">🧬 A Számok Rezgése:</string>
+    <string name="section_your_message">💌 Üzeneted:</string>
+    <string name="section_summary">✨ Röviden:</string>
+    <string name="section_energy">⚡️ Energia:</string>
+
+    <!-- Ziffern-Nachrichten Templates -->
+    <string name="digit_0_intro">✨ A **\'0\'**%1$s mindent felerősít. Az isteni jelenlét és a korlátlan potenciál jele.</string>
+    <string name="digit_1_intro">✨ Az **\'1\'**%1$s **erőteljes új kezdetre** hív. Gondolataid most gyorsan manifesztálódnak.</string>
+    <string name="digit_2_intro">✨ A **\'2\'**%1$s **egyensúlyt és harmóniát** hoz, különösen a kapcsolatokban. Nem vagy egyedül.</string>
+    <string name="digit_3_intro">✨ A **\'3\'**%1$s aktiválja a **kreativitást és kommunikációt**. Fejezd ki magad, a szellemvilág figyel.</string>
+    <string name="digit_4_intro">✨ A **\'4\'**%1$s **stabil alapot** teremt. Ez az energia védelmet és struktúrát hoz az életedbe.</string>
+    <string name="digit_5_intro">✨ Az **\'5\'**%1$s a **változás és szabadság hullámát** jelzi. Légy nyitott a kalandra és a régi láncok feltörésére.</string>
+    <string name="digit_6_intro">✨ A **\'6\'**%1$s a **szív és az otthon gyógyítására** fókuszál. A család és a harmónia most központi szerepet játszik.</string>
+    <string name="digit_7_intro">✨ A **\'7\'**%1$s az **intuíciódat teszi a legfontosabb iránytűvé**. Figyelj befelé, az igazság benned rejlik.</string>
+    <string name="digit_8_intro">✨ A **\'8\'**%1$s a **bőség és siker** energiáját aktiválja. Légy nyitott az anyagi és szellemi gyarapodásra.</string>
+    <string name="digit_9_intro">✨ A **\'9\'**%1$s egy **fontos ciklus lezárását** jelzi. Engedd el a régit, hogy helyet adj az újnak.</string>
+
+    <!-- Spezielle Zusammenfassungen & Energiefluss -->
+    <string name="summary_default">A fő üzeneted: Hallgass a belső hangodra, vezetve vagy.</string>
+    <string name="energy_flow_default">Tisztánlátás → Bizalom → Cselekvés</string>
+    <string name="summary_99_1">Egy nagyon jelentős karmikus ciklus végre lezárult. Ez teret teremt egy erőteljes, istenileg vezetett új kezdethez.</string>
+    <string name="energy_flow_99_1">Lezárás → Felszabadulás → Új Kezdet</string>
+    <string name="summary_8_55">Egy masszív, pozitív változás (dupla 5) elhozza a bőséget és anyagi javulást (8). Az áttörés közel van.</string>
+    <string name="energy_flow_8_55">Áttörés → Szabadság → Stabilitás</string>
+
+    <!-- Numerologie Spezielle Bedeutungen -->
+    <string name="numerology_unknown">Ismeretlen</string>
+    <string name="master_number_11">(Mester Szám: Intuíció és Megvilágosodás)</string>
+    <string name="master_number_22">(Mester Szám: Mesterépítő és Manifesztáció)</string>
+    <string name="master_number_33">(Mester Szám: Univerzális Szeretet és Gyógyítás)</string>
+    <string name="karmic_lesson_13">(Karmikus Lecke: Fegyelem és Munka)</string>
+    <string name="karmic_lesson_14">(Karmikus Lecke: Felelősségteljes Szabadság)</string>
+    <string name="karmic_lesson_16">(Karmikus Lecke: Egó és Újjáépítés)</string>
+    <string name="karmic_lesson_19">(Karmikus Lecke: Hatalom és Függetlenség)</string>
+    <!-- Neue Karmische Lektionen -->
+    <string name="karmic_lesson_4">(Karmikus Lecke: Stabilitás és Folyamat)</string>
+    <string name="karmic_lesson_5">(Karmikus Lecke: Félelem a változástól)</string>
+    <string name="karmic_lesson_6">(Karmikus Lecke: Felelősség és Elkötelezettség)</string>
+    <string name="karmic_lesson_8">(Karmikus Lecke: Hatalom és Pénz)</string>
+
+    <!-- Numerologie Basis Bedeutungen -->
+    <string name="numerology_1">Új Kezdetek és Vezetés</string>
+    <string name="numerology_2">Harmónia és Egyensúly</string>
+    <string name="numerology_3">Kreativitás és Növekedés</string>
+    <string name="numerology_4">Stabilitás és Védelem</string>
+    <string name="numerology_5">Szabadság és Változás</string>
+    <string name="numerology_6">Szeretet és Harmónia</string>
+    <string name="numerology_7">Intuíció és Ébredés</string>
+    <string name="numerology_8">Siker és Bőség</string>
+    <string name="numerology_9">Lezárás és Bölcsesség</string>
+    <string name="numerology_11">Mesteri Intuíció</string>
+    <string name="numerology_22">Mesteri Manifesztáló</string>
+    <string name="numerology_33">Mesteri Gyógyító</string>
+
+    <!-- Numerologie Keywords -->
+    <string name="keyword_0">Forrás</string>
+    <string name="keyword_1">Új Kezdet</string>
+    <string name="keyword_2">Egyensúly</string>
+    <string name="keyword_3">Kreativitás</string>
+    <string name="keyword_4">Stabilitás</string>
+    <string name="keyword_5">Változás</string>
+    <string name="keyword_6">Harmónia</string>
+    <string name="keyword_7">Intuíció</string>
+    <string name="keyword_8">Bőség</string>
+    <string name="keyword_9">Lezárás</string>
+</resources>

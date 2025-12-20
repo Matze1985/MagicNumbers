@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Magična Števila</string>
+
+    <!-- UI Texte -->
+    <string name="new_message">Novo Sporočilo</string>
+    <string name="copy_message">Kopiraj sporočilo</string>
+    <string name="clipboard_label">Magično Sporočilo</string>
+    <string name="welcome_message">Klikni na \'Novo Sporočilo\', da ujameš ritem trenutka.</string>
+    <string name="message_for_the_moment">Sporočilo trenutka: %1$s</string>
+    <string name="your_cross_sum_is">Tvoja numerološka vsota: %1$s</string>
+    <string name="digit_occurrence">(pojavi se %1$d-krat, ojačano)</string>
+    <string name="frequency_label">Frekvenca</string>
+
+    <!-- Abschnittsüberschriften -->
+    <string name="section_vibration">🧬 Vibracija Števil:</string>
+    <string name="section_your_message">💌 Tvoje Sporočilo:</string>
+    <string name="section_summary">✨ Na kratko:</string>
+    <string name="section_energy">⚡️ Energija:</string>
+
+    <!-- Ziffern-Nachrichten Templates -->
+    <string name="digit_0_intro">✨ **\'0\'**%1$s ojača vse. Je znak božanske prisotnosti in neomejenega potenciala.</string>
+    <string name="digit_1_intro">✨ **\'1\'**%1$s vabi k **močnemu novemu začetku**. Tvoje misli se hitro manifestirajo.</string>
+    <string name="digit_2_intro">✨ **\'2\'**%1$s prinaša **ravnovesje in harmonijo**, zlasti v odnosih. Nisi sam.</string>
+    <string name="digit_3_intro">✨ **\'3\'**%1$s aktivira **ustvarjalnost in komunikacijo**. Izrazi se, duhovni svet posluša.</string>
+    <string name="digit_4_intro">✨ **\'4\'**%1$s ustvarja **stabilen temelj**. Ta energija prinaša zaščito in red v tvoje življenje.</string>
+    <string name="digit_5_intro">✨ **\'5\'**%1$s nakazuje val **sprememb in svobode**. Bodi odprt za pustolovščine.</string>
+    <string name="digit_6_intro">✨ **\'6\'**%1$s se osredotoča na **zdravljenje srca in doma**. Družina in harmonija sta zdaj v središču.</string>
+    <string name="digit_7_intro">✨ **\'7\'**%1$s naredi tvojo **intuicijo za najpomembnejši kompas**. Poglej vase, odgovori so tam.</string>
+    <string name="digit_8_intro">✨ **\'8\'**%1$s aktivira energijo **obilja in uspeha**. Odpri se materialni in duhovni rasti.</string>
+    <string name="digit_9_intro">✨ **\'9\'**%1$s označuje **zaključek pomembnega cikla**. Opusti staro, da narediš prostor za novo.</string>
+
+    <!-- Spezielle Zusammenfassungen & Energiefluss -->
+    <string name="summary_default">Tvoje glavno sporočilo: Poslušaj svoj notranji glas, voden si.</string>
+    <string name="energy_flow_default">Jasnost → Zaupanje → Akcija</string>
+    <string name="summary_99_1">Zelo pomemben karmični cikel se je končal. To ustvarja prostor za močan nov začetek pod božanskim vodstvom.</string>
+    <string name="energy_flow_99_1">Zaključek → Osvoboditev → Nov Začetek</string>
+    <string name="summary_8_55">Velika pozitivna sprememba (dvojna 5) prinaša obilje in materialno izboljšanje (8). Preboj je blizu.</string>
+    <string name="energy_flow_8_55">Preboj → Svoboda → Stabilnost</string>
+
+    <!-- Numerologie Spezielle Bedeutungen -->
+    <string name="numerology_unknown">Neznano</string>
+    <string name="master_number_11">(Mojstrsko Število: Intuicija in Razsvetljenje)</string>
+    <string name="master_number_22">(Mojstrsko Število: Mojster Graditelj in Manifestacija)</string>
+    <string name="master_number_33">(Mojstrsko Število: Univerzalna Ljubezen in Zdravljenje)</string>
+    <string name="karmic_lesson_13">(Karmična Lekcija: Disciplina in Delo)</string>
+    <string name="karmic_lesson_14">(Karmična Lekcija: Odgovorna Svoboda)</string>
+    <string name="karmic_lesson_16">(Karmična Lekcija: Ego in Prenova)</string>
+    <string name="karmic_lesson_19">(Karmična Lekcija: Moč in Neodvisnost)</string>
+    <!-- Neue Karmische Lektionen -->
+    <string name="karmic_lesson_4">(Karmična Lekcija: Stabilnost in Proces)</string>
+    <string name="karmic_lesson_5">(Karmična Lekcija: Strah pred Spremembo)</string>
+    <string name="karmic_lesson_6">(Karmična Lekcija: Odgovornost in Zavezanost)</string>
+    <string name="karmic_lesson_8">(Karmična Lekcija: Moč in Denar)</string>
+
+    <!-- Numerologie Basis Bedeutungen -->
+    <string name="numerology_1">Novi Začetki in Vodstvo</string>
+    <string name="numerology_2">Harmonija in Ravnovesje</string>
+    <string name="numerology_3">Ustvarjalnost in Rast</string>
+    <string name="numerology_4">Stabilnost in Zaščita</string>
+    <string name="numerology_5">Svoboda in Sprememba</string>
+    <string name="numerology_6">Ljubezen in Harmonija</string>
+    <string name="numerology_7">Intuicija in Prebujenje</string>
+    <string name="numerology_8">Uspeh in Obilje</string>
+    <string name="numerology_9">Zaključek in Modrost</string>
+    <string name="numerology_11">Mojstrska Intuicija</string>
+    <string name="numerology_22">Mojster Manifestator</string>
+    <string name="numerology_33">Mojster Zdravilec</string>
+
+    <!-- Numerologie Keywords -->
+    <string name="keyword_0">Vir</string>
+    <string name="keyword_1">Nov Začetek</string>
+    <string name="keyword_2">Ravnovesje</string>
+    <string name="keyword_3">Ustvarjalnost</string>
+    <string name="keyword_4">Stabilnost</string>
+    <string name="keyword_5">Sprememba</string>
+    <string name="keyword_6">Harmonija</string>
+    <string name="keyword_7">Intuicija</string>
+    <string name="keyword_8">Obilje</string>
+    <string name="keyword_9">Zaključek</string>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">الأرقام السحرية</string>
+    <string name="new_message">رسالة جديدة</string>
+    <string name="copy_message">نسخ الرسالة</string>
+    <string name="clipboard_label">رسالة سحرية</string>
+    <string name="welcome_message">اضغط على "رسالة جديدة" لاستقبال إيقاع اللحظة.</string>
+    <string name="message_for_the_moment">رسالة اللحظة: %1$s</string>
+    <string name="your_cross_sum_is">مجموع أرقامك: %1$s</string>
+    <string name="digit_occurrence">(يظهر %1$d مرات، مضخم)</string>
+    <string name="frequency_label">التردد</string>
+
+    <string name="section_vibration">🧬 ذبذبات الأرقام:</string>
+    <string name="section_your_message">💌 رسالتك:</string>
+    <string name="section_summary">✨ الخلاصة:</string>
+    <string name="section_energy">⚡️ تدفق الطاقة:</string>
+
+    <string name="digit_0_intro">✨ **\'0\'**%1$s يضخم كل شيء. إنه علامة على الحضور الإلهي والإمكانات اللامحدودة.</string>
+    <string name="digit_1_intro">✨ **\'1\'**%1$s يدعو إلى **بداية جديدة قوية**. أفكارك تتجسد بسرعة.</string>
+    <string name="digit_2_intro">✨ **\'2\'**%1$s يجلب **التوازن والانسجام**، خاصة في العلاقات. أنت لست وحدك.</string>
+    <string name="digit_3_intro">✨ **\'3\'**%1$s ينشط **الإبداع والتواصل**. عبّر عن نفسك، العالم الروحي يستمع.</string>
+    <string name="digit_4_intro">✨ **\'4\'**%1$s يبني **أساساً مستقراً**. تجلب هذه الطاقة الحماية والنظام إلى حياتك.</string>
+    <string name="digit_5_intro">✨ **\'5\'**%1$s يشير إلى موجة من **التغيير والحرية**. كن منفتحاً للمغامرة.</string>
+    <string name="digit_6_intro">✨ **\'6\'**%1$s يركز على **شفاء القلب والمنزل**. العائلة والانسجام هما المركز الآن.</string>
+    <string name="digit_7_intro">✨ **\'7\'**%1$s يجعل **حدسك أهم بوصلة**. انظر إلى الداخل، الإجابات هناك.</string>
+    <string name="digit_8_intro">✨ **\'8\'**%1$s ينشط طاقة **الوفرة والنجاح**. افتح نفسك للنمو المادي والروحي.</string>
+    <string name="digit_9_intro">✨ **\'9\'**%1$s يشير إلى **اكتمال دورة مهمة**. اترك القديم لتفسح المجال للجديد.</string>
+
+    <string name="summary_default">رسالتك الأساسية: استمع إلى صوتك الداخلي، أنت مُوجّه.</string>
+    <string name="energy_flow_default">وضوح ← ثقة ← عمل</string>
+    <string name="summary_99_1">انتهت دورة كرمية مهمة جداً. هذا يخلق مساحة لبداية جديدة قوية بتوجيه إلهي.</string>
+    <string name="energy_flow_99_1">اكتمال ← تحرر ← بداية جديدة</string>
+    <string name="summary_8_55">تغيير إيجابي هائل (5 مزدوج) يجلب الوفرة والتحسن المادي (8). الانفراج قريب.</string>
+    <string name="energy_flow_8_55">انفراج ← حرية ← استقرار</string>
+
+    <string name="numerology_unknown">غير معروف</string>
+    <string name="master_number_11">(رقم ماستر: الحدس والتنوير)</string>
+    <string name="master_number_22">(رقم ماستر: البناء العظيم والتجسيد)</string>
+    <string name="master_number_33">(رقم ماستر: الحب الكوني والشفاء)</string>
+    <string name="karmic_lesson_13">(درس كرمي: الانضباط والعمل)</string>
+    <string name="karmic_lesson_14">(درس كرمي: الحرية المسؤولة)</string>
+    <string name="karmic_lesson_16">(درس كرمي: الأنا وإعادة البناء)</string>
+    <string name="karmic_lesson_19">(درس كرمي: القوة والاستقلال)</string>
+    <string name="karmic_lesson_4">(درس كرمي: الاستقرار والعملية)</string>
+    <string name="karmic_lesson_5">(درس كرمي: الخوف من التغيير)</string>
+    <string name="karmic_lesson_6">(درس كرمي: المسؤولية والالتزام)</string>
+    <string name="karmic_lesson_8">(درس كرمي: السلطة والمال)</string>
+
+    <string name="numerology_1">بدايات جديدة وقيادة</string>
+    <string name="numerology_2">انسجام وتوازن</string>
+    <string name="numerology_3">إبداع ونمو</string>
+    <string name="numerology_4">استقرار وحماية</string>
+    <string name="numerology_5">حرية وتغيير</string>
+    <string name="numerology_6">حب وانسجام</string>
+    <string name="numerology_7">حدس وصحوة</string>
+    <string name="numerology_8">نجاح ووفرة</string>
+    <string name="numerology_9">اكتمال وحكمة</string>
+    <string name="numerology_11">حدس ماستر</string>
+    <string name="numerology_22">مُجسد ماستر</string>
+    <string name="numerology_33">شافي ماستر</string>
+
+    <string name="keyword_0">المصدر</string>
+    <string name="keyword_1">بداية جديدة</string>
+    <string name="keyword_2">توازن</string>
+    <string name="keyword_3">إبداع</string>
+    <string name="keyword_4">استقرار</string>
+    <string name="keyword_5">تغيير</string>
+    <string name="keyword_6">انسجام</string>
+    <string name="keyword_7">حدس</string>
+    <string name="keyword_8">وفرة</string>
+    <string name="keyword_9">اكتمال</string>
+</resources>

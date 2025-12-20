@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Maģiskie Skaitļi</string>
+
+    <!-- UI Texte -->
+    <string name="new_message">Jauna Ziņa</string>
+    <string name="copy_message">Kopēt ziņu</string>
+    <string name="clipboard_label">Maģiska Ziņa</string>
+    <string name="welcome_message">Pieskarieties \'Jauna Ziņa\', lai uztvertu mirkļa ritmu.</string>
+    <string name="message_for_the_moment">Mirkļa ziņa: %1$s</string>
+    <string name="your_cross_sum_is">Tavs ciparu summa: %1$s</string>
+    <string name="digit_occurrence">(parādās %1$d reizes, pastiprināts)</string>
+    <string name="frequency_label">Frekvence</string>
+
+    <!-- Abschnittsüberschriften -->
+    <string name="section_vibration">🧬 Skaitļu Vibrācija:</string>
+    <string name="section_your_message">💌 Tava Ziņa:</string>
+    <string name="section_summary">✨ Īsumā:</string>
+    <string name="section_energy">⚡️ Enerģija:</string>
+
+    <!-- Ziffern-Nachrichten Templates -->
+    <string name="digit_0_intro">✨ **\'0\'**%1$s pastiprina visu. Tā ir dievišķās klātbūtnes un neierobežota potenciāla zīme.</string>
+    <string name="digit_1_intro">✨ **\'1\'**%1$s aicina uz **spēcīgu jaunu sākumu**. Tavas domas ātri materializējas.</string>
+    <string name="digit_2_intro">✨ **\'2\'**%1$s nes **līdzsvaru un harmoniju**, īpaši attiecībās. Tu neesi viens.</string>
+    <string name="digit_3_intro">✨ **\'3\'**%1$s aktivizē **radošumu un komunikāciju**. Izpaud sevi, garīgā pasaule klausās.</string>
+    <string name="digit_4_intro">✨ **\'4\'**%1$s veido **stabilu pamatu**. Šī enerģija ienes tavā dzīvē aizsardzību un kārtību.</string>
+    <string name="digit_5_intro">✨ **\'5\'**%1$s signalizē par **pārmaiņu un brīvības** vilni. Esi atvērts piedzīvojumiem.</string>
+    <string name="digit_6_intro">✨ **\'6\'**%1$s koncentrējas uz **sirds un māju dziedināšanu**. Ģimene un harmonija tagad ir centrā.</string>
+    <string name="digit_7_intro">✨ **\'7\'**%1$s padara tavu **intuīciju par svarīgāko kompasu**. Skaties iekšup, atbildes ir tur.</string>
+    <string name="digit_8_intro">✨ **\'8\'**%1$s aktivizē **pārpilnības un panākumu** enerģiju. Atveries materiālai un garīgai izaugsmei.</string>
+    <string name="digit_9_intro">✨ **\'9\'**%1$s norāda uz **svarīga cikla noslēgumu**. Atlaid veco, lai dotu vietu jaunajam.</string>
+
+    <!-- Spezielle Zusammenfassungen & Energiefluss -->
+    <string name="summary_default">Tava galvenā ziņa: Klausies savā iekšējā balsī, tu tiec vadīts.</string>
+    <string name="energy_flow_default">Skaidrība → Uzticēšanās → Rīcība</string>
+    <string name="summary_99_1">Ļoti nozīmīgs karmiskais cikls ir noslēdzies. Tas rada telpu spēcīgam jaunam sākumam dievišķā vadībā.</string>
+    <string name="energy_flow_99_1">Noslēgums → Atbrīvošanās → Jauns Sākums</string>
+    <string name="summary_8_55">Masīvas pozitīvas pārmaiņas (dubultais 5) nes pārpilnību un materiālu uzlabošanos (8). Izrāviens ir tuvu.</string>
+    <string name="energy_flow_8_55">Izrāviens → Brīvība → Stabilitāte</string>
+
+    <!-- Numerologie Spezielle Bedeutungen -->
+    <string name="numerology_unknown">Nezināms</string>
+    <string name="master_number_11">(Meistara Skaitlis: Intuīcija un Apgaismība)</string>
+    <string name="master_number_22">(Meistara Skaitlis: Meistars Būvnieks un Manifestācija)</string>
+    <string name="master_number_33">(Meistara Skaitlis: Universāla Mīlestība un Dziedināšana)</string>
+    <string name="karmic_lesson_13">(Karmiskā Mācība: Disciplīna un Darbs)</string>
+    <string name="karmic_lesson_14">(Karmiskā Mācība: Atbildīga Brīvība)</string>
+    <string name="karmic_lesson_16">(Karmiskā Mācība: Ego un Atjaunošana)</string>
+    <string name="karmic_lesson_19">(Karmiskā Mācība: Vara un Neatkarība)</string>
+    <!-- Neue Karmische Lektionen -->
+    <string name="karmic_lesson_4">(Karmiskā Mācība: Stabilitāte un Process)</string>
+    <string name="karmic_lesson_5">(Karmiskā Mācība: Bailes no Pārmaiņām)</string>
+    <string name="karmic_lesson_6">(Karmiskā Mācība: Atbildība un Saistības)</string>
+    <string name="karmic_lesson_8">(Karmiskā Mācība: Vara un Nauda)</string>
+
+    <!-- Numerologie Basis Bedeutungen -->
+    <string name="numerology_1">Jauni Sākumi un Līderība</string>
+    <string name="numerology_2">Harmonija un Līdzsvars</string>
+    <string name="numerology_3">Radošums un Izaugsme</string>
+    <string name="numerology_4">Stabilitāte un Aizsardzība</string>
+    <string name="numerology_5">Brīvība un Pārmaiņas</string>
+    <string name="numerology_6">Mīlestība un Harmonija</string>
+    <string name="numerology_7">Intuīcija un Atmoda</string>
+    <string name="numerology_8">Panākumi un Pārpilnība</string>
+    <string name="numerology_9">Noslēgums un Gudrība</string>
+    <string name="numerology_11">Meistara Intuīcija</string>
+    <string name="numerology_22">Meistars Manifestētājs</string>
+    <string name="numerology_33">Meistars Dziednieks</string>
+
+    <!-- Numerologie Keywords -->
+    <string name="keyword_0">Avots</string>
+    <string name="keyword_1">Jauns Sākums</string>
+    <string name="keyword_2">Līdzsvars</string>
+    <string name="keyword_3">Radošums</string>
+    <string name="keyword_4">Stabilitāte</string>
+    <string name="keyword_5">Pārmaiņas</string>
+    <string name="keyword_6">Harmonija</string>
+    <string name="keyword_7">Intuīcija</string>
+    <string name="keyword_8">Pārpilnība</string>
+    <string name="keyword_9">Noslēgums</string>
+</resources>

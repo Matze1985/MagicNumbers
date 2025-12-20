@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Magiški Skaičiai</string>
+
+    <!-- UI Texte -->
+    <string name="new_message">Nauja Žinutė</string>
+    <string name="copy_message">Kopijuoti žinutę</string>
+    <string name="clipboard_label">Magiška Žinutė</string>
+    <string name="welcome_message">Paspauskite \'Nauja Žinutė\', kad pagautumėte akimirkos ritmą.</string>
+    <string name="message_for_the_moment">Akimirkos žinutė: %1$s</string>
+    <string name="your_cross_sum_is">Jūsų skaitmenų suma: %1$s</string>
+    <string name="digit_occurrence">(pasirodo %1$d k., sustiprinta)</string>
+    <string name="frequency_label">Dažnis</string>
+
+    <!-- Abschnittsüberschriften -->
+    <string name="section_vibration">🧬 Skaičių Vibracija:</string>
+    <string name="section_your_message">💌 Jūsų Žinutė:</string>
+    <string name="section_summary">✨ Santrauka:</string>
+    <string name="section_energy">⚡️ Energija:</string>
+
+    <!-- Ziffern-Nachrichten Templates -->
+    <string name="digit_0_intro">✨ **\'0\'**%1$s viską sustiprina. Tai dieviškojo buvimo ir neriboto potencialo ženklas.</string>
+    <string name="digit_1_intro">✨ **\'1\'**%1$s kviečia į **galingą naują pradžią**. Jūsų mintys greitai materializuojasi.</string>
+    <string name="digit_2_intro">✨ **\'2\'**%1$s atneša **pusiausvyrą ir harmoniją**, ypač santykiuose. Jūs nesate vienas.</string>
+    <string name="digit_3_intro">✨ **\'3\'**%1$s aktyvuoja **kūrybiškumą ir bendravimą**. Išreikškite save, dvasinis pasaulis klausosi.</string>
+    <string name="digit_4_intro">✨ **\'4\'**%1$s sukuria **stabilų pagrindą**. Ši energija atneša apsaugą ir tvarką į jūsų gyvenimą.</string>
+    <string name="digit_5_intro">✨ **\'5\'**%1$s signalizuoja **pokyčių ir laisvės** bangą. Būkite atviri nuotykiams.</string>
+    <string name="digit_6_intro">✨ **\'6\'**%1$s fokusuojasi į **širdies ir namų gydymą**. Šeima ir harmonija dabar yra centre.</string>
+    <string name="digit_7_intro">✨ **\'7\'**%1$s paverčia jūsų **intuiciją svarbiausiu kompasu**. Žvelkite į vidų, atsakymai yra ten.</string>
+    <string name="digit_8_intro">✨ **\'8\'**%1$s aktyvuoja **gausos ir sėkmės** energiją. Atsiverkite materialiniam ir dvasiniam augimui.</string>
+    <string name="digit_9_intro">✨ **\'9\'**%1$s rodo **svarbaus ciklo pabaigą**. Paleiskite tai, kas sena, kad atsirastų vietos naujam.</string>
+
+    <!-- Spezielle Zusammenfassungen & Energiefluss -->
+    <string name="summary_default">Jūsų pagrindinė žinutė: Klausykite savo vidinio balso, esate vedami.</string>
+    <string name="energy_flow_default">Aiškumas → Pasitikėjimas → Veiksmas</string>
+    <string name="summary_99_1">Labai reikšmingas karminis ciklas baigėsi. Tai sukuria erdvę galingai naujai pradžiai su dieviškuoju vedimu.</string>
+    <string name="energy_flow_99_1">Pabaiga → Išsilaisvinimas → Nauja Pradžia</string>
+    <string name="summary_8_55">Masinis teigiamas pokytis (dvigubas 5) atneša gausą ir materialinį pagerėjimą (8). Proveržis yra arti.</string>
+    <string name="energy_flow_8_55">Proveržis → Laisvė → Stabilumas</string>
+
+    <!-- Numerologie Spezielle Bedeutungen -->
+    <string name="numerology_unknown">Nežinoma</string>
+    <string name="master_number_11">(Meistriškas Skaičius: Intuicija ir Nušvitimas)</string>
+    <string name="master_number_22">(Meistriškas Skaičius: Meistras Statytojas ir Manifestacija)</string>
+    <string name="master_number_33">(Meistriškas Skaičius: Universali Meilė ir Gydymas)</string>
+    <string name="karmic_lesson_13">(Karminė Pamoka: Disciplina ir Darbas)</string>
+    <string name="karmic_lesson_14">(Karminė Pamoka: Atsakinga Laisvė)</string>
+    <string name="karmic_lesson_16">(Karminė Pamoka: Ego ir Atstatymas)</string>
+    <string name="karmic_lesson_19">(Karminė Pamoka: Galia ir Nepriklausomybė)</string>
+    <!-- Neue Karmische Lektionen -->
+    <string name="karmic_lesson_4">(Karminė Pamoka: Stabilumas ir Procesas)</string>
+    <string name="karmic_lesson_5">(Karminė Pamoka: Pokyčių Baimė)</string>
+    <string name="karmic_lesson_6">(Karminė Pamoka: Atsakomybė ir Įsipareigojimas)</string>
+    <string name="karmic_lesson_8">(Karminė Pamoka: Galia ir Pinigai)</string>
+
+    <!-- Numerologie Basis Bedeutungen -->
+    <string name="numerology_1">Nauja Pradžia ir Lyderystė</string>
+    <string name="numerology_2">Harmonija ir Pusiausvyra</string>
+    <string name="numerology_3">Kūrybiškumas ir Augimas</string>
+    <string name="numerology_4">Stabilumas ir Apsauga</string>
+    <string name="numerology_5">Laisvė ir Pokyčiai</string>
+    <string name="numerology_6">Meilė ir Harmonija</string>
+    <string name="numerology_7">Intuicija ir Pabudimas</string>
+    <string name="numerology_8">Sėkmė ir Gausa</string>
+    <string name="numerology_9">Pabaiga ir Išmintis</string>
+    <string name="numerology_11">Meistriška Intuicija</string>
+    <string name="numerology_22">Meistras Manifestuotojas</string>
+    <string name="numerology_33">Meistras Gydytojas</string>
+
+    <!-- Numerologie Keywords -->
+    <string name="keyword_0">Šaltinis</string>
+    <string name="keyword_1">Nauja Pradžia</string>
+    <string name="keyword_2">Pusiausvyra</string>
+    <string name="keyword_3">Kūrybiškumas</string>
+    <string name="keyword_4">Stabilumas</string>
+    <string name="keyword_5">Pokyčiai</string>
+    <string name="keyword_6">Harmonija</string>
+    <string name="keyword_7">Intuicija</string>
+    <string name="keyword_8">Gausa</string>
+    <string name="keyword_9">Pabaiga</string>
+</resources>

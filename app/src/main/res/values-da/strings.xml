@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Magiske Tal</string>
+
+    <!-- UI Texte -->
+    <string name="new_message">Ny Besked</string>
+    <string name="copy_message">Kopiér besked</string>
+    <string name="clipboard_label">Magisk Besked</string>
+    <string name="welcome_message">Tryk på \'Ny Besked\' for at modtage øjeblikkets rytme.</string>
+    <string name="message_for_the_moment">Øjeblikkets besked: %1$s</string>
+    <string name="your_cross_sum_is">Din tværsum er: %1$s</string>
+    <string name="digit_occurrence">(optræder %1$dx, forstærket)</string>
+    <string name="frequency_label">Frekvens</string>
+
+    <!-- Abschnittsüberschriften -->
+    <string name="section_vibration">🧬 Tallenes Vibration:</string>
+    <string name="section_your_message">💌 Din Besked:</string>
+    <string name="section_summary">✨ Kort fortalt:</string>
+    <string name="section_energy">⚡️ Energi:</string>
+
+    <!-- Ziffern-Nachrichten Templates -->
+    <string name="digit_0_intro">✨ **\'0\'**%1$s forstærker alt. Det er et tegn på guddommelig tilstedeværelse og ubegrænset potentiale.</string>
+    <string name="digit_1_intro">✨ **\'1\'**%1$s inviterer til en **kraftfuld ny begyndelse**. Dine tanker manifesterer sig hurtigt.</string>
+    <string name="digit_2_intro">✨ **\'2\'**%1$s bringer **balance og harmoni**, især i relationer. Du er ikke alene.</string>
+    <string name="digit_3_intro">✨ **\'3\'**%1$s aktiverer **kreativitet og kommunikation**. Udtryk dig selv, åndeverdenen lytter.</string>
+    <string name="digit_4_intro">✨ **\'4\'**%1$s skaber et **stabilt fundament**. Denne energi bringer beskyttelse og orden i dit liv.</string>
+    <string name="digit_5_intro">✨ **\'5\'**%1$s signalerer en bølge af **forandring og frihed**. Vær åben for eventyr.</string>
+    <string name="digit_6_intro">✨ **\'6\'**%1$s fokuserer på **healing af hjertet og hjemmet**. Familie og harmoni er centrale nu.</string>
+    <string name="digit_7_intro">✨ **\'7\'**%1$s gør din **intuition til det vigtigste kompas**. Kig indad, svarene er der.</string>
+    <string name="digit_8_intro">✨ **\'8\'**%1$s aktiverer energien for **overflod og succes**. Åbn dig selv for materiel og åndelig vækst.</string>
+    <string name="digit_9_intro">✨ **\'9\'**%1$s indikerer **afslutningen på en vigtig cyklus**. Giv slip på det gamle for at give plads til det nye.</string>
+
+    <!-- Spezielle Zusammenfassungen & Energiefluss -->
+    <string name="summary_default">Din hovedbesked: Lyt til din indre stemme, du bliver guidet.</string>
+    <string name="energy_flow_default">Klarhed → Tillid → Handling</string>
+    <string name="summary_99_1">En meget betydningsfuld karmisk cyklus er afsluttet. Dette skaber plads til en kraftfuld ny begyndelse under guddommelig vejledning.</string>
+    <string name="energy_flow_99_1">Afslutning → Frigørelse → Ny Begyndelse</string>
+    <string name="summary_8_55">En massiv positiv forandring (dobbelt 5) bringer overflod og materiel forbedring (8). Gennembruddet er nær.</string>
+    <string name="energy_flow_8_55">Gennembrud → Frihed → Stabilitet</string>
+
+    <!-- Numerologie Spezielle Bedeutungen -->
+    <string name="numerology_unknown">Ukendt</string>
+    <string name="master_number_11">(Mestertal: Intuition og Oplysning)</string>
+    <string name="master_number_22">(Mestertal: Mesterbygger og Manifestation)</string>
+    <string name="master_number_33">(Mestertal: Universel Kærlighed og Healing)</string>
+    <string name="karmic_lesson_13">(Karmisk Lektie: Disciplin og Arbejde)</string>
+    <string name="karmic_lesson_14">(Karmisk Lektie: Ansvarlig Frihed)</string>
+    <string name="karmic_lesson_16">(Karmisk Lektie: Ego og Genopbygning)</string>
+    <string name="karmic_lesson_19">(Karmisk Lektie: Magt og Uafhængighed)</string>
+    <!-- Neue Karmische Lektionen -->
+    <string name="karmic_lesson_4">(Karmisk Lektie: Stabilitet og Proces)</string>
+    <string name="karmic_lesson_5">(Karmisk Lektie: Frygt for Forandring)</string>
+    <string name="karmic_lesson_6">(Karmisk Lektie: Ansvar og Forpligtelse)</string>
+    <string name="karmic_lesson_8">(Karmisk Lektie: Magt og Penge)</string>
+
+    <!-- Numerologie Basis Bedeutungen -->
+    <string name="numerology_1">Ny Begyndelse og Lederskab</string>
+    <string name="numerology_2">Harmoni og Balance</string>
+    <string name="numerology_3">Kreativitet og Vækst</string>
+    <string name="numerology_4">Stabilitet og Beskyttelse</string>
+    <string name="numerology_5">Frihed og Forandring</string>
+    <string name="numerology_6">Kærlighed og Harmoni</string>
+    <string name="numerology_7">Intuition og Opvågning</string>
+    <string name="numerology_8">Succes og Overflod</string>
+    <string name="numerology_9">Afslutning og Visdom</string>
+    <string name="numerology_11">Mester Intuition</string>
+    <string name="numerology_22">Mester Manifestator</string>
+    <string name="numerology_33">Mester Healer</string>
+
+    <!-- Numerologie Keywords -->
+    <string name="keyword_0">Kilde</string>
+    <string name="keyword_1">Ny Begyndelse</string>
+    <string name="keyword_2">Balance</string>
+    <string name="keyword_3">Kreativitet</string>
+    <string name="keyword_4">Stabilitet</string>
+    <string name="keyword_5">Forandring</string>
+    <string name="keyword_6">Harmoni</string>
+    <string name="keyword_7">Intuition</string>
+    <string name="keyword_8">Overflod</string>
+    <string name="keyword_9">Afslutning</string>
+</resources>

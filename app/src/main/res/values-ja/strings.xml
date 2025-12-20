@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">魔法の数字</string>
+
+    <!-- UI Texte -->
+    <string name="new_message">新しいメッセージ</string>
+    <string name="copy_message">メッセージをコピー</string>
+    <string name="clipboard_label">魔法のメッセージ</string>
+    <string name="welcome_message">「新しいメッセージ」をタップして、今の瞬間のリズムを受け取りましょう。</string>
+    <string name="message_for_the_moment">今の瞬間のメッセージ：%1$s</string>
+    <string name="your_cross_sum_is">あなたの数字の合計：%1$s</string>
+    <string name="digit_occurrence">（%1$d回出現、エネルギー増幅）</string>
+    <string name="frequency_label">周波数</string>
+
+    <!-- Abschnittsüberschriften -->
+    <string name="section_vibration">🧬 数字の波動：</string>
+    <string name="section_your_message">💌 あなたへのメッセージ：</string>
+    <string name="section_summary">✨ 要約：</string>
+    <string name="section_energy">⚡️ エネルギーの流れ：</string>
+
+    <!-- Ziffern-Nachrichten Templates -->
+    <string name="digit_0_intro">✨ **「0」**%1$sはすべてを増幅させます。神聖な存在と無限の可能性のしるしです。</string>
+    <string name="digit_1_intro">✨ **「1」**%1$sは**強力な新しい始まり**を呼びかけます。あなたの思考は急速に現実化しています。</string>
+    <string name="digit_2_intro">✨ **「2」**%1$sは、特に対人関係において**バランスと調和**をもたらします。あなたは一人ではありません。</string>
+    <string name="digit_3_intro">✨ **「3」**%1$sは**創造性とコミュニケーション**を活性化します。自分を表現してください、スピリットの世界が聞いています。</string>
+    <string name="digit_4_intro">✨ **「4」**%1$sは**強固な基盤**を築きます。このエネルギーはあなたの人生に保護と秩序をもたらします。</string>
+    <string name="digit_5_intro">✨ **「5」**%1$sは**変化と自由**の波を示しています。冒険に心を開いてください。</string>
+    <string name="digit_6_intro">✨ **「6」**%1$sは**心と家庭の癒し**に焦点を当てています。家族と調和が今の中心です。</string>
+    <string name="digit_7_intro">✨ **「7」**%1$sはあなたの**直感を最も重要な羅針盤**にします。内面を見つめてください、答えはそこにあります。</string>
+    <string name="digit_8_intro">✨ **「8」**%1$sは**豊かさと成功**のエネルギーを活性化します。物質的および精神的な成長に自分を開いてください。</string>
+    <string name="digit_9_intro">✨ **「9」**%1$sは**重要なサイクルの終わり**を示しています。新しいもののためにスペースを空け、古いものを手放してください。</string>
+
+    <!-- Spezielle Zusammenfassungen & Energiefluss -->
+    <string name="summary_default">メインメッセージ：内なる声に耳を傾けてください。あなたは導かれています。</string>
+    <string name="energy_flow_default">明晰さ → 信頼 → 行動</string>
+    <string name="summary_99_1">非常に重要なカルマのサイクルが完了しました。これにより、神聖な導きの下での強力な新しい始まりのスペースが生まれます。</string>
+    <string name="energy_flow_99_1">完了 → 解放 → 新しい始まり</string>
+    <string name="summary_8_55">大きなポジティブな変化（ダブル5）が豊かさと物質的な改善（8）をもたらします。ブレイクスルーは近いです。</string>
+    <string name="energy_flow_8_55">ブレイクスルー → 自由 → 安定</string>
+
+    <!-- Numerologie Spezielle Bedeutungen -->
+    <string name="numerology_unknown">不明</string>
+    <string name="master_number_11">（マスターナンバー：直感と啓発）</string>
+    <string name="master_number_22">（マスターナンバー：マスタービルダーと具現化）</string>
+    <string name="master_number_33">（マスターナンバー：普遍的な愛と癒し）</string>
+    <string name="karmic_lesson_13">（カルマのレッスン：規律と努力）</string>
+    <string name="karmic_lesson_14">（カルマのレッスン：責任ある自由）</string>
+    <string name="karmic_lesson_16">（カルマのレッスン：エゴと再構築）</string>
+    <string name="karmic_lesson_19">（カルマのレッスン：力と独立）</string>
+    <!-- Neue Karmische Lektionen -->
+    <string name="karmic_lesson_4">（カルマのレッスン：安定とプロセス）</string>
+    <string name="karmic_lesson_5">（カルマのレッスン：変化への恐れ）</string>
+    <string name="karmic_lesson_6">（カルマのレッスン：責任と献身）</string>
+    <string name="karmic_lesson_8">（カルマのレッスン：力とお金）</string>
+
+    <!-- Numerologie Basis Bedeutungen -->
+    <string name="numerology_1">新しい始まりとリーダーシップ</string>
+    <string name="numerology_2">調和とバランス</string>
+    <string name="numerology_3">創造性と成長</string>
+    <string name="numerology_4">安定と保護</string>
+    <string name="numerology_5">自由と変化</string>
+    <string name="numerology_6">愛と調和</string>
+    <string name="numerology_7">直感と目覚め</string>
+    <string name="numerology_8">成功と豊かさ</string>
+    <string name="numerology_9">完了と知恵</string>
+    <string name="numerology_11">マスターの直感</string>
+    <string name="numerology_22">マスターの具現者</string>
+    <string name="numerology_33">マスターヒーラー</string>
+
+    <!-- Numerologie Keywords -->
+    <string name="keyword_0">源（ソース）</string>
+    <string name="keyword_1">新しい始まり</string>
+    <string name="keyword_2">バランス</string>
+    <string name="keyword_3">創造性</string>
+    <string name="keyword_4">安定</string>
+    <string name="keyword_5">変化</string>
+    <string name="keyword_6">調和</string>
+    <string name="keyword_7">直感</string>
+    <string name="keyword_8">豊かさ</string>
+    <string name="keyword_9">完了</string>
+</resources>

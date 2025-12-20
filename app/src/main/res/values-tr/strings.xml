@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Sihirli Sayılar</string>
+
+    <!-- UI Texte -->
+    <string name="new_message">Yeni Mesaj</string>
+    <string name="copy_message">Mesajı kopyala</string>
+    <string name="clipboard_label">Sihirli Mesaj</string>
+    <string name="welcome_message">\'Yeni Mesaj\'a tıklayarak anın ritmini yakala.</string>
+    <string name="message_for_the_moment">Anın mesajı: %1$s</string>
+    <string name="your_cross_sum_is">Rakamlar toplamın: %1$s</string>
+    <string name="digit_occurrence">(%1$dx görünüyor, güçlendirilmiş)</string>
+    <string name="frequency_label">Frekans</string>
+
+    <!-- Abschnittsüberschriften -->
+    <string name="section_vibration">🧬 Sayıların Titreşimi:</string>
+    <string name="section_your_message">💌 Mesajın:</string>
+    <string name="section_summary">✨ Özet:</string>
+    <string name="section_energy">⚡️ Enerji:</string>
+
+    <!-- Ziffern-Nachrichten Templates -->
+    <string name="digit_0_intro">✨ **\'0\'**%1$s her şeyi güçlendirir. İlahi varlığın ve sınırsız potansiyelin işaretidir.</string>
+    <string name="digit_1_intro">✨ **\'1\'**%1$s **güçlü bir yeni başlangıca** davet eder. Düşüncelerin hızla gerçeğe dönüşüyor.</string>
+    <string name="digit_2_intro">✨ **\'2\'**%1$s özellikle ilişkilerde **denge ve uyum** getirir. Yalnız değilsin.</string>
+    <string name="digit_3_intro">✨ **\'3\'**%1$s **yaratıcılığı ve iletişimi** harekete geçirir. Kendini ifade et, ruhlar alemi seni dinliyor.</string>
+    <string name="digit_4_intro">✨ **\'4\'**%1$s **sağlam bir temel** oluşturur. Bu enerji hayatına koruma ve düzen getirir.</string>
+    <string name="digit_5_intro">✨ **\'5\'**%1$s bir **değişim ve özgürlük** dalgasını işaret eder. Maceraya açık ol.</string>
+    <string name="digit_6_intro">✨ **\'6\'**%1$s **kalbin ve yuvanın şifalanmasına** odaklanır. Aile ve uyum şu an merkezde.</string>
+    <string name="digit_7_intro">✨ **\'7\'**%1$s **sezgilerini en önemli pusulan** yapar. İçine dön, cevaplar orada.</string>
+    <string name="digit_8_intro">✨ **\'8\'**%1$s **bolluk ve başarı** enerjisini aktifleştirir. Maddi ve manevi büyümeye kendini aç.</string>
+    <string name="digit_9_intro">✨ **\'9\'**%1$s **önemli bir döngünün kapandığını** gösterir. Yeniye yer açmak için eskiyi bırak.</string>
+
+    <!-- Spezielle Zusammenfassungen & Energiefluss -->
+    <string name="summary_default">Ana mesajın: İç sesini dinle, rehberlik alıyorsun.</string>
+    <string name="energy_flow_default">Berraklık → Güven → Eylem</string>
+    <string name="summary_99_1">Çok önemli bir karmik döngü sona erdi. Bu, ilahi rehberlikte güçlü bir yeni başlangıca alan açıyor.</string>
+    <string name="energy_flow_99_1">Kapanış → Özgürleşme → Yeni Başlangıç</string>
+    <string name="summary_8_55">Büyük bir olumlu değişim (çift 5) bolluk ve maddi iyileşme (8) getiriyor. Dönüm noktası yakın.</string>
+    <string name="energy_flow_8_55">Dönüm Noktası → Özgürlük → İstikrar</string>
+
+    <!-- Numerologie Spezielle Bedeutungen -->
+    <string name="numerology_unknown">Bilinmiyor</string>
+    <string name="master_number_11">(Üstat Sayı: Sezgi ve Aydınlanma)</string>
+    <string name="master_number_22">(Üstat Sayı: Üstat İnşa Edici ve Tezahür)</string>
+    <string name="master_number_33">(Üstat Sayı: Evrensel Sevgi ve Şifa)</string>
+    <string name="karmic_lesson_13">(Karmik Ders: Disiplin ve Çalışma)</string>
+    <string name="karmic_lesson_14">(Karmik Ders: Sorumlu Özgürlük)</string>
+    <string name="karmic_lesson_16">(Karmik Ders: Ego ve Yeniden İnşa)</string>
+    <string name="karmic_lesson_19">(Karmik Ders: Güç ve Bağımsızlık)</string>
+    <!-- Neue Karmische Lektionen -->
+    <string name="karmic_lesson_4">(Karmik Ders: İstikrar ve Süreç)</string>
+    <string name="karmic_lesson_5">(Karmik Ders: Değişim Korkusu)</string>
+    <string name="karmic_lesson_6">(Karmik Ders: Sorumluluk ve Bağlılık)</string>
+    <string name="karmic_lesson_8">(Karmik Ders: Güç ve Para)</string>
+
+    <!-- Numerologie Basis Bedeutungen -->
+    <string name="numerology_1">Yeni Başlangıçlar ve Liderlik</string>
+    <string name="numerology_2">Uyum ve Denge</string>
+    <string name="numerology_3">Yaratıcılık ve Büyüme</string>
+    <string name="numerology_4">İstikrar ve Koruma</string>
+    <string name="numerology_5">Özgürlük ve Değişim</string>
+    <string name="numerology_6">Sevgi ve Uyum</string>
+    <string name="numerology_7">Sezgi ve Uyanış</string>
+    <string name="numerology_8">Başarı ve Bolluk</string>
+    <string name="numerology_9">Tamamlanma ve Bilgelik</string>
+    <string name="numerology_11">Üstat Sezgi</string>
+    <string name="numerology_22">Üstat Tezahür Ettirici</string>
+    <string name="numerology_33">Üstat Şifacı</string>
+
+    <!-- Numerologie Keywords -->
+    <string name="keyword_0">Kaynak</string>
+    <string name="keyword_1">Yeni Başlangıç</string>
+    <string name="keyword_2">Denge</string>
+    <string name="keyword_3">Yaratıcılık</string>
+    <string name="keyword_4">İstikrar</string>
+    <string name="keyword_5">Değişim</string>
+    <string name="keyword_6">Uyum</string>
+    <string name="keyword_7">Sezgi</string>
+    <string name="keyword_8">Bolluk</string>
+    <string name="keyword_9">Kapanış</string>
+</resources>

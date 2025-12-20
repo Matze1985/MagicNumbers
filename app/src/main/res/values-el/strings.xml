@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Μαγικοί Αριθμοί</string>
+
+    <!-- UI Texte -->
+    <string name="new_message">Νέο Μήνυμα</string>
+    <string name="copy_message">Αντιγραφή μηνύματος</string>
+    <string name="clipboard_label">Μαγικό Μήνυμα</string>
+    <string name="welcome_message">Πάτησε \'Νέο Μήνυμα\' για να λάβεις τον ρυθμό της στιγμής.</string>
+    <string name="message_for_the_moment">Το μήνυμα της στιγμής: %1$s</string>
+    <string name="your_cross_sum_is">Το άθροισμά σου είναι: %1$s</string>
+    <string name="digit_occurrence">(εμφανίζεται %1$d φορές, ενισχυμένο)</string>
+    <string name="frequency_label">Συχνότητα</string>
+
+    <!-- Abschnittsüberschriften -->
+    <string name="section_vibration">🧬 Δόνηση Αριθμών:</string>
+    <string name="section_your_message">💌 Το Μήνυμά Σου:</string>
+    <string name="section_summary">✨ Περιληπτικά:</string>
+    <string name="section_energy">⚡️ Ενέργεια:</string>
+
+    <!-- Ziffern-Nachrichten Templates -->
+    <string name="digit_0_intro">✨ Το **\'0\'**%1$s ενισχύει τα πάντα. Είναι σημάδι θεϊκής παρουσίας και απεριόριστων δυνατοτήτων.</string>
+    <string name="digit_1_intro">✨ Το **\'1\'**%1$s καλεί σε μια **ισχυρή νέα αρχή**. Οι σκέψεις σου εκδηλώνονται γρήγορα.</string>
+    <string name="digit_2_intro">✨ Το **\'2\'**%1$s φέρνει **ισορροπία και αρμονία**, ειδικά στις σχέσεις. Δεν είσαι μόνος.</string>
+    <string name="digit_3_intro">✨ Το **\'3\'**%1$s ενεργοποιεί τη **δημιουργικότητα και την επικοινωνία**. Εκφράσου, ο πνευματικός κόσμος ακούει.</string>
+    <string name="digit_4_intro">✨ Το **\'4\'**%1$s δημιουργεί ένα **σταθερό θεμέλιο**. Αυτή η ενέργεια φέρνει προστασία και τάξη στη ζωή σου.</string>
+    <string name="digit_5_intro">✨ Το **\'5\'**%1$s σηματοδοτεί ένα κύμα **αλλαγής και ελευθερίας**. Να είσαι ανοιχτός στην περιπέτεια.</string>
+    <string name="digit_6_intro">✨ Το **\'6\'**%1$s εστιάζει στη **θεραπεία της καρδιάς και του σπιτιού**. Η οικογένεια και η αρμονία είναι τώρα στο επίκεντρο.</string>
+    <string name="digit_7_intro">✨ Το **\'7\'**%1$s κάνει τη **διαίσθησή σου την πιο σημαντική πυξίδα**. Κοίτα μέσα σου, οι απαντήσεις είναι εκεί.</string>
+    <string name="digit_8_intro">✨ Το **\'8\'**%1$s ενεργοποιεί την ενέργεια της **αφθονίας και της επιτυχίας**. Άνοιξε τον εαυτό σου στην υλική και πνευματική ανάπτυξη.</string>
+    <string name="digit_9_intro">✨ Το **\'9\'**%1$s υποδηλώνει την **ολοκλήρωση ενός σημαντικού κύκλου**. Άφησε το παλιό για να κάνεις χώρο για το νέο.</string>
+
+    <!-- Spezielle Zusammenfassungen & Energiefluss -->
+    <string name="summary_default">Το κύριο μήνυμά σου: Άκουσε την εσωτερική σου φωνή, καθοδηγείσαι.</string>
+    <string name="energy_flow_default">Διαύγεια → Εμπιστοσύνη → Δράση</string>
+    <string name="summary_99_1">Ένας πολύ σημαντικός καρμικός κύκλος έχει ολοκληρωθεί. Αυτό δημιουργεί χώρο για μια ισχυρή νέα αρχή υπό θεϊκή καθοδήγηση.</string>
+    <string name="energy_flow_99_1">Ολοκλήρωση → Απελευθέρωση → Νέα Αρχή</string>
+    <string name="summary_8_55">Μια τεράστια θετική αλλαγή (διπλό 5) φέρνει αφθονία και υλική βελτίωση (8). Η επανάσταση είναι κοντά.</string>
+    <string name="energy_flow_8_55">Επανάσταση → Ελευθερία → Σταθερότητα</string>
+
+    <!-- Numerologie Spezielle Bedeutungen -->
+    <string name="numerology_unknown">Άγνωστο</string>
+    <string name="master_number_11">(Κυρίαρχος Αριθμός: Διαίσθηση και Φώτιση)</string>
+    <string name="master_number_22">(Κυρίαρχος Αριθμός: Κυρίαρχος Οικοδόμος και Υλοποίηση)</string>
+    <string name="master_number_33">(Κυρίαρχος Αριθμός: Παγκόσμια Αγάπη και Θεραπεία)</string>
+    <string name="karmic_lesson_13">(Καρμικό Μάθημα: Πειθαρχία και Εργασία)</string>
+    <string name="karmic_lesson_14">(Καρμικό Μάθημα: Υπεύθυνη Ελευθερία)</string>
+    <string name="karmic_lesson_16">(Καρμικό Μάθημα: Εγώ και Ανασυγκρότηση)</string>
+    <string name="karmic_lesson_19">(Καρμικό Μάθημα: Δύναμη και Ανεξαρτησία)</string>
+    <!-- Neue Karmische Lektionen -->
+    <string name="karmic_lesson_4">(Καρμικό Μάθημα: Σταθερότητα και Διαδικασία)</string>
+    <string name="karmic_lesson_5">(Καρμικό Μάθημα: Φόβος της Αλλαγής)</string>
+    <string name="karmic_lesson_6">(Καρμικό Μάθημα: Ευθύνη και Δέσμευση)</string>
+    <string name="karmic_lesson_8">(Καρμικό Μάθημα: Δύναμη και Χρήμα)</string>
+
+    <!-- Numerologie Basis Bedeutungen -->
+    <string name="numerology_1">Νέα Αρχή και Ηγεσία</string>
+    <string name="numerology_2">Αρμονία και Ισορροπία</string>
+    <string name="numerology_3">Δημιουργικότητα και Ανάπτυξη</string>
+    <string name="numerology_4">Σταθερότητα και Προστασία</string>
+    <string name="numerology_5">Ελευθερία και Αλλαγή</string>
+    <string name="numerology_6">Αγάπη και Αρμονία</string>
+    <string name="numerology_7">Διαίσθηση και Αφύπνιση</string>
+    <string name="numerology_8">Επιτυχία και Αφθονία</string>
+    <string name="numerology_9">Ολοκλήρωση και Σοφία</string>
+    <string name="numerology_11">Κυρίαρχη Διαίσθηση</string>
+    <string name="numerology_22">Κυρίαρχος Υλοποιητής</string>
+    <string name="numerology_33">Κυρίαρχος Θεραπευτής</string>
+
+    <!-- Numerologie Keywords -->
+    <string name="keyword_0">Πηγή</string>
+    <string name="keyword_1">Νέα Αρχή</string>
+    <string name="keyword_2">Ισορροπία</string>
+    <string name="keyword_3">Δημιουργικότητα</string>
+    <string name="keyword_4">Σταθερότητα</string>
+    <string name="keyword_5">Αλλαγή</string>
+    <string name="keyword_6">Αρμονία</string>
+    <string name="keyword_7">Διαίσθηση</string>
+    <string name="keyword_8">Αφθονία</string>
+    <string name="keyword_9">Ολοκλήρωση</string>
+</resources>

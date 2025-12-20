@@ -37,18 +37,44 @@
 ## 🌍 Localization
 
 The app is fully translated into:
-*   🇬🇧 English
-*   🇩🇪 German
-*   🇨🇿 Czech
-*   🇪🇸 Spanish
-*   🇫🇷 French
-*   🇳🇱 Dutch
-*   🇳🇴 Norwegian
-*   🇵🇱 Polish
-*   🇵🇹 Portuguese
-*   🇷🇺 Russian
-*   🇸🇪 Swedish
-*   🇺🇦 Ukrainian
+
+*   🇸🇦 Arabic (العربية)
+*   🇧🇬 Bulgarian (Български)
+*   🇨🇳 Chinese Simplified (简体中文)
+*   🇭🇷 Croatian (Hrvatski)
+*   🇨🇿 Czech (Čeština)
+*   🇩🇰 Danish (Dansk)
+*   🇳🇱 Dutch (Nederlands)
+*   🇬🇧 English (UK)
+*   🇺🇸 English (US)
+*   🇪🇪 Estonian (Eesti)
+*   🇫🇮 Finnish (Suomi)
+*   🇫🇷 French (Français)
+*   🇩🇪 German (Deutsch)
+*   🇬🇷 Greek (Ελληνικά)
+*   🇮🇱 Hebrew (עברית)
+*   🇮🇳 Hindi (हिन्दी)
+*   🇭🇺 Hungarian (Magyar)
+*   🇮🇩 Indonesian (Bahasa Indonesia)
+*   🇮🇹 Italian (Italiano)
+*   🇯🇵 Japanese (日本語)
+*   🇰🇷 Korean (한국어)
+*   🇱🇻 Latvian (Latviešu)
+*   🇱🇹 Lithuanian (Lietuvių)
+*   🇳🇴 Norwegian (Norsk)
+*   🇵🇱 Polish (Polski)
+*   🇵🇹 Portuguese (Português)
+*   🇷🇴 Romanian (Română)
+*   🇷🇺 Russian (Русский)
+*   🇷🇸 Serbian (Српски)
+*   🇸🇰 Slovak (Slovenčina)
+*   🇸🇮 Slovenian (Slovenščina)
+*   🇪🇸 Spanish (Español)
+*   🇸🇪 Swedish (Svenska)
+*   🇹🇭 Thai (ไทย)
+*   🇹🇷 Turkish (Türkçe)
+*   🇺🇦 Ukrainian (Українська)
+*   🇻🇳 Vietnamese (Tiếng Việt)
 
 ## 📱 Screenshots
 

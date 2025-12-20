@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Magické Čísla</string>
+
+    <!-- UI Texte -->
+    <string name="new_message">Nová Správa</string>
+    <string name="copy_message">Kopírovať správu</string>
+    <string name="clipboard_label">Magická Správa</string>
+    <string name="welcome_message">Klikni na \'Nová Správa\', aby si zachytil rytmus okamihu.</string>
+    <string name="message_for_the_moment">Správa okamihu: %1$s</string>
+    <string name="your_cross_sum_is">Tvoj ciferný súčet je: %1$s</string>
+    <string name="digit_occurrence">(objavuje sa %1$dx, zosilnené)</string>
+    <string name="frequency_label">Frekvencia</string>
+
+    <!-- Abschnittsüberschriften -->
+    <string name="section_vibration">🧬 Vibrácia Čísel:</string>
+    <string name="section_your_message">💌 Tvoja Správa:</string>
+    <string name="section_summary">✨ V skratke:</string>
+    <string name="section_energy">⚡️ Energia:</string>
+
+    <!-- Ziffern-Nachrichten Templates -->
+    <string name="digit_0_intro">✨ **\'0\'**%1$s zosilňuje všetko. Je to znak božskej prítomnosti a neobmedzeného potenciálu.</string>
+    <string name="digit_1_intro">✨ **\'1\'**%1$s pozýva k **silnému novému začiatku**. Tvoje myšlienky sa rýchlo prejavujú.</string>
+    <string name="digit_2_intro">✨ **\'2\'**%1$s prináša **rovnováhu a harmóniu**, najmä vo vzťahoch. Nie si sám.</string>
+    <string name="digit_3_intro">✨ **\'3\'**%1$s aktivuje **kreativitu a komunikáciu**. Vyjadri sa, duchovný svet počúva.</string>
+    <string name="digit_4_intro">✨ **\'4\'**%1$s vytvára **stabilný základ**. Táto energia prináša ochranu a poriadok do tvojho života.</string>
+    <string name="digit_5_intro">✨ **\'5\'**%1$s signalizuje vlnu **zmeny a slobody**. Buď otvorený dobrodružstvu.</string>
+    <string name="digit_6_intro">✨ **\'6\'**%1$s sa zameriava na **liečenie srdca a domova**. Rodina a harmónia sú teraz centrom.</string>
+    <string name="digit_7_intro">✨ **\'7\'**%1$s robí z tvojej **intuície najdôležitejší kompas**. Pozri sa dovnútra, odpovede sú tam.</string>
+    <string name="digit_8_intro">✨ **\'8\'**%1$s aktivuje energiu **hojnosti a úspechu**. Otvor sa materiálnemu a duchovnému rastu.</string>
+    <string name="digit_9_intro">✨ **\'9\'**%1$s naznačuje **ukončenie dôležitého cyklu**. Pusti staré, aby si urobil miesto pre nové.</string>
+
+    <!-- Spezielle Zusammenfassungen & Energiefluss -->
+    <string name="summary_default">Tvoja hlavná správa: Počúvaj svoj vnútorný hlas, si vedený.</string>
+    <string name="energy_flow_default">Jasnosť → Dôvera → Akcia</string>
+    <string name="summary_99_1">Veľmi významný karmický cyklus sa skončil. To vytvára priestor pre silný nový začiatok pod božským vedením.</string>
+    <string name="energy_flow_99_1">Ukončenie → Oslobodenie → Nový Začiatok</string>
+    <string name="summary_8_55">Masívna pozitívna zmena (dvojitá 5) prináša hojnosť a materiálne zlepšenie (8). Prelom je blízko.</string>
+    <string name="energy_flow_8_55">Prelom → Sloboda → Stabilita</string>
+
+    <!-- Numerologie Spezielle Bedeutungen -->
+    <string name="numerology_unknown">Neznáme</string>
+    <string name="master_number_11">(Majstrovské Číslo: Intuícia a Osvietenie)</string>
+    <string name="master_number_22">(Majstrovské Číslo: Majster Staviteľ a Manifestácia)</string>
+    <string name="master_number_33">(Majstrovské Číslo: Univerzálna Láska a Liečenie)</string>
+    <string name="karmic_lesson_13">(Karmická Lekcia: Disciplína a Práca)</string>
+    <string name="karmic_lesson_14">(Karmická Lekcia: Zodpovedná Sloboda)</string>
+    <string name="karmic_lesson_16">(Karmická Lekcia: Ego a Rekonštrukcia)</string>
+    <string name="karmic_lesson_19">(Karmická Lekcia: Moc a Nezávislosť)</string>
+    <!-- Neue Karmische Lektionen -->
+    <string name="karmic_lesson_4">(Karmická Lekcia: Stabilita a Proces)</string>
+    <string name="karmic_lesson_5">(Karmická Lekcia: Strach zo Zmeny)</string>
+    <string name="karmic_lesson_6">(Karmická Lekcia: Zodpovednosť a Záväzok)</string>
+    <string name="karmic_lesson_8">(Karmická Lekcia: Moc a Peniaze)</string>
+
+    <!-- Numerologie Basis Bedeutungen -->
+    <string name="numerology_1">Nové Začiatky a Vodcovstvo</string>
+    <string name="numerology_2">Harmónia a Rovnováha</string>
+    <string name="numerology_3">Kreativita a Rast</string>
+    <string name="numerology_4">Stabilita a Ochrana</string>
+    <string name="numerology_5">Sloboda a Zmena</string>
+    <string name="numerology_6">Láska a Harmónia</string>
+    <string name="numerology_7">Intuícia a Prebudenie</string>
+    <string name="numerology_8">Úspech a Hojnosť</string>
+    <string name="numerology_9">Ukončenie a Múdrosť</string>
+    <string name="numerology_11">Majstrovská Intuícia</string>
+    <string name="numerology_22">Majster Manifestátor</string>
+    <string name="numerology_33">Majster Liečiteľ</string>
+
+    <!-- Numerologie Keywords -->
+    <string name="keyword_0">Zdroj</string>
+    <string name="keyword_1">Nový Začiatok</string>
+    <string name="keyword_2">Rovnováha</string>
+    <string name="keyword_3">Kreativita</string>
+    <string name="keyword_4">Stabilita</string>
+    <string name="keyword_5">Zmena</string>
+    <string name="keyword_6">Harmónia</string>
+    <string name="keyword_7">Intuícia</string>
+    <string name="keyword_8">Hojnosť</string>
+    <string name="keyword_9">Ukončenie</string>
+</resources>

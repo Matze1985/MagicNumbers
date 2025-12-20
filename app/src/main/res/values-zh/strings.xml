@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">神奇数字</string>
+
+    <!-- UI Texte -->
+    <string name="new_message">新信息</string>
+    <string name="copy_message">复制信息</string>
+    <string name="clipboard_label">神奇信息</string>
+    <string name="welcome_message">点击“新信息”以捕捉当下的节奏。</string>
+    <string name="message_for_the_moment">当下的信息：%1$s</string>
+    <string name="your_cross_sum_is">你的数字总和：%1$s</string>
+    <string name="digit_occurrence">（出现 %1$d 次，能量增强）</string>
+    <string name="frequency_label">频率</string>
+
+    <!-- Abschnittsüberschriften -->
+    <string name="section_vibration">🧬 数字振动：</string>
+    <string name="section_your_message">💌 你的信息：</string>
+    <string name="section_summary">✨ 概要：</string>
+    <string name="section_energy">⚡️ 能量流：</string>
+
+    <!-- Ziffern-Nachrichten Templates -->
+    <string name="digit_0_intro">✨ **\'0\'**%1$s 放大一切。这是神性存在和无限潜力的标志。</string>
+    <string name="digit_1_intro">✨ **\'1\'**%1$s 呼唤一个**强有力的新开始**。你的思想正在迅速显化。</string>
+    <string name="digit_2_intro">✨ **\'2\'**%1$s 带来**平衡与和谐**，特别是在人际关系中。你并不孤单。</string>
+    <string name="digit_3_intro">✨ **\'3\'**%1$s 激活**创造力和沟通**。表达你自己，灵性世界正在倾听。</string>
+    <string name="digit_4_intro">✨ **\'4\'**%1$s 建立**稳固的基础**。这种能量为你的生活带来保护和秩序。</string>
+    <string name="digit_5_intro">✨ **\'5\'**%1$s 标志着一股**改变与自由**的浪潮。对冒险保持开放。</string>
+    <string name="digit_6_intro">✨ **\'6\'**%1$s 专注于**疗愈心灵与家庭**。家庭与和谐现在是核心。</string>
+    <string name="digit_7_intro">✨ **\'7\'**%1$s 让你的**直觉成为最重要的指南针**。向内看，答案就在那里。</string>
+    <string name="digit_8_intro">✨ **\'8\'**%1$s 激活**富足与成功**的能量。向物质和精神的成长敞开自己。</string>
+    <string name="digit_9_intro">✨ **\'9\'**%1$s 表示一个**重要周期的结束**。放下旧的，为新的腾出空间。</string>
+
+    <!-- Spezielle Zusammenfassungen & Energiefluss -->
+    <string name="summary_default">你的核心信息：倾听内心的声音，你正受到指引。</string>
+    <string name="energy_flow_default">清晰 → 信任 → 行动</string>
+    <string name="summary_99_1">一个非常重要的业力周期已经结束。这为神圣指引下的强有力的新开始创造了空间。</string>
+    <string name="energy_flow_99_1">结束 → 解放 → 新开始</string>
+    <string name="summary_8_55">一个巨大的积极转变（双重5）带来了富足和物质改善（8）。突破在即。</string>
+    <string name="energy_flow_8_55">突破 → 自由 → 稳定</string>
+
+    <!-- Numerologie Spezielle Bedeutungen -->
+    <string name="numerology_unknown">未知</string>
+    <string name="master_number_11">（大师数：直觉与启蒙）</string>
+    <string name="master_number_22">（大师数：大师建造者与显化）</string>
+    <string name="master_number_33">（大师数：宇宙之爱与疗愈）</string>
+    <string name="karmic_lesson_13">（业力课题：纪律与工作）</string>
+    <string name="karmic_lesson_14">（业力课题：负责任的自由）</string>
+    <string name="karmic_lesson_16">（业力课题：自我与重建）</string>
+    <string name="karmic_lesson_19">（业力课题：权力与独立）</string>
+    <!-- Neue Karmische Lektionen -->
+    <string name="karmic_lesson_4">（业力课题：稳定与过程）</string>
+    <string name="karmic_lesson_5">（业力课题：对改变的恐惧）</string>
+    <string name="karmic_lesson_6">（业力课题：责任与承诺）</string>
+    <string name="karmic_lesson_8">（业力课题：权力与金钱）</string>
+
+    <!-- Numerologie Basis Bedeutungen -->
+    <string name="numerology_1">新开始与领导力</string>
+    <string name="numerology_2">和谐与平衡</string>
+    <string name="numerology_3">创造力与成长</string>
+    <string name="numerology_4">稳定与保护</string>
+    <string name="numerology_5">自由与改变</string>
+    <string name="numerology_6">爱与和谐</string>
+    <string name="numerology_7">直觉与觉醒</string>
+    <string name="numerology_8">成功与富足</string>
+    <string name="numerology_9">完成与智慧</string>
+    <string name="numerology_11">大师直觉</string>
+    <string name="numerology_22">大师显化者</string>
+    <string name="numerology_33">大师疗愈者</string>
+
+    <!-- Numerologie Keywords -->
+    <string name="keyword_0">源头</string>
+    <string name="keyword_1">新开始</string>
+    <string name="keyword_2">平衡</string>
+    <string name="keyword_3">创造力</string>
+    <string name="keyword_4">稳定</string>
+    <string name="keyword_5">改变</string>
+    <string name="keyword_6">和谐</string>
+    <string name="keyword_7">直觉</string>
+    <string name="keyword_8">富足</string>
+    <string name="keyword_9">结束</string>
+</resources>

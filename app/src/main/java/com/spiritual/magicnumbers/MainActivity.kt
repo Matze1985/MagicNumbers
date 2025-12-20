@@ -50,12 +50,20 @@ data class DetailedMessage(
     val frequencyScore: Float = 0f // Wert zwischen 0.0 und 1.0 für die Skala
 ) {
     fun asFormattedString(
-        vibrationHeader: String, messageHeader: String, summaryHeader: String, energyHeader: String
+        vibrationHeader: String,
+        messageHeader: String,
+        summaryHeader: String,
+        energyHeader: String,
+        frequencyLabel: String
     ): String {
         val componentString = components.joinToString("\n") { (digit, meaning) -> "$digit – $meaning" }
+        val frequencyPercent = (frequencyScore * 100).toInt()
+
         return """
             $title
             $subtitle
+
+            $frequencyLabel: $frequencyPercent%
 
             $vibrationHeader
             $componentString
@@ -87,7 +95,6 @@ class MainActivity : ComponentActivity() {
 }
 
 // --- LOGIK-FUNKTIONEN ---
-
 // Berechnet Farbe für Frequenz-Balken (Rot -> Gelb -> Grün/Cyan)
 fun getFrequencyColor(percentage: Float): Color {
     return when {
@@ -292,6 +299,7 @@ fun MagicNumberApp() {
                         val energyHeader = stringResource(R.string.section_energy)
                         val clipboardLabel = stringResource(R.string.clipboard_label)
                         val copyMessageDescription = stringResource(R.string.copy_message)
+                        val frequencyLabelText = stringResource(R.string.frequency_label)
 
                         // 1. Der Copy-Button
                         IconButton(onClick = {
@@ -302,7 +310,8 @@ fun MagicNumberApp() {
                                     vibrationHeader,
                                     messageHeader,
                                     summaryHeader,
-                                    energyHeader
+                                    energyHeader,
+                                    frequencyLabelText
                                 )
                             )
                             clipboard.setPrimaryClip(clip)
@@ -398,7 +407,7 @@ fun MagicNumberApp() {
                         Row(
                             modifier = Modifier.fillMaxWidth(),
                             verticalAlignment = Alignment.CenterVertically,
-                            horizontalArrangement = Arrangement.spacedBy(12.dp) // Abstand zwischen Symbol und Balken
+                            horizontalArrangement = Arrangement.spacedBy(12.dp)
                         ) {
                             // 1. Das Symbol und Label
                             Text("🌀", style = MaterialTheme.typography.bodyLarge)
@@ -409,7 +418,6 @@ fun MagicNumberApp() {
                                     modifier = Modifier.fillMaxWidth(),
                                     horizontalArrangement = Arrangement.SpaceBetween
                                 ) {
-                                    // NEU (Übersetzt):
                                     Text(stringResource(R.string.frequency_label), style = MaterialTheme.typography.bodySmall, color = secondaryTextColor)
                                     val percentText = (detailedMessage.frequencyScore * 100).toInt()
                                     Text("$percentText%", style = MaterialTheme.typography.bodySmall, color = getFrequencyColor(detailedMessage.frequencyScore))
@@ -443,11 +451,10 @@ fun MagicNumberApp() {
                             }
                         }
                         // ---------------------------
-
                         Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
                             detailedMessage.components.forEach { (digit, meaning) ->
                                 Text(buildAnnotatedString {
-                                    withStyle(style = SpanStyle(fontWeight = FontWeight.Bold, fontSize = 18.sp, color = accentColor)) { append("$digit – ") }
+                                    withStyle(style = SpanStyle(fontWeight = FontWeight.Bold, fontSize = 15.sp, color = accentColor)) { append("$digit – ") }
                                     withStyle(style = SpanStyle(color = secondaryTextColor)) { append(meaning) }
                                 })
                             }
@@ -455,21 +462,28 @@ fun MagicNumberApp() {
 
                         HorizontalDivider(color = Color.Gray.copy(alpha = 0.3f))
 
-                        // Sektion: Nachricht
-                        Text(stringResource(R.string.section_your_message), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold, color = primaryTextColor)
+                        // Sektion: Deine Botschaft
+                        Text(
+                            text = stringResource(R.string.section_your_message),
+                            style = MaterialTheme.typography.titleMedium,
+                            fontWeight = FontWeight.SemiBold,
+                            color = primaryTextColor)
                         Text(
                             text = detailedMessage.message,
-                            style = MaterialTheme.typography.bodyLarge,
+                            style = MaterialTheme.typography.bodyMedium,
                             color = secondaryTextColor,
                             lineHeight = 24.sp
                         )
 
                         HorizontalDivider(color = Color.Gray.copy(alpha = 0.3f))
 
-                        // Sektion: Zusammenfassung & Energie
-                        Text(stringResource(R.string.section_summary), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold, color = primaryTextColor)
+                        // Sektion: Kurze Zusammenfassung
+                        Text(stringResource(R.string.section_summary), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Medium, color = primaryTextColor)
                         Text(text = detailedMessage.summary, style = MaterialTheme.typography.bodyMedium, color = secondaryTextColor)
 
+                        HorizontalDivider(color = Color.Gray.copy(alpha = 0.3f))
+
+                        // Sektion: Energie
                         Text(stringResource(R.string.section_energy), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold, color = primaryTextColor)
                         Text(text = detailedMessage.energyFlow, style = MaterialTheme.typography.bodyMedium, color = accentColor, fontWeight = FontWeight.Medium)
                     }
@@ -488,9 +502,4 @@ fun MagicNumberApp() {
             }
         }
     }
-}
-
-@Composable
-fun StringResource(x0: Int) {
-    TODO("Not yet implemented")
 }

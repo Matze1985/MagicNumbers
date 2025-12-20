@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Maagilised Numbrid</string>
+
+    <!-- UI Texte -->
+    <string name="new_message">Uus Sõnum</string>
+    <string name="copy_message">Kopeeri sõnum</string>
+    <string name="clipboard_label">Maagiline Sõnum</string>
+    <string name="welcome_message">Vajuta \'Uus Sõnum\', et püüda hetke rütmi.</string>
+    <string name="message_for_the_moment">Hetke sõnum: %1$s</string>
+    <string name="your_cross_sum_is">Sinu ristsumma: %1$s</string>
+    <string name="digit_occurrence">(esineb %1$d korda, võimendatud)</string>
+    <string name="frequency_label">Sagedus</string>
+
+    <!-- Abschnittsüberschriften -->
+    <string name="section_vibration">🧬 Numbrite Vibratsioon:</string>
+    <string name="section_your_message">💌 Sinu Sõnum:</string>
+    <string name="section_summary">✨ Lühidalt:</string>
+    <string name="section_energy">⚡️ Energia:</string>
+
+    <!-- Ziffern-Nachrichten Templates -->
+    <string name="digit_0_intro">✨ **\'0\'**%1$s võimendab kõike. See on jumaliku kohalolu ja piiramatu potentsiaali märk.</string>
+    <string name="digit_1_intro">✨ **\'1\'**%1$s kutsub **võimsale uuele algusele**. Sinu mõtted manifesteeruvad kiiresti.</string>
+    <string name="digit_2_intro">✨ **\'2\'**%1$s toob **tasakaalu ja harmoonia**, eriti suhetes. Sa ei ole üksi.</string>
+    <string name="digit_3_intro">✨ **\'3\'**%1$s aktiveerib **loovuse ja suhtluse**. Väljenda ennast, vaimne maailm kuulab.</string>
+    <string name="digit_4_intro">✨ **\'4\'**%1$s loob **stabiilse vundamendi**. See energia toob sinu ellu kaitset ja korda.</string>
+    <string name="digit_5_intro">✨ **\'5\'**%1$s annab märku **muutuste ja vabaduse** lainest. Ole seiklustele avatud.</string>
+    <string name="digit_6_intro">✨ **\'6\'**%1$s keskendub **südame ja kodu tervendamisele**. Perekond ja harmoonia on praegu kesksel kohal.</string>
+    <string name="digit_7_intro">✨ **\'7\'**%1$s teeb sinu **intuitsioonist kõige olulisema kompassi**. Vaata sissepoole, vastused on seal.</string>
+    <string name="digit_8_intro">✨ **\'8\'**%1$s aktiveerib **külluse ja edu** energia. Ava end materiaalsele ja vaimsele kasvule.</string>
+    <string name="digit_9_intro">✨ **\'9\'**%1$s näitab **olulise tsükli lõppu**. Lase vanast lahti, et teha ruumi uuele.</string>
+
+    <!-- Spezielle Zusammenfassungen & Energiefluss -->
+    <string name="summary_default">Sinu põhisõnum: Kuula oma sisehäält, sind juhitakse.</string>
+    <string name="energy_flow_default">Selgus → Usaldus → Tegevus</string>
+    <string name="summary_99_1">Väga oluline karmaline tsükkel on lõppenud. See loob ruumi võimsaks uueks alguseks jumaliku juhatuse all.</string>
+    <string name="energy_flow_99_1">Lõpetamine → Vabanemine → Uus Algus</string>
+    <string name="summary_8_55">Massiivne positiivne muutus (topelt 5) toob külluse ja materiaalse paranemise (8). Läbimurre on lähedal.</string>
+    <string name="energy_flow_8_55">Läbimurre → Vabadus → Stabiilsus</string>
+
+    <!-- Numerologie Spezielle Bedeutungen -->
+    <string name="numerology_unknown">Tundmatu</string>
+    <string name="master_number_11">(Meistrinumber: Intuitsioon ja Valgustumine)</string>
+    <string name="master_number_22">(Meistrinumber: Meisterehitaja ja Manifestatsioon)</string>
+    <string name="master_number_33">(Meistrinumber: Universaalne Armastus ja Tervendamine)</string>
+    <string name="karmic_lesson_13">(Karmaline Õppetund: Distsipliin ja Töö)</string>
+    <string name="karmic_lesson_14">(Karmaline Õppetund: Vastutustundlik Vabadus)</string>
+    <string name="karmic_lesson_16">(Karmaline Õppetund: Ego ja Ülesehitamine)</string>
+    <string name="karmic_lesson_19">(Karmaline Õppetund: Võim ja Iseseisvus)</string>
+    <!-- Neue Karmische Lektionen -->
+    <string name="karmic_lesson_4">(Karmaline Õppetund: Stabiilsus ja Protsess)</string>
+    <string name="karmic_lesson_5">(Karmaline Õppetund: Hirm Muutuste Ees)</string>
+    <string name="karmic_lesson_6">(Karmaline Õppetund: Vastutus ja Pühendumine)</string>
+    <string name="karmic_lesson_8">(Karmaline Õppetund: Võim ja Raha)</string>
+
+    <!-- Numerologie Basis Bedeutungen -->
+    <string name="numerology_1">Uued Algused ja Juhtimine</string>
+    <string name="numerology_2">Harmoonia ja Tasakaalu</string>
+    <string name="numerology_3">Loovus ja Kasv</string>
+    <string name="numerology_4">Stabiilsus ja Kaitse</string>
+    <string name="numerology_5">Vabadus ja Muutus</string>
+    <string name="numerology_6">Armastus ja Harmoonia</string>
+    <string name="numerology_7">Intuitsioon ja Ärkamise</string>
+    <string name="numerology_8">Edu ja Küllus</string>
+    <string name="numerology_9">Lõpetamine ja Tarkus</string>
+    <string name="numerology_11">Meisterlik Intuitsioon</string>
+    <string name="numerology_22">Meisterlik Manifesteerija</string>
+    <string name="numerology_33">Meisterlik Tervendaja</string>
+
+    <!-- Numerologie Keywords -->
+    <string name="keyword_0">Allikas</string>
+    <string name="keyword_1">Uus Algus</string>
+    <string name="keyword_2">Tasakaal</string>
+    <string name="keyword_3">Loovus</string>
+    <string name="keyword_4">Stabiilsus</string>
+    <string name="keyword_5">Muutus</string>
+    <string name="keyword_6">Harmoonia</string>
+    <string name="keyword_7">Intuitsioon</string>
+    <string name="keyword_8">Küllus</string>
+    <string name="keyword_9">Lõpetamine</string>
+</resources>

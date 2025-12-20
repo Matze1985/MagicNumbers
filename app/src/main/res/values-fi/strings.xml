@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Maagiset Numerot</string>
+
+    <!-- UI Texte -->
+    <string name="new_message">Uusi Viesti</string>
+    <string name="copy_message">Kopioi viesti</string>
+    <string name="clipboard_label">Maaginen Viesti</string>
+    <string name="welcome_message">Napauta \'Uusi Viesti\' saadaksesi hetken rytmin.</string>
+    <string name="message_for_the_moment">Hetken viesti: %1$s</string>
+    <string name="your_cross_sum_is">Numeroidesi summa: %1$s</string>
+    <string name="digit_occurrence">(esiintyy %1$dx, vahvistettu)</string>
+    <string name="frequency_label">Taajuus</string>
+
+    <!-- Abschnittsüberschriften -->
+    <string name="section_vibration">🧬 Numeroiden Värähtely:</string>
+    <string name="section_your_message">💌 Viestisi:</string>
+    <string name="section_summary">✨ Lyhyesti:</string>
+    <string name="section_energy">⚡️ Energia:</string>
+
+    <!-- Ziffern-Nachrichten Templates -->
+    <string name="digit_0_intro">✨ **\'0\'**%1$s vahvistaa kaikkea. Se on merkki jumalallisesta läsnäolosta ja rajattomasta potentiaalista.</string>
+    <string name="digit_1_intro">✨ **\'1\'**%1$s kutsuu **voimakkaaseen uuteen alkuun**. Ajatuksesi manifestoituvat nopeasti.</string>
+    <string name="digit_2_intro">✨ **\'2\'**%1$s tuo **tasapainoa ja harmoniaa**, erityisesti ihmissuhteissa. Et ole yksin.</string>
+    <string name="digit_3_intro">✨ **\'3\'**%1$s aktivoi **luovuutta ja kommunikaatiota**. Ilmaise itseäsi, henkimaailma kuuntelee.</string>
+    <string name="digit_4_intro">✨ **\'4\'**%1$s luo **vakaan perustan**. Tämä energia tuo suojaa ja järjestystä elämääsi.</string>
+    <string name="digit_5_intro">✨ **\'5\'**%1$s merkitsee **muutoksen ja vapauden** aaltoa. Ole avoin seikkailulle.</string>
+    <string name="digit_6_intro">✨ **\'6\'**%1$s keskittyy **sydämen ja kodin parantamiseen**. Perhe ja harmonia ovat nyt keskiössä.</string>
+    <string name="digit_7_intro">✨ **\'7\'**%1$s tekee **intuitiostasi tärkeimmän kompassin**. Katso sisäänpäin, vastaukset ovat siellä.</string>
+    <string name="digit_8_intro">✨ **\'8\'**%1$s aktivoi **runsautta ja menestystä**. Avaa itsesi aineelliselle ja henkiselle kasvulle.</string>
+    <string name="digit_9_intro">✨ **\'9\'**%1$s osoittaa **tärkeän syklin päättymistä**. Päästä irti vanhasta tehdääksesi tilaa uudelle.</string>
+
+    <!-- Spezielle Zusammenfassungen & Energiefluss -->
+    <string name="summary_default">Pääviestisi: Kuuntele sisäistä ääntäsi, sinua ohjataan.</string>
+    <string name="energy_flow_default">Selkeys → Luottamus → Toiminta</string>
+    <string name="summary_99_1">Hyvin merkittävä karminen sykli on päättynyt. Tämä luo tilaa voimakkaalle uudelle alulle jumalallisessa ohjauksessa.</string>
+    <string name="energy_flow_99_1">Päätös → Vapautus → Uusi Alku</string>
+    <string name="summary_8_55">Massiivinen positiivinen muutos (tupla 5) tuo runsautta ja aineellista parannusta (8). Läpimurto on lähellä.</string>
+    <string name="energy_flow_8_55">Läpimurto → Vapaus → Vakaus</string>
+
+    <!-- Numerologie Spezielle Bedeutungen -->
+    <string name="numerology_unknown">Tuntematon</string>
+    <string name="master_number_11">(Mestariluku: Intuitio ja Valaistuminen)</string>
+    <string name="master_number_22">(Mestariluku: Mestarirakentaja ja Manifestaatio)</string>
+    <string name="master_number_33">(Mestariluku: Universaali Rakkaus ja Parantaminen)</string>
+    <string name="karmic_lesson_13">(Karminen Oppitunti: Kuri ja Työ)</string>
+    <string name="karmic_lesson_14">(Karminen Oppitunti: Vastuullinen Vapaus)</string>
+    <string name="karmic_lesson_16">(Karminen Oppitunti: Ego ja Jälleenrakennus)</string>
+    <string name="karmic_lesson_19">(Karminen Oppitunti: Valta ja Itsenäisyys)</string>
+    <!-- Neue Karmische Lektionen -->
+    <string name="karmic_lesson_4">(Karminen Oppitunti: Vakaus ja Prosessi)</string>
+    <string name="karmic_lesson_5">(Karminen Oppitunti: Muutoksen Pelko)</string>
+    <string name="karmic_lesson_6">(Karminen Oppitunti: Vastuu ja Sitoutuminen)</string>
+    <string name="karmic_lesson_8">(Karminen Oppitunti: Valta ja Raha)</string>
+
+    <!-- Numerologie Basis Bedeutungen -->
+    <string name="numerology_1">Uudet Alut ja Johtajuus</string>
+    <string name="numerology_2">Harmonia ja Tasapaino</string>
+    <string name="numerology_3">Luovuus ja Kasvu</string>
+    <string name="numerology_4">Vakaus ja Suoja</string>
+    <string name="numerology_5">Vapaus ja Muutos</string>
+    <string name="numerology_6">Rakkaus ja Harmonia</string>
+    <string name="numerology_7">Intuitio ja Herääminen</string>
+    <string name="numerology_8">Menestys ja Runsaus</string>
+    <string name="numerology_9">Päätös ja Viisaus</string>
+    <string name="numerology_11">Mestari-intuitio</string>
+    <string name="numerology_22">Mestarimanifestoija</string>
+    <string name="numerology_33">Mestariparantaja</string>
+
+    <!-- Numerologie Keywords -->
+    <string name="keyword_0">Lähde</string>
+    <string name="keyword_1">Uusi Alku</string>
+    <string name="keyword_2">Tasapaino</string>
+    <string name="keyword_3">Luovuus</string>
+    <string name="keyword_4">Vakaus</string>
+    <string name="keyword_5">Muutos</string>
+    <string name="keyword_6">Harmonia</string>
+    <string name="keyword_7">Intuitio</string>
+    <string name="keyword_8">Runsaus</string>
+    <string name="keyword_9">Päätös</string>
+</resources>
