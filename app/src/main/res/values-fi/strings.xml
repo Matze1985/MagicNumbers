@@ -3,6 +3,9 @@
     <!-- App Name -->
     <string name="app_name">Maagiset Numerot</string>
 
+    <!-- Frequency Label -->
+    <string name="frequency_label">Taajuus</string>
+
     <!-- UI Texte -->
     <string name="new_message">Uusi Viesti</string>
     <string name="copy_message">Kopioi viesti</string>
@@ -11,9 +14,8 @@
     <string name="message_for_the_moment">Hetken viesti: %1$s</string>
     <string name="your_cross_sum_is">Numeroidesi summa: %1$s</string>
     <string name="digit_occurrence">(esiintyy %1$dx, vahvistettu)</string>
-    <string name="frequency_label">Taajuus</string>
 
-    <!-- Abschnittsüberschriften -->
+    <!-- Section Headers -->
     <string name="section_vibration">🧬 Numeroiden Värähtely:</string>
     <string name="section_your_message">💌 Viestisi:</string>
     <string name="section_summary">✨ Lyhyesti:</string>
@@ -25,18 +27,18 @@
     <string name="digit_2_intro">✨ **\'2\'**%1$s tuo **tasapainoa ja harmoniaa**, erityisesti ihmissuhteissa. Et ole yksin.</string>
     <string name="digit_3_intro">✨ **\'3\'**%1$s aktivoi **luovuutta ja kommunikaatiota**. Ilmaise itseäsi, henkimaailma kuuntelee.</string>
     <string name="digit_4_intro">✨ **\'4\'**%1$s luo **vakaan perustan**. Tämä energia tuo suojaa ja järjestystä elämääsi.</string>
-    <string name="digit_5_intro">✨ **\'5\'**%1$s merkitsee **muutoksen ja vapauden** aaltoa. Ole avoin seikkailulle.</string>
+    <string name="digit_5_intro">✨ **\'5\'**%1$s merkitsee **muutoksen ja vapauden** aaltoa. Ole avoin seikkailulle ja vanhojen kahleiden murtamiselle.</string>
     <string name="digit_6_intro">✨ **\'6\'**%1$s keskittyy **sydämen ja kodin parantamiseen**. Perhe ja harmonia ovat nyt keskiössä.</string>
-    <string name="digit_7_intro">✨ **\'7\'**%1$s tekee **intuitiostasi tärkeimmän kompassin**. Katso sisäänpäin, vastaukset ovat siellä.</string>
-    <string name="digit_8_intro">✨ **\'8\'**%1$s aktivoi **runsautta ja menestystä**. Avaa itsesi aineelliselle ja henkiselle kasvulle.</string>
+    <string name="digit_7_intro">✨ **\'7\'**%1$s tekee **intuitiostasi tärkeimmän kompassin**. Katso sisäänpäin, totuus on siellä.</string>
+    <string name="digit_8_intro">✨ **\'8\'**%1$s aktivoi **runsautta ja menestystä**. Avaa itsesi aineelliselle ja henkiselle hyvinvoinnille.</string>
     <string name="digit_9_intro">✨ **\'9\'**%1$s osoittaa **tärkeän syklin päättymistä**. Päästä irti vanhasta tehdääksesi tilaa uudelle.</string>
 
     <!-- Spezielle Zusammenfassungen & Energiefluss -->
     <string name="summary_default">Pääviestisi: Kuuntele sisäistä ääntäsi, sinua ohjataan.</string>
     <string name="energy_flow_default">Selkeys → Luottamus → Toiminta</string>
-    <string name="summary_99_1">Hyvin merkittävä karminen sykli on päättynyt. Tämä luo tilaa voimakkaalle uudelle alulle jumalallisessa ohjauksessa.</string>
+    <string name="summary_99_1">Hyvin merkittävä karminen sykli on päättynyt lopullisesti. Tämä luo tilaa voimakkaalle uudelle alulle jumalallisessa ohjauksessa.</string>
     <string name="energy_flow_99_1">Päätös → Vapautus → Uusi Alku</string>
-    <string name="summary_8_55">Massiivinen positiivinen muutos (tupla 5) tuo runsautta ja aineellista parannusta (8). Läpimurto on lähellä.</string>
+    <string name="summary_8_55">Massiivinen positiivinen muutos (tupla 5) vie sinua kohti runsautta ja aineellista parannusta (8). Läpimurto on lähellä.</string>
     <string name="energy_flow_8_55">Läpimurto → Vapaus → Vakaus</string>
 
     <!-- Numerologie Spezielle Bedeutungen -->
@@ -44,15 +46,49 @@
     <string name="master_number_11">(Mestariluku: Intuitio ja Valaistuminen)</string>
     <string name="master_number_22">(Mestariluku: Mestarirakentaja ja Manifestaatio)</string>
     <string name="master_number_33">(Mestariluku: Universaali Rakkaus ja Parantaminen)</string>
+
     <string name="karmic_lesson_13">(Karminen Oppitunti: Kuri ja Työ)</string>
     <string name="karmic_lesson_14">(Karminen Oppitunti: Vastuullinen Vapaus)</string>
     <string name="karmic_lesson_16">(Karminen Oppitunti: Ego ja Jälleenrakennus)</string>
     <string name="karmic_lesson_19">(Karminen Oppitunti: Valta ja Itsenäisyys)</string>
-    <!-- Neue Karmische Lektionen -->
     <string name="karmic_lesson_4">(Karminen Oppitunti: Vakaus ja Prosessi)</string>
     <string name="karmic_lesson_5">(Karminen Oppitunti: Muutoksen Pelko)</string>
     <string name="karmic_lesson_6">(Karminen Oppitunti: Vastuu ja Sitoutuminen)</string>
     <string name="karmic_lesson_8">(Karminen Oppitunti: Valta ja Raha)</string>
+
+    <!-- Karmic Details: Basis (1-3) -->
+    <string name="karmic_detail_1">Nro 1: Uranuurtaja\n→ Rohkeutta yksilöllisyyteen\n→ Uusien polkujen kulkeminen pelotta</string>
+    <string name="karmic_detail_2">Nro 2: Diplomaatti\n→ Harmonian &amp; kärsivällisyyden oppiminen\n→ Luottamus kumppanuuksissa</string>
+    <string name="karmic_detail_3">Nro 3: Taiteilija\n→ Ilon &amp; luovuuden eläminen\n→ Itsekritiikistä irtipäästäminen</string>
+
+    <!-- Karmic Details: Core Numbers (4-9) -->
+    <string name="karmic_detail_4">Nro 4: Kärsivällisyys &amp; Luottamus\n→ Älä pakota asioita\n→ Luota jumalalliseen ajoitukseen\n→ Vakautta järjestyksen kautta</string>
+    <string name="karmic_detail_5">Nro 5: Pelon Muuntaminen\n→ Menetyksen &amp; puutteen pelosta vapautuminen\n→ Rohkeus paon sijaan\n→ Vapaus itsensä vastuuttamisen kautta</string>
+    <string name="karmic_detail_6">Nro 6: Ehdoton Rakkaus\n→ Ilman omistushalua &amp; odotuksia\n→ Anteeksianto (muille &amp; itselle)\n→ Rajojen asettaminen ilman syyllisyyttä</string>
+    <string name="karmic_detail_7">Nro 7: Henkinen Luottamus\n→ Intuitio kompassina\n→ Luottamus henkiseen ohjaukseen\n→ Kaksinaisuuden (valo &amp; varjo) yhdistäminen</string>
+    <string name="karmic_detail_8">Nro 8: Raha &amp; Runsaus\n→ Puutteen ajattelutavan purkaminen\n→ Antaminen &amp; vastaanottaminen tasapainossa\n→ Vastuu lahjoista</string>
+    <string name="karmic_detail_9">Nro 9: Päätös &amp; Viisaus\n→ Vanhoista loukkauksista irtipäästäminen\n→ Vanhojen karmisten syklien purkaminen\n→ Yhteisön palveleminen</string>
+
+    <!-- Karmic Details: Transitions (10-12) -->
+    <string name="karmic_detail_10">Nro 10: Kohtalonpyörä\n→ Uusi alku korkeammalla tasolla\n→ Johtajuuden ottaminen</string>
+    <string name="karmic_detail_11">Nro 11: Visionääri\n→ Henkinen valaistuminen\n→ Inspiraationa oleminen muille</string>
+    <string name="karmic_detail_12">Nro 12: Ymmärrys &amp; Viisaus\n→ Palveleminen ilman itsensä uhraamista\n→ Vanhojen uhriroolien jättäminen</string>
+
+    <!-- Classic Karmic Numbers (13, 14, 16, 19) -->
+    <string name="karmic_detail_13">Nro 13: Itsevastuu\n→ Lopeta syyllisten etsiminen ulkopuolelta\n→ Muunna ego, kontrolli &amp; oikeassa oleminen\n→ Oivalla: Olen elämäni kanssaluoja</string>
+    <string name="karmic_detail_14">Nro 14: Riippuvuuksista Vapautuminen\n→ Tunneperäinen, aineellinen &amp; energeettinen\n→ Vapaus pelkoon perustuvien siteiden sijaan\n→ Harjoita kohtuutta &amp; keskittymistä</string>
+    <string name="karmic_detail_16">Nro 16: Aitous &amp; Herääminen\n→ Oman totuuden eläminen\n→ Maskien ja roolien pudottaminen\n→ Peililain tunnistaminen</string>
+    <string name="karmic_detail_19">Nro 19: Itsearvostus &amp; Itserakkaus\n→ Älä määrittele itseäsi saavutusten kautta\n→ Kunnioita omia rajojasi\n→ Paranna valta &amp; voimattomuus</string>
+
+    <!-- Higher Vibrations (20-31) -->
+    <string name="karmic_detail_20">Nro 20: Herääminen\n→ Kärsivällisyys &amp; harkintakyky\n→ Henkinen diplomatia</string>
+    <string name="karmic_detail_21">Nro 21: Maailmanilmaisu\n→ Menestys pitkän matkan jälkeen\n→ Vastakohtien yhdistäminen</string>
+    <string name="karmic_detail_22">Nro 22: Mestarirakentaja\n→ Suurten unelmien manifestointi\n→ Käytännöllinen idealismi</string>
+    <string name="karmic_detail_23">Nro 23: Leijonan Kuninkaallinen Tähti\n→ Suoja &amp; Menestys\n→ Kommunikaatio &amp; Vapaus</string>
+    <string name="karmic_detail_24">Nro 24: Sydämen Parantaminen\n→ Ihmissuhdekarman ratkaiseminen\n→ Sielunsopimusten täyttäminen &amp; vapauttaminen</string>
+    <string name="karmic_detail_27">Nro 27: Yhteisön Palvelu\n→ Parantuminen ei vain itselle\n→ Vaikutuksen luominen muille</string>
+    <string name="karmic_detail_30">Nro 30: Luova Ilmaisu\n→ Tunteiden salliminen &amp; ilmaiseminen\n→ Tunteiden tunnistaminen opettajina</string>
+    <string name="karmic_detail_31">Nro 31: Vakaus Itseessä\n→ Kutsumus velvollisuuden sijaan\n→ Älä piilota lahjojasi</string>
 
     <!-- Numerologie Basis Bedeutungen -->
     <string name="numerology_1">Uudet Alut ja Johtajuus</string>

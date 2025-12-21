@@ -55,6 +55,40 @@
     <string name="karmic_lesson_6">(Karmische Lektion: Verantwortung &amp; Verpflichtung)</string>
     <string name="karmic_lesson_8">(Karmische Lektion: Macht &amp; Geld)</string>
 
+    <!-- Karmische Details: Basis (1-3) -->
+    <string name="karmic_detail_1">Nr. 1: Der Pionier\n→ Mut zur Individualität\n→ Neue Wege gehen ohne Angst</string>
+    <string name="karmic_detail_2">Nr. 2: Der Diplomat\n→ Harmonie &amp; Geduld lernen\n→ Vertrauen in Partnerschaften</string>
+    <string name="karmic_detail_3">Nr. 3: Der Künstler\n→ Freude &amp; Kreativität leben\n→ Selbstkritik ablegen</string>
+
+    <!-- Karmische Details: Kernzahlen (4-9) -->
+    <string name="karmic_detail_4">Nr. 4: Geduld &amp; Vertrauen\n→ Nicht alles erzwingen\n→ Vertrauen in göttliches Timing\n→ Stabilität durch Ordnung</string>
+    <string name="karmic_detail_5">Nr. 5: Angsttransformation\n→ Angst vor Verlust &amp; Mangel lösen\n→ Mut statt Flucht\n→ Freiheit durch Selbstverantwortung</string>
+    <string name="karmic_detail_6">Nr. 6: Bedingungslose Liebe\n→ Ohne Besitzanspruch &amp; Erwartungen\n→ Vergebung (anderen &amp; sich selbst)\n→ Grenzen setzen ohne Schuld</string>
+    <string name="karmic_detail_7">Nr. 7: Spirituelles Vertrauen\n→ Intuition als Kompass\n→ Vertrauen in die geistige Führung\n→ Dualität (Licht &amp; Schatten) integrieren</string>
+    <string name="karmic_detail_8">Nr. 8: Umgang mit Geld &amp; Fülle\n→ Mangelbewusstsein auflösen\n→ Geben &amp; Empfangen im Gleichgewicht\n→ Verantwortung für Talente</string>
+    <string name="karmic_detail_9">Nr. 9: Vollendung &amp; Weisheit\n→ Loslassen alter Verletzungen\n→ Auflösung alter karmischer Zyklen\n→ Dienst an der Gemeinschaft</string>
+
+    <!-- Karmische Details: Übergang (10-12) -->
+    <string name="karmic_detail_10">Nr. 10: Schicksalsrad\n→ Neuanfang auf höherer Ebene\n→ Führung übernehmen</string>
+    <string name="karmic_detail_11">Nr. 11: Der Visionär\n→ Spirituelle Erleuchtung\n→ Inspiration für andere sein</string>
+    <string name="karmic_detail_12">Nr. 12: Verständnis &amp; Weisheit\n→ Dienen ohne Selbstaufgabe\n→ Alte Opferrollen verlassen</string>
+
+    <!-- Klassische Karmische Zahlen (13, 14, 16, 19) -->
+    <string name="karmic_detail_13">Nr. 13: Selbstverantwortung\n→ Aufhören, Schuld im Außen zu suchen\n→ Ego, Kontrolle &amp; Rechthaberei transformieren\n→ Erkennen: Ich bin Mit-Schöpfer meines Lebens</string>
+    <string name="karmic_detail_14">Nr. 14: Loslassen von Abhängigkeiten\n→ Emotional, materiell &amp; energetisch\n→ Freiheit statt Bindung aus Angst\n→ Übe Mäßigung &amp; Fokus</string>
+    <!-- Hinweis: 15 wird hier übersprungen/reduziert, kann bei Bedarf ergänzt werden -->
+    <string name="karmic_detail_16">Nr. 16: Authentizität &amp; Erwachen\n→ Die eigene Wahrheit leben\n→ Masken und Rollen ablegen\n→ Spiegelgesetz erkennen</string>
+    <string name="karmic_detail_19">Nr. 19: Selbstwert &amp; Selbstliebe\n→ Sich nicht über Leistung definieren\n→ Eigene Grenzen respektieren\n→ Macht &amp; Ohnmacht heilen</string>
+
+    <!-- Höhere Schwingungen (20-31) -->
+    <string name="karmic_detail_20">Nr. 20: Erwachen\n→ Geduld &amp; Urteilsvermögen\n→ Spirituelle Diplomatie</string>
+    <string name="karmic_detail_21">Nr. 21: Weltausdruck\n→ Erfolg nach langer Reise\n→ Integration von Gegensätzen</string>
+    <string name="karmic_detail_22">Nr. 22: Der Baumeister\n→ Große Träume manifestieren\n→ Praktischer Idealismus</string>
+    <string name="karmic_detail_23">Nr. 23: Der königliche Stern des Löwen\n→ Schutz &amp; Erfolg\n→ Kommunikation &amp; Freiheit</string>
+    <string name="karmic_detail_24">Nr. 24: Heilung des Herzens\n→ Beziehungskarmische Lektionen lösen\n→ Seelenverträge erfüllen &amp; lösen</string>
+    <string name="karmic_detail_27">Nr. 27: Dienst an der Gemeinschaft\n→ Heilung nicht nur für sich selbst\n→ Wirkung für andere entfalten</string>
+    <string name="karmic_detail_30">Nr. 30: Kreativer Ausdruck\n→ Gefühle zulassen &amp; nicht verdrängen\n→ Emotionen als Lehrer erkennen</string>
+    <string name="karmic_detail_31">Nr. 31: Stabilität im Selbst\n→ Berufung statt Pflicht\n→ Gaben nicht verstecken</string>
 
     <!-- Numerologie Basis-Bedeutungen -->
     <string name="numerology_1">Neubeginn &amp; Führung</string>

@@ -48,15 +48,48 @@
     <string name="karmic_lesson_14">(Karmaline Õppetund: Vastutustundlik Vabadus)</string>
     <string name="karmic_lesson_16">(Karmaline Õppetund: Ego ja Ülesehitamine)</string>
     <string name="karmic_lesson_19">(Karmaline Õppetund: Võim ja Iseseisvus)</string>
-    <!-- Neue Karmische Lektionen -->
     <string name="karmic_lesson_4">(Karmaline Õppetund: Stabiilsus ja Protsess)</string>
     <string name="karmic_lesson_5">(Karmaline Õppetund: Hirm Muutuste Ees)</string>
     <string name="karmic_lesson_6">(Karmaline Õppetund: Vastutus ja Pühendumine)</string>
     <string name="karmic_lesson_8">(Karmaline Õppetund: Võim ja Raha)</string>
 
+    <!-- Karmalised detailid: Alus (1-3) -->
+    <string name="karmic_detail_1">Nr 1: Pioneer\n→ Julgus olla ainulaadne\n→ Käi uusi radu ilma hirmuta</string>
+    <string name="karmic_detail_2">Nr 2: Diplomaat\n→ Õpi harmooniat ja kannatlikkust\n→ Usaldus partnerlussuhetes</string>
+    <string name="karmic_detail_3">Nr 3: Kunstnik\n→ Ela rõõmu ja loovusega\n→ Lase lahti enesekriitikast</string>
+
+    <!-- Karmalised detailid: Tuum (4-9) -->
+    <string name="karmic_detail_4">Nr 4: Kannatlikkus ja Usaldus\n→ Ära sunni asju tagant\n→ Usalda jumalikku ajastust\n→ Stabiilsus läbi korra</string>
+    <string name="karmic_detail_5">Nr 5: Hirmu Teisendamine\n→ Vabane kaotus- ja puudusehirmust\n→ Julgus põgenemise asemel\n→ Vabadus läbi enesevastutuse</string>
+    <string name="karmic_detail_6">Nr 6: Tingimusteta Armastus\n→ Ilma omandi- ja ootusteta\n→ Andestus (teistele ja iseendale)\n→ Piiride seadmine ilma süütundeta</string>
+    <string name="karmic_detail_7">Nr 7: Vaimne Usaldus\n→ Intuitsioon kui kompass\n→ Usaldus vaimse juhatuse vastu\n→ Duaalsuse (valgus ja vari) integreerimine</string>
+    <string name="karmic_detail_8">Nr 8: Raha ja Küllus\n→ Puudusteadvuse lahustamine\n→ Andmise ja saamise tasakaal\n→ Vastutus annete eest</string>
+    <string name="karmic_detail_9">Nr 9: Lõpetamine ja Tarkus\n→ Lase lahti vanadest haavadest\n→ Vanade karmaliste tsüklite lahustamine\n→ Teenimine kogukonnale</string>
+
+    <!-- Karmalised detailid: Üleminekud (10-12) -->
+    <string name="karmic_detail_10">Nr 10: Saatuse Ratas\n→ Uus algus kõrgemal tasandil\n→ Juhtimise ülevõtmine</string>
+    <string name="karmic_detail_11">Nr 11: Visionäär\n→ Vaimne valgustumine\n→ Ole inspiratsiooniks teistele</string>
+    <string name="karmic_detail_12">Nr 12: Mõistmine ja Tarkus\n→ Teenimine ilma eneseohverduseta\n→ Vanadest ohvrirollidest loobumine</string>
+
+    <!-- Klassikalised Karmalised Numbrid (13, 14, 16, 19) -->
+    <string name="karmic_detail_13">Nr 13: Enesevastutus\n→ Lõpeta süü otsimine väljastpoolt\n→ Teisenda ego, kontroll ja õigustamine\n→ Mõista: Olen oma elu kaaslooja</string>
+    <string name="karmic_detail_14">Nr 14: Sõltuvustest Vabanemine\n→ Emotsionaalne, materiaalne ja energeetiline\n→ Vabadus hirmust lähtuva sideme asemel\n→ Praktiseeri mõõdukust ja fookust</string>
+    <string name="karmic_detail_16">Nr 16: Autentsus ja Ärkamine\n→ Ela oma tõe järgi\n→ Loobu maskidest ja rollidest\n→ Tunneta peegliseadust</string>
+    <string name="karmic_detail_19">Nr 19: Eneseväärtus ja Enesearmastus\n→ Ära defineeri end saavutuste kaudu\n→ Austa oma piire\n→ Tervenda võim ja võimetus</string>
+
+    <!-- Kõrgemad Vibratsioonid (20-31) -->
+    <string name="karmic_detail_20">Nr 20: Ärkamine\n→ Kannatlikkus ja otsustusvõime\n→ Vaimne diplomaatia</string>
+    <string name="karmic_detail_21">Nr 21: Maailma Väljendus\n→ Edu pärast pikka teekonda\n→ Vastandite integreerimine</string>
+    <string name="karmic_detail_22">Nr 22: Meisterehitaja\n→ Suurte unistuste manifesteerimine\n→ Praktiline idealism</string>
+    <string name="karmic_detail_23">Nr 23: Lõvi Kuninglik Täht\n→ Kaitse ja Edu\n→ Suhtlus ja Vabadus</string>
+    <string name="karmic_detail_24">Nr 24: Südame Tervendamine\n→ Suhtekarma õppetundide lahendamine\n→ Hinge lepingute täitmine ja vabastamine</string>
+    <string name="karmic_detail_27">Nr 27: Teenimine Kogukonnale\n→ Tervenemine mitte ainult enda jaoks\n→ Mõju loomine teistele</string>
+    <string name="karmic_detail_30">Nr 30: Loov Väljendus\n→ Luba ja väljenda tundeid\n→ Tunneta emotsioone kui õpetajaid</string>
+    <string name="karmic_detail_31">Nr 31: Stabiilsus Iseendas\n→ Kutsumus kohustuse asemel\n→ Ära peida oma andeid</string>
+
     <!-- Numerologie Basis Bedeutungen -->
     <string name="numerology_1">Uued Algused ja Juhtimine</string>
-    <string name="numerology_2">Harmoonia ja Tasakaalu</string>
+    <string name="numerology_2">Harmoonia ja Tasakaal</string>
     <string name="numerology_3">Loovus ja Kasv</string>
     <string name="numerology_4">Stabiilsus ja Kaitse</string>
     <string name="numerology_5">Vabadus ja Muutus</string>

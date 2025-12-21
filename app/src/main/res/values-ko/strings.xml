@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- App Name -->
     <string name="app_name">매직 넘버</string>
+
+    <!-- Frequency Label -->
+    <string name="frequency_label">주파수</string>
+
+    <!-- UI Texts -->
     <string name="new_message">새 메시지</string>
     <string name="copy_message">메시지 복사</string>
     <string name="clipboard_label">매직 메시지</string>
@@ -8,13 +14,14 @@
     <string name="message_for_the_moment">지금 이 순간의 메시지: %1$s</string>
     <string name="your_cross_sum_is">당신의 자릿수 합계: %1$s</string>
     <string name="digit_occurrence">(%1$d회 등장, 증폭됨)</string>
-    <string name="frequency_label">주파수</string>
 
+    <!-- Section Headers -->
     <string name="section_vibration">🧬 숫자의 진동:</string>
     <string name="section_your_message">💌 당신의 메시지:</string>
     <string name="section_summary">✨ 요약:</string>
     <string name="section_energy">⚡️ 에너지:</string>
 
+    <!-- Main Message Templates (per digit) -->
     <string name="digit_0_intro">✨ **\'0\'**%1$s은(는) 모든 것을 증폭시킵니다. 신성한 존재와 무한한 잠재력의 신호입니다.</string>
     <string name="digit_1_intro">✨ **\'1\'**%1$s은(는) **강력한 새로운 시작**을 알립니다. 당신의 생각이 빠르게 현실화되고 있습니다.</string>
     <string name="digit_2_intro">✨ **\'2\'**%1$s은(는) 특히 관계에서 **균형과 조화**를 가져옵니다. 당신은 혼자가 아닙니다.</string>
@@ -26,6 +33,7 @@
     <string name="digit_8_intro">✨ **\'8\'**%1$s은(는) **풍요와 성공**의 에너지를 활성화합니다. 물질적, 영적 성장에 자신을 여세요.</string>
     <string name="digit_9_intro">✨ **\'9\'**%1$s은(는) **중요한 주기의 완료**를 의미합니다. 새로운 것을 위해 오래된 것을 놓아주세요.</string>
 
+    <!-- Specific Summaries & Energy Flows -->
     <string name="summary_default">핵심 메시지: 내면의 목소리에 귀를 기울이세요, 당신은 인도받고 있습니다.</string>
     <string name="energy_flow_default">명료함 → 신뢰 → 행동</string>
     <string name="summary_99_1">매우 중요한 카르마 주기가 끝났습니다. 이는 신성한 인도 하에 강력한 새로운 시작을 위한 공간을 만듭니다.</string>
@@ -33,10 +41,12 @@
     <string name="summary_8_55">거대한 긍정적 변화(더블 5)가 풍요와 물질적 개선(8)을 가져옵니다. 돌파구가 눈앞에 있습니다.</string>
     <string name="energy_flow_8_55">돌파구 → 자유 → 안정</string>
 
+    <!-- Numerology Special Meanings -->
     <string name="numerology_unknown">알 수 없음</string>
     <string name="master_number_11">(마스터 넘버: 직관과 깨달음)</string>
     <string name="master_number_22">(마스터 넘버: 마스터 빌더와 현실화)</string>
     <string name="master_number_33">(마스터 넘버: 보편적 사랑과 치유)</string>
+
     <string name="karmic_lesson_13">(카르마 교훈: 규율과 노동)</string>
     <string name="karmic_lesson_14">(카르마 교훈: 책임감 있는 자유)</string>
     <string name="karmic_lesson_16">(카르마 교훈: 자아와 재건)</string>
@@ -46,6 +56,41 @@
     <string name="karmic_lesson_6">(카르마 교훈: 책임과 헌신)</string>
     <string name="karmic_lesson_8">(카르마 교훈: 권력과 돈)</string>
 
+    <!-- Karmic Details: Basis (1-3) -->
+    <string name="karmic_detail_1">No. 1: 개척자\n→ 개성을 위한 용기\n→ 두려움 없이 새로운 길을 걷기</string>
+    <string name="karmic_detail_2">No. 2: 외교관\n→ 조화와 인내 배우기\n→ 파트너십에서의 신뢰</string>
+    <string name="karmic_detail_3">No. 3: 예술가\n→ 기쁨과 창의성으로 살기\n→ 자기 비판 놓아주기</string>
+
+    <!-- Karmic Details: Core Numbers (4-9) -->
+    <string name="karmic_detail_4">No. 4: 인내와 신뢰\n→ 억지로 강요하지 않기\n→ 신성한 타이밍을 신뢰하기\n→ 질서를 통한 안정</string>
+    <string name="karmic_detail_5">No. 5: 두려움의 변형\n→ 상실과 결핍에 대한 두려움 해소\n→ 도피 대신 용기\n→ 자기 책임을 통한 자유</string>
+    <string name="karmic_detail_6">No. 6: 조건 없는 사랑\n→ 소유욕과 기대 없이\n→ 용서 (타인과 자신에게)\n→ 죄책감 없이 경계 설정하기</string>
+    <string name="karmic_detail_7">No. 7: 영적 신뢰\n→ 나침반으로서의 직관\n→ 영적 인도에 대한 신뢰\n→ 이원성(빛과 그림자) 통합</string>
+    <string name="karmic_detail_8">No. 8: 돈과 풍요\n→ 결핍 의식 해소\n→ 주고받음의 균형\n→ 재능에 대한 책임</string>
+    <string name="karmic_detail_9">No. 9: 완료와 지혜\n→ 오래된 상처 놓아주기\n→ 오래된 카르마 주기 해소\n→ 공동체에 봉사</string>
+
+    <!-- Karmic Details: Transitions (10-12) -->
+    <string name="karmic_detail_10">No. 10: 운명의 수레바퀴\n→ 더 높은 차원에서의 새로운 시작\n→ 리더십 발휘</string>
+    <string name="karmic_detail_11">No. 11: 비전가\n→ 영적 깨달음\n→ 타인에게 영감이 되기</string>
+    <string name="karmic_detail_12">No. 12: 이해와 지혜\n→ 자기 희생 없는 봉사\n→ 오래된 피해자 역할 떠나기</string>
+
+    <!-- Classic Karmic Numbers (13, 14, 16, 19) -->
+    <string name="karmic_detail_13">No. 13: 자기 책임\n→ 외부에서 비난 찾기 멈추기\n→ 에고, 통제, 독선 변형하기\n→ 깨닫기: 나는 내 인생의 공동 창조자입니다</string>
+    <string name="karmic_detail_14">No. 14: 의존성 해방\n→ 감정적, 물질적, 에너지적\n→ 두려움에 의한 결속 대신 자유\n→ 절제와 집중 연습하기</string>
+    <string name="karmic_detail_16">No. 16: 진정성과 각성\n→ 자신의 진실대로 살기\n→ 가면과 역할 벗어던지기\n→ 거울의 법칙 인식하기</string>
+    <string name="karmic_detail_19">No. 19: 자존감과 자기애\n→ 성취로 자신을 정의하지 않기\n→ 자신의 경계 존중하기\n→ 힘과 무력감 치유하기</string>
+
+    <!-- Higher Vibrations (20-31) -->
+    <string name="karmic_detail_20">No. 20: 각성\n→ 인내와 분별력\n→ 영적 외교</string>
+    <string name="karmic_detail_21">No. 21: 세계적 표현\n→ 긴 여정 후의 성공\n→ 대립의 통합</string>
+    <string name="karmic_detail_22">No. 22: 마스터 빌더\n→ 큰 꿈의 현실화\n→ 실용적 이상주의</string>
+    <string name="karmic_detail_23">No. 23: 사자의 로열 스타\n→ 보호와 성공\n→ 소통과 자유</string>
+    <string name="karmic_detail_24">No. 24: 마음의 치유\n→ 관계 카르마 해결\n→ 영혼 계약 이행 및 해제</string>
+    <string name="karmic_detail_27">No. 27: 공동체 봉사\n→ 자신뿐만 아니라 타인을 위한 치유\n→ 타인에게 영향력 행사</string>
+    <string name="karmic_detail_30">No. 30: 창의적 표현\n→ 감정 허용 및 표현\n→ 감정을 스승으로 인식하기</string>
+    <string name="karmic_detail_31">No. 31: 내면의 안정\n→ 의무 대신 소명\n→ 재능을 숨기지 마세요</string>
+
+    <!-- Numerology Basic Meanings -->
     <string name="numerology_1">새로운 시작과 리더십</string>
     <string name="numerology_2">조화와 균형</string>
     <string name="numerology_3">창의성과 성장</string>
@@ -59,6 +104,7 @@
     <string name="numerology_22">마스터 현실화</string>
     <string name="numerology_33">마스터 힐러</string>
 
+    <!-- Numerology Keywords -->
     <string name="keyword_0">근원</string>
     <string name="keyword_1">새로운 시작</string>
     <string name="keyword_2">균형</string>

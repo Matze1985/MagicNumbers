@@ -3,6 +3,9 @@
     <!-- App Name -->
     <string name="app_name">Maģiskie Skaitļi</string>
 
+    <!-- Frequency Label -->
+    <string name="frequency_label">Frekvence</string>
+
     <!-- UI Texte -->
     <string name="new_message">Jauna Ziņa</string>
     <string name="copy_message">Kopēt ziņu</string>
@@ -11,7 +14,6 @@
     <string name="message_for_the_moment">Mirkļa ziņa: %1$s</string>
     <string name="your_cross_sum_is">Tavs ciparu summa: %1$s</string>
     <string name="digit_occurrence">(parādās %1$d reizes, pastiprināts)</string>
-    <string name="frequency_label">Frekvence</string>
 
     <!-- Abschnittsüberschriften -->
     <string name="section_vibration">🧬 Skaitļu Vibrācija:</string>
@@ -44,15 +46,49 @@
     <string name="master_number_11">(Meistara Skaitlis: Intuīcija un Apgaismība)</string>
     <string name="master_number_22">(Meistara Skaitlis: Meistars Būvnieks un Manifestācija)</string>
     <string name="master_number_33">(Meistara Skaitlis: Universāla Mīlestība un Dziedināšana)</string>
+
     <string name="karmic_lesson_13">(Karmiskā Mācība: Disciplīna un Darbs)</string>
     <string name="karmic_lesson_14">(Karmiskā Mācība: Atbildīga Brīvība)</string>
     <string name="karmic_lesson_16">(Karmiskā Mācība: Ego un Atjaunošana)</string>
     <string name="karmic_lesson_19">(Karmiskā Mācība: Vara un Neatkarība)</string>
-    <!-- Neue Karmische Lektionen -->
     <string name="karmic_lesson_4">(Karmiskā Mācība: Stabilitāte un Process)</string>
     <string name="karmic_lesson_5">(Karmiskā Mācība: Bailes no Pārmaiņām)</string>
     <string name="karmic_lesson_6">(Karmiskā Mācība: Atbildība un Saistības)</string>
     <string name="karmic_lesson_8">(Karmiskā Mācība: Vara un Nauda)</string>
+
+    <!-- Karmic Details: Basis (1-3) -->
+    <string name="karmic_detail_1">Nr. 1: Pionieris\n→ Drosme individualitātei\n→ Iet jaunus ceļus bez bailēm</string>
+    <string name="karmic_detail_2">Nr. 2: Diplomāts\n→ Mācīties harmoniju un pacietību\n→ Uzticēšanās partnerattiecībās</string>
+    <string name="karmic_detail_3">Nr. 3: Mākslinieks\n→ Dzīvot priekā un radošumā\n→ Atlaist paškritiku</string>
+
+    <!-- Karmic Details: Core Numbers (4-9) -->
+    <string name="karmic_detail_4">Nr. 4: Pacietība un Uzticēšanās\n→ Nespied lietas ar varu\n→ Uzticēšanās dievišķajam laikam\n→ Stabilitāte caur kārtību</string>
+    <string name="karmic_detail_5">Nr. 5: Baiļu transformācija\n→ Atbrīvošanās no bailēm zaudēt un trūkuma\n→ Drosme bēgšanas vietā\n→ Brīvība caur pašatbildību</string>
+    <string name="karmic_detail_6">Nr. 6: Beznosacījumu mīlestība\n→ Bez īpašnieciskuma un gaidām\n→ Piedošana (citiem un sev)\n→ Robežu noteikšana bez vainas apziņas</string>
+    <string name="karmic_detail_7">Nr. 7: Garīgā uzticēšanās\n→ Intuīcija kā kompass\n→ Uzticēšanās garīgajai vadībai\n→ Dualitātes (gaisma un ēna) integrācija</string>
+    <string name="karmic_detail_8">Nr. 8: Nauda un Pārpilnība\n→ Trūkuma apziņas šķīdināšana\n→ Došana un ņemšana līdzsvarā\n→ Atbildība par talantiem</string>
+    <string name="karmic_detail_9">Nr. 9: Noslēgums un Gudrība\n→ Vecu brūču atlaišana\n→ Vecu karmisko ciklu šķīdināšana\n→ Kalpošana kopienai</string>
+
+    <!-- Karmic Details: Transitions (10-12) -->
+    <string name="karmic_detail_10">Nr. 10: Laimes Rats\n→ Jauns sākums augstākā līmenī\n→ Vadības uzņemšanās</string>
+    <string name="karmic_detail_11">Nr. 11: Visionārs\n→ Garīgā apgaismība\n→ Būt par iedvesmu citiem</string>
+    <string name="karmic_detail_12">Nr. 12: Sapratne un Gudrība\n→ Kalpošana bez pašuzupurēšanās\n→ Vecu upura lomu pamešana</string>
+
+    <!-- Classic Karmic Numbers (13, 14, 16, 19) -->
+    <string name="karmic_detail_13">Nr. 13: Pašatbildība\n→ Pārtraukt meklēt vainīgos ārpusē\n→ Transformēt ego, kontroli un paštaisnību\n→ Apzināties: Esmu savas dzīves līdzradītājs</string>
+    <string name="karmic_detail_14">Nr. 14: Atkarību atlaišana\n→ Emocionāla, materiāla un enerģētiska\n→ Brīvība baiļu sasaistes vietā\n→ Praktizēt mērenību un fokusu</string>
+    <string name="karmic_detail_16">Nr. 16: Autentiskums un Atmoda\n→ Dzīvot savu patiesību\n→ Nomest maskas un lomas\n→ Atpazīt spoguļa likumu</string>
+    <string name="karmic_detail_19">Nr. 19: Pašvērtējums un Mīlestība pret sevi\n→ Nedefinēt sevi caur sasniegumiem\n→ Cienīt savas robežas\n→ Dziedināt varu un bezspēcību</string>
+
+    <!-- Higher Vibrations (20-31) -->
+    <string name="karmic_detail_20">Nr. 20: Atmoda\n→ Pacietība un spriestspēja\n→ Garīgā diplomātija</string>
+    <string name="karmic_detail_21">Nr. 21: Pasaules izpausme\n→ Panākumi pēc gara ceļojuma\n→ Pretstatu integrācija</string>
+    <string name="karmic_detail_22">Nr. 22: Meistars Būvnieks\n→ Lielu sapņu manifestēšana\n→ Praktisks ideālisms</string>
+    <string name="karmic_detail_23">Nr. 23: Lauvas Karaliskā Zvaigzne\n→ Aizsardzība un Panākumi\n→ Komunikācija un Brīvība</string>
+    <string name="karmic_detail_24">Nr. 24: Sirds dziedināšana\n→ Attiecību karmas risināšana\n→ Dvēseles līgumu izpilde un atbrīvošana</string>
+    <string name="karmic_detail_27">Nr. 27: Kalpošana kopienai\n→ Dziedināšana ne tikai sev\n→ Radīt ietekmi citiem</string>
+    <string name="karmic_detail_30">Nr. 30: Radoša izpausme\n→ Ļaut un izpaust jūtas\n→ Atpazīt emocijas kā skolotājus</string>
+    <string name="karmic_detail_31">Nr. 31: Stabilitāte sevī\n→ Aicinājums pienākuma vietā\n→ Neslēp savas dāvanas</string>
 
     <!-- Numerologie Basis Bedeutungen -->
     <string name="numerology_1">Jauni Sākumi un Līderība</string>

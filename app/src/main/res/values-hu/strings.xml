@@ -3,6 +3,9 @@
     <!-- App Name -->
     <string name="app_name">Mágikus Számok</string>
 
+    <!-- Frequency Label -->
+    <string name="frequency_label">Frekvencia</string>
+
     <!-- UI Texte -->
     <string name="new_message">Új Üzenet</string>
     <string name="copy_message">Üzenet másolása</string>
@@ -11,7 +14,6 @@
     <string name="message_for_the_moment">A pillanat üzenete: %1$s</string>
     <string name="your_cross_sum_is">A keresztösszeged: %1$s</string>
     <string name="digit_occurrence">(%1$dx jelenik meg, felerősítve)</string>
-    <string name="frequency_label">Frekvencia</string>
 
     <!-- Abschnittsüberschriften -->
     <string name="section_vibration">🧬 A Számok Rezgése:</string>
@@ -44,15 +46,49 @@
     <string name="master_number_11">(Mester Szám: Intuíció és Megvilágosodás)</string>
     <string name="master_number_22">(Mester Szám: Mesterépítő és Manifesztáció)</string>
     <string name="master_number_33">(Mester Szám: Univerzális Szeretet és Gyógyítás)</string>
+
     <string name="karmic_lesson_13">(Karmikus Lecke: Fegyelem és Munka)</string>
     <string name="karmic_lesson_14">(Karmikus Lecke: Felelősségteljes Szabadság)</string>
     <string name="karmic_lesson_16">(Karmikus Lecke: Egó és Újjáépítés)</string>
     <string name="karmic_lesson_19">(Karmikus Lecke: Hatalom és Függetlenség)</string>
-    <!-- Neue Karmische Lektionen -->
     <string name="karmic_lesson_4">(Karmikus Lecke: Stabilitás és Folyamat)</string>
     <string name="karmic_lesson_5">(Karmikus Lecke: Félelem a változástól)</string>
     <string name="karmic_lesson_6">(Karmikus Lecke: Felelősség és Elkötelezettség)</string>
     <string name="karmic_lesson_8">(Karmikus Lecke: Hatalom és Pénz)</string>
+
+    <!-- Karmikus Részletek: Alapok (1-3) -->
+    <string name="karmic_detail_1">1. sz.: Az Úttörő\n→ Bátorság az egyéniséghez\n→ Új utakon járni félelem nélkül</string>
+    <string name="karmic_detail_2">2. sz.: A Diplomata\n→ Harmónia és türelem tanulása\n→ Bizalom a kapcsolatokban</string>
+    <string name="karmic_detail_3">3. sz.: A Művész\n→ Öröm és kreativitás megélése\n→ Önkritika elengedése</string>
+
+    <!-- Karmikus Részletek: Törzsszámok (4-9) -->
+    <string name="karmic_detail_4">4. sz.: Türelem és Bizalom\n→ Ne erőltesd a dolgokat\n→ Bizalom az isteni időzítésben\n→ Stabilitás a rend által</string>
+    <string name="karmic_detail_5">5. sz.: A félelem átalakítása\n→ Veszteségtől és hiánytól való félelem elengedése\n→ Bátorság a menekülés helyett\n→ Szabadság az önfelelősség által</string>
+    <string name="karmic_detail_6">6. sz.: Feltétel nélküli szeretet\n→ Birtoklási vágy és elvárások nélkül\n→ Megbocsátás (másoknak és önmagadnak)\n→ Határok húzása bűntudat nélkül</string>
+    <string name="karmic_detail_7">7. sz.: Spirituális bizalom\n→ Az intuíció mint iránytű\n→ Bizalom a szellemi vezetésben\n→ A dualitás (fény és árnyék) integrálása</string>
+    <string name="karmic_detail_8">8. sz.: Pénz és Bőség\n→ A hiánytudat feloldása\n→ Adás és kapás egyensúlyban\n→ Felelősség a tehetségekért</string>
+    <string name="karmic_detail_9">9. sz.: Lezárás és Bölcsesség\n→ Régi sérelmek elengedése\n→ Régi karmikus ciklusok feloldása\n→ Szolgálat a közösségnek</string>
+
+    <!-- Karmikus Részletek: Átmenetek (10-12) -->
+    <string name="karmic_detail_10">10. sz.: A Szerencsekerék\n→ Új kezdet magasabb szinten\n→ Vezetés átvétele</string>
+    <string name="karmic_detail_11">11. sz.: A Látnok\n→ Spirituális megvilágosodás\n→ Inspiráció mások számára</string>
+    <string name="karmic_detail_12">12. sz.: Megértés és Bölcsesség\n→ Szolgálat önfeláldozás nélkül\n→ Régi áldozati szerepek elhagyása</string>
+
+    <!-- Klasszikus Karmikus Számok (13, 14, 16, 19) -->
+    <string name="karmic_detail_13">13. sz.: Önálló felelősségvállalás\n→ Ne keress bűnbakot kívül\n→ Egó, kontroll és önigazolás átalakítása\n→ Felismerés: Életem tárateremtője vagyok</string>
+    <string name="karmic_detail_14">14. sz.: Függőségek elengedése\n→ Érzelmi, anyagi és energetikai\n→ Szabadság a félelemből fakadó kötődés helyett\n→ Mértékletesség és fókusz gyakorlása</string>
+    <string name="karmic_detail_16">16. sz.: Hitelesség és Ébredés\n→ Saját igazságod megélése\n→ Maszkok és szerepek eldobása\n→ A tükör törvényének felismerése</string>
+    <string name="karmic_detail_19">19. sz.: Önértékelés és Önszeretet\n→ Ne a teljesítmény határozzon meg\n→ Saját határok tisztelete\n→ Hatalom és tehetetlenség gyógyítása</string>
+
+    <!-- Magasabb Rezgések (20-31) -->
+    <string name="karmic_detail_20">20. sz.: Ébredés\n→ Türelem és ítélőképesség\n→ Spirituális diplomácia</string>
+    <string name="karmic_detail_21">21. sz.: Világkifejezés\n→ Siker egy hosszú út után\n→ Ellentétek integrálása</string>
+    <string name="karmic_detail_22">22. sz.: Mesterépítő\n→ Nagy álmok megvalósítása\n→ Gyakorlati idealizmus</string>
+    <string name="karmic_detail_23">23. sz.: Az Oroszlán Királyi Csillaga\n→ Védelem és Siker\n→ Kommunikáció és Szabadság</string>
+    <string name="karmic_detail_24">24. sz.: A Szív Gyógyítása\n→ Párkapcsolati karma oldása\n→ Lélekszerződések teljesítése és elengedése</string>
+    <string name="karmic_detail_27">27. sz.: Szolgálat a közösségnek\n→ Gyógyulás nem csak magadnak\n→ Hatás gyakorlása másokra</string>
+    <string name="karmic_detail_30">30. sz.: Kreatív kifejezés\n→ Érzések megengedése és kifejezése\n→ Az érzelmek mint tanítók felismerése</string>
+    <string name="karmic_detail_31">31. sz.: Stabilitás az Önvalóban\n→ Elhivatottság a kötelesség helyett\n→ Ne rejtsd el az ajándékaidat</string>
 
     <!-- Numerologie Basis Bedeutungen -->
     <string name="numerology_1">Új Kezdetek és Vezetés</string>

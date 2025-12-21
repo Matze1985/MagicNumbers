@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Tên ứng dụng -->
     <string name="app_name">Con Số Kỳ Diệu</string>
+
+    <!-- Nhãn giao diện người dùng -->
     <string name="new_message">Thông Điệp Mới</string>
     <string name="copy_message">Sao chép thông điệp</string>
     <string name="clipboard_label">Thông Điệp Kỳ Diệu</string>
@@ -10,22 +13,25 @@
     <string name="digit_occurrence">(xuất hiện %1$d lần, được khuếch đại)</string>
     <string name="frequency_label">Tần số</string>
 
+    <!-- Tiêu đề các phần -->
     <string name="section_vibration">🧬 Rung Động Của Các Con Số:</string>
     <string name="section_your_message">💌 Thông Điệp Của Bạn:</string>
     <string name="section_summary">✨ Tóm Tắt:</string>
     <string name="section_energy">⚡️ Dòng Năng Lượng:</string>
 
+    <!-- Mẫu thông điệp của các con số -->
     <string name="digit_0_intro">✨ **\'0\'**%1$s khuếch đại mọi thứ. Đó là dấu hiệu của sự hiện diện thần thánh và tiềm năng vô hạn.</string>
     <string name="digit_1_intro">✨ **\'1\'**%1$s mời gọi một **khởi đầu mới mạnh mẽ**. Suy nghĩ của bạn đang hiện thực hóa nhanh chóng.</string>
     <string name="digit_2_intro">✨ **\'2\'**%1$s mang lại **sự cân bằng và hài hòa**, đặc biệt là trong các mối quan hệ. Bạn không đơn độc.</string>
     <string name="digit_3_intro">✨ **\'3\'**%1$s kích hoạt **sáng tạo và giao tiếp**. Hãy thể hiện bản thân, thế giới tâm linh đang lắng nghe.</string>
     <string name="digit_4_intro">✨ **\'4\'**%1$s tạo ra một **nền tảng vững chắc**. Năng lượng này mang lại sự bảo vệ và trật tự cho cuộc sống của bạn.</string>
-    <string name="digit_5_intro">✨ **\'5\'**%1$s báo hiệu một làn sóng của **thay đổi và tự do**. Hãy cởi mở với những cuộc phiêu lưu.</string>
+    <string name="digit_5_intro">✨ **\'5\'**%1$s báo hiệu một làn sóng của **thay đổi và tự do**. Hãy cởi mở với những cuộc phiêu lưu và phá vỡ xiềng xích cũ.</string>
     <string name="digit_6_intro">✨ **\'6\'**%1$s tập trung vào **chữa lành trái tim và gia đình**. Gia đình và sự hài hòa là trung tâm lúc này.</string>
     <string name="digit_7_intro">✨ **\'7\'**%1$s biến **trực giác của bạn thành chiếc la bàn quan trọng nhất**. Hãy nhìn vào bên trong, câu trả lời đang ở đó.</string>
     <string name="digit_8_intro">✨ **\'8\'**%1$s kích hoạt năng lượng của **sự phong phú và thành công**. Hãy mở lòng đón nhận sự phát triển về vật chất và tinh thần.</string>
     <string name="digit_9_intro">✨ **\'9\'**%1$s chỉ ra **sự kết thúc của một chu kỳ quan trọng**. Hãy buông bỏ cái cũ để nhường chỗ cho cái mới.</string>
 
+    <!-- Tóm tắt đặc biệt & Dòng năng lượng -->
     <string name="summary_default">Thông điệp chính của bạn: Lắng nghe tiếng nói bên trong, bạn đang được dẫn dắt.</string>
     <string name="energy_flow_default">Rõ ràng → Tin tưởng → Hành động</string>
     <string name="summary_99_1">Một chu kỳ nghiệp quả rất quan trọng đã kết thúc. Điều này tạo ra không gian cho một khởi đầu mới mạnh mẽ dưới sự dẫn dắt của thần thánh.</string>
@@ -33,6 +39,7 @@
     <string name="summary_8_55">Một sự thay đổi tích cực lớn (số 5 kép) mang lại sự phong phú và cải thiện vật chất (8). Sự đột phá đang ở rất gần.</string>
     <string name="energy_flow_8_55">Đột phá → Tự do → Ổn định</string>
 
+    <!-- Ý nghĩa đặc biệt trong Thần số học -->
     <string name="numerology_unknown">Không xác định</string>
     <string name="master_number_11">(Số Bậc Thầy: Trực giác và Giác ngộ)</string>
     <string name="master_number_22">(Số Bậc Thầy: Kiến tạo và Hiện thực hóa)</string>
@@ -46,6 +53,41 @@
     <string name="karmic_lesson_6">(Bài học Nghiệp quả: Trách nhiệm và Cam kết)</string>
     <string name="karmic_lesson_8">(Bài học Nghiệp quả: Quyền lực và Tiền bạc)</string>
 
+    <!-- Chi tiết Nghiệp quả: Nền tảng (1-3) -->
+    <string name="karmic_detail_1">Số 1: Người tiên phong\n→ Can đảm thể hiện cá tính\n→ Đi trên những con đường mới không sợ hãi</string>
+    <string name="karmic_detail_2">Số 2: Nhà ngoại giao\n→ Học hỏi sự hài hòa và kiên nhẫn\n→ Tin tưởng vào các mối quan hệ đối tác</string>
+    <string name="karmic_detail_3">Số 3: Người nghệ sĩ\n→ Sống trong niềm vui và sự sáng tạo\n→ Buông bỏ sự tự phê bình</string>
+
+    <!-- Chi tiết Nghiệp quả: Các con số cốt lõi (4-9) -->
+    <string name="karmic_detail_4">Số 4: Kiên nhẫn &amp; Tin tưởng\n→ Đừng cố gắng thúc ép mọi việc\n→ Tin vào thời điểm thiêng liêng\n→ Ổn định thông qua trật tự</string>
+    <string name="karmic_detail_5">Số 5: Chuyển hóa nỗi sợ\n→ Buông bỏ nỗi sợ mất mát và thiếu thốn\n→ Dũng cảm thay vì trốn chạy\n→ Tự do thông qua tự chịu trách nhiệm</string>
+    <string name="karmic_detail_6">Số 6: Tình yêu vô điều kiện\n→ Không chiếm hữu và mong đợi\n→ Tha thứ (cho người khác và cho chính mình)\n→ Đặt ra ranh giới mà không cảm thấy tội lỗi</string>
+    <string name="karmic_detail_7">Số 7: Niềm tin tâm linh\n→ Trực giác là la bàn\n→ Tin tưởng vào sự dẫn dắt tâm linh\n→ Tích hợp tính hai mặt (ánh sáng và bóng tối)</string>
+    <string name="karmic_detail_8">Số 8: Tiền bạc &amp; Sự thịnh vượng\n→ Xóa bỏ tư duy thiếu thốn\n→ Cân bằng giữa cho và nhận\n→ Chịu trách nhiệm với tài năng của mình</string>
+    <string name="karmic_detail_9">Số 9: Hoàn thành &amp; Trí tuệ\n→ Buông bỏ những vết thương cũ\n→ Giải quyết các chu kỳ nghiệp quả cũ\n→ Phụng sự cộng đồng</string>
+
+    <!-- Chi tiết Nghiệp quả: Giai đoạn chuyển tiếp (10-12) -->
+    <string name="karmic_detail_10">Số 10: Bánh xe Vận mệnh\n→ Khởi đầu mới ở một cấp độ cao hơn\n→ Đảm nhận vai trò lãnh đạo</string>
+    <string name="karmic_detail_11">Số 11: Người có tầm nhìn\n→ Giác ngộ tâm linh\n→ Trở thành nguồn cảm hứng cho người khác</string>
+    <string name="karmic_detail_12">Số 12: Thấu hiểu &amp; Trí tuệ\n→ Phụng sự mà không hy sinh bản thân\n→ Từ bỏ vai trò nạn nhân cũ</string>
+
+    <!-- Các con số Nghiệp quả Cổ điển (13, 14, 16, 19) -->
+    <string name="karmic_detail_13">Số 13: Tự chịu trách nhiệm\n→ Ngừng tìm kiếm lỗi lầm bên ngoài\n→ Chuyển hóa cái tôi, sự kiểm soát và cố chấp\n→ Nhận ra: Tôi là người đồng sáng tạo cuộc đời mình</string>
+    <string name="karmic_detail_14">Số 14: Giải thoát khỏi sự phụ thuộc\n→ Về cảm xúc, vật chất và năng lượng\n→ Tự do thay vì ràng buộc bởi nỗi sợ\n→ Thực hành sự điều độ và tập trung</string>
+    <string name="karmic_detail_16">Số 16: Tính xác thực &amp; Thức tỉnh\n→ Sống với sự thật của chính mình\n→ Vứt bỏ mặt nạ và vai diễn\n→ Nhận ra quy luật của tấm gương</string>
+    <string name="karmic_detail_19">Số 19: Lòng tự trọng &amp; Tình yêu bản thân\n→ Đừng định nghĩa bản thân qua thành tích\n→ Tôn trọng ranh giới của chính mình\n→ Chữa lành các vấn đề về quyền lực và bất lực</string>
+
+    <!-- Rung động cao hơn (20-31) -->
+    <string name="karmic_detail_20">Số 20: Thức tỉnh\n→ Kiên nhẫn và khả năng phán đoán\n→ Ngoại giao tâm linh</string>
+    <string name="karmic_detail_21">Số 21: Biểu hiện Toàn cầu\n→ Thành công sau một hành trình dài\n→ Tích hợp các mặt đối lập</string>
+    <string name="karmic_detail_22">Số 22: Bậc thầy Kiến tạo\n→ Hiện thực hóa những giấc mơ lớn\n→ Chủ nghĩa duy tâm thực tế</string>
+    <string name="karmic_detail_23">Số 23: Ngôi sao Hoàng gia của Sư tử\n→ Sự bảo vệ và Thành công\n→ Giao tiếp và Tự do</string>
+    <string name="karmic_detail_24">Số 24: Chữa lành Trái tim\n→ Giải quyết nghiệp quả trong mối quan hệ\n→ Hoàn thành và giải phóng các hợp đồng linh hồn</string>
+    <string name="karmic_detail_27">Số 27: Phụng sự Cộng đồng\n→ Chữa lành không chỉ cho bản thân\n→ Tạo ra tác động cho người khác</string>
+    <string name="karmic_detail_30">Số 30: Biểu hiện Sáng tạo\n→ Cho phép và thể hiện cảm xúc\n→ Nhận ra cảm xúc là những người thầy</string>
+    <string name="karmic_detail_31">Số 31: Ổn định từ bên trong\n→ Sứ mệnh thay vì nghĩa vụ\n→ Đừng che giấu tài năng của bạn</string>
+
+    <!-- Ý nghĩa cơ bản trong Thần số học -->
     <string name="numerology_1">Khởi đầu Mới và Lãnh đạo</string>
     <string name="numerology_2">Hài hòa và Cân bằng</string>
     <string name="numerology_3">Sáng tạo và Phát triển</string>
@@ -59,6 +101,7 @@
     <string name="numerology_22">Người Hiện thực hóa Bậc Thầy</string>
     <string name="numerology_33">Người Chữa lành Bậc Thầy</string>
 
+    <!-- Từ khóa Thần số học -->
     <string name="keyword_0">Nguồn cội</string>
     <string name="keyword_1">Khởi đầu mới</string>
     <string name="keyword_2">Cân bằng</string>

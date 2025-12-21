@@ -3,6 +3,9 @@
     <!-- App Name -->
     <string name="app_name">מספרים קסומים</string>
 
+    <!-- Frequency Label -->
+    <string name="frequency_label">תדר</string>
+
     <!-- UI Texte -->
     <string name="new_message">הודעה חדשה</string>
     <string name="copy_message">העתק הודעה</string>
@@ -11,7 +14,6 @@
     <string name="message_for_the_moment">מסר הרגע: %1$s</string>
     <string name="your_cross_sum_is">סכום הספרות שלך: %1$s</string>
     <string name="digit_occurrence">(מופיע %1$d פעמים, מועצם)</string>
-    <string name="frequency_label">תדר</string>
 
     <!-- Abschnittsüberschriften -->
     <string name="section_vibration">🧬 רטט המספרים:</string>
@@ -20,23 +22,23 @@
     <string name="section_energy">⚡️ זרימת אנרגיה:</string>
 
     <!-- Ziffern-Nachrichten Templates -->
-    <string name="digit_0_intro">✨ **\'0\'**%1$s מעצים הכל. זהו סימן לנוכחות אלוהית ולפוטנציאל בלתי מוגבל.</string>
-    <string name="digit_1_intro">✨ **\'1\'**%1$s מזמין **התחלה חדשה ועוצמתית**. המחשבות שלך מתממשות במהירות.</string>
-    <string name="digit_2_intro">✨ **\'2\'**%1$s מביא **איזון והרמוניה**, במיוחד במערכות יחסים. אינך לבד.</string>
-    <string name="digit_3_intro">✨ **\'3\'**%1$s מפעיל **יצירתיות ותקשורת**. בטא את עצמך, העולם הרוחני מקשיב.</string>
-    <string name="digit_4_intro">✨ **\'4\'**%1$s יוצר **יסוד יציב**. אנרגיה זו מביאה הגנה וסדר לחייך.</string>
-    <string name="digit_5_intro">✨ **\'5\'**%1$s מסמן גל של **שינוי וחופש**. היה פתוח להרפתקאות.</string>
-    <string name="digit_6_intro">✨ **\'6\'**%1$s מתמקד ב**ריפוי הלב והבית**. המשפחה וההרמוניה נמצאים כעת במרכז.</string>
-    <string name="digit_7_intro">✨ **\'7\'**%1$s הופך את ה**אינטואיציה שלך למצפן החשוב ביותר**. הבט פנימה, התשובות נמצאות שם.</string>
-    <string name="digit_8_intro">✨ **\'8\'**%1$s מפעיל את אנרגיית ה**שפע וההצלחה**. פתח את עצמך לצמיחה חומרית ורוחנית.</string>
-    <string name="digit_9_intro">✨ **\'9\'**%1$s מציין **סיום של מעגל חשוב**. שחרר את הישן כדי לפנות מקום לחדש.</string>
+    <string name="digit_0_intro">✨ ה-**\'0\'**%1$s מעצים הכל. זהו סימן לנוכחות אלוהית ולפוטנציאל בלתי מוגבל.</string>
+    <string name="digit_1_intro">✨ ה-**\'1\'**%1$s מזמין **התחלה חדשה ועוצמתית**. המחשבות שלך מתממשות במהירות כעת.</string>
+    <string name="digit_2_intro">✨ ה-**\'2\'**%1$s מביא **איזון והרמוניה**, במיוחד במערכות יחסים. אינך לבד.</string>
+    <string name="digit_3_intro">✨ ה-**\'3\'**%1$s מפעיל את ה**יצירתיות והתקשורת** שלך. בטא את עצמך, העולם הרוחני מקשיב.</string>
+    <string name="digit_4_intro">✨ ה-**\'4\'**%1$s יוצר **יסוד יציב**. אנרגיה זו מביאה הגנה וסדר לחייך.</string>
+    <string name="digit_5_intro">✨ ה-**\'5\'**%1$s מסמן גל של **שינוי וחופש**. היה פתוח להרפתקאות ולשבירת כבלים ישנים.</string>
+    <string name="digit_6_intro">✨ ה-**\'6\'**%1$s מתמקד ב**ריפוי הלב והבית**. המשפחה וההרמוניה נמצאים כעת במרכז.</string>
+    <string name="digit_7_intro">✨ ה-**\'7\'**%1$s הופך את ה**אינטואיציה שלך למצפן החשוב ביותר**. הבט פנימה, האמת נמצאת בתוכך.</string>
+    <string name="digit_8_intro">✨ ה-**\'8\'**%1$s מפעיל את אנרגיית ה**שפע וההצלחה**. פתח את עצמך לצמיחה חומרית ורוחנית.</string>
+    <string name="digit_9_intro">✨ ה-**\'9\'**%1$s מציין **סיום של מעגל חשוב**. שחרר את הישן כדי לפנות מקום לחדש.</string>
 
     <!-- Spezielle Zusammenfassungen & Energiefluss -->
     <string name="summary_default">המסר העיקרי שלך: הקשב לקול הפנימי שלך, אתה מודרך.</string>
     <string name="energy_flow_default">בהירות ← אמון ← פעולה</string>
-    <string name="summary_99_1">מחזור קרמתי משמעותי מאוד הסתיים. זה יוצר מרחב להתחלה חדשה ועוצמתית תחת הדרכה אלוהית.</string>
+    <string name="summary_99_1">מחזור קרמתי משמעותי מאוד הסתיים סופית. זה יוצר מרחב להתחלה חדשה ועוצמתית תחת הדרכה אלוהית.</string>
     <string name="energy_flow_99_1">סיום ← שחרור ← התחלה חדשה</string>
-    <string name="summary_8_55">שינוי חיובי מסיבי (5 כפול) מביא שפע ושיפור חומרי (8). פריצת הדרך קרובה.</string>
+    <string name="summary_8_55">שינוי חיובי מסיבי (5 כפול) מוביל אותך אל השפע והשיפור החומרי שלך (8). פריצת הדרך קרובה.</string>
     <string name="energy_flow_8_55">פריצת דרך ← חופש ← יציבות</string>
 
     <!-- Numerologie Spezielle Bedeutungen -->
@@ -44,15 +46,49 @@
     <string name="master_number_11">(מספר מאסטר: אינטואיציה והארה)</string>
     <string name="master_number_22">(מספר מאסטר: בונה מאסטר והגשמה)</string>
     <string name="master_number_33">(מספר מאסטר: אהבה אוניברסלית וריפוי)</string>
+
     <string name="karmic_lesson_13">(שיעור קרמתי: משמעת ועבודה)</string>
     <string name="karmic_lesson_14">(שיעור קרמתי: חופש אחראי)</string>
     <string name="karmic_lesson_16">(שיעור קרמתי: אגו ובנייה מחדש)</string>
     <string name="karmic_lesson_19">(שיעור קרמתי: כוח ועצמאות)</string>
-    <!-- Neue Karmische Lektionen -->
     <string name="karmic_lesson_4">(שיעור קרמתי: יציבות ותהליך)</string>
     <string name="karmic_lesson_5">(שיעור קרמתי: פחד משינוי)</string>
     <string name="karmic_lesson_6">(שיעור קרמתי: אחריות ומחויבות)</string>
     <string name="karmic_lesson_8">(שיעור קרמתי: כוח וכסף)</string>
+
+    <!-- Karmic Details: Basis (1-3) -->
+    <string name="karmic_detail_1">מס\' 1: החלוץ\n← אומץ לייחודיות\n← צעידה בנתיבים חדשים ללא פחד</string>
+    <string name="karmic_detail_2">מס\' 2: הדיפלומט\n← למידת הרמוניה וסבלנות\n← אמון בשותפויות</string>
+    <string name="karmic_detail_3">מס\' 3: האמן\n← לחיות בשמחה ויצירתיות\n← שחרור ביקורת עצמית</string>
+
+    <!-- Karmic Details: Core Numbers (4-9) -->
+    <string name="karmic_detail_4">מס\' 4: סבלנות ואמון\n← אל תדחוק בדברים\n← אמון בתזמון האלוהי\n← יציבות דרך סדר</string>
+    <string name="karmic_detail_5">מס\' 5: התמרת הפחד\n← שחרור פחד מאובדן ומחסור\n← אומץ במקום בריחה\n← חופש דרך אחריות אישית</string>
+    <string name="karmic_detail_6">מס\' 6: אהבה ללא תנאי\n← ללא רכושנות וציפיות\n← סליחה (לאחרים ולעצמך)\n← הצבת גבולות ללא אשמה</string>
+    <string name="karmic_detail_7">מס\' 7: אמון רוחני\n← אינטואיציה כמצפן\n← אמון בהדרכה רוחנית\n← שילוב הדואליות (אור וצל)</string>
+    <string name="karmic_detail_8">מס\' 8: כסף ושפע\n← המסת תודעת המחסור\n← נתינה וקבלה באיזון\n← אחריות על כישרונות</string>
+    <string name="karmic_detail_9">מס\' 9: סיום וחוכמה\n← שחרור פגיעות ישנות\n← המסת מחזורים קרמתיים ישנים\n← שירות לקהילה</string>
+
+    <!-- Karmic Details: Transitions (10-12) -->
+    <string name="karmic_detail_10">מס\' 10: גלגל המזל\n← התחלה חדשה ברמה גבוהה יותר\n← לקיחת מנהיגות</string>
+    <string name="karmic_detail_11">מס\' 11: בעל החזון\n← הארה רוחנית\n← להוות השראה לאחרים</string>
+    <string name="karmic_detail_12">מס\' 12: הבנה וחוכמה\n← שירות ללא הקרבה עצמית\n← עזיבת תפקידי קורבן ישנים</string>
+
+    <!-- Classic Karmic Numbers (13, 14, 16, 19) -->
+    <string name="karmic_detail_13">מס\' 13: אחריות עצמית\n← הפסק לחפש אשמים בחוץ\n← התמרת אגו, שליטה וצדקנות\n← הבנה: אני שותף ליצירת חיי</string>
+    <string name="karmic_detail_14">מס\' 14: שחרור תלות\n← רגשית, חומרית ואנרגטית\n← חופש במקום כבילה מתוך פחד\n← תרגול מתינות ומיקוד</string>
+    <string name="karmic_detail_16">מס\' 16: אותנטיות והתעוררות\n← לחיות את האמת שלך\n← הסרת מסכות ותפקידים\n← הכרת חוק המראות</string>
+    <string name="karmic_detail_19">מס\' 19: ערך עצמי ואהבה עצמית\n← אל תגדיר את עצמך על פי הישגים\n← כבד את הגבולות שלך\n← ריפוי כוח וחוסר אונים</string>
+
+    <!-- Higher Vibrations (20-31) -->
+    <string name="karmic_detail_20">מס\' 20: התעוררות\n← סבלנות ושיקול דעת\n← דיפלומטיה רוחנית</string>
+    <string name="karmic_detail_21">מס\' 21: ביטוי עולמי\n← הצלחה לאחר מסע ארוך\n← שילוב ניגודים</string>
+    <string name="karmic_detail_22">מס\' 22: הבנאי המאסטר\n← הגשמת חלומות גדולים\n← אידיאליזם מעשי</string>
+    <string name="karmic_detail_23">מס\' 23: הכוכב המלכותי של האריה\n← הגנה והצלחה\n← תקשורת וחופש</string>
+    <string name="karmic_detail_24">מס\' 24: ריפוי הלב\n← פתרון קארמה של מערכות יחסים\n← מילוי ושחרור חוזי נשמה</string>
+    <string name="karmic_detail_27">מס\' 27: שירות לקהילה\n← ריפוי לא רק לעצמך\n← יצירת השפעה עבור אחרים</string>
+    <string name="karmic_detail_30">מס\' 30: ביטוי יצירתי\n← מתן היתר וביטוי לרגשות\n← הכרה ברגשות כמורים</string>
+    <string name="karmic_detail_31">מס\' 31: יציבות בעצמי\n← ייעוד במקום חובה\n← אל תסתיר את המתנות שלך</string>
 
     <!-- Numerologie Basis Bedeutungen -->
     <string name="numerology_1">התחלות חדשות ומנהיגות</string>

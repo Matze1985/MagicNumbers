@@ -25,9 +25,9 @@
     <string name="digit_2_intro">✨ Il **\'2\'**%1$s porta **equilibrio e armonia**, specialmente nelle relazioni. Non sei solo.</string>
     <string name="digit_3_intro">✨ Il **\'3\'**%1$s attiva **creatività e comunicazione**. Esprimiti, il mondo spirituale ti ascolta.</string>
     <string name="digit_4_intro">✨ Il **\'4\'**%1$s crea **fondamenta stabili**. Questa energia porta protezione e struttura nella tua vita.</string>
-    <string name="digit_5_intro">✨ Il **\'5\'**%1$s segna un\'onda di **cambiamento e libertà**. Sii aperto all\'avventura.</string>
+    <string name="digit_5_intro">✨ Il **\'5\'**%1$s segna un\'onda di **cambiamento e libertà**. Sii aperto all\'avventura e a spezzare le vecchie catene.</string>
     <string name="digit_6_intro">✨ Il **\'6\'**%1$s si concentra sulla **guarigione del cuore e della casa**. Famiglia e armonia sono centrali.</string>
-    <string name="digit_7_intro">✨ Il **\'7\'**%1$s rende la tua **intuizione la bussola più importante**. Guarda dentro di te.</string>
+    <string name="digit_7_intro">✨ Il **\'7\'**%1$s rende la tua **intuizione la bussola più importante**. Guarda dentro di te, la verità è lì.</string>
     <string name="digit_8_intro">✨ L\'**\'8\'**%1$s attiva l\'energia di **abbondanza e successo**. Apriti alla crescita materiale e spirituale.</string>
     <string name="digit_9_intro">✨ Il **\'9\'**%1$s indica la **chiusura di un ciclo importante**. Lascia andare il vecchio per accogliere il nuovo.</string>
 
@@ -48,11 +48,44 @@
     <string name="karmic_lesson_14">(Lezione Karmica: Libertà Responsabile)</string>
     <string name="karmic_lesson_16">(Lezione Karmica: Ego e Ricostruzione)</string>
     <string name="karmic_lesson_19">(Lezione Karmica: Potere e Indipendenza)</string>
-    <!-- Neue Karmische Lektionen -->
     <string name="karmic_lesson_4">(Lezione Karmica: Stabilità e Processo)</string>
     <string name="karmic_lesson_5">(Lezione Karmica: Paura del Cambiamento)</string>
     <string name="karmic_lesson_6">(Lezione Karmica: Responsabilità e Impegno)</string>
     <string name="karmic_lesson_8">(Lezione Karmica: Potere e Denaro)</string>
+
+    <!-- Dettagli Karmici: Base (1-3) -->
+    <string name="karmic_detail_1">N. 1: Il Pioniere\n→ Coraggio per l\'individualità\n→ Percorrere nuove strade senza paura</string>
+    <string name="karmic_detail_2">N. 2: Il Diplomatico\n→ Imparare armonia e pazienza\n→ Fiducia nelle collaborazioni</string>
+    <string name="karmic_detail_3">N. 3: L\'Artista\n→ Vivere la gioia e la creatività\n→ Lasciare andare l\'autocritica</string>
+
+    <!-- Dettagli Karmici: Numeri Chiave (4-9) -->
+    <string name="karmic_detail_4">N. 4: Pazienza e Fiducia\n→ Non forzare le cose\n→ Fiducia nel tempismo divino\n→ Stabilità attraverso l\'ordine</string>
+    <string name="karmic_detail_5">N. 5: Trasformazione della Paura\n→ Liberarsi dalla paura della perdita e della mancanza\n→ Coraggio invece di fuga\n→ Libertà attraverso l\'auto-responsabilità</string>
+    <string name="karmic_detail_6">N. 6: Amore Incondizionato\n→ Senza possessività e aspettative\n→ Perdono (per gli altri e per sé)\n→ Stabilire confini senza sensi di colpa</string>
+    <string name="karmic_detail_7">N. 7: Fiducia Spirituale\n→ L\'intuizione come bussola\n→ Fiducia nella guida spirituale\n→ Integrare la dualità (luce e ombra)</string>
+    <string name="karmic_detail_8">N. 8: Denaro e Abbondanza\n→ Sciogliere la mentalità della scarsità\n→ Dare e ricevere in equilibrio\n→ Responsabilità per i propri talenti</string>
+    <string name="karmic_detail_9">N. 9: Compimento e Saggezza\n→ Lasciar andare vecchie ferite\n→ Sciogliere vecchi cicli karmici\n→ Servizio alla comunità</string>
+
+    <!-- Dettagli Karmici: Transizioni (10-12) -->
+    <string name="karmic_detail_10">N. 10: La Ruota della Fortuna\n→ Nuovo inizio a un livello superiore\n→ Assumere la leadership</string>
+    <string name="karmic_detail_11">N. 11: Il Visionario\n→ Illuminazione spirituale\n→ Essere un\'ispirazione per gli altri</string>
+    <string name="karmic_detail_12">N. 12: Comprensione e Saggezza\n→ Servire senza auto-sacrificio\n→ Abbandonare vecchi ruoli di vittima</string>
+
+    <!-- Numeri Karmici Classici (13, 14, 16, 19) -->
+    <string name="karmic_detail_13">N. 13: Auto-Responsabilità\n→ Smettere di cercare colpe all\'esterno\n→ Trasformare ego, controllo e presunzione\n→ Riconosci: Sono co-creatore della mia vita</string>
+    <string name="karmic_detail_14">N. 14: Liberazione dalle Dipendenze\n→ Emotive, materiali ed energetiche\n→ Libertà invece di legami basati sulla paura\n→ Pratica moderazione e concentrazione</string>
+    <string name="karmic_detail_16">N. 16: Autenticità e Risveglio\n→ Vivere la propria verità\n→ Abbandonare maschere e ruoli\n→ Riconoscere la legge dello specchio</string>
+    <string name="karmic_detail_19">N. 19: Autostima e Amore per Sé\n→ Non definirsi attraverso i risultati\n→ Rispettare i propri limiti\n→ Guarire potere e impotenza</string>
+
+    <!-- Vibrazioni Superiori (20-31) -->
+    <string name="karmic_detail_20">N. 20: Risveglio\n→ Pazienza e discernimento\n→ Diplomazia spirituale</string>
+    <string name="karmic_detail_21">N. 21: Espressione Mondiale\n→ Successo dopo un lungo viaggio\n→ Integrazione degli opposti</string>
+    <string name="karmic_detail_22">N. 22: Il Costruttore Maestro\n→ Manifestare grandi sogni\n→ Idealismo pratico</string>
+    <string name="karmic_detail_23">N. 23: La Stella Reale del Leone\n→ Protezione e Successo\n→ Comunicazione e Libertà</string>
+    <string name="karmic_detail_24">N. 24: Guarigione del Cuore\n→ Risolvere il karma relazionale\n→ Adempiere e sciogliere contratti dell\'anima</string>
+    <string name="karmic_detail_27">N. 27: Servizio alla Comunità\n→ Guarigione non solo per sé stessi\n→ Creare un impatto per gli altri</string>
+    <string name="karmic_detail_30">N. 30: Espressione Creativa\n→ Permettere ed esprimere i sentimenti\n→ Riconoscere le emozioni come maestri</string>
+    <string name="karmic_detail_31">N. 31: Stabilità nel Sé\n→ Vocazione invece di dovere\n→ Non nascondere i tuoi doni</string>
 
     <!-- Numerologie Basis Bedeutungen -->
     <string name="numerology_1">Nuovi Inizi e Leadership</string>

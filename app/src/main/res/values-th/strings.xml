@@ -1,72 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">ตัวเลขมหัศจรรย์</string>
-    <string name="new_message">ข้อความใหม่</string>
-    <string name="copy_message">คัดลอกข้อความ</string>
-    <string name="clipboard_label">ข้อความมหัศจรรย์</string>
-    <string name="welcome_message">แตะ \'ข้อความใหม่\' เพื่อรับจังหวะของช่วงเวลานี้</string>
-    <string name="message_for_the_moment">ข้อความแห่งช่วงเวลา: %1$s</string>
-    <string name="your_cross_sum_is">ผลรวมเลขโดดของคุณ: %1$s</string>
-    <string name="digit_occurrence">(ปรากฏ %1$d ครั้ง, เพิ่มพลัง)</string>
-    <string name="frequency_label">ความถี่</string>
+    <!-- Uygulama Adı -->
+    <string name="app_name">Sihirli Sayılar</string>
 
-    <string name="section_vibration">🧬 การสั่นสะเทือนของตัวเลข:</string>
-    <string name="section_your_message">💌 ข้อความของคุณ:</string>
-    <string name="section_summary">✨ สรุป:</string>
-    <string name="section_energy">⚡️ การไหลเวียนของพลังงาน:</string>
+    <!-- Frekans Etiketi -->
+    <string name="frequency_label">Frekans</string>
 
-    <string name="digit_0_intro">✨ **\'0\'**%1$s ขยายทุกสิ่ง เป็นสัญญาณของการสถิตอยู่ของสิ่งศักดิ์สิทธิ์และศักยภาพที่ไร้ขีดจำกัด</string>
-    <string name="digit_1_intro">✨ **\'1\'**%1$s เชิญชวนสู่ **การเริ่มต้นใหม่ที่ทรงพลัง** ความคิดของคุณกำลังปรากฏเป็นจริงอย่างรวดเร็ว</string>
-    <string name="digit_2_intro">✨ **\'2\'**%1$s นำมาซึ่ง **ความสมดุลและความสามัคคี** โดยเฉพาะในความสัมพันธ์ คุณไม่ได้อยู่คนเดียว</string>
-    <string name="digit_3_intro">✨ **\'3\'**%1$s กระตุ้น **ความคิดสร้างสรรค์และการสื่อสาร** แสดงความเป็นตัวคุณ โลกแห่งจิตวิญญาณกำลังรับฟัง</string>
-    <string name="digit_4_intro">✨ **\'4\'**%1$s สร้าง **รากฐานที่มั่นคง** พลังงานนี้จะนำการปกป้องและความเป็นระเบียบมาสู่ชีวิตของคุณ</string>
-    <string name="digit_5_intro">✨ **\'5\'**%1$s ส่งสัญญาณคลื่นแห่ง **การเปลี่ยนแปลงและอิสรภาพ** เปิดใจรับการผจญภัย</string>
-    <string name="digit_6_intro">✨ **\'6\'**%1$s มุ่งเน้นไปที่ **การเยียวยาหัวใจและบ้าน** ครอบครัวและความสามัคคีคือจุดศูนย์กลางในขณะนี้</string>
-    <string name="digit_7_intro">✨ **\'7\'**%1$s ทำให้ **สัญชาตญาณของคุณเป็นเข็มทิศที่สำคัญที่สุด** มองเข้าไปข้างใน คำตอบอยู่ที่นั่น</string>
-    <string name="digit_8_intro">✨ **\'8\'**%1$s กระตุ้นพลังงานแห่ง **ความอุดมสมบูรณ์และความสำเร็จ** เปิดรับการเติบโตทั้งทางวัตถุและจิตวิญญาณ</string>
-    <string name="digit_9_intro">✨ **\'9\'**%1$s บ่งบอกถึง **การสิ้นสุดของวัฏจักรที่สำคัญ** ปล่อยวางสิ่งเก่าเพื่อเปิดทางให้สิ่งใหม่</string>
+    <!-- Arayüz Metinleri -->
+    <string name="new_message">Yeni Mesaj</string>
+    <string name="copy_message">Mesajı Kopyala</string>
+    <string name="clipboard_label">Sihirli Mesaj</string>
+    <string name="welcome_message">Anın ritmini yakalamak için \'Yeni Mesaj\'a dokunun.</string>
+    <string name="message_for_the_moment">Anın mesajı: %1$s</string>
+    <string name="your_cross_sum_is">Rakamlarınızın toplamı: %1$s</string>
+    <string name="digit_occurrence">(%1$d kez tekrar ediyor, güçlenmiş)</string>
 
-    <string name="summary_default">ข้อความหลักของคุณ: ฟังเสียงภายในของคุณ คุณกำลังได้รับการนำทาง</string>
-    <string name="energy_flow_default">ความชัดเจน → ความไว้วางใจ → การกระทำ</string>
-    <string name="summary_99_1">วัฏจักรแห่งกรรมที่สำคัญมากได้สิ้นสุดลงแล้ว สิ่งนี้สร้างพื้นที่สำหรับการเริ่มต้นใหม่ที่ทรงพลังภายใต้การนำทางของสิ่งศักดิ์สิทธิ์</string>
-    <string name="energy_flow_99_1">การสิ้นสุด → การปลดปล่อย → การเริ่มต้นใหม่</string>
-    <string name="summary_8_55">การเปลี่ยนแปลงเชิงบวกครั้งใหญ่ (เลข 5 คู่) นำมาซึ่งความอุดมสมบูรณ์และการปรับปรุงทางวัตถุ (8) การฝ่าฟันอุปสรรคอยู่ใกล้แค่เอื้อม</string>
-    <string name="energy_flow_8_55">การฝ่าฟันอุปสรรค → อิสรภาพ → ความมั่นคง</string>
+    <!-- Bölüm Başlıkları -->
+    <string name="section_vibration">🧬 Rakamların Titreşimi:</string>
+    <string name="section_your_message">💌 Sana Özel Mesaj:</string>
+    <string name="section_summary">✨ Özet:</string>
+    <string name="section_energy">⚡️ Enerji:</string>
 
-    <string name="numerology_unknown">ไม่ทราบ</string>
-    <string name="master_number_11">(เลขครู: สัญชาตญาณและการรู้แจ้ง)</string>
-    <string name="master_number_22">(เลขครู: ผู้สร้างและผู้เนรมิต)</string>
-    <string name="master_number_33">(เลขครู: ความรักสากลและการเยียวยา)</string>
-    <string name="karmic_lesson_13">(บทเรียนแห่งกรรม: วินัยและการทำงาน)</string>
-    <string name="karmic_lesson_14">(บทเรียนแห่งกรรม: อิสรภาพที่มีความรับผิดชอบ)</string>
-    <string name="karmic_lesson_16">(บทเรียนแห่งกรรม: อัตตาและการสร้างใหม่)</string>
-    <string name="karmic_lesson_19">(บทเรียนแห่งกรรม: อำนาจและความเป็นอิสระ)</string>
-    <string name="karmic_lesson_4">(บทเรียนแห่งกรรม: ความมั่นคงและกระบวนการ)</string>
-    <string name="karmic_lesson_5">(บทเรียนแห่งกรรม: ความกลัวการเปลี่ยนแปลง)</string>
-    <string name="karmic_lesson_6">(บทเรียนแห่งกรรม: ความรับผิดชอบและพันธสัญญา)</string>
-    <string name="karmic_lesson_8">(บทเรียนแห่งกรรม: อำนาจและเงินตรา)</string>
+    <!-- Rakam Mesaj Şablonları -->
+    <string name="digit_0_intro">✨ **\'0\'**%1$s her şeyi güçlendirir. İlahi varlığın ve sınırsız potansiyelin bir işaretidir.</string>
+    <string name="digit_1_intro">✨ **\'1\'**%1$s sizi **güçlü bir yeni başlangıca** çağırıyor. Düşüncelerin şimdi hızla tezahür ediyor.</string>
+    <string name="digit_2_intro">✨ **\'2\'**%1$s, özellikle ilişkilerde **denge ve uyum** getirir. Yalnız değilsin.</string>
+    <string name="digit_3_intro">✨ **\'3\'**%1$s, **yaratıcılığını ve iletişimini** harekete geçirir. Kendini ifade et, ruhsal dünya dinliyor.</string>
+    <string name="digit_4_intro">✨ **\'4\'**%1$s, **sağlam bir temel** oluşturur. Bu enerji, hayatına koruma ve düzen getirir.</string>
+    <string name="digit_5_intro">✨ **\'5\'**%1$s, bir **değişim ve özgürlük** dalgasına işaret eder. Maceraya ve eski zincirleri kırmaya açık ol.</string>
+    <string name="digit_6_intro">✨ **\'6\'**%1$s, **kalbin ve yuvanın şifasına** odaklanır. Aile ve uyum şimdi merkezde.</string>
+    <string name="digit_7_intro">✨ **\'7\'**%1$s, **sezgini en önemli pusula** haline getirir. İçine bak, gerçek orada.</string>
+    <string name="digit_8_intro">✨ **\'8\'**%1$s, **bolluk ve başarı** enerjisini etkinleştirir. Maddi ve manevi zenginliğe kendini aç.</string>
+    <string name="digit_9_intro">✨ **\'9\'**%1$s, **önemli bir döngünün tamamlandığını** gösterir. Yeniye yer açmak için eskiyi bırak.</string>
 
-    <string name="numerology_1">การเริ่มต้นใหม่และความเป็นผู้นำ</string>
-    <string name="numerology_2">ความสามัคคีและความสมดุล</string>
-    <string name="numerology_3">ความคิดสร้างสรรค์และการเติบโต</string>
-    <string name="numerology_4">ความมั่นคงและการปกป้อง</string>
-    <string name="numerology_5">อิสรภาพและการเปลี่ยนแปลง</string>
-    <string name="numerology_6">ความรักและความสามัคคี</string>
-    <string name="numerology_7">สัญชาตญาณและการตื่นรู้</string>
-    <string name="numerology_8">ความสำเร็จและความอุดมสมบูรณ์</string>
-    <string name="numerology_9">การสิ้นสุดและปัญญา</string>
-    <string name="numerology_11">สัญชาตญาณขั้นสูง</string>
-    <string name="numerology_22">ผู้เนรมิตขั้นสูง</string>
-    <string name="numerology_33">ผู้เยียวยาขั้นสูง</string>
+    <!-- Özel Özetler & Enerji Akışı -->
+    <string name="summary_default">Ana mesajın: İç sesini dinle, sana yol gösteriliyor.</string>
+    <string name="energy_flow_default">Netlik → Güven → Eylem</string>
+    <string name="summary_99_1">Çok önemli bir karmik döngü nihayet tamamlandı. Bu, ilahi rehberlik altında güçlü bir yeni başlangıç için alan yaratır.</string>
+    <string name="energy_flow_99_1">Tamamlanma → Salıverme → Yeni Başlangıç</string>
+    <string name="summary_8_55">Büyük, olumlu bir değişim (çift 5), seni bolluğa ve maddi refaha (8) taşıyor. Atılım çok yakın.</string>
+    <string name="energy_flow_8_55">Atılım → Özgürlük → İstikrar</string>
 
-    <string name="keyword_0">ต้นกำเนิด</string>
-    <string name="keyword_1">การเริ่มต้นใหม่</string>
-    <string name="keyword_2">สมดุล</string>
-    <string name="keyword_3">สร้างสรรค์</string>
-    <string name="keyword_4">มั่นคง</string>
-    <string name="keyword_5">เปลี่ยนแปลง</string>
-    <string name="keyword_6">สามัคคี</string>
-    <string name="keyword_7">สัญชาตญาณ</string>
-    <string name="keyword_8">อุดมสมบูรณ์</string>
-    <string name="keyword_9">สิ้นสุด</string>
+    <!-- Numeroloji Özel Anlamları -->
+    <string name="numerology_unknown">Bilinmiyor</string>
+    <string name="master_number_11">(Usta Sayı: Sezgi ve Aydınlanma)</string>
+    <string name="master_number_22">(Usta Sayı: Usta İnşaatçı ve Tezahür)</string>
+    <string name="master_number_33">(Usta Sayı: Evrensel Sevgi ve Şifa)</string>
+    <string name="karmic_lesson_13">(Karmik Ders: Disiplin ve Çalışma)</string>
+    <string name="karmic_lesson_14">(Karmik Ders: Sorumlu Özgürlük)</string>
+    <string name="karmic_lesson_16">(Karmik Ders: Ego ve Yeniden İnşa)</string>
+    <string name="karmic_lesson_19">(Karmik Ders: Güç ve Bağımsızlık)</string>
+    <string name="karmic_lesson_4">(Karmik Ders: İstikrar ve Süreç)</string>
+    <string name="karmic_lesson_5">(Karmik Ders: Değişim Korkusu)</string>
+    <string name="karmic_lesson_6">(Karmik Ders: Sorumluluk ve Adanmışlık)</string>
+    <string name="karmic_lesson_8">(Karmik Ders: Güç ve Para)</string>
+
+    <!-- Karmik Detaylar: Temel (1-3) -->
+    <string name="karmic_detail_1">No. 1: Öncü\n→ Bireysellik için cesaret\n→ Korkusuzca yeni yollarda yürümek</string>
+    <string name="karmic_detail_2">No. 2: Diplomat\n→ Uyum ve sabrı öğrenmek\n→ Ortaklıklara güvenmek</string>
+    <string name="karmic_detail_3">No. 3: Sanatçı\n→ Neşe ve yaratıcılığı yaşamak\n→ Kendini eleştirmeyi bırakmak</string>
+
+    <!-- Karmik Detaylar: Çekirdek Sayılar (4-9) -->
+    <string name="karmic_detail_4">No. 4: Sabır ve Güven\n→ Olayları zorlama\n→ İlahi zamanlamaya güven\n→ Düzen yoluyla istikrar</string>
+    <string name="karmic_detail_5">No. 5: Korkunun Dönüşümü\n→ Kaybetme ve kıtlık korkusunu bırak\n→ Kaçmak yerine cesaret\n→ Öz sorumlulukla gelen özgürlük</string>
+    <string name="karmic_detail_6">No. 6: Koşulsuz Sevgi\n→ Sahiplenme ve beklentiler olmadan\n→ Affetme (başkalarını ve kendini)\n→ Suçluluk duymadan sınırlar koymak</string>
+    <string name="karmic_detail_7">No. 7: Ruhsal Güven\n→ Sezginin pusula olması\n→ Ruhsal rehberliğe güven\n→ İkiliği (ışık ve gölge) bütünleştirmek</string>
+    <string name="karmic_detail_8">No. 8: Para ve Bolluk\n→ Kıtlık bilincini çözmek\n→ Vermek ve almak dengesi\n→ Yetenekler için sorumluluk</string>
+    <string name="karmic_detail_9">No. 9: Tamamlanma ve Bilgelik\n→ Eski yaraları bırakmak\n→ Eski karmik döngüleri çözmek\n→ Topluma hizmet etmek</string>
+
+    <!-- Karmik Detaylar: Geçişler (10-12) -->
+    <string name="karmic_detail_10">No. 10: Kader Çarkı\n→ Daha yüksek bir seviyede yeni başlangıç\n→ Liderliği üstlenmek</string>
+    <string name="karmic_detail_11">No. 11: Vizyoner\n→ Ruhsal aydınlanma\n→ Başkalarına ilham olmak</string>
+    <string name="karmic_detail_12">No. 12: Anlayış ve Bilgelik\n→ Kendini feda etmeden hizmet etmek\n→ Eski kurban rollerini terk etmek</string>
+
+    <!-- Klasik Karmik Sayılar (13, 14, 16, 19) -->
+    <string name="karmic_detail_13">No. 13: Öz Sorumluluk\n→ Dışarıda suçlu aramayı bırak\n→ Ego, kontrol ve haklı olma isteğini dönüştür\n→ Fark et: Hayatımın ortak yaratıcısıyım</string>
+    <string name="karmic_detail_14">No. 14: Bağımlılıktan Kurtulma\n→ Duygusal, maddi ve enerjisel\n→ Korkudan kaynaklanan bağlar yerine özgürlük\n→ Ölçülü olmayı ve odaklanmayı pratik et</string>
+    <string name="karmic_detail_16">No. 16: Özgünlük ve Uyanış\n→ Kendi gerçeğini yaşamak\n→ Maskeleri ve rolleri çıkarmak\n→ Ayna yasasını tanımak</string>
+    <string name="karmic_detail_19">No. 19: Öz Değer ve Öz Sevgi\n→ Kendini başarılarla tanımlama\n→ Kendi sınırlarına saygı duy\n→ Güç ve güçsüzlük temalarını iyileştir</string>
+
+    <!-- Yüksek Titreşimler (20-31) -->
+    <string name="karmic_detail_20">No. 20: Uyanış\n→ Sabır ve ayırt etme yeteneği\n→ Ruhsal diplomasi</string>
+    <string name="karmic_detail_21">No. 21: Dünyevi İfade\n→ Uzun bir yolculuktan sonra gelen başarı\n→ Zıtlıkların bütünleşmesi</string>
+    <string name="karmic_detail_22">No. 22: Usta İnşaatçı\n→ Büyük hayalleri tezahür ettirmek\n→ Pratik idealizm</string>
+    <string name="karmic_detail_23">No. 23: Aslanın Kraliyet Yıldızı\n→ Koruma ve Başarı\n→ İletişim ve Özgürlük</string>
+    <string name="karmic_detail_24">No. 24: Kalbin Şifası\n→ İlişki karmasını çözmek\n→ Ruh sözleşmelerini yerine getirmek ve serbest bırakmak</string>
+    <string name="karmic_detail_27">No. 27: Topluma Hizmet\n→ Sadece kendin için değil, başkaları için de şifa\n→ Başkaları için etki yaratmak</string>
+    <string name="karmic_detail_30">No. 30: Yaratıcı İfade\n→ Duygulara izin vermek ve onları ifade etmek\n→ Duyguları öğretmen olarak tanımak</string>
+    <string name="karmic_detail_31">No. 31: Kendi İçinde İstikrar\n→ Görev yerine çağrı\n→ Yeteneklerini saklama</string>
+
+    <!-- Numeroloji Temel Anlamları -->
+    <string name="numerology_1">Yeni Başlangıçlar ve Liderlik</string>
+    <string name="numerology_2">Uyum ve Denge</string>
+    <string name="numerology_3">Yaratıcılık ve Büyüme</string>
+    <string name="numerology_4">İstikrar ve Korunma</string>
+    <string name="numerology_5">Özgürlük ve Değişim</string>
+    <string name="numerology_6">Sevgi ve Uyum</string>
+    <string name="numerology_7">Sezgi ve Uyanış</string>
+    <string name="numerology_8">Başarı ve Bolluk</string>
+    <string name="numerology_9">Tamamlanma ve Bilgelik</string>
+    <string name="numerology_11">Usta Sezgi</string>
+    <string name="numerology_22">Usta Tezahür</string>
+    <string name="numerology_33">Usta Şifacı</string>
+
+    <!-- Numeroloji Anahtar Kelimeleri -->
+    <string name="keyword_0">Kaynak</string>
+    <string name="keyword_1">Yeni Başlangıç</string>
+    <string name="keyword_2">Denge</string>
+    <string name="keyword_3">Yaratıcılık</string>
+    <string name="keyword_4">İstikrar</string>
+    <string name="keyword_5">Değişim</string>
+    <string name="keyword_6">Uyum</string>
+    <string name="keyword_7">Sezgi</string>
+    <string name="keyword_8">Bolluk</string>
+    <string name="keyword_9">Tamamlanma</string>
 </resources>

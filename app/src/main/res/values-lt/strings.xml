@@ -48,11 +48,44 @@
     <string name="karmic_lesson_14">(Karminė Pamoka: Atsakinga Laisvė)</string>
     <string name="karmic_lesson_16">(Karminė Pamoka: Ego ir Atstatymas)</string>
     <string name="karmic_lesson_19">(Karminė Pamoka: Galia ir Nepriklausomybė)</string>
-    <!-- Neue Karmische Lektionen -->
     <string name="karmic_lesson_4">(Karminė Pamoka: Stabilumas ir Procesas)</string>
     <string name="karmic_lesson_5">(Karminė Pamoka: Pokyčių Baimė)</string>
     <string name="karmic_lesson_6">(Karminė Pamoka: Atsakomybė ir Įsipareigojimas)</string>
     <string name="karmic_lesson_8">(Karminė Pamoka: Galia ir Pinigai)</string>
+
+    <!-- Karminės Detalės: Pagrindas (1-3) -->
+    <string name="karmic_detail_1">Nr. 1: Pirmtakas\n→ Drąsa individualumui\n→ Eiti naujais keliais be baimės</string>
+    <string name="karmic_detail_2">Nr. 2: Diplomatas\n→ Mokytis harmonijos ir kantrybės\n→ Pasitikėjimas partnerystėmis</string>
+    <string name="karmic_detail_3">Nr. 3: Menininkas\n→ Gyventi džiaugsmu ir kūrybiškumu\n→ Paleisti savikritiką</string>
+
+    <!-- Karminės Detalės: Šerdis (4-9) -->
+    <string name="karmic_detail_4">Nr. 4: Kantrybė ir Pasitikėjimas\n→ Nespausti dalykų\n→ Pasitikėti dieviškuoju laiku\n→ Stabilumas per tvarką</string>
+    <string name="karmic_detail_5">Nr. 5: Baimės Transformacija\n→ Išsilaisvinti iš praradimo ir trūkumo baimės\n→ Drąsa vietoj bėgimo\n→ Laisvė per atsakomybę sau</string>
+    <string name="karmic_detail_6">Nr. 6: Besąlygiška Meilė\n→ Be savininkiškumo ir lūkesčių\n→ Atleidimas (kitiems ir sau)\n→ Nustatyti ribas be kaltės jausmo</string>
+    <string name="karmic_detail_7">Nr. 7: Dvasinis Pasitikėjimas\n→ Intuicija kaip kompasas\n→ Pasitikėjimas dvasiniu vedimu\n→ Dvejopumo (šviesos ir šešėlio) integravimas</string>
+    <string name="karmic_detail_8">Nr. 8: Pinigai ir Gausa\n→ Ištirpdyti trūkumo mąstyseną\n→ Davimo ir gavimo pusiausvyra\n→ Atsakomybė už talentus</string>
+    <string name="karmic_detail_9">Nr. 9: Užbaigimas ir Išmintis\n→ Paleisti senas žaizdas\n→ Ištirpdyti senus karminius ciklus\n→ Tarnystė bendruomenei</string>
+
+    <!-- Karminės Detalės: Perėjimai (10-12) -->
+    <string name="karmic_detail_10">Nr. 10: Sėkmės Ratas\n→ Nauja pradžia aukštesniame lygmenyje\n→ Perimti vadovavimą</string>
+    <string name="karmic_detail_11">Nr. 11: Vizionierius\n→ Dvasinis nušvitimas\n→ Būti įkvėpimu kitiems</string>
+    <string name="karmic_detail_12">Nr. 12: Supratimas ir Išmintis\n→ Tarnauti be savęs aukojimo\n→ Palikti senus aukos vaidmenis</string>
+
+    <!-- Klasikiniai Karminiai Skaičiai (13, 14, 16, 19) -->
+    <string name="karmic_detail_13">Nr. 13: Atsakomybė sau\n→ Nustoti ieškoti kaltų išorėje\n→ Transformuoti ego, kontrolę ir teisumą\n→ Suvokti: Aš esu savo gyvenimo bendrakūrėjas</string>
+    <string name="karmic_detail_14">Nr. 14: Priklausomybių paleidimas\n→ Emocinės, materialios ir energetinės\n→ Laisvė vietoj prisirišimo iš baimės\n→ Praktikuoti saiką ir susitelkimą</string>
+    <string name="karmic_detail_16">Nr. 16: Autentiškumas ir Pabudimas\n→ Gyventi savo tiesa\n→ Nusimesti kaukes ir vaidmenis\n→ Atpažinti veidrodžio dėsnį</string>
+    <string name="karmic_detail_19">Nr. 19: Savivertė ir Meilė Sau\n→ Neapibrėžti savęs per pasiekimus\n→ Gerbti savo ribas\n→ Gydyti galią ir bejėgiškumą</string>
+
+    <!-- Aukštesnės Vibracijos (20-31) -->
+    <string name="karmic_detail_20">Nr. 20: Pabudimas\n→ Kantrybė ir įžvalga\n→ Dvasinė diplomatija</string>
+    <string name="karmic_detail_21">Nr. 21: Pasaulinė Išraiška\n→ Sėkmė po ilgos kelionės\n→ Priešybių integravimas</string>
+    <string name="karmic_detail_22">Nr. 22: Meistras Statytojas\n→ Didelių svajonių manifestacija\n→ Praktinis idealizmas</string>
+    <string name="karmic_detail_23">Nr. 23: Liūto Karališkoji Žvaigždė\n→ Apsauga ir Sėkmė\n→ Bendravimas ir Laisvė</string>
+    <string name="karmic_detail_24">Nr. 24: Širdies Gydymas\n→ Santykių karmos sprendimas\n→ Sielos sutarčių vykdymas ir paleidimas</string>
+    <string name="karmic_detail_27">Nr. 27: Tarnystė Bendruomenei\n→ Gydymas ne tik sau\n→ Kurti poveikį kitiems</string>
+    <string name="karmic_detail_30">Nr. 30: Kūrybinė Išraiška\n→ Leisti ir išreikšti jausmus\n→ Atpažinti emocijas kaip mokytojus</string>
+    <string name="karmic_detail_31">Nr. 31: Stabilumas Savyje\n→ Pašaukimas vietoj pareigos\n→ Neslėpti savo dovanų</string>
 
     <!-- Numerologie Basis Bedeutungen -->
     <string name="numerology_1">Nauja Pradžia ir Lyderystė</string>
