@@ -11,6 +11,7 @@
     *   Calculates the cross sum (digit sum) to find your core message.
     *   Identifies **Master Numbers** (11, 22, 33).
     *   Identifies **Karmic Lessons** based on special number constellations (13, 14, 16, 19, plus new insights for 4, 5, 6, 8).
+*   **Cross Sum (Quersumme)**: Automatically calculates and displays the detailed equation (e.g., `1 + 2 + 3 = 6`), revealing the core theme.
 *   **Vibration Frequency Meter** 🌀: A visual bar indicates the energetic frequency of the generated number – from grounding (red/orange) to high spiritual vibration (green/cyan).
 *   **Detailed Interpretations**:
     *   Individual meaning of every digit (0-9).
