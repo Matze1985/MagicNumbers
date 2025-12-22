@@ -1,115 +1,129 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- App Name -->
-    <string name="app_name">Magiški Skaičiai</string>
+    <string name="app_name">Magiški skaičiai</string>
 
     <!-- UI Texte -->
-    <string name="new_message">Nauja Žinutė</string>
+    <string name="new_message">Nauja žinutė</string>
     <string name="copy_message">Kopijuoti žinutę</string>
-    <string name="clipboard_label">Magiška Žinutė</string>
-    <string name="welcome_message">Paspauskite \'Nauja Žinutė\', kad pagautumėte akimirkos ritmą.</string>
-    <string name="message_for_the_moment">Akimirkos žinutė: %1$s</string>
-    <string name="your_cross_sum_is">Jūsų skaitmenų suma: %1$s</string>
-    <string name="digit_occurrence">(pasirodo %1$d k., sustiprinta)</string>
+    <string name="clipboard_label">Magiška žinutė</string>
+    <string name="welcome_message">Paspausk „Nauja žinutė“, kad priimtum šios akimirkos ritmą.</string>
+    <string name="message_for_the_moment">Žinutė šiai akimirkai: %1$s</string>
+    <string name="your_cross_sum_is">Tavo skaitmenų suma yra: %1$s</string>
+    <string name="digit_occurrence">(pasirodo %1$dx kartus, sustiprinta)</string>
     <string name="frequency_label">Dažnis</string>
 
-    <!-- Abschnittsüberschriften -->
-    <string name="section_vibration">🧬 Skaičių Vibracija:</string>
-    <string name="section_your_message">💌 Jūsų Žinutė:</string>
+    <!-- Sektions-Überschriften -->
+    <string name="section_vibration">🧬 Skaitmenų vibracija:</string>
+    <string name="section_your_message">💌 Tavo žinutė:</string>
     <string name="section_summary">✨ Santrauka:</string>
-    <string name="section_energy">⚡️ Energija:</string>
+    <string name="section_energy">⚡️ Energijos tėkmė:</string>
 
-    <!-- Ziffern-Nachrichten Templates -->
-    <string name="digit_0_intro">✨ **\'0\'**%1$s viską sustiprina. Tai dieviškojo buvimo ir neriboto potencialo ženklas.</string>
-    <string name="digit_1_intro">✨ **\'1\'**%1$s kviečia į **galingą naują pradžią**. Jūsų mintys greitai materializuojasi.</string>
-    <string name="digit_2_intro">✨ **\'2\'**%1$s atneša **pusiausvyrą ir harmoniją**, ypač santykiuose. Jūs nesate vienas.</string>
-    <string name="digit_3_intro">✨ **\'3\'**%1$s aktyvuoja **kūrybiškumą ir bendravimą**. Išreikškite save, dvasinis pasaulis klausosi.</string>
-    <string name="digit_4_intro">✨ **\'4\'**%1$s sukuria **stabilų pagrindą**. Ši energija atneša apsaugą ir tvarką į jūsų gyvenimą.</string>
-    <string name="digit_5_intro">✨ **\'5\'**%1$s signalizuoja **pokyčių ir laisvės** bangą. Būkite atviri nuotykiams.</string>
-    <string name="digit_6_intro">✨ **\'6\'**%1$s fokusuojasi į **širdies ir namų gydymą**. Šeima ir harmonija dabar yra centre.</string>
-    <string name="digit_7_intro">✨ **\'7\'**%1$s paverčia jūsų **intuiciją svarbiausiu kompasu**. Žvelkite į vidų, atsakymai yra ten.</string>
-    <string name="digit_8_intro">✨ **\'8\'**%1$s aktyvuoja **gausos ir sėkmės** energiją. Atsiverkite materialiniam ir dvasiniam augimui.</string>
-    <string name="digit_9_intro">✨ **\'9\'**%1$s rodo **svarbaus ciklo pabaigą**. Paleiskite tai, kas sena, kad atsirastų vietos naujam.</string>
+    <!-- Hauptnachrichten Templates (pro Ziffer) -->
+    <string name="digit_0_intro">✨ **\'0\'**%1$s sustiprina viską. Tai dieviškosios buvimo ir begalinio potencialo ženklas.</string>
+    <string name="digit_1_intro">✨ **\'1\'**%1$s kviečia tave į **galingą naują pradžią**. Tavo mintys dabar greitai materializuojasi.</string>
+    <string name="digit_2_intro">✨ **\'2\'**%1$s atneša **pusiausvyrą ir harmoniją**, ypač santykiuose. Tu nesi vienas.</string>
+    <string name="digit_3_intro">✨ **\'3\'**%1$s aktyvina tavo **kūrybiškumą ir bendravimą**. Išreikšk save – dvasinis pasaulis klausosi.</string>
+    <string name="digit_4_intro">✨ **\'4\'**%1$s sukuria **stabilų pagrindą**. Ši energija atneša apsaugą ir struktūrą į tavo gyvenimą.</string>
+    <string name="digit_5_intro">✨ **\'5\'**%1$s signalizuoja **pokyčių ir laisvės bangą**. Būk atviras nuotykiams ir nutrauk senas grandines.</string>
+    <string name="digit_6_intro">✨ **\'6\'**%1$s nukreipia dėmesį į **širdies ir namų gydymą**. Šeima ir harmonija dabar yra centre.</string>
+    <string name="digit_7_intro">✨ **\'7\'**%1$s paverčia tavo **intuiciją svarbiausiu kompasu**. Klausykis savęs – tiesa slypi tavyje.</string>
+    <string name="digit_8_intro">✨ **\'8\'**%1$s aktyvina **gausos ir sėkmės** energiją. Būk atviras materialinei ir dvasinei gerovei.</string>
+    <string name="digit_9_intro">✨ **\'9\'**%1$s rodo **svarbaus ciklo pabaigą**. Paleisk seną, kad atsirastų vietos naujam.</string>
 
-    <!-- Spezielle Zusammenfassungen & Energiefluss -->
-    <string name="summary_default">Jūsų pagrindinė žinutė: Klausykite savo vidinio balso, esate vedami.</string>
-    <string name="energy_flow_default">Aiškumas → Pasitikėjimas → Veiksmas</string>
-    <string name="summary_99_1">Labai reikšmingas karminis ciklas baigėsi. Tai sukuria erdvę galingai naujai pradžiai su dieviškuoju vedimu.</string>
-    <string name="energy_flow_99_1">Pabaiga → Išsilaisvinimas → Nauja Pradžia</string>
-    <string name="summary_8_55">Masinis teigiamas pokytis (dvigubas 5) atneša gausą ir materialinį pagerėjimą (8). Proveržis yra arti.</string>
-    <string name="energy_flow_8_55">Proveržis → Laisvė → Stabilumas</string>
-
-    <!-- Numerologie Spezielle Bedeutungen -->
+    <!-- Numerologie Grundbedeutungen -->
+    <string name="numerology_1">Nauja pradžia &amp; lyderystė</string>
+    <string name="numerology_2">Harmonija &amp; pusiausvyra</string>
+    <string name="numerology_3">Kūrybiškumas &amp; augimas</string>
+    <string name="numerology_4">Stabilumas &amp; apsauga</string>
+    <string name="numerology_5">Laisvė &amp; pokytis</string>
+    <string name="numerology_6">Meilė &amp; harmonija</string>
+    <string name="numerology_7">Intuicija &amp; pabudimas</string>
+    <string name="numerology_8">Sėkmė &amp; gausa</string>
+    <string name="numerology_9">Užbaigimas &amp; išmintis</string>
+    <string name="numerology_11">Meistro intuicija</string>
+    <string name="numerology_22">Meistro manifestacija</string>
+    <string name="numerology_33">Meistro gydytojas</string>
     <string name="numerology_unknown">Nežinoma</string>
-    <string name="master_number_11">(Meistriškas Skaičius: Intuicija ir Nušvitimas)</string>
-    <string name="master_number_22">(Meistriškas Skaičius: Meistras Statytojas ir Manifestacija)</string>
-    <string name="master_number_33">(Meistriškas Skaičius: Universali Meilė ir Gydymas)</string>
-    <string name="karmic_lesson_13">(Karminė Pamoka: Disciplina ir Darbas)</string>
-    <string name="karmic_lesson_14">(Karminė Pamoka: Atsakinga Laisvė)</string>
-    <string name="karmic_lesson_16">(Karminė Pamoka: Ego ir Atstatymas)</string>
-    <string name="karmic_lesson_19">(Karminė Pamoka: Galia ir Nepriklausomybė)</string>
-    <string name="karmic_lesson_4">(Karminė Pamoka: Stabilumas ir Procesas)</string>
-    <string name="karmic_lesson_5">(Karminė Pamoka: Pokyčių Baimė)</string>
-    <string name="karmic_lesson_6">(Karminė Pamoka: Atsakomybė ir Įsipareigojimas)</string>
-    <string name="karmic_lesson_8">(Karminė Pamoka: Galia ir Pinigai)</string>
-
-    <!-- Karminės Detalės: Pagrindas (1-3) -->
-    <string name="karmic_detail_1">Nr. 1: Pirmtakas\n→ Drąsa individualumui\n→ Eiti naujais keliais be baimės</string>
-    <string name="karmic_detail_2">Nr. 2: Diplomatas\n→ Mokytis harmonijos ir kantrybės\n→ Pasitikėjimas partnerystėmis</string>
-    <string name="karmic_detail_3">Nr. 3: Menininkas\n→ Gyventi džiaugsmu ir kūrybiškumu\n→ Paleisti savikritiką</string>
-
-    <!-- Karminės Detalės: Šerdis (4-9) -->
-    <string name="karmic_detail_4">Nr. 4: Kantrybė ir Pasitikėjimas\n→ Nespausti dalykų\n→ Pasitikėti dieviškuoju laiku\n→ Stabilumas per tvarką</string>
-    <string name="karmic_detail_5">Nr. 5: Baimės Transformacija\n→ Išsilaisvinti iš praradimo ir trūkumo baimės\n→ Drąsa vietoj bėgimo\n→ Laisvė per atsakomybę sau</string>
-    <string name="karmic_detail_6">Nr. 6: Besąlygiška Meilė\n→ Be savininkiškumo ir lūkesčių\n→ Atleidimas (kitiems ir sau)\n→ Nustatyti ribas be kaltės jausmo</string>
-    <string name="karmic_detail_7">Nr. 7: Dvasinis Pasitikėjimas\n→ Intuicija kaip kompasas\n→ Pasitikėjimas dvasiniu vedimu\n→ Dvejopumo (šviesos ir šešėlio) integravimas</string>
-    <string name="karmic_detail_8">Nr. 8: Pinigai ir Gausa\n→ Ištirpdyti trūkumo mąstyseną\n→ Davimo ir gavimo pusiausvyra\n→ Atsakomybė už talentus</string>
-    <string name="karmic_detail_9">Nr. 9: Užbaigimas ir Išmintis\n→ Paleisti senas žaizdas\n→ Ištirpdyti senus karminius ciklus\n→ Tarnystė bendruomenei</string>
-
-    <!-- Karminės Detalės: Perėjimai (10-12) -->
-    <string name="karmic_detail_10">Nr. 10: Sėkmės Ratas\n→ Nauja pradžia aukštesniame lygmenyje\n→ Perimti vadovavimą</string>
-    <string name="karmic_detail_11">Nr. 11: Vizionierius\n→ Dvasinis nušvitimas\n→ Būti įkvėpimu kitiems</string>
-    <string name="karmic_detail_12">Nr. 12: Supratimas ir Išmintis\n→ Tarnauti be savęs aukojimo\n→ Palikti senus aukos vaidmenis</string>
-
-    <!-- Klasikiniai Karminiai Skaičiai (13, 14, 16, 19) -->
-    <string name="karmic_detail_13">Nr. 13: Atsakomybė sau\n→ Nustoti ieškoti kaltų išorėje\n→ Transformuoti ego, kontrolę ir teisumą\n→ Suvokti: Aš esu savo gyvenimo bendrakūrėjas</string>
-    <string name="karmic_detail_14">Nr. 14: Priklausomybių paleidimas\n→ Emocinės, materialios ir energetinės\n→ Laisvė vietoj prisirišimo iš baimės\n→ Praktikuoti saiką ir susitelkimą</string>
-    <string name="karmic_detail_16">Nr. 16: Autentiškumas ir Pabudimas\n→ Gyventi savo tiesa\n→ Nusimesti kaukes ir vaidmenis\n→ Atpažinti veidrodžio dėsnį</string>
-    <string name="karmic_detail_19">Nr. 19: Savivertė ir Meilė Sau\n→ Neapibrėžti savęs per pasiekimus\n→ Gerbti savo ribas\n→ Gydyti galią ir bejėgiškumą</string>
-
-    <!-- Aukštesnės Vibracijos (20-31) -->
-    <string name="karmic_detail_20">Nr. 20: Pabudimas\n→ Kantrybė ir įžvalga\n→ Dvasinė diplomatija</string>
-    <string name="karmic_detail_21">Nr. 21: Pasaulinė Išraiška\n→ Sėkmė po ilgos kelionės\n→ Priešybių integravimas</string>
-    <string name="karmic_detail_22">Nr. 22: Meistras Statytojas\n→ Didelių svajonių manifestacija\n→ Praktinis idealizmas</string>
-    <string name="karmic_detail_23">Nr. 23: Liūto Karališkoji Žvaigždė\n→ Apsauga ir Sėkmė\n→ Bendravimas ir Laisvė</string>
-    <string name="karmic_detail_24">Nr. 24: Širdies Gydymas\n→ Santykių karmos sprendimas\n→ Sielos sutarčių vykdymas ir paleidimas</string>
-    <string name="karmic_detail_27">Nr. 27: Tarnystė Bendruomenei\n→ Gydymas ne tik sau\n→ Kurti poveikį kitiems</string>
-    <string name="karmic_detail_30">Nr. 30: Kūrybinė Išraiška\n→ Leisti ir išreikšti jausmus\n→ Atpažinti emocijas kaip mokytojus</string>
-    <string name="karmic_detail_31">Nr. 31: Stabilumas Savyje\n→ Pašaukimas vietoj pareigos\n→ Neslėpti savo dovanų</string>
-
-    <!-- Numerologie Basis Bedeutungen -->
-    <string name="numerology_1">Nauja Pradžia ir Lyderystė</string>
-    <string name="numerology_2">Harmonija ir Pusiausvyra</string>
-    <string name="numerology_3">Kūrybiškumas ir Augimas</string>
-    <string name="numerology_4">Stabilumas ir Apsauga</string>
-    <string name="numerology_5">Laisvė ir Pokyčiai</string>
-    <string name="numerology_6">Meilė ir Harmonija</string>
-    <string name="numerology_7">Intuicija ir Pabudimas</string>
-    <string name="numerology_8">Sėkmė ir Gausa</string>
-    <string name="numerology_9">Pabaiga ir Išmintis</string>
-    <string name="numerology_11">Meistriška Intuicija</string>
-    <string name="numerology_22">Meistras Manifestuotojas</string>
-    <string name="numerology_33">Meistras Gydytojas</string>
 
     <!-- Numerologie Keywords -->
     <string name="keyword_0">Šaltinis</string>
-    <string name="keyword_1">Nauja Pradžia</string>
+    <string name="keyword_1">Pradžia</string>
     <string name="keyword_2">Pusiausvyra</string>
     <string name="keyword_3">Kūrybiškumas</string>
     <string name="keyword_4">Stabilumas</string>
-    <string name="keyword_5">Pokyčiai</string>
+    <string name="keyword_5">Pokytis</string>
     <string name="keyword_6">Harmonija</string>
     <string name="keyword_7">Intuicija</string>
     <string name="keyword_8">Gausa</string>
-    <string name="keyword_9">Pabaiga</string>
+    <string name="keyword_9">Užbaigimas</string>
+
+    <!-- Numerologie Spezialbedeutungen (Meisterzahlen & Hohe Schwingungen) -->
+    <string name="master_number_11">Meistro skaičius 11: intuicija &amp; nušvitimas</string>
+    <string name="master_number_22">Meistro skaičius 22: kūrėjas &amp; manifestacija</string>
+    <string name="master_number_33">Meistro skaičius 33: universali meilė &amp; gydymas</string>
+    <string name="master_number_44">Meistro skaičius 44: meistro gydytojas. Tu jungi materialų ir dvasinį pasaulius.</string>
+    <string name="special_number_55">Ypatinga vibracija 55: radikalus pokytis &amp; laisvė</string>
+    <string name="special_number_66">Ypatinga vibracija 66: universali meilė &amp; atjauta</string>
+    <string name="special_number_77">Ypatinga vibracija 77: gilus dvasinis įžvalgumas</string>
+    <string name="special_number_88">Ypatinga vibracija 88: begalinė gausa &amp; pusiausvyra</string>
+    <string name="special_number_99">Ypatinga vibracija 99: universali sąmonė &amp; tarnystė</string>
+
+    <!-- Karmische Lektionen (Kurztexte für Listen) -->
+    <string name="karmic_lesson_4">Karmine pamoka 4: stabilumas ir sunkus darbas.</string>
+    <string name="karmic_lesson_5">Karmine pamoka 5: laisvė ir disciplina.</string>
+    <string name="karmic_lesson_7">Karmine pamoka 7: pasitikėjimas ir atvirumas.</string>
+    <string name="karmic_lesson_8">Karmine pamoka 8: gausa ir piktnaudžiavimas galia.</string>
+    <string name="karmic_lesson_10">Karmine pamoka 10: likimo ratas / nauja pradžia</string>
+    <string name="karmic_lesson_11">Karmine pamoka 11: dvasinės meistrystės ir pusiausvyros pamoka</string>
+    <string name="karmic_lesson_13">Karmine pamoka 13: darbo ir susitelkimo pamoka (transformacija)</string>
+    <string name="karmic_lesson_14">Karmine pamoka 14: laisvės ir saikingumo pamoka</string>
+    <string name="karmic_lesson_16">Karmine pamoka 16: pabudimo ir nuolankumo pamoka</string>
+    <string name="karmic_lesson_19">Karmine pamoka 19: galios ir nepriklausomybės pamoka</string>
+    <string name="karmic_lesson_22">Karmine pamoka 22: meistro kūrėjo ir atsakomybės pamoka</string>
+    <string name="karmic_lesson_33">Karmine pamoka 33: gydančios meilės meistro pamoka</string>
+
+    <!-- Karmische Details -->
+    <string name="karmic_detail_1">Karmine detalė 1: asmeninė atsakomybė\n→ Nustok kaltinti išorę\n→ Suprask: aš esu savo gyvenimo bendra-kūrėjas\n→ Drąsa eiti savo keliu</string>
+    <string name="karmic_detail_2">Karmine detalė 2: santykiai &amp; veidrodis\n→ Atpažink veidrodžio dėsnį: kiti rodo neišspręstas dalis\n→ Diplomatiškumas neprarandant savęs\n→ Išlaikyk kantrybę</string>
+    <string name="karmic_detail_3">Karmine detalė 3: autentiškumas &amp; raiška\n→ Gyvenk savo tiesą\n→ Atsisakyk kaukių ir vaidmenų\n→ Kūrybiškai išreikšk jausmus</string>
+    <string name="karmic_detail_4">Karmine detalė 4: kantrybė &amp; pasitikėjimas\n→ Neversk visko per jėgą\n→ Pasitikėk dievišku laiku\n→ Kurk stabilumą per tvarką</string>
+    <string name="karmic_detail_5">Karmine detalė 5: baimės transformacija\n→ Drąsa vietoj bėgimo\n→ Transformuok praradimo ar stokos baimę\n→ Laisvė per atsakomybę</string>
+    <string name="karmic_detail_6">Karmine detalė 6: meilė &amp; ribos\n→ Besąlyginė meilė be savininkiškumo\n→ Sakyk „ne“ be kaltės jausmo\n→ Neauk savęs</string>
+    <string name="karmic_detail_7">Karmine detalė 7: pasitikėjimas &amp; vedimas\n→ Pasitikėk dvasiniu vedimu\n→ Sek intuicija ir atpažink ženklus\n→ Vidinė įžvalga vietoj išorinės kontrolės</string>
+    <string name="karmic_detail_8">Karmine detalė 8: galia &amp; gausa\n→ Paleisk stokos sąmonę\n→ Davimo ir gavimo pusiausvyra\n→ Gydyk galią (be manipuliacijos)</string>
+    <string name="karmic_detail_9">Karmine detalė 9: paleidimas &amp; atleidimas\n→ Atleisk kitiems ir sau\n→ Paleisk senas žaizdas\n→ Tarnauk bendruomenei</string>
+    <string name="karmic_detail_10">Karmine detalė 10: likimo ratas\n→ Priimk likimą\n→ Paleisk pasipriešinimą\n→ Išdrįsk sąmoningai naujai pradžiai</string>
+    <string name="karmic_detail_11">Karmine detalė 11: vizionierius\n→ Integruok dualumą (šviesa &amp; šešėlis)\n→ Priimk dvasinį vadovavimą\n→ Būk įkvėpimas kitiems</string>
+    <string name="karmic_detail_12">Karmine detalė 12: požiūrio kaita\n→ Tarnauk be aukos vaidmens\n→ Žiūrėk į dalykus iš naujos perspektyvos\n→ Išmintis per atsisakymą</string>
+    <string name="karmic_detail_13">Karmine detalė 13: ego &amp; transformacija\n→ Paleisk ego (puikybę, teisumą)\n→ Praktikuok nuolankumą neprarasdamas savęs\n→ Transformacija per darbą ir susitelkimą</string>
+    <string name="karmic_detail_14">Karmine detalė 14: priklausomybių paleidimas\n→ Laisvė vietoj baimės vedamo prisirišimo\n→ Rask saikingumą\n→ Stiprink emocinę nepriklausomybę</string>
+    <string name="karmic_detail_16">Karmine detalė 16: pabudimas &amp; autentiškumas\n→ Senos struktūros griūva\n→ Atrask tikrą autentiškumą\n→ Iliuzijos nyksta</string>
+    <string name="karmic_detail_19">Karmine detalė 19: savivertė &amp; galia\n→ Neapibrėžk savęs vien pasiekimais\n→ Gydyk galią ir bejėgiškumą\n→ Išmok priimti pagalbą</string>
+    <string name="karmic_detail_20">Karmine detalė 20: pabudimas &amp; sprendimas\n→ Kantrybė ir aukštesnis supratimas\n→ Dvasinė diplomatija</string>
+    <string name="karmic_detail_21">Karmine detalė 21: išraiška pasaulyje\n→ Sėkmė po ilgos kelionės\n→ Priešybių integracija\n→ Išsipildymas išorėje</string>
+    <string name="karmic_detail_22">Karmine detalė 22: kūrėjas\n→ Įgyvendink didelius sapnus\n→ Prisiimk atsakomybę už savo talentus\n→ Tarnauk neprarasdamas savęs</string>
+    <string name="karmic_detail_23">Karmine detalė 23: karališkasis liūtas\n→ Apsauga &amp; sėkmė\n→ Raiškos laisvė\n→ Išlaikyk lankstumą</string>
+    <string name="karmic_detail_24">Karmine detalė 24: širdies gydymas\n→ Įvykdyk ir paleisk sielos sutartis\n→ Meilė ir tarnystė artimui\n→ Emocinė stabilumas</string>
+    <string name="karmic_detail_27">Karmine detalė 27: tarnystė visumai\n→ Gydymas ne tik sau\n→ Kurk poveikį kitiems\n→ Dvasinė įžvalga</string>
+    <string name="karmic_detail_30">Karmine detalė 30: kūrybinė raiška\n→ Leisk jausmams būti (neslopink)\n→ Džiaugsmas kaip vedlys\n→ Atpažink emocijas kaip mokytojus</string>
+    <string name="karmic_detail_31">Karmine detalė 31: vidinė stabilumas\n→ Pašaukimas vietoj pareigos\n→ Neslėpk savo dovanų\n→ Įnešk tvarką į chaosą</string>
+    <string name="karmic_detail_33">Karmine detalė 33: meistras-mokytojas\n→ Universali gydanti meilė\n→ Užuojauta be kančios\n→ Tarnystė žmonijai</string>
+
+    <!-- Spezifische Zusammenfassungen & Energieflüsse (Kombinationen) -->
+    <string name="summary_default">Tavo pagrindinė žinutė: klausykis savo vidinio balso, esi vedamas.</string>
+    <string name="energy_flow_default">Aiškumas → Pasitikėjimas → Veiksmas</string>
+    <string name="summary_99_1">Labai reikšmingas karmikos ciklas galutinai užsibaigė. Tai sukuria erdvę galingai, dieviškai vedamai naujai pradžiai.</string>
+    <string name="energy_flow_99_1">Užbaigimas → Išsilaisvinimas → Nauja pradžia</string>
+    <string name="summary_8_55">Didžiulis teigiamas pokytis (dviguba 5) veda tave į gausą ir materialinį pagerėjimą (8). Lūžis jau arti.</string>
+    <string name="energy_flow_8_55">Lūžis → Laisvė → Stabilumas</string>
+    <string name="summary_11_22">Meistrų aljansas: vizija (11) susitinka su manifestacija (22). Dabar turi jėgų paversti didelius sapnus realybe.</string>
+    <string name="energy_flow_11_22">Idėja → Planas → Realybė</string>
+    <string name="summary_7_77">Triguba mistinė galia. Tavo ryšys su dvasiniu pasauliu itin sustiprėjęs. Atkreipk dėmesį į sapnus ir ženklus.</string>
+    <string name="energy_flow_7_77">Tyla → Įžvalga → Pabudimas</string>
+    <string name="summary_4_8">Struktūra (4) sudaro pagrindą dideliai sėkmei (8). Sunkus darbas dabar finansiškai atsiperka.</string>
+    <string name="energy_flow_4_8">Drausmė → Kūrimas → Turtas</string>
+    <string name="summary_1_9">Pradžia ir pabaiga susiliečia. Uždarydamas vienas duris, tuoj pat atveri kitas. Greitas perėjimas.</string>
+    <string name="energy_flow_1_9">Paleidimas → Drąsa → Naujas startas</string>
+    <string name="summary_3_33">Aukščiausia kūrybinė raiška. Tavo žodžiai ar menas dabar turi gydantį poveikį kitiems.</string>
+    <string name="energy_flow_3_33">Džiaugsmas → Raiška → Gydymas</string>
 </resources>

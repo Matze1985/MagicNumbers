@@ -1,112 +1,53 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Nama Aplikasi -->
-    <string name="app_name">Angka Ajaib</string>
+    <!-- App Name -->
+    <string name="app_name">Angka Magis</string>
 
-    <!-- Label Frekuensi -->
+    <!-- UI Texte -->
+    <string name="new_message">Pesan baru</string>
+    <string name="copy_message">Salin pesan</string>
+    <string name="clipboard_label">Pesan magis</string>
+    <string name="welcome_message">Tekan \"Pesan baru\" untuk menerima ritme saat ini.</string>
+    <string name="message_for_the_moment">Pesan untuk saat ini: %1$s</string>
+    <string name="your_cross_sum_is">Jumlah digitmu adalah: %1$s</string>
+    <string name="digit_occurrence">(muncul %1$dx, diperkuat)</string>
     <string name="frequency_label">Frekuensi</string>
 
-    <!-- Teks UI -->
-    <string name="new_message">Pesan Baru</string>
-    <string name="copy_message">Salin pesan</string>
-    <string name="clipboard_label">Pesan Ajaib</string>
-    <string name="welcome_message">Ketuk \'Pesan Baru\' untuk menangkap ritme momen ini.</string>
-    <string name="message_for_the_moment">Pesan momen ini: %1$s</string>
-    <string name="your_cross_sum_is">Jumlah digit Anda: %1$s</string>
-    <string name="digit_occurrence">(muncul %1$dx, diperkuat)</string>
-
-    <!-- Header Bagian -->
-    <string name="section_vibration">🧬 Vibrasi Angka:</string>
-    <string name="section_your_message">💌 Pesan Anda:</string>
+    <!-- Sektions-Überschriften -->
+    <string name="section_vibration">🧬 Getaran angka:</string>
+    <string name="section_your_message">💌 Pesanmu:</string>
     <string name="section_summary">✨ Ringkasan:</string>
-    <string name="section_energy">⚡️ Aliran Energi:</string>
+    <string name="section_energy">⚡️ Aliran energi:</string>
 
-    <!-- Intro Digit -->
+    <!-- Hauptnachrichten Templates (pro Ziffer) -->
     <string name="digit_0_intro">✨ **\'0\'**%1$s memperkuat segalanya. Ini adalah tanda kehadiran ilahi dan potensi tak terbatas.</string>
-    <string name="digit_1_intro">✨ **\'1\'**%1$s mengundang **awal baru yang kuat**. Pikiran Anda bermanifestasi dengan cepat.</string>
-    <string name="digit_2_intro">✨ **\'2\'**%1$s membawa **keseimbangan dan harmoni**, terutama dalam hubungan. Anda tidak sendirian.</string>
-    <string name="digit_3_intro">✨ **\'3\'**%1$s mengaktifkan **kreativitas dan komunikasi**. Ekspresikan diri Anda, dunia spiritual mendengarkan.</string>
-    <string name="digit_4_intro">✨ **\'4\'**%1$s menciptakan **fondasi yang stabil**. Energi ini membawa perlindungan dan keteraturan dalam hidup Anda.</string>
-    <string name="digit_5_intro">✨ **\'5\'**%1$s menandakan gelombang **perubahan dan kebebasan**. Terbuka lah pada petualangan dan memutus rantai lama.</string>
-    <string name="digit_6_intro">✨ **\'6\'**%1$s berfokus pada **penyembuhan hati dan rumah**. Keluarga dan harmoni adalah pusatnya sekarang.</string>
-    <string name="digit_7_intro">✨ **\'7\'**%1$s menjadikan **intuisi Anda sebagai kompas terpenting**. Lihat ke dalam, kebenaran ada di sana.</string>
-    <string name="digit_8_intro">✨ **\'8\'**%1$s mengaktifkan energi **kelimpahan dan kesuksesan**. Buka diri Anda pada pertumbuhan materi dan spiritual.</string>
-    <string name="digit_9_intro">✨ **\'9\'**%1$s menunjukkan **penyelesaian siklus penting**. Lepaskan yang lama untuk memberi ruang bagi yang baru.</string>
+    <string name="digit_1_intro">✨ **\'1\'**%1$s memanggilmu menuju **awal baru yang kuat**. Pikiranmu kini terwujud dengan cepat.</string>
+    <string name="digit_2_intro">✨ **\'2\'**%1$s membawa **keseimbangan dan harmoni**, terutama dalam hubungan. Kamu tidak sendirian.</string>
+    <string name="digit_3_intro">✨ **\'3\'**%1$s mengaktifkan **kreativitas dan komunikasi**mu. Ekspresikan dirimu — dunia spiritual sedang mendengarkan.</string>
+    <string name="digit_4_intro">✨ **\'4\'**%1$s menciptakan **fondasi yang stabil**. Energi ini membawa perlindungan dan struktur ke dalam hidupmu.</string>
+    <string name="digit_5_intro">✨ **\'5\'**%1$s menandakan **gelombang perubahan dan kebebasan**. Terbukalah pada petualangan dan lepaskan rantai lama.</string>
+    <string name="digit_6_intro">✨ **\'6\'**%1$s mengarahkan fokus pada **penyembuhan hati dan rumah**. Keluarga dan harmoni kini menjadi pusat perhatian.</string>
+    <string name="digit_7_intro">✨ **\'7\'**%1$s menjadikan **intuisimu sebagai kompas terpenting**. Dengarkan ke dalam — kebenaran ada di dalam dirimu.</string>
+    <string name="digit_8_intro">✨ **\'8\'**%1$s mengaktifkan energi **kelimpahan dan kesuksesan**. Terbukalah pada kesejahteraan materi dan spiritual.</string>
+    <string name="digit_9_intro">✨ **\'9\'**%1$s menandai **akhir dari sebuah siklus penting**. Lepaskan yang lama untuk memberi ruang bagi yang baru.</string>
 
-    <!-- Ringkasan Spesifik & Aliran Energi -->
-    <string name="summary_default">Pesan utama Anda: Dengarkan suara hati Anda, Anda sedang dibimbing.</string>
-    <string name="energy_flow_default">Kejelasan → Kepercayaan → Tindakan</string>
-    <string name="summary_99_1">Siklus karma yang sangat signifikan telah berakhir sepenuhnya. Ini menciptakan ruang untuk awal baru yang kuat di bawah bimbingan ilahi.</string>
-    <string name="energy_flow_99_1">Penyelesaian → Pembebasan → Awal Baru</string>
-    <string name="summary_8_55">Perubahan positif besar (ganda 5) membawa Anda menuju kelimpahan dan perbaikan materi (8). Terobosan sudah dekat.</string>
-    <string name="energy_flow_8_55">Terobosan → Kebebasan → Stabilitas</string>
-
-    <!-- Arti Khusus Numerologi -->
+    <!-- Numerologie Grundbedeutungen -->
+    <string name="numerology_1">Awal baru &amp; kepemimpinan</string>
+    <string name="numerology_2">Harmoni &amp; keseimbangan</string>
+    <string name="numerology_3">Kreativitas &amp; pertumbuhan</string>
+    <string name="numerology_4">Stabilitas &amp; perlindungan</string>
+    <string name="numerology_5">Kebebasan &amp; perubahan</string>
+    <string name="numerology_6">Cinta &amp; harmoni</string>
+    <string name="numerology_7">Intuisi &amp; kebangkitan</string>
+    <string name="numerology_8">Kesuksesan &amp; kelimpahan</string>
+    <string name="numerology_9">Penyempurnaan &amp; kebijaksanaan</string>
+    <string name="numerology_11">Intuisi master</string>
+    <string name="numerology_22">Manifestasi master</string>
+    <string name="numerology_33">Penyembuh master</string>
     <string name="numerology_unknown">Tidak diketahui</string>
-    <string name="master_number_11">(Angka Master: Intuisi dan Pencerahan)</string>
-    <string name="master_number_22">(Angka Master: Pembangun Utama dan Manifestasi)</string>
-    <string name="master_number_33">(Angka Master: Cinta Universal dan Penyembuhan)</string>
 
-    <string name="karmic_lesson_13">(Pelajaran Karma: Disiplin dan Kerja)</string>
-    <string name="karmic_lesson_14">(Pelajaran Karma: Kebebasan yang Bertanggung Jawab)</string>
-    <string name="karmic_lesson_16">(Pelajaran Karma: Ego dan Pembangunan Kembali)</string>
-    <string name="karmic_lesson_19">(Pelajaran Karma: Kekuasaan dan Kemandirian)</string>
-    <string name="karmic_lesson_4">(Pelajaran Karma: Stabilitas dan Proses)</string>
-    <string name="karmic_lesson_5">(Pelajaran Karma: Takut akan Perubahan)</string>
-    <string name="karmic_lesson_6">(Pelajaran Karma: Tanggung Jawab dan Komitmen)</string>
-    <string name="karmic_lesson_8">(Pelajaran Karma: Kekuasaan dan Uang)</string>
-
-    <!-- Detail Karma: Dasar (1-3) -->
-    <string name="karmic_detail_1">No. 1: Sang Perintis\n→ Keberanian untuk individualitas\n→ Menempuh jalan baru tanpa rasa takut</string>
-    <string name="karmic_detail_2">No. 2: Sang Diplomat\n→ Belajar harmoni &amp; kesabaran\n→ Kepercayaan dalam kemitraan</string>
-    <string name="karmic_detail_3">No. 3: Sang Seniman\n→ Menjalani sukacita &amp; kreativitas\n→ Melepaskan kritik diri</string>
-
-    <!-- Detail Karma: Inti (4-9) -->
-    <string name="karmic_detail_4">No. 4: Kesabaran &amp; Kepercayaan\n→ Jangan memaksakan keadaan\n→ Percaya pada waktu ilahi\n→ Stabilitas melalui ketertiban</string>
-    <string name="karmic_detail_5">No. 5: Transformasi Ketakutan\n→ Melepaskan rasa takut akan kehilangan &amp; kekurangan\n→ Keberanian daripada melarikan diri\n→ Kebebasan melalui tanggung jawab diri</string>
-    <string name="karmic_detail_6">No. 6: Cinta Tanpa Syarat\n→ Tanpa rasa memiliki &amp; ekspektasi\n→ Pengampunan (orang lain &amp; diri sendiri)\n→ Menetapkan batasan tanpa rasa bersalah</string>
-    <string name="karmic_detail_7">No. 7: Kepercayaan Spiritual\n→ Intuisi sebagai kompas\n→ Percaya pada bimbingan spiritual\n→ Mengintegrasikan dualitas (cahaya &amp; bayangan)</string>
-    <string name="karmic_detail_8">No. 8: Uang &amp; Kelimpahan\n→ Melarutkan pola pikir kekurangan\n→ Memberi &amp; menerima secara seimbang\n→ Tanggung jawab atas bakat</string>
-    <string name="karmic_detail_9">No. 9: Penyelesaian &amp; Kebijaksanaan\n→ Melepaskan luka lama\n→ Melarutkan siklus karma lama\n→ Pelayanan kepada komunitas</string>
-
-    <!-- Detail Karma: Transisi (10-12) -->
-    <string name="karmic_detail_10">No. 10: Roda Keberuntungan\n→ Awal baru di tingkat yang lebih tinggi\n→ Mengambil kepemimpinan</string>
-    <string name="karmic_detail_11">No. 11: Sang Visioner\n→ Pencerahan spiritual\n→ Menjadi inspirasi bagi orang lain</string>
-    <string name="karmic_detail_12">No. 12: Pemahaman &amp; Kebijaksanaan\n→ Melayani tanpa pengorbanan diri\n→ Meninggalkan peran korban lama</string>
-
-    <!-- Angka Karma Klasik (13, 14, 16, 19) -->
-    <string name="karmic_detail_13">No. 13: Tanggung Jawab Diri\n→ Berhenti mencari kesalahan di luar\n→ Transformasi ego, kontrol &amp; pembenaran diri\n→ Sadari: Saya adalah pencipta bersama hidup saya</string>
-    <string name="karmic_detail_14">No. 14: Melepaskan Ketergantungan\n→ Emosional, materi &amp; energi\n→ Kebebasan bukan ikatan karena takut\n→ Praktikkan moderasi &amp; fokus</string>
-    <string name="karmic_detail_16">No. 16: Otentisitas &amp; Kebangkitan\n→ Menjalani kebenaran sendiri\n→ Menjatuhkan topeng dan peran\n→ Mengenali hukum cermin</string>
-    <string name="karmic_detail_19">No. 19: Harga Diri &amp; Cinta Diri\n→ Jangan definisikan diri dari pencapaian\n→ Hormati batasan sendiri\n→ Sembuhkan kekuasaan &amp; ketidakberdayaan</string>
-
-    <!-- Vibrasi Lebih Tinggi (20-31) -->
-    <string name="karmic_detail_20">No. 20: Kebangkitan\n→ Kesabaran &amp; kearifan\n→ Diplomasi spiritual</string>
-    <string name="karmic_detail_21">No. 21: Ekspresi Dunia\n→ Kesuksesan setelah perjalanan panjang\n→ Integrasi hal-hal yang berlawanan</string>
-    <string name="karmic_detail_22">No. 22: Pembangun Utama\n→ Mewujudkan impian besar\n→ Idealisme praktis</string>
-    <string name="karmic_detail_23">No. 23: Bintang Kerajaan Singa\n→ Perlindungan &amp; Kesuksesan\n→ Komunikasi &amp; Kebebasan</string>
-    <string name="karmic_detail_24">No. 24: Penyembuhan Hati\n→ Menyelesaikan karma hubungan\n→ Memenuhi &amp; melepaskan kontrak jiwa</string>
-    <string name="karmic_detail_27">No. 27: Pelayanan kepada Komunitas\n→ Penyembuhan bukan hanya untuk diri sendiri\n→ Menciptakan dampak bagi orang lain</string>
-    <string name="karmic_detail_30">No. 30: Ekspresi Kreatif\n→ Mengizinkan &amp; mengekspresikan perasaan\n→ Mengenali emosi sebagai guru</string>
-    <string name="karmic_detail_31">No. 31: Stabilitas dalam Diri\n→ Panggilan daripada kewajiban\n→ Jangan sembunyikan bakat Anda</string>
-
-    <!-- Arti Dasar Numerologi -->
-    <string name="numerology_1">Awal Baru dan Kepemimpinan</string>
-    <string name="numerology_2">Harmoni dan Keseimbangan</string>
-    <string name="numerology_3">Kreativitas dan Pertumbuhan</string>
-    <string name="numerology_4">Stabilitas dan Perlindungan</string>
-    <string name="numerology_5">Kebebasan dan Perubahan</string>
-    <string name="numerology_6">Cinta dan Harmoni</string>
-    <string name="numerology_7">Intuisi dan Kebangkitan</string>
-    <string name="numerology_8">Kesuksesan dan Kelimpahan</string>
-    <string name="numerology_9">Penyelesaian dan Kebijaksanaan</string>
-    <string name="numerology_11">Intuisi Master</string>
-    <string name="numerology_22">Manifestator Master</string>
-    <string name="numerology_33">Penyembuh Master</string>
-
-    <!-- Kata Kunci Numerologi -->
+    <!-- Numerologie Keywords -->
     <string name="keyword_0">Sumber</string>
-    <string name="keyword_1">Awal Baru</string>
+    <string name="keyword_1">Awal baru</string>
     <string name="keyword_2">Keseimbangan</string>
     <string name="keyword_3">Kreativitas</string>
     <string name="keyword_4">Stabilitas</string>
@@ -114,5 +55,75 @@
     <string name="keyword_6">Harmoni</string>
     <string name="keyword_7">Intuisi</string>
     <string name="keyword_8">Kelimpahan</string>
-    <string name="keyword_9">Penyelesaian</string>
+    <string name="keyword_9">Penyempurnaan</string>
+
+    <!-- Numerologie Spezialbedeutungen (Meisterzahlen & Hohe Schwingungen) -->
+    <string name="master_number_11">Angka master 11: intuisi &amp; pencerahan</string>
+    <string name="master_number_22">Angka master 22: pembangun &amp; manifestasi</string>
+    <string name="master_number_33">Angka master 33: cinta universal &amp; penyembuhan</string>
+    <string name="master_number_44">Angka master 44: penyembuh master. Kamu menghubungkan dunia material dan spiritual.</string>
+    <string name="special_number_55">Getaran khusus 55: perubahan radikal &amp; kebebasan</string>
+    <string name="special_number_66">Getaran khusus 66: cinta universal &amp; welas asih</string>
+    <string name="special_number_77">Getaran khusus 77: wawasan spiritual yang mendalam</string>
+    <string name="special_number_88">Getaran khusus 88: kelimpahan tak terbatas &amp; keseimbangan</string>
+    <string name="special_number_99">Getaran khusus 99: kesadaran universal &amp; pelayanan</string>
+
+    <!-- Karmische Lektionen (Kurztexte für Listen) -->
+    <string name="karmic_lesson_4">Pelajaran karma 4: stabilitas dan kerja keras.</string>
+    <string name="karmic_lesson_5">Pelajaran karma 5: kebebasan dan disiplin.</string>
+    <string name="karmic_lesson_7">Pelajaran karma 7: kepercayaan dan keterbukaan.</string>
+    <string name="karmic_lesson_8">Pelajaran karma 8: kelimpahan dan penyalahgunaan kekuasaan.</string>
+    <string name="karmic_lesson_10">Pelajaran karma 10: roda takdir / awal baru</string>
+    <string name="karmic_lesson_11">Pelajaran karma 11: pelajaran penguasaan spiritual dan keseimbangan</string>
+    <string name="karmic_lesson_13">Pelajaran karma 13: pelajaran kerja dan fokus (transformasi)</string>
+    <string name="karmic_lesson_14">Pelajaran karma 14: pelajaran kebebasan dan pengendalian diri</string>
+    <string name="karmic_lesson_16">Pelajaran karma 16: pelajaran kebangkitan dan kerendahan hati</string>
+    <string name="karmic_lesson_19">Pelajaran karma 19: pelajaran kekuasaan dan kemandirian</string>
+    <string name="karmic_lesson_22">Pelajaran karma 22: pelajaran pencipta master dan tanggung jawab</string>
+    <string name="karmic_lesson_33">Pelajaran karma 33: pelajaran master cinta penyembuh</string>
+
+    <!-- Karmische Details -->
+    <string name="karmic_detail_1">Detail karma 1: tanggung jawab diri\n→ Berhenti mencari kesalahan di luar\n→ Sadari: aku adalah rekan pencipta hidupku\n→ Keberanian menempuh jalan sendiri</string>
+    <string name="karmic_detail_2">Detail karma 2: hubungan &amp; cermin\n→ Kenali hukum cermin: orang lain menunjukkan bagian yang belum terselesaikan\n→ Diplomasi tanpa mengorbankan diri\n→ Jaga kesabaran</string>
+    <string name="karmic_detail_3">Detail karma 3: keaslian &amp; ekspresi\n→ Jalani kebenaranmu sendiri\n→ Lepaskan topeng dan peran\n→ Ekspresikan perasaan secara kreatif</string>
+    <string name="karmic_detail_4">Detail karma 4: kesabaran &amp; kepercayaan\n→ Jangan memaksakan segalanya\n→ Percaya pada waktu ilahi\n→ Ciptakan stabilitas melalui keteraturan</string>
+    <string name="karmic_detail_5">Detail karma 5: transformasi ketakutan\n→ Keberanian alih-alih pelarian\n→ Transformasikan ketakutan akan kehilangan atau kekurangan\n→ Kebebasan melalui tanggung jawab</string>
+    <string name="karmic_detail_6">Detail karma 6: cinta &amp; batasan\n→ Cinta tanpa syarat tanpa kepemilikan\n→ Katakan “tidak” tanpa rasa bersalah\n→ Jangan mengorbankan diri</string>
+    <string name="karmic_detail_7">Detail karma 7: kepercayaan &amp; bimbingan\n→ Percaya pada bimbingan spiritual\n→ Ikuti intuisi dan perhatikan tanda-tanda\n→ Introspeksi alih-alih kendali eksternal</string>
+    <string name="karmic_detail_8">Detail karma 8: kekuasaan &amp; kelimpahan\n→ Lepaskan kesadaran kekurangan\n→ Memberi dan menerima dalam keseimbangan\n→ Sembuhkan kekuasaan (tanpa manipulasi)</string>
+    <string name="karmic_detail_9">Detail karma 9: melepaskan &amp; pengampunan\n→ Maafkan orang lain dan dirimu sendiri\n→ Lepaskan luka lama\n→ Mengabdi pada komunitas</string>
+    <string name="karmic_detail_10">Detail karma 10: roda takdir\n→ Terima takdir\n→ Lepaskan perlawanan\n→ Berani memulai awal baru dengan sadar</string>
+    <string name="karmic_detail_11">Detail karma 11: sang visioner\n→ Integrasikan dualitas (cahaya &amp; bayangan)\n→ Terima kepemimpinan spiritual\n→ Menjadi inspirasi bagi orang lain</string>
+    <string name="karmic_detail_12">Detail karma 12: perubahan perspektif\n→ Melayani tanpa peran korban\n→ Melihat hal-hal dari sudut pandang baru\n→ Kebijaksanaan melalui penyerahan</string>
+    <string name="karmic_detail_13">Detail karma 13: ego &amp; transformasi\n→ Lepaskan ego (kesombongan, ingin selalu benar)\n→ Latih kerendahan hati tanpa kehilangan diri\n→ Transformasi melalui kerja dan fokus</string>
+    <string name="karmic_detail_14">Detail karma 14: melepaskan ketergantungan\n→ Kebebasan alih-alih keterikatan karena takut\n→ Temukan moderasi\n→ Perkuat kemandirian emosional</string>
+    <string name="karmic_detail_16">Detail karma 16: kebangkitan &amp; keaslian\n→ Struktur lama runtuh\n→ Temukan keaslian sejati\n→ Ilusi sirna</string>
+    <string name="karmic_detail_19">Detail karma 19: nilai diri &amp; kekuasaan\n→ Jangan mendefinisikan diri hanya lewat pencapaian\n→ Sembuhkan kekuasaan dan ketidakberdayaan\n→ Belajar menerima bantuan</string>
+    <string name="karmic_detail_20">Detail karma 20: kebangkitan &amp; penilaian\n→ Kesabaran dan pemahaman yang lebih tinggi\n→ Diplomasi spiritual</string>
+    <string name="karmic_detail_21">Detail karma 21: ekspresi duniawi\n→ Kesuksesan setelah perjalanan panjang\n→ Integrasi pertentangan\n→ Penyempurnaan di dunia luar</string>
+    <string name="karmic_detail_22">Detail karma 22: sang pembangun\n→ Wujudkan mimpi besar\n→ Ambil tanggung jawab atas bakatmu\n→ Melayani tanpa kehilangan diri</string>
+    <string name="karmic_detail_23">Detail karma 23: singa kerajaan\n→ Perlindungan &amp; kesuksesan\n→ Kebebasan berekspresi\n→ Tetap fleksibel</string>
+    <string name="karmic_detail_24">Detail karma 24: penyembuhan hati\n→ Memenuhi dan melepaskan kontrak jiwa\n→ Cinta dan pelayanan kepada sesama\n→ Stabilitas emosional</string>
+    <string name="karmic_detail_27">Detail karma 27: pelayanan bagi keseluruhan\n→ Penyembuhan bukan hanya untuk diri sendiri\n→ Menciptakan dampak bagi orang lain\n→ Wawasan spiritual</string>
+    <string name="karmic_detail_30">Detail karma 30: ekspresi kreatif\n→ Izinkan perasaan (jangan ditekan)\n→ Sukacita sebagai penunjuk jalan\n→ Kenali emosi sebagai guru</string>
+    <string name="karmic_detail_31">Detail karma 31: stabilitas diri\n→ Panggilan hidup alih-alih kewajiban\n→ Jangan sembunyikan bakatmu\n→ Ciptakan keteraturan dalam kekacauan</string>
+    <string name="karmic_detail_33">Detail karma 33: guru master\n→ Cinta penyembuh universal\n→ Welas asih tanpa penderitaan\n→ Pelayanan bagi umat manusia</string>
+
+    <!-- Spezifische Zusammenfassungen & Energieflüsse (Kombinationen) -->
+    <string name="summary_default">Pesan utamamu adalah: dengarkan suara batinmu, kamu sedang dibimbing.</string>
+    <string name="energy_flow_default">Kejelasan → Kepercayaan → Tindakan</string>
+    <string name="summary_99_1">Sebuah siklus karma yang sangat penting telah sepenuhnya berakhir. Ini menciptakan ruang bagi awal baru yang kuat dan dibimbing secara ilahi.</string>
+    <string name="energy_flow_99_1">Penyempurnaan → Pembebasan → Awal baru</string>
+    <string name="summary_8_55">Perubahan positif yang besar (dua kali 5) membawamu menuju kelimpahan dan peningkatan materi (8). Sebuah terobosan sudah dekat.</string>
+    <string name="energy_flow_8_55">Terobosan → Kebebasan → Stabilitas</string>
+    <string name="summary_11_22">Aliansi master: visi (11) bertemu dengan manifestasi (22). Kini kamu memiliki kekuatan untuk mewujudkan mimpi besar.</string>
+    <string name="energy_flow_11_22">Ide → Rencana → Realitas</string>
+    <string name="summary_7_77">Kekuatan mistis rangkap tiga. Hubunganmu dengan dunia spiritual sangat diperkuat. Perhatikan mimpi dan tanda-tanda.</string>
+    <string name="energy_flow_7_77">Keheningan → Wawasan → Kebangkitan</string>
+    <string name="summary_4_8">Struktur (4) membentuk fondasi bagi kesuksesan besar (8). Kerja keras kini membuahkan hasil secara finansial.</string>
+    <string name="energy_flow_4_8">Disiplin → Pembangunan → Kekayaan</string>
+    <string name="summary_1_9">Awal dan akhir saling bersentuhan. Kamu menutup satu pintu untuk segera membuka pintu lainnya. Transisi yang cepat.</string>
+    <string name="energy_flow_1_9">Melepaskan → Keberanian → Mulai ulang</string>
+    <string name="summary_3_33">Ekspresi kreatif tertinggi. Kata-kata atau senimu kini memiliki efek penyembuhan bagi orang lain.</string>
+    <string name="energy_flow_3_33">Kegembiraan → Ekspresi → Penyembuhan</string>
 </resources>

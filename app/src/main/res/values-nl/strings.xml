@@ -1,109 +1,53 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- App Name -->
     <string name="app_name">Magische Getallen</string>
 
-    <!-- UI-teksten -->
+    <!-- UI Teksten -->
+    <string name="new_message">Nieuw bericht</string>
+    <string name="copy_message">Bericht kopiëren</string>
+    <string name="clipboard_label">Magisch bericht</string>
+    <string name="welcome_message">Druk op \"Nieuw bericht\" om het ritme van het moment te ontvangen.</string>
+    <string name="message_for_the_moment">Bericht voor dit moment: %1$s</string>
+    <string name="your_cross_sum_is">Je cijfer­som is: %1$s</string>
+    <string name="digit_occurrence">(verschijnt %1$dx keer, versterkt)</string>
     <string name="frequency_label">Frequentie</string>
-    <string name="new_message">Nieuw Bericht</string>
-    <string name="copy_message">Kopiëren</string>
-    <string name="clipboard_label">Magisch Bericht</string>
-    <string name="welcome_message">Klik op \'Nieuw Bericht\' om het ritme van het moment te ontvangen.</string>
-    <string name="message_for_the_moment">Boodschap voor het moment: %1$s</string>
-    <string name="your_cross_sum_is">Je dwarsgetal is: %1$s</string>
-    <string name="digit_occurrence">(komt %1$dx voor, versterkt)</string>
 
     <!-- Sectiekoppen -->
-    <string name="section_vibration">🧬 Vibratie van de Cijfers:</string>
-    <string name="section_your_message">💌 Jouw Boodschap:</string>
-    <string name="section_summary">✨ In het kort:</string>
-    <string name="section_energy">⚡️ Energie:</string>
+    <string name="section_vibration">🧬 Trilling van de cijfers:</string>
+    <string name="section_your_message">💌 Jouw boodschap:</string>
+    <string name="section_summary">✨ Samenvatting:</string>
+    <string name="section_energy">⚡️ Energiestroom:</string>
 
-    <!-- Sjabloonberichten per cijfer -->
-    <string name="digit_0_intro">✨ De **\'0\'**%1$s versterkt alles. Het is een teken van goddelijke aanwezigheid en onbeperkt potentieel.</string>
-    <string name="digit_1_intro">✨ De **\'1\'**%1$s roept je op tot een **krachtig nieuw begin**. Je gedachten manifesteren zich nu snel.</string>
-    <string name="digit_2_intro">✨ De **\'2\'**%1$s brengt **balans en harmonie**, vooral in relaties. Je bent niet alleen.</string>
-    <string name="digit_3_intro">✨ De **\'3\'**%1$s activeert je **creativiteit en communicatie**. Druk jezelf uit, de spirituele wereld luistert.</string>
-    <string name="digit_4_intro">✨ De **\'4\'**%1$s creëert een **stabiele basis**. Deze energie brengt bescherming en structuur in je leven.</string>
-    <string name="digit_5_intro">✨ De **\'5\'**%1$s signaleert een **golf van verandering en vrijheid**. Sta open voor avontuur en het doorbreken van oude ketens.</string>
-    <string name="digit_6_intro">✨ De **\'6\'**%1$s richt zich op **heling voor hart en huis**. Familie en harmonie staan nu centraal.</string>
-    <string name="digit_7_intro">✨ De **\'7\'**%1$s maakt je **intuïtie het belangrijkste kompas**. Luister naar binnen, de waarheid ligt in jou.</string>
-    <string name="digit_8_intro">✨ De **\'8\'**%1$s activeert de energie van **overvloed en succes**. Sta open voor materiële en spirituele welvaart.</string>
-    <string name="digit_9_intro">✨ De **\'9\'**%1$s duidt op de **voltooiing van een belangrijke cyclus**. Laat het oude los om ruimte te maken voor het nieuwe.</string>
+    <!-- Hoofdboodschappen (per cijfer) -->
+    <string name="digit_0_intro">✨ Het cijfer **\'0\'**%1$s versterkt alles. Het is een teken van goddelijke aanwezigheid en oneindig potentieel.</string>
+    <string name="digit_1_intro">✨ Het cijfer **\'1\'**%1$s roept je op tot een **krachtig nieuw begin**. Je gedachten manifesteren zich nu snel.</string>
+    <string name="digit_2_intro">✨ Het cijfer **\'2\'**%1$s brengt **balans en harmonie**, vooral in relaties. Je staat er niet alleen voor.</string>
+    <string name="digit_3_intro">✨ Het cijfer **\'3\'**%1$s activeert je **creativiteit en communicatie**. Druk jezelf uit — de spirituele wereld luistert.</string>
+    <string name="digit_4_intro">✨ Het cijfer **\'4\'**%1$s creëert een **stabiele basis**. Deze energie brengt bescherming en structuur in je leven.</string>
+    <string name="digit_5_intro">✨ Het cijfer **\'5\'**%1$s kondigt een **golf van verandering en vrijheid** aan. Sta open voor avontuur en verbreek oude ketens.</string>
+    <string name="digit_6_intro">✨ Het cijfer **\'6\'**%1$s richt de aandacht op **heling van hart en thuis**. Familie en harmonie staan nu centraal.</string>
+    <string name="digit_7_intro">✨ Het cijfer **\'7\'**%1$s maakt je **intuïtie tot het belangrijkste kompas**. Luister naar binnen — de waarheid ligt in jou.</string>
+    <string name="digit_8_intro">✨ Het cijfer **\'8\'**%1$s activeert de energie van **overvloed en succes**. Sta open voor materiële en spirituele welvaart.</string>
+    <string name="digit_9_intro">✨ Het cijfer **\'9\'**%1$s wijst op de **afronding van een belangrijke cyclus**. Laat het oude los om ruimte te maken voor het nieuwe.</string>
 
-    <!-- Speciale samenvattingen & Energiestromen -->
-    <string name="summary_default">Je hoofdboodschap is: Luister naar je innerlijke stem, je wordt geleid.</string>
-    <string name="energy_flow_default">Helderheid → Vertrouwen → Actie</string>
-    <string name="summary_99_1">Een zeer belangrijke karmische cyclus is eindelijk voltooid. Dit creëert ruimte voor een krachtig, goddelijk geleid nieuw begin.</string>
-    <string name="energy_flow_99_1">Voltooiing → Bevrijding → Nieuw Begin</string>
-    <string name="summary_8_55">Een massale, positieve verandering (dubbele 5) brengt je in je overvloed en materiële verbetering (8). Een doorbraak is nabij.</string>
-    <string name="energy_flow_8_55">Doorbraak → Vrijheid → Stabiliteit</string>
-
-    <!-- Numerologie Speciale Betekenissen -->
+    <!-- Numerologie Betekenissen -->
+    <string name="numerology_1">Nieuw begin &amp; leiderschap</string>
+    <string name="numerology_2">Harmonie &amp; balans</string>
+    <string name="numerology_3">Creativiteit &amp; groei</string>
+    <string name="numerology_4">Stabiliteit &amp; bescherming</string>
+    <string name="numerology_5">Vrijheid &amp; verandering</string>
+    <string name="numerology_6">Liefde &amp; harmonie</string>
+    <string name="numerology_7">Intuïtie &amp; ontwaken</string>
+    <string name="numerology_8">Succes &amp; overvloed</string>
+    <string name="numerology_9">Voltooiing &amp; wijsheid</string>
+    <string name="numerology_11">Meester-intuïtie</string>
+    <string name="numerology_22">Meester-manifestatie</string>
+    <string name="numerology_33">Meester-healer</string>
     <string name="numerology_unknown">Onbekend</string>
-    <string name="master_number_11">(Meestergetal: Intuïtie &amp; Verlichting)</string>
-    <string name="master_number_22">(Meestergetal: Meesterbouwer &amp; Manifestatie)</string>
-    <string name="master_number_33">(Meestergetal: Universele Liefde &amp; Heling)</string>
-    <string name="karmic_lesson_13">(Karmische Les: Discipline &amp; Werk)</string>
-    <string name="karmic_lesson_14">(Karmische Les: Verantwoorde Vrijheid)</string>
-    <string name="karmic_lesson_16">(Karmische Les: Ego &amp; Heropbouw)</string>
-    <string name="karmic_lesson_19">(Karmische Les: Macht &amp; Onafhankelijkheid)</string>
-    <string name="karmic_lesson_4">(Karmische Les: Stabiliteit &amp; Proces)</string>
-    <string name="karmic_lesson_5">(Karmische Les: Angst voor Verandering)</string>
-    <string name="karmic_lesson_6">(Karmische Les: Verantwoordelijkheid &amp; Verplichting)</string>
-    <string name="karmic_lesson_8">(Karmische Les: Macht &amp; Geld)</string>
-
-    <!-- Karmische Details: Basis (1-3) -->
-    <string name="karmic_detail_1">Nr. 1: De Pionier\n→ Moed voor individualiteit\n→ Zonder angst nieuwe wegen inslaan</string>
-    <string name="karmic_detail_2">Nr. 2: De Diplomaat\n→ Harmonie en geduld leren\n→ Vertrouwen in partnerschappen</string>
-    <string name="karmic_detail_3">Nr. 3: De Kunstenaar\n→ Vreugde en creativiteit leven\n→ Zelfkritiek loslaten</string>
-
-    <!-- Karmische Details: Kerngetallen (4-9) -->
-    <string name="karmic_detail_4">Nr. 4: Geduld &amp; Vertrouwen\n→ Forceer de dingen niet\n→ Vertrouw op de goddelijke timing\n→ Stabiliteit door orde</string>
-    <string name="karmic_detail_5">Nr. 5: Transformatie van Angst\n→ Angst voor verlies en tekort loslaten\n→ Moed in plaats van vlucht\n→ Vrijheid door eigen verantwoordelijkheid</string>
-    <string name="karmic_detail_6">Nr. 6: Onvoorwaardelijke Liefde\n→ Zonder bezitsdrang &amp; verwachtingen\n→ Vergeving (voor anderen &amp; jezelf)\n→ Grenzen stellen zonder schuldgevoel</string>
-    <string name="karmic_detail_7">Nr. 7: Spiritueel Vertrouwen\n→ De intuïtie als kompas\n→ Vertrouwen in spirituele leiding\n→ De dualiteit (licht &amp; schaduw) integreren</string>
-    <string name="karmic_detail_8">Nr. 8: Geld &amp; Overvloed\n→ Het tekortbewustzijn oplossen\n→ Geven en ontvangen in balans\n→ Verantwoordelijkheid voor talenten</string>
-    <string name="karmic_detail_9">Nr. 9: Voltooiing &amp; Wijsheid\n→ Oude wonden loslaten\n→ Oude karmische cycli oplossen\n→ Dienstbaarheid aan de gemeenschap</string>
-
-    <!-- Karmische Details: Overgangen (10-12) -->
-    <string name="karmic_detail_10">Nr. 10: Het Rad van Fortuin\n→ Nieuw begin op een hoger niveau\n→ Leiderschap op je nemen</string>
-    <string name="karmic_detail_11">Nr. 11: De Visionair\n→ Spirituele verlichting\n→ Een inspiratie zijn voor anderen</string>
-    <string name="karmic_detail_12">Nr. 12: Begrip &amp; Wijsheid\n→ Dienen zonder zelfopoffering\n→ Oude slachtofferrollen verlaten</string>
-
-    <!-- Klassieke Karmische Getallen (13, 14, 16, 19) -->
-    <string name="karmic_detail_13">Nr. 13: Eigen Verantwoordelijkheid\n→ Stop met de schuld buiten jezelf te zoeken\n→ Transformeer ego, controle &amp; eigengereidheid\n→ Besef: Ik ben medeschepper van mijn leven</string>
-    <string name="karmic_detail_14">Nr. 14: Vrijheid van Afhankelijkheid\n→ Emotioneel, materieel &amp; energetisch\n→ Vrijheid in plaats van binding uit angst\n→ Beoefen gematigdheid en focus</string>
-    <string name="karmic_detail_16">Nr. 16: Authenticiteit &amp; Ontwaken\n→ Je eigen waarheid leven\n→ Maskers en rollen afleggen\n→ De wet van de spiegel herkennen</string>
-    <string name="karmic_detail_19">Nr. 19: Eigenwaarde &amp; Zelfliefde\n→ Definieer jezelf niet door prestaties\n→ Respecteer je eigen grenzen\n→ Heel de thema\'s macht en onmacht</string>
-
-    <!-- Hogere Vibraties (20-31) -->
-    <string name="karmic_detail_20">Nr. 20: Ontwaken\n→ Geduld en onderscheidingsvermogen\n→ Spirituele diplomatie</string>
-    <string name="karmic_detail_21">Nr. 21: Wereldse Expressie\n→ Succes na een lange reis\n→ Integratie van tegenstellingen</string>
-    <string name="karmic_detail_22">Nr. 22: De Meesterbouwer\n→ Manifesteren van grote dromen\n→ Praktisch idealisme</string>
-    <string name="karmic_detail_23">Nr. 23: De Koningsster van de Leeuw\n→ Bescherming en succes\n→ Communicatie en vrijheid</string>
-    <string name="karmic_detail_24">Nr. 24: Heling van het Hart\n→ Relatiekarma oplossen\n→ Zielscontracten vervullen en loslaten</string>
-    <string name="karmic_detail_27">Nr. 27: Dienst aan de Gemeenschap\n→ Heling niet alleen voor jezelf\n→ Impact creëren voor anderen</string>
-    <string name="karmic_detail_30">Nr. 30: Creatieve Expressie\n→ Gevoelens toelaten en uiten\n→ Emoties als leraar herkennen</string>
-    <string name="karmic_detail_31">Nr. 31: Stabiliteit in Jezelf\n→ Roeping in plaats van plicht\n→ Verberg je gaven niet</string>
-
-    <!-- Numerologie Basis Betekenissen -->
-    <string name="numerology_1">Nieuw Begin &amp; Leiderschap</string>
-    <string name="numerology_2">Harmonie &amp; Balans</string>
-    <string name="numerology_3">Creativiteit &amp; Groei</string>
-    <string name="numerology_4">Stabiliteit &amp; Bescherming</string>
-    <string name="numerology_5">Vrijheid &amp; Verandering</string>
-    <string name="numerology_6">Liefde &amp; Harmonie</string>
-    <string name="numerology_7">Intuïtie &amp; Ontwaking</string>
-    <string name="numerology_8">Succes &amp; Overvloed</string>
-    <string name="numerology_9">Voltooiing &amp; Wijsheid</string>
-    <string name="numerology_11">Meester Intuïtie</string>
-    <string name="numerology_22">Meester Manifesteerder</string>
-    <string name="numerology_33">Meester Heler</string>
 
     <!-- Numerologie Sleutelwoorden -->
     <string name="keyword_0">Bron</string>
-    <string name="keyword_1">Nieuw Begin</string>
+    <string name="keyword_1">Begin</string>
     <string name="keyword_2">Balans</string>
     <string name="keyword_3">Creativiteit</string>
     <string name="keyword_4">Stabiliteit</string>
@@ -112,4 +56,74 @@
     <string name="keyword_7">Intuïtie</string>
     <string name="keyword_8">Overvloed</string>
     <string name="keyword_9">Voltooiing</string>
+
+    <!-- Numerologie Speciale Betekenissen -->
+    <string name="master_number_11">Meestergetal 11: intuïtie &amp; verlichting</string>
+    <string name="master_number_22">Meestergetal 22: bouwer &amp; manifestatie</string>
+    <string name="master_number_33">Meestergetal 33: universele liefde &amp; heling</string>
+    <string name="master_number_44">Meestergetal 44: de meester-healer. Je verbindt de materiële en spirituele wereld.</string>
+    <string name="special_number_55">Speciale trilling 55: radicale verandering &amp; vrijheid</string>
+    <string name="special_number_66">Speciale trilling 66: universele liefde &amp; compassie</string>
+    <string name="special_number_77">Speciale trilling 77: diepe spirituele inzichten</string>
+    <string name="special_number_88">Speciale trilling 88: oneindige overvloed &amp; balans</string>
+    <string name="special_number_99">Speciale trilling 99: universeel bewustzijn &amp; dienstbaarheid</string>
+
+    <!-- Karmische Lessen -->
+    <string name="karmic_lesson_4">Karmische les 4: stabiliteit en hard werken.</string>
+    <string name="karmic_lesson_5">Karmische les 5: vrijheid en discipline.</string>
+    <string name="karmic_lesson_7">Karmische les 7: vertrouwen en openheid.</string>
+    <string name="karmic_lesson_8">Karmische les 8: overvloed en machtsmisbruik.</string>
+    <string name="karmic_lesson_10">Karmische les 10: het rad van het lot / nieuw begin</string>
+    <string name="karmic_lesson_11">Karmische les 11: spiritueel meesterschap en evenwicht</string>
+    <string name="karmic_lesson_13">Karmische les 13: werk en focus (transformatie)</string>
+    <string name="karmic_lesson_14">Karmische les 14: vrijheid en matiging</string>
+    <string name="karmic_lesson_16">Karmische les 16: ontwaken en nederigheid</string>
+    <string name="karmic_lesson_19">Karmische les 19: macht en onafhankelijkheid</string>
+    <string name="karmic_lesson_22">Karmische les 22: meester-schepper en verantwoordelijkheid</string>
+    <string name="karmic_lesson_33">Karmische les 33: de meester van helende liefde</string>
+
+    <!-- Karmische Details -->
+    <string name="karmic_detail_1">Karmisch detail 1: eigen verantwoordelijkheid\n→ Stop met het zoeken naar schuld buiten jezelf\n→ Erken: ik ben mede-schepper van mijn leven\n→ Moed om je eigen pad te volgen</string>
+    <string name="karmic_detail_2">Karmisch detail 2: relatie &amp; spiegel\n→ Herken de spiegelwet: anderen tonen onopgeloste delen\n→ Diplomatie zonder jezelf te verliezen\n→ Geduld bewaren</string>
+    <string name="karmic_detail_3">Karmisch detail 3: authenticiteit &amp; expressie\n→ Leef jouw waarheid\n→ Laat maskers en rollen los\n→ Druk gevoelens creatief uit</string>
+    <string name="karmic_detail_4">Karmisch detail 4: geduld &amp; vertrouwen\n→ Forceer niet alles\n→ Vertrouw op goddelijke timing\n→ Creëer stabiliteit door orde</string>
+    <string name="karmic_detail_5">Karmisch detail 5: transformatie van angst\n→ Moed in plaats van vluchten\n→ Transformeer angst voor verlies of tekort\n→ Vrijheid door verantwoordelijkheid</string>
+    <string name="karmic_detail_6">Karmisch detail 6: liefde &amp; grenzen\n→ Onvoorwaardelijke liefde zonder bezit\n→ Zeg “nee” zonder schuldgevoel\n→ Offer jezelf niet op</string>
+    <string name="karmic_detail_7">Karmisch detail 7: vertrouwen &amp; leiding\n→ Vertrouw op spirituele leiding\n→ Volg je intuïtie en herken tekens\n→ Innerlijke waarneming in plaats van externe controle</string>
+    <string name="karmic_detail_8">Karmisch detail 8: macht &amp; overvloed\n→ Laat een tekort-denken los\n→ Balans tussen geven en ontvangen\n→ Genees macht (geen manipulatie)</string>
+    <string name="karmic_detail_9">Karmisch detail 9: loslaten &amp; vergeving\n→ Vergeef anderen en jezelf\n→ Laat oude wonden los\n→ Dienstbaarheid aan de gemeenschap</string>
+    <string name="karmic_detail_10">Karmisch detail 10: rad van het lot\n→ Accepteer het lot\n→ Laat weerstand los\n→ Durf een bewuste nieuwe start te maken</string>
+    <string name="karmic_detail_11">Karmisch detail 11: de visionair\n→ Integreer dualiteit (licht &amp; schaduw)\n→ Accepteer spirituele leiding\n→ Wees een inspiratie voor anderen</string>
+    <string name="karmic_detail_12">Karmisch detail 12: perspectiefwisseling\n→ Dien zonder slachtofferrol\n→ Bekijk dingen vanuit een nieuw perspectief\n→ Wijsheid door overgave</string>
+    <string name="karmic_detail_13">Karmisch detail 13: ego &amp; transformatie\n→ Laat ego los (trots, gelijk willen hebben)\n→ Oefen nederigheid zonder jezelf te verliezen\n→ Transformatie door werk en focus</string>
+    <string name="karmic_detail_14">Karmisch detail 14: loslaten van afhankelijkheden\n→ Vrijheid in plaats van angst-gedreven binding\n→ Vind matiging\n→ Versterk emotionele onafhankelijkheid</string>
+    <string name="karmic_detail_16">Karmisch detail 16: ontwaken &amp; authenticiteit\n→ Oude structuren breken af\n→ Vind ware authenticiteit\n→ Illusies vallen weg</string>
+    <string name="karmic_detail_19">Karmisch detail 19: eigenwaarde &amp; macht\n→ Definieer jezelf niet alleen door prestaties\n→ Genees macht en machteloosheid\n→ Leer hulp te ontvangen</string>
+    <string name="karmic_detail_20">Karmisch detail 20: ontwaken &amp; oordeel\n→ Geduld en hoger begrip\n→ Spirituele diplomatie</string>
+    <string name="karmic_detail_21">Karmisch detail 21: expressie in de wereld\n→ Succes na een lange reis\n→ Integratie van tegenstellingen\n→ Voltooiing in de buitenwereld</string>
+    <string name="karmic_detail_22">Karmisch detail 22: de bouwer\n→ Realiseer grote dromen\n→ Neem verantwoordelijkheid voor je talenten\n→ Dien zonder jezelf te verliezen</string>
+    <string name="karmic_detail_23">Karmisch detail 23: de koninklijke leeuw\n→ Bescherming &amp; succes\n→ Vrijheid van expressie\n→ Blijf flexibel</string>
+    <string name="karmic_detail_24">Karmisch detail 24: heling van het hart\n→ Zielcontracten vervullen en loslaten\n→ Liefde en dienstbaarheid aan de naaste\n→ Emotionele stabiliteit</string>
+    <string name="karmic_detail_27">Karmisch detail 27: dienst aan het geheel\n→ Heling niet alleen voor jezelf\n→ Impact creëren voor anderen\n→ Spiritueel inzicht</string>
+    <string name="karmic_detail_30">Karmisch detail 30: creatieve expressie\n→ Sta gevoelens toe (onderdruk ze niet)\n→ Vreugde als wegwijzer\n→ Herken emoties als leraren</string>
+    <string name="karmic_detail_31">Karmisch detail 31: stabiliteit in jezelf\n→ Roeping in plaats van plicht\n→ Verberg je gaven niet\n→ Breng orde in chaos</string>
+    <string name="karmic_detail_33">Karmisch detail 33: de meester-leraar\n→ Universele helende liefde\n→ Compassie zonder lijden\n→ Dienstbaarheid aan de mensheid</string>
+
+    <!-- Samenvattingen & Energiestromen -->
+    <string name="summary_default">Je belangrijkste boodschap is: luister naar je innerlijke stem, je wordt geleid.</string>
+    <string name="energy_flow_default">Helderheid → Vertrouwen → Actie</string>
+    <string name="summary_99_1">Een zeer belangrijke karmische cyclus is definitief afgesloten. Dit schept ruimte voor een krachtig, goddelijk geleid nieuw begin.</string>
+    <string name="energy_flow_99_1">Voltooiing → Bevrijding → Nieuw begin</string>
+    <string name="summary_8_55">Een krachtige positieve verandering (dubbele 5) brengt je naar overvloed en materiële verbetering (8). Een doorbraak staat voor de deur.</string>
+    <string name="energy_flow_8_55">Doorbraak → Vrijheid → Stabiliteit</string>
+    <string name="summary_11_22">Meesteralliantie: visie (11) ontmoet manifestatie (22). Je hebt nu de kracht om grote dromen werkelijkheid te maken.</string>
+    <string name="energy_flow_11_22">Idee → Plan → Realiteit</string>
+    <string name="summary_7_77">Drievoudige mystieke kracht. Je verbinding met de spirituele wereld is extreem versterkt. Let op dromen en tekens.</string>
+    <string name="energy_flow_7_77">Stilte → Inzicht → Ontwaken</string>
+    <string name="summary_4_8">Structuur (4) vormt het fundament voor groot succes (8). Hard werken loont nu financieel.</string>
+    <string name="energy_flow_4_8">Discipline → Opbouw → Rijkdom</string>
+    <string name="summary_1_9">Begin en einde raken elkaar. Je sluit een deur om meteen een nieuwe te openen. Een snelle overgang.</string>
+    <string name="energy_flow_1_9">Loslaten → Moed → Herstart</string>
+    <string name="summary_3_33">Hoogste creatieve expressie. Je woorden of kunst hebben nu een helende werking op anderen.</string>
+    <string name="energy_flow_3_33">Vreugde → Expressie → Heling</string>
 </resources>

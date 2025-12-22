@@ -1,112 +1,53 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- App Name -->
     <string name="app_name">Numere Magice</string>
 
-    <!-- Frequency Label -->
+    <!-- UI Texte -->
+    <string name="new_message">Mesaj nou</string>
+    <string name="copy_message">Copiază mesajul</string>
+    <string name="clipboard_label">Mesaj magic</string>
+    <string name="welcome_message">Apasă pe „Mesaj nou” pentru a primi ritmul momentului.</string>
+    <string name="message_for_the_moment">Mesaj pentru moment: %1$s</string>
+    <string name="your_cross_sum_is">Suma cifrelor tale este: %1$s</string>
+    <string name="digit_occurrence">(apare de %1$dx ori, amplificat)</string>
     <string name="frequency_label">Frecvență</string>
 
-    <!-- UI Texte -->
-    <string name="new_message">Mesaj Nou</string>
-    <string name="copy_message">Copiază mesajul</string>
-    <string name="clipboard_label">Mesaj Magic</string>
-    <string name="welcome_message">Apasă pe \'Mesaj Nou\' pentru a primi ritmul momentului.</string>
-    <string name="message_for_the_moment">Mesajul momentului: %1$s</string>
-    <string name="your_cross_sum_is">Cifra ta de destin: %1$s</string>
-    <string name="digit_occurrence">(apare de %1$dx, amplificat)</string>
+    <!-- Sektions-Überschriften -->
+    <string name="section_vibration">🧬 Vibrația cifrelor:</string>
+    <string name="section_your_message">💌 Mesajul tău:</string>
+    <string name="section_summary">✨ Rezumat:</string>
+    <string name="section_energy">⚡️ Fluxul de energie:</string>
 
-    <!-- Titluri Secțiuni -->
-    <string name="section_vibration">🧬 Vibrația Numerelor:</string>
-    <string name="section_your_message">💌 Mesajul Tău:</string>
-    <string name="section_summary">✨ Pe Scurt:</string>
-    <string name="section_energy">⚡️ Energie:</string>
+    <!-- Hauptnachrichten Templates (pro Ziffer) -->
+    <string name="digit_0_intro">✨ Cifra **\'0\'**%1$s amplifică totul. Este un semn al prezenței divine și al potențialului infinit.</string>
+    <string name="digit_1_intro">✨ Cifra **\'1\'**%1$s te cheamă la un **nou început puternic**. Gândurile tale se manifestă rapid acum.</string>
+    <string name="digit_2_intro">✨ Cifra **\'2\'**%1$s aduce **echilibru și armonie**, mai ales în relații. Nu ești singur.</string>
+    <string name="digit_3_intro">✨ Cifra **\'3\'**%1$s activează **creativitatea și comunicarea** ta. Exprimă-te, lumea spirituală te ascultă.</string>
+    <string name="digit_4_intro">✨ Cifra **\'4\'**%1$s creează o **bază stabilă**. Această energie aduce protecție și structură în viața ta.</string>
+    <string name="digit_5_intro">✨ Cifra **\'5\'**%1$s semnalează un **val de schimbare și libertate**. Fii deschis aventurii și rupe vechile lanțuri.</string>
+    <string name="digit_6_intro">✨ Cifra **\'6\'**%1$s îndreaptă atenția către **vindecarea inimii și a căminului**. Familia și armonia sunt acum în centru.</string>
+    <string name="digit_7_intro">✨ Cifra **\'7\'**%1$s face din **intuiția ta cel mai important compas**. Ascultă în interior, adevărul este în tine.</string>
+    <string name="digit_8_intro">✨ Cifra **\'8\'**%1$s activează energia **abundenței și succesului**. Deschide-te către prosperitate materială și spirituală.</string>
+    <string name="digit_9_intro">✨ Cifra **\'9\'**%1$s indică **încheierea unui ciclu important**. Lasă vechiul pentru a face loc noului.</string>
 
-    <!-- Șabloane Mesaje Cifre -->
-    <string name="digit_0_intro">✨ **\'0\'**%1$s amplifică totul. Este un semn al prezenței divine și al potențialului nelimitat.</string>
-    <string name="digit_1_intro">✨ **\'1\'**%1$s te invită la un **nou început puternic**. Gândurile tale se manifestă rapid.</string>
-    <string name="digit_2_intro">✨ **\'2\'**%1$s aduce **echilibru și armonie**, în special în relații. Nu ești singur.</string>
-    <string name="digit_3_intro">✨ **\'3\'**%1$s activează **creativitatea și comunicarea**. Exprimă-te, lumea spirituală te ascultă.</string>
-    <string name="digit_4_intro">✨ **\'4\'**%1$s creează o **fundație stabilă**. Această energie aduce protecție și ordine în viața ta.</string>
-    <string name="digit_5_intro">✨ **\'5\'**%1$s semnalează un val de **schimbare și libertate**. Fii deschis la aventură și la ruperea vechilor lanțuri.</string>
-    <string name="digit_6_intro">✨ **\'6\'**%1$s se concentrează pe **vindecarea inimii și a căminului**. Familia și armonia sunt acum centrale.</string>
-    <string name="digit_7_intro">✨ **\'7\'**%1$s face din **intuiția ta cea mai importantă busolă**. Privește în interior, adevărul este acolo.</string>
-    <string name="digit_8_intro">✨ **\'8\'**%1$s activează energia **abundenței și succesului**. Deschide-te către creșterea materială și spirituală.</string>
-    <string name="digit_9_intro">✨ **\'9\'**%1$s indică **încheierea unui ciclu important**. Lasă vechiul să plece pentru a face loc noului.</string>
-
-    <!-- Rezumate Specifice & Flux de Energie -->
-    <string name="summary_default">Mesajul principal: Ascultă-ți vocea interioară, ești ghidat.</string>
-    <string name="energy_flow_default">Claritate → Încredere → Acțiune</string>
-    <string name="summary_99_1">Un ciclu karmic foarte semnificativ s-a încheiat definitiv. Acest lucru creează spațiu pentru un nou început puternic, sub ghidare divină.</string>
-    <string name="energy_flow_99_1">Încheiere → Eliberare → Nou Început</string>
-    <string name="summary_8_55">O schimbare pozitivă masivă (dublu 5) te duce spre abundență și îmbunătățire materială (8). Descoperirea este aproape.</string>
-    <string name="energy_flow_8_55">Descoperire → Libertate → Stabilitate</string>
-
-    <!-- Numerologie - Semnificații Speciale -->
+    <!-- Numerologie Grundbedeutungen -->
+    <string name="numerology_1">Nou început &amp; leadership</string>
+    <string name="numerology_2">Armonie &amp; echilibru</string>
+    <string name="numerology_3">Creativitate &amp; creștere</string>
+    <string name="numerology_4">Stabilitate &amp; protecție</string>
+    <string name="numerology_5">Libertate &amp; schimbare</string>
+    <string name="numerology_6">Iubire &amp; armonie</string>
+    <string name="numerology_7">Intuiție &amp; trezire</string>
+    <string name="numerology_8">Succes &amp; abundență</string>
+    <string name="numerology_9">Împlinire &amp; înțelepciune</string>
+    <string name="numerology_11">Intuiție de maestru</string>
+    <string name="numerology_22">Manifestare de maestru</string>
+    <string name="numerology_33">Maestru vindecător</string>
     <string name="numerology_unknown">Necunoscut</string>
-    <string name="master_number_11">(Număr Maestru: Intuiție și Iluminare)</string>
-    <string name="master_number_22">(Număr Maestru: Constructor Maestru și Manifestare)</string>
-    <string name="master_number_33">(Număr Maestru: Iubire Universală și Vindecare)</string>
 
-    <string name="karmic_lesson_13">(Lecție Karmică: Disciplină și Muncă)</string>
-    <string name="karmic_lesson_14">(Lecție Karmică: Libertate Responsabilă)</string>
-    <string name="karmic_lesson_16">(Lecție Karmică: Ego și Reconstrucție)</string>
-    <string name="karmic_lesson_19">(Lecție Karmică: Putere și Independență)</string>
-    <string name="karmic_lesson_4">(Lecție Karmică: Stabilitate și Proces)</string>
-    <string name="karmic_lesson_5">(Lecție Karmică: Frica de Schimbare)</string>
-    <string name="karmic_lesson_6">(Lecție Karmică: Responsabilitate și Angajament)</string>
-    <string name="karmic_lesson_8">(Lecție Karmică: Putere și Bani)</string>
-
-    <!-- Detalii Karmice: Bază (1-3) -->
-    <string name="karmic_detail_1">Nr. 1: Pionierul\n→ Curaj pentru individualitate\n→ A merge pe drumuri noi fără frică</string>
-    <string name="karmic_detail_2">Nr. 2: Diplomatul\n→ Învățarea armoniei și răbdării\n→ Încredere în parteneriate</string>
-    <string name="karmic_detail_3">Nr. 3: Artistul\n→ Trăirea bucuriei și creativității\n→ Renunțarea la autocritică</string>
-
-    <!-- Detalii Karmice: Numere Centrale (4-9) -->
-    <string name="karmic_detail_4">Nr. 4: Răbdare și Încredere\n→ Nu forța lucrurile\n→ Încredere în momentul divin\n→ Stabilitate prin ordine</string>
-    <string name="karmic_detail_5">Nr. 5: Transformarea Fricii\n→ Eliberarea fricii de pierdere și lipsă\n→ Curaj în loc de fugă\n→ Libertate prin auto-responsabilitate</string>
-    <string name="karmic_detail_6">Nr. 6: Iubire Necondiționată\n→ Fără posesivitate și așteptări\n→ Iertare (pentru alții și sine)\n→ Stabilirea limitelor fără vinovăție</string>
-    <string name="karmic_detail_7">Nr. 7: Încredere Spirituală\n→ Intuiția ca busolă\n→ Încredere în ghidarea spirituală\n→ Integrarea dualității (lumină și umbră)</string>
-    <string name="karmic_detail_8">Nr. 8: Bani și Abundență\n→ Dizolvarea mentalității de lipsă\n→ A da și a primi în echilibru\n→ Responsabilitate pentru talente</string>
-    <string name="karmic_detail_9">Nr. 9: Încheiere și Înțelepciune\n→ Eliberarea vechilor răni\n→ Dizolvarea vechilor cicluri karmice\n→ Serviciu pentru comunitate</string>
-
-    <!-- Detalii Karmice: Tranziții (10-12) -->
-    <string name="karmic_detail_10">Nr. 10: Roata Norocului\n→ Un nou început la un nivel superior\n→ Preluarea conducerii</string>
-    <string name="karmic_detail_11">Nr. 11: Vizionarul\n→ Iluminare spirituală\n→ A fi o inspirație pentru alții</string>
-    <string name="karmic_detail_12">Nr. 12: Înțelegere și Înțelepciune\n→ A servi fără sacrificiu de sine\n→ Părăsirea vechilor roluri de victimă</string>
-
-    <!-- Numere Karmice Clasice (13, 14, 16, 19) -->
-    <string name="karmic_detail_13">Nr. 13: Auto-responsabilitate\n→ Nu mai căuta vinovați în exterior\n→ Transformă ego-ul, controlul și îndreptățirea\n→ Conștientizează: Sunt co-creatorul vieții mele</string>
-    <string name="karmic_detail_14">Nr. 14: Eliberarea de Dependențe\n→ Emoționale, materiale și energetice\n→ Libertate în loc de legături din frică\n→ Practică moderația și concentrarea</string>
-    <string name="karmic_detail_16">Nr. 16: Autenticitate și Trezire\n→ Trăirea propriului adevăr\n→ Renunțarea la măști și roluri\n→ Recunoașterea legii oglinzii</string>
-    <string name="karmic_detail_19">Nr. 19: Valoare de Sine și Iubire de Sine\n→ Nu te defini prin realizări\n→ Respectă-ți propriile limite\n→ Vindecă puterea și neputința</string>
-
-    <!-- Vibrații Superioare (20-31) -->
-    <string name="karmic_detail_20">Nr. 20: Trezire\n→ Răbdare și discernământ\n→ Diplomație spirituală</string>
-    <string name="karmic_detail_21">Nr. 21: Expresie Mondială\n→ Succes după o călătorie lungă\n→ Integrarea opusurilor</string>
-    <string name="karmic_detail_22">Nr. 22: Maestru Constructor\n→ Manifestarea viselor mari\n→ Idealism practic</string>
-    <string name="karmic_detail_23">Nr. 23: Steaua Regală a Leului\n→ Protecție și Succes\n→ Comunicare și Libertate</string>
-    <string name="karmic_detail_24">Nr. 24: Vindecarea Inimii\n→ Rezolvarea karmei relaționale\n→ Împlinirea și eliberarea contractelor sufletești</string>
-    <string name="karmic_detail_27">Nr. 27: Serviciu Comunitar\n→ Vindecare nu doar pentru sine\n→ Crearea unui impact pentru alții</string>
-    <string name="karmic_detail_30">Nr. 30: Expresie Creativă\n→ Permiterea și exprimarea sentimentelor\n→ Recunoașterea emoțiilor ca profesori</string>
-    <string name="karmic_detail_31">Nr. 31: Stabilitate în Sine\n→ Vocație în loc de obligație\n→ Nu-ți ascunde darurile</string>
-
-    <!-- Numerologie - Semnificații de Bază -->
-    <string name="numerology_1">Noi Începuturi și Leadership</string>
-    <string name="numerology_2">Armonie și Echilibru</string>
-    <string name="numerology_3">Creativitate și Creștere</string>
-    <string name="numerology_4">Stabilitate și Protecție</string>
-    <string name="numerology_5">Libertate și Schimbare</string>
-    <string name="numerology_6">Iubire și Armonie</string>
-    <string name="numerology_7">Intuiție și Trezire</string>
-    <string name="numerology_8">Succes și Abundență</string>
-    <string name="numerology_9">Încheiere și Înțelepciune</string>
-    <string name="numerology_11">Intuiție Maestru</string>
-    <string name="numerology_22">Manifestator Maestru</string>
-    <string name="numerology_33">Vindecător Maestru</string>
-
-    <!-- Numerologie - Cuvinte Cheie -->
+    <!-- Numerologie Keywords -->
     <string name="keyword_0">Sursă</string>
-    <string name="keyword_1">Nou Început</string>
+    <string name="keyword_1">Început</string>
     <string name="keyword_2">Echilibru</string>
     <string name="keyword_3">Creativitate</string>
     <string name="keyword_4">Stabilitate</string>
@@ -114,5 +55,75 @@
     <string name="keyword_6">Armonie</string>
     <string name="keyword_7">Intuiție</string>
     <string name="keyword_8">Abundență</string>
-    <string name="keyword_9">Încheiere</string>
+    <string name="keyword_9">Finalizare</string>
+
+    <!-- Numerologie Spezialbedeutungen -->
+    <string name="master_number_11">Număr maestru 11: intuiție &amp; iluminare</string>
+    <string name="master_number_22">Număr maestru 22: constructor &amp; manifestare</string>
+    <string name="master_number_33">Număr maestru 33: iubire universală &amp; vindecare</string>
+    <string name="master_number_44">Număr maestru 44: maestrul vindecător. Unești lumea materială cu cea spirituală.</string>
+    <string name="special_number_55">Vibrație specială 55: schimbare radicală &amp; libertate</string>
+    <string name="special_number_66">Vibrație specială 66: iubire universală &amp; compasiune</string>
+    <string name="special_number_77">Vibrație specială 77: înțelegere spirituală profundă</string>
+    <string name="special_number_88">Vibrație specială 88: abundență infinită &amp; echilibru</string>
+    <string name="special_number_99">Vibrație specială 99: conștiință universală &amp; serviciu</string>
+
+    <!-- Karmische Lektionen -->
+    <string name="karmic_lesson_4">Lecție karmică 4: stabilitate și muncă asiduă.</string>
+    <string name="karmic_lesson_5">Lecție karmică 5: libertate și disciplină.</string>
+    <string name="karmic_lesson_7">Lecție karmică 7: încredere și deschidere.</string>
+    <string name="karmic_lesson_8">Lecție karmică 8: abundență și abuz de putere.</string>
+    <string name="karmic_lesson_10">Lecție karmică 10: roata destinului / nou început</string>
+    <string name="karmic_lesson_11">Lecție karmică 11: lecția măiestriei spirituale și a echilibrului</string>
+    <string name="karmic_lesson_13">Lecție karmică 13: lecția muncii și a focusului (transformare)</string>
+    <string name="karmic_lesson_14">Lecție karmică 14: lecția libertății și a moderației</string>
+    <string name="karmic_lesson_16">Lecție karmică 16: lecția trezirii și a umilinței</string>
+    <string name="karmic_lesson_19">Lecție karmică 19: lecția puterii și a independenței</string>
+    <string name="karmic_lesson_22">Lecție karmică 22: lecția creatorului-maestru și a responsabilității</string>
+    <string name="karmic_lesson_33">Lecție karmică 33: lecția maestrului iubirii vindecătoare</string>
+
+    <!-- Karmische Details -->
+    <string name="karmic_detail_1">Detaliu karmic 1: responsabilitate personală\n→ Încetează să cauți vina în exterior\n→ Recunoaște: sunt co-creatorul vieții mele\n→ Curajul de a urma propriul drum</string>
+    <string name="karmic_detail_2">Detaliu karmic 2: relație &amp; oglindire\n→ Recunoaște legea oglinzii: ceilalți arată părți nerezolvate\n→ Diplomație fără a te pierde\n→ Păstrează răbdarea</string>
+    <string name="karmic_detail_3">Detaliu karmic 3: autenticitate &amp; exprimare\n→ Trăiește-ți adevărul\n→ Renunță la măști și roluri\n→ Exprimă emoțiile creativ</string>
+    <string name="karmic_detail_4">Detaliu karmic 4: răbdare &amp; încredere\n→ Nu forța totul\n→ Ai încredere în timpul divin\n→ Creează stabilitate prin ordine</string>
+    <string name="karmic_detail_5">Detaliu karmic 5: transformarea fricii\n→ Curaj în loc de fugă\n→ Transformă frica de pierdere sau lipsă\n→ Libertate prin responsabilitate</string>
+    <string name="karmic_detail_6">Detaliu karmic 6: iubire &amp; limite\n→ Iubire necondiționată fără posesivitate\n→ Spune „nu” fără vinovăție\n→ Nu te sacrifica</string>
+    <string name="karmic_detail_7">Detaliu karmic 7: încredere &amp; ghidare\n→ Ai încredere în ghidarea spirituală\n→ Urmează intuiția și observă semnele\n→ Observare interioară în loc de control exterior</string>
+    <string name="karmic_detail_8">Detaliu karmic 8: putere &amp; abundență\n→ Dizolvă conștiința lipsei\n→ Echilibru între a oferi și a primi\n→ Vindecă puterea (fără manipulare)</string>
+    <string name="karmic_detail_9">Detaliu karmic 9: eliberare &amp; iertare\n→ Iartă-i pe alții și pe tine\n→ Eliberează rănile vechi\n→ Serviciu pentru comunitate</string>
+    <string name="karmic_detail_10">Detaliu karmic 10: roata destinului\n→ Acceptă destinul\n→ Renunță la rezistență\n→ Îndrăznește un nou început conștient</string>
+    <string name="karmic_detail_11">Detaliu karmic 11: vizionarul\n→ Integrează dualitatea (lumină &amp; umbră)\n→ Acceptă conducerea spirituală\n→ Fii o inspirație pentru alții</string>
+    <string name="karmic_detail_12">Detaliu karmic 12: schimbare de perspectivă\n→ Servește fără rol de victimă\n→ Privește lucrurile dintr-o nouă perspectivă\n→ Înțelepciune prin abandon</string>
+    <string name="karmic_detail_13">Detaliu karmic 13: ego &amp; transformare\n→ Renunță la ego (mândrie, dorința de a avea dreptate)\n→ Practică umilința fără a te pierde\n→ Transformare prin muncă și focus</string>
+    <string name="karmic_detail_14">Detaliu karmic 14: eliberarea dependențelor\n→ Libertate în loc de atașament bazat pe frică\n→ Găsește moderația\n→ Întărește independența emoțională</string>
+    <string name="karmic_detail_16">Detaliu karmic 16: trezire &amp; autenticitate\n→ Structurile vechi se prăbușesc\n→ Găsește autenticitatea adevărată\n→ Iluziile dispar</string>
+    <string name="karmic_detail_19">Detaliu karmic 19: valoare de sine &amp; putere\n→ Nu te defini doar prin realizări\n→ Vindecă puterea și neputința\n→ Învață să primești ajutor</string>
+    <string name="karmic_detail_20">Detaliu karmic 20: trezire &amp; judecată\n→ Răbdare și înțelegere superioară\n→ Diplomație spirituală</string>
+    <string name="karmic_detail_21">Detaliu karmic 21: exprimare în lume\n→ Succes după o călătorie lungă\n→ Integrarea contrariilor\n→ Împlinire în exterior</string>
+    <string name="karmic_detail_22">Detaliu karmic 22: constructorul\n→ Manifestă vise mari\n→ Asumă-ți responsabilitatea pentru talente\n→ Servește fără a te pierde</string>
+    <string name="karmic_detail_23">Detaliu karmic 23: leul regal\n→ Protecție &amp; succes\n→ Libertate în exprimare\n→ Păstrează flexibilitatea</string>
+    <string name="karmic_detail_24">Detaliu karmic 24: vindecarea inimii\n→ Împlinește și eliberează contracte ale sufletului\n→ Iubire și serviciu față de aproape\n→ Stabilitate emoțională</string>
+    <string name="karmic_detail_27">Detaliu karmic 27: serviciu pentru întreg\n→ Vindecare nu doar pentru tine\n→ Creează impact pentru alții\n→ Înțelegere spirituală</string>
+    <string name="karmic_detail_30">Detaliu karmic 30: exprimare creativă\n→ Permite emoțiilor să existe (nu le reprima)\n→ Bucuria ca ghid\n→ Recunoaște emoțiile ca profesori</string>
+    <string name="karmic_detail_31">Detaliu karmic 31: stabilitate interioară\n→ Chemare în loc de datorie\n→ Nu-ți ascunde darurile\n→ Adu ordine în haos</string>
+    <string name="karmic_detail_33">Detaliu karmic 33: maestrul-învățător\n→ Iubire vindecătoare universală\n→ Compasiune fără suferință\n→ Serviciu pentru omenire</string>
+
+    <!-- Spezifische Zusammenfassungen & Energieflüsse -->
+    <string name="summary_default">Mesajul tău principal este: ascultă-ți vocea interioară, ești ghidat.</string>
+    <string name="energy_flow_default">Claritate → Încredere → Acțiune</string>
+    <string name="summary_99_1">Un ciclu karmic foarte important s-a încheiat definitiv. Acest lucru creează spațiu pentru un nou început puternic, ghidat divin.</string>
+    <string name="energy_flow_99_1">Finalizare → Eliberare → Nou început</string>
+    <string name="summary_8_55">O schimbare pozitivă masivă (dublu 5) te conduce spre abundență și îmbunătățire materială (8). Un salt major este iminent.</string>
+    <string name="energy_flow_8_55">Salt → Libertate → Stabilitate</string>
+    <string name="summary_11_22">Alianță de maeștri: viziunea (11) întâlnește manifestarea (22). Ai acum puterea de a transforma vise mari în realitate.</string>
+    <string name="energy_flow_11_22">Idee → Plan → Realitate</string>
+    <string name="summary_7_77">Forță mistică triplă. Conexiunea ta cu lumea spirituală este extrem de amplificată. Acordă atenție viselor și semnelor.</string>
+    <string name="energy_flow_7_77">Liniște → Înțelegere → Trezire</string>
+    <string name="summary_4_8">Structura (4) formează fundamentul pentru un mare succes (8). Munca susținută aduce acum recompense financiare.</string>
+    <string name="energy_flow_4_8">Disciplină → Construire → Prosperitate</string>
+    <string name="summary_1_9">Începutul și sfârșitul se ating. Închizi o ușă pentru a deschide imediat alta. O tranziție rapidă.</string>
+    <string name="energy_flow_1_9">Eliberare → Curaj → Restart</string>
+    <string name="summary_3_33">Cel mai înalt nivel de expresie creativă. Cuvintele sau arta ta au acum un efect vindecător asupra altora.</string>
+    <string name="energy_flow_3_33">Bucurie → Exprimare → Vindecare</string>
 </resources>

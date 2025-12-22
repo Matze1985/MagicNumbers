@@ -100,6 +100,23 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+// --- MARKDOWN-FUNKTIONEN ---
+@Composable
+fun markdownToAnnotatedString(text: String): androidx.compose.ui.text.AnnotatedString {
+    return buildAnnotatedString {
+        val parts = text.split("**")
+        parts.forEachIndexed { index, part ->
+            if (index % 2 == 1) {
+                withStyle(style = SpanStyle(fontWeight = FontWeight.Bold)) {
+                    append(part)
+                }
+            } else {
+                append(part)
+            }
+        }
+    }
+}
+
 // --- LOGIK-FUNKTIONEN ---
 fun getFrequencyColor(percentage: Float): Color {
     return when {
@@ -136,20 +153,16 @@ fun createDetailedMessage(number: String): DetailedMessage {
     val uniqueDigitsInOrder = number.toCharArray().distinct()
     val numerologyData = getNumerologyMeaning(number)
     val quersummeBedeutung = numerologyData.meaning
-
     val title = stringResource(R.string.message_for_the_moment, number)
-
     // Berechnungsweg erstellen
     val calculationSum = number.map { it.digitToInt() }.sum()
     val calculationRaw = number.toCharArray().joinToString(" + ") + " = $calculationSum"
-
     // "Deine Quersumme lautet:" + Rechenweg + Bedeutung
     val calculationText = stringResource(R.string.your_cross_sum_is, calculationRaw)
     val subtitle = quersummeBedeutung
     val components = uniqueDigitsInOrder.map { digit -> digit to getKeywordForDigit(digit) }
     val digitCounts = number.groupingBy { it }.eachCount()
     val messageBuilder = StringBuilder()
-
     var scoreSum = 0.0
     number.forEach { char -> scoreSum += char.digitToInt() }
     var normalizedScore = (scoreSum / number.length) / 9.0
@@ -181,14 +194,42 @@ fun createDetailedMessage(number: String): DetailedMessage {
     var summary = numerologyData.karmicDetail ?: stringResource(R.string.summary_default)
     var energyFlow = components.joinToString(" → ") { it.second }
 
+    // Spezielle Überschreibungen für bestimmte Kombinationen
     when {
+        // 1. Vollendung & Neubeginn
         number.contains("99") && number.contains('1') -> {
             summary = stringResource(R.string.summary_99_1)
             energyFlow = stringResource(R.string.energy_flow_99_1)
         }
+        // 2. Anfang & Ende (Klassiker)
+        number.contains('9') && number.contains('1') && !number.contains("99") -> { // Nur wenn keine 99 dabei ist, sonst greift Regel 1
+            summary = stringResource(R.string.summary_1_9)
+            energyFlow = stringResource(R.string.energy_flow_1_9)
+        }
+        // 3. Materielle Macht & Wandel
         number.contains("8") && number.contains("55") -> {
             summary = stringResource(R.string.summary_8_55)
             energyFlow = stringResource(R.string.energy_flow_8_55)
+        }
+        // 4. Struktur & Erfolg (Business-Zahl)
+        number.contains('4') && number.contains('8') -> {
+            summary = stringResource(R.string.summary_4_8)
+            energyFlow = stringResource(R.string.energy_flow_4_8)
+        }
+        // 5. Meister-Allianz (Vision & Bauen)
+        number.contains("11") && number.contains("22") -> {
+            summary = stringResource(R.string.summary_11_22)
+            energyFlow = stringResource(R.string.energy_flow_11_22)
+        }
+        // 6. Mystische Tiefe (7 & 77)
+        number.contains("77") && number.contains('7') -> {
+            summary = stringResource(R.string.summary_7_77)
+            energyFlow = stringResource(R.string.energy_flow_7_77)
+        }
+        // 7. Heilender Ausdruck (3 & 33)
+        number.contains("33") && number.contains('3') -> {
+            summary = stringResource(R.string.summary_3_33)
+            energyFlow = stringResource(R.string.energy_flow_3_33)
         }
     }
 
@@ -199,18 +240,25 @@ fun createDetailedMessage(number: String): DetailedMessage {
 fun getNumerologyMeaning(num: String): NumberMeaning {
     val clean = num.filter { it.isDigit() }
     if (clean.isEmpty()) return NumberMeaning(stringResource(id = R.string.numerology_unknown), null)
+
     val sumBeforeReduce = clean.sumOf { it.digitToInt() }
     var s = sumBeforeReduce
     val specialMeanings = mutableListOf<String>()
 
-    // Prüfung auf Meisterzahlen
+    // --- 1. PRÜFUNG AUF MEISTERZAHLEN & SPEZIALZAHLEN (Vor der Reduktion) ---
     when (sumBeforeReduce) {
         11 -> specialMeanings.add(stringResource(R.string.master_number_11))
         22 -> specialMeanings.add(stringResource(R.string.master_number_22))
         33 -> specialMeanings.add(stringResource(R.string.master_number_33))
+        44 -> specialMeanings.add(stringResource(R.string.master_number_44))
+        55 -> specialMeanings.add(stringResource(R.string.special_number_55))
+        66 -> specialMeanings.add(stringResource(R.string.special_number_66))
+        77 -> specialMeanings.add(stringResource(R.string.special_number_77))
+        88 -> specialMeanings.add(stringResource(R.string.special_number_88))
+        99 -> specialMeanings.add(stringResource(R.string.special_number_99))
     }
 
-    // Zuweisung der Karmic Details basierend auf der unreduzierten Summe
+    // --- 2. ZUWEISUNG KARMISCHER DETAILS & LEKTIONEN ---
     val karmicDetailResId = when (sumBeforeReduce) {
         1 -> R.string.karmic_detail_1
         2 -> R.string.karmic_detail_2
@@ -221,8 +269,8 @@ fun getNumerologyMeaning(num: String): NumberMeaning {
         7 -> R.string.karmic_detail_7
         8 -> R.string.karmic_detail_8
         9 -> R.string.karmic_detail_9
-        10 -> R.string.karmic_detail_10
-        11 -> R.string.karmic_detail_11
+        10 -> R.string.karmic_detail_10.also { specialMeanings.add(stringResource(R.string.karmic_lesson_10)) }
+        11 -> R.string.karmic_detail_11.also { specialMeanings.add(stringResource(R.string.karmic_lesson_11)) }
         12 -> R.string.karmic_detail_12
         13 -> R.string.karmic_detail_13.also { specialMeanings.add(stringResource(R.string.karmic_lesson_13)) }
         14 -> R.string.karmic_detail_14.also { specialMeanings.add(stringResource(R.string.karmic_lesson_14)) }
@@ -230,18 +278,22 @@ fun getNumerologyMeaning(num: String): NumberMeaning {
         19 -> R.string.karmic_detail_19.also { specialMeanings.add(stringResource(R.string.karmic_lesson_19)) }
         20 -> R.string.karmic_detail_20
         21 -> R.string.karmic_detail_21
-        22 -> R.string.karmic_detail_22
+        22 -> R.string.karmic_detail_22.also { specialMeanings.add(stringResource(R.string.karmic_lesson_22)) }
         23 -> R.string.karmic_detail_23
         24 -> R.string.karmic_detail_24
         27 -> R.string.karmic_detail_27
         30 -> R.string.karmic_detail_30
         31 -> R.string.karmic_detail_31
+        33 -> R.string.karmic_detail_33.also { specialMeanings.add(stringResource(R.string.karmic_lesson_33))}
         else -> null
     }
 
     val karmicDetailText = karmicDetailResId?.let { stringResource(it) }
 
-    // Reduziere auf eine Ziffer (außer es ist eine Meisterzahl)
+    // --- 3. REDUKTION AUF EINE ZIFFER ---
+    // Wir reduzieren NICHT, wenn es eine der klassischen Meisterzahlen (11, 22, 33) ist.
+    // Andere hohe Zahlen wie 44, 55 etc. werden für die Grundbedeutung trotzdem auf ihre Basis reduziert,
+    // behalten aber ihre "Special Meaning"-Zusatzinfo.
     if (sumBeforeReduce !in listOf(11, 22, 33)) {
         while (s > 9) {
             s = s.toString().sumOf { it.digitToInt() }
@@ -264,8 +316,11 @@ fun getNumerologyMeaning(num: String): NumberMeaning {
         else -> stringResource(id = R.string.numerology_unknown)
     }
 
+    // Kombiniere Grundbedeutung mit Spezialbedeutungen
     val finalString = if (specialMeanings.isNotEmpty()) {
-        "$baseMeaning\n" + specialMeanings.joinToString("\n") { "• $it" }
+        // Entfernt Duplikate, falls eine Bedeutung durch mehrere Logik-Blöcke hinzugefügt wurde
+        val distinctSpecialMeanings = specialMeanings.distinct()
+        "$baseMeaning\n" + distinctSpecialMeanings.joinToString("\n") { "• $it" }
     } else {
         baseMeaning
     }
@@ -404,7 +459,6 @@ fun MagicNumberApp() {
                         )
 
                         Spacer(modifier = Modifier.height(12.dp))
-
                         // 2. Rechenweg ("Deine Quersumme lautet: 1 + ... = X")
                         Text(
                             text = detailedMessage.calculationText,
@@ -441,7 +495,6 @@ fun MagicNumberApp() {
                     ) {
                         // Sektion: Schwingung
                         Text(stringResource(R.string.section_vibration), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold, color = primaryTextColor)
-
                         // --- FREQUENZ ZEILE (Kompakt) ---
                         Row(
                             modifier = Modifier.fillMaxWidth(),
@@ -495,7 +548,6 @@ fun MagicNumberApp() {
                         }
 
                         HorizontalDivider(color = Color.Gray.copy(alpha = 0.3f))
-
                         // Sektion: Deine Botschaft
                         Text(
                             text = stringResource(R.string.section_your_message),
@@ -503,21 +555,23 @@ fun MagicNumberApp() {
                             fontWeight = FontWeight.SemiBold,
                             color = primaryTextColor
                         )
+
+                        val formattedMessage = markdownToAnnotatedString(
+                            detailedMessage.message.replace("✨ ", "\n- ")
+                        )
+
                         Text(
-                            text = detailedMessage.message,
+                            text = formattedMessage,
                             style = MaterialTheme.typography.bodyMedium,
                             color = secondaryTextColor,
                             lineHeight = 24.sp
                         )
 
                         HorizontalDivider(color = Color.Gray.copy(alpha = 0.3f))
-
                         // Sektion: Kurze Zusammenfassung
                         Text(stringResource(R.string.section_summary), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Medium, color = primaryTextColor)
                         Text(text = detailedMessage.summary, style = MaterialTheme.typography.bodyMedium, color = secondaryTextColor)
-
                         HorizontalDivider(color = Color.Gray.copy(alpha = 0.3f))
-
                         // Sektion: Energie
                         Text(stringResource(R.string.section_energy), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold, color = primaryTextColor)
                         Text(text = detailedMessage.energyFlow, style = MaterialTheme.typography.bodyMedium, color = accentColor, fontWeight = FontWeight.Medium)

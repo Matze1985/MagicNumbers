@@ -1,112 +1,53 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- App Name -->
-    <string name="app_name">Mágikus Számok</string>
-
-    <!-- Frequency Label -->
-    <string name="frequency_label">Frekvencia</string>
+    <string name="app_name">Mágikus számok</string>
 
     <!-- UI Texte -->
-    <string name="new_message">Új Üzenet</string>
+    <string name="new_message">Új üzenet</string>
     <string name="copy_message">Üzenet másolása</string>
-    <string name="clipboard_label">Mágikus Üzenet</string>
-    <string name="welcome_message">Kattints az \'Új Üzenet\' gombra, hogy megkapd a pillanat ritmusát.</string>
-    <string name="message_for_the_moment">A pillanat üzenete: %1$s</string>
+    <string name="clipboard_label">Mágikus üzenet</string>
+    <string name="welcome_message">Nyomd meg az „Új üzenet” gombot, hogy befogadd a pillanat ritmusát.</string>
+    <string name="message_for_the_moment">Az aktuális üzenet: %1$s</string>
     <string name="your_cross_sum_is">A keresztösszeged: %1$s</string>
-    <string name="digit_occurrence">(%1$dx jelenik meg, felerősítve)</string>
+    <string name="digit_occurrence">( %1$dx alkalommal jelenik meg, felerősítve)</string>
+    <string name="frequency_label">Frekvencia</string>
 
-    <!-- Abschnittsüberschriften -->
-    <string name="section_vibration">🧬 A Számok Rezgése:</string>
+    <!-- Sektions-Überschriften -->
+    <string name="section_vibration">🧬 A számjegyek rezgése:</string>
     <string name="section_your_message">💌 Üzeneted:</string>
-    <string name="section_summary">✨ Röviden:</string>
-    <string name="section_energy">⚡️ Energia:</string>
+    <string name="section_summary">✨ Összegzés:</string>
+    <string name="section_energy">⚡️ Energiaáramlás:</string>
 
-    <!-- Ziffern-Nachrichten Templates -->
-    <string name="digit_0_intro">✨ A **\'0\'**%1$s mindent felerősít. Az isteni jelenlét és a korlátlan potenciál jele.</string>
-    <string name="digit_1_intro">✨ Az **\'1\'**%1$s **erőteljes új kezdetre** hív. Gondolataid most gyorsan manifesztálódnak.</string>
+    <!-- Hauptnachrichten Templates (pro Ziffer) -->
+    <string name="digit_0_intro">✨ A **\'0\'**%1$s mindent felerősít. Az isteni jelenlét és a végtelen lehetőségek jele.</string>
+    <string name="digit_1_intro">✨ A **\'1\'**%1$s **erőteljes új kezdetre** hív. Gondolataid most gyorsan megvalósulnak.</string>
     <string name="digit_2_intro">✨ A **\'2\'**%1$s **egyensúlyt és harmóniát** hoz, különösen a kapcsolatokban. Nem vagy egyedül.</string>
-    <string name="digit_3_intro">✨ A **\'3\'**%1$s aktiválja a **kreativitást és kommunikációt**. Fejezd ki magad, a szellemvilág figyel.</string>
+    <string name="digit_3_intro">✨ A **\'3\'**%1$s aktiválja **kreativitásodat és kommunikációdat**. Fejezd ki magad – a szellemi világ figyel.</string>
     <string name="digit_4_intro">✨ A **\'4\'**%1$s **stabil alapot** teremt. Ez az energia védelmet és struktúrát hoz az életedbe.</string>
-    <string name="digit_5_intro">✨ Az **\'5\'**%1$s a **változás és szabadság hullámát** jelzi. Légy nyitott a kalandra és a régi láncok feltörésére.</string>
-    <string name="digit_6_intro">✨ A **\'6\'**%1$s a **szív és az otthon gyógyítására** fókuszál. A család és a harmónia most központi szerepet játszik.</string>
-    <string name="digit_7_intro">✨ A **\'7\'**%1$s az **intuíciódat teszi a legfontosabb iránytűvé**. Figyelj befelé, az igazság benned rejlik.</string>
-    <string name="digit_8_intro">✨ A **\'8\'**%1$s a **bőség és siker** energiáját aktiválja. Légy nyitott az anyagi és szellemi gyarapodásra.</string>
-    <string name="digit_9_intro">✨ A **\'9\'**%1$s egy **fontos ciklus lezárását** jelzi. Engedd el a régit, hogy helyet adj az újnak.</string>
+    <string name="digit_5_intro">✨ A **\'5\'**%1$s a **változás és szabadság hullámát** jelzi. Légy nyitott a kalandokra, és törj szét régi láncokat.</string>
+    <string name="digit_6_intro">✨ A **\'6\'**%1$s a **szív és az otthon gyógyulására** irányítja a figyelmet. A család és a harmónia most középpontban áll.</string>
+    <string name="digit_7_intro">✨ A **\'7\'**%1$s az **intuíciódat teszi a legfontosabb iránytűvé**. Hallgass befelé – az igazság benned van.</string>
+    <string name="digit_8_intro">✨ A **\'8\'**%1$s aktiválja a **bőség és siker** energiáját. Légy nyitott az anyagi és spirituális jólétre.</string>
+    <string name="digit_9_intro">✨ A **\'9\'**%1$s egy **fontos ciklus lezárását** jelzi. Engedd el a régit, hogy teret adj az újnak.</string>
 
-    <!-- Spezielle Zusammenfassungen & Energiefluss -->
-    <string name="summary_default">A fő üzeneted: Hallgass a belső hangodra, vezetve vagy.</string>
-    <string name="energy_flow_default">Tisztánlátás → Bizalom → Cselekvés</string>
-    <string name="summary_99_1">Egy nagyon jelentős karmikus ciklus végre lezárult. Ez teret teremt egy erőteljes, istenileg vezetett új kezdethez.</string>
-    <string name="energy_flow_99_1">Lezárás → Felszabadulás → Új Kezdet</string>
-    <string name="summary_8_55">Egy masszív, pozitív változás (dupla 5) elhozza a bőséget és anyagi javulást (8). Az áttörés közel van.</string>
-    <string name="energy_flow_8_55">Áttörés → Szabadság → Stabilitás</string>
-
-    <!-- Numerologie Spezielle Bedeutungen -->
+    <!-- Numerologie Grundbedeutungen -->
+    <string name="numerology_1">Új kezdet &amp; vezetés</string>
+    <string name="numerology_2">Harmónia &amp; egyensúly</string>
+    <string name="numerology_3">Kreativitás &amp; növekedés</string>
+    <string name="numerology_4">Stabilitás &amp; védelem</string>
+    <string name="numerology_5">Szabadság &amp; változás</string>
+    <string name="numerology_6">Szeretet &amp; harmónia</string>
+    <string name="numerology_7">Intuíció &amp; ébredés</string>
+    <string name="numerology_8">Siker &amp; bőség</string>
+    <string name="numerology_9">Teljesség &amp; bölcsesség</string>
+    <string name="numerology_11">Mester-intuíció</string>
+    <string name="numerology_22">Mester-manifesztáció</string>
+    <string name="numerology_33">Mester-gyógyító</string>
     <string name="numerology_unknown">Ismeretlen</string>
-    <string name="master_number_11">(Mester Szám: Intuíció és Megvilágosodás)</string>
-    <string name="master_number_22">(Mester Szám: Mesterépítő és Manifesztáció)</string>
-    <string name="master_number_33">(Mester Szám: Univerzális Szeretet és Gyógyítás)</string>
-
-    <string name="karmic_lesson_13">(Karmikus Lecke: Fegyelem és Munka)</string>
-    <string name="karmic_lesson_14">(Karmikus Lecke: Felelősségteljes Szabadság)</string>
-    <string name="karmic_lesson_16">(Karmikus Lecke: Egó és Újjáépítés)</string>
-    <string name="karmic_lesson_19">(Karmikus Lecke: Hatalom és Függetlenség)</string>
-    <string name="karmic_lesson_4">(Karmikus Lecke: Stabilitás és Folyamat)</string>
-    <string name="karmic_lesson_5">(Karmikus Lecke: Félelem a változástól)</string>
-    <string name="karmic_lesson_6">(Karmikus Lecke: Felelősség és Elkötelezettség)</string>
-    <string name="karmic_lesson_8">(Karmikus Lecke: Hatalom és Pénz)</string>
-
-    <!-- Karmikus Részletek: Alapok (1-3) -->
-    <string name="karmic_detail_1">1. sz.: Az Úttörő\n→ Bátorság az egyéniséghez\n→ Új utakon járni félelem nélkül</string>
-    <string name="karmic_detail_2">2. sz.: A Diplomata\n→ Harmónia és türelem tanulása\n→ Bizalom a kapcsolatokban</string>
-    <string name="karmic_detail_3">3. sz.: A Művész\n→ Öröm és kreativitás megélése\n→ Önkritika elengedése</string>
-
-    <!-- Karmikus Részletek: Törzsszámok (4-9) -->
-    <string name="karmic_detail_4">4. sz.: Türelem és Bizalom\n→ Ne erőltesd a dolgokat\n→ Bizalom az isteni időzítésben\n→ Stabilitás a rend által</string>
-    <string name="karmic_detail_5">5. sz.: A félelem átalakítása\n→ Veszteségtől és hiánytól való félelem elengedése\n→ Bátorság a menekülés helyett\n→ Szabadság az önfelelősség által</string>
-    <string name="karmic_detail_6">6. sz.: Feltétel nélküli szeretet\n→ Birtoklási vágy és elvárások nélkül\n→ Megbocsátás (másoknak és önmagadnak)\n→ Határok húzása bűntudat nélkül</string>
-    <string name="karmic_detail_7">7. sz.: Spirituális bizalom\n→ Az intuíció mint iránytű\n→ Bizalom a szellemi vezetésben\n→ A dualitás (fény és árnyék) integrálása</string>
-    <string name="karmic_detail_8">8. sz.: Pénz és Bőség\n→ A hiánytudat feloldása\n→ Adás és kapás egyensúlyban\n→ Felelősség a tehetségekért</string>
-    <string name="karmic_detail_9">9. sz.: Lezárás és Bölcsesség\n→ Régi sérelmek elengedése\n→ Régi karmikus ciklusok feloldása\n→ Szolgálat a közösségnek</string>
-
-    <!-- Karmikus Részletek: Átmenetek (10-12) -->
-    <string name="karmic_detail_10">10. sz.: A Szerencsekerék\n→ Új kezdet magasabb szinten\n→ Vezetés átvétele</string>
-    <string name="karmic_detail_11">11. sz.: A Látnok\n→ Spirituális megvilágosodás\n→ Inspiráció mások számára</string>
-    <string name="karmic_detail_12">12. sz.: Megértés és Bölcsesség\n→ Szolgálat önfeláldozás nélkül\n→ Régi áldozati szerepek elhagyása</string>
-
-    <!-- Klasszikus Karmikus Számok (13, 14, 16, 19) -->
-    <string name="karmic_detail_13">13. sz.: Önálló felelősségvállalás\n→ Ne keress bűnbakot kívül\n→ Egó, kontroll és önigazolás átalakítása\n→ Felismerés: Életem tárateremtője vagyok</string>
-    <string name="karmic_detail_14">14. sz.: Függőségek elengedése\n→ Érzelmi, anyagi és energetikai\n→ Szabadság a félelemből fakadó kötődés helyett\n→ Mértékletesség és fókusz gyakorlása</string>
-    <string name="karmic_detail_16">16. sz.: Hitelesség és Ébredés\n→ Saját igazságod megélése\n→ Maszkok és szerepek eldobása\n→ A tükör törvényének felismerése</string>
-    <string name="karmic_detail_19">19. sz.: Önértékelés és Önszeretet\n→ Ne a teljesítmény határozzon meg\n→ Saját határok tisztelete\n→ Hatalom és tehetetlenség gyógyítása</string>
-
-    <!-- Magasabb Rezgések (20-31) -->
-    <string name="karmic_detail_20">20. sz.: Ébredés\n→ Türelem és ítélőképesség\n→ Spirituális diplomácia</string>
-    <string name="karmic_detail_21">21. sz.: Világkifejezés\n→ Siker egy hosszú út után\n→ Ellentétek integrálása</string>
-    <string name="karmic_detail_22">22. sz.: Mesterépítő\n→ Nagy álmok megvalósítása\n→ Gyakorlati idealizmus</string>
-    <string name="karmic_detail_23">23. sz.: Az Oroszlán Királyi Csillaga\n→ Védelem és Siker\n→ Kommunikáció és Szabadság</string>
-    <string name="karmic_detail_24">24. sz.: A Szív Gyógyítása\n→ Párkapcsolati karma oldása\n→ Lélekszerződések teljesítése és elengedése</string>
-    <string name="karmic_detail_27">27. sz.: Szolgálat a közösségnek\n→ Gyógyulás nem csak magadnak\n→ Hatás gyakorlása másokra</string>
-    <string name="karmic_detail_30">30. sz.: Kreatív kifejezés\n→ Érzések megengedése és kifejezése\n→ Az érzelmek mint tanítók felismerése</string>
-    <string name="karmic_detail_31">31. sz.: Stabilitás az Önvalóban\n→ Elhivatottság a kötelesség helyett\n→ Ne rejtsd el az ajándékaidat</string>
-
-    <!-- Numerologie Basis Bedeutungen -->
-    <string name="numerology_1">Új Kezdetek és Vezetés</string>
-    <string name="numerology_2">Harmónia és Egyensúly</string>
-    <string name="numerology_3">Kreativitás és Növekedés</string>
-    <string name="numerology_4">Stabilitás és Védelem</string>
-    <string name="numerology_5">Szabadság és Változás</string>
-    <string name="numerology_6">Szeretet és Harmónia</string>
-    <string name="numerology_7">Intuíció és Ébredés</string>
-    <string name="numerology_8">Siker és Bőség</string>
-    <string name="numerology_9">Lezárás és Bölcsesség</string>
-    <string name="numerology_11">Mesteri Intuíció</string>
-    <string name="numerology_22">Mesteri Manifesztáló</string>
-    <string name="numerology_33">Mesteri Gyógyító</string>
 
     <!-- Numerologie Keywords -->
     <string name="keyword_0">Forrás</string>
-    <string name="keyword_1">Új Kezdet</string>
+    <string name="keyword_1">Új kezdet</string>
     <string name="keyword_2">Egyensúly</string>
     <string name="keyword_3">Kreativitás</string>
     <string name="keyword_4">Stabilitás</string>
@@ -114,5 +55,75 @@
     <string name="keyword_6">Harmónia</string>
     <string name="keyword_7">Intuíció</string>
     <string name="keyword_8">Bőség</string>
-    <string name="keyword_9">Lezárás</string>
+    <string name="keyword_9">Teljesség</string>
+
+    <!-- Numerologie Spezialbedeutungen (Meisterzahlen & Hohe Schwingungen) -->
+    <string name="master_number_11">Mesterszám 11: intuíció &amp; megvilágosodás</string>
+    <string name="master_number_22">Mesterszám 22: építő &amp; manifesztáció</string>
+    <string name="master_number_33">Mesterszám 33: egyetemes szeretet &amp; gyógyítás</string>
+    <string name="master_number_44">Mesterszám 44: a mester-gyógyító. Összekötöd az anyagi és a spirituális világot.</string>
+    <string name="special_number_55">Különleges rezgés 55: radikális változás &amp; szabadság</string>
+    <string name="special_number_66">Különleges rezgés 66: egyetemes szeretet &amp; együttérzés</string>
+    <string name="special_number_77">Különleges rezgés 77: mély spirituális felismerés</string>
+    <string name="special_number_88">Különleges rezgés 88: végtelen bőség &amp; egyensúly</string>
+    <string name="special_number_99">Különleges rezgés 99: egyetemes tudatosság &amp; szolgálat</string>
+
+    <!-- Karmische Lektionen (Kurztexte für Listen) -->
+    <string name="karmic_lesson_4">Karmikus lecke 4: stabilitás és kemény munka.</string>
+    <string name="karmic_lesson_5">Karmikus lecke 5: szabadság és fegyelem.</string>
+    <string name="karmic_lesson_7">Karmikus lecke 7: bizalom és nyitottság.</string>
+    <string name="karmic_lesson_8">Karmikus lecke 8: bőség és hatalommal való visszaélés.</string>
+    <string name="karmic_lesson_10">Karmikus lecke 10: a sors kereke / új kezdet</string>
+    <string name="karmic_lesson_11">Karmikus lecke 11: a spirituális mesteri szint és az egyensúly leckéje</string>
+    <string name="karmic_lesson_13">Karmikus lecke 13: a munka és a fókusz leckéje (átalakulás)</string>
+    <string name="karmic_lesson_14">Karmikus lecke 14: a szabadság és a mértékletesség leckéje</string>
+    <string name="karmic_lesson_16">Karmikus lecke 16: az ébredés és az alázat leckéje</string>
+    <string name="karmic_lesson_19">Karmikus lecke 19: a hatalom és a függetlenség leckéje</string>
+    <string name="karmic_lesson_22">Karmikus lecke 22: a mester-teremtő és a felelősség leckéje</string>
+    <string name="karmic_lesson_33">Karmikus lecke 33: a gyógyító szeretet mesterének leckéje</string>
+
+    <!-- Karmische Details -->
+    <string name="karmic_detail_1">Karmikus részlet 1: önfelelősség\n→ Hagyd abba a hibáztatást kifelé\n→ Ismerd fel: életem társteremtője vagyok\n→ Bátorság a saját utadhoz</string>
+    <string name="karmic_detail_2">Karmikus részlet 2: kapcsolat &amp; tükör\n→ Ismerd fel a tükörtörvényt: mások megoldatlan részeket mutatnak\n→ Diplomácia önfeladás nélkül\n→ Őrizd meg a türelmet</string>
+    <string name="karmic_detail_3">Karmikus részlet 3: hitelesség &amp; kifejezés\n→ Éld a saját igazságodat\n→ Vedd le a maszkokat és szerepeket\n→ Kreatívan fejezd ki az érzéseidet</string>
+    <string name="karmic_detail_4">Karmikus részlet 4: türelem &amp; bizalom\n→ Ne erőltess mindent\n→ Bízz az isteni időzítésben\n→ Teremts stabilitást rend által</string>
+    <string name="karmic_detail_5">Karmikus részlet 5: a félelem átalakítása\n→ Bátorság a menekülés helyett\n→ Alakítsd át a veszteségtől vagy hiánytól való félelmet\n→ Szabadság felelősségen keresztül</string>
+    <string name="karmic_detail_6">Karmikus részlet 6: szeretet &amp; határok\n→ Feltétel nélküli szeretet birtoklás nélkül\n→ Mondj nemet bűntudat nélkül\n→ Ne áldozd fel magad</string>
+    <string name="karmic_detail_7">Karmikus részlet 7: bizalom &amp; vezetés\n→ Bízz a spirituális vezetésben\n→ Kövesd az intuíciót és vedd észre a jeleket\n→ Belső szemlélet a külső irányítás helyett</string>
+    <string name="karmic_detail_8">Karmikus részlet 8: hatalom &amp; bőség\n→ Oldd fel a hiánytudatot\n→ Adás és elfogadás egyensúlyban\n→ Gyógyítsd a hatalmat (manipuláció nélkül)</string>
+    <string name="karmic_detail_9">Karmikus részlet 9: elengedés &amp; megbocsátás\n→ Bocsáss meg másoknak és önmagadnak\n→ Engedd el a régi sebeket\n→ Szolgáld a közösséget</string>
+    <string name="karmic_detail_10">Karmikus részlet 10: a sors kereke\n→ Fogadd el a sorsot\n→ Engedd el az ellenállást\n→ Merj tudatos új kezdetet</string>
+    <string name="karmic_detail_11">Karmikus részlet 11: a látnok\n→ Integráld a dualitást (fény &amp; árnyék)\n→ Fogadd el a spirituális vezetést\n→ Légy inspiráció mások számára</string>
+    <string name="karmic_detail_12">Karmikus részlet 12: nézőpontváltás\n→ Szolgálj áldozatszerep nélkül\n→ Tekints a dolgokra új szemszögből\n→ Bölcsesség az elengedésen keresztül</string>
+    <string name="karmic_detail_13">Karmikus részlet 13: ego &amp; átalakulás\n→ Engedd el az egót (büszkeség, igazad akarása)\n→ Gyakorold az alázatot önfeladás nélkül\n→ Átalakulás munkán és fókuszon keresztül</string>
+    <string name="karmic_detail_14">Karmikus részlet 14: függőségek elengedése\n→ Szabadság a félelemből fakadó kötődés helyett\n→ Találd meg a mértékletességet\n→ Erősítsd az érzelmi függetlenséget</string>
+    <string name="karmic_detail_16">Karmikus részlet 16: ébredés &amp; hitelesség\n→ A régi struktúrák felbomlanak\n→ Találd meg az igazi hitelességet\n→ Az illúziók lehullanak</string>
+    <string name="karmic_detail_19">Karmikus részlet 19: önérték &amp; hatalom\n→ Ne csak teljesítmény alapján határozd meg magad\n→ Gyógyítsd a hatalom és tehetetlenség témáját\n→ Tanuld meg elfogadni a segítséget</string>
+    <string name="karmic_detail_20">Karmikus részlet 20: ébredés &amp; ítélet\n→ Türelem és magasabb megértés\n→ Spirituális diplomácia</string>
+    <string name="karmic_detail_21">Karmikus részlet 21: világi kifejezés\n→ Siker egy hosszú út után\n→ Az ellentétek integrálása\n→ Beteljesülés a külső világban</string>
+    <string name="karmic_detail_22">Karmikus részlet 22: az építő\n→ Nagy álmok megvalósítása\n→ Vállald a felelősséget a tehetségedért\n→ Szolgálj önfeladás nélkül</string>
+    <string name="karmic_detail_23">Karmikus részlet 23: királyi oroszlán\n→ Védelem &amp; siker\n→ A kifejezés szabadsága\n→ Maradj rugalmas</string>
+    <string name="karmic_detail_24">Karmikus részlet 24: a szív gyógyulása\n→ Lélekszerződések beteljesítése és feloldása\n→ Szeretet és szolgálat a felebarát felé\n→ Érzelmi stabilitás</string>
+    <string name="karmic_detail_27">Karmikus részlet 27: szolgálat az egésznek\n→ Gyógyulás nem csak önmagadért\n→ Hatás mások számára\n→ Spirituális felismerés</string>
+    <string name="karmic_detail_30">Karmikus részlet 30: kreatív kifejezés\n→ Engedd meg az érzéseket (ne nyomd el)\n→ Az öröm, mint iránytű\n→ Ismerd fel az érzelmeket mint tanítókat</string>
+    <string name="karmic_detail_31">Karmikus részlet 31: belső stabilitás\n→ Hivatás kötelesség helyett\n→ Ne rejtsd el az ajándékaidat\n→ Hozz rendet a káoszba</string>
+    <string name="karmic_detail_33">Karmikus részlet 33: a mester-tanító\n→ Egyetemes gyógyító szeretet\n→ Együttérzés szenvedés nélkül\n→ Szolgálat az emberiségnek</string>
+
+    <!-- Spezifische Zusammenfassungen & Energieflüsse (Kombinationen) -->
+    <string name="summary_default">Fő üzeneted: hallgass a belső hangodra, vezetve vagy.</string>
+    <string name="energy_flow_default">Tisztaság → Bizalom → Cselekvés</string>
+    <string name="summary_99_1">Egy nagyon jelentős karmikus ciklus végleg lezárult. Ez teret ad egy erőteljes, isteni vezetésű új kezdetnek.</string>
+    <string name="energy_flow_99_1">Beteljesülés → Felszabadulás → Új kezdet</string>
+    <string name="summary_8_55">Egy masszív, pozitív változás (kettős 5) a bőséghez és anyagi javuláshoz (8) vezet. Egy áttörés közeleg.</string>
+    <string name="energy_flow_8_55">Áttörés → Szabadság → Stabilitás</string>
+    <string name="summary_11_22">Mester-szövetség: a vízió (11) találkozik a manifesztációval (22). Most megvan az erőd nagy álmok megvalósításához.</string>
+    <string name="energy_flow_11_22">Ötlet → Terv → Valóság</string>
+    <string name="summary_7_77">Hármas misztikus erő. A spirituális világgal való kapcsolatod rendkívül felerősödött. Figyelj az álmokra és jelekre.</string>
+    <string name="energy_flow_7_77">Csend → Felismerés → Ébredés</string>
+    <string name="summary_4_8">A struktúra (4) képezi a nagy siker (8) alapját. A kemény munka most anyagilag kifizetődik.</string>
+    <string name="energy_flow_4_8">Fegyelem → Építés → Gazdagság</string>
+    <string name="summary_1_9">A kezdet és a vég összeér. Bezársz egy ajtót, hogy azonnal egy másikat nyiss. Gyors átmenet.</string>
+    <string name="energy_flow_1_9">Elengedés → Bátorság → Újrakezdés</string>
+    <string name="summary_3_33">A kreatív kifejezés legmagasabb formája. Szavaid vagy művészeted most gyógyító hatással van másokra.</string>
+    <string name="energy_flow_3_33">Öröm → Kifejezés → Gyógyulás</string>
 </resources>
