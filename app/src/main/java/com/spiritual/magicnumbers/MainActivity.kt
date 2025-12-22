@@ -557,7 +557,7 @@ fun MagicNumberApp() {
                         )
 
                         val formattedMessage = markdownToAnnotatedString(
-                            detailedMessage.message.replace("✨ ", "\n- ")
+                            detailedMessage.message
                         )
 
                         Text(

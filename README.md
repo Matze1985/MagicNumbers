@@ -6,24 +6,25 @@
 
 ## ✨ Features
 
-*   **Rhythm of the Earth Generation**: The numbers are not just random; they are generated based on the exact millisecond of your interaction (`System.currentTimeMillis()`), capturing the unique energy of that specific moment.
+*   **Rhythm of the Moment Generation**: The number is generated on-demand using a random generator seeded with the exact millisecond of your interaction (`System.currentTimeMillis()`), capturing the unique “energy” of that moment.
+*   **6-Digit Message Number**: Generates a number between **100000 and 999999**.
 *   **Deep Numerology Analysis**:
-    *   Calculates the cross sum (digit sum) to find your core message.
-    *   Identifies **Master Numbers** (11, 22, 33).
-    *   Identifies **Karmic Lessons** based on special number constellations (13, 14, 16, 19, plus new insights for 4, 5, 6, 8).
-*   **Cross Sum (Quersumme)**: Automatically calculates and displays the detailed equation (e.g., `1 + 2 + 3 = 6`), revealing the core theme.
-*   **Vibration Frequency Meter** 🌀: A visual bar indicates the energetic frequency of the generated number – from grounding (red/orange) to high spiritual vibration (green/cyan).
+    *   Calculates the digit sum (cross sum / Quersumme) as the numerological base.
+    *   Adds **special meanings** when the *sum before reduction* matches master/special numbers (11, 22, 33, 44, 55, 66, 77, 88, 99).
+    *   Assigns **karmic details** (and lessons for select sums) based on the *sum before reduction* (e.g., 10, 11, 13, 14, 16, 19, 22, 33 and more supported values in-app).
+*   **Cross Sum (Quersumme)**: Automatically calculates and displays the detailed equation (e.g., `1 + 2 + 3 = 6`) as part of the message.
+*   **Vibration Frequency Meter** 🌀: A visual bar indicates the energetic frequency score (percentage) of the generated number.
 *   **Detailed Interpretations**:
-    *   Individual meaning of every digit (0-9).
-    *   Special messages for repeating numbers (Angel Numbers like 111, 222).
-    *   Energy flow visualization (e.g., Clarity → Trust → Action).
+    *   Shows the **keyword vibration** for each distinct digit (0–9) contained in the number.
+    *   Creates per-digit **message intros** and marks repeated digits with an occurrence note (e.g., “appears X times, amplified”).
+    *   **Special combination summaries & energy flows** for certain patterns (e.g., `99` + `1`, `1` + `9` (without `99`), `8` + `55`, `4` + `8`, `11` + `22`, `77` + `7`, `33` + `3`).
 *   **Privacy First**:
     *   100% Offline.
     *   No tracking, no analytics, no ads.
-    *   No internet permission required (except for the optional donate link).
+    *   No internet permission required (except for opening the optional donate link in a browser).
 *   **User Friendly**:
     *   Modern Material 3 Design (Dark Mode).
-    *   Copy functionality for sharing messages.
+    *   Copy functionality for sharing messages (copies the full formatted result to the clipboard).
     *   **Donate Button** 🤝: Support the developer directly via PayPal.
 
 ## 🛠 Technical Details
