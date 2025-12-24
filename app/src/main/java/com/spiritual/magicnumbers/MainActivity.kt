@@ -46,8 +46,8 @@ data class NumberMeaning(
 data class DetailedMessage(
     val number: String = "",
     val title: String = "",
-    val subtitle: String = "", // Beinhaltet jetzt nur die Bedeutung
-    val calculationText: String = "", // Beinhaltet "Deine Quersumme lautet: ..." + Rechenweg
+    val subtitle: String = "",
+    val calculationText: String = "",
     val components: List<Pair<Char, String>> = emptyList(),
     val message: String = "",
     val summary: String = "",
@@ -65,24 +65,26 @@ data class DetailedMessage(
         val frequencyPercent = (frequencyScore * 100).toInt()
 
         return """
-            $title
-            $calculationText
-            $subtitle
-
-            $frequencyLabel: $frequencyPercent%
-
-            $vibrationHeader
-            $componentString
-
-            $messageHeader
-            ${message.replace("**", "").replace("✨ ", "\n- ")}
-
-            $summaryHeader
-            $summary
-
-            $energyHeader
-            $energyFlow
-        """.trimIndent()
+            |$title
+            |
+            |$calculationText
+            |
+            |$subtitle
+            |
+            |🌀 $frequencyLabel: $frequencyPercent%
+            |
+            |$vibrationHeader
+            |$componentString
+            |
+            |$messageHeader
+            |${message.replace("*", "")}}
+            |
+            |$summaryHeader
+            |$summary
+            |
+            |$energyHeader
+            |$energyFlow
+        """.trimMargin()
     }
 }
 
@@ -154,10 +156,8 @@ fun createDetailedMessage(number: String): DetailedMessage {
     val numerologyData = getNumerologyMeaning(number)
     val quersummeBedeutung = numerologyData.meaning
     val title = stringResource(R.string.message_for_the_moment, number)
-    // Berechnungsweg erstellen
     val calculationSum = number.map { it.digitToInt() }.sum()
     val calculationRaw = number.toCharArray().joinToString(" + ") + " = $calculationSum"
-    // "Deine Quersumme lautet:" + Rechenweg + Bedeutung
     val calculationText = stringResource(R.string.your_cross_sum_is, calculationRaw)
     val subtitle = quersummeBedeutung
     val components = uniqueDigitsInOrder.map { digit -> digit to getKeywordForDigit(digit) }
@@ -172,7 +172,7 @@ fun createDetailedMessage(number: String): DetailedMessage {
 
     uniqueDigitsInOrder.forEach { digit ->
         val count = digitCounts[digit] ?: 1
-        val countText = if (count > 1) stringResource(R.string.digit_occurrence, count) else ""
+        val countText = if (count > 1) " " + stringResource(R.string.digit_occurrence, count) else ""
         val introResId = when (digit) {
             '0' -> R.string.digit_0_intro
             '1' -> R.string.digit_1_intro
