@@ -1,0 +1,4 @@
+<resources>
+    <string name="url_paypal_donation" translatable="false">https://paypal.me/MathiasN</string>
+    <string name="url_github_repository" translatable="false">https://github.com/Matze1985/MagicNumbers</string>
+</resources>

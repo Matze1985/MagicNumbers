@@ -4,7 +4,6 @@ import android.content.ClipData
 import android.content.ClipboardManager
 import android.content.Context
 import android.content.Intent
-import android.net.Uri
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.SystemBarStyle
@@ -36,6 +35,7 @@ import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import kotlin.random.Random
+import androidx.core.net.toUri
 
 // --- DATENKLASSEN ---
 data class NumberMeaning(
@@ -351,8 +351,15 @@ fun MagicNumberApp() {
 
     // PayPal Spendenlink-Funktion
     fun openPaypal() {
-        val paypalUrl = "https://paypal.me/MathiasN"
-        val intent = Intent(Intent.ACTION_VIEW, Uri.parse(paypalUrl))
+        val paypalUrl = context.getString(R.string.url_paypal_donation)
+        val intent = Intent(Intent.ACTION_VIEW, paypalUrl.toUri())
+        context.startActivity(intent)
+    }
+
+    // Github Link
+    fun openGithub() {
+        val githubUrl = context.getString(R.string.url_github_repository)
+        val intent = Intent(Intent.ACTION_VIEW, githubUrl.toUri())
         context.startActivity(intent)
     }
 
@@ -408,6 +415,13 @@ fun MagicNumberApp() {
                             )
                         }
 
+                        // 3. Github Repository (Info)
+                        IconButton(onClick = { openGithub() }) {
+                            Text(
+                                text = "ℹ\uFE0F",
+                                fontSize = 24.sp
+                            )
+                        }
                     } else {
                         // Platzhalter, wenn keine Nachricht da ist
                         Spacer(Modifier.size(48.dp))
