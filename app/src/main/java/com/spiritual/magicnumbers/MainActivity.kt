@@ -351,7 +351,7 @@ fun MagicNumberApp() {
 
     // PayPal Spendenlink-Funktion
     fun openPaypal() {
-        val paypalUrl = "https://paypal.me/MathiasN" // Dein PayPal.me Link
+        val paypalUrl = "https://paypal.me/MathiasN"
         val intent = Intent(Intent.ACTION_VIEW, Uri.parse(paypalUrl))
         context.startActivity(intent)
     }
