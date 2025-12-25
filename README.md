@@ -7,17 +7,20 @@
 ## ✨ Features
 
 *   **Rhythm of the Moment Generation**: The number is generated on-demand using a random generator seeded with the exact millisecond of your interaction (`System.currentTimeMillis()`), capturing the unique “energy” of that moment.
-*   **6-Digit Message Number**: Generates a number between **100000 and 999999**.
+*   **6-Digit Message Number**: Generates a unique **6-digit sequence** (000000 - 999999), allowing for significant leading zeros (e.g., `082009`).
 *   **Deep Numerology Analysis**:
     *   Calculates the digit sum (cross sum / Quersumme) as the numerological base.
-    *   Adds **special meanings** when the *sum before reduction* matches master/special numbers (11, 22, 33, 44, 55, 66, 77, 88, 99).
-    *   Assigns **karmic details** (and lessons for select sums) based on the *sum before reduction* (e.g., 10, 11, 13, 14, 16, 19, 22, 33 and more supported values in-app).
-*   **Cross Sum (Quersumme)**: Automatically calculates and displays the detailed equation (e.g., `1 + 2 + 3 = 6`) as part of the message.
-*   **Vibration Frequency Meter** 🌀: A visual bar indicates the energetic frequency score (percentage) of the generated number.
+    *   **Master & Special Numbers**: Detects high-vibration numbers (11, 22, 33, 44, 55, 66, 77, 88, 99) *before* reduction and assigns deep spiritual meanings instead of standard single-digit interpretations.
+    *   **Karmic Debt Detection**: Identifies specific karmic debt numbers (13, 14, 16, 19) and karmic lessons (10) in the cross sum, providing insights into life lessons and independence.
+*   **Intelligent Pattern Recognition**:
+    *   **Angel Numbers**: Detects classical sequences (e.g., 111, 222, 000) inside the generated number.
+    *   **Smart Overrides**: The app recognizes when visual number patterns (e.g., "333" in `101333`) are more dominant than the base cross sum, adjusting the message summary and energy flow accordingly to reflect the most relevant spiritual message.
+    *   **Combination Logic**: Analyzes powerful pairings, such as *Endings & New Beginnings* (1 & 9), *Structure & Success* (4 & 8), or *Master Alliances* (11 & 22).
 *   **Detailed Interpretations**:
-    *   Shows the **keyword vibration** for each distinct digit (0–9) contained in the number.
-    *   Creates per-digit **message intros** and marks repeated digits with an occurrence note (e.g., “appears X times, amplified”).
-    *   **Special combination summaries & energy flows** for certain patterns (e.g., `99` + `1`, `1` + `9` (without `99`), `8` + `55`, `4` + `8`, `11` + `22`, `77` + `7`, `33` + `3`).
+    *   **Component Breakdown**: Explains the vibration of every distinct digit (0–9) found in your number.
+    *   **Amplification**: Highlights repeated digits (e.g., "0 appears 3 times") and explains their amplifying effect on the total energy.
+    *   **Cross Sum Display**: Visualizes the math behind the meaning (e.g., `0 + 8 + 2 + 0 + 0 + 9 = 19`).
+*   **Vibration Frequency Meter** 🌀: A visual bar indicates the energetic frequency score (percentage) of the generated number, influenced by the presence of master numbers and high-vibration digits.
 *   **Privacy First**:
     *   100% Offline.
     *   No tracking, no analytics, no ads.
