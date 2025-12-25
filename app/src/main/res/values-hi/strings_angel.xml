@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 0 Series: Origin & Potential -->
+    <string name="angel_0_1">0: मूल और उपस्थिति – यहाँ रहें। अभी कुछ भी तय नहीं है।</string>
+    <string name="angel_0_2">00: सुरक्षित स्थान – आप शांत रह सकते हैं। एकाग्र करें।</string>
+    <string name="angel_0_3">000: स्रोत – सब एक है। संपूर्ण पर विश्वास करें।</string>
+    <string name="angel_0_4">0000: रीसेट – बिना किसी बोझ के नई शुरुआत करें। समय रेखा खुली है।</string>
+    <string name="angel_0_5">00000: शुद्ध क्षमता – आप कुछ बनने से पहले ही हैं।</string>
+    <string name="angel_0_6">000000: दिव्य शून्य – सब कुछ संभव है।</string>
+
+    <!-- 1 Series: Intuition & Manifestation -->
+    <string name="angel_1_2">11: अंतर्ज्ञान – सुनें, आपका आंतरिक मार्गदर्शन बुला रहा है।</string>
+    <string name="angel_1_3">111: अभिव्यक्ति – आप अभी निर्माण कर रहे हैं, जाने या अनजाने में।</string>
+    <string name="angel_1_4">1111: जागृति – एक द्वार खुल रहा है। सचेत रूप से चुनें।</string>
+    <string name="angel_1_5">11111: अवतार – जो आपने महसूस किया है उसे जिएं।</string>
+    <string name="angel_1_6">111111: रचनात्मक शक्ति – आपके विचार वास्तविकता बन जाते हैं।</string>
+
+    <!-- 2 Series: Balance & Trust -->
+    <string name="angel_2_2">22: संतुलन – विश्वास में रहें।</string>
+    <string name="angel_2_3">222: दिव्य समय – सब कुछ सही समय पर हो रहा है।</string>
+    <string name="angel_2_4">2222: स्थिरता – आपको सहारा दिया जा रहा है।</string>
+    <string name="angel_2_5">22222: आत्मा का सामंजस्य – आप सही जगह पर हैं।</string>
+    <string name="angel_2_6">222222: समता – कुछ भी जबरदस्ती न करें, सब कुछ वहीं है।</string>
+
+    <!-- 3 Series: Expression & Truth -->
+    <string name="angel_3_2">33: अभिव्यक्ति – व्यक्त करें, दुनिया सुन रही है।</string>
+    <string name="angel_3_3">333: विकास – गुरु आपके साथ हैं।</string>
+    <string name="angel_3_4">3333: प्रमाणिकता – खुद को वैसे ही दिखाएं जैसे आप हैं।</string>
+    <string name="angel_3_5">33333: सत्य – आपका सत्य जिया जाना चाहता है।</string>
+    <string name="angel_3_6">333333: हृदय और शब्द – आप अपने सार से बोलते हैं।</string>
+
+    <!-- 4 Series: Stability & Protection -->
+    <string name="angel_4_2">44: आधार – व्यवस्था शांति लाती है।</string>
+    <string name="angel_4_3">444: सुरक्षा – आप सुरक्षित और संरक्षित हैं।</string>
+    <string name="angel_4_4">4444: संरचना – आपकी नींव मजबूत है।</string>
+    <string name="angel_4_5">44444: स्थिरता – अपनी स्थिति पर भरोसा करें।</string>
+    <string name="angel_4_6">444444: एंकरिंग – आप जीवन में मजबूती से जुड़े हुए हैं।</string>
+
+    <!-- 5 Series: Change & Freedom -->
+    <string name="angel_5_2">55: परिवर्तन – नए के लिए खुले रहें।</string>
+    <string name="angel_5_3">555: बदलाव – पुराने को जाने दें।</string>
+    <string name="angel_5_4">5555: रूपांतरण – कुछ भी पहले जैसा नहीं रहता।</string>
+    <string name="angel_5_5">55555: पहचान – आपका पुनर्जन्म हो रहा है।</string>
+    <string name="angel_5_6">555555: स्वतंत्रता – स्वतंत्रता आपकी नई अवस्था है।</string>
+
+    <!-- 6 Series: Return to Center -->
+    <string name="angel_6_2">66: आत्म-देखभाल – अपना अच्छे से ख्याल रखें।</string>
+    <string name="angel_6_3">666: संतुलन – अपने आप में वापस आएं, आंतरिक और बाहरी के बीच।</string>
+    <string name="angel_6_4">6666: प्राथमिकताएं – वास्तव में आपको क्या पोषण देता है?</string>
+    <string name="angel_6_5">66666: उपचार – आप अपने प्रति कोमल हो सकते हैं।</string>
+    <string name="angel_6_6">666666: संपूर्णता – आप अपने भीतर घर पर हैं।</string>
+
+    <!-- 7 Series: Wisdom & Insight -->
+    <string name="angel_7_2">77: मार्गदर्शन – अपने आंतरिक ज्ञान पर भरोसा करें।</string>
+    <string name="angel_7_3">777: आध्यात्मिकता – आप आत्मा के स्तर पर सीख रहे हैं।</string>
+    <string name="angel_7_4">7777: अंतर्दृष्टि – आप चीजों को स्पष्ट रूप से देख रहे हैं।</string>
+    <string name="angel_7_5">77777: बुद्धिमत्ता – आप जो जानते हैं उसे जीते हैं।</string>
+    <string name="angel_7_6">777777: ज्ञानोदय – आप भीतर से निर्देशित हैं।</string>
+
+    <!-- 8 Series: Abundance & Energy Flow -->
+    <string name="angel_8_2">88: संतुलन – देना और लेना प्रवाह में है।</string>
+    <string name="angel_8_3">888: प्रचुरता – सफलता संभव है और निकट है।</string>
+    <string name="angel_8_4">8888: ऊर्जा प्रवाह – सब कुछ आपकी ओर बह रहा है।</string>
+    <string name="angel_8_5">88888: प्राप्त करना – आपको पाने और होने की अनुमति है।</string>
+    <string name="angel_8_6">888888: अतिप्रवाह – आप अनंत प्रचुरता का हिस्सा हैं।</string>
+
+    <!-- 9 Series: Completion & Transition -->
+    <string name="angel_9_2">99: छोड़ना – एक अंत निकट है।</string>
+    <string name="angel_9_3">999: समापन – एक चक्र समाप्त होता है। धन्यवाद दें और आगे बढ़ें।</string>
+    <string name="angel_9_4">9999: रूपांतरण – पुराना हमेशा के लिए जा रहा है।</string>
+    <string name="angel_9_5">99999: परिपक्वता – आप आगे जो आने वाला है उसके लिए तैयार हैं।</string>
+    <string name="angel_9_6">999999: पूर्णता – वृत्त पूरा हो गया है।</string>
+</resources>

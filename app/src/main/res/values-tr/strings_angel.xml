@@ -1,0 +1,72 @@
+<resources>
+    <!-- Seri 0: Köken ve Potansiyel -->
+    <string name="angel_0_1">0: Köken ve Varlık – Burada ol. Henüz hiçbir şeye karar verilmedi.</string>
+    <string name="angel_0_2">00: Korunaklı Alan – Sessiz kalabilirsin. Bütünleştir.</string>
+    <string name="angel_0_3">000: Kaynak – Her şey birdir. Bütüne güven.</string>
+    <string name="angel_0_4">0000: Sıfırlama – Yük olmadan yeniden başla. Zaman çizelgesi açık.</string>
+    <string name="angel_0_5">00000: Saf Potansiyel – Bir şey olmadan önce, sen varsın.</string>
+    <string name="angel_0_6">000000: İlahi Boşluk – Her şey mümkün.</string>
+
+    <!-- Seri 1: Sezgi ve Tezahür -->
+    <string name="angel_1_2">11: Sezgi – Dinle, içsel rehberin seni çağırıyor.</string>
+    <string name="angel_1_3">111: Tezahür – Şu anda yaratıyorsun, bilinçli veya bilinçsiz.</string>
+    <string name="angel_1_4">1111: Uyanış – Bir kapı açılıyor. Bilinçli seçim yap.</string>
+    <string name="angel_1_5">11111: Bedenlenme – Fark ettiğin şeyi yaşa.</string>
+    <string name="angel_1_6">111111: Yaratıcı Güç – Düşüncelerin gerçek oluyor.</string>
+
+    <!-- Seri 2: Denge ve Güven -->
+    <string name="angel_2_2">22: Denge – Güvende kal.</string>
+    <string name="angel_2_3">222: İlahi Zamanlama – Her şey mükemmel anda hizalanıyor.</string>
+    <string name="angel_2_4">2222: İstikrar – Destekleniyorsun.</string>
+    <string name="angel_2_5">22222: Ruhsal Uyum – Doğru yerdesin.</string>
+    <string name="angel_2_6">222222: Sükunet – Hiçbir şeyi zorlama, her şey burada.</string>
+
+    <!-- Seri 3: İfade ve Hakikat -->
+    <string name="angel_3_2">33: İfade – Kendini ifade et, dünya dinliyor.</string>
+    <string name="angel_3_3">333: Büyüme – Üstatlar sana eşlik ediyor.</string>
+    <string name="angel_3_4">3333: Özgünlük – Kendini olduğun gibi göster.</string>
+    <string name="angel_3_5">33333: Hakikat – Hakikatin yaşanmak istiyor.</string>
+    <string name="angel_3_6">333333: Kalp ve Söz – Özünden konuşuyorsun.</string>
+
+    <!-- Seri 4: İstikrar ve Koruma -->
+    <string name="angel_4_2">44: Topraklanma – Düzen huzur getirir.</string>
+    <string name="angel_4_3">444: Koruma – Güvendesin ve korunuyorsun.</string>
+    <string name="angel_4_4">4444: Yapı – Temelin sağlam.</string>
+    <string name="angel_4_5">44444: İstikrar – Bulunduğun konuma güven.</string>
+    <string name="angel_4_6">444444: Demirlenme – Hayata sıkıca kök saldın.</string>
+
+    <!-- Seri 5: Değişim ve Özgürlük -->
+    <string name="angel_5_2">55: Değişim – Yeniye açık ol.</string>
+    <string name="angel_5_3">555: Dönüşüm – Eskiyi bırak.</string>
+    <string name="angel_5_4">5555: Başkalaşım – Hiçbir şey olduğu gibi kalmaz.</string>
+    <string name="angel_5_5">55555: Kimlik – Yeniden doğuyorsun.</string>
+    <string name="angel_5_6">555555: Özgürlük – Özgürlük senin yeni halin.</string>
+
+    <!-- Seri 6: Merkeze Dönüş -->
+    <string name="angel_6_2">66: Öz Bakım – Kendine iyi bak.</string>
+    <string name="angel_6_3">666: Denge – Kendine dön, iç ve dış arasında.</string>
+    <string name="angel_6_4">6666: Öncelikler – Seni gerçekten ne besliyor?</string>
+    <string name="angel_6_5">66666: Şifa – Kendine karşı nazik olabilirsin.</string>
+    <string name="angel_6_6">666666: Bütünlük – Kendi içinde evindesin.</string>
+
+    <!-- Seri 7: Bilgelik ve İçgörü -->
+    <string name="angel_7_2">77: Rehberlik – İçsel bilgine güven.</string>
+    <string name="angel_7_3">777: Maneviyat – Ruhsal düzeyde öğreniyorsun.</string>
+    <string name="angel_7_4">7777: İçgörü – Olayları net bir şekilde görüyorsun.</string>
+    <string name="angel_7_5">77777: Bilgelik – Bildiğin şeyi yaşıyorsun.</string>
+    <string name="angel_7_6">777777: Aydınlanma – İçeriden yönlendiriliyorsun.</string>
+
+    <!-- Seri 8: Bolluk ve Enerji Akışı -->
+    <string name="angel_8_2">88: Denge – Akışta alma ve verme.</string>
+    <string name="angel_8_3">888: Bolluk – Başarı mümkün ve yakın.</string>
+    <string name="angel_8_4">8888: Enerji Akışı – Her şey sana doğru akıyor.</string>
+    <string name="angel_8_5">88888: Kabul – Sahip olmaya ve olmaya iznin var.</string>
+    <string name="angel_8_6">888888: Taşma – Sonsuz bolluğun bir parçasısın.</string>
+
+    <!-- Seri 9: Tamamlanma ve Geçiş -->
+    <string name="angel_9_2">99: Bırakma – Bir son yaklaşıyor.</string>
+    <string name="angel_9_3">999: Tamamlanma – Bir döngü bitiyor. Teşekkür et ve devam et.</string>
+    <string name="angel_9_4">9999: Dönüşüm – Eski tamamen gidiyor.</string>
+    <string name="angel_9_5">99999: Olgunluk – Gelecek olana hazırsın.</string>
+    <string name="angel_9_6">999999: Mükemmellik – Çember kapanıyor.</string>
+</resources>

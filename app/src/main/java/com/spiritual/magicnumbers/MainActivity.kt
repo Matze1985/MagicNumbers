@@ -191,8 +191,13 @@ fun createDetailedMessage(number: String): DetailedMessage {
         }
     }
 
+    val angelMsg = getAngelMessage(number)
     var summary = numerologyData.karmicDetail ?: stringResource(R.string.summary_default)
     var energyFlow = components.joinToString(" → ") { it.second }
+
+    if (angelMsg != null) {
+        summary = "$angelMsg\n\n$summary"
+    }
 
     // Spezielle Überschreibungen für bestimmte Kombinationen
     when {
@@ -328,6 +333,57 @@ fun getNumerologyMeaning(num: String): NumberMeaning {
     return NumberMeaning(finalString, karmicDetailText)
 }
 
+@Composable
+fun getAngelMessage(number: String): String? {
+    if (number.isEmpty()) return null
+
+    // 1. Finde die längste Kette gleicher Ziffern (z.B. in "122295" ist es "222")
+    var maxRunDigit = number[0]
+    var maxRunLength = 0
+
+    var currentDigit = number[0]
+    var currentRunLength = 1
+
+    for (i in 1 until number.length) {
+        if (number[i] == currentDigit) {
+            currentRunLength++
+        } else {
+            // Check ob der vergangene Run der längste war
+            if (currentRunLength > maxRunLength) {
+                maxRunLength = currentRunLength
+                maxRunDigit = currentDigit
+            }
+            // Reset
+            currentDigit = number[i]
+            currentRunLength = 1
+        }
+    }
+    // Letzten Run prüfen
+    if (currentRunLength > maxRunLength) {
+        maxRunLength = currentRunLength
+        maxRunDigit = currentDigit
+    }
+
+    // 2. Wir interessieren uns nur für Wiederholungen ab 2 (oder spezielle 0er Logik)
+    // Wenn die ganze Zahl "0" ist (falls später mal einstellige Zahlen erlaubt sind), greift Logik auch.
+    if (maxRunLength < 2 && number.length > 1) return null
+
+    // 3. Resource ID zusammenbauen: "angel_{ziffer}_{anzahl}"
+    // Beispiel: Ziffer '2', Anzahl 3 -> "angel_2_3"
+    val resName = "angel_${maxRunDigit}_$maxRunLength"
+    val context = LocalContext.current
+    val resId = context.resources.getIdentifier(resName, "string", context.packageName)
+
+    return if (resId != 0) {
+        // Formatierung: Wir bauen ein kleines Label davor
+        val symbol = "🕊️" // Taube oder Engelsflügel als Symbol
+        "$symbol ${stringResource(resId)}"
+    } else {
+        null
+    }
+}
+
+
 /* -------------------------------------------------------------
    UI
 ------------------------------------------------------------- */
@@ -346,7 +402,7 @@ fun MagicNumberApp() {
     fun triggerGeneration() {
         val seed = System.currentTimeMillis()
         val random = Random(seed)
-        currentNumber = random.nextInt(100_000, 1_000_000).toString()
+        currentNumber = (1..6).joinToString("") { random.nextInt(0, 10).toString() }
     }
 
     // PayPal Spendenlink-Funktion

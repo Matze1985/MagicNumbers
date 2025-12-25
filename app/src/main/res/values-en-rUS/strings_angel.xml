@@ -1,0 +1,72 @@
+<resources>
+    <!-- 0 Series: Origin & Potential -->
+    <string name="angel_0_1">0: Origin &amp; Presence – Be here. Nothing is set yet.</string>
+    <string name="angel_0_2">00: Sanctuary – You may be still. Integrate.</string>
+    <string name="angel_0_3">000: Source – All is one. Trust the whole.</string>
+    <string name="angel_0_4">0000: Reset – Start anew without burden. The timeline is open.</string>
+    <string name="angel_0_5">00000: Pure Potential – You are, before you become something.</string>
+    <string name="angel_0_6">000000: Divine Void – Everything is possible.</string>
+
+    <!-- 1 Series: Intuition & Manifestation -->
+    <string name="angel_1_2">11: Intuition – Listen, your inner guidance is calling.</string>
+    <string name="angel_1_3">111: Manifestation – You are creating right now, consciously or unconsciously.</string>
+    <string name="angel_1_4">1111: Awakening – A gate opens. Choose consciously.</string>
+    <string name="angel_1_5">11111: Embodiment – Live what you have realized.</string>
+    <string name="angel_1_6">111111: Creative Power – Your thoughts become reality.</string>
+
+    <!-- 2 Series: Balance & Trust -->
+    <string name="angel_2_2">22: Balance – Stay in trust.</string>
+    <string name="angel_2_3">222: Divine Timing – Everything aligns perfectly.</string>
+    <string name="angel_2_4">2222: Stability – You are supported.</string>
+    <string name="angel_2_5">22222: Soul Harmony – You are embedded correctly.</string>
+    <string name="angel_2_6">222222: Equilibrium – Force nothing, everything is there.</string>
+
+    <!-- 3 Series: Expression & Truth -->
+    <string name="angel_3_2">33: Expression – Express yourself, the world is listening.</string>
+    <string name="angel_3_3">333: Growth – You are accompanied by masters.</string>
+    <string name="angel_3_4">3333: Authenticity – Show yourself as you are.</string>
+    <string name="angel_3_5">33333: Truth – Your truth wants to be lived.</string>
+    <string name="angel_3_6">333333: Heart &amp; Word – You speak from your essence.</string>
+
+    <!-- 4 Series: Stability & Protection -->
+    <string name="angel_4_2">44: Grounding – Order brings peace.</string>
+    <string name="angel_4_3">444: Protection – You are safe and protected.</string>
+    <string name="angel_4_4">4444: Structure – Your foundation holds.</string>
+    <string name="angel_4_5">44444: Stability – Trust your stance.</string>
+    <string name="angel_4_6">444444: Anchoring – You are firmly rooted in life.</string>
+
+    <!-- 5 Series: Change & Freedom -->
+    <string name="angel_5_2">55: Change – Be open to the new.</string>
+    <string name="angel_5_3">555: Shift – Let go of the old.</string>
+    <string name="angel_5_4">5555: Transformation – Nothing stays as it was.</string>
+    <string name="angel_5_5">55555: Identity – You are being reborn.</string>
+    <string name="angel_5_6">555555: Freedom – Freedom is your new state.</string>
+
+    <!-- 6 Series: Return to Center -->
+    <string name="angel_6_2">66: Self-Care – Take good care of yourself.</string>
+    <string name="angel_6_3">666: Balance – Come back to yourself, between inner &amp; outer.</string>
+    <string name="angel_6_4">6666: Priorities – What truly nourishes you?</string>
+    <string name="angel_6_5">66666: Healing – You may be gentle with yourself.</string>
+    <string name="angel_6_6">666666: Wholeness – You are at home within yourself.</string>
+
+    <!-- 7 Series: Wisdom & Insight -->
+    <string name="angel_7_2">77: Guidance – Trust your inner knowledge.</string>
+    <string name="angel_7_3">777: Spirituality – You are learning on a soul level.</string>
+    <string name="angel_7_4">7777: Insight – You see things clearly.</string>
+    <string name="angel_7_5">77777: Wisdom – You live what you know.</string>
+    <string name="angel_7_6">777777: Enlightenment – You are guided from within.</string>
+
+    <!-- 8 Series: Abundance & Energy Flow -->
+    <string name="angel_8_2">88: Balance – Giving &amp; Receiving in flow.</string>
+    <string name="angel_8_3">888: Abundance – Success is possible and near.</string>
+    <string name="angel_8_4">8888: Energy Flow – Everything flows to you.</string>
+    <string name="angel_8_5">88888: Receiving – You are allowed to have and to be.</string>
+    <string name="angel_8_6">888888: Overflow – You are part of infinite abundance.</string>
+
+    <!-- 9 Series: Completion & Transition -->
+    <string name="angel_9_2">99: Letting Go – An ending approaches.</string>
+    <string name="angel_9_3">999: Completion – A cycle ends. Give thanks &amp; move on.</string>
+    <string name="angel_9_4">9999: Transformation – The old leaves for good.</string>
+    <string name="angel_9_5">99999: Readiness – You are ready for what comes next.</string>
+    <string name="angel_9_6">999999: Perfection – The circle closes.</string>
+</resources>

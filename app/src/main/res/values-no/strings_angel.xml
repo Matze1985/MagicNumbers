@@ -1,0 +1,72 @@
+<resources>
+    <!-- 0-serien: Opprinnelse og Potensial -->
+    <string name="angel_0_1">0: Opprinnelse og Tilstedeværelse – Vær her. Ingenting er bestemt ennå.</string>
+    <string name="angel_0_2">00: Beskyttet rom – Du kan være stille. Integrer.</string>
+    <string name="angel_0_3">000: Kilden – Alt er ett. Stol på helheten.</string>
+    <string name="angel_0_4">0000: Nullstilling – Start på nytt uten byrder. Tidslinjen er åpen.</string>
+    <string name="angel_0_5">00000: Rent potensial – Du er, før du blir noe.</string>
+    <string name="angel_0_6">000000: Guddommelig tomrom – Alt er mulig.</string>
+
+    <!-- 1-serien: Intuisjon og Manifestasjon -->
+    <string name="angel_1_2">11: Intuisjon – Lytt, din indre veiledning kaller.</string>
+    <string name="angel_1_3">111: Manifestasjon – Du skaper akkurat nå, bevisst eller ubevisst.</string>
+    <string name="angel_1_4">1111: Oppvåkning – En port åpnes. Velg bevisst.</string>
+    <string name="angel_1_5">11111: Legemliggjøring – Lev det du har innsett.</string>
+    <string name="angel_1_6">111111: Skaperkraft – Dine tanker blir til virkelighet.</string>
+
+    <!-- 2-serien: Balanse og Tillit -->
+    <string name="angel_2_2">22: Balanse – Bli i tilliten.</string>
+    <string name="angel_2_3">222: Guddommelig timing – Alt faller på plass i det perfekte øyeblikk.</string>
+    <string name="angel_2_4">2222: Stabilitet – Du blir støttet.</string>
+    <string name="angel_2_5">22222: Sjelsharmoni – Du er på rett sted.</string>
+    <string name="angel_2_6">222222: Likevekt – Ikke tving noe frem, alt er her.</string>
+
+    <!-- 3-serien: Uttrykk og Sannhet -->
+    <string name="angel_3_2">33: Uttrykk – Uttrykk deg selv, verden lytter.</string>
+    <string name="angel_3_3">333: Vekst – Du blir fulgt av mestere.</string>
+    <string name="angel_3_4">3333: Autentisitet – Vis deg som den du er.</string>
+    <string name="angel_3_5">33333: Sannhet – Din sannhet ønsker å bli levd.</string>
+    <string name="angel_3_6">333333: Hjerte og Ord – Du snakker fra din essens.</string>
+
+    <!-- 4-serien: Stabilitet og Beskyttelse -->
+    <string name="angel_4_2">44: Jording – Orden bringer fred.</string>
+    <string name="angel_4_3">444: Beskyttelse – Du er trygg og ivaretatt.</string>
+    <string name="angel_4_4">4444: Struktur – Ditt fundament holder.</string>
+    <string name="angel_4_5">44444: Stabilitet – Stol på din posisjon.</string>
+    <string name="angel_4_6">444444: Forankring – Du er solid rotfestet i livet.</string>
+
+    <!-- 5-serien: Endring og Frihet -->
+    <string name="angel_5_2">55: Endring – Vær åpen for det nye.</string>
+    <string name="angel_5_3">555: Skifte – Gi slipp på det gamle.</string>
+    <string name="angel_5_4">5555: Transformasjon – Ingenting forblir som det var.</string>
+    <string name="angel_5_5">55555: Identitet – Du blir født på ny.</string>
+    <string name="angel_5_6">555555: Frihet – Frihet er din nye tilstand.</string>
+
+    <!-- 6-serien: Retur til senteret -->
+    <string name="angel_6_2">66: Egenomsorg – Ta godt vare på deg selv.</string>
+    <string name="angel_6_3">666: Balanse – Kom tilbake til deg selv, mellom indre og ytre.</string>
+    <string name="angel_6_4">6666: Prioriteringer – Hva nærer deg egentlig?</string>
+    <string name="angel_6_5">66666: Helbredelse – Du kan være mild mot deg selv.</string>
+    <string name="angel_6_6">666666: Helhet – Du er hjemme i deg selv.</string>
+
+    <!-- 7-serien: Visdom og Innsikt -->
+    <string name="angel_7_2">77: Veiledning – Stol på din indre viten.</string>
+    <string name="angel_7_3">777: Spiritualitet – Du lærer på sjelsnivå.</string>
+    <string name="angel_7_4">7777: Innsikt – Du ser ting klart.</string>
+    <string name="angel_7_5">77777: Visdom – Du lever det du vet.</string>
+    <string name="angel_7_6">777777: Opplysning – Du blir ledet innenfra.</string>
+
+    <!-- 8-serien: Overflod og Energiflyt -->
+    <string name="angel_8_2">88: Balanse – Gi og ta i flyt.</string>
+    <string name="angel_8_3">888: Overflod – Suksess er mulig og nær.</string>
+    <string name="angel_8_4">8888: Energiflyt – Alt strømmer til deg.</string>
+    <string name="angel_8_5">88888: Mottakelse – Du har lov til å ha og å være.</string>
+    <string name="angel_8_6">888888: Overstrømmende – Du er en del av uendelig overflod.</string>
+
+    <!-- 9-serien: Fullføring og Overgang -->
+    <string name="angel_9_2">99: Slippe taket – En slutt nærmer seg.</string>
+    <string name="angel_9_3">999: Fullføring – En syklus ender. Takk og gå videre.</string>
+    <string name="angel_9_4">9999: Transformasjon – Det gamle forsvinner for godt.</string>
+    <string name="angel_9_5">99999: Modenhet – Du er klar for det som kommer.</string>
+    <string name="angel_9_6">999999: Perfeksjon – Sirkelen sluttes.</string>
+</resources>

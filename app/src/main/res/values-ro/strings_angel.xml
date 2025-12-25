@@ -1,0 +1,72 @@
+<resources>
+    <!-- Seria 0: Origine & Potențial -->
+    <string name="angel_0_1">0: Origine &amp; Prezență – Fii aici. Nimic nu este decis încă.</string>
+    <string name="angel_0_2">00: Spațiu Protejat – Poți fi liniștit. Integrează.</string>
+    <string name="angel_0_3">000: Sursa – Totul este una. Ai încredere în întreg.</string>
+    <string name="angel_0_4">0000: Resetare – Începe din nou fără povară. Linia timpului este deschisă.</string>
+    <string name="angel_0_5">00000: Potențial Pur – Ești, înainte de a deveni ceva.</string>
+    <string name="angel_0_6">000000: Vid Divin – Totul este posibil.</string>
+
+    <!-- Seria 1: Intuiție & Manifestare -->
+    <string name="angel_1_2">11: Intuiție – Ascultă, ghidarea ta interioară te cheamă.</string>
+    <string name="angel_1_3">111: Manifestare – Creezi chiar acum, conștient sau inconștient.</string>
+    <string name="angel_1_4">1111: Trezire – O poartă se deschide. Alege conștient.</string>
+    <string name="angel_1_5">11111: Întruchipare – Trăiește ceea ce ai realizat.</string>
+    <string name="angel_1_6">111111: Putere Creatoare – Gândurile tale devin realitate.</string>
+
+    <!-- Seria 2: Echilibru & Încredere -->
+    <string name="angel_2_2">22: Echilibru – Rămâi în încredere.</string>
+    <string name="angel_2_3">222: Sincronizare Divină – Totul se aliniază la momentul perfect.</string>
+    <string name="angel_2_4">2222: Stabilitate – Ești susținut.</string>
+    <string name="angel_2_5">22222: Armonia Sufletului – Ești la locul potrivit.</string>
+    <string name="angel_2_6">222222: Seninătate – Nu forța nimic, totul este aici.</string>
+
+    <!-- Seria 3: Expresie & Adevăr -->
+    <string name="angel_3_2">33: Expresie – Exprimă-te, lumea ascultă.</string>
+    <string name="angel_3_3">333: Creștere – Ești acompaniat de maeștri.</string>
+    <string name="angel_3_4">3333: Autenticitate – Arată-te așa cum ești.</string>
+    <string name="angel_3_5">33333: Adevăr – Adevărul tău vrea să fie trăit.</string>
+    <string name="angel_3_6">333333: Inimă &amp; Cuvânt – Vorbești din esența ta.</string>
+
+    <!-- Seria 4: Stabilitate & Protecție -->
+    <string name="angel_4_2">44: Împământare – Ordinea aduce pace.</string>
+    <string name="angel_4_3">444: Protecție – Ești în siguranță și protejat.</string>
+    <string name="angel_4_4">4444: Structură – Fundația ta rezistă.</string>
+    <string name="angel_4_5">44444: Stabilitate – Ai încredere în poziția ta.</string>
+    <string name="angel_4_6">444444: Ancorare – Ești ferm înrădăcinat în viață.</string>
+
+    <!-- Seria 5: Schimbare & Libertate -->
+    <string name="angel_5_2">55: Schimbare – Fii deschis la nou.</string>
+    <string name="angel_5_3">555: Cotitură – Lasă vechiul să plece.</string>
+    <string name="angel_5_4">5555: Transformare – Nimic nu rămâne cum a fost.</string>
+    <string name="angel_5_5">55555: Identitate – Renaști.</string>
+    <string name="angel_5_6">555555: Libertate – Libertatea este noua ta stare.</string>
+
+    <!-- Seria 6: Întoarcerea la Centru -->
+    <string name="angel_6_2">66: Îngrijire de sine – Ai grijă de tine.</string>
+    <string name="angel_6_3">666: Echilibru – Întoarce-te la tine, între interior și exterior.</string>
+    <string name="angel_6_4">6666: Priorități – Ce te hrănește cu adevărat?</string>
+    <string name="angel_6_5">66666: Vindecare – Poți fi blând cu tine însuți.</string>
+    <string name="angel_6_6">666666: Întregire – Ești acasă în tine.</string>
+
+    <!-- Seria 7: Înțelepciune & Clarviziune -->
+    <string name="angel_7_2">77: Ghidare – Ai încredere în cunoașterea ta interioară.</string>
+    <string name="angel_7_3">777: Spiritualitate – Înveți la nivel de suflet.</string>
+    <string name="angel_7_4">7777: Clarviziune – Vezi lucrurile clar.</string>
+    <string name="angel_7_5">77777: Înțelepciune – Trăiești ceea ce știi.</string>
+    <string name="angel_7_6">777777: Iluminare – Ești ghidat din interior.</string>
+
+    <!-- Seria 8: Abundență & Flux de Energie -->
+    <string name="angel_8_2">88: Echilibru – A da și a primi în flux.</string>
+    <string name="angel_8_3">888: Abundență – Succesul este posibil și aproape.</string>
+    <string name="angel_8_4">8888: Flux de Energie – Totul curge spre tine.</string>
+    <string name="angel_8_5">88888: Primire – Îți este permis să ai și să fii.</string>
+    <string name="angel_8_6">888888: Revărsare – Ești parte din abundența infinită.</string>
+
+    <!-- Seria 9: Finalizare & Tranziție -->
+    <string name="angel_9_2">99: Eliberare – Un sfârșit se apropie.</string>
+    <string name="angel_9_3">999: Finalizare – Un ciclu se încheie. Mulțumește și mergi mai departe.</string>
+    <string name="angel_9_4">9999: Transformare – Vechiul pleacă definitiv.</string>
+    <string name="angel_9_5">99999: Maturitate – Ești pregătit pentru ce urmează.</string>
+    <string name="angel_9_6">999999: Perfecțiune – Cercul se închide.</string>
+</resources>

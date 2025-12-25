@@ -1,0 +1,72 @@
+<resources>
+    <!-- Seri 0: Asal & Potensi -->
+    <string name="angel_0_1">0: Asal &amp; Kehadiran – Hadirlah di sini. Belum ada yang ditetapkan.</string>
+    <string name="angel_0_2">00: Ruang Suci – Anda boleh diam. Integrasikan.</string>
+    <string name="angel_0_3">000: Sumber – Segalanya adalah satu. Percayalah pada keseluruhan.</string>
+    <string name="angel_0_4">0000: Atur Ulang – Mulailah kembali tanpa beban. Garis waktu terbuka.</string>
+    <string name="angel_0_5">00000: Potensi Murni – Anda ada, bahkan sebelum menjadi sesuatu.</string>
+    <string name="angel_0_6">000000: Kekosongan Ilahi – Segalanya mungkin.</string>
+
+    <!-- Seri 1: Intuisi & Manifestasi -->
+    <string name="angel_1_2">11: Intuisi – Dengarkan, bimbingan batin Anda memanggil.</string>
+    <string name="angel_1_3">111: Manifestasi – Anda sedang menciptakan saat ini, secara sadar atau tidak sadar.</string>
+    <string name="angel_1_4">1111: Kebangkitan – Sebuah gerbang terbuka. Pilihlah dengan sadar.</string>
+    <string name="angel_1_5">11111: Perwujudan – Hiduplah sesuai dengan apa yang telah Anda sadari.</string>
+    <string name="angel_1_6">111111: Kekuatan Kreatif – Pikiran Anda menjadi kenyataan.</string>
+
+    <!-- Seri 2: Keseimbangan & Kepercayaan -->
+    <string name="angel_2_2">22: Keseimbangan – Tetaplah percaya.</string>
+    <string name="angel_2_3">222: Waktu Ilahi – Segalanya selaras pada waktu yang tepat.</string>
+    <string name="angel_2_4">2222: Stabilitas – Anda didukung.</string>
+    <string name="angel_2_5">22222: Harmoni Jiwa – Anda berada di tempat yang tepat.</string>
+    <string name="angel_2_6">222222: Ketenangan – Jangan paksakan apa pun, semuanya sudah ada.</string>
+
+    <!-- Seri 3: Ekspresi & Kebenaran -->
+    <string name="angel_3_2">33: Ekspresi – Ekspresikan diri Anda, dunia mendengarkan.</string>
+    <string name="angel_3_3">333: Pertumbuhan – Anda didampingi oleh para guru spiritual.</string>
+    <string name="angel_3_4">3333: Keaslian – Tunjukkan diri Anda apa adanya.</string>
+    <string name="angel_3_5">33333: Kebenaran – Kebenaran Anda ingin dihidupi.</string>
+    <string name="angel_3_6">333333: Hati &amp; Kata – Anda berbicara dari esensi Anda.</string>
+
+    <!-- Seri 4: Stabilitas & Perlindungan -->
+    <string name="angel_4_2">44: Pembumian – Keteraturan membawa kedamaian.</string>
+    <string name="angel_4_3">444: Perlindungan – Anda aman dan terlindungi.</string>
+    <string name="angel_4_4">4444: Struktur – Fondasi Anda kuat.</string>
+    <string name="angel_4_5">44444: Stabilitas – Percayalah pada pijakan Anda.</string>
+    <string name="angel_4_6">444444: Berlabuh – Anda berakar kuat dalam kehidupan.</string>
+
+    <!-- Seri 5: Perubahan & Kebebasan -->
+    <string name="angel_5_2">55: Perubahan – Terbukalah untuk hal yang baru.</string>
+    <string name="angel_5_3">555: Pergeseran – Lepaskan yang lama.</string>
+    <string name="angel_5_4">5555: Transformasi – Tidak ada yang tetap sama.</string>
+    <string name="angel_5_5">55555: Identitas – Anda sedang terlahir kembali.</string>
+    <string name="angel_5_6">555555: Kebebasan – Kebebasan adalah keadaan baru Anda.</string>
+
+    <!-- Seri 6: Kembali ke Pusat -->
+    <string name="angel_6_2">66: Perawatan Diri – Rawatlah diri Anda dengan baik.</string>
+    <string name="angel_6_3">666: Keseimbangan – Kembalilah pada diri sendiri, antara dunia batin &amp; luar.</string>
+    <string name="angel_6_4">6666: Prioritas – Apa yang benar-benar menyehatkan Anda?</string>
+    <string name="angel_6_5">66666: Penyembuhan – Anda boleh bersikap lembut pada diri sendiri.</string>
+    <string name="angel_6_6">666666: Keutuhan – Anda berada di rumah di dalam diri Anda.</string>
+
+    <!-- Seri 7: Kebijaksanaan & Wawasan -->
+    <string name="angel_7_2">77: Bimbingan – Percayalah pada pengetahuan batin Anda.</string>
+    <string name="angel_7_3">777: Spiritualitas – Anda belajar di tingkat jiwa.</string>
+    <string name="angel_7_4">7777: Wawasan – Anda melihat segalanya dengan jelas.</string>
+    <string name="angel_7_5">77777: Kebijaksanaan – Anda menghidupi apa yang Anda ketahui.</string>
+    <string name="angel_7_6">777777: Pencerahan – Anda dibimbing dari dalam.</string>
+
+    <!-- Seri 8: Kelimpahan & Aliran Energi -->
+    <string name="angel_8_2">88: Keseimbangan – Memberi &amp; menerima dalam aliran.</string>
+    <string name="angel_8_3">888: Kelimpahan – Kesuksesan itu mungkin dan dekat.</string>
+    <string name="angel_8_4">8888: Aliran Energi – Segalanya mengalir kepada Anda.</string>
+    <string name="angel_8_5">88888: Menerima – Anda diizinkan untuk memiliki dan menjadi.</string>
+    <string name="angel_8_6">888888: Kelimpahan – Anda adalah bagian dari kelimpahan tak terbatas.</string>
+
+    <!-- Seri 9: Penyelesaian & Transisi -->
+    <string name="angel_9_2">99: Melepaskan – Sebuah akhir mendekat.</string>
+    <string name="angel_9_3">999: Penyelesaian – Sebuah siklus berakhir. Bersyukurlah &amp; lanjutkan.</string>
+    <string name="angel_9_4">9999: Transformasi – Yang lama pergi untuk selamanya.</string>
+    <string name="angel_9_5">99999: Kesiapan – Anda siap untuk apa yang akan datang.</string>
+    <string name="angel_9_6">999999: Kesempurnaan – Lingkaran telah tertutup.</string>
+</resources>
