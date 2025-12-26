@@ -1,14 +1,18 @@
 # Magic Numbers
 
-<img src="art/icon.png" align="left" width="210" height="210" alt="Magic Numbers Logo">
+<table>
+  <tr>
+    <td width="200">
+      <img src="art/icon.png" width="210" alt="Magic Numbers Logo">
+    </td>
+    <td>
+      <h1>Magic Numbers</h1>
+      <p>Magic Numbers is an ad-free, offline, and open-source Android app that generates spiritual numerology messages based on the "rhythm of the moment". It combines clean Material 3 design with mystical insights.</p>
+      <p>You can <strong><a href="https://github.com/Matze1985/MagicNumbers/releases">download the latest release</a></strong> directly from GitHub.</p>
+    </td>
+  </tr>
+</table>
 
-Magic Numbers is an ad-free, offline, and open-source Android app that generates spiritual numerology messages based on the "rhythm of the moment". It combines clean Material 3 design with mystical insights.
-
-**Magic Numbers** is an ad-free, offline, and open-source Android app that generates spiritual numerology messages based on the "rhythm of the moment". It combines clean Material 3 design with mystical insights.
-
-You can **[download the latest release](https://github.com/Matze1985/MagicNumbers/releases)** directly from GitHub.
-
-<br clear="left"/>
 
 ## ✨ Features
 
