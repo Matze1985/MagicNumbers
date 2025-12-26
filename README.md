@@ -1,4 +1,3 @@
-# Magic Numbers
 
 <table>
   <tr>
@@ -12,7 +11,6 @@
     </td>
   </tr>
 </table>
-
 
 ## ✨ Features
 
