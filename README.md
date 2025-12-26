@@ -1,6 +1,6 @@
 # Magic Numbers
 
-<img src="art/icon.png" align="left" width="180" height="180" alt="Magic Numbers Logo">
+<img src="art/icon.png" align="left" width="195" height="195" alt="Magic Numbers Logo">
 
 Magic Numbers is an ad-free, offline, and open-source Android app that generates spiritual numerology messages based on the "rhythm of the moment". It combines clean Material 3 design with mystical insights.
 
