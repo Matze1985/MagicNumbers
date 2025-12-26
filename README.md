@@ -1,4 +1,4 @@
-<img src="app/art/icon.png" align="left" width="128" height="128" alt="Magic Numbers Logo">
+<img src="art/icon.png" align="left" width="128" height="128" alt="Magic Numbers Logo">
 
 # Magic Numbers
 
