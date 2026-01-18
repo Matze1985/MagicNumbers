@@ -1,0 +1,74 @@
+<resources>
+    <!-- =====================================================
+         Resonance – General labels (shared)
+    ====================================================== -->
+    <string name="resonance_prefix">🔮</string>
+    <string name="resonance_focus_none">Fokuss: līdzsvarots (bez tiešām atkārtošanām)</string>
+    <string name="resonance_focus_frame">Fokuss: sākums un beigas (rāmja tēma)</string>
+    <string name="resonance_focus_center">Fokuss: centrs (kodola impulss)</string>
+    <string name="resonance_focus_start">Fokuss: sākums (identitāte / sākuma posms)</string>
+    <string name="resonance_focus_end">Fokuss: beigas (rezultāts / nākamais solis)</string>
+
+    <!-- =====================================================
+         Resonance (4-digit) – IDs
+    ====================================================== -->
+    <string name="resonance4_id_mono">R4_MONO</string>
+    <string name="resonance4_id_aabb">R4_AABB</string>
+    <string name="resonance4_id_abab">R4_ABAB</string>
+    <string name="resonance4_id_abba">R4_ABBA</string>
+    <string name="resonance4_id_abcd">R4_ABCD</string>
+    <string name="resonance4_id_none">R4_NONE</string>
+
+    <!-- =====================================================
+         Resonance (4-digit) – Titles
+    ====================================================== -->
+    <string name="resonance4_title_mono">Rezonanses modelis (4): Monotips</string>
+    <string name="resonance4_title_aabb">Rezonanses modelis (4): Divas fāzes</string>
+    <string name="resonance4_title_abab">Rezonanses modelis (4): Maiņa</string>
+    <string name="resonance4_title_abba">Rezonanses modelis (4): Spogulis</string>
+    <string name="resonance4_title_abcd">Rezonanses modelis (4): Vienmērīgs sadalījums</string>
+    <string name="resonance4_title_none">Rezonanses modelis: Brīva kombinācija</string>
+
+    <!-- =====================================================
+         Resonance (4-digit) – Short meanings
+    ====================================================== -->
+    <string name="resonance4_meaning_mono">Maksimāla pastiprināšana – viena tēma pilnībā dominē.</string>
+    <string name="resonance4_meaning_aabb">Skaidra pāreja – fāzi A nomaina fāze B.</string>
+    <string name="resonance4_meaning_abab">Spriedze starp diviem poliem – ritms, līdzsvars, lēmums.</string>
+    <string name="resonance4_meaning_abba">Atspoguļojums – izpratne caur iekšējo un ārējo spoguli.</string>
+    <string name="resonance4_meaning_abcd">Vienmērīga plūsma – bez atkārtojumiem, atvērta neitrāla enerģija.</string>
+    <string name="resonance4_meaning_none">Nav dominējoša modeļa – enerģija ir brīvi kombinēta un atvērta.</string>
+
+    <!-- =====================================================
+         Resonance (6-digit) – IDs
+    ====================================================== -->
+    <string name="resonance6_id_mono">R6_MONO</string>
+    <string name="resonance6_id_aaabbb">R6_AAABBB</string>
+    <string name="resonance6_id_aabbcc">R6_AABBCC</string>
+    <string name="resonance6_id_ababab">R6_ABABAB</string>
+    <string name="resonance6_id_abcabc">R6_ABCABC</string>
+    <string name="resonance6_id_mirror">R6_MIRROR</string>
+    <string name="resonance6_id_none">R6_NONE</string>
+
+    <!-- =====================================================
+         Resonance (6-digit) – Titles
+    ====================================================== -->
+    <string name="resonance6_title_mono">Rezonanses modelis (6): Monotips</string>
+    <string name="resonance6_title_aaabbb">Rezonanses modelis (6): Pāreja</string>
+    <string name="resonance6_title_aabbcc">Rezonanses modelis (6): Pakāpenisks process</string>
+    <string name="resonance6_title_ababab">Rezonanses modelis (6): Maiņa / svārstības</string>
+    <string name="resonance6_title_abcabc">Rezonanses modelis (6): Cikls</string>
+    <string name="resonance6_title_mirror">Rezonanses modelis (6): Spogulis</string>
+    <string name="resonance6_title_none">Rezonanses modelis: Brīva kombinācija</string>
+
+    <!-- =====================================================
+         Resonance (6-digit) – Short meanings
+    ====================================================== -->
+    <string name="resonance6_meaning_mono">Maksimāla pastiprināšana – viena tēma spēcīgi dominē (svētība vai fiksācija).</string>
+    <string name="resonance6_meaning_aaabbb">Skaidra maiņa: fāze A → fāze B (noslēgums un jauns sākums).</string>
+    <string name="resonance6_meaning_aabbcc">Attīstība posmos – mācīšanās un integrācija soli pa solim.</string>
+    <string name="resonance6_meaning_ababab">Spriedze starp diviem poliem – līdzsvara, lēmuma un ritma meklējumi.</string>
+    <string name="resonance6_meaning_abcabc">Atkārtojoša tēma – rutīna, cikls, apzināšanās caur atkārtojumu.</string>
+    <string name="resonance6_meaning_mirror">Atgriezeniskā saite – izpratne caur atspoguļošanu (iekšējo / ārējo).</string>
+    <string name="resonance6_meaning_none">Nav dominējoša modeļa – enerģija ir brīvi kombinēta un atvērta.</string>
+</resources>

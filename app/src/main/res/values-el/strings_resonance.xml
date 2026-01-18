@@ -1,0 +1,74 @@
+<resources>
+    <!-- =====================================================
+         Resonance – General labels (shared)
+    ====================================================== -->
+    <string name="resonance_prefix">🔮</string>
+    <string name="resonance_focus_none">Εστίαση: ομοιόμορφη (χωρίς άμεσες επαναλήψεις)</string>
+    <string name="resonance_focus_frame">Εστίαση: αρχή και τέλος (θεματικό πλαίσιο)</string>
+    <string name="resonance_focus_center">Εστίαση: κέντρο (πυρηνική ώθηση)</string>
+    <string name="resonance_focus_start">Εστίαση: αρχή (ταυτότητα / φάση εκκίνησης)</string>
+    <string name="resonance_focus_end">Εστίαση: τέλος (αποτέλεσμα / επόμενο βήμα)</string>
+
+    <!-- =====================================================
+         Resonance (4-digit) – IDs
+    ====================================================== -->
+    <string name="resonance4_id_mono">R4_MONO</string>
+    <string name="resonance4_id_aabb">R4_AABB</string>
+    <string name="resonance4_id_abab">R4_ABAB</string>
+    <string name="resonance4_id_abba">R4_ABBA</string>
+    <string name="resonance4_id_abcd">R4_ABCD</string>
+    <string name="resonance4_id_none">R4_NONE</string>
+
+    <!-- =====================================================
+         Resonance (4-digit) – Titles
+    ====================================================== -->
+    <string name="resonance4_title_mono">Μοτίβο συντονισμού: μονοτύπος</string>
+    <string name="resonance4_title_aabb">Μοτίβο συντονισμού: δύο φάσεις</string>
+    <string name="resonance4_title_abab">Μοτίβο συντονισμού: εναλλαγή</string>
+    <string name="resonance4_title_abba">Μοτίβο συντονισμού: καθρέφτης</string>
+    <string name="resonance4_title_abcd">Μοτίβο συντονισμού: ομοιόμορφη κατανομή</string>
+    <string name="resonance4_title_none">Μοτίβο συντονισμού: ελεύθερος συνδυασμός</string>
+
+    <!-- =====================================================
+         Resonance (4-digit) – Short meanings
+    ====================================================== -->
+    <string name="resonance4_meaning_mono">Μέγιστη ενίσχυση – ένα θέμα κυριαρχεί πλήρως.</string>
+    <string name="resonance4_meaning_aabb">Καθαρή μετάβαση – η φάση Α ακολουθείται από τη φάση Β.</string>
+    <string name="resonance4_meaning_abab">Ένταση μεταξύ δύο πόλων – ρυθμός, ισορροπία, απόφαση.</string>
+    <string name="resonance4_meaning_abba">Αντανάκλαση – επίγνωση μέσω εσωτερικού και εξωτερικού καθρεφτισμού.</string>
+    <string name="resonance4_meaning_abcd">Ομαλή ροή – χωρίς επανάληψη, ανοιχτή και ουδέτερη ενέργεια.</string>
+    <string name="resonance4_meaning_none">Κανένα κυρίαρχο μοτίβο – η ενέργεια είναι ελεύθερα συνδυασμένη και ανοιχτή.</string>
+
+    <!-- =====================================================
+         Resonance (6-digit) – IDs
+    ====================================================== -->
+    <string name="resonance6_id_mono">R6_MONO</string>
+    <string name="resonance6_id_aaabbb">R6_AAABBB</string>
+    <string name="resonance6_id_aabbcc">R6_AABBCC</string>
+    <string name="resonance6_id_ababab">R6_ABABAB</string>
+    <string name="resonance6_id_abcabc">R6_ABCABC</string>
+    <string name="resonance6_id_mirror">R6_MIRROR</string>
+    <string name="resonance6_id_none">R6_NONE</string>
+
+    <!-- =====================================================
+         Resonance (6-digit) – Titles
+    ====================================================== -->
+    <string name="resonance6_title_mono">Μοτίβο συντονισμού: μονοτύπος</string>
+    <string name="resonance6_title_aaabbb">Μοτίβο συντονισμού: μετάβαση</string>
+    <string name="resonance6_title_aabbcc">Μοτίβο συντονισμού: σταδιακή διαδικασία</string>
+    <string name="resonance6_title_ababab">Μοτίβο συντονισμού: εναλλαγή / εκκρεμές</string>
+    <string name="resonance6_title_abcabc">Μοτίβο συντονισμού: κύκλος</string>
+    <string name="resonance6_title_mirror">Μοτίβο συντονισμού: καθρέφτης</string>
+    <string name="resonance6_title_none">Μοτίβο συντονισμού: ελεύθερος συνδυασμός</string>
+
+    <!-- =====================================================
+         Resonance (6-digit) – Short meanings
+    ====================================================== -->
+    <string name="resonance6_meaning_mono">Μέγιστη ενίσχυση – ένα θέμα κυριαρχεί έντονα (ευλογία ή προσκόλληση).</string>
+    <string name="resonance6_meaning_aaabbb">Καθαρή αλλαγή: φάση Α → φάση Β (ολοκλήρωση και νέα αρχή).</string>
+    <string name="resonance6_meaning_aabbcc">Ανάπτυξη σε στάδια – μάθηση και ενσωμάτωση βήμα προς βήμα.</string>
+    <string name="resonance6_meaning_ababab">Ένταση μεταξύ δύο πόλων – ισορροπία, απόφαση, εύρεση ρυθμού.</string>
+    <string name="resonance6_meaning_abcabc">Επαναλαμβανόμενο θέμα – ρουτίνα, βρόχος, επίγνωση μέσω επανάληψης.</string>
+    <string name="resonance6_meaning_mirror">Ανατροφοδότηση – επίγνωση μέσω αντανάκλασης (εσωτερικό / εξωτερικό).</string>
+    <string name="resonance6_meaning_none">Κανένα κυρίαρχο μοτίβο – η ενέργεια είναι ελεύθερα συνδυασμένη και ανοιχτή.</string>
+</resources>

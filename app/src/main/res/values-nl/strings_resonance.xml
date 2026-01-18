@@ -1,0 +1,74 @@
+<resources>
+    <!-- =====================================================
+         Resonance – General labels (shared)
+    ====================================================== -->
+    <string name="resonance_prefix">🔮</string>
+    <string name="resonance_focus_none">Focus: evenwichtig (geen directe herhalingen)</string>
+    <string name="resonance_focus_frame">Focus: begin &amp; einde (kader-thema)</string>
+    <string name="resonance_focus_center">Focus: centrum (kernimpuls)</string>
+    <string name="resonance_focus_start">Focus: begin (identiteit / startfase)</string>
+    <string name="resonance_focus_end">Focus: einde (resultaat / volgende stap)</string>
+
+    <!-- =====================================================
+         Resonance (4-digit) – IDs
+    ====================================================== -->
+    <string name="resonance4_id_mono">R4_MONO</string>
+    <string name="resonance4_id_aabb">R4_AABB</string>
+    <string name="resonance4_id_abab">R4_ABAB</string>
+    <string name="resonance4_id_abba">R4_ABBA</string>
+    <string name="resonance4_id_abcd">R4_ABCD</string>
+    <string name="resonance4_id_none">R4_NONE</string>
+
+    <!-- =====================================================
+         Resonance (4-digit) – Titles
+    ====================================================== -->
+    <string name="resonance4_title_mono">Resonantiepatroon (4): Monotype</string>
+    <string name="resonance4_title_aabb">Resonantiepatroon (4): Twee fasen</string>
+    <string name="resonance4_title_abab">Resonantiepatroon (4): Afwisseling</string>
+    <string name="resonance4_title_abba">Resonantiepatroon (4): Spiegel</string>
+    <string name="resonance4_title_abcd">Resonantiepatroon (4): Gelijkmatige verdeling</string>
+    <string name="resonance4_title_none">Resonantiepatroon: Vrije combinatie</string>
+
+    <!-- =====================================================
+         Resonance (4-digit) – Short meanings
+    ====================================================== -->
+    <string name="resonance4_meaning_mono">Maximale versterking – één thema domineert volledig.</string>
+    <string name="resonance4_meaning_aabb">Duidelijke overgang – fase A wordt gevolgd door fase B.</string>
+    <string name="resonance4_meaning_abab">Spanning tussen twee polen – ritme, balans, beslissing.</string>
+    <string name="resonance4_meaning_abba">Reflectie – inzicht door innerlijke en uiterlijke spiegeling.</string>
+    <string name="resonance4_meaning_abcd">Gelijkmatige stroom – geen herhaling, open neutrale energie.</string>
+    <string name="resonance4_meaning_none">Geen dominant patroon – de energie is vrij gecombineerd en open.</string>
+
+    <!-- =====================================================
+         Resonance (6-digit) – IDs
+    ====================================================== -->
+    <string name="resonance6_id_mono">R6_MONO</string>
+    <string name="resonance6_id_aaabbb">R6_AAABBB</string>
+    <string name="resonance6_id_aabbcc">R6_AABBCC</string>
+    <string name="resonance6_id_ababab">R6_ABABAB</string>
+    <string name="resonance6_id_abcabc">R6_ABCABC</string>
+    <string name="resonance6_id_mirror">R6_MIRROR</string>
+    <string name="resonance6_id_none">R6_NONE</string>
+
+    <!-- =====================================================
+         Resonance (6-digit) – Titles
+    ====================================================== -->
+    <string name="resonance6_title_mono">Resonantiepatroon (6): Monotype</string>
+    <string name="resonance6_title_aaabbb">Resonantiepatroon (6): Overgang</string>
+    <string name="resonance6_title_aabbcc">Resonantiepatroon (6): Gefaseerd proces</string>
+    <string name="resonance6_title_ababab">Resonantiepatroon (6): Afwisseling / pendel</string>
+    <string name="resonance6_title_abcabc">Resonantiepatroon (6): Cyclus</string>
+    <string name="resonance6_title_mirror">Resonantiepatroon (6): Spiegel</string>
+    <string name="resonance6_title_none">Resonantiepatroon: Vrije combinatie</string>
+
+    <!-- =====================================================
+         Resonance (6-digit) – Short meanings
+    ====================================================== -->
+    <string name="resonance6_meaning_mono">Maximale versterking – één thema domineert sterk (zegen of fixatie).</string>
+    <string name="resonance6_meaning_aaabbb">Duidelijke verandering: fase A → fase B (afronding en nieuw begin).</string>
+    <string name="resonance6_meaning_aabbcc">Ontwikkeling in stappen – leren en integreren stap voor stap.</string>
+    <string name="resonance6_meaning_ababab">Spanning tussen twee polen – balans vinden, beslissen, ritme ontdekken.</string>
+    <string name="resonance6_meaning_abcabc">Terugkerend thema – routine, cyclus, bewustwording door herhaling.</string>
+    <string name="resonance6_meaning_mirror">Terugkoppeling – inzicht door spiegeling (innerlijk / uiterlijk).</string>
+    <string name="resonance6_meaning_none">Geen dominant patroon – de energie is vrij gecombineerd en open.</string>
+</resources>

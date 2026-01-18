@@ -1,0 +1,74 @@
+<resources>
+    <!-- =====================================================
+         Resonance – General labels (shared)
+    ====================================================== -->
+    <string name="resonance_prefix">🔮</string>
+    <string name="resonance_focus_none">التركيز: متوازن (بدون تكرارات مباشرة)</string>
+    <string name="resonance_focus_frame">التركيز: البداية والنهاية (موضوع الإطار)</string>
+    <string name="resonance_focus_center">التركيز: المركز (النبضة الجوهرية)</string>
+    <string name="resonance_focus_start">التركيز: البداية (الهوية / مرحلة الانطلاق)</string>
+    <string name="resonance_focus_end">التركيز: النهاية (النتيجة / الخطوة التالية)</string>
+
+    <!-- =====================================================
+         Resonance (4-digit) – IDs
+    ====================================================== -->
+    <string name="resonance4_id_mono">R4_MONO</string>
+    <string name="resonance4_id_aabb">R4_AABB</string>
+    <string name="resonance4_id_abab">R4_ABAB</string>
+    <string name="resonance4_id_abba">R4_ABBA</string>
+    <string name="resonance4_id_abcd">R4_ABCD</string>
+    <string name="resonance4_id_none">R4_NONE</string>
+
+    <!-- =====================================================
+         Resonance (4-digit) – Titles
+    ====================================================== -->
+    <string name="resonance4_title_mono">نمط الرنين: نمط واحد</string>
+    <string name="resonance4_title_aabb">نمط الرنين: مرحلتان</string>
+    <string name="resonance4_title_abab">نمط الرنين: تناوب</string>
+    <string name="resonance4_title_abba">نمط الرنين: مرآة</string>
+    <string name="resonance4_title_abcd">نمط الرنين: توزيع متساوٍ</string>
+    <string name="resonance4_title_none">نمط الرنين: مزيج حر</string>
+
+    <!-- =====================================================
+         Resonance (4-digit) – Short meanings
+    ====================================================== -->
+    <string name="resonance4_meaning_mono">تعزيز أقصى – موضوع واحد يهيمن بالكامل.</string>
+    <string name="resonance4_meaning_aabb">انتقال واضح – المرحلة أ تليها المرحلة ب.</string>
+    <string name="resonance4_meaning_abab">توتر بين قطبين – إيقاع، توازن، قرار.</string>
+    <string name="resonance4_meaning_abba">انعكاس – إدراك من خلال المرآة الداخلية والخارجية.</string>
+    <string name="resonance4_meaning_abcd">تدفق متوازن – بدون تكرار، طاقة محايدة ومفتوحة.</string>
+    <string name="resonance4_meaning_none">لا نمط مهيمن – الطاقة ممزوجة بحرية ومفتوحة.</string>
+
+    <!-- =====================================================
+         Resonance (6-digit) – IDs
+    ====================================================== -->
+    <string name="resonance6_id_mono">R6_MONO</string>
+    <string name="resonance6_id_aaabbb">R6_AAABBB</string>
+    <string name="resonance6_id_aabbcc">R6_AABBCC</string>
+    <string name="resonance6_id_ababab">R6_ABABAB</string>
+    <string name="resonance6_id_abcabc">R6_ABCABC</string>
+    <string name="resonance6_id_mirror">R6_MIRROR</string>
+    <string name="resonance6_id_none">R6_NONE</string>
+
+    <!-- =====================================================
+         Resonance (6-digit) – Titles
+    ====================================================== -->
+    <string name="resonance6_title_mono">نمط الرنين: نمط واحد</string>
+    <string name="resonance6_title_aaabbb">نمط الرنين: انتقال</string>
+    <string name="resonance6_title_aabbcc">نمط الرنين: عملية مرحلية</string>
+    <string name="resonance6_title_ababab">نمط الرنين: تناوب / بندول</string>
+    <string name="resonance6_title_abcabc">نمط الرنين: دورة</string>
+    <string name="resonance6_title_mirror">نمط الرنين: مرآة</string>
+    <string name="resonance6_title_none">نمط الرنين: مزيج حر</string>
+
+    <!-- =====================================================
+         Resonance (6-digit) – Short meanings
+    ====================================================== -->
+    <string name="resonance6_meaning_mono">تعزيز أقصى – موضوع واحد يهيمن بقوة (نعمة أو تثبيت).</string>
+    <string name="resonance6_meaning_aaabbb">تحول واضح: من المرحلة أ إلى المرحلة ب (إغلاق وبداية جديدة).</string>
+    <string name="resonance6_meaning_aabbcc">تطور على مراحل – تعلم واندماج خطوة بخطوة.</string>
+    <string name="resonance6_meaning_ababab">توتر بين قطبين – توازن، قرار، إيجاد الإيقاع.</string>
+    <string name="resonance6_meaning_abcabc">موضوع متكرر – روتين، حلقة، وعي عبر التكرار.</string>
+    <string name="resonance6_meaning_mirror">تغذية راجعة – إدراك من خلال الانعكاس (الداخل / الخارج).</string>
+    <string name="resonance6_meaning_none">لا نمط مهيمن – الطاقة ممزوجة بحرية ومفتوحة.</string>
+</resources>

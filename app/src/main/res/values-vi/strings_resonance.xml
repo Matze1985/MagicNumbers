@@ -1,0 +1,74 @@
+<resources>
+    <!-- =====================================================
+         Resonance – General labels (shared)
+    ====================================================== -->
+    <string name="resonance_prefix">🔮</string>
+    <string name="resonance_focus_none">Trọng tâm: phân bố đều (không có lặp lại trực tiếp)</string>
+    <string name="resonance_focus_frame">Trọng tâm: khởi đầu và kết thúc (chủ đề khung)</string>
+    <string name="resonance_focus_center">Trọng tâm: trung tâm (xung lực cốt lõi)</string>
+    <string name="resonance_focus_start">Trọng tâm: khởi đầu (bản sắc / giai đoạn bắt đầu)</string>
+    <string name="resonance_focus_end">Trọng tâm: kết thúc (kết quả / bước tiếp theo)</string>
+
+    <!-- =====================================================
+         Resonance (4-digit) – IDs
+    ====================================================== -->
+    <string name="resonance4_id_mono">R4_MONO</string>
+    <string name="resonance4_id_aabb">R4_AABB</string>
+    <string name="resonance4_id_abab">R4_ABAB</string>
+    <string name="resonance4_id_abba">R4_ABBA</string>
+    <string name="resonance4_id_abcd">R4_ABCD</string>
+    <string name="resonance4_id_none">R4_NONE</string>
+
+    <!-- =====================================================
+         Resonance (4-digit) – Titles
+    ====================================================== -->
+    <string name="resonance4_title_mono">Mẫu cộng hưởng (4): Đơn dạng</string>
+    <string name="resonance4_title_aabb">Mẫu cộng hưởng (4): Hai giai đoạn</string>
+    <string name="resonance4_title_abab">Mẫu cộng hưởng (4): Luân phiên</string>
+    <string name="resonance4_title_abba">Mẫu cộng hưởng (4): Gương phản chiếu</string>
+    <string name="resonance4_title_abcd">Mẫu cộng hưởng (4): Phân bố đồng đều</string>
+    <string name="resonance4_title_none">Mẫu cộng hưởng: Kết hợp tự do</string>
+
+    <!-- =====================================================
+         Resonance (4-digit) – Short meanings
+    ====================================================== -->
+    <string name="resonance4_meaning_mono">Khuếch đại tối đa – một chủ đề chiếm ưu thế hoàn toàn.</string>
+    <string name="resonance4_meaning_aabb">Chuyển tiếp rõ ràng – giai đoạn A tiếp nối bởi giai đoạn B.</string>
+    <string name="resonance4_meaning_abab">Căng thẳng giữa hai cực – nhịp điệu, cân bằng, quyết định.</string>
+    <string name="resonance4_meaning_abba">Phản chiếu – nhận thức thông qua phản ánh bên trong và bên ngoài.</string>
+    <string name="resonance4_meaning_abcd">Dòng chảy cân bằng – không lặp lại, năng lượng trung tính và mở.</string>
+    <string name="resonance4_meaning_none">Không có mẫu chi phối – năng lượng được kết hợp tự do và cởi mở.</string>
+
+    <!-- =====================================================
+         Resonance (6-digit) – IDs
+    ====================================================== -->
+    <string name="resonance6_id_mono">R6_MONO</string>
+    <string name="resonance6_id_aaabbb">R6_AAABBB</string>
+    <string name="resonance6_id_aabbcc">R6_AABBCC</string>
+    <string name="resonance6_id_ababab">R6_ABABAB</string>
+    <string name="resonance6_id_abcabc">R6_ABCABC</string>
+    <string name="resonance6_id_mirror">R6_MIRROR</string>
+    <string name="resonance6_id_none">R6_NONE</string>
+
+    <!-- =====================================================
+         Resonance (6-digit) – Titles
+    ====================================================== -->
+    <string name="resonance6_title_mono">Mẫu cộng hưởng (6): Đơn dạng</string>
+    <string name="resonance6_title_aaabbb">Mẫu cộng hưởng (6): Chuyển tiếp</string>
+    <string name="resonance6_title_aabbcc">Mẫu cộng hưởng (6): Quá trình từng bước</string>
+    <string name="resonance6_title_ababab">Mẫu cộng hưởng (6): Luân phiên / Con lắc</string>
+    <string name="resonance6_title_abcabc">Mẫu cộng hưởng (6): Chu kỳ</string>
+    <string name="resonance6_title_mirror">Mẫu cộng hưởng (6): Gương phản chiếu</string>
+    <string name="resonance6_title_none">Mẫu cộng hưởng: Kết hợp tự do</string>
+
+    <!-- =====================================================
+         Resonance (6-digit) – Short meanings
+    ====================================================== -->
+    <string name="resonance6_meaning_mono">Khuếch đại tối đa – một chủ đề chi phối mạnh mẽ (phúc lành hoặc sự cố chấp).</string>
+    <string name="resonance6_meaning_aaabbb">Thay đổi rõ ràng: giai đoạn A → giai đoạn B (kết thúc và khởi đầu mới).</string>
+    <string name="resonance6_meaning_aabbcc">Phát triển theo từng giai đoạn – học hỏi và tích hợp từng bước.</string>
+    <string name="resonance6_meaning_ababab">Căng thẳng giữa hai cực – cân bằng, quyết định, tìm nhịp điệu.</string>
+    <string name="resonance6_meaning_abcabc">Chủ đề lặp lại – thói quen, vòng lặp, nhận thức qua sự lặp lại.</string>
+    <string name="resonance6_meaning_mirror">Phản hồi – nhận thức thông qua phản chiếu (bên trong / bên ngoài).</string>
+    <string name="resonance6_meaning_none">Không có mẫu chi phối – năng lượng được kết hợp tự do và cởi mở.</string>
+</resources>

@@ -1,0 +1,74 @@
+<resources>
+    <!-- =====================================================
+         Resonance – General labels (shared)
+    ====================================================== -->
+    <string name="resonance_prefix">🔮</string>
+    <string name="resonance_focus_none">Enfoque: distribución uniforme (sin repeticiones directas)</string>
+    <string name="resonance_focus_frame">Enfoque: inicio y final (tema marco)</string>
+    <string name="resonance_focus_center">Enfoque: centro (impulso central)</string>
+    <string name="resonance_focus_start">Enfoque: inicio (identidad / fase inicial)</string>
+    <string name="resonance_focus_end">Enfoque: final (resultado / siguiente paso)</string>
+
+    <!-- =====================================================
+         Resonance (4-digit) – IDs
+    ====================================================== -->
+    <string name="resonance4_id_mono">R4_MONO</string>
+    <string name="resonance4_id_aabb">R4_AABB</string>
+    <string name="resonance4_id_abab">R4_ABAB</string>
+    <string name="resonance4_id_abba">R4_ABBA</string>
+    <string name="resonance4_id_abcd">R4_ABCD</string>
+    <string name="resonance4_id_none">R4_NONE</string>
+
+    <!-- =====================================================
+         Resonance (4-digit) – Titles
+    ====================================================== -->
+    <string name="resonance4_title_mono">Patrón de resonancia: monotipo</string>
+    <string name="resonance4_title_aabb">Patrón de resonancia: dos fases</string>
+    <string name="resonance4_title_abab">Patrón de resonancia: alternancia</string>
+    <string name="resonance4_title_abba">Patrón de resonancia: espejo</string>
+    <string name="resonance4_title_abcd">Patrón de resonancia: distribución uniforme</string>
+    <string name="resonance4_title_none">Patrón de resonancia: mezcla libre</string>
+
+    <!-- =====================================================
+         Resonance (4-digit) – Short meanings
+    ====================================================== -->
+    <string name="resonance4_meaning_mono">Amplificación máxima – un solo tema domina por completo.</string>
+    <string name="resonance4_meaning_aabb">Transición clara – la fase A es seguida por la fase B.</string>
+    <string name="resonance4_meaning_abab">Tensión entre dos polos – ritmo, equilibrio, decisión.</string>
+    <string name="resonance4_meaning_abba">Reflejo – comprensión a través del espejo interior y exterior.</string>
+    <string name="resonance4_meaning_abcd">Flujo uniforme – sin repeticiones, energía abierta y neutral.</string>
+    <string name="resonance4_meaning_none">Sin patrón dominante – la energía está libremente combinada y abierta.</string>
+
+    <!-- =====================================================
+         Resonance (6-digit) – IDs
+    ====================================================== -->
+    <string name="resonance6_id_mono">R6_MONO</string>
+    <string name="resonance6_id_aaabbb">R6_AAABBB</string>
+    <string name="resonance6_id_aabbcc">R6_AABBCC</string>
+    <string name="resonance6_id_ababab">R6_ABABAB</string>
+    <string name="resonance6_id_abcabc">R6_ABCABC</string>
+    <string name="resonance6_id_mirror">R6_MIRROR</string>
+    <string name="resonance6_id_none">R6_NONE</string>
+
+    <!-- =====================================================
+         Resonance (6-digit) – Titles
+    ====================================================== -->
+    <string name="resonance6_title_mono">Patrón de resonancia: monotipo</string>
+    <string name="resonance6_title_aaabbb">Patrón de resonancia: transición</string>
+    <string name="resonance6_title_aabbcc">Patrón de resonancia: proceso por etapas</string>
+    <string name="resonance6_title_ababab">Patrón de resonancia: alternancia / péndulo</string>
+    <string name="resonance6_title_abcabc">Patrón de resonancia: ciclo</string>
+    <string name="resonance6_title_mirror">Patrón de resonancia: espejo</string>
+    <string name="resonance6_title_none">Patrón de resonancia: mezcla libre</string>
+
+    <!-- =====================================================
+         Resonance (6-digit) – Short meanings
+    ====================================================== -->
+    <string name="resonance6_meaning_mono">Amplificación máxima – un solo tema domina con fuerza (bendición o fijación).</string>
+    <string name="resonance6_meaning_aaabbb">Cambio claro: fase A → fase B (cierre y nuevo comienzo).</string>
+    <string name="resonance6_meaning_aabbcc">Desarrollo por etapas – aprendizaje e integración paso a paso.</string>
+    <string name="resonance6_meaning_ababab">Tensión entre dos polos – equilibrio, decisión, encontrar el ritmo.</string>
+    <string name="resonance6_meaning_abcabc">Tema recurrente – rutina, bucle, conciencia a través de la repetición.</string>
+    <string name="resonance6_meaning_mirror">Retroalimentación – comprensión a través del reflejo (interior / exterior).</string>
+    <string name="resonance6_meaning_none">Sin patrón dominante – la energía está libremente combinada y abierta.</string>
+</resources>

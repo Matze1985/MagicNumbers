@@ -1,0 +1,74 @@
+<resources>
+    <!-- =====================================================
+         Resonance – General labels (shared)
+    ====================================================== -->
+    <string name="resonance_prefix">🔮</string>
+    <string name="resonance_focus_none">Fokus: tasaisesti jakautunut (ei suoria toistoja)</string>
+    <string name="resonance_focus_frame">Fokus: alku ja loppu (kehystävä teema)</string>
+    <string name="resonance_focus_center">Fokus: keskikohta (ydinimpulssi)</string>
+    <string name="resonance_focus_start">Fokus: alku (identiteetti / aloitusvaihe)</string>
+    <string name="resonance_focus_end">Fokus: loppu (tulos / seuraava askel)</string>
+
+    <!-- =====================================================
+         Resonance (4-digit) – IDs
+    ====================================================== -->
+    <string name="resonance4_id_mono">R4_MONO</string>
+    <string name="resonance4_id_aabb">R4_AABB</string>
+    <string name="resonance4_id_abab">R4_ABAB</string>
+    <string name="resonance4_id_abba">R4_ABBA</string>
+    <string name="resonance4_id_abcd">R4_ABCD</string>
+    <string name="resonance4_id_none">R4_NONE</string>
+
+    <!-- =====================================================
+         Resonance (4-digit) – Titles
+    ====================================================== -->
+    <string name="resonance4_title_mono">Resonanssikuvio: monomuoto</string>
+    <string name="resonance4_title_aabb">Resonanssikuvio: kaksi vaihetta</string>
+    <string name="resonance4_title_abab">Resonanssikuvio: vuorottelu</string>
+    <string name="resonance4_title_abba">Resonanssikuvio: peili</string>
+    <string name="resonance4_title_abcd">Resonanssikuvio: tasainen jakauma</string>
+    <string name="resonance4_title_none">Resonanssikuvio: vapaa yhdistelmä</string>
+
+    <!-- =====================================================
+         Resonance (4-digit) – Short meanings
+    ====================================================== -->
+    <string name="resonance4_meaning_mono">Maksimaalinen vahvistus – yksi teema hallitsee täysin.</string>
+    <string name="resonance4_meaning_aabb">Selkeä siirtymä – vaihetta A seuraa vaihe B.</string>
+    <string name="resonance4_meaning_abab">Jännite kahden navan välillä – rytmi, tasapaino, päätös.</string>
+    <string name="resonance4_meaning_abba">Peilaus – oivallus sisäisen ja ulkoisen heijastuksen kautta.</string>
+    <string name="resonance4_meaning_abcd">Tasainen virtaus – ei toistoa, avoin ja neutraali energia.</string>
+    <string name="resonance4_meaning_none">Ei hallitsevaa kuviota – energia on vapaasti yhdistynyt ja avoin.</string>
+
+    <!-- =====================================================
+         Resonance (6-digit) – IDs
+    ====================================================== -->
+    <string name="resonance6_id_mono">R6_MONO</string>
+    <string name="resonance6_id_aaabbb">R6_AAABBB</string>
+    <string name="resonance6_id_aabbcc">R6_AABBCC</string>
+    <string name="resonance6_id_ababab">R6_ABABAB</string>
+    <string name="resonance6_id_abcabc">R6_ABCABC</string>
+    <string name="resonance6_id_mirror">R6_MIRROR</string>
+    <string name="resonance6_id_none">R6_NONE</string>
+
+    <!-- =====================================================
+         Resonance (6-digit) – Titles
+    ====================================================== -->
+    <string name="resonance6_title_mono">Resonanssikuvio: monomuoto</string>
+    <string name="resonance6_title_aaabbb">Resonanssikuvio: siirtymä</string>
+    <string name="resonance6_title_aabbcc">Resonanssikuvio: vaiheittainen prosessi</string>
+    <string name="resonance6_title_ababab">Resonanssikuvio: vuorottelu / heiluri</string>
+    <string name="resonance6_title_abcabc">Resonanssikuvio: sykli</string>
+    <string name="resonance6_title_mirror">Resonanssikuvio: peili</string>
+    <string name="resonance6_title_none">Resonanssikuvio: vapaa yhdistelmä</string>
+
+    <!-- =====================================================
+         Resonance (6-digit) – Short meanings
+    ====================================================== -->
+    <string name="resonance6_meaning_mono">Maksimaalinen vahvistus – yksi teema hallitsee voimakkaasti (siunaus tai kiinnittyminen).</string>
+    <string name="resonance6_meaning_aaabbb">Selkeä muutos: vaihe A → vaihe B (päätös ja uusi alku).</string>
+    <string name="resonance6_meaning_aabbcc">Vaiheittainen kehitys – oppiminen ja integrointi askel askeleelta.</string>
+    <string name="resonance6_meaning_ababab">Jännite kahden navan välillä – tasapaino, päätös, rytmin löytäminen.</string>
+    <string name="resonance6_meaning_abcabc">Toistuva teema – rutiini, sykli, tietoisuus toiston kautta.</string>
+    <string name="resonance6_meaning_mirror">Takaisinkytkentä – oivallus peilaamisen kautta (sisäinen / ulkoinen).</string>
+    <string name="resonance6_meaning_none">Ei hallitsevaa kuviota – energia on vapaasti yhdistynyt ja avoin.</string>
+</resources>

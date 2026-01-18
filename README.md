@@ -14,29 +14,100 @@
 
 ## ✨ Features
 
-*   **Rhythm of the Moment Generation**: The number is generated on-demand using a random generator seeded with the exact millisecond of your interaction (`System.currentTimeMillis()`), capturing the unique “energy” of that moment.
-*   **6-Digit Message Number**: Generates a unique **6-digit sequence** (000000 - 999999), allowing for significant leading zeros (e.g., `082009`).
-*   **Deep Numerology Analysis**:
-    *   Calculates the digit sum (cross sum / Quersumme) as the numerological base.
-    *   **Master & Special Numbers**: Detects high-vibration numbers (11, 22, 33, 44, 55, 66, 77, 88, 99) *before* reduction and assigns deep spiritual meanings instead of standard single-digit interpretations.
-    *   **Karmic Debt Detection**: Identifies specific karmic debt numbers (13, 14, 16, 19) and karmic lessons (10) in the cross sum, providing insights into life lessons and independence.
-*   **Intelligent Pattern Recognition**:
-    *   **Angel Numbers**: Detects classical sequences (e.g., 111, 222, 000) inside the generated number.
-    *   **Smart Overrides**: The app recognizes when visual number patterns (e.g., "333" in `101333`) are more dominant than the base cross sum, adjusting the message summary and energy flow accordingly to reflect the most relevant spiritual message.
-    *   **Combination Logic**: Analyzes powerful pairings, such as *Endings & New Beginnings* (1 & 9), *Structure & Success* (4 & 8), or *Master Alliances* (11 & 22).
-*   **Detailed Interpretations**:
-    *   **Component Breakdown**: Explains the vibration of every distinct digit (0–9) found in your number.
-    *   **Amplification**: Highlights repeated digits (e.g., "0 appears 3 times") and explains their amplifying effect on the total energy.
-    *   **Cross Sum Display**: Visualizes the math behind the meaning (e.g., `0 + 8 + 2 + 0 + 0 + 9 = 19`).
-*   **Vibration Frequency Meter** 🌀: A visual bar indicates the energetic frequency score (percentage) of the generated number, influenced by the presence of master numbers and high-vibration digits.
-*   **Privacy First**:
-    *   100% Offline.
-    *   No tracking, no analytics, no ads.
-    *   No internet permission required (except for opening the optional donate link in a browser).
-*   **User Friendly**:
-    *   Modern Material 3 Design (Dark Mode).
-    *   Copy functionality for sharing messages (copies the full formatted result to the clipboard).
-    *   **Donate Button** 🤝: Support the developer directly via PayPal.
+### 🔢 Rhythm of the Moment – Number Generation
+- The number is generated **on demand**.
+- The random generator is seeded with the **exact millisecond of the interaction** (`System.currentTimeMillis()`).
+- This creates a unique “Rhythm of the Moment” energy signature.
+
+---
+
+### 🔢 Flexible Message Numbers
+- Generates **6-digit numbers** (`000000 – 999999`) including leading zeros (e.g. `082009`).
+- **4-digit numbers** are fully supported and receive their own resonance patterns.
+- The digit sequence itself is always the foundation of the interpretation.
+
+---
+
+### 🧮 Deep Numerology Analysis
+- Calculates the **digit sum (cross sum)** as the numerological base.
+- **Master & Special Numbers** are detected **before reduction**:
+    - 11, 22, 33, 44, 55, 66, 77, 88, 99
+- These numbers retain their **high vibration** and are not automatically reduced to a single digit.
+- **Karmic details and lessons** (e.g. 10, 13, 14, 16, 19, 23) are identified and added as deeper context.
+
+---
+
+### 🕊️ Angel Numbers – Precise & Complete
+- Angel numbers are detected **only through adjacent repetitions**:
+    - Examples:
+        - `44`, `55`, `11`
+        - `333`, `4444`, `000`
+- **Multiple angel numbers can appear at the same time**:
+    - Example: `441155` → 44, 11, and 55
+- **No false positives**:
+    - A number like `612643` will **not** produce “66” because there is no adjacent repetition.
+- All detected angel numbers are **always displayed** and never overridden.
+
+---
+
+### 🔮 Resonance Pattern Recognition
+The app detects **visual number patterns** as an independent energetic layer.
+
+#### ✔ 6-digit Resonance Patterns
+- Monotype (AAAAAA)
+- Transition (AAABBB)
+- Stepwise Process (AABBCC)
+- Alternation / Pendulum (ABABAB)
+- Cycle (ABCABC)
+- Mirror (Palindrome)
+- Free Mix (fallback)
+
+#### ✔ 4-digit Resonance Patterns
+- Monotype (AAAA)
+- Two Phases (AABB)
+- Alternation (ABAB)
+- Mirror (ABBA)
+- Even Distribution (ABCD)
+- Free Mix (fallback)
+
+Each resonance provides:
+- A title
+- A short meaning
+- A focus hint (start / center / end / frame)
+- An optional **frequency boost**
+
+---
+
+### 🧠 Intelligent Prioritization
+- **Angel numbers and resonance information are always shown as prefixes**.
+- Special combinations override **only the core summary**, never:
+    - Angel numbers
+    - Resonance information
+- This ensures that **all energetic layers remain visible**.
+
+---
+
+### 🧬 Detailed Interpretation
+- **Digit breakdown**: Explains the vibration of every digit (0–9) present.
+- **Amplification**: Repeated digits are highlighted and explained.
+- **Mathematical transparency**: The cross sum calculation is shown (e.g. `0 + 8 + 2 + 0 + 0 + 9 = 19`).
+
+---
+
+### 🌀 Vibration Frequency Meter
+- Visual frequency indicator (percentage).
+- Influenced by:
+    - Average digit vibration
+    - Master & special numbers
+    - Resonance boosts
+- The frequency score is **never distorted by a single rule**.
+
+---
+
+### 🧪 Debug-Only Information
+- Resonance IDs (e.g. `R6_ABABAB`, `R4_AABB`) are shown **only in debug builds**:
+  ```kotlin
+  val showDebugInfo = BuildConfig.DEBUG
 
 ## 🛠 Technical Details
 

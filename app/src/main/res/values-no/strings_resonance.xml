@@ -1,0 +1,74 @@
+<resources>
+    <!-- =====================================================
+         Resonance – General labels (shared)
+    ====================================================== -->
+    <string name="resonance_prefix">🔮</string>
+    <string name="resonance_focus_none">Fokus: balansert (ingen direkte gjentakelser)</string>
+    <string name="resonance_focus_frame">Fokus: start og slutt (rammetema)</string>
+    <string name="resonance_focus_center">Fokus: sentrum (kjerneimpuls)</string>
+    <string name="resonance_focus_start">Fokus: start (identitet / startfase)</string>
+    <string name="resonance_focus_end">Fokus: slutt (resultat / neste steg)</string>
+
+    <!-- =====================================================
+         Resonance (4-digit) – IDs
+    ====================================================== -->
+    <string name="resonance4_id_mono">R4_MONO</string>
+    <string name="resonance4_id_aabb">R4_AABB</string>
+    <string name="resonance4_id_abab">R4_ABAB</string>
+    <string name="resonance4_id_abba">R4_ABBA</string>
+    <string name="resonance4_id_abcd">R4_ABCD</string>
+    <string name="resonance4_id_none">R4_NONE</string>
+
+    <!-- =====================================================
+         Resonance (4-digit) – Titles
+    ====================================================== -->
+    <string name="resonance4_title_mono">Resonansmønster (4): Monotype</string>
+    <string name="resonance4_title_aabb">Resonansmønster (4): To faser</string>
+    <string name="resonance4_title_abab">Resonansmønster (4): Veksling</string>
+    <string name="resonance4_title_abba">Resonansmønster (4): Speil</string>
+    <string name="resonance4_title_abcd">Resonansmønster (4): Jevn fordeling</string>
+    <string name="resonance4_title_none">Resonansmønster: Fri kombinasjon</string>
+
+    <!-- =====================================================
+         Resonance (4-digit) – Short meanings
+    ====================================================== -->
+    <string name="resonance4_meaning_mono">Maksimal forsterkning – ett tema dominerer fullstendig.</string>
+    <string name="resonance4_meaning_aabb">Klar overgang – fase A etterfølges av fase B.</string>
+    <string name="resonance4_meaning_abab">Spenning mellom to poler – rytme, balanse, beslutning.</string>
+    <string name="resonance4_meaning_abba">Speiling – innsikt gjennom indre og ytre refleksjon.</string>
+    <string name="resonance4_meaning_abcd">Jevn flyt – ingen gjentakelser, åpen og nøytral energi.</string>
+    <string name="resonance4_meaning_none">Ingen dominerende struktur – energien er fritt kombinert og åpen.</string>
+
+    <!-- =====================================================
+         Resonance (6-digit) – IDs
+    ====================================================== -->
+    <string name="resonance6_id_mono">R6_MONO</string>
+    <string name="resonance6_id_aaabbb">R6_AAABBB</string>
+    <string name="resonance6_id_aabbcc">R6_AABBCC</string>
+    <string name="resonance6_id_ababab">R6_ABABAB</string>
+    <string name="resonance6_id_abcabc">R6_ABCABC</string>
+    <string name="resonance6_id_mirror">R6_MIRROR</string>
+    <string name="resonance6_id_none">R6_NONE</string>
+
+    <!-- =====================================================
+         Resonance (6-digit) – Titles
+    ====================================================== -->
+    <string name="resonance6_title_mono">Resonansmønster (6): Monotype</string>
+    <string name="resonance6_title_aaabbb">Resonansmønster (6): Overgang</string>
+    <string name="resonance6_title_aabbcc">Resonansmønster (6): Trinnvis prosess</string>
+    <string name="resonance6_title_ababab">Resonansmønster (6): Veksling / pendel</string>
+    <string name="resonance6_title_abcabc">Resonansmønster (6): Syklus</string>
+    <string name="resonance6_title_mirror">Resonansmønster (6): Speil</string>
+    <string name="resonance6_title_none">Resonansmønster: Fri kombinasjon</string>
+
+    <!-- =====================================================
+         Resonance (6-digit) – Short meanings
+    ====================================================== -->
+    <string name="resonance6_meaning_mono">Maksimal forsterkning – ett tema dominerer sterkt (velsignelse eller fiksering).</string>
+    <string name="resonance6_meaning_aaabbb">Tydelig endring: fase A → fase B (avslutning og ny begynnelse).</string>
+    <string name="resonance6_meaning_aabbcc">Utvikling i etapper – læring og integrasjon steg for steg.</string>
+    <string name="resonance6_meaning_ababab">Spenning mellom to poler – finne balanse, ta valg, finne rytme.</string>
+    <string name="resonance6_meaning_abcabc">Gjentakende tema – rutine, syklus, bevissthet gjennom repetisjon.</string>
+    <string name="resonance6_meaning_mirror">Tilbakemelding – innsikt gjennom speiling (indre / ytre).</string>
+    <string name="resonance6_meaning_none">Ingen dominerende struktur – energien er fritt kombinert og åpen.</string>
+</resources>

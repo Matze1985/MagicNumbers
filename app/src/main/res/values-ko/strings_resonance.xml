@@ -1,0 +1,74 @@
+<resources>
+    <!-- =====================================================
+         Resonance – General labels (shared)
+    ====================================================== -->
+    <string name="resonance_prefix">🔮</string>
+    <string name="resonance_focus_none">초점: 균형 (직접적인 중복 없음)</string>
+    <string name="resonance_focus_frame">초점: 시작과 끝 (프레임 테마)</string>
+    <string name="resonance_focus_center">초점: 중심 (핵심 충동)</string>
+    <string name="resonance_focus_start">초점: 시작 (정체성 / 시작 단계)</string>
+    <string name="resonance_focus_end">초점: 끝 (결과 / 다음 단계)</string>
+
+    <!-- =====================================================
+         Resonance (4-digit) – IDs
+    ====================================================== -->
+    <string name="resonance4_id_mono">R4_MONO</string>
+    <string name="resonance4_id_aabb">R4_AABB</string>
+    <string name="resonance4_id_abab">R4_ABAB</string>
+    <string name="resonance4_id_abba">R4_ABBA</string>
+    <string name="resonance4_id_abcd">R4_ABCD</string>
+    <string name="resonance4_id_none">R4_NONE</string>
+
+    <!-- =====================================================
+         Resonance (4-digit) – Titles
+    ====================================================== -->
+    <string name="resonance4_title_mono">공명 패턴 (4): 모노타입</string>
+    <string name="resonance4_title_aabb">공명 패턴 (4): 두 단계</string>
+    <string name="resonance4_title_abab">공명 패턴 (4): 교대</string>
+    <string name="resonance4_title_abba">공명 패턴 (4): 거울</string>
+    <string name="resonance4_title_abcd">공명 패턴 (4): 균등 분포</string>
+    <string name="resonance4_title_none">공명 패턴: 자유로운 조합</string>
+
+    <!-- =====================================================
+         Resonance (4-digit) – Short meanings
+    ====================================================== -->
+    <string name="resonance4_meaning_mono">최대 증폭 – 하나의 주제가 완전히 지배합니다.</string>
+    <string name="resonance4_meaning_aabb">명확한 전환 – 단계 A 다음에 단계 B가 이어집니다.</string>
+    <string name="resonance4_meaning_abab">두 극 사이의 긴장 – 리듬, 균형, 결정.</string>
+    <string name="resonance4_meaning_abba">반영 – 내면과 외면의 거울을 통한 깨달음.</string>
+    <string name="resonance4_meaning_abcd">균형 잡힌 흐름 – 반복 없이 열린 중립적 에너지.</string>
+    <string name="resonance4_meaning_none">지배적인 패턴 없음 – 에너지가 자유롭게 결합되고 열려 있습니다.</string>
+
+    <!-- =====================================================
+         Resonance (6-digit) – IDs
+    ====================================================== -->
+    <string name="resonance6_id_mono">R6_MONO</string>
+    <string name="resonance6_id_aaabbb">R6_AAABBB</string>
+    <string name="resonance6_id_aabbcc">R6_AABBCC</string>
+    <string name="resonance6_id_ababab">R6_ABABAB</string>
+    <string name="resonance6_id_abcabc">R6_ABCABC</string>
+    <string name="resonance6_id_mirror">R6_MIRROR</string>
+    <string name="resonance6_id_none">R6_NONE</string>
+
+    <!-- =====================================================
+         Resonance (6-digit) – Titles
+    ====================================================== -->
+    <string name="resonance6_title_mono">공명 패턴 (6): 모노타입</string>
+    <string name="resonance6_title_aaabbb">공명 패턴 (6): 전환</string>
+    <string name="resonance6_title_aabbcc">공명 패턴 (6): 단계적 과정</string>
+    <string name="resonance6_title_ababab">공명 패턴 (6): 교대 / 진동</string>
+    <string name="resonance6_title_abcabc">공명 패턴 (6): 순환</string>
+    <string name="resonance6_title_mirror">공명 패턴 (6): 거울</string>
+    <string name="resonance6_title_none">공명 패턴: 자유로운 조합</string>
+
+    <!-- =====================================================
+         Resonance (6-digit) – Short meanings
+    ====================================================== -->
+    <string name="resonance6_meaning_mono">최대 증폭 – 하나의 주제가 강하게 지배합니다 (축복 또는 집착).</string>
+    <string name="resonance6_meaning_aaabbb">명확한 변화: 단계 A → 단계 B (완결과 새로운 시작).</string>
+    <string name="resonance6_meaning_aabbcc">단계적 발전 – 배움과 통합을 한 걸음씩.</string>
+    <string name="resonance6_meaning_ababab">두 극 사이의 긴장 – 균형, 결정, 리듬 찾기.</string>
+    <string name="resonance6_meaning_abcabc">반복되는 주제 – 반복을 통한 루틴과 자각.</string>
+    <string name="resonance6_meaning_mirror">피드백 – 내면과 외면의 반영을 통한 통찰.</string>
+    <string name="resonance6_meaning_none">지배적인 패턴 없음 – 에너지가 자유롭게 결합되고 열려 있습니다.</string>
+</resources>

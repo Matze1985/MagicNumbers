@@ -1,0 +1,74 @@
+<resources>
+    <!-- =====================================================
+         Resonance – General labels (shared)
+    ====================================================== -->
+    <string name="resonance_prefix">🔮</string>
+    <string name="resonance_focus_none">Фокус: равномерно разпределение (без директни повторения)</string>
+    <string name="resonance_focus_frame">Фокус: начало и край (рамкова тема)</string>
+    <string name="resonance_focus_center">Фокус: център (основен импулс)</string>
+    <string name="resonance_focus_start">Фокус: начало (идентичност / стартова фаза)</string>
+    <string name="resonance_focus_end">Фокус: край (резултат / следваща стъпка)</string>
+
+    <!-- =====================================================
+         Resonance (4-digit) – IDs
+    ====================================================== -->
+    <string name="resonance4_id_mono">R4_MONO</string>
+    <string name="resonance4_id_aabb">R4_AABB</string>
+    <string name="resonance4_id_abab">R4_ABAB</string>
+    <string name="resonance4_id_abba">R4_ABBA</string>
+    <string name="resonance4_id_abcd">R4_ABCD</string>
+    <string name="resonance4_id_none">R4_NONE</string>
+
+    <!-- =====================================================
+         Resonance (4-digit) – Titles
+    ====================================================== -->
+    <string name="resonance4_title_mono">Резонансен модел: монотип</string>
+    <string name="resonance4_title_aabb">Резонансен модел: две фази</string>
+    <string name="resonance4_title_abab">Резонансен модел: редуване</string>
+    <string name="resonance4_title_abba">Резонансен модел: огледало</string>
+    <string name="resonance4_title_abcd">Резонансен модел: равномерно разпределение</string>
+    <string name="resonance4_title_none">Резонансен модел: свободна комбинация</string>
+
+    <!-- =====================================================
+         Resonance (4-digit) – Short meanings
+    ====================================================== -->
+    <string name="resonance4_meaning_mono">Максимално усилване – една тема напълно доминира.</string>
+    <string name="resonance4_meaning_aabb">Ясен преход – фаза А е последвана от фаза Б.</string>
+    <string name="resonance4_meaning_abab">Напрежение между два полюса – ритъм, баланс, избор.</string>
+    <string name="resonance4_meaning_abba">Отражение – осъзнаване чрез вътрешно и външно огледало.</string>
+    <string name="resonance4_meaning_abcd">Равномерен поток – без повторения, отворена неутрална енергия.</string>
+    <string name="resonance4_meaning_none">Няма доминиращ модел – енергията е свободно комбинирана и отворена.</string>
+
+    <!-- =====================================================
+         Resonance (6-digit) – IDs
+    ====================================================== -->
+    <string name="resonance6_id_mono">R6_MONO</string>
+    <string name="resonance6_id_aaabbb">R6_AAABBB</string>
+    <string name="resonance6_id_aabbcc">R6_AABBCC</string>
+    <string name="resonance6_id_ababab">R6_ABABAB</string>
+    <string name="resonance6_id_abcabc">R6_ABCABC</string>
+    <string name="resonance6_id_mirror">R6_MIRROR</string>
+    <string name="resonance6_id_none">R6_NONE</string>
+
+    <!-- =====================================================
+         Resonance (6-digit) – Titles
+    ====================================================== -->
+    <string name="resonance6_title_mono">Резонансен модел: монотип</string>
+    <string name="resonance6_title_aaabbb">Резонансен модел: преход</string>
+    <string name="resonance6_title_aabbcc">Резонансен модел: поетапен процес</string>
+    <string name="resonance6_title_ababab">Резонансен модел: редуване / махало</string>
+    <string name="resonance6_title_abcabc">Резонансен модел: цикъл</string>
+    <string name="resonance6_title_mirror">Резонансен модел: огледало</string>
+    <string name="resonance6_title_none">Резонансен модел: свободна комбинация</string>
+
+    <!-- =====================================================
+         Resonance (6-digit) – Short meanings
+    ====================================================== -->
+    <string name="resonance6_meaning_mono">Максимално усилване – една тема доминира силно (благословия или фиксация).</string>
+    <string name="resonance6_meaning_aaabbb">Ясна промяна: фаза А → фаза Б (завършек и ново начало).</string>
+    <string name="resonance6_meaning_aabbcc">Развитие на етапи – учене и интеграция стъпка по стъпка.</string>
+    <string name="resonance6_meaning_ababab">Напрежение между два полюса – баланс, избор, намиране на ритъм.</string>
+    <string name="resonance6_meaning_abcabc">Повтаряща се тема – рутина, цикъл, осъзнаване чрез повторение.</string>
+    <string name="resonance6_meaning_mirror">Обратна връзка – осъзнаване чрез отражение (вътрешно/външно).</string>
+    <string name="resonance6_meaning_none">Няма доминиращ модел – енергията е свободно комбинирана и отворена.</string>
+</resources>

@@ -1,0 +1,74 @@
+<resources>
+    <!-- =====================================================
+         Resonance – General labels (shared)
+    ====================================================== -->
+    <string name="resonance_prefix">🔮</string>
+    <string name="resonance_focus_none">Zameranie: rovnomerné (bez priamych opakovaní)</string>
+    <string name="resonance_focus_frame">Zameranie: začiatok a koniec (rámcová téma)</string>
+    <string name="resonance_focus_center">Zameranie: stred (kľúčový impulz)</string>
+    <string name="resonance_focus_start">Zameranie: začiatok (identita / úvodná fáza)</string>
+    <string name="resonance_focus_end">Zameranie: koniec (výsledok / ďalší krok)</string>
+
+    <!-- =====================================================
+         Resonance (4-digit) – IDs
+    ====================================================== -->
+    <string name="resonance4_id_mono">R4_MONO</string>
+    <string name="resonance4_id_aabb">R4_AABB</string>
+    <string name="resonance4_id_abab">R4_ABAB</string>
+    <string name="resonance4_id_abba">R4_ABBA</string>
+    <string name="resonance4_id_abcd">R4_ABCD</string>
+    <string name="resonance4_id_none">R4_NONE</string>
+
+    <!-- =====================================================
+         Resonance (4-digit) – Titles
+    ====================================================== -->
+    <string name="resonance4_title_mono">Rezonančný vzor (4): Monotyp</string>
+    <string name="resonance4_title_aabb">Rezonančný vzor (4): Dve fázy</string>
+    <string name="resonance4_title_abab">Rezonančný vzor (4): Striedanie</string>
+    <string name="resonance4_title_abba">Rezonančný vzor (4): Zrkadlo</string>
+    <string name="resonance4_title_abcd">Rezonančný vzor (4): Rovnomerné rozloženie</string>
+    <string name="resonance4_title_none">Rezonančný vzor: Voľná kombinácia</string>
+
+    <!-- =====================================================
+         Resonance (4-digit) – Short meanings
+    ====================================================== -->
+    <string name="resonance4_meaning_mono">Maximálne zosilnenie – jedna téma úplne dominuje.</string>
+    <string name="resonance4_meaning_aabb">Jasný prechod – po fáze A nasleduje fáza B.</string>
+    <string name="resonance4_meaning_abab">Napätie medzi dvoma pólmi – rytmus, rovnováha, rozhodnutie.</string>
+    <string name="resonance4_meaning_abba">Zrkadlenie – poznanie cez vnútornú a vonkajšiu reflexiu.</string>
+    <string name="resonance4_meaning_abcd">Plynulý tok – bez opakovania, neutrálna a otvorená energia.</string>
+    <string name="resonance4_meaning_none">Žiadny dominantný vzor – energia je voľne kombinovaná a otvorená.</string>
+
+    <!-- =====================================================
+         Resonance (6-digit) – IDs
+    ====================================================== -->
+    <string name="resonance6_id_mono">R6_MONO</string>
+    <string name="resonance6_id_aaabbb">R6_AAABBB</string>
+    <string name="resonance6_id_aabbcc">R6_AABBCC</string>
+    <string name="resonance6_id_ababab">R6_ABABAB</string>
+    <string name="resonance6_id_abcabc">R6_ABCABC</string>
+    <string name="resonance6_id_mirror">R6_MIRROR</string>
+    <string name="resonance6_id_none">R6_NONE</string>
+
+    <!-- =====================================================
+         Resonance (6-digit) – Titles
+    ====================================================== -->
+    <string name="resonance6_title_mono">Rezonančný vzor (6): Monotyp</string>
+    <string name="resonance6_title_aaabbb">Rezonančný vzor (6): Prechod</string>
+    <string name="resonance6_title_aabbcc">Rezonančný vzor (6): Postupný proces</string>
+    <string name="resonance6_title_ababab">Rezonančný vzor (6): Striedanie / Kyvadlo</string>
+    <string name="resonance6_title_abcabc">Rezonančný vzor (6): Cyklus</string>
+    <string name="resonance6_title_mirror">Rezonančný vzor (6): Zrkadlo</string>
+    <string name="resonance6_title_none">Rezonančný vzor: Voľná kombinácia</string>
+
+    <!-- =====================================================
+         Resonance (6-digit) – Short meanings
+    ====================================================== -->
+    <string name="resonance6_meaning_mono">Maximálne zosilnenie – jedna téma silne dominuje (požehnanie alebo fixácia).</string>
+    <string name="resonance6_meaning_aaabbb">Jasná zmena: fáza A → fáza B (ukončenie a nový začiatok).</string>
+    <string name="resonance6_meaning_aabbcc">Vývoj po etapách – učenie a integrácia krok za krokom.</string>
+    <string name="resonance6_meaning_ababab">Napätie medzi dvoma pólmi – rovnováha, rozhodovanie, hľadanie rytmu.</string>
+    <string name="resonance6_meaning_abcabc">Opakujúca sa téma – rutina, slučka, uvedomenie cez opakovanie.</string>
+    <string name="resonance6_meaning_mirror">Spätná väzba – poznanie prostredníctvom zrkadlenia (vnútri / vonku).</string>
+    <string name="resonance6_meaning_none">Žiadny dominantný vzor – energia je voľne kombinovaná a otvorená.</string>
+</resources>

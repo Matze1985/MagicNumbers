@@ -1,0 +1,74 @@
+<resources>
+    <!-- =====================================================
+         Resonance – General labels (shared)
+    ====================================================== -->
+    <string name="resonance_prefix">🔮</string>
+    <string name="resonance_focus_none">フォーカス：均等（直接的な重複なし）</string>
+    <string name="resonance_focus_frame">フォーカス：始まりと終わり（フレームテーマ）</string>
+    <string name="resonance_focus_center">フォーカス：中心（コアの衝動）</string>
+    <string name="resonance_focus_start">フォーカス：始まり（アイデンティティ／開始段階）</string>
+    <string name="resonance_focus_end">フォーカス：終わり（結果／次のステップ）</string>
+
+    <!-- =====================================================
+         Resonance (4-digit) – IDs
+    ====================================================== -->
+    <string name="resonance4_id_mono">R4_MONO</string>
+    <string name="resonance4_id_aabb">R4_AABB</string>
+    <string name="resonance4_id_abab">R4_ABAB</string>
+    <string name="resonance4_id_abba">R4_ABBA</string>
+    <string name="resonance4_id_abcd">R4_ABCD</string>
+    <string name="resonance4_id_none">R4_NONE</string>
+
+    <!-- =====================================================
+         Resonance (4-digit) – Titles
+    ====================================================== -->
+    <string name="resonance4_title_mono">共鳴パターン（4）：モノタイプ</string>
+    <string name="resonance4_title_aabb">共鳴パターン（4）：二つの段階</string>
+    <string name="resonance4_title_abab">共鳴パターン（4）：交互</string>
+    <string name="resonance4_title_abba">共鳴パターン（4）：ミラー</string>
+    <string name="resonance4_title_abcd">共鳴パターン（4）：均等配分</string>
+    <string name="resonance4_title_none">共鳴パターン：自由な組み合わせ</string>
+
+    <!-- =====================================================
+         Resonance (4-digit) – Short meanings
+    ====================================================== -->
+    <string name="resonance4_meaning_mono">最大の増幅 ― 一つのテーマが完全に支配します。</string>
+    <string name="resonance4_meaning_aabb">明確な移行 ― フェーズAの後にフェーズBが続きます。</string>
+    <string name="resonance4_meaning_abab">二つの極の間の緊張 ― リズム、バランス、決断。</string>
+    <string name="resonance4_meaning_abba">反映 ― 内面と外面の映し合いによる気づき。</string>
+    <string name="resonance4_meaning_abcd">均等な流れ ― 繰り返しがなく、開かれた中立的なエネルギー。</string>
+    <string name="resonance4_meaning_none">支配的なパターンなし ― エネルギーは自由に組み合わされ、開かれています。</string>
+
+    <!-- =====================================================
+         Resonance (6-digit) – IDs
+    ====================================================== -->
+    <string name="resonance6_id_mono">R6_MONO</string>
+    <string name="resonance6_id_aaabbb">R6_AAABBB</string>
+    <string name="resonance6_id_aabbcc">R6_AABBCC</string>
+    <string name="resonance6_id_ababab">R6_ABABAB</string>
+    <string name="resonance6_id_abcabc">R6_ABCABC</string>
+    <string name="resonance6_id_mirror">R6_MIRROR</string>
+    <string name="resonance6_id_none">R6_NONE</string>
+
+    <!-- =====================================================
+         Resonance (6-digit) – Titles
+    ====================================================== -->
+    <string name="resonance6_title_mono">共鳴パターン（6）：モノタイプ</string>
+    <string name="resonance6_title_aaabbb">共鳴パターン（6）：移行</string>
+    <string name="resonance6_title_aabbcc">共鳴パターン（6）：段階的プロセス</string>
+    <string name="resonance6_title_ababab">共鳴パターン（6）：交互／振り子</string>
+    <string name="resonance6_title_abcabc">共鳴パターン（6）：サイクル</string>
+    <string name="resonance6_title_mirror">共鳴パターン（6）：ミラー</string>
+    <string name="resonance6_title_none">共鳴パターン：自由な組み合わせ</string>
+
+    <!-- =====================================================
+         Resonance (6-digit) – Short meanings
+    ====================================================== -->
+    <string name="resonance6_meaning_mono">最大の増幅 ― 一つのテーマが強く支配します（祝福または固着）。</string>
+    <string name="resonance6_meaning_aaabbb">明確な変化：フェーズA → フェーズB（完結と新しい始まり）。</string>
+    <string name="resonance6_meaning_aabbcc">段階的な成長 ― 学びと統合を一歩ずつ。</string>
+    <string name="resonance6_meaning_ababab">二つの極の間の緊張 ― バランス、決断、リズムを見つける。</string>
+    <string name="resonance6_meaning_abcabc">繰り返されるテーマ ― ルーティン、循環、反復による気づき。</string>
+    <string name="resonance6_meaning_mirror">フィードバック ― 内と外の映し合いによる洞察。</string>
+    <string name="resonance6_meaning_none">支配的なパターンなし ― エネルギーは自由に組み合わされ、開かれています。</string>
+</resources>
