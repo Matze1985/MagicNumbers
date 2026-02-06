@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "magicnumbers"
-include(":app"
+include(":app")
