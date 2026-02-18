@@ -23,7 +23,7 @@ android {
         applicationId "com.spiritual.magicnumbers"
         minSdk 24
         versionCode 1
-        versionName "1.2.0"
+        versionName "1.2.1"
         targetSdk 36
     }
 
