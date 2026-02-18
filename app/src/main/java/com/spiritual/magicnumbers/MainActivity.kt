@@ -4,7 +4,10 @@ import android.content.ClipData
 import android.content.ClipboardManager
 import android.content.Context
 import android.content.Intent
+import android.content.pm.ApplicationInfo
+import android.os.Build
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.SystemBarStyle
 import androidx.activity.compose.setContent
@@ -65,6 +68,36 @@ import androidx.core.net.toUri
 import kotlin.random.Random
 
 // --- DATENKLASSEN ---
+data class CrossSumResult(
+    val fullCalculationText: String,
+    val finalValue: Int
+)
+
+fun calculateReducedCrossSum(number: String): CrossSumResult {
+    val clean = number.filter { it.isDigit() }
+
+    if (clean.isEmpty()) return CrossSumResult("", 0)
+
+    val steps = mutableListOf<String>()
+    // Erste Quersumme
+    var current = clean.map { it.digitToInt() }
+    var sum = current.sum()
+    steps.add(current.joinToString(" + ") + " = $sum")
+
+    // Reduktion (außer bei Meisterzahlen)
+    while (sum > 9 && sum !in listOf(11, 22, 33, 44, 55, 66, 77, 88, 99)) {
+        val digits = sum.toString().map { it.digitToInt() }
+        val newSum = digits.sum()
+        steps.add(digits.joinToString(" + ") + " = $newSum")
+        sum = newSum
+    }
+
+    return CrossSumResult(
+        fullCalculationText = steps.joinToString(" → "),
+        finalValue = sum
+    )
+}
+
 data class NumberMeaning(
     val meaning: String,
     val karmicDetail: String? = null
@@ -383,9 +416,12 @@ fun createDetailedMessage(number: String): DetailedMessage {
     val numerologyData = getNumerologyMeaning(number)
     val quersummeBedeutung = numerologyData.meaning
     val title = stringResource(R.string.message_for_the_moment, number)
-    val calculationSum = number.map { it.digitToInt() }.sum()
-    val calculationRaw = number.toCharArray().joinToString(" + ") + " = $calculationSum"
-    val calculationText = stringResource(R.string.your_cross_sum_is, calculationRaw)
+    val crossSumResult = calculateReducedCrossSum(number)
+    val calculationText = stringResource(
+        R.string.your_cross_sum_is,
+        crossSumResult.fullCalculationText
+    )
+
     val subtitle = quersummeBedeutung
     val components = uniqueDigitsInOrder.map { digit -> digit to getKeywordForDigit(digit) }
     val digitCounts = number.groupingBy { it }.eachCount()
@@ -510,8 +546,9 @@ fun getNumerologyMeaning(num: String): NumberMeaning {
     val clean = num.filter { it.isDigit() }
     if (clean.isEmpty()) return NumberMeaning(stringResource(id = R.string.numerology_unknown), null)
 
+    val crossSumResult = calculateReducedCrossSum(clean)
     val sumBeforeReduce = clean.sumOf { it.digitToInt() }
-    var s = sumBeforeReduce
+    var s = crossSumResult.finalValue
     val specialMeanings = mutableListOf<String>()
 
     when (sumBeforeReduce) {
@@ -593,8 +630,7 @@ fun getNumerologyMeaning(num: String): NumberMeaning {
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun MagicNumberApp() {
-    val showDebugInfo = BuildConfig.DEBUG
-
+    val showDebugInfo: kotlin.Boolean = "debug" == Build.TYPE || "eng" == Build.TYPE
     var currentNumber by rememberSaveable { mutableStateOf("") }
     val context = LocalContext.current
 
@@ -781,7 +817,10 @@ fun MagicNumberApp() {
                                     modifier = Modifier
                                         .fillMaxWidth()
                                         .height(8.dp)
-                                        .background(Color.Black.copy(alpha = 0.3f), RoundedCornerShape(4.dp))
+                                        .background(
+                                            Color.Black.copy(alpha = 0.3f),
+                                            RoundedCornerShape(4.dp)
+                                        )
                                 ) {
                                     Box(
                                         modifier = Modifier
@@ -844,7 +883,7 @@ fun MagicNumberApp() {
                             color = primaryTextColor
                         )
 
-                        // ✅ Debug-only: Resonanz-ID anzeigen
+                        // Debug-only: Resonanz-ID anzeigen
                         if (showDebugInfo && detailedMessage.resonanceId != null) {
                             Text(
                                 text = detailedMessage.resonanceId,

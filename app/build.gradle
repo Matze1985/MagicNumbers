@@ -4,29 +4,19 @@ plugins {
 }
 
 android {
-    composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.11"
-    }
-
     lint {
         checkReleaseBuilds false
     }
 
-    signingConfigs {
-        release {
-            storeFile file('')
-            storePassword ''
-            keyPassword ''
-            keyAlias ''
-        }
-    }
-
     namespace 'com.spiritual.magicnumbers'
     compileSdk 36
-
     buildFeatures {
         buildConfig true
         compose true
+    }
+
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.5.12"
     }
 
     defaultConfig {
@@ -46,10 +36,6 @@ android {
         jvmTarget = '17'
     }
 
-    composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.11"
-    }
-
     buildTypes {
         release {
             versionNameSuffix "-release"
@@ -58,7 +44,6 @@ android {
                     getDefaultProguardFile('proguard-android-optimize.txt'),
                     'proguard-rules.pro'
             )
-            signingConfig signingConfigs.release
         }
 
         debug {

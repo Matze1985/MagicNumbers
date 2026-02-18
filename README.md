@@ -1,11 +1,9 @@
-
 <table>
   <tr>
     <td width="200">
       <img src="art/icon.png" width="210" alt="Magic Numbers Logo">
     </td>
-    <td>
-      <h1>Magic Numbers</h1>
+    <td>      <h1>Magic Numbers</h1>
       <p>Magic Numbers is an ad-free, offline, and open-source Android app that generates spiritual numerology messages based on the "rhythm of the moment". It combines clean Material 3 design with mystical insights.</p>
       <p>You can <strong><a href="https://github.com/Matze1985/MagicNumbers/releases">download the latest release</a></strong> directly from GitHub.</p>
     </td>
@@ -105,14 +103,16 @@ Each resonance provides:
 ---
 
 ### 🧪 Debug-Only Information
-- Resonance IDs (e.g. `R6_ABABAB`, `R4_AABB`) are shown **only in debug builds**:
-  ```kotlin
-  val showDebugInfo = BuildConfig.DEBUG
+- Resonance IDs (e.g. `R6_ABABAB`, `R4_AABB`) are displayed **only in debug builds**.
+- To achieve this without relying on the now optional `BuildConfig.DEBUG` flag (as of AGP 8.0+), the app uses a more robust method: `kotlin val isDebuggable = (context.applicationInfo.flags and ApplicationInfo.FLAG_DEBUGGABLE) != 0`
+    - This ensures a clean separation between debug and release builds at runtime and improves build performance by default.
+
+---
 
 ## 🛠 Technical Details
 
 *   **Language**: Kotlin
-*   **UI Framework**: Jetpack Compose (Material 3)
+    ***UI Framework**: Jetpack Compose (Material 3)
 *   **Architecture**: Single Activity, State Management via `rememberSaveable` (screen rotation support).
 *   **Minimum SDK**: 24 (Android 7.0)
 *   **Target SDK**: 35+
