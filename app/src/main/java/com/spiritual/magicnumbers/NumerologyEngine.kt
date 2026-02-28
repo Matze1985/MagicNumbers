@@ -536,13 +536,13 @@ object NumerologyEngine {
         builder.appendLine(crossSum.fullCalculationText)
         builder.appendLine()
         // --------------------------------------------------
-        // MASTER ENERGY (gleich wie GUI)
+        // MASTER ENERGY
         // --------------------------------------------------
         val masterTexts = mutableListOf<String>()
         val shown = mutableSetOf<Int>()
 
         masterCore?.let { core ->
-            NumerologyEngine.getSpecialMeaningResId(core)?.let { resId ->
+            getSpecialMeaningResId(core)?.let { resId ->
                 masterTexts.add(context.getString(resId).cleanMarkdown())
                 shown.add(core)
             }
@@ -550,7 +550,7 @@ object NumerologyEngine {
 
         masterAmplifiers.forEach { amp ->
             if (!shown.contains(amp)) {
-                NumerologyEngine.getSpecialMeaningResId(amp)?.let { resId ->
+                getSpecialMeaningResId(amp)?.let { resId ->
                     masterTexts.add(context.getString(resId).cleanMarkdown())
                 }
             }
@@ -560,27 +560,36 @@ object NumerologyEngine {
             masterTexts.forEach { builder.appendLine(it) }
             builder.appendLine()
         }
-        // --------------------------------------------------
+        // -------------------------------------------------
         // ANGEL SECTION
-        // --------------------------------------------------
-        if (angelResIds.isNotEmpty() || angelImpulseResId != 0) {
+        // -------------------------------------------------
+        if (angelImpulseResId != 0 || angelResIds.isNotEmpty()) {
 
             builder.appendLine(context.getString(R.string.section_angel))
 
+            val shownAngelIds = mutableSetOf<Int>()
+
             if (angelImpulseResId != 0) {
-                builder.appendLine(
-                    context.getString(angelImpulseResId).cleanMarkdown()
-                )
+                shownAngelIds.add(angelImpulseResId)
+                builder.appendLine(context.getString(angelImpulseResId).cleanMarkdown())
             }
 
-            angelResIds.distinct().forEach {
-                builder.appendLine(
-                    context.getString(it).cleanMarkdown()
-                )
-            }
+            angelResIds
+                .distinct()
+                .forEach { resId ->
+
+                    if (!shownAngelIds.contains(resId)) {
+                        shownAngelIds.add(resId)
+                        builder.appendLine(context.getString(resId).cleanMarkdown()
+                        )
+                    }
+                }
 
             builder.appendLine()
         }
+
+
+        builder.appendLine()
         // --------------------------------------------------
         // FREQUENCY
         // --------------------------------------------------
@@ -588,7 +597,7 @@ object NumerologyEngine {
         builder.appendLine("${context.getString(R.string.section_frequency)} $percent%")
         builder.appendLine()
         // --------------------------------------------------
-        // DIGIT VIBRATION (wie GUI: nur unique digits)
+        // DIGIT VIBRATION
         // --------------------------------------------------
         val uniqueDigits: List<Char> =
             number.filter { it.isDigit() }.toList().distinct()
@@ -621,7 +630,7 @@ object NumerologyEngine {
             builder.appendLine()
         }
         // --------------------------------------------------
-        // DIGIT DESCRIPTION (mit Verstärkung wie GUI)
+        // DIGIT DESCRIPTION
         // --------------------------------------------------
         val counts = number.groupingBy { it }.eachCount()
 

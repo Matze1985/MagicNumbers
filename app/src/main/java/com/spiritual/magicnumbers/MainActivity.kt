@@ -234,28 +234,40 @@ class MainActivity : ComponentActivity() {
                                     }
 
                                     // Engelszahlen
-                                    if (engineResult.angelResIds.isNotEmpty() || engineResult.angelImpulseResId != 0 || masters.isNotEmpty()) {
+                                    if (engineResult.angelImpulseResId != 0 || engineResult.angelResIds.isNotEmpty()) {
 
-                                        if (engineResult.angelImpulseResId != 0)
-                                            Text(
+                                        Text(
                                             text = stringResource(R.string.section_angel),
                                             fontWeight = FontWeight.Bold,
                                             color = Color.White
                                         )
 
+                                        val shownAngelIds = mutableSetOf<Int>()
+
                                         if (engineResult.angelImpulseResId != 0) {
+
+                                            shownAngelIds.add(engineResult.angelImpulseResId)
+
                                             Text(
                                                 text = stringResource(engineResult.angelImpulseResId),
                                                 color = Color.LightGray
                                             )
                                         }
 
-                                        engineResult.angelResIds.distinct().forEach { resId ->
-                                            Text(
-                                                text = stringResource(resId),
-                                                color = Color.LightGray
-                                            )
-                                        }
+                                        engineResult.angelResIds
+                                            .distinct()
+                                            .forEach { resId ->
+
+                                                if (!shownAngelIds.contains(resId)) {
+
+                                                    shownAngelIds.add(resId)
+
+                                                    Text(
+                                                        text = stringResource(resId),
+                                                        color = Color.LightGray
+                                                    )
+                                                }
+                                            }
                                     }
 
                                     Divider(color = Color.DarkGray)
