@@ -1,51 +1,59 @@
 <resources>
     <!-- App Name -->
-    <string name="app_name">Maģiskie skaitļi</string>
+    <string name="app_name">Maģiskie Skaitļi</string>
 
     <!-- UI Texte -->
-    <string name="new_message">Jauns vēstījums</string>
-    <string name="copy_message">Kopēt vēstījumu</string>
-    <string name="clipboard_label">Maģisks vēstījums</string>
-    <string name="welcome_message">Nospied „Jauns vēstījums“, lai saņemtu šī brīža ritmu.</string>
-    <string name="message_for_the_moment">Vēstījums šim brīdim: %1$s</string>
-    <string name="your_cross_sum_is">Tava ciparu summa ir: %1$s</string>
+    <string name="new_message">Jauns ziņojums</string>
+    <string name="copy_message">Kopēt ziņojumu</string>
+    <string name="clipboard_label">Maģiskais ziņojums</string>
+    <string name="welcome_message">Nospiediet „Jauns ziņojums“, lai saņemtu šī brīža ritmu.</string>
+    <string name="your_cross_sum_is">Jūsu ciparu summa ir:</string>
     <string name="digit_occurrence">(parādās %1$dx reizes, pastiprināts)</string>
-    <string name="frequency_label">Frekvence</string>
 
-    <!-- Sektions-Überschriften -->
+    <!-- Sections -->
+    <string name="section_message_for_the_moment">💌 Ziņojums šim brīdim: %1$s</string>
+    <string name="section_frequency">🌀 Frekvence:</string>
     <string name="section_vibration">🧬 Ciparu vibrācija:</string>
-    <string name="section_your_message">💌 Tavs vēstījums:</string>
-    <string name="section_summary">✨ Kopsavilkums:</string>
+    <string name="section_master_energy">👑 Meistara enerģija:</string>
+    <string name="section_angel">🕊️ Eņģeļa impulss:</string>
+    <string name="section_description_numbers">🔢 Ciparu apraksts:</string>
+    <string name="section_summary">📖 Kopsavilkums:</string>
     <string name="section_energy">⚡️ Enerģijas plūsma:</string>
 
-    <!-- Hauptnachrichten Templates (pro Ziffer) -->
-    <string name="digit_0_intro">✨ Skaitlis **\'0\'**%1$s pastiprina visu. Tas ir dievišķas klātbūtnes un bezgalīga potenciāla simbols.</string>
-    <string name="digit_1_intro">✨ Skaitlis **\'1\'**%1$s aicina tevi uz **spēcīgu jaunu sākumu**. Tavas domas šobrīd ātri materializējas.</string>
-    <string name="digit_2_intro">✨ Skaitlis **\'2\'**%1$s nes **līdzsvaru un harmoniju**, īpaši attiecībās. Tu neesi viens.</string>
-    <string name="digit_3_intro">✨ Skaitlis **\'3\'**%1$s aktivizē tavu **radošumu un komunikāciju**. Izpaudies — garīgā pasaule klausās.</string>
-    <string name="digit_4_intro">✨ Skaitlis **\'4\'**%1$s veido **stabilu pamatu**. Šī enerģija nes aizsardzību un struktūru tavā dzīvē.</string>
-    <string name="digit_5_intro">✨ Skaitlis **\'5\'**%1$s signalizē par **pārmaiņu un brīvības vilni**. Esi atvērts piedzīvojumiem un sarauj vecās ķēdes.</string>
-    <string name="digit_6_intro">✨ Skaitlis **\'6\'**%1$s vērš uzmanību uz **sirds un māju dziedināšanu**. Ģimene un harmonija tagad ir centrā.</string>
-    <string name="digit_7_intro">✨ Skaitlis **\'7\'**%1$s padara tavu **intuīciju par svarīgāko kompasu**. Klausies sevī — patiesība ir tevī.</string>
-    <string name="digit_8_intro">✨ Skaitlis **\'8\'**%1$s aktivizē **pārpilnības un panākumu** enerģiju. Esi atvērts materiālai un garīgai labklājībai.</string>
-    <string name="digit_9_intro">✨ Skaitlis **\'9\'**%1$s norāda uz **svarīga cikla noslēgumu**. Atlaid veco, lai rastu vietu jaunajam.</string>
+    <!-- Main Messages -->
+    <string name="digit_0_intro">Skaitlis **\'0\'**%1$s pastiprina visu. Tas ir dievišķās klātbūtnes un bezgalīga potenciāla simbols.</string>
+    <string name="digit_1_intro">Skaitlis **\'1\'**%1$s aicina uz **spēcīgu jaunu sākumu**. Jūsu domas tagad ātri materializējas.</string>
+    <string name="digit_2_intro">Skaitlis **\'2\'**%1$s nes **līdzsvaru un harmoniju**, īpaši attiecībās. Jūs neesat viens.</string>
+    <string name="digit_3_intro">Skaitlis **\'3\'**%1$s aktivizē jūsu **radošumu un komunikāciju**. Izsakiet sevi – garīgā pasaule klausās.</string>
+    <string name="digit_4_intro">Skaitlis **\'4\'**%1$s veido **stabilu pamatu**. Šī enerģija sniedz aizsardzību un struktūru jūsu dzīvē.</string>
+    <string name="digit_5_intro">Skaitlis **\'5\'**%1$s nozīmē **pārmaiņu un brīvības vilni**. Esiet atvērti piedzīvojumiem un atbrīvojieties no vecām važām.</string>
+    <string name="digit_6_intro">Skaitlis **\'6\'**%1$s pievērš uzmanību **sirds un māju dziedināšanai**. Ģimene un harmonija ir centrā.</string>
+    <string name="digit_7_intro">Skaitlis **\'7\'**%1$s padara **intuīciju par galveno kompasu**. Klausieties sevī – patiesība ir jūsos.</string>
+    <string name="digit_8_intro">Skaitlis **\'8\'**%1$s aktivizē **pārpilnības un panākumu enerģiju**. Atverieties materiālajai un garīgajai labklājībai.</string>
+    <string name="digit_9_intro">Skaitlis **\'9\'**%1$s norāda uz **svarīga cikla noslēgumu**. Atlaidiet veco, lai radītu vietu jaunajam.</string>
 
-    <!-- Numerologie Grundbedeutungen -->
+    <!-- Core Meanings -->
     <string name="numerology_1">Jauns sākums &amp; līderība</string>
     <string name="numerology_2">Harmonija &amp; līdzsvars</string>
     <string name="numerology_3">Radošums &amp; izaugsme</string>
     <string name="numerology_4">Stabilitāte &amp; aizsardzība</string>
     <string name="numerology_5">Brīvība &amp; pārmaiņas</string>
     <string name="numerology_6">Mīlestība &amp; harmonija</string>
-    <string name="numerology_7">Intuīcija &amp; atmošanās</string>
+    <string name="numerology_7">Intuīcija &amp; atmoda</string>
     <string name="numerology_8">Panākumi &amp; pārpilnība</string>
-    <string name="numerology_9">Pilnība &amp; gudrība</string>
-    <string name="numerology_11">Meistara intuīcija</string>
-    <string name="numerology_22">Meistara manifestācija</string>
-    <string name="numerology_33">Meistara dziednieks</string>
+    <string name="numerology_9">Noslēgums &amp; gudrība</string>
+    <string name="numerology_11">Garīgais vizionārs</string>
+    <string name="numerology_22">Meistars būvētājs</string>
+    <string name="numerology_33">Meistars skolotājs</string>
+    <string name="numerology_44">Stabilitātes meistars</string>
+    <string name="numerology_55">Brīvības meistars</string>
+    <string name="numerology_66">Beznosacījumu mīlestības meistars</string>
+    <string name="numerology_77">Gudrības meistars</string>
+    <string name="numerology_88">Spēka meistars</string>
+    <string name="numerology_99">Noslēguma meistars</string>
     <string name="numerology_unknown">Nezināms</string>
 
-    <!-- Numerologie Keywords -->
+    <!-- Keywords -->
     <string name="keyword_0">Avots</string>
     <string name="keyword_1">Sākums</string>
     <string name="keyword_2">Līdzsvars</string>
@@ -57,73 +65,81 @@
     <string name="keyword_8">Pārpilnība</string>
     <string name="keyword_9">Noslēgums</string>
 
-    <!-- Numerologie Spezialbedeutungen (Meisterzahlen & Hohe Schwingungen) -->
-    <string name="master_number_11">Meistara skaitlis 11: intuīcija &amp; apskaidrība</string>
-    <string name="master_number_22">Meistara skaitlis 22: būvētājs &amp; manifestācija</string>
-    <string name="master_number_33">Meistara skaitlis 33: universāla mīlestība &amp; dziedināšana</string>
-    <string name="master_number_44">Meistara skaitlis 44: meistara dziednieks. Tu savieno materiālo un garīgo pasauli.</string>
-    <string name="special_number_55">Īpaša vibrācija 55: radikālas pārmaiņas &amp; brīvība</string>
-    <string name="special_number_66">Īpaša vibrācija 66: universāla mīlestība &amp; līdzjūtība</string>
-    <string name="special_number_77">Īpaša vibrācija 77: dziļa garīga izpratne</string>
-    <string name="special_number_88">Īpaša vibrācija 88: bezgalīga pārpilnība &amp; līdzsvars</string>
-    <string name="special_number_99">Īpaša vibrācija 99: universāla apziņa &amp; kalpošana</string>
+    <!-- Special Meanings -->
+    <string name="master_number_11">11: Intuīcija &amp; apgaismība</string>
+    <string name="master_number_22">22: Būvētājs &amp; manifestācija</string>
+    <string name="master_number_33">33: Universāla mīlestība &amp; dziedināšana</string>
+    <string name="master_number_44">44: Meistars dziednieks. Jūs savienojat materiālo un garīgo pasauli.</string>
+    <string name="special_number_55">55: Radikālas pārmaiņas &amp; brīvība</string>
+    <string name="special_number_66">66: Universāla mīlestība &amp; līdzjūtība</string>
+    <string name="special_number_77">77: Dziļa garīga atziņa</string>
+    <string name="special_number_88">88: Bezgalīga pārpilnība &amp; līdzsvars</string>
+    <string name="special_number_99">99: Universālā apziņa &amp; kalpošana</string>
 
-    <!-- Karmische Lektionen (Kurztexte für Listen) -->
-    <string name="karmic_lesson_4">Karmiskā mācība 4: stabilitāte un smags darbs.</string>
-    <string name="karmic_lesson_5">Karmiskā mācība 5: brīvība un disciplīna.</string>
-    <string name="karmic_lesson_7">Karmiskā mācība 7: uzticēšanās un atvērtība.</string>
-    <string name="karmic_lesson_8">Karmiskā mācība 8: pārpilnība un varas ļaunprātīga izmantošana.</string>
-    <string name="karmic_lesson_10">Karmiskā mācība 10: likteņa rats / jauns sākums</string>
-    <string name="karmic_lesson_11">Karmiskā mācība 11: garīgās meistarības un līdzsvara mācība</string>
-    <string name="karmic_lesson_13">Karmiskā mācība 13: darba un fokusa mācība (transformācija)</string>
-    <string name="karmic_lesson_14">Karmiskā mācība 14: brīvības un mērenības mācība</string>
-    <string name="karmic_lesson_16">Karmiskā mācība 16: atmošanās un pazemības mācība</string>
-    <string name="karmic_lesson_19">Karmiskā mācība 19: varas un neatkarības mācība</string>
-    <string name="karmic_lesson_22">Karmiskā mācība 22: meistara radītāja un atbildības mācība</string>
-    <string name="karmic_lesson_33">Karmiskā mācība 33: dziedinošas mīlestības meistara mācība</string>
+    <!-- Karmic Details 1–33 -->
+    <string name="karmic_detail_1">Karmiskā detaļa 1: Personīgā atbildība\n→ Pārstāj vainot ārējos apstākļus\n→ Apzinies: es esmu savas dzīves līdzradītājs\n→ Drosme iet savu ceļu</string>
+    <string name="karmic_detail_2">Karmiskā detaļa 2: Attiecības un spogulis\n→ Izproti spoguļa likumu\n→ Citi atspoguļo neatrisinātas daļas\n→ Diplomātija, nezaudējot sevi\n→ Saglabā pacietību</string>
+    <string name="karmic_detail_3">Karmiskā detaļa 3: Autentiskums un izpausme\n→ Dzīvo savu patiesību\n→ Atlaid maskas un lomas\n→ Radoši izpaud emocijas</string>
+    <string name="karmic_detail_4">Karmiskā detaļa 4: Pacietība un uzticēšanās\n→ Nepiespied visu ar varu\n→ Uzticies dievišķajam laikam\n→ Radi stabilitāti caur kārtību</string>
+    <string name="karmic_detail_5">Karmiskā detaļa 5: Baiļu transformācija\n→ Drosme nevis bēgšana\n→ Pārveido bailes no zaudējuma vai trūkuma\n→ Brīvība caur atbildību</string>
+    <string name="karmic_detail_6">Karmiskā detaļa 6: Mīlestība un robežas\n→ Beznosacījumu mīlestība bez īpašnieciskuma\n→ Saki “nē” bez vainas sajūtas\n→ Neupurē sevi pārmērīgi</string>
+    <string name="karmic_detail_7">Karmiskā detaļa 7: Uzticēšanās un vadība\n→ Uzticies garīgajai vadībai\n→ Seko savai intuīcijai\n→ Vērsies uz iekšu</string>
+    <string name="karmic_detail_8">Karmiskā detaļa 8: Spēks un pārpilnība\n→ Atlaid trūkuma domāšanu\n→ Līdzsvaro došanu un saņemšanu\n→ Dziedini attiecības ar varu</string>
+    <string name="karmic_detail_9">Karmiskā detaļa 9: Atlaišana un piedošana\n→ Piedod citiem un sev\n→ Atlaid vecās sāpes\n→ Kalpo kopienai</string>
+    <string name="karmic_detail_10">Karmiskā detaļa 10: Likteņa rats\n→ Pieņem likteni\n→ Atlaid pretestību\n→ Apzināts jauns sākums</string>
+    <string name="karmic_detail_11">Karmiskā detaļa 11: Vīzionārs\n→ Integrē gaismu un ēnu\n→ Pieņem garīgo līderību\n→ Esi iedvesma citiem</string>
+    <string name="karmic_detail_12">Karmiskā detaļa 12: Perspektīvas maiņa\n→ Kalpo bez upura lomas\n→ Skaties no jauna skatpunkta\n→ Gudrība caur nodošanos</string>
+    <string name="karmic_detail_13">Karmiskā detaļa 13: Ego un transformācija\n→ Atlaid lepnumu un stūrgalvību\n→ Pazemība nezaudējot sevi\n→ Transformācija caur darbu un fokusu</string>
+    <string name="karmic_detail_14">Karmiskā detaļa 14: Atkarību atlaišana\n→ Brīvība bailēs balstītu saišu vietā\n→ Atrodi mērenību\n→ Stiprini emocionālo neatkarību</string>
+    <string name="karmic_detail_15">Karmiskā detaļa 15: Apzināta atlaišana\n→ Atpazīsti saites, kas kavē izaugsmi\n→ Praktizē apzinātu atlaišanu\n→ Uzticies jaunam sākumam</string>
+    <string name="karmic_detail_16">Karmiskā detaļa 16: Atmoda un autentiskums\n→ Vecās struktūras sabrūk\n→ Atrodi patieso sevi\n→ Ilūzijas izzūd</string>
+    <string name="karmic_detail_17">Karmiskā detaļa 17: Garīgā autoritāte\n→ Uzticies savai iekšējai gudrībai\n→ Vadi bez ego\n→ Panākumi caur godīgumu</string>
+    <string name="karmic_detail_18">Karmiskā detaļa 18: Emocionālā skaidrība\n→ Pārvērt ilūziju patiesībā\n→ Dziedini vecos modeļus\n→ Līdzjūtība bez pašupurēšanās</string>
+    <string name="karmic_detail_19">Karmiskā detaļa 19: Pašvērtība un spēks\n→ Nedefinē sevi tikai caur sasniegumiem\n→ Dziedini varas un bezspēcības tēmas\n→ Mācies pieņemt palīdzību</string>
+    <string name="karmic_detail_20">Karmiskā detaļa 20: Atmoda un spriedums\n→ Pacietība un augstāka izpratne\n→ Garīgā diplomātija</string>
+    <string name="karmic_detail_21">Karmiskā detaļa 21: Pasaules izpausme\n→ Panākumi pēc ilga ceļa\n→ Pretstatu integrācija\n→ Ārējā piepildījuma noslēgums</string>
+    <string name="karmic_detail_22">Karmiskā detaļa 22: Būvētājs\n→ Realizē lielus sapņus\n→ Uzņemies atbildību par talantiem\n→ Kalpo nezaudējot sevi</string>
+    <string name="karmic_detail_23">Karmiskā detaļa 23: Karaliskais lauva\n→ Aizsardzība un panākumi\n→ Brīva izpausme\n→ Saglabā elastību</string>
+    <string name="karmic_detail_24">Karmiskā detaļa 24: Sirds dziedināšana\n→ Pabeidz un atlaid dvēseles līgumus\n→ Mīlestība un kalpošana\n→ Emocionāla stabilitāte</string>
+    <string name="karmic_detail_25">Karmiskā detaļa 25: Iekšējā bērna dziedināšana\n→ Klausies klusajās vajadzībās\n→ Tuvojies ar mīlestību un rūpēm\n→ Integrē dziedināšanu</string>
+    <string name="karmic_detail_26">Karmiskā detaļa 26: Apzināta elpošana\n→ Apzinies savu elpu\n→ Izmanto to kā enkuru\n→ Skati elpu kā enerģijas spoguli</string>
+    <string name="karmic_detail_27">Karmiskā detaļa 27: Kalpošana kopumam\n→ Dziedini ne tikai sevi\n→ Radi pozitīvu ietekmi\n→ Garīga atziņa</string>
+    <string name="karmic_detail_28">Karmiskā detaļa 28: Konflikta transformācija\n→ Skati konfliktu kā mācību iespēju\n→ Maini perspektīvu\n→ Radi harmoniju caur integrāciju</string>
+    <string name="karmic_detail_29">Karmiskā detaļa 29: Pašrealizācija caur radošumu\n→ Atļauj sev radīt\n→ Izmanto radošumu kā patiesu izpausmi\n→ Dalies un iedvesmo</string>
+    <string name="karmic_detail_30">Karmiskā detaļa 30: Radoša izpausme\n→ Ļauj emocijām plūst\n→ Prieks kā ceļvedis\n→ Emocijas ir skolotāji</string>
+    <string name="karmic_detail_31">Karmiskā detaļa 31: Iekšējā stabilitāte\n→ Aicinājums nevis pienākums\n→ Neslēp savas dāvanas\n→ Ienes kārtību haosā</string>
+    <string name="karmic_detail_32">Karmiskā detaļa 32: Pateicības enerģija\n→ Ikdienā kop pateicību\n→ Maini skatījumu caur pateicību\n→ Pievilc pārpilnību</string>
+    <string name="karmic_detail_33">Karmiskā detaļa 33: Meistars skolotājs\n→ Universāla dziedinoša mīlestība\n→ Līdzjūtība bez ciešanām\n→ Kalpošana cilvēcei</string>
 
-    <!-- Karmische Details -->
-    <string name="karmic_detail_1">Karmiskā detaļa 1: personīgā atbildība\n→ Pārstāj meklēt vainu ārpusē\n→ Atzīsti: es esmu savas dzīves līdzradītājs\n→ Drosme iet savu ceļu</string>
-    <string name="karmic_detail_2">Karmiskā detaļa 2: attiecības &amp; spogulis\n→ Atpazīsti spoguļa likumu: citi rāda neatrisinātas daļas\n→ Diplomātija, nezaudējot sevi\n→ Saglabā pacietību</string>
-    <string name="karmic_detail_3">Karmiskā detaļa 3: autentiskums &amp; izpausme\n→ Dzīvo savu patiesību\n→ Atlaid maskas un lomas\n→ Radoši izpaud emocijas</string>
-    <string name="karmic_detail_4">Karmiskā detaļa 4: pacietība &amp; uzticēšanās\n→ Nespied visu ar varu\n→ Uzticies dievišķajam laikam\n→ Radi stabilitāti caur kārtību</string>
-    <string name="karmic_detail_5">Karmiskā detaļa 5: baiļu transformācija\n→ Drosme bēgšanas vietā\n→ Pārveido bailes no zaudējuma vai trūkuma\n→ Brīvība caur atbildību</string>
-    <string name="karmic_detail_6">Karmiskā detaļa 6: mīlestība &amp; robežas\n→ Beznosacījumu mīlestība bez īpašnieciskuma\n→ Saki “nē” bez vainas sajūtas\n→ Neupurē sevi</string>
-    <string name="karmic_detail_7">Karmiskā detaļa 7: uzticēšanās &amp; vadība\n→ Uzticies garīgajai vadībai\n→ Seko intuīcijai un pamani zīmes\n→ Iekšēja vērošana ārējas kontroles vietā</string>
-    <string name="karmic_detail_8">Karmiskā detaļa 8: vara &amp; pārpilnība\n→ Atlaid trūkuma apziņu\n→ Došanas un saņemšanas līdzsvars\n→ Dziedini varu (bez manipulācijas)</string>
-    <string name="karmic_detail_9">Karmiskā detaļa 9: atlaišana &amp; piedošana\n→ Piedod citiem un sev\n→ Atlaid vecas rētas\n→ Kalpo kopienai</string>
-    <string name="karmic_detail_10">Karmiskā detaļa 10: likteņa rats\n→ Pieņem likteni\n→ Atlaid pretestību\n→ Uzdrīksties apzinātam jaunam sākumam</string>
-    <string name="karmic_detail_11">Karmiskā detaļa 11: vizionārs\n→ Integrē dualitāti (gaisma &amp; ēna)\n→ Pieņem garīgo vadību\n→ Esi iedvesma citiem</string>
-    <string name="karmic_detail_12">Karmiskā detaļa 12: skatpunkta maiņa\n→ Kalpo bez upura lomas\n→ Skaties uz lietām no jauna skatpunkta\n→ Gudrība caur atlaišanu</string>
-    <string name="karmic_detail_13">Karmiskā detaļa 13: ego &amp; transformācija\n→ Atlaid ego (lepnumu, taisnības meklēšanu)\n→ Praktizē pazemību, nezaudējot sevi\n→ Transformācija caur darbu un fokusu</string>
-    <string name="karmic_detail_14">Karmiskā detaļa 14: atkarību atlaišana\n→ Brīvība baiļu vadītas pieķeršanās vietā\n→ Atrodi mērenību\n→ Stiprini emocionālo neatkarību</string>
-    <string name="karmic_detail_16">Karmiskā detaļa 16: atmošanās &amp; autentiskums\n→ Vecās struktūras sabrūk\n→ Atrodi patieso autentiskumu\n→ Ilūzijas krīt</string>
-    <string name="karmic_detail_19">Karmiskā detaļa 19: pašvērtība &amp; vara\n→ Nedefinē sevi tikai caur sasniegumiem\n→ Dziedini varu un bezspēcību\n→ Mācies pieņemt palīdzību</string>
-    <string name="karmic_detail_20">Karmiskā detaļa 20: atmošanās &amp; spriedums\n→ Pacietība un augstāka izpratne\n→ Garīgā diplomātija</string>
-    <string name="karmic_detail_21">Karmiskā detaļa 21: izpausme pasaulē\n→ Panākumi pēc ilga ceļa\n→ Pretstatu integrācija\n→ Piepildījums ārējā pasaulē</string>
-    <string name="karmic_detail_22">Karmiskā detaļa 22: būvētājs\n→ Realizē lielus sapņus\n→ Uzņemies atbildību par saviem talantiem\n→ Kalpo, nezaudējot sevi</string>
-    <string name="karmic_detail_23">Karmiskā detaļa 23: karaliskais lauva\n→ Aizsardzība &amp; panākumi\n→ Izpausmes brīvība\n→ Saglabā elastību</string>
-    <string name="karmic_detail_24">Karmiskā detaļa 24: sirds dziedināšana\n→ Izpildi un atlaid dvēseles līgumus\n→ Mīlestība un kalpošana tuvākajam\n→ Emocionālā stabilitāte</string>
-    <string name="karmic_detail_27">Karmiskā detaļa 27: kalpošana veselumam\n→ Dziedināšana ne tikai sev\n→ Radi ietekmi citiem\n→ Garīgā izpratne</string>
-    <string name="karmic_detail_30">Karmiskā detaļa 30: radoša izpausme\n→ Atļauj emocijām būt (nenomāc)\n→ Prieks kā ceļvedis\n→ Atzīsti emocijas kā skolotājus</string>
-    <string name="karmic_detail_31">Karmiskā detaļa 31: iekšējā stabilitāte\n→ Aicinājums pienākuma vietā\n→ Neslēp savas dāvanas\n→ Ienes kārtību haosā</string>
-    <string name="karmic_detail_33">Karmiskā detaļa 33: meistars-skolotājs\n→ Universāla dziedinoša mīlestība\n→ Līdzjūtība bez ciešanām\n→ Kalpošana cilvēcei</string>
-
-    <!-- Spezifische Zusammenfassungen & Energieflüsse (Kombinationen) -->
-    <string name="summary_default">Tavs galvenais vēstījums ir: klausies savā iekšējā balsī — tu esi vadīts.</string>
-    <string name="energy_flow_default">Skaidrība → Uzticēšanās → Rīcība</string>
-    <string name="summary_99_1">Ļoti nozīmīgs karmiskais cikls ir pilnībā noslēdzies. Tas rada telpu spēcīgam, dievišķi vadītam jaunam sākumam.</string>
-    <string name="energy_flow_99_1">Noslēgums → Atbrīvošanās → Jauns sākums</string>
-    <string name="summary_8_55">Spēcīgas pozitīvas pārmaiņas (dubultā 5) ved tevi uz pārpilnību un materiālu uzlabojumu (8). Izrāviens ir tuvu.</string>
-    <string name="energy_flow_8_55">Izrāviens → Brīvība → Stabilitāte</string>
-    <string name="summary_11_22">Meistaru alianse: vīzija (11) satiekas ar manifestāciju (22). Tev tagad ir spēks pārvērst lielus sapņus realitātē.</string>
-    <string name="energy_flow_11_22">Ideja → Plāns → Realitāte</string>
-    <string name="summary_7_77">Trīskāršs mistisks spēks. Tava saikne ar garīgo pasauli ir ārkārtīgi pastiprināta. Pievērs uzmanību sapņiem un zīmēm.</string>
-    <string name="energy_flow_7_77">Klusums → Atziņa → Atmošanās</string>
-    <string name="summary_4_8">Struktūra (4) veido pamatu lieliem panākumiem (8). Smags darbs tagad finansiāli atmaksājas.</string>
-    <string name="energy_flow_4_8">Disciplīna → Būvēšana → Bagātība</string>
-    <string name="summary_1_9">Sākums un beigas satiekas. Tu aizver vienas durvis, lai nekavējoties atvērtu citas. Strauja pāreja.</string>
-    <string name="energy_flow_1_9">Atlaišana → Drosme → Jauns starts</string>
-    <string name="summary_3_33">Augstākā radošā izpausme. Tavi vārdi vai māksla tagad dziedina citus.</string>
-    <string name="energy_flow_3_33">Prieks → Izpausme → Dziedināšana</string>
+    <!-- Summaries -->
+    <string name="summary_default">Šī skaitļa enerģijas darbojas līdzsvaroti. Apzināti vērojiet savas domas un izvēles – tās veido jūsu realitāti.</string>
+    <string name="summary_master_11">Apgaismība un iedvesma. Iekšējā vadība ir īpaši spēcīga.</string>
+    <string name="summary_master_22">Vīzija kļūst par realitāti caur sakārtotu rīcību.</string>
+    <string name="summary_master_33">Universāla mīlestība un dziedināšana.</string>
+    <string name="summary_master_44">Stabilitāte un aizsardzība.</string>
+    <string name="summary_master_55">Radikāla transformācija.</string>
+    <string name="summary_master_66">Sirds atvēršanās un atbildība.</string>
+    <string name="summary_master_77">Garīgā atmoda.</string>
+    <string name="summary_master_88">Spēks un pārpilnība.</string>
+    <string name="summary_master_99">Noslēgums un karmiskā brieduma sasniegšana.</string>
+    <string name="summary_multi_master">Vairākas meistara enerģijas darbojas vienlaikus. Spēcīgs un intensīvs posms.</string>
+    <string name="summary_repeat_0">Pastiprināta pirmatnējā enerģija. Domām un nodomiem ir liels spēks.</string>
+    <string name="summary_repeat_1">Spēcīga līderības enerģija.</string>
+    <string name="summary_repeat_2">Pastiprināta attiecību enerģija.</string>
+    <string name="summary_repeat_3">Spēcīga radošā izpausme.</string>
+    <string name="summary_repeat_4">Intensīva struktūras enerģija.</string>
+    <string name="summary_repeat_5">Spēcīga pārmaiņu enerģija.</string>
+    <string name="summary_repeat_6">Pastiprināta sirds enerģija.</string>
+    <string name="summary_repeat_7">Dziļa garīgā enerģija.</string>
+    <string name="summary_repeat_8">Spēcīga manifestācijas enerģija.</string>
+    <string name="summary_repeat_9">Intensīva noslēguma enerģija.</string>
+    <string name="summary_1">Jauns sākums un līderība – ir laiks rīkoties.</string>
+    <string name="summary_2">Līdzsvars un savienojums – harmonija caur došanu un saņemšanu.</string>
+    <string name="summary_3">Radošums un izpausme – ļauj savām idejām mirdzēt.</string>
+    <string name="summary_4">Stabilitāte un struktūra – kārtība rada drošību.</string>
+    <string name="summary_5">Pārmaiņas un brīvība – saglabā elastību.</string>
+    <string name="summary_6">Mīlestība un atbildība – sirds rāda ceļu.</string>
+    <string name="summary_7">Intuīcija un atmoda – uzticies iekšējai balsij.</string>
+    <string name="summary_8">Panākumi un pārpilnība – rezultāti materializējas.</string>
+    <string name="summary_9">Noslēgums un atlaišana – sākas jauns cikls.</string>
 </resources>

@@ -1,74 +1,53 @@
 <resources>
     <!-- =====================================================
-         Resonance – General labels (shared)
+         Rezonanță – Etichete generale (comune)
     ====================================================== -->
-    <string name="resonance_prefix">🔮</string>
-    <string name="resonance_focus_none">Focus: echilibrat (fără dublări directe)</string>
-    <string name="resonance_focus_frame">Focus: început și sfârșit (temă de cadru)</string>
-    <string name="resonance_focus_center">Focus: centru (impuls central)</string>
-    <string name="resonance_focus_start">Focus: început (identitate / fază inițială)</string>
-    <string name="resonance_focus_end">Focus: sfârșit (rezultat / pas următor)</string>
+    <string name="resonance_focus_none">Focalizare: distribuit uniform (fără repetiții directe)</string>
+    <string name="resonance_focus_frame">Focalizare: început &amp; sfârșit (temă de cadru)</string>
+    <string name="resonance_focus_center">Focalizare: centru (impuls central)</string>
+    <string name="resonance_focus_start">Focalizare: început (identitate / fază inițială)</string>
+    <string name="resonance_focus_end">Focalizare: sfârșit (rezultat / pas următor)</string>
 
     <!-- =====================================================
-         Resonance (4-digit) – IDs
+         Rezonanță (4 cifre) – Titluri
     ====================================================== -->
-    <string name="resonance4_id_mono">R4_MONO</string>
-    <string name="resonance4_id_aabb">R4_AABB</string>
-    <string name="resonance4_id_abab">R4_ABAB</string>
-    <string name="resonance4_id_abba">R4_ABBA</string>
-    <string name="resonance4_id_abcd">R4_ABCD</string>
-    <string name="resonance4_id_none">R4_NONE</string>
+    <string name="resonance4_title_mono">🔮 Model de Rezonanță (4): Monotip</string>
+    <string name="resonance4_title_aabb">🔮 Model de Rezonanță (4): Două faze</string>
+    <string name="resonance4_title_abab">🔮 Model de Rezonanță (4): Alternanță</string>
+    <string name="resonance4_title_abba">🔮 Model de Rezonanță (4): Oglindă</string>
+    <string name="resonance4_title_abcd">🔮 Model de Rezonanță (4): Distribuție uniformă</string>
+    <string name="resonance4_title_none">🔮 Model de Rezonanță: Combinație liberă</string>
 
     <!-- =====================================================
-         Resonance (4-digit) – Titles
-    ====================================================== -->
-    <string name="resonance4_title_mono">Model de Rezonanță (4): Monotip</string>
-    <string name="resonance4_title_aabb">Model de Rezonanță (4): Două Faze</string>
-    <string name="resonance4_title_abab">Model de Rezonanță (4): Alternanță</string>
-    <string name="resonance4_title_abba">Model de Rezonanță (4): Oglindă</string>
-    <string name="resonance4_title_abcd">Model de Rezonanță (4): Distribuție Uniformă</string>
-    <string name="resonance4_title_none">Model de Rezonanță: Combinație Liberă</string>
-
-    <!-- =====================================================
-         Resonance (4-digit) – Short meanings
+         Rezonanță (4 cifre) – Semnificații scurte
     ====================================================== -->
     <string name="resonance4_meaning_mono">Amplificare maximă – o temă domină complet.</string>
-    <string name="resonance4_meaning_aabb">Tranziție clară – faza A este urmată de faza B.</string>
+    <string name="resonance4_meaning_aabb">Tranziție clară – faza A este înlocuită de faza B.</string>
     <string name="resonance4_meaning_abab">Tensiune între doi poli – ritm, echilibru, decizie.</string>
-    <string name="resonance4_meaning_abba">Oglindire – înțelegere prin reflecție interioară și exterioară.</string>
-    <string name="resonance4_meaning_abcd">Flux echilibrat – fără repetare, energie neutră și deschisă.</string>
+    <string name="resonance4_meaning_abba">Reflecție – conștientizare prin oglindire interioară și exterioară.</string>
+    <string name="resonance4_meaning_abcd">Flux uniform – fără repetiție, energie deschisă și neutră.</string>
     <string name="resonance4_meaning_none">Fără model dominant – energia este combinată liber și deschisă.</string>
+    <string name="resonance4_meaning_ababab">Tensiune între doi poli – ritmul, echilibrul și decizia conștientă modelează această energie.</string>
 
     <!-- =====================================================
-         Resonance (6-digit) – IDs
+         Rezonanță (6 cifre) – Titluri
     ====================================================== -->
-    <string name="resonance6_id_mono">R6_MONO</string>
-    <string name="resonance6_id_aaabbb">R6_AAABBB</string>
-    <string name="resonance6_id_aabbcc">R6_AABBCC</string>
-    <string name="resonance6_id_ababab">R6_ABABAB</string>
-    <string name="resonance6_id_abcabc">R6_ABCABC</string>
-    <string name="resonance6_id_mirror">R6_MIRROR</string>
-    <string name="resonance6_id_none">R6_NONE</string>
+    <string name="resonance6_title_mono">🔮 Model de Rezonanță (6): Monotip</string>
+    <string name="resonance6_title_aaabbb">🔮 Model de Rezonanță (6): Tranziție</string>
+    <string name="resonance6_title_aabbcc">🔮 Model de Rezonanță (6): Proces etapizat</string>
+    <string name="resonance6_title_ababab">🔮 Model de Rezonanță (6): Alternanță / Pendul</string>
+    <string name="resonance6_title_abcabc">🔮 Model de Rezonanță (6): Ciclu</string>
+    <string name="resonance6_title_mirror">🔮 Model de Rezonanță (6): Oglindă</string>
+    <string name="resonance6_title_none">🔮 Model de Rezonanță: Combinație liberă</string>
 
     <!-- =====================================================
-         Resonance (6-digit) – Titles
-    ====================================================== -->
-    <string name="resonance6_title_mono">Model de Rezonanță (6): Monotip</string>
-    <string name="resonance6_title_aaabbb">Model de Rezonanță (6): Tranziție</string>
-    <string name="resonance6_title_aabbcc">Model de Rezonanță (6): Proces în Etape</string>
-    <string name="resonance6_title_ababab">Model de Rezonanță (6): Alternanță / Pendul</string>
-    <string name="resonance6_title_abcabc">Model de Rezonanță (6): Ciclu</string>
-    <string name="resonance6_title_mirror">Model de Rezonanță (6): Oglindă</string>
-    <string name="resonance6_title_none">Model de Rezonanță: Combinație Liberă</string>
-
-    <!-- =====================================================
-         Resonance (6-digit) – Short meanings
+         Rezonanță (6 cifre) – Semnificații scurte
     ====================================================== -->
     <string name="resonance6_meaning_mono">Amplificare maximă – o temă domină puternic (binecuvântare sau fixare).</string>
     <string name="resonance6_meaning_aaabbb">Schimbare clară: faza A → faza B (încheiere și nou început).</string>
     <string name="resonance6_meaning_aabbcc">Dezvoltare în etape – învățare și integrare pas cu pas.</string>
-    <string name="resonance6_meaning_ababab">Tensiune între doi poli – echilibru, decizie, găsirea ritmului.</string>
-    <string name="resonance6_meaning_abcabc">Temă recurentă – rutină, ciclu, conștientizare prin repetare.</string>
-    <string name="resonance6_meaning_mirror">Feedback – înțelegere prin oglindire (interior / exterior).</string>
+    <string name="resonance6_meaning_ababab">Tensiune între doi poli – găsește echilibrul, decizia și ritmul.</string>
+    <string name="resonance6_meaning_abcabc">Temă recurentă – rutină, ciclu, conștientizare prin repetiție.</string>
+    <string name="resonance6_meaning_mirror">Feedback – conștientizare prin oglindire (interior/exterior).</string>
     <string name="resonance6_meaning_none">Fără model dominant – energia este combinată liber și deschisă.</string>
 </resources>

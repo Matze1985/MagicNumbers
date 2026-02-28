@@ -1,74 +1,53 @@
 <resources>
     <!-- =====================================================
-         Resonance – General labels (shared)
+         תהודה – תוויות כלליות (משותפות)
     ====================================================== -->
-    <string name="resonance_prefix">🔮</string>
-    <string name="resonance_focus_none">מיקוד: מאוזן (ללא כפילויות ישירות)</string>
-    <string name="resonance_focus_frame">מיקוד: התחלה וסוף (נושא מסגרת)</string>
+    <string name="resonance_focus_none">מיקוד: מפוזר באופן שווה (ללא חזרות ישירות)</string>
+    <string name="resonance_focus_frame">מיקוד: התחלה &amp; סוף (נושא מסגרת)</string>
     <string name="resonance_focus_center">מיקוד: מרכז (דחף ליבה)</string>
-    <string name="resonance_focus_start">מיקוד: התחלה (זהות / שלב התחלתי)</string>
-    <string name="resonance_focus_end">מיקוד: סוף (תוצאה / הצעד הבא)</string>
+    <string name="resonance_focus_start">מיקוד: התחלה (זהות / שלב פתיחה)</string>
+    <string name="resonance_focus_end">מיקוד: סוף (תוצאה / צעד הבא)</string>
 
     <!-- =====================================================
-         Resonance (4-digit) – IDs
+         תהודה (4 ספרות) – כותרות
     ====================================================== -->
-    <string name="resonance4_id_mono">R4_MONO</string>
-    <string name="resonance4_id_aabb">R4_AABB</string>
-    <string name="resonance4_id_abab">R4_ABAB</string>
-    <string name="resonance4_id_abba">R4_ABBA</string>
-    <string name="resonance4_id_abcd">R4_ABCD</string>
-    <string name="resonance4_id_none">R4_NONE</string>
+    <string name="resonance4_title_mono">🔮 דפוס תהודה (4): מונוטיפ</string>
+    <string name="resonance4_title_aabb">🔮 דפוס תהודה (4): שני שלבים</string>
+    <string name="resonance4_title_abab">🔮 דפוס תהודה (4): החלפה</string>
+    <string name="resonance4_title_abba">🔮 דפוס תהודה (4): מראה</string>
+    <string name="resonance4_title_abcd">🔮 דפוס תהודה (4): חלוקה שווה</string>
+    <string name="resonance4_title_none">🔮 דפוס תהודה: שילוב חופשי</string>
 
     <!-- =====================================================
-         Resonance (4-digit) – Titles
-    ====================================================== -->
-    <string name="resonance4_title_mono">דפוס תהודה (4): מונוטיפ</string>
-    <string name="resonance4_title_aabb">דפוס תהודה (4): שתי פאזות</string>
-    <string name="resonance4_title_abab">דפוס תהודה (4): חילוף</string>
-    <string name="resonance4_title_abba">דפוס תהודה (4): מראה</string>
-    <string name="resonance4_title_abcd">דפוס תהודה (4): פיזור אחיד</string>
-    <string name="resonance4_title_none">דפוס תהודה: שילוב חופשי</string>
-
-    <!-- =====================================================
-         Resonance (4-digit) – Short meanings
+         תהודה (4 ספרות) – משמעויות קצרות
     ====================================================== -->
     <string name="resonance4_meaning_mono">הגברה מרבית – נושא אחד שולט לחלוטין.</string>
-    <string name="resonance4_meaning_aabb">מעבר ברור – פאזה A מתחלפת בפאזה B.</string>
+    <string name="resonance4_meaning_aabb">מעבר ברור – שלב A מוחלף בשלב B.</string>
     <string name="resonance4_meaning_abab">מתח בין שני קטבים – קצב, איזון, החלטה.</string>
     <string name="resonance4_meaning_abba">שיקוף – תובנה דרך השתקפות פנימית וחיצונית.</string>
-    <string name="resonance4_meaning_abcd">זרימה מאוזנת – ללא חזרות, אנרגיה פתוחה וניטרלית.</string>
+    <string name="resonance4_meaning_abcd">זרימה אחידה – ללא חזרות, אנרגיה פתוחה ונייטרלית.</string>
     <string name="resonance4_meaning_none">אין דפוס דומיננטי – האנרגיה משולבת בחופשיות ופתוחה.</string>
+    <string name="resonance4_meaning_ababab">מתח בין שני קטבים – קצב, איזון והחלטה מודעת מעצבים אנרגיה זו.</string>
 
     <!-- =====================================================
-         Resonance (6-digit) – IDs
+         תהודה (6 ספרות) – כותרות
     ====================================================== -->
-    <string name="resonance6_id_mono">R6_MONO</string>
-    <string name="resonance6_id_aaabbb">R6_AAABBB</string>
-    <string name="resonance6_id_aabbcc">R6_AABBCC</string>
-    <string name="resonance6_id_ababab">R6_ABABAB</string>
-    <string name="resonance6_id_abcabc">R6_ABCABC</string>
-    <string name="resonance6_id_mirror">R6_MIRROR</string>
-    <string name="resonance6_id_none">R6_NONE</string>
+    <string name="resonance6_title_mono">🔮 דפוס תהודה (6): מונוטיפ</string>
+    <string name="resonance6_title_aaabbb">🔮 דפוס תהודה (6): מעבר</string>
+    <string name="resonance6_title_aabbcc">🔮 דפוס תהודה (6): תהליך בשלבים</string>
+    <string name="resonance6_title_ababab">🔮 דפוס תהודה (6): החלפה / מטוטלת</string>
+    <string name="resonance6_title_abcabc">🔮 דפוס תהודה (6): מחזור</string>
+    <string name="resonance6_title_mirror">🔮 דפוס תהודה (6): מראה</string>
+    <string name="resonance6_title_none">🔮 דפוס תהודה: שילוב חופשי</string>
 
     <!-- =====================================================
-         Resonance (6-digit) – Titles
-    ====================================================== -->
-    <string name="resonance6_title_mono">דפוס תהודה (6): מונוטיפ</string>
-    <string name="resonance6_title_aaabbb">דפוס תהודה (6): מעבר</string>
-    <string name="resonance6_title_aabbcc">דפוס תהודה (6): תהליך מדורג</string>
-    <string name="resonance6_title_ababab">דפוס תהודה (6): חילוף / תנודה</string>
-    <string name="resonance6_title_abcabc">דפוס תהודה (6): מחזור</string>
-    <string name="resonance6_title_mirror">דפוס תהודה (6): מראה</string>
-    <string name="resonance6_title_none">דפוס תהודה: שילוב חופשי</string>
-
-    <!-- =====================================================
-         Resonance (6-digit) – Short meanings
+         תהודה (6 ספרות) – משמעויות קצרות
     ====================================================== -->
     <string name="resonance6_meaning_mono">הגברה מרבית – נושא אחד שולט בעוצמה (ברכה או קיבעון).</string>
-    <string name="resonance6_meaning_aaabbb">שינוי ברור: פאזה A → פאזה B (סיום והתחלה חדשה).</string>
+    <string name="resonance6_meaning_aaabbb">שינוי ברור: שלב A → שלב B (סיום והתחלה חדשה).</string>
     <string name="resonance6_meaning_aabbcc">התפתחות בשלבים – למידה ואינטגרציה צעד אחר צעד.</string>
-    <string name="resonance6_meaning_ababab">מתח בין שני קטבים – איזון, החלטה ומציאת קצב.</string>
+    <string name="resonance6_meaning_ababab">מתח בין שני קטבים – מצא איזון, החלטה וקצב.</string>
     <string name="resonance6_meaning_abcabc">נושא חוזר – שגרה, לולאה, מודעות דרך חזרה.</string>
-    <string name="resonance6_meaning_mirror">משוב – תובנה דרך השתקפות (פנימי / חיצוני).</string>
+    <string name="resonance6_meaning_mirror">משוב – תובנה דרך שיקוף (פנים/חוץ).</string>
     <string name="resonance6_meaning_none">אין דפוס דומיננטי – האנרגיה משולבת בחופשיות ופתוחה.</string>
 </resources>

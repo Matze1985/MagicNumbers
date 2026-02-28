@@ -1,0 +1,59 @@
+<resources>
+    <!-- Default -->
+    <string name="energy_default">Klarheit → Vertrauen → Handlung</string>
+
+    <!-- Hauptzahlen -->
+    <string name="energy_core_1">Impuls → Entscheidung → Neubeginn</string>
+    <string name="energy_core_2">Begegnung → Ausgleich → Harmonie</string>
+    <string name="energy_core_3">Erfahrung → Ausdruck → Wachstum</string>
+    <string name="energy_core_4">Ordnung → Aufbau → Stabilität</string>
+    <string name="energy_core_5">Bewegung → Veränderung → Freiheit</string>
+    <string name="energy_core_6">Fürsorge → Heilung → Harmonie</string>
+    <string name="energy_core_7">Klarheit → Innere Führung → Erkenntnis</string>
+    <string name="energy_core_8">Fokus → Handlung → Erfolg</string>
+    <string name="energy_core_9">Abschluss → Loslassen → Transformation</string>
+
+    <!-- Grundzahlen -->
+    <string name="energy_0">Quelle → Bewusstheit → Neubeginn</string>
+    <string name="energy_1">Impuls → Entscheidung → Neubeginn</string>
+    <string name="energy_2">Begegnung → Balance → Harmonie</string>
+    <string name="energy_3">Erfahrung → Ausdruck → Wachstum</string>
+    <string name="energy_4">Ordnung → Struktur → Stabilität</string>
+    <string name="energy_5">Bewegung → Veränderung → Freiheit</string>
+    <string name="energy_6">Fürsorge → Heilung → Harmonie</string>
+    <string name="energy_7">Klarheit → Innere Führung → Erwachen</string>
+    <string name="energy_8">Fokus → Handlung → Erfolg</string>
+    <string name="energy_9">Abschluss → Loslassen → Transformation</string>
+
+    <!-- Dominante Wiederholungen -->
+    <string name="energy_repeat_0">Ursprung → Potenzial → Schöpfung</string>
+    <string name="energy_repeat_1">Impuls → Entscheidung → Initiative</string>
+    <string name="energy_repeat_2">Verbindung → Ausgleich → Harmonie</string>
+    <string name="energy_repeat_3">Freude → Ausdruck → Wachstum</string>
+    <string name="energy_repeat_4">Ordnung → Stabilität → Fundament</string>
+    <string name="energy_repeat_5">Bewegung → Veränderung → Freiheit</string>
+    <string name="energy_repeat_6">Fürsorge → Heilung → Harmonie</string>
+    <string name="energy_repeat_7">Stille → Innere Führung → Erwachen</string>
+    <string name="energy_repeat_8">Macht → Fülle → Erfolg</string>
+    <string name="energy_repeat_9">Abschluss → Loslassen → Transformation</string>
+
+    <!-- Meisterzahlen -->
+    <string name="energy_11">Inspiration → Bewusstsein → Erleuchtung</string>
+    <string name="energy_22">Vision → Struktur → Manifestation</string>
+    <string name="energy_33">Liebe → Ausdruck → Heilung</string>
+    <string name="energy_44">Disziplin → Stabilität → Meisterschaft</string>
+
+    <!-- Erweiterte Doppelzahlen -->
+    <string name="energy_55">Bewegung → Befreiung → Durchbruch</string>
+    <string name="energy_66">Herzöffnung → Verantwortung → Harmonie</string>
+    <string name="energy_77">Stille → Innere Weisheit → Erwachen</string>
+    <string name="energy_88">Macht → Fülle → Manifestation</string>
+    <string name="energy_99">Vollendung → Loslassen → Erneuerung</string>
+
+    <!-- Meisterzahlen -->
+    <string name="energy_master_11">Inspiration → Bewusstsein → Erleuchtung</string>
+    <string name="energy_master_22">Vision → Struktur → Manifestation</string>
+    <string name="energy_master_33">Liebe → Ausdruck → Heilung</string>
+    <string name="energy_master_44">Disziplin → Stabilität → Meisterschaft</string>
+    <string name="energy_multi_master">Innere Führung → Bewusste Manifestation → Spirituelle Wirkung</string>
+</resources>

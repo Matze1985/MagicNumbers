@@ -1,74 +1,53 @@
 <resources>
     <!-- =====================================================
-         Resonance – General labels (shared)
+         Rezonancia – Általános címkék (közös)
     ====================================================== -->
-    <string name="resonance_prefix">🔮</string>
-    <string name="resonance_focus_none">Fókusz: kiegyensúlyozott (nincsenek közvetlen ismétlődések)</string>
-    <string name="resonance_focus_frame">Fókusz: kezdet és vég (keret-téma)</string>
-    <string name="resonance_focus_center">Fókusz: középpont (mag-impulzus)</string>
-    <string name="resonance_focus_start">Fókusz: kezdet (identitás / indulási szakasz)</string>
+    <string name="resonance_focus_none">Fókusz: egyenletes eloszlás (nincs közvetlen ismétlődés)</string>
+    <string name="resonance_focus_frame">Fókusz: kezdet &amp; vég (kerettéma)</string>
+    <string name="resonance_focus_center">Fókusz: középpont (alapimpulzus)</string>
+    <string name="resonance_focus_start">Fókusz: kezdet (identitás / induló szakasz)</string>
     <string name="resonance_focus_end">Fókusz: vég (eredmény / következő lépés)</string>
 
     <!-- =====================================================
-         Resonance (4-digit) – IDs
+         Rezonancia (4 számjegy) – Címek
     ====================================================== -->
-    <string name="resonance4_id_mono">R4_MONO</string>
-    <string name="resonance4_id_aabb">R4_AABB</string>
-    <string name="resonance4_id_abab">R4_ABAB</string>
-    <string name="resonance4_id_abba">R4_ABBA</string>
-    <string name="resonance4_id_abcd">R4_ABCD</string>
-    <string name="resonance4_id_none">R4_NONE</string>
+    <string name="resonance4_title_mono">🔮 Rezonanciaminta (4): Monotípus</string>
+    <string name="resonance4_title_aabb">🔮 Rezonanciaminta (4): Két fázis</string>
+    <string name="resonance4_title_abab">🔮 Rezonanciaminta (4): Váltakozás</string>
+    <string name="resonance4_title_abba">🔮 Rezonanciaminta (4): Tükör</string>
+    <string name="resonance4_title_abcd">🔮 Rezonanciaminta (4): Egyenletes eloszlás</string>
+    <string name="resonance4_title_none">🔮 Rezonanciaminta: Szabad kombináció</string>
 
     <!-- =====================================================
-         Resonance (4-digit) – Titles
+         Rezonancia (4 számjegy) – Rövid jelentések
     ====================================================== -->
-    <string name="resonance4_title_mono">Rezonanciaminta (4): Monotípus</string>
-    <string name="resonance4_title_aabb">Rezonanciaminta (4): Két fázis</string>
-    <string name="resonance4_title_abab">Rezonanciaminta (4): Váltakozás</string>
-    <string name="resonance4_title_abba">Rezonanciaminta (4): Tükör</string>
-    <string name="resonance4_title_abcd">Rezonanciaminta (4): Egyenletes eloszlás</string>
-    <string name="resonance4_title_none">Rezonanciaminta: Szabad kombináció</string>
-
-    <!-- =====================================================
-         Resonance (4-digit) – Short meanings
-    ====================================================== -->
-    <string name="resonance4_meaning_mono">Maximális erősítés – egy téma teljesen dominál.</string>
-    <string name="resonance4_meaning_aabb">Tiszta átmenet – az A fázist a B fázis követi.</string>
+    <string name="resonance4_meaning_mono">Maximális erősítés – egy téma teljesen uralkodik.</string>
+    <string name="resonance4_meaning_aabb">Világos átmenet – az A fázist a B fázis váltja fel.</string>
     <string name="resonance4_meaning_abab">Feszültség két pólus között – ritmus, egyensúly, döntés.</string>
-    <string name="resonance4_meaning_abba">Tükröződés – felismerés belső és külső reflexió által.</string>
-    <string name="resonance4_meaning_abcd">Egyenletes áramlás – nincs ismétlődés, nyitott semleges energia.</string>
+    <string name="resonance4_meaning_abba">Tükröződés – felismerés belső és külső visszatükröződés által.</string>
+    <string name="resonance4_meaning_abcd">Egyenletes áramlás – nincs ismétlés, nyitott és semleges energia.</string>
     <string name="resonance4_meaning_none">Nincs domináns minta – az energia szabadon kombinált és nyitott.</string>
+    <string name="resonance4_meaning_ababab">Feszültség két pólus között – ritmus, egyensúly és tudatos döntés formálja ezt az energiát.</string>
 
     <!-- =====================================================
-         Resonance (6-digit) – IDs
+         Rezonancia (6 számjegy) – Címek
     ====================================================== -->
-    <string name="resonance6_id_mono">R6_MONO</string>
-    <string name="resonance6_id_aaabbb">R6_AAABBB</string>
-    <string name="resonance6_id_aabbcc">R6_AABBCC</string>
-    <string name="resonance6_id_ababab">R6_ABABAB</string>
-    <string name="resonance6_id_abcabc">R6_ABCABC</string>
-    <string name="resonance6_id_mirror">R6_MIRROR</string>
-    <string name="resonance6_id_none">R6_NONE</string>
+    <string name="resonance6_title_mono">🔮 Rezonanciaminta (6): Monotípus</string>
+    <string name="resonance6_title_aaabbb">🔮 Rezonanciaminta (6): Átmenet</string>
+    <string name="resonance6_title_aabbcc">🔮 Rezonanciaminta (6): Lépcsőzetes folyamat</string>
+    <string name="resonance6_title_ababab">🔮 Rezonanciaminta (6): Váltakozás / Inga</string>
+    <string name="resonance6_title_abcabc">🔮 Rezonanciaminta (6): Ciklus</string>
+    <string name="resonance6_title_mirror">🔮 Rezonanciaminta (6): Tükör</string>
+    <string name="resonance6_title_none">🔮 Rezonanciaminta: Szabad kombináció</string>
 
     <!-- =====================================================
-         Resonance (6-digit) – Titles
+         Rezonancia (6 számjegy) – Rövid jelentések
     ====================================================== -->
-    <string name="resonance6_title_mono">Rezonanciaminta (6): Monotípus</string>
-    <string name="resonance6_title_aaabbb">Rezonanciaminta (6): Átmenet</string>
-    <string name="resonance6_title_aabbcc">Rezonanciaminta (6): Lépcsőzetes folyamat</string>
-    <string name="resonance6_title_ababab">Rezonanciaminta (6): Váltakozás / inga</string>
-    <string name="resonance6_title_abcabc">Rezonanciaminta (6): Ciklus</string>
-    <string name="resonance6_title_mirror">Rezonanciaminta (6): Tükör</string>
-    <string name="resonance6_title_none">Rezonanciaminta: Szabad kombináció</string>
-
-    <!-- =====================================================
-         Resonance (6-digit) – Short meanings
-    ====================================================== -->
-    <string name="resonance6_meaning_mono">Maximális erősítés – egy téma erősen dominál (áldás vagy rögzülés).</string>
-    <string name="resonance6_meaning_aaabbb">Egyértelmű váltás: A fázis → B fázis (lezárás és újrakezdés).</string>
+    <string name="resonance6_meaning_mono">Maximális erősítés – egy téma erősen uralkodik (áldás vagy rögzülés).</string>
+    <string name="resonance6_meaning_aaabbb">Világos váltás: A fázis → B fázis (lezárás és új kezdet).</string>
     <string name="resonance6_meaning_aabbcc">Fejlődés szakaszokban – tanulás és integráció lépésről lépésre.</string>
-    <string name="resonance6_meaning_ababab">Feszültség két pólus között – egyensúly, döntés, ritmus megtalálása.</string>
-    <string name="resonance6_meaning_abcabc">Visszatérő téma – rutin, körforgás, tudatosodás az ismétlés által.</string>
+    <string name="resonance6_meaning_ababab">Feszültség két pólus között – találd meg az egyensúlyt, döntést és ritmust.</string>
+    <string name="resonance6_meaning_abcabc">Visszatérő téma – rutin, ciklus, tudatosodás ismétlés által.</string>
     <string name="resonance6_meaning_mirror">Visszacsatolás – felismerés tükröződés által (belső/külső).</string>
     <string name="resonance6_meaning_none">Nincs domináns minta – az energia szabadon kombinált és nyitott.</string>
 </resources>

@@ -1,0 +1,59 @@
+<resources>
+    <!-- Default -->
+    <string name="energy_default">Klarhet → Tillit → Handling</string>
+
+    <!-- Kärntal -->
+    <string name="energy_core_1">Impuls → Beslut → Ny början</string>
+    <string name="energy_core_2">Möte → Balans → Harmoni</string>
+    <string name="energy_core_3">Erfarenhet → Uttryck → Tillväxt</string>
+    <string name="energy_core_4">Ordning → Uppbyggnad → Stabilitet</string>
+    <string name="energy_core_5">Rörelse → Förändring → Frihet</string>
+    <string name="energy_core_6">Omsorg → Läkning → Harmoni</string>
+    <string name="energy_core_7">Klarhet → Inre vägledning → Insikt</string>
+    <string name="energy_core_8">Fokus → Handling → Framgång</string>
+    <string name="energy_core_9">Avslut → Att släppa taget → Transformation</string>
+
+    <!-- Grundtal -->
+    <string name="energy_0">Källa → Medvetenhet → Ny början</string>
+    <string name="energy_1">Impuls → Beslut → Ny början</string>
+    <string name="energy_2">Möte → Balans → Harmoni</string>
+    <string name="energy_3">Erfarenhet → Uttryck → Tillväxt</string>
+    <string name="energy_4">Ordning → Struktur → Stabilitet</string>
+    <string name="energy_5">Rörelse → Förändring → Frihet</string>
+    <string name="energy_6">Omsorg → Läkning → Harmoni</string>
+    <string name="energy_7">Klarhet → Inre vägledning → Uppvaknande</string>
+    <string name="energy_8">Fokus → Handling → Framgång</string>
+    <string name="energy_9">Avslut → Att släppa taget → Transformation</string>
+
+    <!-- Dominerande upprepningar -->
+    <string name="energy_repeat_0">Ursprung → Potential → Skapande</string>
+    <string name="energy_repeat_1">Impuls → Beslut → Initiativ</string>
+    <string name="energy_repeat_2">Förbindelse → Balans → Harmoni</string>
+    <string name="energy_repeat_3">Glädje → Uttryck → Tillväxt</string>
+    <string name="energy_repeat_4">Ordning → Stabilitet → Grund</string>
+    <string name="energy_repeat_5">Rörelse → Förändring → Frihet</string>
+    <string name="energy_repeat_6">Omsorg → Läkning → Harmoni</string>
+    <string name="energy_repeat_7">Stillhet → Inre vägledning → Uppvaknande</string>
+    <string name="energy_repeat_8">Kraft → Överflöd → Framgång</string>
+    <string name="energy_repeat_9">Avslut → Att släppa taget → Transformation</string>
+
+    <!-- Mästartal -->
+    <string name="energy_11">Inspiration → Medvetenhet → Upplysning</string>
+    <string name="energy_22">Vision → Struktur → Manifestation</string>
+    <string name="energy_33">Kärlek → Uttryck → Läkning</string>
+    <string name="energy_44">Disciplin → Stabilitet → Mästerskap</string>
+
+    <!-- Utökade dubbeltal -->
+    <string name="energy_55">Rörelse → Befrielse → Genombrott</string>
+    <string name="energy_66">Hjärtöppning → Ansvar → Harmoni</string>
+    <string name="energy_77">Stillhet → Inre visdom → Uppvaknande</string>
+    <string name="energy_88">Kraft → Överflöd → Manifestation</string>
+    <string name="energy_99">Fullbordan → Att släppa taget → Förnyelse</string>
+
+    <!-- Mästartal -->
+    <string name="energy_master_11">Inspiration → Medvetenhet → Upplysning</string>
+    <string name="energy_master_22">Vision → Struktur → Manifestation</string>
+    <string name="energy_master_33">Kärlek → Uttryck → Läkning</string>
+    <string name="energy_master_44">Disciplin → Stabilitet → Mästerskap</string>
+    <string name="energy_multi_master">Inre vägledning → Medveten manifestation → Andlig påverkan</string>
+</resources>

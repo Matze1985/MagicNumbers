@@ -1,0 +1,59 @@
+<resources>
+    <!-- Default -->
+    <string name="energy_default">Chiarezza → Fiducia → Azione</string>
+
+    <!-- Numeri principali -->
+    <string name="energy_core_1">Impulso → Decisione → Nuovo inizio</string>
+    <string name="energy_core_2">Incontro → Equilibrio → Armonia</string>
+    <string name="energy_core_3">Esperienza → Espressione → Crescita</string>
+    <string name="energy_core_4">Ordine → Costruzione → Stabilità</string>
+    <string name="energy_core_5">Movimento → Cambiamento → Libertà</string>
+    <string name="energy_core_6">Cura → Guarigione → Armonia</string>
+    <string name="energy_core_7">Chiarezza → Guida interiore → Comprensione</string>
+    <string name="energy_core_8">Focalizzazione → Azione → Successo</string>
+    <string name="energy_core_9">Conclusione → Lasciare andare → Trasformazione</string>
+
+    <!-- Numeri base -->
+    <string name="energy_0">Fonte → Consapevolezza → Nuovo inizio</string>
+    <string name="energy_1">Impulso → Decisione → Nuovo inizio</string>
+    <string name="energy_2">Incontro → Equilibrio → Armonia</string>
+    <string name="energy_3">Esperienza → Espressione → Crescita</string>
+    <string name="energy_4">Ordine → Struttura → Stabilità</string>
+    <string name="energy_5">Movimento → Cambiamento → Libertà</string>
+    <string name="energy_6">Cura → Guarigione → Armonia</string>
+    <string name="energy_7">Chiarezza → Guida interiore → Risveglio</string>
+    <string name="energy_8">Focalizzazione → Azione → Successo</string>
+    <string name="energy_9">Conclusione → Lasciare andare → Trasformazione</string>
+
+    <!-- Ripetizioni dominanti -->
+    <string name="energy_repeat_0">Origine → Potenziale → Creazione</string>
+    <string name="energy_repeat_1">Impulso → Decisione → Iniziativa</string>
+    <string name="energy_repeat_2">Connessione → Equilibrio → Armonia</string>
+    <string name="energy_repeat_3">Gioia → Espressione → Crescita</string>
+    <string name="energy_repeat_4">Ordine → Stabilità → Fondamento</string>
+    <string name="energy_repeat_5">Movimento → Cambiamento → Libertà</string>
+    <string name="energy_repeat_6">Cura → Guarigione → Armonia</string>
+    <string name="energy_repeat_7">Silenzio → Guida interiore → Risveglio</string>
+    <string name="energy_repeat_8">Potere → Abbondanza → Successo</string>
+    <string name="energy_repeat_9">Conclusione → Lasciare andare → Trasformazione</string>
+
+    <!-- Numeri maestri -->
+    <string name="energy_11">Ispirazione → Consapevolezza → Illuminazione</string>
+    <string name="energy_22">Visione → Struttura → Manifestazione</string>
+    <string name="energy_33">Amore → Espressione → Guarigione</string>
+    <string name="energy_44">Disciplina → Stabilità → Maestria</string>
+
+    <!-- Numeri doppi estesi -->
+    <string name="energy_55">Movimento → Liberazione → Svolta</string>
+    <string name="energy_66">Apertura del cuore → Responsabilità → Armonia</string>
+    <string name="energy_77">Silenzio → Saggezza interiore → Risveglio</string>
+    <string name="energy_88">Potere → Abbondanza → Manifestazione</string>
+    <string name="energy_99">Compimento → Lasciare andare → Rinnovamento</string>
+
+    <!-- Numeri maestri -->
+    <string name="energy_master_11">Ispirazione → Consapevolezza → Illuminazione</string>
+    <string name="energy_master_22">Visione → Struttura → Manifestazione</string>
+    <string name="energy_master_33">Amore → Espressione → Guarigione</string>
+    <string name="energy_master_44">Disciplina → Stabilità → Maestria</string>
+    <string name="energy_multi_master">Guida interiore → Manifestazione consapevole → Impatto spirituale</string>
+</resources>

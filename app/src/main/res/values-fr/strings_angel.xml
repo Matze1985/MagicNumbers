@@ -1,72 +1,97 @@
 <resources>
-    <!-- Sarja 0: Alkuperä ja Potentiaali -->
-    <string name="angel_0_1">0: Alkuperä ja Läsnäolo – Ole tässä. Mitään ei ole vielä päätetty.</string>
-    <string name="angel_0_2">00: Suojattu tila – Voit olla hiljaa. Eheytä.</string>
-    <string name="angel_0_3">000: Lähde – Kaikki on yhtä. Luota kokonaisuuteen.</string>
-    <string name="angel_0_4">0000: Nollaus – Aloita alusta ilman taakkaa. Aikajana on auki.</string>
-    <string name="angel_0_5">00000: Puhdas Potentiaali – Olet, ennen kuin tulet joksikin.</string>
-    <string name="angel_0_6">000000: Jumalallinen Tyhjyys – Kaikki on mahdollista.</string>
+    <!-- Série 0 -->
+    <string name="angel_0_1">0 : Origine &amp; Présence – Sois ici. Rien n’est encore défini.</string>
+    <string name="angel_0_2">00 : Espace sacré – Tu peux rester dans le silence. Intègre.</string>
+    <string name="angel_0_3">000 : Source – Tout est un. Fais confiance au Tout.</string>
+    <string name="angel_0_4">0000 : Réinitialisation – Recommence sans fardeau. La ligne du temps est ouverte.</string>
+    <string name="angel_0_5">00000 : Potentiel pur – Tu es avant d’être quelque chose.</string>
+    <string name="angel_0_6">000000 : Vide divin – Tout est possible.</string>
 
-    <!-- Sarja 1: Intuitio ja Manifestointi -->
-    <string name="angel_1_2">11: Intuitio – Kuuntele, sisäinen ohjauksesi kutsuu.</string>
-    <string name="angel_1_3">111: Manifestointi – Luot juuri nyt, tietoisesti tai tiedostamatta.</string>
-    <string name="angel_1_4">1111: Herääminen – Portti avautuu. Valitse tietoisesti.</string>
-    <string name="angel_1_5">11111: Ruumiillistuma – Elä todeksi se, minkä olet oivaltanut.</string>
-    <string name="angel_1_6">111111: Luomisvoima – Ajatuksesi muuttuvat todellisuudeksi.</string>
+    <!-- Série 1 -->
+    <string name="angel_1_1">1 : Impulsion – Une nouvelle pensée veut naître.</string>
+    <string name="angel_1_2">11 : Intuition – Écoute, ta guidance intérieure se manifeste.</string>
+    <string name="angel_1_3">111 : Manifestation – Tu crées en ce moment, consciemment ou inconsciemment.</string>
+    <string name="angel_1_4">1111 : Éveil – Un portail s’ouvre. Choisis en conscience.</string>
+    <string name="angel_1_5">11111 : Incarnation – Vis ce que tu as compris.</string>
+    <string name="angel_1_6">111111 : Pouvoir créateur – Tes pensées deviennent réalité.</string>
 
-    <!-- Sarja 2: Tasapaino ja Luottamus -->
-    <string name="angel_2_2">22: Tasapaino – Pysy luottamuksessa.</string>
-    <string name="angel_2_3">222: Jumalallinen Ajoitus – Kaikki järjestyy täydellisellä hetkellä.</string>
-    <string name="angel_2_4">2222: Vakaus – Sinua kannatellaan.</string>
-    <string name="angel_2_5">22222: Sielun Harmonia – Olet oikeassa paikassa.</string>
-    <string name="angel_2_6">222222: Mielenrauha – Älä pakota mitään, kaikki on jo tässä.</string>
+    <!-- Série 2 -->
+    <string name="angel_2_1">2 : Rencontre – Sois attentif à l’autre en face de toi.</string>
+    <string name="angel_2_2">22 : Équilibre – Reste dans la confiance.</string>
+    <string name="angel_2_3">222 : Alignement – Tout s’accorde au timing divin.</string>
+    <string name="angel_2_4">2222 : Stabilité – Tu es soutenu(e).</string>
+    <string name="angel_2_5">22222 : Harmonie de l’âme – Tu es exactement à ta place.</string>
+    <string name="angel_2_6">222222 : Équilibre – Ne force rien, tout est déjà là.</string>
 
-    <!-- Sarja 3: Ilmaisu ja Totuus -->
-    <string name="angel_3_2">33: Ilmaisu – Ilmaise itseäsi, maailma kuuntelee.</string>
-    <string name="angel_3_3">333: Kasvu – Mestarit kulkevat rinnallasi.</string>
-    <string name="angel_3_4">3333: Aitous – Näytä itsesi sellaisena kuin olet.</string>
-    <string name="angel_3_5">33333: Totuus – Totuutesi haluaa tulla eletyksi.</string>
-    <string name="angel_3_6">333333: Sydän ja Sana – Puhut syvimmästä olemuksestasi.</string>
+    <!-- Série 3 -->
+    <string name="angel_3_1">3 : Expression – Partage tes pensées et tes émotions.</string>
+    <string name="angel_3_2">33 : Expression – Exprime-toi, le monde écoute.</string>
+    <string name="angel_3_3">333 : Croissance – Tu es accompagné(e) par des maîtres.</string>
+    <string name="angel_3_4">3333 : Authenticité – Montre-toi tel(le) que tu es.</string>
+    <string name="angel_3_5">33333 : Vérité – Ta vérité veut être vécue.</string>
+    <string name="angel_3_6">333333 : Cœur &amp; Parole – Tu parles depuis ton essence.</string>
 
-    <!-- Sarja 4: Vakaus ja Suoja -->
-    <string name="angel_4_2">44: Maadoittuminen – Järjestys tuo rauhaa.</string>
-    <string name="angel_4_3">444: Suoja – Olet turvassa ja suojattu.</string>
-    <string name="angel_4_4">4444: Rakenne – Perustasi kestää.</string>
-    <string name="angel_4_5">44444: Vakaus – Luota asemaasi.</string>
-    <string name="angel_4_6">444444: Ankkurointi – Olet vahvasti juurtunut elämään.</string>
+    <!-- Série 4 -->
+    <string name="angel_4_1">4 : Structure – L’ordre apporte la clarté.</string>
+    <string name="angel_4_2">44 : Ancrage – L’ordre apporte la paix.</string>
+    <string name="angel_4_3">444 : Protection – Tu es en sécurité et protégé(e).</string>
+    <string name="angel_4_4">4444 : Fondation – Ta base est solide.</string>
+    <string name="angel_4_5">44444 : Stabilité – Fais confiance à ton appui.</string>
+    <string name="angel_4_6">444444 : Enracinement – Tu es solidement ancré(e) dans la vie.</string>
 
-    <!-- Sarja 5: Muutos ja Vapaus -->
-    <string name="angel_5_2">55: Muutos – Ole avoin uudelle.</string>
-    <string name="angel_5_3">555: Käännekohta – Päästä irti vanhasta.</string>
-    <string name="angel_5_4">5555: Transformaatio – Mikään ei pysy ennallaan.</string>
-    <string name="angel_5_5">55555: Identiteetti – Olet syntymässä uudelleen.</string>
-    <string name="angel_5_6">555555: Vapaus – Vapaus on uusi olotilasi.</string>
+    <!-- Série 5 -->
+    <string name="angel_5_1">5 : Mouvement – Le changement approche.</string>
+    <string name="angel_5_2">55 : Transformation – Sois ouvert(e) au nouveau.</string>
+    <string name="angel_5_3">555 : Basculement – Laisse partir l’ancien.</string>
+    <string name="angel_5_4">5555 : Transformation – Rien ne reste comme avant.</string>
+    <string name="angel_5_5">55555 : Identité – Tu renais.</string>
+    <string name="angel_5_6">555555 : Liberté – La liberté devient ton nouvel état.</string>
 
-    <!-- Sarja 6: Paluu Keskukseen -->
-    <string name="angel_6_2">66: Itsehoito – Pidä hyvää huolta itsestäsi.</string>
-    <string name="angel_6_3">666: Tasapaino – Palaa itseesi, sisäisen ja ulkoisen välillä.</string>
-    <string name="angel_6_4">6666: Prioriteetit – Mikä todella ravitsee sinua?</string>
-    <string name="angel_6_5">66666: Parantuminen – Saat olla lempeä itsellesi.</string>
-    <string name="angel_6_6">666666: Eheys – Olet kotona itsessäsi.</string>
+    <!-- Série 6 -->
+    <string name="angel_6_1">6 : Bienveillance – Prends soin de ton cœur et de ton foyer.</string>
+    <string name="angel_6_2">66 : Soin de soi – Prends bien soin de toi.</string>
+    <string name="angel_6_3">666 : Équilibre – Reviens à toi entre l’intérieur &amp; l’extérieur.</string>
+    <string name="angel_6_4">6666 : Priorités – Qu’est-ce qui te nourrit vraiment ?</string>
+    <string name="angel_6_5">66666 : Guérison – Tu peux être doux/douce avec toi-même.</string>
+    <string name="angel_6_6">666666 : Plénitude – Tu es chez toi en toi-même.</string>
 
-    <!-- Sarja 7: Viisaus ja Oivallus -->
-    <string name="angel_7_2">77: Ohjaus – Luota sisäiseen tietoosi.</string>
-    <string name="angel_7_3">777: Henkisyys – Opit sielun tasolla.</string>
-    <string name="angel_7_4">7777: Oivallus – Näet asiat selkeästi.</string>
-    <string name="angel_7_5">77777: Viisaus – Elät todeksi sen minkä tiedät.</string>
-    <string name="angel_7_6">777777: Valaistuminen – Sinua ohjataan sisältäpäin.</string>
+    <!-- Série 7 -->
+    <string name="angel_7_1">7 : Introspection – Écoute ta voix intérieure.</string>
+    <string name="angel_7_2">77 : Guidance – Fais confiance à ton savoir intérieur.</string>
+    <string name="angel_7_3">777 : Spiritualité – Tu apprends au niveau de l’âme.</string>
+    <string name="angel_7_4">7777 : Clarté – Tu vois les choses clairement.</string>
+    <string name="angel_7_5">77777 : Sagesse – Tu vis ce que tu sais.</string>
+    <string name="angel_7_6">777777 : Illumination – Tu es guidé(e) de l’intérieur.</string>
 
-    <!-- Sarja 8: Runsaus ja Energian Virtaus -->
-    <string name="angel_8_2">88: Tasapaino – Antaminen ja vastaanottaminen virtauksessa.</string>
-    <string name="angel_8_3">888: Runsaus – Menestys on mahdollista ja lähellä.</string>
-    <string name="angel_8_4">8888: Energian Virtaus – Kaikki virtaa luoksesi.</string>
-    <string name="angel_8_5">88888: Vastaanottaminen – Sinulla on lupa omistaa ja olla.</string>
-    <string name="angel_8_6">888888: Yltäkylläisyys – Olet osa ääretöntä runsautta.</string>
+    <!-- Série 8 -->
+    <string name="angel_8_1">8 : Puissance – Utilise ton énergie consciemment.</string>
+    <string name="angel_8_2">88 : Flux – Donner &amp; recevoir en harmonie.</string>
+    <string name="angel_8_3">888 : Abondance – Le succès est possible et proche.</string>
+    <string name="angel_8_4">8888 : Flux d’énergie – Tout afflue vers toi.</string>
+    <string name="angel_8_5">88888 : Recevoir – Tu as le droit d’avoir et d’être.</string>
+    <string name="angel_8_6">888888 : Surabondance – Tu fais partie de l’abondance infinie.</string>
 
-    <!-- Sarja 9: Päätös ja Siirtymä -->
-    <string name="angel_9_2">99: Irtipäästäminen – Loppu lähestyy.</string>
-    <string name="angel_9_3">999: Valmistuminen – Sykli päättyy. Kiitä ja jatka matkaa.</string>
-    <string name="angel_9_4">9999: Transformaatio – Vanha väistyy lopullisesti.</string>
-    <string name="angel_9_5">99999: Kypsyys – Olet valmis siihen, mitä on tulossa.</string>
-    <string name="angel_9_6">999999: Täydellistyminen – Ympyrä sulkeutuu.</string>
+    <!-- Série 9 -->
+    <string name="angel_9_1">9 : Accomplissement – Un chapitre se termine.</string>
+    <string name="angel_9_2">99 : Lâcher-prise – Une fin approche.</string>
+    <string name="angel_9_3">999 : Clôture – Un cycle se termine. Gratitude &amp; avance.</string>
+    <string name="angel_9_4">9999 : Transformation – L’ancien s’en va définitivement.</string>
+    <string name="angel_9_5">99999 : Maturité – Tu es prêt(e) pour la suite.</string>
+    <string name="angel_9_6">999999 : Achèvement – Le cercle se referme.</string>
+
+    <!-- 10 & Nombres miroir -->
+    <string name="angel_10">10 : Nouveau départ – Un cycle s’achève, un autre commence.</string>
+    <string name="angel_12">12 : Processus d’apprentissage – Évolution par l’expérience.</string>
+    <string name="angel_21">21 : Intégration – Les opposés s’unissent.</string>
+    <string name="angel_101">101 : Éveil – Conscience à un nouveau niveau.</string>
+    <string name="angel_1212">1212 : Équilibre dans le changement – Stabilité en mouvement.</string>
+    <string name="angel_123">123 : Flux créatif – Les idées circulent librement.</string>
+    <string name="angel_1234">1234 : Manifestation structurée – Ton plan prend forme.</string>
+    <string name="angel_12345">12345 : Développement dynamique – Croissance dans plusieurs domaines.</string>
+    <string name="angel_123456">123456 : Accomplissement total – Le cycle se ferme et de nouvelles voies s’ouvrent.</string>
+    <string name="angel_palindrome">Nombre miroir – Le monde intérieur et extérieur se reflètent.</string>
+    <string name="angel_mirror">Motif miroir – Compréhension par l’auto-observation.</string>
+    <string name="angel_alternating">Motif alterné – Deux énergies agissent en rythme.</string>
+    <string name="angel_sequence_ascending">Séquence ascendante – L’évolution se fait consciemment.</string>
+    <string name="angel_sequence_descending">Séquence descendante – Le lâcher-prise apporte la transformation.</string>
 </resources>

@@ -1,0 +1,59 @@
+<resources>
+    <!-- Default -->
+    <string name="energy_default">Jasnoća → Povjerenje → Djelovanje</string>
+
+    <!-- Glavni brojevi -->
+    <string name="energy_core_1">Impuls → Odluka → Novi početak</string>
+    <string name="energy_core_2">Susret → Ravnoteža → Harmonija</string>
+    <string name="energy_core_3">Iskustvo → Izražavanje → Rast</string>
+    <string name="energy_core_4">Red → Izgradnja → Stabilnost</string>
+    <string name="energy_core_5">Kretanje → Promjena → Sloboda</string>
+    <string name="energy_core_6">Briga → Iscjeljenje → Harmonija</string>
+    <string name="energy_core_7">Jasnoća → Unutarnje vodstvo → Spoznaja</string>
+    <string name="energy_core_8">Fokus → Djelovanje → Uspjeh</string>
+    <string name="energy_core_9">Završetak → Otpuštanje → Transformacija</string>
+
+    <!-- Osnovni brojevi -->
+    <string name="energy_0">Izvor → Svjesnost → Novi početak</string>
+    <string name="energy_1">Impuls → Odluka → Novi početak</string>
+    <string name="energy_2">Susret → Ravnoteža → Harmonija</string>
+    <string name="energy_3">Iskustvo → Izražavanje → Rast</string>
+    <string name="energy_4">Red → Struktura → Stabilnost</string>
+    <string name="energy_5">Kretanje → Promjena → Sloboda</string>
+    <string name="energy_6">Briga → Iscjeljenje → Harmonija</string>
+    <string name="energy_7">Jasnoća → Unutarnje vodstvo → Buđenje</string>
+    <string name="energy_8">Fokus → Djelovanje → Uspjeh</string>
+    <string name="energy_9">Završetak → Otpuštanje → Transformacija</string>
+
+    <!-- Dominantna ponavljanja -->
+    <string name="energy_repeat_0">Početak → Potencijal → Stvaranje</string>
+    <string name="energy_repeat_1">Impuls → Odluka → Inicijativa</string>
+    <string name="energy_repeat_2">Povezanost → Ravnoteža → Harmonija</string>
+    <string name="energy_repeat_3">Radost → Izražavanje → Rast</string>
+    <string name="energy_repeat_4">Red → Stabilnost → Temelj</string>
+    <string name="energy_repeat_5">Kretanje → Promjena → Sloboda</string>
+    <string name="energy_repeat_6">Briga → Iscjeljenje → Harmonija</string>
+    <string name="energy_repeat_7">Tišina → Unutarnje vodstvo → Buđenje</string>
+    <string name="energy_repeat_8">Moć → Obilje → Uspjeh</string>
+    <string name="energy_repeat_9">Završetak → Otpuštanje → Transformacija</string>
+
+    <!-- Majstorski brojevi -->
+    <string name="energy_11">Inspiracija → Svjesnost → Prosvjetljenje</string>
+    <string name="energy_22">Vizija → Struktura → Manifestacija</string>
+    <string name="energy_33">Ljubav → Izražavanje → Iscjeljenje</string>
+    <string name="energy_44">Disciplina → Stabilnost → Majstorstvo</string>
+
+    <!-- Prošireni dvostruki brojevi -->
+    <string name="energy_55">Kretanje → Oslobođenje → Proboj</string>
+    <string name="energy_66">Otvaranje srca → Odgovornost → Harmonija</string>
+    <string name="energy_77">Tišina → Unutarnja mudrost → Buđenje</string>
+    <string name="energy_88">Moć → Obilje → Manifestacija</string>
+    <string name="energy_99">Ispunjenje → Otpuštanje → Obnova</string>
+
+    <!-- Majstorski brojevi -->
+    <string name="energy_master_11">Inspiracija → Svjesnost → Prosvjetljenje</string>
+    <string name="energy_master_22">Vizija → Struktura → Manifestacija</string>
+    <string name="energy_master_33">Ljubav → Izražavanje → Iscjeljenje</string>
+    <string name="energy_master_44">Disciplina → Stabilnost → Majstorstvo</string>
+    <string name="energy_multi_master">Unutarnje vodstvo → Svjesna manifestacija → Duhovni utjecaj</string>
+</resources>

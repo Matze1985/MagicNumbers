@@ -6,31 +6,33 @@
     <string name="new_message">새 메시지</string>
     <string name="copy_message">메시지 복사</string>
     <string name="clipboard_label">마법의 메시지</string>
-    <string name="welcome_message">\"새 메시지\"를 눌러 지금 이 순간의 리듬을 받아보세요.</string>
-    <string name="message_for_the_moment">이 순간을 위한 메시지: %1$s</string>
-    <string name="your_cross_sum_is">당신의 숫자 합은 다음과 같습니다: %1$s</string>
-    <string name="digit_occurrence">(%1$dx회 나타남, 강화됨)</string>
-    <string name="frequency_label">주파수</string>
+    <string name="welcome_message">"새 메시지"를 눌러 지금 이 순간의 리듬을 받아보세요.</string>
+    <string name="your_cross_sum_is">당신의 각 자리수 합은:</string>
+    <string name="digit_occurrence">(%1$dx번 나타남, 에너지 강화)</string>
 
-    <!-- Sektions-Überschriften -->
+    <!-- Sections -->
+    <string name="section_message_for_the_moment">💌 지금 이 순간의 메시지: %1$s</string>
+    <string name="section_frequency">🌀 주파수:</string>
     <string name="section_vibration">🧬 숫자의 진동:</string>
-    <string name="section_your_message">💌 당신의 메시지:</string>
-    <string name="section_summary">✨ 요약:</string>
+    <string name="section_master_energy">👑 마스터 에너지:</string>
+    <string name="section_angel">🕊️ 천사의 메시지:</string>
+    <string name="section_description_numbers">🔢 숫자 설명:</string>
+    <string name="section_summary">📖 요약:</string>
     <string name="section_energy">⚡️ 에너지 흐름:</string>
 
-    <!-- Hauptnachrichten Templates (pro Ziffer) -->
-    <string name="digit_0_intro">✨ **\'0\'**%1$s 는 모든 것을 증폭시킵니다. 이는 신성한 존재와 무한한 가능성의 상징입니다.</string>
-    <string name="digit_1_intro">✨ **\'1\'**%1$s 는 당신을 **강력한 새로운 시작**으로 이끕니다. 지금 당신의 생각은 빠르게 현실화됩니다.</string>
-    <string name="digit_2_intro">✨ **\'2\'**%1$s 는 **균형과 조화**를 가져옵니다. 특히 관계에서 그렇습니다. 당신은 혼자가 아닙니다.</string>
-    <string name="digit_3_intro">✨ **\'3\'**%1$s 는 **창의성과 소통**을 활성화합니다. 자신을 표현하세요 — 영적인 세계가 듣고 있습니다.</string>
-    <string name="digit_4_intro">✨ **\'4\'**%1$s 는 **안정적인 기반**을 만듭니다. 이 에너지는 당신의 삶에 보호와 구조를 가져옵니다.</string>
-    <string name="digit_5_intro">✨ **\'5\'**%1$s 는 **변화와 자유의 물결**을 알립니다. 모험에 마음을 열고 오래된 사슬을 끊으세요.</string>
-    <string name="digit_6_intro">✨ **\'6\'**%1$s 는 **마음과 가정의 치유**에 초점을 둡니다. 가족과 조화가 지금 중심에 있습니다.</string>
-    <string name="digit_7_intro">✨ **\'7\'**%1$s 는 **직관을 가장 중요한 나침반**으로 만듭니다. 내면의 소리에 귀 기울이세요 — 진실은 당신 안에 있습니다.</string>
-    <string name="digit_8_intro">✨ **\'8\'**%1$s 는 **풍요와 성공**의 에너지를 활성화합니다. 물질적·영적 번영에 마음을 여세요.</string>
-    <string name="digit_9_intro">✨ **\'9\'**%1$s 는 **중요한 주기의 마무리**를 나타냅니다. 새로운 것을 맞이하기 위해 오래된 것을 놓아주세요.</string>
+    <!-- Main Messages -->
+    <string name="digit_0_intro">숫자 **\'0\'**%1$s 는 모든 것을 증폭합니다. 이는 신성한 존재와 무한한 가능성의 상징입니다.</string>
+    <string name="digit_1_intro">숫자 **\'1\'**%1$s 는 **강력한 새로운 시작**을 알립니다. 당신의 생각은 빠르게 현실이 됩니다.</string>
+    <string name="digit_2_intro">숫자 **\'2\'**%1$s 는 **균형과 조화**를 가져옵니다. 특히 관계에서 그렇습니다. 당신은 혼자가 아닙니다.</string>
+    <string name="digit_3_intro">숫자 **\'3\'**%1$s 는 당신의 **창의성과 소통 능력**을 활성화합니다. 자신을 표현하세요. 영적 세계가 듣고 있습니다.</string>
+    <string name="digit_4_intro">숫자 **\'4\'**%1$s 는 **안정적인 기반**을 만듭니다. 이 에너지는 보호와 구조를 제공합니다.</string>
+    <string name="digit_5_intro">숫자 **\'5\'**%1$s 는 **변화와 자유의 물결**을 의미합니다. 모험에 열리고 오래된 속박을 끊으세요.</string>
+    <string name="digit_6_intro">숫자 **\'6\'**%1$s 는 **마음과 가정의 치유**에 초점을 둡니다. 가족과 조화가 중심이 됩니다.</string>
+    <string name="digit_7_intro">숫자 **\'7\'**%1$s 는 **직관을 가장 중요한 나침반**으로 만듭니다. 내면의 소리를 들으세요.</string>
+    <string name="digit_8_intro">숫자 **\'8\'**%1$s 는 **풍요와 성공의 에너지**를 활성화합니다. 물질적·영적 번영에 마음을 여세요.</string>
+    <string name="digit_9_intro">숫자 **\'9\'**%1$s 는 **중요한 주기의 완성**을 의미합니다. 새로운 시작을 위해 과거를 놓으세요.</string>
 
-    <!-- Numerologie Grundbedeutungen -->
+    <!-- Core Meanings -->
     <string name="numerology_1">새로운 시작 &amp; 리더십</string>
     <string name="numerology_2">조화 &amp; 균형</string>
     <string name="numerology_3">창의성 &amp; 성장</string>
@@ -40,14 +42,20 @@
     <string name="numerology_7">직관 &amp; 각성</string>
     <string name="numerology_8">성공 &amp; 풍요</string>
     <string name="numerology_9">완성 &amp; 지혜</string>
-    <string name="numerology_11">마스터 직관</string>
-    <string name="numerology_22">마스터 구현</string>
-    <string name="numerology_33">마스터 치유자</string>
+    <string name="numerology_11">영적 비전가</string>
+    <string name="numerology_22">마스터 빌더</string>
+    <string name="numerology_33">마스터 교사</string>
+    <string name="numerology_44">안정의 마스터</string>
+    <string name="numerology_55">자유의 마스터</string>
+    <string name="numerology_66">무조건적 사랑의 마스터</string>
+    <string name="numerology_77">지혜의 마스터</string>
+    <string name="numerology_88">힘의 마스터</string>
+    <string name="numerology_99">완성의 마스터</string>
     <string name="numerology_unknown">알 수 없음</string>
 
-    <!-- Numerologie Keywords -->
+    <!-- Keywords -->
     <string name="keyword_0">근원</string>
-    <string name="keyword_1">새로운 시작</string>
+    <string name="keyword_1">시작</string>
     <string name="keyword_2">균형</string>
     <string name="keyword_3">창의성</string>
     <string name="keyword_4">안정</string>
@@ -57,73 +65,81 @@
     <string name="keyword_8">풍요</string>
     <string name="keyword_9">완성</string>
 
-    <!-- Numerologie Spezialbedeutungen (Meisterzahlen & Hohe Schwingungen) -->
-    <string name="master_number_11">마스터 숫자 11: 직관 &amp; 깨달음</string>
-    <string name="master_number_22">마스터 숫자 22: 건설자 &amp; 구현</string>
-    <string name="master_number_33">마스터 숫자 33: 보편적 사랑 &amp; 치유</string>
-    <string name="master_number_44">마스터 숫자 44: 마스터 치유자. 물질 세계와 영적 세계를 연결합니다.</string>
-    <string name="special_number_55">특별한 진동 55: 급진적인 변화 &amp; 자유</string>
-    <string name="special_number_66">특별한 진동 66: 보편적 사랑 &amp; 연민</string>
-    <string name="special_number_77">특별한 진동 77: 깊은 영적 통찰</string>
-    <string name="special_number_88">특별한 진동 88: 무한한 풍요 &amp; 균형</string>
-    <string name="special_number_99">특별한 진동 99: 보편적 의식 &amp; 봉사</string>
+    <!-- Special Meanings -->
+    <string name="master_number_11">11: 직관 &amp; 깨달음</string>
+    <string name="master_number_22">22: 건설자 &amp; 실현</string>
+    <string name="master_number_33">33: 보편적 사랑 &amp; 치유</string>
+    <string name="master_number_44">44: 마스터 힐러. 물질과 영적 세계를 연결합니다.</string>
+    <string name="special_number_55">55: 급진적 변화 &amp; 자유</string>
+    <string name="special_number_66">66: 보편적 사랑 &amp; 연민</string>
+    <string name="special_number_77">77: 깊은 영적 통찰</string>
+    <string name="special_number_88">88: 무한한 풍요 &amp; 균형</string>
+    <string name="special_number_99">99: 보편적 의식 &amp; 봉사</string>
 
-    <!-- Karmische Lektionen (Kurztexte für Listen) -->
-    <string name="karmic_lesson_4">카르마의 교훈 4: 안정과 성실한 노력.</string>
-    <string name="karmic_lesson_5">카르마의 교훈 5: 자유와 규율.</string>
-    <string name="karmic_lesson_7">카르마의 교훈 7: 신뢰와 개방성.</string>
-    <string name="karmic_lesson_8">카르마의 교훈 8: 풍요와 권력 남용.</string>
-    <string name="karmic_lesson_10">카르마의 교훈 10: 운명의 바퀴 / 새로운 시작</string>
-    <string name="karmic_lesson_11">카르마의 교훈 11: 영적 숙련과 균형의 교훈</string>
-    <string name="karmic_lesson_13">카르마의 교훈 13: 노력과 집중의 교훈 (변형)</string>
-    <string name="karmic_lesson_14">카르마의 교훈 14: 자유와 절제의 교훈</string>
-    <string name="karmic_lesson_16">카르마의 교훈 16: 각성과 겸손의 교훈</string>
-    <string name="karmic_lesson_19">카르마의 교훈 19: 힘과 독립의 교훈</string>
-    <string name="karmic_lesson_22">카르마의 교훈 22: 마스터 창조자와 책임의 교훈</string>
-    <string name="karmic_lesson_33">카르마의 교훈 33: 치유의 사랑을 지닌 마스터의 교훈</string>
+    <!-- Karmic Details 1–33 -->
+    <string name="karmic_detail_1">카르마 세부 1: 자기 책임\n→ 외부에 책임을 돌리지 않기\n→ 나는 내 삶의 공동 창조자임을 인식하기\n→ 자신의 길을 갈 용기</string>
+    <string name="karmic_detail_2">카르마 세부 2: 관계와 거울\n→ 거울의 법칙 이해하기\n→ 타인은 해결되지 않은 부분을 비춘다\n→ 자신을 잃지 않는 조화\n→ 인내를 유지하기</string>
+    <string name="karmic_detail_3">카르마 세부 3: 진정성 &amp; 표현\n→ 자신의 진실을 살아가기\n→ 가면과 역할을 내려놓기\n→ 감정을 창의적으로 표현하기</string>
+    <string name="karmic_detail_4">카르마 세부 4: 인내 &amp; 신뢰\n→ 모든 것을 억지로 밀어붙이지 않기\n→ 신성한 타이밍을 신뢰하기\n→ 질서를 통해 안정 만들기</string>
+    <string name="karmic_detail_5">카르마 세부 5: 두려움의 변형\n→ 도피 대신 용기\n→ 상실과 부족에 대한 두려움 전환하기\n→ 책임을 통한 자유</string>
+    <string name="karmic_detail_6">카르마 세부 6: 사랑 &amp; 경계\n→ 소유하지 않는 무조건적 사랑\n→ 죄책감 없이 “아니오”라고 말하기\n→ 자기희생하지 않기</string>
+    <string name="karmic_detail_7">카르마 세부 7: 신뢰 &amp; 인도\n→ 영적 인도를 신뢰하기\n→ 직관을 따르기\n→ 내면으로 향하기</string>
+    <string name="karmic_detail_8">카르마 세부 8: 힘 &amp; 풍요\n→ 결핍 의식 내려놓기\n→ 주고받음의 균형\n→ 힘과의 관계 치유하기</string>
+    <string name="karmic_detail_9">카르마 세부 9: 놓아줌 &amp; 용서\n→ 타인과 자신을 용서하기\n→ 오래된 상처 해방하기\n→ 공동체에 봉사하기</string>
+    <string name="karmic_detail_10">카르마 세부 10: 운명의 수레바퀴\n→ 운명을 받아들이기\n→ 저항 내려놓기\n→ 의식적인 새로운 시작</string>
+    <string name="karmic_detail_11">카르마 세부 11: 비전가\n→ 빛과 그림자 통합하기\n→ 영적 리더십 받아들이기\n→ 타인에게 영감 주기</string>
+    <string name="karmic_detail_12">카르마 세부 12: 관점의 전환\n→ 피해자 의식 없이 봉사하기\n→ 새로운 시각으로 보기\n→ 내려놓음을 통한 지혜</string>
+    <string name="karmic_detail_13">카르마 세부 13: 자아 &amp; 변형\n→ 자존심과 고집 내려놓기\n→ 자신을 잃지 않는 겸손\n→ 집중과 노력으로 변형</string>
+    <string name="karmic_detail_14">카르마 세부 14: 집착 해방\n→ 두려움 기반 의존 대신 자유\n→ 절제 찾기\n→ 감정적 독립 강화</string>
+    <string name="karmic_detail_15">카르마 세부 15: 의식적 놓아줌\n→ 성장을 막는 유대 인식하기\n→ 의식적으로 내려놓기 연습\n→ 새로운 시작을 신뢰하기</string>
+    <string name="karmic_detail_16">카르마 세부 16: 각성 &amp; 진정성\n→ 오래된 구조 붕괴\n→ 진정한 자신 찾기\n→ 환상이 사라짐</string>
+    <string name="karmic_detail_17">카르마 세부 17: 영적 권위\n→ 내면의 지혜 신뢰하기\n→ 자아 없이 이끌기\n→ 진실성을 통한 성공</string>
+    <string name="karmic_detail_18">카르마 세부 18: 감정적 명료성\n→ 환상을 진실로 전환하기\n→ 오래된 패턴 치유\n→ 자기희생 없는 연민</string>
+    <string name="karmic_detail_19">카르마 세부 19: 자존감 &amp; 힘\n→ 성취로만 자신을 정의하지 않기\n→ 힘과 무력감의 주제 치유\n→ 도움을 받아들이기</string>
+    <string name="karmic_detail_20">카르마 세부 20: 각성 &amp; 판단\n→ 인내와 더 높은 이해\n→ 영적 외교</string>
+    <string name="karmic_detail_21">카르마 세부 21: 세상 속 표현\n→ 긴 여정 후 성공\n→ 양극성의 통합\n→ 외적 성취</string>
+    <string name="karmic_detail_22">카르마 세부 22: 건설자\n→ 큰 꿈 실현하기\n→ 재능에 대한 책임\n→ 자신을 잃지 않는 봉사</string>
+    <string name="karmic_detail_23">카르마 세부 23: 왕의 사자\n→ 보호와 성공\n→ 자유로운 표현\n→ 유연성 유지</string>
+    <string name="karmic_detail_24">카르마 세부 24: 마음의 치유\n→ 영혼 계약 완수 및 해방\n→ 사랑과 봉사\n→ 감정적 안정</string>
+    <string name="karmic_detail_25">카르마 세부 25: 내면의 아이 치유\n→ 조용한 욕구에 귀 기울이기\n→ 사랑과 돌봄으로 다가가기\n→ 치유 통합하기</string>
+    <string name="karmic_detail_26">카르마 세부 26: 의식적 호흡\n→ 자신의 호흡을 인식하기\n→ 닻으로 사용하기\n→ 에너지의 거울로 보기</string>
+    <string name="karmic_detail_27">카르마 세부 27: 전체를 위한 봉사\n→ 자신뿐 아니라 타인을 위한 치유\n→ 긍정적 영향 만들기\n→ 영적 통찰</string>
+    <string name="karmic_detail_28">카르마 세부 28: 갈등의 변형\n→ 갈등을 배움의 기회로 보기\n→ 관점 바꾸기\n→ 통합을 통한 조화</string>
+    <string name="karmic_detail_29">카르마 세부 29: 창의성을 통한 자기실현\n→ 창조를 허용하기\n→ 진정한 표현으로 사용하기\n→ 나누며 영감 주기</string>
+    <string name="karmic_detail_30">카르마 세부 30: 창의적 표현\n→ 감정을 허용하기\n→ 기쁨을 길잡이로\n→ 감정은 스승</string>
+    <string name="karmic_detail_31">카르마 세부 31: 내적 안정\n→ 의무 대신 소명\n→ 재능 숨기지 않기\n→ 혼란 속 질서 만들기</string>
+    <string name="karmic_detail_32">카르마 세부 32: 감사의 에너지\n→ 매일 감사 실천하기\n→ 감사로 관점 바꾸기\n→ 풍요 끌어당기기</string>
+    <string name="karmic_detail_33">카르마 세부 33: 마스터 교사\n→ 보편적 치유의 사랑\n→ 고통 없는 연민\n→ 인류에 대한 봉사</string>
 
-    <!-- Karmische Details -->
-    <string name="karmic_detail_1">카르마 상세 1: 자기 책임\n→ 외부에서 탓을 찾는 것을 멈추세요\n→ 인식하세요: 나는 내 삶의 공동 창조자입니다\n→ 나만의 길을 갈 용기</string>
-    <string name="karmic_detail_2">카르마 상세 2: 관계 &amp; 거울\n→ 거울의 법칙을 인식하세요: 타인은 해결되지 않은 부분을 비춥니다\n→ 자신을 잃지 않는 외교적 태도\n→ 인내를 유지하세요</string>
-    <string name="karmic_detail_3">카르마 상세 3: 진정성 &amp; 표현\n→ 자신의 진실을 살아가세요\n→ 가면과 역할을 내려놓으세요\n→ 감정을 창의적으로 표현하세요</string>
-    <string name="karmic_detail_4">카르마 상세 4: 인내 &amp; 신뢰\n→ 모든 것을 강요하지 마세요\n→ 신성한 타이밍을 신뢰하세요\n→ 질서를 통해 안정을 만드세요</string>
-    <string name="karmic_detail_5">카르마 상세 5: 두려움의 변형\n→ 도피 대신 용기\n→ 상실이나 결핍에 대한 두려움을 변형하세요\n→ 책임을 통한 자유</string>
-    <string name="karmic_detail_6">카르마 상세 6: 사랑 &amp; 경계\n→ 소유 없는 무조건적인 사랑\n→ 죄책감 없이 “아니오”라고 말하기\n→ 자신을 희생하지 마세요</string>
-    <string name="karmic_detail_7">카르마 상세 7: 신뢰 &amp; 인도\n→ 영적 인도를 신뢰하세요\n→ 직관을 따르고 신호를 알아차리세요\n→ 외부 통제 대신 내면 성찰</string>
-    <string name="karmic_detail_8">카르마 상세 8: 힘 &amp; 풍요\n→ 결핍 의식을 내려놓으세요\n→ 주고받음의 균형\n→ 힘을 치유하세요 (조작 없이)</string>
-    <string name="karmic_detail_9">카르마 상세 9: 내려놓음 &amp; 용서\n→ 타인과 자신을 용서하세요\n→ 오래된 상처를 내려놓으세요\n→ 공동체에 봉사하세요</string>
-    <string name="karmic_detail_10">카르마 상세 10: 운명의 바퀴\n→ 운명을 받아들이세요\n→ 저항을 내려놓으세요\n→ 의식적인 새로운 시작을 선택하세요</string>
-    <string name="karmic_detail_11">카르마 상세 11: 비전가\n→ 이중성을 통합하세요 (빛 &amp; 그림자)\n→ 영적 리더십을 받아들이세요\n→ 타인에게 영감이 되세요</string>
-    <string name="karmic_detail_12">카르마 상세 12: 관점의 전환\n→ 피해자 의식 없이 봉사하세요\n→ 새로운 시각으로 사물을 보세요\n→ 내려놓음을 통한 지혜</string>
-    <string name="karmic_detail_13">카르마 상세 13: 자아 &amp; 변형\n→ 자아를 내려놓으세요 (자만, 옳고자 함)\n→ 자신을 잃지 않는 겸손을 실천하세요\n→ 노력과 집중을 통한 변형</string>
-    <string name="karmic_detail_14">카르마 상세 14: 의존 내려놓기\n→ 두려움에서 비롯된 집착 대신 자유\n→ 절제를 찾으세요\n→ 감정적 독립을 강화하세요</string>
-    <string name="karmic_detail_16">카르마 상세 16: 각성 &amp; 진정성\n→ 오래된 구조가 무너집니다\n→ 진정한 진정성을 찾으세요\n→ 환상이 사라집니다</string>
-    <string name="karmic_detail_19">카르마 상세 19: 자기 가치 &amp; 힘\n→ 성취만으로 자신을 정의하지 마세요\n→ 힘과 무력감을 치유하세요\n→ 도움을 받아들이는 법을 배우세요</string>
-    <string name="karmic_detail_20">카르마 상세 20: 각성 &amp; 판단\n→ 인내와 더 높은 이해\n→ 영적 외교</string>
-    <string name="karmic_detail_21">카르마 상세 21: 세상에서의 표현\n→ 긴 여정 끝의 성공\n→ 대립의 통합\n→ 외부 세계에서의 완성</string>
-    <string name="karmic_detail_22">카르마 상세 22: 건설자\n→ 큰 꿈을 실현하세요\n→ 재능에 대한 책임을 지세요\n→ 자신을 잃지 않고 봉사하세요</string>
-    <string name="karmic_detail_23">카르마 상세 23: 왕의 사자\n→ 보호 &amp; 성공\n→ 표현의 자유\n→ 유연함을 유지하세요</string>
-    <string name="karmic_detail_24">카르마 상세 24: 마음의 치유\n→ 영혼의 계약을 완수하고 해방하세요\n→ 사랑과 이웃에 대한 봉사\n→ 감정적 안정</string>
-    <string name="karmic_detail_27">카르마 상세 27: 전체를 위한 봉사\n→ 자신만을 위한 치유가 아님\n→ 타인에게 영향력 창출\n→ 영적 통찰</string>
-    <string name="karmic_detail_30">카르마 상세 30: 창의적 표현\n→ 감정을 허용하세요 (억누르지 마세요)\n→ 기쁨을 길잡이로 삼으세요\n→ 감정을 스승으로 인식하세요</string>
-    <string name="karmic_detail_31">카르마 상세 31: 자기 안정\n→ 의무보다 소명\n→ 재능을 숨기지 마세요\n→ 혼돈에 질서를 가져오세요</string>
-    <string name="karmic_detail_33">카르마 상세 33: 마스터 교사\n→ 보편적인 치유의 사랑\n→ 고통 없는 연민\n→ 인류에 대한 봉사</string>
-
-    <!-- Spezifische Zusammenfassungen & Energieflüsse (Kombinationen) -->
-    <string name="summary_default">당신의 핵심 메시지는 다음과 같습니다: 내면의 목소리에 귀 기울이세요, 당신은 인도받고 있습니다.</string>
-    <string name="energy_flow_default">명확성 → 신뢰 → 행동</string>
-    <string name="summary_99_1">매우 중요한 카르마의 주기가 완전히 마무리되었습니다. 이는 신성하게 인도된 강력한 새로운 시작을 위한 공간을 만듭니다.</string>
-    <string name="energy_flow_99_1">완성 → 해방 → 새로운 시작</string>
-    <string name="summary_8_55">거대한 긍정적 변화(이중 5)가 풍요와 물질적 향상(8)으로 당신을 이끕니다. 돌파구가 다가오고 있습니다.</string>
-    <string name="energy_flow_8_55">돌파 → 자유 → 안정</string>
-    <string name="summary_11_22">마스터 연합: 비전(11)이 구현(22)과 만납니다. 이제 큰 꿈을 현실로 만들 힘이 있습니다.</string>
-    <string name="energy_flow_11_22">아이디어 → 계획 → 현실</string>
-    <string name="summary_7_77">세 배의 신비한 힘. 영적 세계와의 연결이 극도로 강화되었습니다. 꿈과 신호에 주의하세요.</string>
-    <string name="energy_flow_7_77">고요 → 통찰 → 각성</string>
-    <string name="summary_4_8">구조(4)는 큰 성공(8)의 토대입니다. 성실한 노력은 이제 재정적으로 보상받습니다.</string>
-    <string name="energy_flow_4_8">규율 → 구축 → 부</string>
-    <string name="summary_1_9">시작과 끝이 맞닿습니다. 한 문을 닫고 곧바로 다른 문을 엽니다. 빠른 전환입니다.</string>
-    <string name="energy_flow_1_9">내려놓음 → 용기 → 재시작</string>
-    <string name="summary_3_33">최고 수준의 창의적 표현. 당신의 말이나 예술은 이제 다른 이들에게 치유의 영향을 줍니다.</string>
-    <string name="energy_flow_3_33">기쁨 → 표현 → 치유</string>
+    <!-- Summaries -->
+    <string name="summary_default">이 숫자의 에너지는 균형을 이루고 있습니다. 당신의 생각과 선택이 현실을 형성합니다.</string>
+    <string name="summary_master_11">깨달음과 영감. 내면의 인도가 특히 강합니다.</string>
+    <string name="summary_master_22">비전은 질서 있는 행동을 통해 현실이 됩니다.</string>
+    <string name="summary_master_33">보편적 사랑과 치유.</string>
+    <string name="summary_master_44">안정과 보호.</string>
+    <string name="summary_master_55">급진적 변형.</string>
+    <string name="summary_master_66">마음의 개방과 책임.</string>
+    <string name="summary_master_77">영적 각성.</string>
+    <string name="summary_master_88">힘과 풍요.</string>
+    <string name="summary_master_99">완성과 카르마적 성숙.</string>
+    <string name="summary_multi_master">여러 마스터 에너지가 동시에 작용합니다. 강력하고 중요한 시기입니다.</string>
+    <string name="summary_repeat_0">근원 에너지 강화. 생각과 의도가 매우 강합니다.</string>
+    <string name="summary_repeat_1">강한 리더십 에너지.</string>
+    <string name="summary_repeat_2">관계 에너지 강화.</string>
+    <string name="summary_repeat_3">강력한 창의적 표현.</string>
+    <string name="summary_repeat_4">강한 구조 에너지.</string>
+    <string name="summary_repeat_5">강한 변화 에너지.</string>
+    <string name="summary_repeat_6">마음 에너지 강화.</string>
+    <string name="summary_repeat_7">깊은 영적 에너지.</string>
+    <string name="summary_repeat_8">강한 실현 에너지.</string>
+    <string name="summary_repeat_9">강한 완성 에너지.</string>
+    <string name="summary_1">새로운 시작과 리더십 — 지금 행동할 때입니다.</string>
+    <string name="summary_2">균형과 연결 — 주고받음의 조화.</string>
+    <string name="summary_3">창의성과 표현 — 당신의 아이디어를 빛내세요.</string>
+    <string name="summary_4">안정과 구조 — 질서는 안전을 만듭니다.</string>
+    <string name="summary_5">변화와 자유 — 유연함을 유지하세요.</string>
+    <string name="summary_6">사랑과 책임 — 마음이 길을 이끕니다.</string>
+    <string name="summary_7">직관과 각성 — 내면의 목소리를 믿으세요.</string>
+    <string name="summary_8">성공과 풍요 — 결과가 나타납니다.</string>
+    <string name="summary_9">완성과 해방 — 새로운 주기가 시작됩니다.</string>
 </resources>

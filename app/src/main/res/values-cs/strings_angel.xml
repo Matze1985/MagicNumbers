@@ -1,72 +1,97 @@
 <resources>
-    <!-- Řada 0 -->
-    <string name="angel_0_1">0: Původ &amp; přítomnost – Buď tady. Ještě není nic pevně dáno.</string>
-    <string name="angel_0_2">00: Ochranný prostor – Můžeš být potichu. Integruj.</string>
+    <!-- 0er Reihe -->
+    <string name="angel_0_1">0: Původ a přítomnost – Buď tady. Nic ještě není určeno.</string>
+    <string name="angel_0_2">00: Ochranný prostor – Můžeš být v tichu. Integruj.</string>
     <string name="angel_0_3">000: Zdroj – Všechno je jedno. Důvěřuj celku.</string>
-    <string name="angel_0_4">0000: Reset – Začni znovu bez zátěže. Časová linie je otevřená.</string>
-    <string name="angel_0_5">00000: Čistý potenciál – Jsi dřív, než se něčím staneš.</string>
+    <string name="angel_0_4">0000: Restart – Začni znovu bez zátěže. Časová linie je otevřená.</string>
+    <string name="angel_0_5">00000: Čistý potenciál – Jsi dříve, než jsi něčím.</string>
     <string name="angel_0_6">000000: Božská prázdnota – Všechno je možné.</string>
 
-    <!-- Řada 1 -->
-    <string name="angel_1_2">11: Intuice – Naslouchej, ozývá se tvé vnitřní vedení.</string>
+    <!-- 1er Reihe -->
+    <string name="angel_1_1">1: Impuls – Nová myšlenka chce vzniknout.</string>
+    <string name="angel_1_2">11: Intuice – Naslouchej, tvé vnitřní vedení se ozývá.</string>
     <string name="angel_1_3">111: Manifestace – Právě tvoříš, vědomě či nevědomě.</string>
-    <string name="angel_1_4">1111: Probuzení – Otevírá se brána. Vol si vědomě.</string>
-    <string name="angel_1_5">11111: Ztělesnění – Žij to, co jsi poznal(a).</string>
-    <string name="angel_1_6">111111: Tvořivá síla – Tvé myšlenky se stávají realitou.</string>
+    <string name="angel_1_4">1111: Probuzení – Otevírá se brána. Vyber si vědomě.</string>
+    <string name="angel_1_5">11111: Ztělesnění – Žij to, co jsi pochopil.</string>
+    <string name="angel_1_6">111111: Tvůrčí síla – Tvé myšlenky se stávají realitou.</string>
 
-    <!-- Řada 2 -->
+    <!-- 2er Reihe -->
+    <string name="angel_2_1">2: Setkání – Věnuj pozornost druhému.</string>
     <string name="angel_2_2">22: Rovnováha – Zůstaň v důvěře.</string>
-    <string name="angel_2_3">222: Souhra – Vše se skládá v božském načasování.</string>
-    <string name="angel_2_4">2222: Stabilita – Jsi nesen(a).</string>
-    <string name="angel_2_5">22222: Harmonie duše – Jsi správně ukotven(a).</string>
-    <string name="angel_2_6">222222: Vyrovnanost – Nic netlač, vše je přítomné.</string>
+    <string name="angel_2_3">222: Souhra – Vše se děje v božském načasování.</string>
+    <string name="angel_2_4">2222: Stabilita – Jsi podporován.</string>
+    <string name="angel_2_5">22222: Duševní harmonie – Jsi správně zasazen.</string>
+    <string name="angel_2_6">222222: Vyváženost – Nic nenuť, vše je přítomné.</string>
 
-    <!-- Řada 3 -->
+    <!-- 3er Reihe -->
+    <string name="angel_3_1">3: Vyjádření – Sdílej své myšlenky a pocity.</string>
     <string name="angel_3_2">33: Vyjádření – Vyjádři se, svět naslouchá.</string>
-    <string name="angel_3_3">333: Růst – Jsi doprovázen(a) mistry.</string>
-    <string name="angel_3_4">3333: Autenticita – Ukaž se takový(á), jaký(á) jsi.</string>
+    <string name="angel_3_3">333: Růst – Jsi veden mistry.</string>
+    <string name="angel_3_4">3333: Autenticita – Ukaž se takový, jaký jsi.</string>
     <string name="angel_3_5">33333: Pravda – Tvá pravda chce být žita.</string>
-    <string name="angel_3_6">333333: Srdce &amp; slovo – Mluvíš ze své podstaty.</string>
+    <string name="angel_3_6">333333: Srdce a slovo – Mluvíš ze své podstaty.</string>
 
-    <!-- Řada 4 -->
+    <!-- 4er Reihe -->
+    <string name="angel_4_1">4: Struktura – Řád přináší jasnost.</string>
     <string name="angel_4_2">44: Uzemnění – Řád přináší klid.</string>
-    <string name="angel_4_3">444: Ochrana – Jsi v bezpečí a chráněn(a).</string>
-    <string name="angel_4_4">4444: Struktura – Tvůj základ drží.</string>
+    <string name="angel_4_3">444: Ochrana – Jsi v bezpečí a chráněn.</string>
+    <string name="angel_4_4">4444: Struktura – Tvůj základ je pevný.</string>
     <string name="angel_4_5">44444: Stabilita – Důvěřuj svému postoji.</string>
-    <string name="angel_4_6">444444: Ukotvení – Jsi pevně zakořeněn(a) v životě.</string>
+    <string name="angel_4_6">444444: Ukotvení – Jsi pevně zakořeněn v životě.</string>
 
-    <!-- Řada 5 -->
-    <string name="angel_5_2">55: Změna – Buď otevřen(a) novému.</string>
-    <string name="angel_5_3">555: Zlom – Nech staré odejít.</string>
-    <string name="angel_5_4">5555: Transformace – Nic nezůstává stejné.</string>
+    <!-- 5er Reihe -->
+    <string name="angel_5_1">5: Pohyb – Blíží se změna.</string>
+    <string name="angel_5_2">55: Proměna – Buď otevřen novému.</string>
+    <string name="angel_5_3">555: Obrat – Pusť staré.</string>
+    <string name="angel_5_4">5555: Transformace – Nic nezůstane stejné.</string>
     <string name="angel_5_5">55555: Identita – Rodíš se znovu.</string>
     <string name="angel_5_6">555555: Svoboda – Svoboda je tvůj nový stav.</string>
 
-    <!-- Řada 6 -->
-    <string name="angel_6_2">66: Sebepéče – Pečuj o sebe.</string>
-    <string name="angel_6_3">666: Rovnováha – Vrať se k sobě, mezi vnitřním &amp; vnějším.</string>
+    <!-- 6er Reihe -->
+    <string name="angel_6_1">6: Péče – Postarej se o srdce a domov.</string>
+    <string name="angel_6_2">66: Sebepéče – Dbej na sebe.</string>
+    <string name="angel_6_3">666: Rovnováha – Vrať se k sobě, mezi vnitřkem a vnějškem.</string>
     <string name="angel_6_4">6666: Priority – Co tě skutečně vyživuje?</string>
-    <string name="angel_6_5">66666: Léčení – Můžeš být k sobě jemný(á).</string>
-    <string name="angel_6_6">666666: Celistvost – Jsi doma sám(a) v sobě.</string>
+    <string name="angel_6_5">66666: Uzdravení – Buď k sobě jemný.</string>
+    <string name="angel_6_6">666666: Celistvost – Jsi doma sám v sobě.</string>
 
-    <!-- Řada 7 -->
+    <!-- 7er Reihe -->
+    <string name="angel_7_1">7: Vnitřní pohled – Naslouchej svému vnitřnímu hlasu.</string>
     <string name="angel_7_2">77: Vedení – Důvěřuj svému vnitřnímu vědění.</string>
     <string name="angel_7_3">777: Spiritualita – Učíš se na úrovni duše.</string>
     <string name="angel_7_4">7777: Poznání – Vidíš věci jasně.</string>
     <string name="angel_7_5">77777: Moudrost – Žiješ to, co víš.</string>
-    <string name="angel_7_6">777777: Osvícení – Jsi veden(a) zevnitř.</string>
+    <string name="angel_7_6">777777: Osvícení – Jsi veden zevnitř.</string>
 
-    <!-- Řada 8 -->
-    <string name="angel_8_2">88: Vyrovnání – Dávání a přijímání v toku.</string>
+    <!-- 8er Reihe -->
+    <string name="angel_8_1">8: Síla – Využívej svou energii vědomě.</string>
+    <string name="angel_8_2">88: Rovnováha – Dávání a přijímání v toku.</string>
     <string name="angel_8_3">888: Hojnost – Úspěch je možný a blízko.</string>
-    <string name="angel_8_4">8888: Tok energie – Vše k tobě plyne.</string>
-    <string name="angel_8_5">88888: Přijímání – Můžeš mít i být.</string>
-    <string name="angel_8_6">888888: Nadbytek – Jsi součástí nekonečné hojnosti.</string>
+    <string name="angel_8_4">8888: Tok energie – Vše k tobě proudí.</string>
+    <string name="angel_8_5">88888: Přijímání – Smíš mít i být.</string>
+    <string name="angel_8_6">888888: Přebytek – Jsi součástí nekonečné hojnosti.</string>
 
-    <!-- Řada 9 -->
-    <string name="angel_9_2">99: Pouštění – Blíží se konec.</string>
-    <string name="angel_9_3">999: Uzavření – Jeden cyklus končí. Děkuj a pokračuj.</string>
+    <!-- 9er Reihe -->
+    <string name="angel_9_1">9: Dovršení – Jedna kapitola končí.</string>
+    <string name="angel_9_2">99: Uvolnění – Blíží se konec.</string>
+    <string name="angel_9_3">999: Uzavření – Jeden cyklus končí. Poděkuj a pokračuj.</string>
     <string name="angel_9_4">9999: Transformace – Staré definitivně odchází.</string>
-    <string name="angel_9_5">99999: Zralost – Jsi připraven(a) na další.</string>
+    <string name="angel_9_5">99999: Zralost – Jsi připraven na další krok.</string>
     <string name="angel_9_6">999999: Dovršení – Kruh se uzavírá.</string>
+
+    <!-- 10er & Spiegelzahlen -->
+    <string name="angel_10">10: Nový začátek – Jeden cyklus končí, nový začíná.</string>
+    <string name="angel_12">12: Proces učení – Vývoj skrze zkušenost.</string>
+    <string name="angel_21">21: Integrace – Protiklady se spojují.</string>
+    <string name="angel_101">101: Probuzení – Vědomí na nové úrovni.</string>
+    <string name="angel_1212">1212: Rovnováha v proměně – Stabilita v pohybu.</string>
+    <string name="angel_123">123: Kreativní tok – Myšlenky proudí volně.</string>
+    <string name="angel_1234">1234: Strukturovaná manifestace – Tvůj plán se stává skutečností.</string>
+    <string name="angel_12345">12345: Dynamický vývoj – Růst v mnoha oblastech.</string>
+    <string name="angel_123456">123456: Úplné dovršení – Cyklus se uzavírá a otevírají se nové cesty.</string>
+    <string name="angel_palindrome">Zrcadlové číslo – Vnitřní a vnější svět se odrážejí.</string>
+    <string name="angel_mirror">Zrcadlový vzorec – Poznání skrze sebereflexi.</string>
+    <string name="angel_alternating">Střídavý vzorec – Dvě energie působí v rytmu.</string>
+    <string name="angel_sequence_ascending">Vzestupná sekvence – Vývoj probíhá vědomě.</string>
+    <string name="angel_sequence_descending">Sestupná sekvence – Uvolnění přináší transformaci.</string>
 </resources>

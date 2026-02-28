@@ -1,72 +1,97 @@
 <resources>
-    <!-- سلسلة 0: الأصل والإمكانات -->
-    <string name="angel_0_1">0: الأصل والحضور – كن هنا. لم يتقرر شيء بعد.</string>
-    <string name="angel_0_2">00: مساحة محمية – يمكنك أن تكون هادئًا. استوعب.</string>
+    <!-- 0er Reihe -->
+    <string name="angel_0_1">0: الأصل والحضور – كن هنا. لم يُحسم شيء بعد.</string>
+    <string name="angel_0_2">00: مساحة حماية – يمكنك أن تكون هادئًا. اندمج.</string>
     <string name="angel_0_3">000: المصدر – الكل واحد. ثق بالكل.</string>
-    <string name="angel_0_4">0000: إعادة تعيين – ابدأ من جديد بلا عبء. الخط الزمني مفتوح.</string>
-    <string name="angel_0_5">00000: الإمكانات الصافية – أنت موجود قبل أن تكون شيئًا.</string>
+    <string name="angel_0_4">0000: إعادة ضبط – ابدأ من جديد دون حمل. الخط الزمني مفتوح.</string>
+    <string name="angel_0_5">00000: إمكانية خالصة – أنت كائن قبل أن تكون شيئًا.</string>
     <string name="angel_0_6">000000: الفراغ الإلهي – كل شيء ممكن.</string>
 
-    <!-- سلسلة 1: الحدس والتجلي -->
-    <string name="angel_1_2">11: الحدس – استمع، إرشادك الداخلي ينادي.</string>
-    <string name="angel_1_3">111: التجلي – أنت تخلق الآن، بوعي أو بدون وعي.</string>
-    <string name="angel_1_4">1111: الصحوة – بوابة تُفتح. اختر بوعي.</string>
-    <string name="angel_1_5">11111: التجسيد – عش ما أدركته.</string>
-    <string name="angel_1_6">111111: القوة الخلاقة – أفكارك تصبح حقيقة.</string>
+    <!-- 1er Reihe -->
+    <string name="angel_1_1">1: دافع – فكرة جديدة تريد أن تولد.</string>
+    <string name="angel_1_2">11: حدس – أنصت، إرشادك الداخلي يتحدث.</string>
+    <string name="angel_1_3">111: تجلٍ – أنت تخلق الآن، بوعي أو دون وعي.</string>
+    <string name="angel_1_4">1111: يقظة – بوابة تنفتح. اختر بوعي.</string>
+    <string name="angel_1_5">11111: تجسيد – عش ما أدركته.</string>
+    <string name="angel_1_6">111111: قوة الخلق – أفكارك تصبح واقعًا.</string>
 
-    <!-- سلسلة 2: التوازن والثقة -->
-    <string name="angel_2_2">22: التوازن – ابقَ في الثقة.</string>
-    <string name="angel_2_3">222: التوقيت الإلهي – كل شيء يتناغم في التوقيت المثالي.</string>
-    <string name="angel_2_4">2222: الاستقرار – أنت مدعوم.</string>
+    <!-- 2er Reihe -->
+    <string name="angel_2_1">2: لقاء – انتبه لمن أمامك.</string>
+    <string name="angel_2_2">22: توازن – ابقَ في الثقة.</string>
+    <string name="angel_2_3">222: توافق – كل شيء ينتظم وفق التوقيت الإلهي.</string>
+    <string name="angel_2_4">2222: استقرار – أنت محمول ومدعوم.</string>
     <string name="angel_2_5">22222: انسجام الروح – أنت في مكانك الصحيح.</string>
-    <string name="angel_2_6">222222: الاتزان – لا تجبر شيئًا، كل شيء موجود.</string>
+    <string name="angel_2_6">222222: اعتدال – لا تُجبر شيئًا، كل شيء موجود.</string>
 
-    <!-- سلسلة 3: التعبير والحقيقة -->
-    <string name="angel_3_2">33: التعبير – عبّر عن نفسك، العالم يستمع.</string>
-    <string name="angel_3_3">333: النمو – أنت مُحاط بالمعلمين الروحيين.</string>
-    <string name="angel_3_4">3333: الأصالة – أظهر نفسك كما أنت.</string>
-    <string name="angel_3_5">33333: الحقيقة – حقيقتك تريد أن تُعاش.</string>
-    <string name="angel_3_6">333333: القلب والكلمة – أنت تتحدث من جوهرك.</string>
+    <!-- 3er Reihe -->
+    <string name="angel_3_1">3: تعبير – شارك أفكارك ومشاعرك.</string>
+    <string name="angel_3_2">33: تعبير – عبّر عن نفسك، العالم يستمع.</string>
+    <string name="angel_3_3">333: نمو – يرافقك معلمون.</string>
+    <string name="angel_3_4">3333: أصالة – أظهر نفسك كما أنت.</string>
+    <string name="angel_3_5">33333: حقيقة – حقيقتك تريد أن تُعاش.</string>
+    <string name="angel_3_6">333333: قلب وكلمة – تتحدث من جوهرك.</string>
 
-    <!-- سلسلة 4: الاستقرار والحماية -->
-    <string name="angel_4_2">44: التجذر – النظام يجلب الهدوء.</string>
-    <string name="angel_4_3">444: الحماية – أنت آمن ومحمي.</string>
-    <string name="angel_4_4">4444: البنية – أساسك متين.</string>
-    <string name="angel_4_5">44444: الثبات – ثق بموقفك.</string>
-    <string name="angel_4_6">444444: التثبيت – أنت متجذر بقوة في الحياة.</string>
+    <!-- 4er Reihe -->
+    <string name="angel_4_1">4: هيكل – النظام يجلب الوضوح.</string>
+    <string name="angel_4_2">44: تأريض – النظام يجلب السكينة.</string>
+    <string name="angel_4_3">444: حماية – أنت آمن ومحمي.</string>
+    <string name="angel_4_4">4444: هيكل – أساسك متين.</string>
+    <string name="angel_4_5">44444: ثبات – ثق بمكانتك.</string>
+    <string name="angel_4_6">444444: ترسيخ – أنت متجذر في الحياة.</string>
 
-    <!-- سلسلة 5: التغيير والحرية -->
-    <string name="angel_5_2">55: التغيير – كن منفتحًا للجديد.</string>
-    <string name="angel_5_3">555: التحول – تخلَّ عن القديم.</string>
-    <string name="angel_5_4">5555: التحول الكامل – لا شيء يبقى كما كان.</string>
-    <string name="angel_5_5">55555: الهوية – أنت تولد من جديد.</string>
-    <string name="angel_5_6">555555: الحرية – الحرية هي حالتك الجديدة.</string>
+    <!-- 5er Reihe -->
+    <string name="angel_5_1">5: حركة – التغيير يلوح في الأفق.</string>
+    <string name="angel_5_2">55: تحوّل – كن منفتحًا على الجديد.</string>
+    <string name="angel_5_3">555: انعطاف – اترك القديم.</string>
+    <string name="angel_5_4">5555: تحول عميق – لا شيء يبقى كما كان.</string>
+    <string name="angel_5_5">55555: هوية – تولد من جديد.</string>
+    <string name="angel_5_6">555555: حرية – الحرية هي حالتك الجديدة.</string>
 
-    <!-- سلسلة 6: العودة إلى المركز -->
-    <string name="angel_6_2">66: الرعاية الذاتية – اعتنِ بنفسك جيدًا.</string>
-    <string name="angel_6_3">666: التوازن – عُد إلى ذاتك، بين الداخل والخارج.</string>
-    <string name="angel_6_4">6666: الأولويات – ما الذي يغذيك حقًا؟</string>
-    <string name="angel_6_5">66666: الشفاء – يمكنك أن تكون لطيفًا مع نفسك.</string>
-    <string name="angel_6_6">666666: الكمال الداخلي – أنت في بيتك داخل نفسك.</string>
+    <!-- 6er Reihe -->
+    <string name="angel_6_1">6: رعاية – اعتنِ بقلبك وبيتك.</string>
+    <string name="angel_6_2">66: رعاية الذات – اهتم بنفسك جيدًا.</string>
+    <string name="angel_6_3">666: توازن – عد إلى نفسك بين الداخل والخارج.</string>
+    <string name="angel_6_4">6666: أولويات – ما الذي يغذيك حقًا؟</string>
+    <string name="angel_6_5">66666: شفاء – كن لطيفًا مع نفسك.</string>
+    <string name="angel_6_6">666666: كمال – أنت في بيتك داخلك.</string>
 
-    <!-- سلسلة 7: الحكمة والبصيرة -->
-    <string name="angel_7_2">77: الإرشاد – ثق بمعرفتك الداخلية.</string>
-    <string name="angel_7_3">777: الروحانية – أنت تتعلم على مستوى الروح.</string>
-    <string name="angel_7_4">7777: البصيرة – أنت ترى الأمور بوضوح.</string>
-    <string name="angel_7_5">77777: الحكمة – أنت تعيش ما تعرفه.</string>
-    <string name="angel_7_6">777777: الاستنارة – أنت مُوجَّه من الداخل.</string>
+    <!-- 7er Reihe -->
+    <string name="angel_7_1">7: تأمل داخلي – أنصت لصوتك الداخلي.</string>
+    <string name="angel_7_2">77: إرشاد – ثق بمعرفتك الداخلية.</string>
+    <string name="angel_7_3">777: روحانية – تتعلم على مستوى الروح.</string>
+    <string name="angel_7_4">7777: إدراك – ترى الأمور بوضوح.</string>
+    <string name="angel_7_5">77777: حكمة – تعيش ما تعرفه.</string>
+    <string name="angel_7_6">777777: استنارة – أنت موجه من الداخل.</string>
 
-    <!-- سلسلة 8: الوفرة وتدفق الطاقة -->
-    <string name="angel_8_2">88: التوازن – العطاء والأخذ في تدفق.</string>
-    <string name="angel_8_3">888: الوفرة – النجاح ممكن وقريب.</string>
+    <!-- 8er Reihe -->
+    <string name="angel_8_1">8: قوة – استخدم طاقتك بوعي.</string>
+    <string name="angel_8_2">88: توازن – العطاء والأخذ في تدفق.</string>
+    <string name="angel_8_3">888: وفرة – النجاح ممكن وقريب.</string>
     <string name="angel_8_4">8888: تدفق الطاقة – كل شيء يتدفق إليك.</string>
-    <string name="angel_8_5">88888: الاستقبال – مسموح لك أن تملك وأن تكون.</string>
-    <string name="angel_8_6">888888: الفيض – أنت جزء من الوفرة اللامتناهية.</string>
+    <string name="angel_8_5">88888: استقبال – يحق لك أن تملك وأن تكون.</string>
+    <string name="angel_8_6">888888: فيض – أنت جزء من الوفرة اللامتناهية.</string>
 
-    <!-- سلسلة 9: الاكتمال والانتقال -->
-    <string name="angel_9_2">99: التخلي – النهاية تقترب.</string>
-    <string name="angel_9_3">999: الاكتمال – دورة تنتهي. اشكر وامضِ قدمًا.</string>
-    <string name="angel_9_4">9999: التحول – القديم يرحل نهائيًا.</string>
-    <string name="angel_9_5">99999: النضج – أنت مستعد لما هو قادم.</string>
-    <string name="angel_9_6">999999: الكمال – الدائرة تكتمل.</string>
+    <!-- 9er Reihe -->
+    <string name="angel_9_1">9: اكتمال – فصل ينتهي.</string>
+    <string name="angel_9_2">99: تحرر – نهاية تقترب.</string>
+    <string name="angel_9_3">999: ختام – دورة تنتهي. شكرًا واستمر.</string>
+    <string name="angel_9_4">9999: تحول – القديم يرحل نهائيًا.</string>
+    <string name="angel_9_5">99999: نضج – أنت مستعد لما هو قادم.</string>
+    <string name="angel_9_6">999999: اكتمال – الدائرة تُغلق.</string>
+
+    <!-- 10er & Spiegelzahlen -->
+    <string name="angel_10">10: بداية جديدة – دورة تنتهي وأخرى تبدأ.</string>
+    <string name="angel_12">12: عملية تعلم – تطور من خلال التجربة.</string>
+    <string name="angel_21">21: اندماج – الأضداد تتحد.</string>
+    <string name="angel_101">101: يقظة – وعي على مستوى جديد.</string>
+    <string name="angel_1212">1212: توازن في التغيير – ثبات في الحركة.</string>
+    <string name="angel_123">123: تدفق إبداعي – الأفكار تتدفق بحرية.</string>
+    <string name="angel_1234">1234: تجلٍ منظم – خطتك تصبح ملموسة.</string>
+    <string name="angel_12345">12345: تطور ديناميكي – نمو في مجالات عديدة.</string>
+    <string name="angel_123456">123456: اكتمال تام – الدورة تُغلق وتفتح طرق جديدة.</string>
+    <string name="angel_palindrome">رقم مرآتي – العالم الداخلي والخارجي ينعكسان.</string>
+    <string name="angel_mirror">نمط مرآتي – إدراك عبر مراقبة الذات.</string>
+    <string name="angel_alternating">نمط متناوب – طاقتان تعملان بإيقاع.</string>
+    <string name="angel_sequence_ascending">تسلسل تصاعدي – التطور يحدث بوعي.</string>
+    <string name="angel_sequence_descending">تسلسل تنازلي – التحرر يجلب التحول.</string>
 </resources>

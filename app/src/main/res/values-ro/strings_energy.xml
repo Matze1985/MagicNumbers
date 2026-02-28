@@ -1,0 +1,59 @@
+<resources>
+    <!-- Default -->
+    <string name="energy_default">Claritate → Încredere → Acțiune</string>
+
+    <!-- Numere principale -->
+    <string name="energy_core_1">Impuls → Decizie → Nou început</string>
+    <string name="energy_core_2">Întâlnire → Echilibru → Armonie</string>
+    <string name="energy_core_3">Experiență → Exprimare → Creștere</string>
+    <string name="energy_core_4">Ordine → Construire → Stabilitate</string>
+    <string name="energy_core_5">Mișcare → Schimbare → Libertate</string>
+    <string name="energy_core_6">Grijă → Vindecare → Armonie</string>
+    <string name="energy_core_7">Claritate → Ghidare interioară → Înțelegere</string>
+    <string name="energy_core_8">Focalizare → Acțiune → Succes</string>
+    <string name="energy_core_9">Încheiere → Eliberare → Transformare</string>
+
+    <!-- Numere de bază -->
+    <string name="energy_0">Sursă → Conștientizare → Nou început</string>
+    <string name="energy_1">Impuls → Decizie → Nou început</string>
+    <string name="energy_2">Întâlnire → Echilibru → Armonie</string>
+    <string name="energy_3">Experiență → Exprimare → Creștere</string>
+    <string name="energy_4">Ordine → Structură → Stabilitate</string>
+    <string name="energy_5">Mișcare → Schimbare → Libertate</string>
+    <string name="energy_6">Grijă → Vindecare → Armonie</string>
+    <string name="energy_7">Claritate → Ghidare interioară → Trezire</string>
+    <string name="energy_8">Focalizare → Acțiune → Succes</string>
+    <string name="energy_9">Încheiere → Eliberare → Transformare</string>
+
+    <!-- Repetiții dominante -->
+    <string name="energy_repeat_0">Origine → Potențial → Creație</string>
+    <string name="energy_repeat_1">Impuls → Decizie → Inițiativă</string>
+    <string name="energy_repeat_2">Conexiune → Echilibru → Armonie</string>
+    <string name="energy_repeat_3">Bucurie → Exprimare → Creștere</string>
+    <string name="energy_repeat_4">Ordine → Stabilitate → Fundament</string>
+    <string name="energy_repeat_5">Mișcare → Schimbare → Libertate</string>
+    <string name="energy_repeat_6">Grijă → Vindecare → Armonie</string>
+    <string name="energy_repeat_7">Liniște → Ghidare interioară → Trezire</string>
+    <string name="energy_repeat_8">Putere → Abundență → Succes</string>
+    <string name="energy_repeat_9">Încheiere → Eliberare → Transformare</string>
+
+    <!-- Numere maestru -->
+    <string name="energy_11">Inspirație → Conștientizare → Iluminare</string>
+    <string name="energy_22">Viziune → Structură → Manifestare</string>
+    <string name="energy_33">Iubire → Exprimare → Vindecare</string>
+    <string name="energy_44">Disciplină → Stabilitate → Măiestrie</string>
+
+    <!-- Numere duble extinse -->
+    <string name="energy_55">Mișcare → Eliberare → Străpungere</string>
+    <string name="energy_66">Deschiderea inimii → Responsabilitate → Armonie</string>
+    <string name="energy_77">Liniște → Înțelepciune interioară → Trezire</string>
+    <string name="energy_88">Putere → Abundență → Manifestare</string>
+    <string name="energy_99">Împlinire → Eliberare → Reînnoire</string>
+
+    <!-- Numere maestru -->
+    <string name="energy_master_11">Inspirație → Conștientizare → Iluminare</string>
+    <string name="energy_master_22">Viziune → Structură → Manifestare</string>
+    <string name="energy_master_33">Iubire → Exprimare → Vindecare</string>
+    <string name="energy_master_44">Disciplină → Stabilitate → Măiestrie</string>
+    <string name="energy_multi_master">Ghidare interioară → Manifestare conștientă → Impact spiritual</string>
+</resources>

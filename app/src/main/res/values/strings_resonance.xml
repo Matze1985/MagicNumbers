@@ -2,7 +2,6 @@
     <!-- =====================================================
          Resonance – General labels (shared)
     ====================================================== -->
-    <string name="resonance_prefix">🔮</string>
     <string name="resonance_focus_none">Focus: evenly distributed (no direct repetitions)</string>
     <string name="resonance_focus_frame">Focus: beginning &amp; end (framing theme)</string>
     <string name="resonance_focus_center">Focus: center (core impulse)</string>
@@ -10,24 +9,14 @@
     <string name="resonance_focus_end">Focus: end (outcome / next step)</string>
 
     <!-- =====================================================
-         Resonance (4-digit) – IDs
-    ====================================================== -->
-    <string name="resonance4_id_mono">R4_MONO</string>
-    <string name="resonance4_id_aabb">R4_AABB</string>
-    <string name="resonance4_id_abab">R4_ABAB</string>
-    <string name="resonance4_id_abba">R4_ABBA</string>
-    <string name="resonance4_id_abcd">R4_ABCD</string>
-    <string name="resonance4_id_none">R4_NONE</string>
-
-    <!-- =====================================================
          Resonance (4-digit) – Titles
     ====================================================== -->
-    <string name="resonance4_title_mono">Resonance Pattern (4): Monotype</string>
-    <string name="resonance4_title_aabb">Resonance Pattern (4): Two Phases</string>
-    <string name="resonance4_title_abab">Resonance Pattern (4): Alternation</string>
-    <string name="resonance4_title_abba">Resonance Pattern (4): Mirror</string>
-    <string name="resonance4_title_abcd">Resonance Pattern (4): Even Distribution</string>
-    <string name="resonance4_title_none">Resonance Pattern: Free Mix</string>
+    <string name="resonance4_title_mono">🔮 Resonance Pattern (4): Monotype</string>
+    <string name="resonance4_title_aabb">🔮 Resonance Pattern (4): Two Phases</string>
+    <string name="resonance4_title_abab">🔮 Resonance Pattern (4): Alternation</string>
+    <string name="resonance4_title_abba">🔮 Resonance Pattern (4): Mirror</string>
+    <string name="resonance4_title_abcd">🔮 Resonance Pattern (4): Even Distribution</string>
+    <string name="resonance4_title_none">🔮 Resonance Pattern: Free Mix</string>
 
     <!-- =====================================================
          Resonance (4-digit) – Short meanings
@@ -38,28 +27,18 @@
     <string name="resonance4_meaning_abba">Reflection – insight through inner and outer mirroring.</string>
     <string name="resonance4_meaning_abcd">Even flow – no repetition, open and neutral energy.</string>
     <string name="resonance4_meaning_none">No dominant pattern – the energy is freely mixed and open.</string>
-
-    <!-- =====================================================
-         Resonance (6-digit) – IDs
-    ====================================================== -->
-    <string name="resonance6_id_mono">R6_MONO</string>
-    <string name="resonance6_id_aaabbb">R6_AAABBB</string>
-    <string name="resonance6_id_aabbcc">R6_AABBCC</string>
-    <string name="resonance6_id_ababab">R6_ABABAB</string>
-    <string name="resonance6_id_abcabc">R6_ABCABC</string>
-    <string name="resonance6_id_mirror">R6_MIRROR</string>
-    <string name="resonance6_id_none">R6_NONE</string>
+    <string name="resonance4_meaning_ababab">Tension between two poles – rhythm, balance, and conscious decision shape this energy.</string>
 
     <!-- =====================================================
          Resonance (6-digit) – Titles
     ====================================================== -->
-    <string name="resonance6_title_mono">Resonance Pattern (6): Monotype</string>
-    <string name="resonance6_title_aaabbb">Resonance Pattern (6): Transition</string>
-    <string name="resonance6_title_aabbcc">Resonance Pattern (6): Stepwise Process</string>
-    <string name="resonance6_title_ababab">Resonance Pattern (6): Alternation / Pendulum</string>
-    <string name="resonance6_title_abcabc">Resonance Pattern (6): Cycle</string>
-    <string name="resonance6_title_mirror">Resonance Pattern (6): Mirror</string>
-    <string name="resonance6_title_none">Resonance Pattern: Free Mix</string>
+    <string name="resonance6_title_mono">🔮 Resonance Pattern (6): Monotype</string>
+    <string name="resonance6_title_aaabbb">🔮 Resonance Pattern (6): Transition</string>
+    <string name="resonance6_title_aabbcc">🔮 Resonance Pattern (6): Stepwise Process</string>
+    <string name="resonance6_title_ababab">🔮 Resonance Pattern (6): Alternation / Pendulum</string>
+    <string name="resonance6_title_abcabc">🔮 Resonance Pattern (6): Cycle</string>
+    <string name="resonance6_title_mirror">🔮 Resonance Pattern (6): Mirror</string>
+    <string name="resonance6_title_none">🔮 Resonance Pattern: Free Mix</string>
 
     <!-- =====================================================
          Resonance (6-digit) – Short meanings

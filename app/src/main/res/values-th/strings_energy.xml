@@ -1,0 +1,59 @@
+<resources>
+    <!-- Default -->
+    <string name="energy_default">ความชัดเจน → ความไว้วางใจ → การลงมือทำ</string>
+
+    <!-- ตัวเลขหลัก -->
+    <string name="energy_core_1">แรงผลักดัน → การตัดสินใจ → การเริ่มต้นใหม่</string>
+    <string name="energy_core_2">การพบเจอ → ความสมดุล → ความกลมกลืน</string>
+    <string name="energy_core_3">ประสบการณ์ → การแสดงออก → การเติบโต</string>
+    <string name="energy_core_4">ระเบียบ → การสร้าง → ความมั่นคง</string>
+    <string name="energy_core_5">การเคลื่อนไหว → การเปลี่ยนแปลง → อิสรภาพ</string>
+    <string name="energy_core_6">การดูแล → การเยียวยา → ความกลมกลืน</string>
+    <string name="energy_core_7">ความชัดเจน → การนำทางภายใน → ความเข้าใจลึกซึ้ง</string>
+    <string name="energy_core_8">การโฟกัส → การลงมือทำ → ความสำเร็จ</string>
+    <string name="energy_core_9">การสิ้นสุด → การปล่อยวาง → การเปลี่ยนแปลง</string>
+
+    <!-- ตัวเลขพื้นฐาน -->
+    <string name="energy_0">แหล่งกำเนิด → การตระหนักรู้ → การเริ่มต้นใหม่</string>
+    <string name="energy_1">แรงผลักดัน → การตัดสินใจ → การเริ่มต้นใหม่</string>
+    <string name="energy_2">การพบเจอ → ความสมดุล → ความกลมกลืน</string>
+    <string name="energy_3">ประสบการณ์ → การแสดงออก → การเติบโต</string>
+    <string name="energy_4">ระเบียบ → โครงสร้าง → ความมั่นคง</string>
+    <string name="energy_5">การเคลื่อนไหว → การเปลี่ยนแปลง → อิสรภาพ</string>
+    <string name="energy_6">การดูแล → การเยียวยา → ความกลมกลืน</string>
+    <string name="energy_7">ความชัดเจน → การนำทางภายใน → การตื่นรู้</string>
+    <string name="energy_8">การโฟกัส → การลงมือทำ → ความสำเร็จ</string>
+    <string name="energy_9">การสิ้นสุด → การปล่อยวาง → การเปลี่ยนแปลง</string>
+
+    <!-- การซ้ำที่โดดเด่น -->
+    <string name="energy_repeat_0">จุดเริ่มต้น → ศักยภาพ → การสร้างสรรค์</string>
+    <string name="energy_repeat_1">แรงผลักดัน → การตัดสินใจ → ความริเริ่ม</string>
+    <string name="energy_repeat_2">ความเชื่อมโยง → ความสมดุล → ความกลมกลืน</string>
+    <string name="energy_repeat_3">ความยินดี → การแสดงออก → การเติบโต</string>
+    <string name="energy_repeat_4">ระเบียบ → ความมั่นคง → รากฐาน</string>
+    <string name="energy_repeat_5">การเคลื่อนไหว → การเปลี่ยนแปลง → อิสรภาพ</string>
+    <string name="energy_repeat_6">การดูแล → การเยียวยา → ความกลมกลืน</string>
+    <string name="energy_repeat_7">ความเงียบ → การนำทางภายใน → การตื่นรู้</string>
+    <string name="energy_repeat_8">พลัง → ความอุดมสมบูรณ์ → ความสำเร็จ</string>
+    <string name="energy_repeat_9">การสิ้นสุด → การปล่อยวาง → การเปลี่ยนแปลง</string>
+
+    <!-- เลขมาสเตอร์ -->
+    <string name="energy_11">แรงบันดาลใจ → การตระหนักรู้ → การรู้แจ้ง</string>
+    <string name="energy_22">วิสัยทัศน์ → โครงสร้าง → การปรากฏผล</string>
+    <string name="energy_33">ความรัก → การแสดงออก → การเยียวยา</string>
+    <string name="energy_44">วินัย → ความมั่นคง → ความเชี่ยวชาญ</string>
+
+    <!-- เลขคู่ขยาย -->
+    <string name="energy_55">การเคลื่อนไหว → การปลดปล่อย → การก้าวกระโดด</string>
+    <string name="energy_66">การเปิดหัวใจ → ความรับผิดชอบ → ความกลมกลืน</string>
+    <string name="energy_77">ความเงียบ → ปัญญาภายใน → การตื่นรู้</string>
+    <string name="energy_88">พลัง → ความอุดมสมบูรณ์ → การปรากฏผล</string>
+    <string name="energy_99">ความสมบูรณ์ → การปล่อยวาง → การฟื้นฟู</string>
+
+    <!-- เลขมาสเตอร์ -->
+    <string name="energy_master_11">แรงบันดาลใจ → การตระหนักรู้ → การรู้แจ้ง</string>
+    <string name="energy_master_22">วิสัยทัศน์ → โครงสร้าง → การปรากฏผล</string>
+    <string name="energy_master_33">ความรัก → การแสดงออก → การเยียวยา</string>
+    <string name="energy_master_44">วินัย → ความมั่นคง → ความเชี่ยวชาญ</string>
+    <string name="energy_multi_master">การนำทางภายใน → การปรากฏผลอย่างมีสติ → อิทธิพลทางจิตวิญญาณ</string>
+</resources>

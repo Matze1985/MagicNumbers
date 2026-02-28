@@ -1,0 +1,59 @@
+<resources>
+    <!-- Default -->
+    <string name="energy_default">Selkeys → Luottamus → Toiminta</string>
+
+    <!-- Pääluvut -->
+    <string name="energy_core_1">Impulssi → Päätös → Uusi alku</string>
+    <string name="energy_core_2">Kohtaaminen → Tasapaino → Harmonia</string>
+    <string name="energy_core_3">Kokemus → Ilmaisu → Kasvu</string>
+    <string name="energy_core_4">Järjestys → Rakentaminen → Vakaus</string>
+    <string name="energy_core_5">Liike → Muutos → Vapaus</string>
+    <string name="energy_core_6">Huolenpito → Parantuminen → Harmonia</string>
+    <string name="energy_core_7">Selkeys → Sisäinen ohjaus → Oivallus</string>
+    <string name="energy_core_8">Keskittyminen → Toiminta → Menestys</string>
+    <string name="energy_core_9">Päätös → Irti päästäminen → Muutos</string>
+
+    <!-- Perusluvut -->
+    <string name="energy_0">Lähde → Tietoisuus → Uusi alku</string>
+    <string name="energy_1">Impulssi → Päätös → Uusi alku</string>
+    <string name="energy_2">Kohtaaminen → Tasapaino → Harmonia</string>
+    <string name="energy_3">Kokemus → Ilmaisu → Kasvu</string>
+    <string name="energy_4">Järjestys → Rakenne → Vakaus</string>
+    <string name="energy_5">Liike → Muutos → Vapaus</string>
+    <string name="energy_6">Huolenpito → Parantuminen → Harmonia</string>
+    <string name="energy_7">Selkeys → Sisäinen ohjaus → Herääminen</string>
+    <string name="energy_8">Keskittyminen → Toiminta → Menestys</string>
+    <string name="energy_9">Päätös → Irti päästäminen → Muutos</string>
+
+    <!-- Hallitsevat toistot -->
+    <string name="energy_repeat_0">Alku → Potentiaali → Luominen</string>
+    <string name="energy_repeat_1">Impulssi → Päätös → Aloite</string>
+    <string name="energy_repeat_2">Yhteys → Tasapaino → Harmonia</string>
+    <string name="energy_repeat_3">Ilo → Ilmaisu → Kasvu</string>
+    <string name="energy_repeat_4">Järjestys → Vakaus → Perusta</string>
+    <string name="energy_repeat_5">Liike → Muutos → Vapaus</string>
+    <string name="energy_repeat_6">Huolenpito → Parantuminen → Harmonia</string>
+    <string name="energy_repeat_7">Hiljaisuus → Sisäinen ohjaus → Herääminen</string>
+    <string name="energy_repeat_8">Voima → Yltäkylläisyys → Menestys</string>
+    <string name="energy_repeat_9">Päätös → Irti päästäminen → Muutos</string>
+
+    <!-- Mestarinumerot -->
+    <string name="energy_11">Inspiraatio → Tietoisuus → Valaistuminen</string>
+    <string name="energy_22">Visio → Rakenne → Ilmentyminen</string>
+    <string name="energy_33">Rakkaus → Ilmaisu → Parantuminen</string>
+    <string name="energy_44">Kurinalaisuus → Vakaus → Mestaruus</string>
+
+    <!-- Laajennetut kaksoisluvut -->
+    <string name="energy_55">Liike → Vapautuminen → Läpimurto</string>
+    <string name="energy_66">Sydämen avautuminen → Vastuu → Harmonia</string>
+    <string name="energy_77">Hiljaisuus → Sisäinen viisaus → Herääminen</string>
+    <string name="energy_88">Voima → Yltäkylläisyys → Ilmentyminen</string>
+    <string name="energy_99">Täyttyminen → Irti päästäminen → Uudistuminen</string>
+
+    <!-- Mestarinumerot -->
+    <string name="energy_master_11">Inspiraatio → Tietoisuus → Valaistuminen</string>
+    <string name="energy_master_22">Visio → Rakenne → Ilmentyminen</string>
+    <string name="energy_master_33">Rakkaus → Ilmaisu → Parantuminen</string>
+    <string name="energy_master_44">Kurinalaisuus → Vakaus → Mestaruus</string>
+    <string name="energy_multi_master">Sisäinen ohjaus → Tietoinen ilmentäminen → Henkinen vaikutus</string>
+</resources>

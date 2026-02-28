@@ -1,74 +1,53 @@
 <resources>
     <!-- =====================================================
-         Resonance – General labels (shared)
+         Resonants – Üldised sildid (ühised)
     ====================================================== -->
-    <string name="resonance_prefix">🔮</string>
-    <string name="resonance_focus_none">Fookus: ühtlane jaotus (otseseid kordusi pole)</string>
-    <string name="resonance_focus_frame">Fookus: algus ja lõpp (raamiv teema)</string>
+    <string name="resonance_focus_none">Fookus: ühtlaselt jaotunud (otseseid kordusi pole)</string>
+    <string name="resonance_focus_frame">Fookus: algus &amp; lõpp (raamteema)</string>
     <string name="resonance_focus_center">Fookus: keskpunkt (tuumimpulss)</string>
-    <string name="resonance_focus_start">Fookus: algus (identiteet / algusfaas)</string>
+    <string name="resonance_focus_start">Fookus: algus (identiteet / algfaas)</string>
     <string name="resonance_focus_end">Fookus: lõpp (tulemus / järgmine samm)</string>
 
     <!-- =====================================================
-         Resonance (4-digit) – IDs
+         Resonants (4-kohaline) – Pealkirjad
     ====================================================== -->
-    <string name="resonance4_id_mono">R4_MONO</string>
-    <string name="resonance4_id_aabb">R4_AABB</string>
-    <string name="resonance4_id_abab">R4_ABAB</string>
-    <string name="resonance4_id_abba">R4_ABBA</string>
-    <string name="resonance4_id_abcd">R4_ABCD</string>
-    <string name="resonance4_id_none">R4_NONE</string>
+    <string name="resonance4_title_mono">🔮 Resonantsimuster (4): Monotüüp</string>
+    <string name="resonance4_title_aabb">🔮 Resonantsimuster (4): Kaks faasi</string>
+    <string name="resonance4_title_abab">🔮 Resonantsimuster (4): Vaheldus</string>
+    <string name="resonance4_title_abba">🔮 Resonantsimuster (4): Peegel</string>
+    <string name="resonance4_title_abcd">🔮 Resonantsimuster (4): Ühtlane jaotus</string>
+    <string name="resonance4_title_none">🔮 Resonantsimuster: Vaba kombinatsioon</string>
 
     <!-- =====================================================
-         Resonance (4-digit) – Titles
+         Resonants (4-kohaline) – Lühitähendused
     ====================================================== -->
-    <string name="resonance4_title_mono">Resonantsimuster: monotoon</string>
-    <string name="resonance4_title_aabb">Resonantsimuster: kaks faasi</string>
-    <string name="resonance4_title_abab">Resonantsimuster: vaheldumine</string>
-    <string name="resonance4_title_abba">Resonantsimuster: peegel</string>
-    <string name="resonance4_title_abcd">Resonantsimuster: ühtlane jaotus</string>
-    <string name="resonance4_title_none">Resonantsimuster: vaba kombinatsioon</string>
-
-    <!-- =====================================================
-         Resonance (4-digit) – Short meanings
-    ====================================================== -->
-    <string name="resonance4_meaning_mono">Maksimaalne võimendumine – üks teema domineerib täielikult.</string>
-    <string name="resonance4_meaning_aabb">Selge üleminek – faasile A järgneb faas B.</string>
+    <string name="resonance4_meaning_mono">Maksimaalne võimendus – üks teema domineerib täielikult.</string>
+    <string name="resonance4_meaning_aabb">Selge üleminek – faas A asendub faasiga B.</string>
     <string name="resonance4_meaning_abab">Pinge kahe polaarsuse vahel – rütm, tasakaal, otsus.</string>
-    <string name="resonance4_meaning_abba">Peegeldus – taipamine läbi sisemise ja välise peegelduse.</string>
+    <string name="resonance4_meaning_abba">Peegeldus – taipamine sisemise ja välise peegli kaudu.</string>
     <string name="resonance4_meaning_abcd">Ühtlane voog – kordusi pole, avatud ja neutraalne energia.</string>
-    <string name="resonance4_meaning_none">Domineerivat mustrit pole – energia on vabalt kombineeritud ja avatud.</string>
+    <string name="resonance4_meaning_none">Puudub domineeriv muster – energia on vabalt kombineeritud ja avatud.</string>
+    <string name="resonance4_meaning_ababab">Pinge kahe polaarsuse vahel – rütm, tasakaal ja teadlik otsus kujundavad seda energiat.</string>
 
     <!-- =====================================================
-         Resonance (6-digit) – IDs
+         Resonants (6-kohaline) – Pealkirjad
     ====================================================== -->
-    <string name="resonance6_id_mono">R6_MONO</string>
-    <string name="resonance6_id_aaabbb">R6_AAABBB</string>
-    <string name="resonance6_id_aabbcc">R6_AABBCC</string>
-    <string name="resonance6_id_ababab">R6_ABABAB</string>
-    <string name="resonance6_id_abcabc">R6_ABCABC</string>
-    <string name="resonance6_id_mirror">R6_MIRROR</string>
-    <string name="resonance6_id_none">R6_NONE</string>
+    <string name="resonance6_title_mono">🔮 Resonantsimuster (6): Monotüüp</string>
+    <string name="resonance6_title_aaabbb">🔮 Resonantsimuster (6): Üleminek</string>
+    <string name="resonance6_title_aabbcc">🔮 Resonantsimuster (6): Astmeline protsess</string>
+    <string name="resonance6_title_ababab">🔮 Resonantsimuster (6): Vaheldus / Pendel</string>
+    <string name="resonance6_title_abcabc">🔮 Resonantsimuster (6): Tsükkel</string>
+    <string name="resonance6_title_mirror">🔮 Resonantsimuster (6): Peegel</string>
+    <string name="resonance6_title_none">🔮 Resonantsimuster: Vaba kombinatsioon</string>
 
     <!-- =====================================================
-         Resonance (6-digit) – Titles
+         Resonants (6-kohaline) – Lühitähendused
     ====================================================== -->
-    <string name="resonance6_title_mono">Resonantsimuster: monotoon</string>
-    <string name="resonance6_title_aaabbb">Resonantsimuster: üleminek</string>
-    <string name="resonance6_title_aabbcc">Resonantsimuster: astmeline protsess</string>
-    <string name="resonance6_title_ababab">Resonantsimuster: vaheldumine / pendel</string>
-    <string name="resonance6_title_abcabc">Resonantsimuster: tsükkel</string>
-    <string name="resonance6_title_mirror">Resonantsimuster: peegel</string>
-    <string name="resonance6_title_none">Resonantsimuster: vaba kombinatsioon</string>
-
-    <!-- =====================================================
-         Resonance (6-digit) – Short meanings
-    ====================================================== -->
-    <string name="resonance6_meaning_mono">Maksimaalne võimendumine – üks teema domineerib tugevalt (õnnistus või kinnistumine).</string>
-    <string name="resonance6_meaning_aaabbb">Selge muutus: faas A → faas B (lõpp ja uus algus).</string>
-    <string name="resonance6_meaning_aabbcc">Astmeline areng – õppimine ja lõimimine samm-sammult.</string>
-    <string name="resonance6_meaning_ababab">Pinge kahe polaarsuse vahel – tasakaal, otsus, rütmi leidmine.</string>
+    <string name="resonance6_meaning_mono">Maksimaalne võimendus – üks teema domineerib tugevalt (õnnistus või kinnisidee).</string>
+    <string name="resonance6_meaning_aaabbb">Selge muutus: faas A → faas B (lõpetamine ja uus algus).</string>
+    <string name="resonance6_meaning_aabbcc">Areng etappides – õppimine ja lõimimine samm-sammult.</string>
+    <string name="resonance6_meaning_ababab">Pinge kahe polaarsuse vahel – leia tasakaal, otsus ja rütm.</string>
     <string name="resonance6_meaning_abcabc">Korduv teema – rutiin, tsükkel, teadlikkus korduse kaudu.</string>
-    <string name="resonance6_meaning_mirror">Tagasiside – taipamine läbi peegelduse (sisemine / väline).</string>
-    <string name="resonance6_meaning_none">Domineerivat mustrit pole – energia on vabalt kombineeritud ja avatud.</string>
+    <string name="resonance6_meaning_mirror">Tagasiside – taipamine peegeldumise kaudu (sisemine/väline).</string>
+    <string name="resonance6_meaning_none">Puudub domineeriv muster – energia on vabalt kombineeritud ja avatud.</string>
 </resources>

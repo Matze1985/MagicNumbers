@@ -1,72 +1,97 @@
 <resources>
-    <!-- 0 Series: Origin & Potential -->
-    <string name="angel_0_1">0: 起源と現在 – ここにいてください。まだ何も決まっていません。</string>
-    <string name="angel_0_2">00: 聖域 – 静寂の中にいてください。統合しましょう。</string>
-    <string name="angel_0_3">000: 源 – すべては一つです。全体を信頼してください。</string>
-    <string name="angel_0_4">0000: リセット – 重荷を下ろし、新しく始めてください。タイムラインは開かれています。</string>
-    <string name="angel_0_5">00000: 純粋な可能性 – 何かになる前に、あなたは存在しています。</string>
-    <string name="angel_0_6">000000: 神聖な虚空 – すべてが可能です。</string>
+    <!-- 0 시리즈 -->
+    <string name="angel_0_1">0: 근원 &amp; 현존 – 지금 이 순간에 머무르세요. 아직 아무것도 정해지지 않았습니다.</string>
+    <string name="angel_0_2">00: 신성한 공간 – 고요히 있어도 됩니다. 통합하세요.</string>
+    <string name="angel_0_3">000: 근원 – 모든 것은 하나입니다. 전체를 신뢰하세요.</string>
+    <string name="angel_0_4">0000: 리셋 – 짐을 내려놓고 새롭게 시작하세요. 타임라인은 열려 있습니다.</string>
+    <string name="angel_0_5">00000: 순수한 잠재력 – 당신은 무언가가 되기 전부터 존재합니다.</string>
+    <string name="angel_0_6">000000: 신성한 공허 – 모든 것이 가능합니다.</string>
 
-    <!-- 1 Series: Intuition & Manifestation -->
-    <string name="angel_1_2">11: 直感 – 耳を傾けてください。内なる導きが呼んでいます。</string>
-    <string name="angel_1_3">111: 具現化 – 意識的であれ無意識的であれ、あなたは今、創造しています。</string>
-    <string name="angel_1_4">1111: 目覚め – 門が開かれています。意識的に選択してください。</string>
-    <string name="angel_1_5">11111: 体現 – 気づいたことを生きてください。</string>
-    <string name="angel_1_6">111111: 創造力 – あなたの思考が現実になります。</string>
+    <!-- 1 시리즈 -->
+    <string name="angel_1_1">1: 충동 – 새로운 생각이 태어나려 합니다.</string>
+    <string name="angel_1_2">11: 직관 – 내면의 인도를 들으세요.</string>
+    <string name="angel_1_3">111: 현실화 – 지금 이 순간 창조하고 있습니다, 의식적으로든 무의식적으로든.</string>
+    <string name="angel_1_4">1111: 각성 – 문이 열립니다. 의식적으로 선택하세요.</string>
+    <string name="angel_1_5">11111: 구현 – 깨달은 것을 살아가세요.</string>
+    <string name="angel_1_6">111111: 창조의 힘 – 당신의 생각이 현실이 됩니다.</string>
 
-    <!-- 2 Series: Balance & Trust -->
-    <string name="angel_2_2">22: バランス – 信頼の中に留まってください。</string>
-    <string name="angel_2_3">222: 神聖なタイミング – すべてが完璧なタイミングで整います。</string>
-    <string name="angel_2_4">2222: 安定 – あなたは支えられています。</string>
-    <string name="angel_2_5">22222: 魂の調和 – あなたは正しい場所にいます。</string>
-    <string name="angel_2_6">222222: 平穏 – 無理強いしないでください。すべてはそこにあります。</string>
+    <!-- 2 시리즈 -->
+    <string name="angel_2_1">2: 만남 – 당신 앞에 있는 이를 바라보세요.</string>
+    <string name="angel_2_2">22: 균형 – 신뢰 속에 머무르세요.</string>
+    <string name="angel_2_3">222: 조화 – 모든 것은 신성한 타이밍에 맞춰집니다.</string>
+    <string name="angel_2_4">2222: 안정 – 당신은 지지받고 있습니다.</string>
+    <string name="angel_2_5">22222: 영혼의 조화 – 당신은 올바른 자리에 있습니다.</string>
+    <string name="angel_2_6">222222: 평형 – 억지로 하지 마세요, 이미 모든 것이 존재합니다.</string>
 
-    <!-- 3 Series: Expression & Truth -->
-    <string name="angel_3_2">33: 表現 – 自分を表現してください。世界は聞いています。</string>
-    <string name="angel_3_3">333: 成長 – マスターたちがあなたに寄り添っています。</string>
-    <string name="angel_3_4">3333: 真正性 – ありのままの自分を見せてください。</string>
-    <string name="angel_3_5">33333: 真実 – あなたの真実は生きられることを望んでいます。</string>
-    <string name="angel_3_6">333333: 心と言葉 – あなたは本質から語っています。</string>
+    <!-- 3 시리즈 -->
+    <string name="angel_3_1">3: 표현 – 당신의 생각과 감정을 나누세요.</string>
+    <string name="angel_3_2">33: 표현 – 자신을 표현하세요, 세상이 듣고 있습니다.</string>
+    <string name="angel_3_3">333: 성장 – 스승들의 인도를 받고 있습니다.</string>
+    <string name="angel_3_4">3333: 진정성 – 있는 그대로의 자신을 보여주세요.</string>
+    <string name="angel_3_5">33333: 진실 – 당신의 진실은 살아지길 원합니다.</string>
+    <string name="angel_3_6">333333: 마음 &amp; 말 – 본질에서 말하고 있습니다.</string>
 
-    <!-- 4 Series: Stability & Protection -->
-    <string name="angel_4_2">44: グラウンディング – 秩序は平和をもたらします。</string>
-    <string name="angel_4_3">444: 守護 – あなたは安全で守られています。</string>
-    <string name="angel_4_4">4444: 構造 – あなたの基盤は強固です。</string>
-    <string name="angel_4_5">44444: 安定性 – 自分の立ち位置を信頼してください。</string>
-    <string name="angel_4_6">444444: 定着 – あなたは人生にしっかりと根を下ろしています。</string>
+    <!-- 4 시리즈 -->
+    <string name="angel_4_1">4: 구조 – 질서는 명확함을 가져옵니다.</string>
+    <string name="angel_4_2">44: 뿌리내림 – 질서는 평화를 가져옵니다.</string>
+    <string name="angel_4_3">444: 보호 – 당신은 안전하고 보호받고 있습니다.</string>
+    <string name="angel_4_4">4444: 기반 – 당신의 토대는 견고합니다.</string>
+    <string name="angel_4_5">44444: 안정 – 지금의 자리를 신뢰하세요.</string>
+    <string name="angel_4_6">444444: 정착 – 삶에 깊이 뿌리내리고 있습니다.</string>
 
-    <!-- 5 Series: Change & Freedom -->
-    <string name="angel_5_2">55: 変化 – 新しいことに心を開いてください。</string>
-    <string name="angel_5_3">555: 転換 – 古いものを手放してください。</string>
-    <string name="angel_5_4">5555: 変容 – 何も元のままではありません。</string>
-    <string name="angel_5_5">55555: アイデンティティ – あなたは生まれ変わろうとしています。</string>
-    <string name="angel_5_6">555555: 自由 – 自由こそがあなたの新しい状態です。</string>
+    <!-- 5 시리즈 -->
+    <string name="angel_5_1">5: 움직임 – 변화가 다가오고 있습니다.</string>
+    <string name="angel_5_2">55: 변화 – 새로운 것에 열려 있으세요.</string>
+    <string name="angel_5_3">555: 전환 – 오래된 것을 놓아주세요.</string>
+    <string name="angel_5_4">5555: 변형 – 아무것도 예전과 같지 않을 것입니다.</string>
+    <string name="angel_5_5">55555: 정체성 – 새롭게 태어나고 있습니다.</string>
+    <string name="angel_5_6">555555: 자유 – 자유가 당신의 새로운 상태입니다.</string>
 
-    <!-- 6 Series: Return to Center -->
-    <string name="angel_6_2">66: セルフケア – 自分を大切にしてください。</string>
-    <string name="angel_6_3">666: バランス – 内と外の間で、自分自身に戻ってください。</string>
-    <string name="angel_6_4">6666: 優先順位 – 本当にあなたを養うものは何ですか？</string>
-    <string name="angel_6_5">66666: 癒し – 自分自身に優しくあっても良いのです。</string>
-    <string name="angel_6_6">666666: 完全性 – あなたは自分自身の中でくつろいでいます。</string>
+    <!-- 6 시리즈 -->
+    <string name="angel_6_1">6: 돌봄 – 당신의 마음과 가정을 돌보세요.</string>
+    <string name="angel_6_2">66: 자기 돌봄 – 자신을 잘 보살피세요.</string>
+    <string name="angel_6_3">666: 균형 – 내면과 외면 사이에서 자신에게 돌아오세요.</string>
+    <string name="angel_6_4">6666: 우선순위 – 무엇이 진정으로 당신을 채워주나요?</string>
+    <string name="angel_6_5">66666: 치유 – 자신에게 부드럽게 대하세요.</string>
+    <string name="angel_6_6">666666: 온전함 – 당신은 스스로 안에서 집에 있습니다.</string>
 
-    <!-- 7 Series: Wisdom & Insight -->
-    <string name="angel_7_2">77: 導き – 内なる知恵を信頼してください。</string>
-    <string name="angel_7_3">777: 精神性 – あなたは魂のレベルで学んでいます。</string>
-    <string name="angel_7_4">7777: 洞察 – あなたは物事をはっきりと見ています。</string>
-    <string name="angel_7_5">77777: 叡智 – あなたは知っていることを生きています。</string>
-    <string name="angel_7_6">777777: 悟り – あなたは内側から導かれています。</string>
+    <!-- 7 시리즈 -->
+    <string name="angel_7_1">7: 성찰 – 내면의 목소리를 들으세요.</string>
+    <string name="angel_7_2">77: 인도 – 내면의 지혜를 신뢰하세요.</string>
+    <string name="angel_7_3">777: 영성 – 영혼의 차원에서 배우고 있습니다.</string>
+    <string name="angel_7_4">7777: 통찰 – 사물을 명확히 보고 있습니다.</string>
+    <string name="angel_7_5">77777: 지혜 – 아는 것을 삶으로 실천하고 있습니다.</string>
+    <string name="angel_7_6">777777: 깨달음 – 내면에서 인도받고 있습니다.</string>
 
-    <!-- 8 Series: Abundance & Energy Flow -->
-    <string name="angel_8_2">88: バランス – 与えることと受け取ることの流れ。</string>
-    <string name="angel_8_3">888: 豊かさ – 成功は可能で、すぐそこにあります。</string>
-    <string name="angel_8_4">8888: エネルギーの流れ – すべてがあなたに向かって流れています。</string>
-    <string name="angel_8_5">88888: 受容 – あなたは所有し、存在することを許されています。</string>
-    <string name="angel_8_6">888888: 溢れる恵み – あなたは無限の豊かさの一部です。</string>
+    <!-- 8 시리즈 -->
+    <string name="angel_8_1">8: 힘 – 에너지를 의식적으로 사용하세요.</string>
+    <string name="angel_8_2">88: 흐름 – 주고받음의 조화.</string>
+    <string name="angel_8_3">888: 풍요 – 성공은 가능하며 가까이 있습니다.</string>
+    <string name="angel_8_4">8888: 에너지 흐름 – 모든 것이 당신에게 흐르고 있습니다.</string>
+    <string name="angel_8_5">88888: 수용 – 당신은 가질 자격이 있고 존재할 자격이 있습니다.</string>
+    <string name="angel_8_6">888888: 무한한 풍요 – 당신은 끝없는 풍요의 일부입니다.</string>
 
-    <!-- 9 Series: Completion & Transition -->
-    <string name="angel_9_2">99: 手放し – 終わりが近づいています。</string>
-    <string name="angel_9_3">999: 完了 – サイクルが終わります。感謝して進んでください。</string>
-    <string name="angel_9_4">9999: 変容 – 古いものは完全に去っていきます。</string>
-    <string name="angel_9_5">99999: 成熟 – あなたは次に来るものの準備ができています。</string>
-    <string name="angel_9_6">999999: 完成 – 円環が閉じます。</string>
+    <!-- 9 시리즈 -->
+    <string name="angel_9_1">9: 완성 – 한 장이 마무리됩니다.</string>
+    <string name="angel_9_2">99: 놓아줌 – 끝이 다가오고 있습니다.</string>
+    <string name="angel_9_3">999: 마침 – 한 주기가 끝납니다. 감사하고 앞으로 나아가세요.</string>
+    <string name="angel_9_4">9999: 변형 – 오래된 것이 완전히 떠납니다.</string>
+    <string name="angel_9_5">99999: 성숙 – 다음 단계로 나아갈 준비가 되었습니다.</string>
+    <string name="angel_9_6">999999: 성취 – 원이 닫힙니다.</string>
+
+    <!-- 10 & 거울 숫자 -->
+    <string name="angel_10">10: 새로운 시작 – 한 주기가 끝나고 새로운 주기가 시작됩니다.</string>
+    <string name="angel_12">12: 배움의 과정 – 경험을 통한 성장.</string>
+    <string name="angel_21">21: 통합 – 서로 다른 것이 하나가 됩니다.</string>
+    <string name="angel_101">101: 각성 – 새로운 수준의 의식.</string>
+    <string name="angel_1212">1212: 변화 속의 균형 – 움직임 속의 안정.</string>
+    <string name="angel_123">123: 창조적 흐름 – 아이디어가 자유롭게 흐릅니다.</string>
+    <string name="angel_1234">1234: 구조화된 현실화 – 당신의 계획이 형태를 갖춥니다.</string>
+    <string name="angel_12345">12345: 역동적 성장 – 여러 영역에서의 발전.</string>
+    <string name="angel_123456">123456: 완전한 완성 – 주기가 닫히고 새로운 길이 열립니다.</string>
+    <string name="angel_palindrome">거울 숫자 – 내면과 외면의 세계가 서로를 비춥니다.</string>
+    <string name="angel_mirror">거울 패턴 – 자기 관찰을 통한 깨달음.</string>
+    <string name="angel_alternating">교차 패턴 – 두 에너지가 리듬 속에서 작용합니다.</string>
+    <string name="angel_sequence_ascending">상승 시퀀스 – 의식적인 진화가 일어나고 있습니다.</string>
+    <string name="angel_sequence_descending">하강 시퀀스 – 내려놓음이 변화를 가져옵니다.</string>
 </resources>

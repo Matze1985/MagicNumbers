@@ -1,0 +1,59 @@
+<resources>
+    <!-- Default -->
+    <string name="energy_default">Selgus → Usaldus → Tegutsemine</string>
+
+    <!-- Põhinumbrid -->
+    <string name="energy_core_1">Impulss → Otsus → Uus algus</string>
+    <string name="energy_core_2">Kohtumine → Tasakaal → Harmoonia</string>
+    <string name="energy_core_3">Kogemus → Väljendus → Kasv</string>
+    <string name="energy_core_4">Kord → Ülesehitus → Stabiilsus</string>
+    <string name="energy_core_5">Liikumine → Muutus → Vabadus</string>
+    <string name="energy_core_6">Hool → Tervenemine → Harmoonia</string>
+    <string name="energy_core_7">Selgus → Sisemine juhatus → Mõistmine</string>
+    <string name="energy_core_8">Fookus → Tegutsemine → Edu</string>
+    <string name="energy_core_9">Lõpetamine → Lahtilaskmine → Muundumine</string>
+
+    <!-- Algnumbid -->
+    <string name="energy_0">Allikas → Teadlikkus → Uus algus</string>
+    <string name="energy_1">Impulss → Otsus → Uus algus</string>
+    <string name="energy_2">Kohtumine → Tasakaal → Harmoonia</string>
+    <string name="energy_3">Kogemus → Väljendus → Kasv</string>
+    <string name="energy_4">Kord → Struktuur → Stabiilsus</string>
+    <string name="energy_5">Liikumine → Muutus → Vabadus</string>
+    <string name="energy_6">Hool → Tervenemine → Harmoonia</string>
+    <string name="energy_7">Selgus → Sisemine juhatus → Ärkamine</string>
+    <string name="energy_8">Fookus → Tegutsemine → Edu</string>
+    <string name="energy_9">Lõpetamine → Lahtilaskmine → Muundumine</string>
+
+    <!-- Domineerivad kordused -->
+    <string name="energy_repeat_0">Algus → Potentsiaal → Loomine</string>
+    <string name="energy_repeat_1">Impulss → Otsus → Algatus</string>
+    <string name="energy_repeat_2">Ühendus → Tasakaal → Harmoonia</string>
+    <string name="energy_repeat_3">Rõõm → Väljendus → Kasv</string>
+    <string name="energy_repeat_4">Kord → Stabiilsus → Vundament</string>
+    <string name="energy_repeat_5">Liikumine → Muutus → Vabadus</string>
+    <string name="energy_repeat_6">Hool → Tervenemine → Harmoonia</string>
+    <string name="energy_repeat_7">Vaikus → Sisemine juhatus → Ärkamine</string>
+    <string name="energy_repeat_8">Jõud → Küllus → Edu</string>
+    <string name="energy_repeat_9">Lõpetamine → Lahtilaskmine → Muundumine</string>
+
+    <!-- Meisternumbrid -->
+    <string name="energy_11">Inspiratsioon → Teadlikkus → Valgustumine</string>
+    <string name="energy_22">Visioon → Struktuur → Teostumine</string>
+    <string name="energy_33">Armastus → Väljendus → Tervenemine</string>
+    <string name="energy_44">Distsipliin → Stabiilsus → Meisterlikkus</string>
+
+    <!-- Laiendatud kahekordsed numbrid -->
+    <string name="energy_55">Liikumine → Vabanemine → Läbimurre</string>
+    <string name="energy_66">Südame avanemine → Vastutus → Harmoonia</string>
+    <string name="energy_77">Vaikus → Sisemine tarkus → Ärkamine</string>
+    <string name="energy_88">Jõud → Küllus → Teostumine</string>
+    <string name="energy_99">Täitumine → Lahtilaskmine → Uuenemine</string>
+
+    <!-- Meisternumbrid -->
+    <string name="energy_master_11">Inspiratsioon → Teadlikkus → Valgustumine</string>
+    <string name="energy_master_22">Visioon → Struktuur → Teostumine</string>
+    <string name="energy_master_33">Armastus → Väljendus → Tervenemine</string>
+    <string name="energy_master_44">Distsipliin → Stabiilsus → Meisterlikkus</string>
+    <string name="energy_multi_master">Sisemine juhatus → Teadlik teostumine → Vaimne mõju</string>
+</resources>

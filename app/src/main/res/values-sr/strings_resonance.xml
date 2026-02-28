@@ -1,74 +1,53 @@
 <resources>
     <!-- =====================================================
-         Resonance – General labels (shared)
+         Rezonanca – Opšte oznake (zajedničke)
     ====================================================== -->
-    <string name="resonance_prefix">🔮</string>
-    <string name="resonance_focus_none">Fokus: ravnomerno (bez direktnih ponavljanja)</string>
-    <string name="resonance_focus_frame">Fokus: početak i kraj (okvirna tema)</string>
-    <string name="resonance_focus_center">Fokus: centar (ključni impuls)</string>
+    <string name="resonance_focus_none">Fokus: ravnomerno raspoređen (bez direktnih ponavljanja)</string>
+    <string name="resonance_focus_frame">Fokus: početak &amp; kraj (tema okvira)</string>
+    <string name="resonance_focus_center">Fokus: centar (osnovni impuls)</string>
     <string name="resonance_focus_start">Fokus: početak (identitet / početna faza)</string>
     <string name="resonance_focus_end">Fokus: kraj (rezultat / sledeći korak)</string>
 
     <!-- =====================================================
-         Resonance (4-digit) – IDs
+         Rezonanca (4 cifre) – Naslovi
     ====================================================== -->
-    <string name="resonance4_id_mono">R4_MONO</string>
-    <string name="resonance4_id_aabb">R4_AABB</string>
-    <string name="resonance4_id_abab">R4_ABAB</string>
-    <string name="resonance4_id_abba">R4_ABBA</string>
-    <string name="resonance4_id_abcd">R4_ABCD</string>
-    <string name="resonance4_id_none">R4_NONE</string>
+    <string name="resonance4_title_mono">🔮 Rezonantni obrazac (4): Monotip</string>
+    <string name="resonance4_title_aabb">🔮 Rezonantni obrazac (4): Dve faze</string>
+    <string name="resonance4_title_abab">🔮 Rezonantni obrazac (4): Smenjivanje</string>
+    <string name="resonance4_title_abba">🔮 Rezonantni obrazac (4): Ogledalo</string>
+    <string name="resonance4_title_abcd">🔮 Rezonantni obrazac (4): Ravnomerna raspodela</string>
+    <string name="resonance4_title_none">🔮 Rezonantni obrazac: Slobodna kombinacija</string>
 
     <!-- =====================================================
-         Resonance (4-digit) – Titles
+         Rezonanca (4 cifre) – Kratka značenja
     ====================================================== -->
-    <string name="resonance4_title_mono">Rezonantni obrazac (4): Monotip</string>
-    <string name="resonance4_title_aabb">Rezonantni obrazac (4): Dve faze</string>
-    <string name="resonance4_title_abab">Rezonantni obrazac (4): Izmena</string>
-    <string name="resonance4_title_abba">Rezonantni obrazac (4): Ogledalo</string>
-    <string name="resonance4_title_abcd">Rezonantni obrazac (4): Ravnomerna raspodela</string>
-    <string name="resonance4_title_none">Rezonantni obrazac: Slobodna kombinacija</string>
-
-    <!-- =====================================================
-         Resonance (4-digit) – Short meanings
-    ====================================================== -->
-    <string name="resonance4_meaning_mono">Maksimalno pojačanje – jedna tema potpuno dominira.</string>
-    <string name="resonance4_meaning_aabb">Jasan prelaz – faza A prelazi u fazu B.</string>
+    <string name="resonance4_meaning_mono">Maksimalno pojačanje – jedna tema u potpunosti dominira.</string>
+    <string name="resonance4_meaning_aabb">Jasan prelaz – faza A zamenjuje se fazom B.</string>
     <string name="resonance4_meaning_abab">Napetost između dva pola – ritam, ravnoteža, odluka.</string>
-    <string name="resonance4_meaning_abba">Ogledanje – uvid kroz unutrašnju i spoljašnju refleksiju.</string>
-    <string name="resonance4_meaning_abcd">Ujednačen tok – bez ponavljanja, neutralna i otvorena energija.</string>
+    <string name="resonance4_meaning_abba">Odraz – uvid kroz unutrašnje i spoljašnje ogledanje.</string>
+    <string name="resonance4_meaning_abcd">Ravnomeran tok – bez ponavljanja, otvorena i neutralna energija.</string>
     <string name="resonance4_meaning_none">Nema dominantnog obrasca – energija je slobodno kombinovana i otvorena.</string>
+    <string name="resonance4_meaning_ababab">Napetost između dva pola – ritam, ravnoteža i svesna odluka oblikuju ovu energiju.</string>
 
     <!-- =====================================================
-         Resonance (6-digit) – IDs
+         Rezonanca (6 cifara) – Naslovi
     ====================================================== -->
-    <string name="resonance6_id_mono">R6_MONO</string>
-    <string name="resonance6_id_aaabbb">R6_AAABBB</string>
-    <string name="resonance6_id_aabbcc">R6_AABBCC</string>
-    <string name="resonance6_id_ababab">R6_ABABAB</string>
-    <string name="resonance6_id_abcabc">R6_ABCABC</string>
-    <string name="resonance6_id_mirror">R6_MIRROR</string>
-    <string name="resonance6_id_none">R6_NONE</string>
+    <string name="resonance6_title_mono">🔮 Rezonantni obrazac (6): Monotip</string>
+    <string name="resonance6_title_aaabbb">🔮 Rezonantni obrazac (6): Prelaz</string>
+    <string name="resonance6_title_aabbcc">🔮 Rezonantni obrazac (6): Postepeni proces</string>
+    <string name="resonance6_title_ababab">🔮 Rezonantni obrazac (6): Smenjivanje / Klatno</string>
+    <string name="resonance6_title_abcabc">🔮 Rezonantni obrazac (6): Ciklus</string>
+    <string name="resonance6_title_mirror">🔮 Rezonantni obrazac (6): Ogledalo</string>
+    <string name="resonance6_title_none">🔮 Rezonantni obrazac: Slobodna kombinacija</string>
 
     <!-- =====================================================
-         Resonance (6-digit) – Titles
-    ====================================================== -->
-    <string name="resonance6_title_mono">Rezonantni obrazac (6): Monotip</string>
-    <string name="resonance6_title_aaabbb">Rezonantni obrazac (6): Prelaz</string>
-    <string name="resonance6_title_aabbcc">Rezonantni obrazac (6): Postepeni proces</string>
-    <string name="resonance6_title_ababab">Rezonantni obrazac (6): Izmena / Klackalica</string>
-    <string name="resonance6_title_abcabc">Rezonantni obrazac (6): Ciklus</string>
-    <string name="resonance6_title_mirror">Rezonantni obrazac (6): Ogledalo</string>
-    <string name="resonance6_title_none">Rezonantni obrazac: Slobodna kombinacija</string>
-
-    <!-- =====================================================
-         Resonance (6-digit) – Short meanings
+         Rezonanca (6 cifara) – Kratka značenja
     ====================================================== -->
     <string name="resonance6_meaning_mono">Maksimalno pojačanje – jedna tema snažno dominira (blagoslov ili fiksacija).</string>
     <string name="resonance6_meaning_aaabbb">Jasna promena: faza A → faza B (završetak i novi početak).</string>
-    <string name="resonance6_meaning_aabbcc">Razvoj u fazama – učenje i integracija korak po korak.</string>
-    <string name="resonance6_meaning_ababab">Napetost između dva pola – ravnoteža, odluka, pronalaženje ritma.</string>
-    <string name="resonance6_meaning_abcabc">Ponavljajuća tema – rutina, petlja, svesnost kroz ponavljanje.</string>
-    <string name="resonance6_meaning_mirror">Povratna sprega – uvid kroz ogledanje (unutra / spolja).</string>
+    <string name="resonance6_meaning_aabbcc">Razvoj po fazama – učenje i integracija korak po korak.</string>
+    <string name="resonance6_meaning_ababab">Napetost između dva pola – pronađi ravnotežu, odluku i ritam.</string>
+    <string name="resonance6_meaning_abcabc">Ponavljajuća tema – rutina, ciklus, svesnost kroz ponavljanje.</string>
+    <string name="resonance6_meaning_mirror">Povratna informacija – uvid kroz ogledanje (unutra/spolja).</string>
     <string name="resonance6_meaning_none">Nema dominantnog obrasca – energija je slobodno kombinovana i otvorena.</string>
 </resources>

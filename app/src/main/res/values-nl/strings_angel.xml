@@ -1,72 +1,97 @@
 <resources>
-    <!-- 0 Reeks: Oorsprong & Potentieel -->
-    <string name="angel_0_1">0: Oorsprong &amp; Aanwezigheid – Wees hier. Er ligt nog niets vast.</string>
-    <string name="angel_0_2">00: Beschermde Ruimte – Je mag stil zijn. Integreer.</string>
+    <!-- 0-reeks -->
+    <string name="angel_0_1">0: Oorsprong &amp; Aanwezigheid – Wees hier. Nog niets ligt vast.</string>
+    <string name="angel_0_2">00: Heilige ruimte – Je mag stil zijn. Integreer.</string>
     <string name="angel_0_3">000: Bron – Alles is één. Vertrouw op het geheel.</string>
     <string name="angel_0_4">0000: Reset – Begin opnieuw zonder last. De tijdlijn is open.</string>
-    <string name="angel_0_5">00000: Puur Potentieel – Je bent, voordat je iets wordt.</string>
-    <string name="angel_0_6">000000: Goddelijke Leegte – Alles is mogelijk.</string>
+    <string name="angel_0_5">00000: Zuiver potentieel – Je bent, vóór je iets bent.</string>
+    <string name="angel_0_6">000000: Goddelijke leegte – Alles is mogelijk.</string>
 
-    <!-- 1 Reeks: Intuïtie & Manifestatie -->
-    <string name="angel_1_2">11: Intuïtie – Luister, je innerlijke leiding roept.</string>
-    <string name="angel_1_3">111: Manifestatie – Je creëert op dit moment, bewust of onbewust.</string>
+    <!-- 1-reeks -->
+    <string name="angel_1_1">1: Impuls – Een nieuwe gedachte wil ontstaan.</string>
+    <string name="angel_1_2">11: Intuïtie – Luister, je innerlijke leiding spreekt.</string>
+    <string name="angel_1_3">111: Manifestatie – Je creëert nu, bewust of onbewust.</string>
     <string name="angel_1_4">1111: Ontwaken – Een poort opent zich. Kies bewust.</string>
     <string name="angel_1_5">11111: Belichaming – Leef wat je hebt ingezien.</string>
     <string name="angel_1_6">111111: Scheppingskracht – Je gedachten worden werkelijkheid.</string>
 
-    <!-- 2 Reeks: Balans & Vertrouwen -->
+    <!-- 2-reeks -->
+    <string name="angel_2_1">2: Ontmoeting – Let op wie tegenover je staat.</string>
     <string name="angel_2_2">22: Balans – Blijf in vertrouwen.</string>
-    <string name="angel_2_3">222: Goddelijke Timing – Alles valt op het perfecte moment samen.</string>
+    <string name="angel_2_3">222: Afstemming – Alles ontvouwt zich op goddelijke timing.</string>
     <string name="angel_2_4">2222: Stabiliteit – Je wordt gedragen.</string>
-    <string name="angel_2_5">22222: Zielsharmonie – Je bent op de juiste plek.</string>
-    <string name="angel_2_6">222222: Evenwichtigheid – Forceer niets, alles is er al.</string>
+    <string name="angel_2_5">22222: Zielsharmonie – Je bent precies waar je moet zijn.</string>
+    <string name="angel_2_6">222222: Evenwicht – Forceer niets, alles is al aanwezig.</string>
 
-    <!-- 3 Reeks: Expressie & Waarheid -->
-    <string name="angel_3_2">33: Expressie – Uit jezelf, de wereld luistert.</string>
-    <string name="angel_3_3">333: Groei – Je wordt begeleid door meesters.</string>
-    <string name="angel_3_4">3333: Authenticiteit – Laat zien wie je echt bent.</string>
+    <!-- 3-reeks -->
+    <string name="angel_3_1">3: Expressie – Deel je gedachten en gevoelens.</string>
+    <string name="angel_3_2">33: Expressie – Druk jezelf uit, de wereld luistert.</string>
+    <string name="angel_3_3">333: Groei – Meesters begeleiden je.</string>
+    <string name="angel_3_4">3333: Authenticiteit – Toon jezelf zoals je bent.</string>
     <string name="angel_3_5">33333: Waarheid – Jouw waarheid wil geleefd worden.</string>
     <string name="angel_3_6">333333: Hart &amp; Woord – Je spreekt vanuit je essentie.</string>
 
-    <!-- 4 Reeks: Stabiliteit & Bescherming -->
+    <!-- 4-reeks -->
+    <string name="angel_4_1">4: Structuur – Orde brengt helderheid.</string>
     <string name="angel_4_2">44: Aarding – Orde brengt rust.</string>
     <string name="angel_4_3">444: Bescherming – Je bent veilig en beschermd.</string>
-    <string name="angel_4_4">4444: Structuur – Je fundament is stevig.</string>
-    <string name="angel_4_5">44444: Stabiliteit – Vertrouw op je standpunt.</string>
-    <string name="angel_4_6">444444: Verankering – Je bent stevig geworteld in het leven.</string>
+    <string name="angel_4_4">4444: Fundament – Je basis is stevig.</string>
+    <string name="angel_4_5">44444: Stabiliteit – Vertrouw op je positie.</string>
+    <string name="angel_4_6">444444: Verankering – Je bent diep geworteld in het leven.</string>
 
-    <!-- 5 Reeks: Verandering & Vrijheid -->
-    <string name="angel_5_2">55: Verandering – Sta open voor het nieuwe.</string>
+    <!-- 5-reeks -->
+    <string name="angel_5_1">5: Beweging – Verandering dient zich aan.</string>
+    <string name="angel_5_2">55: Transformatie – Sta open voor het nieuwe.</string>
     <string name="angel_5_3">555: Ommekeer – Laat het oude los.</string>
-    <string name="angel_5_4">5555: Transformatie – Niets blijft zoals het was.</string>
+    <string name="angel_5_4">5555: Verandering – Niets blijft zoals het was.</string>
     <string name="angel_5_5">55555: Identiteit – Je wordt opnieuw geboren.</string>
-    <string name="angel_5_6">555555: Vrijheid – Vrijheid is je nieuwe staat van zijn.</string>
+    <string name="angel_5_6">555555: Vrijheid – Vrijheid is je nieuwe staat.</string>
 
-    <!-- 6 Reeks: Terugkeer naar het Midden -->
+    <!-- 6-reeks -->
+    <string name="angel_6_1">6: Zorg – Zorg voor je hart en je thuis.</string>
     <string name="angel_6_2">66: Zelfzorg – Zorg goed voor jezelf.</string>
-    <string name="angel_6_3">666: Balans – Kom terug bij jezelf, tussen binnen en buiten.</string>
-    <string name="angel_6_4">6666: Prioriteiten – Wat voedt jou werkelijk?</string>
-    <string name="angel_6_5">66666: Heling – Je mag zacht zijn voor jezelf.</string>
+    <string name="angel_6_3">666: Balans – Keer terug naar jezelf tussen binnen &amp; buiten.</string>
+    <string name="angel_6_4">6666: Prioriteiten – Wat voedt je werkelijk?</string>
+    <string name="angel_6_5">66666: Genezing – Wees zacht voor jezelf.</string>
     <string name="angel_6_6">666666: Heelheid – Je bent thuis in jezelf.</string>
 
-    <!-- 7 Reeks: Wijsheid & Inzicht -->
-    <string name="angel_7_2">77: Leiding – Vertrouw op je innerlijke weten.</string>
+    <!-- 7-reeks -->
+    <string name="angel_7_1">7: Innerlijke blik – Luister naar je innerlijke stem.</string>
+    <string name="angel_7_2">77: Leiding – Vertrouw op je innerlijke wijsheid.</string>
     <string name="angel_7_3">777: Spiritualiteit – Je leert op zielsniveau.</string>
     <string name="angel_7_4">7777: Inzicht – Je ziet de dingen helder.</string>
     <string name="angel_7_5">77777: Wijsheid – Je leeft wat je weet.</string>
     <string name="angel_7_6">777777: Verlichting – Je wordt van binnenuit geleid.</string>
 
-    <!-- 8 Reeks: Overvloed & Energiestroom -->
-    <string name="angel_8_2">88: Evenwicht – Geven &amp; Nemen in stroom.</string>
-    <string name="angel_8_3">888: Overvloed – Succes is mogelijk en dichtbij.</string>
+    <!-- 8-reeks -->
+    <string name="angel_8_1">8: Kracht – Gebruik je energie bewust.</string>
+    <string name="angel_8_2">88: Stroom – Geven &amp; ontvangen in harmonie.</string>
+    <string name="angel_8_3">888: Overvloed – Succes is mogelijk en nabij.</string>
     <string name="angel_8_4">8888: Energiestroom – Alles stroomt naar je toe.</string>
     <string name="angel_8_5">88888: Ontvangen – Je mag hebben en zijn.</string>
-    <string name="angel_8_6">888888: Overvloedigheid – Je bent deel van de oneindige overvloed.</string>
+    <string name="angel_8_6">888888: Oneindige overvloed – Je bent deel van grenzeloze overvloed.</string>
 
-    <!-- 9 Reeks: Voltooiing & Overgang -->
+    <!-- 9-reeks -->
+    <string name="angel_9_1">9: Voltooiing – Een hoofdstuk eindigt.</string>
     <string name="angel_9_2">99: Loslaten – Een einde nadert.</string>
-    <string name="angel_9_3">999: Voltooiing – Een cyclus eindigt. Bedank en ga verder.</string>
-    <string name="angel_9_4">9999: Transformatie – Het oude vertrekt definitief.</string>
-    <string name="angel_9_5">99999: Rijpheid – Je bent klaar voor wat komt.</string>
-    <string name="angel_9_6">999999: Perfectie – de cirkel is rond.</string>
+    <string name="angel_9_3">999: Afsluiting – Een cyclus eindigt. Dankbaar &amp; verder.</string>
+    <string name="angel_9_4">9999: Transformatie – Het oude verdwijnt definitief.</string>
+    <string name="angel_9_5">99999: Rijpheid – Je bent klaar voor de volgende stap.</string>
+    <string name="angel_9_6">999999: Voltooiing – De cirkel sluit zich.</string>
+
+    <!-- 10 & Spiegelgetallen -->
+    <string name="angel_10">10: Nieuw begin – Een cyclus sluit, een nieuwe begint.</string>
+    <string name="angel_12">12: Leerproces – Groei door ervaring.</string>
+    <string name="angel_21">21: Integratie – Tegenpolen verbinden zich.</string>
+    <string name="angel_101">101: Ontwaken – Bewustzijn op een nieuw niveau.</string>
+    <string name="angel_1212">1212: Balans in verandering – Stabiliteit in beweging.</string>
+    <string name="angel_123">123: Creatieve stroom – Ideeën komen vrij.</string>
+    <string name="angel_1234">1234: Gestructureerde manifestatie – Je plan krijgt vorm.</string>
+    <string name="angel_12345">12345: Dynamische ontwikkeling – Groei op meerdere vlakken.</string>
+    <string name="angel_123456">123456: Volledige voltooiing – De cyclus sluit en nieuwe wegen openen zich.</string>
+    <string name="angel_palindrome">Spiegelgetal – Innerlijke en uiterlijke wereld weerspiegelen elkaar.</string>
+    <string name="angel_mirror">Spiegelpatroon – Inzicht door zelfobservatie.</string>
+    <string name="angel_alternating">Wisselpatroon – Twee energieën werken in ritme.</string>
+    <string name="angel_sequence_ascending">Oplopende reeks – Ontwikkeling gebeurt bewust.</string>
+    <string name="angel_sequence_descending">Aflopende reeks – Loslaten brengt transformatie.</string>
 </resources>

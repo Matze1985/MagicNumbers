@@ -6,31 +6,33 @@
     <string name="new_message">新的讯息</string>
     <string name="copy_message">复制讯息</string>
     <string name="clipboard_label">神奇讯息</string>
-    <string name="welcome_message">点击“新的讯息”，接收当下的节奏。</string>
-    <string name="message_for_the_moment">此刻的讯息：%1$s</string>
-    <string name="your_cross_sum_is">你的数字总和是：%1$s</string>
+    <string name="welcome_message">点击“新的讯息”以接收此刻的节奏。</string>
+    <string name="your_cross_sum_is">你的数字总和是：</string>
     <string name="digit_occurrence">（出现 %1$dx 次，能量增强）</string>
-    <string name="frequency_label">频率</string>
 
-    <!-- Sektions-Überschriften -->
+    <!-- Sections -->
+    <string name="section_message_for_the_moment">💌 此刻的讯息：%1$s</string>
+    <string name="section_frequency">🌀 频率：</string>
     <string name="section_vibration">🧬 数字的振动：</string>
-    <string name="section_your_message">💌 你的讯息：</string>
-    <string name="section_summary">✨ 总结：</string>
+    <string name="section_master_energy">👑 大师能量：</string>
+    <string name="section_angel">🕊️ 天使启示：</string>
+    <string name="section_description_numbers">🔢 数字说明：</string>
+    <string name="section_summary">📖 总结：</string>
     <string name="section_energy">⚡️ 能量流动：</string>
 
-    <!-- Hauptnachrichten Templates (pro Ziffer) -->
-    <string name="digit_0_intro">✨ 数字 **\'0\'**%1$s 放大一切。它象征着神圣的临在与无限的潜能。</string>
-    <string name="digit_1_intro">✨ 数字 **\'1\'**%1$s 呼唤你迎接**强而有力的新开始**。你的想法正在迅速显化。</string>
-    <string name="digit_2_intro">✨ 数字 **\'2\'**%1$s 带来**平衡与和谐**，尤其体现在关系中。你并不孤单。</string>
-    <string name="digit_3_intro">✨ 数字 **\'3\'**%1$s 激活你的**创造力与沟通能力**。表达自己，灵性世界正在倾听。</string>
-    <string name="digit_4_intro">✨ 数字 **\'4\'**%1$s 建立**稳固的基础**。这股能量为你的生活带来保护与结构。</string>
-    <string name="digit_5_intro">✨ 数字 **\'5\'**%1$s 象征**改变与自由的浪潮**。对冒险保持开放，打破旧有枷锁。</string>
-    <string name="digit_6_intro">✨ 数字 **\'6\'**%1$s 将焦点放在**心灵与家庭的疗愈**上。家庭与和谐正处于核心。</string>
-    <string name="digit_7_intro">✨ 数字 **\'7\'**%1$s 让你的**直觉成为最重要的指引**。向内倾听，真理就在你心中。</string>
-    <string name="digit_8_intro">✨ 数字 **\'8\'**%1$s 激活**丰盛与成功**的能量。向物质与精神的富足敞开心扉。</string>
-    <string name="digit_9_intro">✨ 数字 **\'9\'**%1$s 表示**一个重要周期的完成**。放下旧事，为新生腾出空间。</string>
+    <!-- Main Messages -->
+    <string name="digit_0_intro">数字 **\'0\'**%1$s 会放大一切。它象征神圣的存在与无限的潜能。</string>
+    <string name="digit_1_intro">数字 **\'1\'**%1$s 呼唤你迎接**强而有力的新开始**。你的思想正在迅速显化。</string>
+    <string name="digit_2_intro">数字 **\'2\'**%1$s 带来**平衡与和谐**，尤其在人际关系中。你并不孤单。</string>
+    <string name="digit_3_intro">数字 **\'3\'**%1$s 激活你的**创造力与沟通能力**。表达自己——灵性世界正在倾听。</string>
+    <string name="digit_4_intro">数字 **\'4\'**%1$s 建立**稳固的基础**。这股能量带来保护与结构。</string>
+    <string name="digit_5_intro">数字 **\'5\'**%1$s 预示**改变与自由的浪潮**。敞开心扉迎接冒险，打破旧有束缚。</string>
+    <string name="digit_6_intro">数字 **\'6\'**%1$s 将焦点放在**心与家庭的疗愈**。家庭与和谐是核心。</string>
+    <string name="digit_7_intro">数字 **\'7\'**%1$s 让**直觉成为你最重要的指南针**。向内倾听——真理在你心中。</string>
+    <string name="digit_8_intro">数字 **\'8\'**%1$s 激活**丰盛与成功的能量**。向物质与精神的富足敞开。</string>
+    <string name="digit_9_intro">数字 **\'9\'**%1$s 象征**重要周期的 заверш**。放下旧的，为新的腾出空间。</string>
 
-    <!-- Numerologie Grundbedeutungen -->
+    <!-- Core Meanings -->
     <string name="numerology_1">新开始 &amp; 领导力</string>
     <string name="numerology_2">和谐 &amp; 平衡</string>
     <string name="numerology_3">创造力 &amp; 成长</string>
@@ -39,13 +41,19 @@
     <string name="numerology_6">爱 &amp; 和谐</string>
     <string name="numerology_7">直觉 &amp; 觉醒</string>
     <string name="numerology_8">成功 &amp; 丰盛</string>
-    <string name="numerology_9">圆满 &amp; 智慧</string>
-    <string name="numerology_11">大师直觉</string>
-    <string name="numerology_22">大师显化</string>
-    <string name="numerology_33">大师疗愈者</string>
+    <string name="numerology_9">完成 &amp; 智慧</string>
+    <string name="numerology_11">灵性远见者</string>
+    <string name="numerology_22">大师建造者</string>
+    <string name="numerology_33">大师导师</string>
+    <string name="numerology_44">稳定大师</string>
+    <string name="numerology_55">自由大师</string>
+    <string name="numerology_66">无条件之爱的大师</string>
+    <string name="numerology_77">智慧大师</string>
+    <string name="numerology_88">力量大师</string>
+    <string name="numerology_99">完成大师</string>
     <string name="numerology_unknown">未知</string>
 
-    <!-- Numerologie Keywords -->
+    <!-- Keywords -->
     <string name="keyword_0">源头</string>
     <string name="keyword_1">开始</string>
     <string name="keyword_2">平衡</string>
@@ -57,73 +65,81 @@
     <string name="keyword_8">丰盛</string>
     <string name="keyword_9">完成</string>
 
-    <!-- Numerologie Spezialbedeutungen -->
-    <string name="master_number_11">大师数字 11：直觉 &amp; 觉悟</string>
-    <string name="master_number_22">大师数字 22：建造者 &amp; 显化</string>
-    <string name="master_number_33">大师数字 33：宇宙之爱 &amp; 疗愈</string>
-    <string name="master_number_44">大师数字 44：大师疗愈者。你连接着物质与精神世界。</string>
-    <string name="special_number_55">特殊振动 55：彻底的改变 &amp; 自由</string>
-    <string name="special_number_66">特殊振动 66：宇宙之爱 &amp; 慈悲</string>
-    <string name="special_number_77">特殊振动 77：深层的灵性洞察</string>
-    <string name="special_number_88">特殊振动 88：无限丰盛 &amp; 平衡</string>
-    <string name="special_number_99">特殊振动 99：宇宙意识 &amp; 服务</string>
+    <!-- Special Meanings -->
+    <string name="master_number_11">11：直觉 &amp; 觉悟</string>
+    <string name="master_number_22">22：建造者 &amp; 显化</string>
+    <string name="master_number_33">33：宇宙之爱 &amp; 疗愈</string>
+    <string name="master_number_44">44：大师疗愈者。你连接物质与灵性世界。</string>
+    <string name="special_number_55">55：剧烈改变 &amp; 自由</string>
+    <string name="special_number_66">66：宇宙之爱 &amp; 慈悲</string>
+    <string name="special_number_77">77：深层灵性洞察</string>
+    <string name="special_number_88">88：无限丰盛 &amp; 平衡</string>
+    <string name="special_number_99">99：宇宙意识 &amp; 服务</string>
 
-    <!-- Karmische Lektionen -->
-    <string name="karmic_lesson_4">业力课程 4：稳定与努力工作。</string>
-    <string name="karmic_lesson_5">业力课程 5：自由与纪律。</string>
-    <string name="karmic_lesson_7">业力课程 7：信任与开放。</string>
-    <string name="karmic_lesson_8">业力课程 8：丰盛与权力的滥用。</string>
-    <string name="karmic_lesson_10">业力课程 10：命运之轮 / 新的开始</string>
-    <string name="karmic_lesson_11">业力课程 11：灵性大师与平衡的课程</string>
-    <string name="karmic_lesson_13">业力课程 13：工作与专注（转化）</string>
-    <string name="karmic_lesson_14">业力课程 14：自由与节制</string>
-    <string name="karmic_lesson_16">业力课程 16：觉醒与谦逊</string>
-    <string name="karmic_lesson_19">业力课程 19：力量与独立</string>
-    <string name="karmic_lesson_22">业力课程 22：大师创造者与责任</string>
-    <string name="karmic_lesson_33">业力课程 33：疗愈之爱的大师</string>
+    <!-- Karmic Details 1–33 -->
+    <string name="karmic_detail_1">业力细节 1：自我负责\n→ 停止向外归咎\n→ 认识到：我是自己人生的共同创造者\n→ 勇敢走自己的道路</string>
+    <string name="karmic_detail_2">业力细节 2：关系 &amp; 镜像\n→ 理解镜像法则\n→ 他人映照未疗愈的部分\n→ 保持外交而不失自我\n→ 培养耐心</string>
+    <string name="karmic_detail_3">业力细节 3：真实 &amp; 表达\n→ 活出真实\n→ 放下面具与角色\n→ 创造性地表达情绪</string>
+    <string name="karmic_detail_4">业力细节 4：耐心 &amp; 信任\n→ 不要强求一切\n→ 信任神圣时机\n→ 通过秩序建立稳定</string>
+    <string name="karmic_detail_5">业力细节 5：恐惧转化\n→ 以勇气取代逃避\n→ 转化对失去或匮乏的恐惧\n→ 通过责任获得自由</string>
+    <string name="karmic_detail_6">业力细节 6：爱 &amp; 边界\n→ 无条件之爱但不占有\n→ 不带愧疚地说“拒绝”\n→ 不要过度牺牲自己</string>
+    <string name="karmic_detail_7">业力细节 7：信任 &amp; 引导\n→ 信任灵性指引\n→ 跟随直觉\n→ 向内探索</string>
+    <string name="karmic_detail_8">业力细节 8：力量 &amp; 丰盛\n→ 放下匮乏意识\n→ 平衡给予与接收\n→ 疗愈对权力的关系</string>
+    <string name="karmic_detail_9">业力细节 9：放下 &amp; 宽恕\n→ 宽恕他人与自己\n→ 放下旧有伤痛\n→ 服务集体</string>
+    <string name="karmic_detail_10">业力细节 10：命运之轮\n→ 接受命运\n→ 放下抗拒\n→ 有意识地重新开始</string>
+    <string name="karmic_detail_11">业力细节 11：远见者\n→ 融合光与影\n→ 接受灵性领导\n→ 启发他人</string>
+    <string name="karmic_detail_12">业力细节 12：视角转变\n→ 服务而不做受害者\n→ 从新角度看待事物\n→ 在臣服中获得智慧</string>
+    <string name="karmic_detail_13">业力细节 13：自我 &amp; 转化\n→ 放下骄傲与固执\n→ 谦逊但不失自我\n→ 通过专注与努力转化</string>
+    <string name="karmic_detail_14">业力细节 14：摆脱依赖\n→ 选择自由而非恐惧依附\n→ 学会节制\n→ 增强情感独立</string>
+    <string name="karmic_detail_15">业力细节 15：有意识的放手\n→ 识别阻碍成长的连结\n→ 在思想与行动中练习放下\n→ 信任新的开始</string>
+    <string name="karmic_detail_16">业力细节 16：觉醒 &amp; 真实\n→ 旧结构正在瓦解\n→ 找回真正的自己\n→ 幻象消散</string>
+    <string name="karmic_detail_17">业力细节 17：灵性权威\n→ 信任内在智慧\n→ 无我领导\n→ 以正直获得成功</string>
+    <string name="karmic_detail_18">业力细节 18：情绪清明\n→ 将幻象转为真理\n→ 疗愈旧有模式\n→ 以慈悲而不自我牺牲</string>
+    <string name="karmic_detail_19">业力细节 19：自我价值 &amp; 力量\n→ 不要只以成就定义自己\n→ 疗愈权力与无力感\n→ 学会接受帮助</string>
+    <string name="karmic_detail_20">业力细节 20：觉醒 &amp; 判断\n→ 培养耐心与更高理解\n→ 灵性外交</string>
+    <string name="karmic_detail_21">业力细节 21：世界表达\n→ 漫长旅程后的成功\n→ 融合对立\n→ 外在完成</string>
+    <string name="karmic_detail_22">业力细节 22：建造者\n→ 实现宏大梦想\n→ 对天赋负责\n→ 服务而不失自我</string>
+    <string name="karmic_detail_23">业力细节 23：王者之狮\n→ 保护 &amp; 成功\n→ 表达自由\n→ 保持灵活</string>
+    <string name="karmic_detail_24">业力细节 24：心之疗愈\n→ 完成并释放灵魂契约\n→ 爱与服务\n→ 情绪稳定</string>
+    <string name="karmic_detail_25">业力细节 25：疗愈内在小孩\n→ 倾听内在需求\n→ 以爱与关怀滋养\n→ 将疗愈融入成人生活</string>
+    <string name="karmic_detail_26">业力细节 26：觉知呼吸\n→ 时刻觉察呼吸\n→ 以呼吸为锚\n→ 将呼吸视为能量之镜</string>
+    <string name="karmic_detail_27">业力细节 27：服务整体\n→ 不仅为自己疗愈\n→ 创造积极影响\n→ 灵性洞察</string>
+    <string name="karmic_detail_28">业力细节 28：冲突转化\n→ 将冲突视为学习机会\n→ 改变视角\n→ 通过整合带来和谐</string>
+    <string name="karmic_detail_29">业力细节 29：通过创造实现自我\n→ 允许自己创造\n→ 以创造表达真实身份\n→ 分享以启发他人</string>
+    <string name="karmic_detail_30">业力细节 30：创造性表达\n→ 允许情绪流动\n→ 以喜悦为指引\n→ 情绪是导师</string>
+    <string name="karmic_detail_31">业力细节 31：内在稳定\n→ 选择使命而非义务\n→ 不隐藏天赋\n→ 将混乱转为秩序</string>
+    <string name="karmic_detail_32">业力细节 32：感恩能量\n→ 培养每日感恩\n→ 通过感恩转变视角\n→ 吸引丰盛</string>
+    <string name="karmic_detail_33">业力细节 33：大师导师\n→ 宇宙疗愈之爱\n→ 慈悲而不受苦\n→ 服务人类</string>
 
-    <!-- Karmische Details -->
-    <string name="karmic_detail_1">业力细节 1：自我负责\n→ 停止在外界寻找责备\n→ 认识到：我是自己人生的共同创造者\n→ 勇敢走自己的路</string>
-    <string name="karmic_detail_2">业力细节 2：关系 &amp; 映照\n→ 觉察镜像法则：他人映射未解决的部分\n→ 保持自我而不失外交\n→ 保持耐心</string>
-    <string name="karmic_detail_3">业力细节 3：真实 &amp; 表达\n→ 活出真实的自己\n→ 放下面具与角色\n→ 创造性地表达情感</string>
-    <string name="karmic_detail_4">业力细节 4：耐心 &amp; 信任\n→ 不要强求一切\n→ 信任神圣的时机\n→ 通过秩序建立稳定</string>
-    <string name="karmic_detail_5">业力细节 5：恐惧的转化\n→ 以勇气取代逃避\n→ 转化对失去或匮乏的恐惧\n→ 通过责任获得自由</string>
-    <string name="karmic_detail_6">业力细节 6：爱 &amp; 界限\n→ 无条件的爱而不占有\n→ 不带愧疚地说“不”\n→ 不要自我牺牲</string>
-    <string name="karmic_detail_7">业力细节 7：信任 &amp; 指引\n→ 信任灵性的指引\n→ 跟随直觉并留意征兆\n→ 向内观照而非外在控制</string>
-    <string name="karmic_detail_8">业力细节 8：力量 &amp; 丰盛\n→ 化解匮乏意识\n→ 给予与接收的平衡\n→ 疗愈力量（不操控）</string>
-    <string name="karmic_detail_9">业力细节 9：放下 &amp; 宽恕\n→ 宽恕他人也宽恕自己\n→ 放下旧有的伤痛\n→ 服务于群体</string>
-    <string name="karmic_detail_10">业力细节 10：命运之轮\n→ 接受命运\n→ 放下抗拒\n→ 勇敢开启有意识的新开始</string>
-    <string name="karmic_detail_11">业力细节 11：远见者\n→ 整合二元性（光与影）\n→ 接受灵性指引\n→ 成为他人的灵感</string>
-    <string name="karmic_detail_12">业力细节 12：视角转变\n→ 服务而不陷入受害者角色\n→ 从新的角度看待事物\n→ 通过臣服获得智慧</string>
-    <string name="karmic_detail_13">业力细节 13：自我 &amp; 转化\n→ 放下自我（骄傲、执着于正确）\n→ 在不失自我的情况下练习谦逊\n→ 通过工作与专注实现转化</string>
-    <string name="karmic_detail_14">业力细节 14：释放依附\n→ 以自由取代源于恐惧的依赖\n→ 寻找节制\n→ 加强情感独立</string>
-    <string name="karmic_detail_16">业力细节 16：觉醒 &amp; 真实\n→ 旧有结构崩解\n→ 找到真正的真实\n→ 幻象消散</string>
-    <string name="karmic_detail_19">业力细节 19：自我价值 &amp; 力量\n→ 不要仅以成就定义自己\n→ 疗愈力量与无力感\n→ 学会接受帮助</string>
-    <string name="karmic_detail_20">业力细节 20：觉醒 &amp; 审判\n→ 耐心与更高的理解\n→ 灵性外交</string>
-    <string name="karmic_detail_21">业力细节 21：在世界中的表达\n→ 漫长旅程后的成功\n→ 对立面的整合\n→ 外在世界的圆满</string>
-    <string name="karmic_detail_22">业力细节 22：建造者\n→ 显化宏大的梦想\n→ 为你的天赋承担责任\n→ 服务而不失自我</string>
-    <string name="karmic_detail_23">业力细节 23：王者之狮\n→ 保护 &amp; 成功\n→ 表达的自由\n→ 保持灵活</string>
-    <string name="karmic_detail_24">业力细节 24：心之疗愈\n→ 完成并释放灵魂契约\n→ 爱与服务他人\n→ 情绪稳定</string>
-    <string name="karmic_detail_27">业力细节 27：服务整体\n→ 疗愈不仅为自己\n→ 为他人创造影响\n→ 灵性洞察</string>
-    <string name="karmic_detail_30">业力细节 30：创造性表达\n→ 允许情绪存在（不压抑）\n→ 以喜悦为指引\n→ 将情绪视为老师</string>
-    <string name="karmic_detail_31">业力细节 31：内在稳定\n→ 使命胜过义务\n→ 不要隐藏你的天赋\n→ 为混乱带来秩序</string>
-    <string name="karmic_detail_33">业力细节 33：大师教师\n→ 宇宙疗愈之爱\n→ 无痛苦的慈悲\n→ 服务人类</string>
-
-    <!-- Spezifische Zusammenfassungen & Energieflüsse -->
-    <string name="summary_default">你的主要讯息是：倾听你的内在声音，你正被引导。</string>
-    <string name="energy_flow_default">清晰 → 信任 → 行动</string>
-    <string name="summary_99_1">一个极其重要的业力周期已经彻底结束。这为强大而神圣引导的新开始创造了空间。</string>
-    <string name="energy_flow_99_1">完成 → 解放 → 新开始</string>
-    <string name="summary_8_55">一次强烈的积极转变（双 5）将你带向丰盛与物质改善（8）。突破即将到来。</string>
-    <string name="energy_flow_8_55">突破 → 自由 → 稳定</string>
-    <string name="summary_11_22">大师联盟：愿景（11）遇见显化（22）。你现在拥有将伟大梦想化为现实的力量。</string>
-    <string name="energy_flow_11_22">理念 → 计划 → 现实</string>
-    <string name="summary_7_77">三重神秘力量。你与灵性世界的连接被极大增强。留意梦境与征兆。</string>
-    <string name="energy_flow_7_77">静默 → 洞察 → 觉醒</string>
-    <string name="summary_4_8">结构（4）是巨大成功（8）的基础。努力工作现在会带来财务回报。</string>
-    <string name="energy_flow_4_8">纪律 → 建设 → 富足</string>
-    <string name="summary_1_9">开始与结束相互触碰。你关闭一扇门，立刻开启另一扇门。快速的过渡。</string>
-    <string name="energy_flow_1_9">放下 → 勇气 → 重启</string>
-    <string name="summary_3_33">最高层次的创造性表达。你的语言或艺术现在对他人具有疗愈效果。</string>
-    <string name="energy_flow_3_33">喜悦 → 表达 → 疗愈</string>
+    <!-- Summaries -->
+    <string name="summary_default">此数字的能量保持平衡。请有意识地关注你的思想与决定——它们正在塑造你的现实。</string>
+    <string name="summary_master_11">觉悟 &amp; 启发。你的内在指引此刻格外强大。</string>
+    <string name="summary_master_22">愿景通过有序行动成为现实。</string>
+    <string name="summary_master_33">宇宙之爱 &amp; 疗愈。</string>
+    <string name="summary_master_44">稳定 &amp; 保护。</string>
+    <string name="summary_master_55">深刻转变。</string>
+    <string name="summary_master_66">心之开启 &amp; 责任。</string>
+    <string name="summary_master_77">灵性觉醒。</string>
+    <string name="summary_master_88">力量 &amp; 丰盛达到平衡。</string>
+    <string name="summary_master_99">完成 &amp; 业力成熟。</string>
+    <string name="summary_multi_master">多重大师能量同时运作。这是一个强大而深刻的阶段。</string>
+    <string name="summary_repeat_0">原始能量增强。思想与意图格外有力。</string>
+    <string name="summary_repeat_1">强烈的领导能量。</string>
+    <string name="summary_repeat_2">增强的人际关系能量。</string>
+    <string name="summary_repeat_3">强大的创造能量。</string>
+    <string name="summary_repeat_4">深度结构能量。</string>
+    <string name="summary_repeat_5">强烈变化能量。</string>
+    <string name="summary_repeat_6">增强的心性能量。</string>
+    <string name="summary_repeat_7">深层灵性能量。</string>
+    <string name="summary_repeat_8">强大的显化能量。</string>
+    <string name="summary_repeat_9">强烈的 заверш 能量。</string>
+    <string name="summary_1">新开始 &amp; 领导力——是时候采取行动。</string>
+    <string name="summary_2">平衡 &amp; 连结——在给予与接收中找到和谐。</string>
+    <string name="summary_3">创造 &amp; 表达——让你的想法闪耀。</string>
+    <string name="summary_4">稳定 &amp; 结构——秩序带来安全。</string>
+    <string name="summary_5">改变 &amp; 自由——保持灵活。</string>
+    <string name="summary_6">爱 &amp; 责任——让心指引道路。</string>
+    <string name="summary_7">直觉 &amp; 觉醒——信任内在声音。</string>
+    <string name="summary_8">成功 &amp; 丰盛——成果正在显现。</string>
+    <string name="summary_9">完成 &amp; 放下——新的周期即将开始。</string>
 </resources>

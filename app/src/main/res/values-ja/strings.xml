@@ -1,53 +1,61 @@
 <resources>
     <!-- App Name -->
-    <string name="app_name">マジカルナンバー</string>
+    <string name="app_name">魔法の数字</string>
 
     <!-- UI Texte -->
     <string name="new_message">新しいメッセージ</string>
     <string name="copy_message">メッセージをコピー</string>
-    <string name="clipboard_label">マジカルメッセージ</string>
-    <string name="welcome_message">\"新しいメッセージ\" を押して、この瞬間のリズムを受け取ってください。</string>
-    <string name="message_for_the_moment">この瞬間のメッセージ: %1$s</string>
-    <string name="your_cross_sum_is">あなたの数字の合計（クロスサム）は: %1$s</string>
-    <string name="digit_occurrence">(%1$dx回現れ、強化されています)</string>
-    <string name="frequency_label">周波数</string>
+    <string name="clipboard_label">魔法のメッセージ</string>
+    <string name="welcome_message">「新しいメッセージ」を押して、この瞬間のリズムを受け取りましょう。</string>
+    <string name="your_cross_sum_is">あなたの各桁の合計は：</string>
+    <string name="digit_occurrence">（%1$dx回現れ、エネルギーが強化されています）</string>
 
-    <!-- Sektions-Überschriften -->
-    <string name="section_vibration">🧬 数字の波動:</string>
-    <string name="section_your_message">💌 あなたのメッセージ:</string>
-    <string name="section_summary">✨ まとめ:</string>
-    <string name="section_energy">⚡️ エネルギーの流れ:</string>
+    <!-- Sections -->
+    <string name="section_message_for_the_moment">💌 今この瞬間へのメッセージ：%1$s</string>
+    <string name="section_frequency">🌀 周波数：</string>
+    <string name="section_vibration">🧬 数字の波動：</string>
+    <string name="section_master_energy">👑 マスターエネルギー：</string>
+    <string name="section_angel">🕊️ 天使からのメッセージ：</string>
+    <string name="section_description_numbers">🔢 数字の説明：</string>
+    <string name="section_summary">📖 まとめ：</string>
+    <string name="section_energy">⚡️ エネルギーの流れ：</string>
 
-    <!-- Hauptnachrichten Templates (pro Ziffer) -->
-    <string name="digit_0_intro">✨ **\'0\'**%1$s はすべてを増幅します。神聖な存在と無限の可能性のしるしです。</string>
-    <string name="digit_1_intro">✨ **\'1\'**%1$s はあなたを **力強い新しい始まり** へと呼びかけます。今、あなたの思考は素早く現実化します。</string>
-    <string name="digit_2_intro">✨ **\'2\'**%1$s は **バランスと調和** をもたらします。特に人間関係で。あなたは一人ではありません。</string>
-    <string name="digit_3_intro">✨ **\'3\'**%1$s は **創造性とコミュニケーション** を活性化します。表現してください — 霊的な世界は耳を傾けています。</string>
-    <string name="digit_4_intro">✨ **\'4\'**%1$s は **安定した土台** を築きます。このエネルギーはあなたの人生に守護と構造をもたらします。</string>
-    <string name="digit_5_intro">✨ **\'5\'**%1$s は **変化と自由の波** を示します。冒険に心を開き、古い鎖を断ち切りましょう。</string>
-    <string name="digit_6_intro">✨ **\'6\'**%1$s は **心と家の癒し** に意識を向けます。家族と調和が今、中心にあります。</string>
-    <string name="digit_7_intro">✨ **\'7\'**%1$s は **直感を最も重要な羅針盤** にします。内なる声に耳を澄ませて — 真実はあなたの中にあります。</string>
-    <string name="digit_8_intro">✨ **\'8\'**%1$s は **豊かさと成功** のエネルギーを活性化します。物質的・精神的な繁栄に心を開いてください。</string>
-    <string name="digit_9_intro">✨ **\'9\'**%1$s は **重要なサイクルの завершение（終結）** を示します。新しいもののために、古いものを手放しましょう。</string>
+    <!-- Main Messages -->
+    <string name="digit_0_intro">数字 **\'0\'**%1$s はすべてを増幅します。それは神聖な存在と無限の可能性の象徴です。</string>
+    <string name="digit_1_intro">数字 **\'1\'**%1$s は**力強い新しい始まり**を告げています。あなたの思考は今、素早く現実化します。</string>
+    <string name="digit_2_intro">数字 **\'2\'**%1$s は**バランスと調和**をもたらします。特に人間関係において。あなたは一人ではありません。</string>
+    <string name="digit_3_intro">数字 **\'3\'**%1$s はあなたの**創造性とコミュニケーション力**を活性化します。自分を表現してください。スピリチュアルな世界は聞いています。</string>
+    <string name="digit_4_intro">数字 **\'4\'**%1$s は**安定した基盤**を築きます。このエネルギーは保護と構造をもたらします。</string>
+    <string name="digit_5_intro">数字 **\'5\'**%1$s は**変化と自由の波**を示します。冒険に心を開き、古い束縛を断ち切りましょう。</string>
+    <string name="digit_6_intro">数字 **\'6\'**%1$s は**心と家庭の癒し**に焦点を当てます。家族と調和が中心となります。</string>
+    <string name="digit_7_intro">数字 **\'7\'**%1$s は**直感を最も重要な羅針盤**にします。内なる声に耳を傾けてください。</string>
+    <string name="digit_8_intro">数字 **\'8\'**%1$s は**豊かさと成功のエネルギー**を活性化します。物質的・精神的繁栄に心を開きましょう。</string>
+    <string name="digit_9_intro">数字 **\'9\'**%1$s は**重要なサイクルの完了**を示します。古いものを手放し、新しいもののための空間を作りましょう。</string>
 
-    <!-- Numerologie Grundbedeutungen -->
+    <!-- Core Meanings -->
     <string name="numerology_1">新しい始まり &amp; リーダーシップ</string>
     <string name="numerology_2">調和 &amp; バランス</string>
     <string name="numerology_3">創造性 &amp; 成長</string>
-    <string name="numerology_4">安定 &amp; 守護</string>
+    <string name="numerology_4">安定 &amp; 保護</string>
     <string name="numerology_5">自由 &amp; 変化</string>
     <string name="numerology_6">愛 &amp; 調和</string>
     <string name="numerology_7">直感 &amp; 目覚め</string>
     <string name="numerology_8">成功 &amp; 豊かさ</string>
-    <string name="numerology_9">完成 &amp; 叡智</string>
-    <string name="numerology_11">マスター直感</string>
-    <string name="numerology_22">マスター具現化</string>
-    <string name="numerology_33">マスターヒーラー</string>
+    <string name="numerology_9">完了 &amp; 知恵</string>
+    <string name="numerology_11">スピリチュアルなビジョナリー</string>
+    <string name="numerology_22">マスタービルダー</string>
+    <string name="numerology_33">マスターティーチャー</string>
+    <string name="numerology_44">安定のマスター</string>
+    <string name="numerology_55">自由のマスター</string>
+    <string name="numerology_66">無条件の愛のマスター</string>
+    <string name="numerology_77">知恵のマスター</string>
+    <string name="numerology_88">力のマスター</string>
+    <string name="numerology_99">完成のマスター</string>
     <string name="numerology_unknown">不明</string>
 
-    <!-- Numerologie Keywords -->
+    <!-- Keywords -->
     <string name="keyword_0">源</string>
-    <string name="keyword_1">新しい始まり</string>
+    <string name="keyword_1">始まり</string>
     <string name="keyword_2">バランス</string>
     <string name="keyword_3">創造性</string>
     <string name="keyword_4">安定</string>
@@ -55,75 +63,83 @@
     <string name="keyword_6">調和</string>
     <string name="keyword_7">直感</string>
     <string name="keyword_8">豊かさ</string>
-    <string name="keyword_9">完成</string>
+    <string name="keyword_9">完了</string>
 
-    <!-- Numerologie Spezialbedeutungen (Meisterzahlen & Hohe Schwingungen) -->
-    <string name="master_number_11">マスター数 11: 直感 &amp; 覚醒</string>
-    <string name="master_number_22">マスター数 22: 建設者 &amp; 具現化</string>
-    <string name="master_number_33">マスター数 33: 普遍的な愛 &amp; 癒し</string>
-    <string name="master_number_44">マスター数 44: マスターヒーラー。物質世界と精神世界をつなぎます。</string>
-    <string name="special_number_55">特別な波動 55: 急激な変化 &amp; 自由</string>
-    <string name="special_number_66">特別な波動 66: 普遍的な愛 &amp; 慈悲</string>
-    <string name="special_number_77">特別な波動 77: 深い霊的洞察</string>
-    <string name="special_number_88">特別な波動 88: 無限の豊かさ &amp; バランス</string>
-    <string name="special_number_99">特別な波動 99: 普遍意識 &amp; 奉仕</string>
+    <!-- Special Meanings -->
+    <string name="master_number_11">11: 直感 &amp; 覚醒</string>
+    <string name="master_number_22">22: 建設者 &amp; 実現</string>
+    <string name="master_number_33">33: 宇宙的愛 &amp; 癒し</string>
+    <string name="master_number_44">44: マスターヒーラー。物質世界と精神世界をつなぎます。</string>
+    <string name="special_number_55">55: 根本的な変化 &amp; 自由</string>
+    <string name="special_number_66">66: 宇宙的愛 &amp; 思いやり</string>
+    <string name="special_number_77">77: 深いスピリチュアルな洞察</string>
+    <string name="special_number_88">88: 無限の豊かさ &amp; バランス</string>
+    <string name="special_number_99">99: 宇宙意識 &amp; 奉仕</string>
 
-    <!-- Karmische Lektionen (Kurztexte für Listen) -->
-    <string name="karmic_lesson_4">カルマの課題 4: 安定と努力。</string>
-    <string name="karmic_lesson_5">カルマの課題 5: 自由と規律。</string>
-    <string name="karmic_lesson_7">カルマの課題 7: 信頼と開放。</string>
-    <string name="karmic_lesson_8">カルマの課題 8: 豊かさと権力の乱用。</string>
-    <string name="karmic_lesson_10">カルマの課題 10: 運命の輪 / 新しい始まり</string>
-    <string name="karmic_lesson_11">カルマの課題 11: 霊的熟達とバランスの課題</string>
-    <string name="karmic_lesson_13">カルマの課題 13: 努力と集中の課題（変容）</string>
-    <string name="karmic_lesson_14">カルマの課題 14: 自由と節度の課題</string>
-    <string name="karmic_lesson_16">カルマの課題 16: 目覚めと謙虚さの課題</string>
-    <string name="karmic_lesson_19">カルマの課題 19: 力と自立の課題</string>
-    <string name="karmic_lesson_22">カルマの課題 22: マスター創造者と責任の課題</string>
-    <string name="karmic_lesson_33">カルマの課題 33: 癒しの愛のマスターの課題</string>
+    <!-- Karmic Details 1–33 -->
+    <string name="karmic_detail_1">カルマ詳細1：自己責任\n→ 外に責任を求めるのをやめる\n→ 私は人生の共同創造者であると認識する\n→ 自分の道を歩む勇気</string>
+    <string name="karmic_detail_2">カルマ詳細2：関係と鏡\n→ 鏡の法則を理解する\n→ 他者は未解決の側面を映す\n→ 自己犠牲のない調和\n→ 忍耐を保つ</string>
+    <string name="karmic_detail_3">カルマ詳細3：本質と表現\n→ 自分の真実を生きる\n→ 仮面や役割を手放す\n→ 感情を創造的に表現する</string>
+    <string name="karmic_detail_4">カルマ詳細4：忍耐と信頼\n→ すべてを強制しない\n→ 神聖なタイミングを信じる\n→ 秩序によって安定を築く</string>
+    <string name="karmic_detail_5">カルマ詳細5：恐れの変容\n→ 逃避ではなく勇気\n→ 喪失や欠乏への恐れを変える\n→ 責任を通じた自由</string>
+    <string name="karmic_detail_6">カルマ詳細6：愛と境界\n→ 所有しない無条件の愛\n→ 罪悪感なく「ノー」と言う\n→ 自己犠牲をしない</string>
+    <string name="karmic_detail_7">カルマ詳細7：信頼と導き\n→ スピリチュアルな導きを信じる\n→ 直感に従う\n→ 内面に向き合う</string>
+    <string name="karmic_detail_8">カルマ詳細8：力と豊かさ\n→ 欠乏意識を手放す\n→ 与えることと受け取ることのバランス\n→ 力との関係を癒す</string>
+    <string name="karmic_detail_9">カルマ詳細9：手放しと許し\n→ 他者と自分を許す\n→ 古い傷を解放する\n→ 共同体に奉仕する</string>
+    <string name="karmic_detail_10">カルマ詳細10：運命の輪\n→ 運命を受け入れる\n→ 抵抗を手放す\n→ 意識的な新しい始まり</string>
+    <string name="karmic_detail_11">カルマ詳細11：ビジョナリー\n→ 光と影を統合する\n→ 精神的リーダーシップを受け入れる\n→ 他者へのインスピレーションとなる</string>
+    <string name="karmic_detail_12">カルマ詳細12：視点の転換\n→ 被害者意識なく奉仕する\n→ 新しい視点で見る\n→ 委ねることで知恵を得る</string>
+    <string name="karmic_detail_13">カルマ詳細13：エゴと変容\n→ プライドや頑固さを手放す\n→ 自己を失わない謙虚さ\n→ 集中と努力による変容</string>
+    <string name="karmic_detail_14">カルマ詳細14：執着の解放\n→ 恐れによる依存ではなく自由\n→ 節度を見つける\n→ 感情的自立を強める</string>
+    <string name="karmic_detail_15">カルマ詳細15：意識的な手放し\n→ 成長を妨げる結びつきを認識する\n→ 意識的に解放を実践する\n→ 新しい始まりを信じる</string>
+    <string name="karmic_detail_16">カルマ詳細16：目覚めと本質\n→ 古い構造が崩れる\n→ 真の自分を見つける\n→ 幻想が消える</string>
+    <string name="karmic_detail_17">カルマ詳細17：精神的権威\n→ 内なる知恵を信じる\n→ エゴなく導く\n→ 誠実さによる成功</string>
+    <string name="karmic_detail_18">カルマ詳細18：感情の明晰さ\n→ 幻を真実へ変える\n→ 古いパターンを癒す\n→ 自己犠牲なしの思いやり</string>
+    <string name="karmic_detail_19">カルマ詳細19：自己価値と力\n→ 成果だけで自分を定義しない\n→ 力と無力のテーマを癒す\n→ 助けを受け入れる</string>
+    <string name="karmic_detail_20">カルマ詳細20：目覚めと判断\n→ 忍耐と高次の理解\n→ スピリチュアルな外交</string>
+    <string name="karmic_detail_21">カルマ詳細21：世界への表現\n→ 長い旅の後の成功\n→ 二元性の統合\n→ 外的完成</string>
+    <string name="karmic_detail_22">カルマ詳細22：ビルダー\n→ 大きな夢を実現する\n→ 才能に責任を持つ\n→ 自己を失わず奉仕する</string>
+    <string name="karmic_detail_23">カルマ詳細23：王のライオン\n→ 保護と成功\n→ 自由な表現\n→ 柔軟性を保つ</string>
+    <string name="karmic_detail_24">カルマ詳細24：心の癒し\n→ 魂の契約を完了し解放する\n→ 愛と奉仕\n→ 感情の安定</string>
+    <string name="karmic_detail_25">カルマ詳細25：内なる子どもの癒し\n→ 静かなニーズに耳を傾ける\n→ 愛と配慮で向き合う\n→ 癒しを統合する</string>
+    <string name="karmic_detail_26">カルマ詳細26：意識的呼吸\n→ 呼吸に気づく\n→ 錨として使う\n→ エネルギーの鏡として見る</string>
+    <string name="karmic_detail_27">カルマ詳細27：全体への奉仕\n→ 自分だけでなく他者の癒し\n→ ポジティブな影響を与える\n→ 精神的洞察</string>
+    <string name="karmic_detail_28">カルマ詳細28：対立の変容\n→ 対立を学びの機会と見る\n→ 視点を変える\n→ 統合による調和</string>
+    <string name="karmic_detail_29">カルマ詳細29：創造性による自己実現\n→ 創造することを許す\n→ 本質的表現として使う\n→ 分かち合いインスパイアする</string>
+    <string name="karmic_detail_30">カルマ詳細30：創造的表現\n→ 感情を受け入れる\n→ 喜びを指針に\n→ 感情は教師</string>
+    <string name="karmic_detail_31">カルマ詳細31：内なる安定\n→ 義務ではなく使命\n→ 才能を隠さない\n→ 混乱に秩序をもたらす</string>
+    <string name="karmic_detail_32">カルマ詳細32：感謝のエネルギー\n→ 日々感謝を育む\n→ 感謝で視点を変える\n→ 豊かさを引き寄せる</string>
+    <string name="karmic_detail_33">カルマ詳細33：マスターティーチャー\n→ 宇宙的癒しの愛\n→ 苦しみなき思いやり\n→ 人類への奉仕</string>
 
-    <!-- Karmische Details -->
-    <string name="karmic_detail_1">カルマ詳細 1: 自己責任\n→ 外側に罪を探すのをやめる\n→ 認める: 私は人生の共同創造者\n→ 自分の道を進む勇気</string>
-    <string name="karmic_detail_2">カルマ詳細 2: 関係性 &amp; 鏡\n→ 鏡の法則を理解する: 他者は未解決の側面を映す\n→ 自分を失わない外交性\n→ 忍耐を保つ</string>
-    <string name="karmic_detail_3">カルマ詳細 3: 真実性 &amp; 表現\n→ 自分の真実を生きる\n→ 仮面や役割を手放す\n→ 感情を創造的に表現する</string>
-    <string name="karmic_detail_4">カルマ詳細 4: 忍耐 &amp; 信頼\n→ すべてを無理に進めない\n→ 神聖なタイミングを信じる\n→ 秩序によって安定をつくる</string>
-    <string name="karmic_detail_5">カルマ詳細 5: 恐れの変容\n→ 逃避ではなく勇気\n→ 喪失や欠乏への恐れを変容させる\n→ 責任を通じた自由</string>
-    <string name="karmic_detail_6">カルマ詳細 6: 愛 &amp; 境界\n→ 所有しない無条件の愛\n→ 罪悪感なく「いいえ」と言う\n→ 自己犠牲をしない</string>
-    <string name="karmic_detail_7">カルマ詳細 7: 信頼 &amp; 導き\n→ 霊的な導きを信じる\n→ 直感に従い、サインに気づく\n→ 外側の支配ではなく内観</string>
-    <string name="karmic_detail_8">カルマ詳細 8: 力 &amp; 豊かさ\n→ 欠乏意識を手放す\n→ 与える／受け取るのバランス\n→ 力を癒す（操作しない）</string>
-    <string name="karmic_detail_9">カルマ詳細 9: 手放し &amp; 許し\n→ 他者と自分を許す\n→ 古い傷を手放す\n→ 共同体への奉仕</string>
-    <string name="karmic_detail_10">カルマ詳細 10: 運命の輪\n→ 運命を受け入れる\n→ 抵抗を手放す\n→ 意識的な新しい始まりを選ぶ</string>
-    <string name="karmic_detail_11">カルマ詳細 11: ビジョナリー\n→ 二元性を統合する（光 &amp; 影）\n→ 霊的なリーダーシップを受け入れる\n→ 他者のインスピレーションになる</string>
-    <string name="karmic_detail_12">カルマ詳細 12: 視点転換\n→ 被害者意識なしに奉仕する\n→ 新しい視点で物事を見る\n→ 明け渡しによる叡智</string>
-    <string name="karmic_detail_13">カルマ詳細 13: エゴ &amp; 変容\n→ エゴを手放す（誇り、正しさへの執着）\n→ 自分を失わずに謙虚さを実践\n→ 努力と集中で変容する</string>
-    <string name="karmic_detail_14">カルマ詳細 14: 依存の手放し\n→ 恐れからの執着ではなく自由\n→ 節度を見つける\n→ 感情的自立を強める</string>
-    <string name="karmic_detail_16">カルマ詳細 16: 目覚め &amp; 真実性\n→ 古い構造が崩れる\n→ 本当の真実性を見つける\n→ 幻想が剥がれる</string>
-    <string name="karmic_detail_19">カルマ詳細 19: 自己価値 &amp; 力\n→ 成果だけで自分を定義しない\n→ 力と無力感を癒す\n→ 助けを受け取ることを学ぶ</string>
-    <string name="karmic_detail_20">カルマ詳細 20: 目覚め &amp; 判断\n→ 忍耐と高次の理解\n→ 霊的な外交</string>
-    <string name="karmic_detail_21">カルマ詳細 21: 世界での表現\n→ 長い旅の後の成功\n→ 対極の統合\n→ 外側での完成</string>
-    <string name="karmic_detail_22">カルマ詳細 22: 建設者\n→ 大きな夢を具現化する\n→ 才能への責任を担う\n→ 自分を失わずに奉仕する</string>
-    <string name="karmic_detail_23">カルマ詳細 23: 王の獅子\n→ 守護 &amp; 成功\n→ 表現の自由\n→ 柔軟さを保つ</string>
-    <string name="karmic_detail_24">カルマ詳細 24: 心の癒し\n→ 魂の契約を果たし、解放する\n→ 愛と隣人への奉仕\n→ 感情の安定</string>
-    <string name="karmic_detail_27">カルマ詳細 27: 全体への奉仕\n→ 自分のためだけではない癒し\n→ 他者への影響を生み出す\n→ 霊的洞察</string>
-    <string name="karmic_detail_30">カルマ詳細 30: 創造的表現\n→ 感情を許す（抑え込まない）\n→ 喜びを道しるべに\n→ 感情を教師として認める</string>
-    <string name="karmic_detail_31">カルマ詳細 31: 自己の安定\n→ 義務よりも使命\n→ 才能を隠さない\n→ 混沌に秩序をもたらす</string>
-    <string name="karmic_detail_33">カルマ詳細 33: マスター教師\n→ 普遍的な癒しの愛\n→ 苦しみのない慈悲\n→ 人類への奉仕</string>
-
-    <!-- Spezifische Zusammenfassungen & Energieflüsse (Kombinationen) -->
-    <string name="summary_default">あなたの主なメッセージは: 内なる声に耳を傾けてください。あなたは導かれています。</string>
-    <string name="energy_flow_default">明晰さ → 信頼 → 行動</string>
-    <string name="summary_99_1">非常に重要なカルマのサイクルが完全に終わりました。これは、神聖に導かれた力強い新しい始まりのための空間を生み出します。</string>
-    <string name="energy_flow_99_1">完成 → 解放 → 新しい始まり</string>
-    <string name="summary_8_55">大きく前向きな変化（ダブル5）が、あなたを豊かさと物質的な改善（8）へ導きます。突破口が近づいています。</string>
-    <string name="energy_flow_8_55">突破 → 自由 → 安定</string>
-    <string name="summary_11_22">マスター同盟: ビジョン（11）と具現化（22）が出会います。今、あなたには大きな夢を現実にする力があります。</string>
-    <string name="energy_flow_11_22">アイデア → 計画 → 現実</string>
-    <string name="summary_7_77">三重の神秘的な力。霊的世界とのつながりが極めて強まっています。夢やサインに注意してください。</string>
-    <string name="energy_flow_7_77">静けさ → 洞察 → 目覚め</string>
-    <string name="summary_4_8">構造（4）が大きな成功（8）の土台になります。努力は今、金銭面で報われます。</string>
-    <string name="energy_flow_4_8">規律 → 構築 → 豊かさ</string>
-    <string name="summary_1_9">始まりと終わりが触れ合います。あなたは一つの扉を閉じ、すぐに新しい扉を開きます。素早い移行です。</string>
-    <string name="energy_flow_1_9">手放し → 勇気 → 再始動</string>
-    <string name="summary_3_33">最高度の創造的表現。あなたの言葉や芸術は今、他者に癒しの作用をもたらします。</string>
-    <string name="energy_flow_3_33">喜び → 表現 → 癒し</string>
+    <!-- Summaries -->
+    <string name="summary_default">この数字のエネルギーは調和しています。あなたの思考と選択が現実を形作っています。</string>
+    <string name="summary_master_11">覚醒とインスピレーション。内なる導きが特に強まっています。</string>
+    <string name="summary_master_22">ビジョンは秩序ある行動によって現実となる。</string>
+    <string name="summary_master_33">宇宙的愛と癒し。</string>
+    <string name="summary_master_44">安定と保護。</string>
+    <string name="summary_master_55">根本的な変容。</string>
+    <string name="summary_master_66">心の開放と責任。</string>
+    <string name="summary_master_77">スピリチュアルな目覚め。</string>
+    <string name="summary_master_88">力と豊かさ。</string>
+    <string name="summary_master_99">完成とカルマ的成熟。</string>
+    <string name="summary_multi_master">複数のマスターエネルギーが同時に働いています。強力で重要な時期です。</string>
+    <string name="summary_repeat_0">根源エネルギーが増幅。思考と意図が非常に強力。</string>
+    <string name="summary_repeat_1">強いリーダーシップエネルギー。</string>
+    <string name="summary_repeat_2">関係性のエネルギーが強化。</string>
+    <string name="summary_repeat_3">強力な創造的表現。</string>
+    <string name="summary_repeat_4">構造エネルギーが強い。</string>
+    <string name="summary_repeat_5">強い変化エネルギー。</string>
+    <string name="summary_repeat_6">心のエネルギーが増幅。</string>
+    <string name="summary_repeat_7">深い精神的エネルギー。</string>
+    <string name="summary_repeat_8">強い実現エネルギー。</string>
+    <string name="summary_repeat_9">強い完了エネルギー。</string>
+    <string name="summary_1">新しい始まりとリーダーシップ — 今こそ行動の時。</string>
+    <string name="summary_2">調和とつながり — 与えることと受け取ることのバランス。</string>
+    <string name="summary_3">創造性と表現 — あなたのアイデアを輝かせて。</string>
+    <string name="summary_4">安定と構造 — 秩序は安心をもたらす。</string>
+    <string name="summary_5">変化と自由 — 柔軟であり続ける。</string>
+    <string name="summary_6">愛と責任 — 心が道を示す。</string>
+    <string name="summary_7">直感と目覚め — 内なる声を信じて。</string>
+    <string name="summary_8">成功と豊かさ — 結果が現れる。</string>
+    <string name="summary_9">完了と手放し — 新しいサイクルが始まる。</string>
 </resources>

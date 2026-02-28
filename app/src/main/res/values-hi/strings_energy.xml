@@ -1,0 +1,59 @@
+<resources>
+    <!-- Default -->
+    <string name="energy_default">स्पष्टता → विश्वास → कार्रवाई</string>
+
+    <!-- मुख्य संख्याएँ -->
+    <string name="energy_core_1">प्रेरणा → निर्णय → नई शुरुआत</string>
+    <string name="energy_core_2">मुलाकात → संतुलन → सामंजस्य</string>
+    <string name="energy_core_3">अनुभव → अभिव्यक्ति → विकास</string>
+    <string name="energy_core_4">व्यवस्था → निर्माण → स्थिरता</string>
+    <string name="energy_core_5">गति → परिवर्तन → स्वतंत्रता</string>
+    <string name="energy_core_6">देखभाल → उपचार → सामंजस्य</string>
+    <string name="energy_core_7">स्पष्टता → आंतरिक मार्गदर्शन → अंतर्दृष्टि</string>
+    <string name="energy_core_8">एकाग्रता → कार्रवाई → सफलता</string>
+    <string name="energy_core_9">समापन → त्याग → रूपांतरण</string>
+
+    <!-- मूल संख्याएँ -->
+    <string name="energy_0">स्रोत → जागरूकता → नई शुरुआत</string>
+    <string name="energy_1">प्रेरणा → निर्णय → नई शुरुआत</string>
+    <string name="energy_2">मुलाकात → संतुलन → सामंजस्य</string>
+    <string name="energy_3">अनुभव → अभिव्यक्ति → विकास</string>
+    <string name="energy_4">व्यवस्था → संरचना → स्थिरता</string>
+    <string name="energy_5">गति → परिवर्तन → स्वतंत्रता</string>
+    <string name="energy_6">देखभाल → उपचार → सामंजस्य</string>
+    <string name="energy_7">स्पष्टता → आंतरिक मार्गदर्शन → जागरण</string>
+    <string name="energy_8">एकाग्रता → कार्रवाई → सफलता</string>
+    <string name="energy_9">समापन → त्याग → रूपांतरण</string>
+
+    <!-- प्रमुख दोहराव -->
+    <string name="energy_repeat_0">उद्गम → संभावना → सृजन</string>
+    <string name="energy_repeat_1">प्रेरणा → निर्णय → पहल</string>
+    <string name="energy_repeat_2">संबंध → संतुलन → सामंजस्य</string>
+    <string name="energy_repeat_3">आनंद → अभिव्यक्ति → विकास</string>
+    <string name="energy_repeat_4">व्यवस्था → स्थिरता → आधार</string>
+    <string name="energy_repeat_5">गति → परिवर्तन → स्वतंत्रता</string>
+    <string name="energy_repeat_6">देखभाल → उपचार → सामंजस्य</string>
+    <string name="energy_repeat_7">शांति → आंतरिक मार्गदर्शन → जागरण</string>
+    <string name="energy_repeat_8">शक्ति → समृद्धि → सफलता</string>
+    <string name="energy_repeat_9">समापन → त्याग → रूपांतरण</string>
+
+    <!-- मास्टर संख्याएँ -->
+    <string name="energy_11">प्रेरणा → जागरूकता → ज्ञानोदय</string>
+    <string name="energy_22">दृष्टि → संरचना → अभिव्यक्ति</string>
+    <string name="energy_33">प्रेम → अभिव्यक्ति → उपचार</string>
+    <string name="energy_44">अनुशासन → स्थिरता → निपुणता</string>
+
+    <!-- विस्तारित दोहरी संख्याएँ -->
+    <string name="energy_55">गति → मुक्ति → सफलता</string>
+    <string name="energy_66">हृदय उद्घाटन → जिम्मेदारी → सामंजस्य</string>
+    <string name="energy_77">शांति → आंतरिक बुद्धि → जागरण</string>
+    <string name="energy_88">शक्ति → समृद्धि → अभिव्यक्ति</string>
+    <string name="energy_99">पूर्णता → त्याग → नवीकरण</string>
+
+    <!-- मास्टर संख्याएँ -->
+    <string name="energy_master_11">प्रेरणा → जागरूकता → ज्ञानोदय</string>
+    <string name="energy_master_22">दृष्टि → संरचना → अभिव्यक्ति</string>
+    <string name="energy_master_33">प्रेम → अभिव्यक्ति → उपचार</string>
+    <string name="energy_master_44">अनुशासन → स्थिरता → निपुणता</string>
+    <string name="energy_multi_master">आंतरिक मार्गदर्शन → सचेत अभिव्यक्ति → आध्यात्मिक प्रभाव</string>
+</resources>

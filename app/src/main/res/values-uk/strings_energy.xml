@@ -1,0 +1,59 @@
+<resources>
+    <!-- Default -->
+    <string name="energy_default">Ясність → Довіра → Дія</string>
+
+    <!-- Основні числа -->
+    <string name="energy_core_1">Імпульс → Рішення → Новий початок</string>
+    <string name="energy_core_2">Зустріч → Баланс → Гармонія</string>
+    <string name="energy_core_3">Досвід → Вираження → Зростання</string>
+    <string name="energy_core_4">Порядок → Побудова → Стабільність</string>
+    <string name="energy_core_5">Рух → Зміна → Свобода</string>
+    <string name="energy_core_6">Турбота → Зцілення → Гармонія</string>
+    <string name="energy_core_7">Ясність → Внутрішнє керівництво → Усвідомлення</string>
+    <string name="energy_core_8">Фокус → Дія → Успіх</string>
+    <string name="energy_core_9">Завершення → Відпускання → Трансформація</string>
+
+    <!-- Базові числа -->
+    <string name="energy_0">Джерело → Усвідомленість → Новий початок</string>
+    <string name="energy_1">Імпульс → Рішення → Новий початок</string>
+    <string name="energy_2">Зустріч → Баланс → Гармонія</string>
+    <string name="energy_3">Досвід → Вираження → Зростання</string>
+    <string name="energy_4">Порядок → Структура → Стабільність</string>
+    <string name="energy_5">Рух → Зміна → Свобода</string>
+    <string name="energy_6">Турбота → Зцілення → Гармонія</string>
+    <string name="energy_7">Ясність → Внутрішнє керівництво → Пробудження</string>
+    <string name="energy_8">Фокус → Дія → Успіх</string>
+    <string name="energy_9">Завершення → Відпускання → Трансформація</string>
+
+    <!-- Домінуючі повторення -->
+    <string name="energy_repeat_0">Початок → Потенціал → Творення</string>
+    <string name="energy_repeat_1">Імпульс → Рішення → Ініціатива</string>
+    <string name="energy_repeat_2">Зв’язок → Баланс → Гармонія</string>
+    <string name="energy_repeat_3">Радість → Вираження → Зростання</string>
+    <string name="energy_repeat_4">Порядок → Стабільність → Основа</string>
+    <string name="energy_repeat_5">Рух → Зміна → Свобода</string>
+    <string name="energy_repeat_6">Турбота → Зцілення → Гармонія</string>
+    <string name="energy_repeat_7">Тиша → Внутрішнє керівництво → Пробудження</string>
+    <string name="energy_repeat_8">Сила → Достаток → Успіх</string>
+    <string name="energy_repeat_9">Завершення → Відпускання → Трансформація</string>
+
+    <!-- Майстер-числа -->
+    <string name="energy_11">Натхнення → Усвідомленість → Просвітлення</string>
+    <string name="energy_22">Бачення → Структура → Проявлення</string>
+    <string name="energy_33">Любов → Вираження → Зцілення</string>
+    <string name="energy_44">Дисципліна → Стабільність → Майстерність</string>
+
+    <!-- Розширені подвійні числа -->
+    <string name="energy_55">Рух → Звільнення → Прорив</string>
+    <string name="energy_66">Відкриття серця → Відповідальність → Гармонія</string>
+    <string name="energy_77">Тиша → Внутрішня мудрість → Пробудження</string>
+    <string name="energy_88">Сила → Достаток → Проявлення</string>
+    <string name="energy_99">Завершеність → Відпускання → Оновлення</string>
+
+    <!-- Майстер-числа -->
+    <string name="energy_master_11">Натхнення → Усвідомленість → Просвітлення</string>
+    <string name="energy_master_22">Бачення → Структура → Проявлення</string>
+    <string name="energy_master_33">Любов → Вираження → Зцілення</string>
+    <string name="energy_master_44">Дисципліна → Стабільність → Майстерність</string>
+    <string name="energy_multi_master">Внутрішнє керівництво → Усвідомлене проявлення → Духовний вплив</string>
+</resources>

@@ -4,119 +4,332 @@
       <img src="art/icon.png" width="210" alt="Magic Numbers Logo">
     </td>
     <td>      <h1>Magic Numbers</h1>
-      <p>Magic Numbers is an ad-free, offline, and open-source Android app that generates spiritual numerology messages based on the "rhythm of the moment". It combines clean Material 3 design with mystical insights.</p>
-      <p>You can <strong><a href="https://github.com/Matze1985/MagicNumbers/releases">download the latest release</a></strong> directly from GitHub.</p>
+      <p>Magic Numbers is an ad-free, offline, and open-source Android app that generates spiritual numerology messages based on the **Rhythm of the Moment**.
+All calculations are performed locally on the device using a deterministic numerology engine implemented in Kotlin.</p>
     </td>
   </tr>
 </table>
 
-## ✨ Features
-
-### 🔢 Rhythm of the Moment – Number Generation
-- The number is generated **on demand**.
-- The random generator is seeded with the **exact millisecond of the interaction** (`System.currentTimeMillis()`).
-- This creates a unique “Rhythm of the Moment” energy signature.
+## ✨ Core Functionality (Based on Actual Engine Logic)
 
 ---
 
-### 🔢 Flexible Message Numbers
-- Generates **6-digit numbers** (`000000 – 999999`) including leading zeros (e.g. `082009`).
-- **4-digit numbers** are fully supported and receive their own resonance patterns.
-- The digit sequence itself is always the foundation of the interpretation.
+## 🔢 Rhythm of the Moment – Number Generation
+
+- Numbers are generated on demand.
+- The random generator is seeded using:
+
+```kotlin
+Random(System.currentTimeMillis())
+```
+
+- Default length: **6 digits**
+- Leading zeros are preserved.
+- Fully deterministic per millisecond of interaction.
 
 ---
 
-### 🧮 Deep Numerology Analysis
-- Calculates the **digit sum (cross sum)** as the numerological base.
-- **Master & Special Numbers** are detected **before reduction**:
-    - 11, 22, 33, 44, 55, 66, 77, 88, 99
-- These numbers retain their **high vibration** and are not automatically reduced to a single digit.
-- **Karmic details and lessons** (e.g. 10, 13, 14, 16, 19, 23) are identified and added as deeper context.
+## 🧮 Cross Sum Calculation
+
+Implemented in:
+
+```kotlin
+calculateCrossSum(number: String)
+```
+
+### Behavior
+
+1. All digits are summed.
+2. If the result is greater than 9:
+    - It is reduced step-by-step
+    - Reduction stops if:
+        - A single digit is reached
+        - A master core number (11, 22, 33, 44) appears
+
+Example:
+
+```
+0 + 8 + 2 + 0 + 0 + 9 = 19
+1 + 9 = 10
+1 + 0 = 1
+```
+
+The full reduction path is always displayed.
 
 ---
 
-### 🕊️ Angel Numbers – Precise & Complete
-- Angel numbers are detected **only through adjacent repetitions**:
-    - Examples:
-        - `44`, `55`, `11`
-        - `333`, `4444`, `000`
-- **Multiple angel numbers can appear at the same time**:
-    - Example: `441155` → 44, 11, and 55
-- **No false positives**:
-    - A number like `612643` will **not** produce “66” because there is no adjacent repetition.
-- All detected angel numbers are **always displayed** and never overridden.
+## 👑 Master Numbers
+
+### Core Master Numbers
+
+Detected if either:
+- Cross sum before reduction matches
+- Reduced value matches
+
+Supported core masters:
+
+```
+11, 22, 33, 44
+```
+
+Core master numbers have highest summary priority.
 
 ---
 
-### 🔮 Resonance Pattern Recognition
-The app detects **visual number patterns** as an independent energetic layer.
+### Amplifier Numbers
 
-#### ✔ 6-digit Resonance Patterns
-- Monotype (AAAAAA)
-- Transition (AAABBB)
-- Stepwise Process (AABBCC)
-- Alternation / Pendulum (ABABAB)
-- Cycle (ABCABC)
-- Mirror (Palindrome)
-- Free Mix (fallback)
+Detected by substring presence inside the number:
 
-#### ✔ 4-digit Resonance Patterns
-- Monotype (AAAA)
-- Two Phases (AABB)
-- Alternation (ABAB)
-- Mirror (ABBA)
-- Even Distribution (ABCD)
-- Free Mix (fallback)
+```
+11, 22, 33, 44, 55, 66, 77, 88, 99
+```
+
+- Multiple amplifiers supported
+- Ordered by appearance in the number
+- Do not override core masters
+
+---
+
+## 🕊️ Angel Number Detection
+
+Implemented in:
+
+```kotlin
+getAngelResIds(number)
+```
+
+### 1️⃣ Run Detection (Adjacent Repetition)
+
+Triggered when at least two identical digits appear consecutively:
+
+Examples:
+```
+00
+11
+222
+3333
+444444
+```
+
+- Supports up to 6 repetitions.
+- No detection of non-adjacent patterns.
+- No false positives.
+
+---
+
+### 2️⃣ Ascending Sequences
+
+Detected dynamically:
+
+```
+123
+1234
+12345
+123456
+```
+
+Other ascending sequences return a generic ascending message.
+
+---
+
+### 3️⃣ Descending Sequences
+
+Detected dynamically (e.g., 654, 4321).
+
+---
+
+### 4️⃣ Mirror / Palindrome
+
+Detected if:
+
+```kotlin
+number == number.reversed()
+```
+
+Special handling for 4-digit mirror format (ABBA).
+
+---
+
+### 5️⃣ Alternating Pattern
+
+Detected for 4+ digits:
+
+```
+ABAB
+1212
+3434
+```
+
+Exact repetition required.
+
+---
+
+## 🔮 Resonance Pattern Recognition
+
+Applied only for:
+- 4-digit numbers
+- 6-digit numbers
+
+Implemented in:
+
+```kotlin
+getResonance(number)
+```
+
+---
+
+### 4-Digit Resonance Patterns
+
+- AAAA (Monotype)
+- AABB
+- ABAB
+- ABBA
+- None (fallback)
+
+---
+
+### 6-Digit Resonance Patterns
+
+- AAAAAA (Monotype)
+- AAABBB
+- ABCABC
+- Palindrome
+- None (fallback)
 
 Each resonance provides:
-- A title
-- A short meaning
-- A focus hint (start / center / end / frame)
-- An optional **frequency boost**
+
+- Title
+- Meaning
+- Focus hint
 
 ---
 
-### 🧠 Intelligent Prioritization
-- **Angel numbers and resonance information are always shown as prefixes**.
-- Special combinations override **only the core summary**, never:
-    - Angel numbers
-    - Resonance information
-- This ensures that **all energetic layers remain visible**.
+## 🔁 Dominant Repeat Detection
+
+Implemented in:
+
+```kotlin
+getDominantRepeatDigit(number)
+```
+
+If a digit appears **3 or more times**, it influences:
+
+- Summary
+- Energy Flow
 
 ---
 
-### 🧬 Detailed Interpretation
-- **Digit breakdown**: Explains the vibration of every digit (0–9) present.
-- **Amplification**: Repeated digits are highlighted and explained.
-- **Mathematical transparency**: The cross sum calculation is shown (e.g. `0 + 8 + 2 + 0 + 0 + 9 = 19`).
+## 🌀 Frequency Score
+
+Implemented in:
+
+```kotlin
+calculateFrequencyScore(number)
+```
+
+Formula:
+
+```
+average(digits) / 9.0
+```
+
+- Clamped between 0.1 and 1.0
+- Displayed as percentage
+- Visualized with HSV-based color gradient (0–120° hue)
 
 ---
 
-### 🌀 Vibration Frequency Meter
-- Visual frequency indicator (percentage).
-- Influenced by:
-    - Average digit vibration
-    - Master & special numbers
-    - Resonance boosts
-- The frequency score is **never distorted by a single rule**.
+## 🔥 Energy Flow
+
+Implemented in:
+
+```kotlin
+getEnergyFlowResId(...)
+```
+
+Priority order:
+
+1. Master Core
+2. Dominant repeated digit
+3. Reduced cross sum
+
+Exactly one energy flow message is shown.
 
 ---
 
-### 🧪 Debug-Only Information
-- Resonance IDs (e.g. `R6_ABABAB`, `R4_AABB`) are displayed **only in debug builds**.
-- To achieve this without relying on the now optional `BuildConfig.DEBUG` flag (as of AGP 8.0+), the app uses a more robust method: `kotlin val isDebuggable = (context.applicationInfo.flags and ApplicationInfo.FLAG_DEBUGGABLE) != 0`
-    - This ensures a clean separation between debug and release builds at runtime and improves build performance by default.
+## 🧬 Karmic Detail
+
+Based on:
+
+```
+sumBeforeReduce
+```
+
+Supported values:
+
+```
+1 – 33
+```
+
+Includes traditional karmic numbers:
+10, 13, 14, 16, 19, etc.
+
+---
+
+## 🧠 Summary Prioritization Logic
+
+Implemented in:
+
+```kotlin
+getSummaryResId(...)
+```
+
+Priority:
+
+1. Master Core
+2. Multiple Amplifiers
+3. Dominant repeat (≥3)
+4. Reduced cross sum
+
+Angel numbers and resonance never override each other.
+
+---
+
+## 📋 Copy Output Structure
+
+The generated clipboard text includes:
+
+- Title
+- Message for the moment
+- Cross sum steps
+- Master energy section
+- Angel section
+- Frequency %
+- Digit vibration (unique digits only)
+- Digit descriptions (with amplification text)
+- Resonance section
+- Summary
+- Karmic detail (if applicable)
+- Energy flow
+
+Markdown formatting is cleaned before export.
 
 ---
 
 ## 🛠 Technical Details
 
-*   **Language**: Kotlin
-    ***UI Framework**: Jetpack Compose (Material 3)
-*   **Architecture**: Single Activity, State Management via `rememberSaveable` (screen rotation support).
-*   **Minimum SDK**: 24 (Android 7.0)
-*   **Target SDK**: 35+
-*   **License**: MIT License
+- Language: Kotlin
+- UI Framework: Jetpack Compose (Material 3)
+- Architecture: Single Activity
+- State Management: rememberSaveable
+- Minimum SDK: 24 (Android 7.0)
+- Target SDK: 35+
+- License: MIT
+
+No ads.  
+No tracking.  
+No analytics.  
+No internet required.
 
 ## 🌍 Localization
 

@@ -1,0 +1,59 @@
+<resources>
+    <!-- Default -->
+    <string name="energy_default">Sự rõ ràng → Niềm tin → Hành động</string>
+
+    <!-- Các số chính -->
+    <string name="energy_core_1">Xung lực → Quyết định → Khởi đầu mới</string>
+    <string name="energy_core_2">Gặp gỡ → Cân bằng → Hài hòa</string>
+    <string name="energy_core_3">Trải nghiệm → Biểu đạt → Phát triển</string>
+    <string name="energy_core_4">Trật tự → Xây dựng → Ổn định</string>
+    <string name="energy_core_5">Chuyển động → Thay đổi → Tự do</string>
+    <string name="energy_core_6">Quan tâm → Chữa lành → Hài hòa</string>
+    <string name="energy_core_7">Sự rõ ràng → Dẫn dắt nội tâm → Nhận thức</string>
+    <string name="energy_core_8">Tập trung → Hành động → Thành công</string>
+    <string name="energy_core_9">Hoàn tất → Buông bỏ → Chuyển hóa</string>
+
+    <!-- Các số cơ bản -->
+    <string name="energy_0">Nguồn cội → Nhận thức → Khởi đầu mới</string>
+    <string name="energy_1">Xung lực → Quyết định → Khởi đầu mới</string>
+    <string name="energy_2">Gặp gỡ → Cân bằng → Hài hòa</string>
+    <string name="energy_3">Trải nghiệm → Biểu đạt → Phát triển</string>
+    <string name="energy_4">Trật tự → Cấu trúc → Ổn định</string>
+    <string name="energy_5">Chuyển động → Thay đổi → Tự do</string>
+    <string name="energy_6">Quan tâm → Chữa lành → Hài hòa</string>
+    <string name="energy_7">Sự rõ ràng → Dẫn dắt nội tâm → Thức tỉnh</string>
+    <string name="energy_8">Tập trung → Hành động → Thành công</string>
+    <string name="energy_9">Hoàn tất → Buông bỏ → Chuyển hóa</string>
+
+    <!-- Lặp lại nổi bật -->
+    <string name="energy_repeat_0">Khởi nguyên → Tiềm năng → Sáng tạo</string>
+    <string name="energy_repeat_1">Xung lực → Quyết định → Chủ động</string>
+    <string name="energy_repeat_2">Kết nối → Cân bằng → Hài hòa</string>
+    <string name="energy_repeat_3">Niềm vui → Biểu đạt → Phát triển</string>
+    <string name="energy_repeat_4">Trật tự → Ổn định → Nền tảng</string>
+    <string name="energy_repeat_5">Chuyển động → Thay đổi → Tự do</string>
+    <string name="energy_repeat_6">Quan tâm → Chữa lành → Hài hòa</string>
+    <string name="energy_repeat_7">Tĩnh lặng → Dẫn dắt nội tâm → Thức tỉnh</string>
+    <string name="energy_repeat_8">Sức mạnh → Thịnh vượng → Thành công</string>
+    <string name="energy_repeat_9">Hoàn tất → Buông bỏ → Chuyển hóa</string>
+
+    <!-- Số bậc thầy -->
+    <string name="energy_11">Cảm hứng → Nhận thức → Giác ngộ</string>
+    <string name="energy_22">Tầm nhìn → Cấu trúc → Hiện thực hóa</string>
+    <string name="energy_33">Tình yêu → Biểu đạt → Chữa lành</string>
+    <string name="energy_44">Kỷ luật → Ổn định → Thành thạo</string>
+
+    <!-- Số kép mở rộng -->
+    <string name="energy_55">Chuyển động → Giải phóng → Bứt phá</string>
+    <string name="energy_66">Mở lòng → Trách nhiệm → Hài hòa</string>
+    <string name="energy_77">Tĩnh lặng → Trí tuệ nội tâm → Thức tỉnh</string>
+    <string name="energy_88">Sức mạnh → Thịnh vượng → Hiện thực hóa</string>
+    <string name="energy_99">Viên mãn → Buông bỏ → Tái sinh</string>
+
+    <!-- Số bậc thầy -->
+    <string name="energy_master_11">Cảm hứng → Nhận thức → Giác ngộ</string>
+    <string name="energy_master_22">Tầm nhìn → Cấu trúc → Hiện thực hóa</string>
+    <string name="energy_master_33">Tình yêu → Biểu đạt → Chữa lành</string>
+    <string name="energy_master_44">Kỷ luật → Ổn định → Thành thạo</string>
+    <string name="energy_multi_master">Dẫn dắt nội tâm → Hiện thực hóa có ý thức → Ảnh hưởng tâm linh</string>
+</resources>

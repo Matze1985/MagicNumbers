@@ -1,0 +1,59 @@
+<resources>
+    <!-- Default -->
+    <string name="energy_default">Διαύγεια → Εμπιστοσύνη → Δράση</string>
+
+    <!-- Hauptzahlen -->
+    <string name="energy_core_1">Ώθηση → Απόφαση → Νέα αρχή</string>
+    <string name="energy_core_2">Συνάντηση → Ισορροπία → Αρμονία</string>
+    <string name="energy_core_3">Εμπειρία → Έκφραση → Ανάπτυξη</string>
+    <string name="energy_core_4">Τάξη → Δόμηση → Σταθερότητα</string>
+    <string name="energy_core_5">Κίνηση → Αλλαγή → Ελευθερία</string>
+    <string name="energy_core_6">Φροντίδα → Θεραπεία → Αρμονία</string>
+    <string name="energy_core_7">Διαύγεια → Εσωτερική καθοδήγηση → Κατανόηση</string>
+    <string name="energy_core_8">Εστίαση → Δράση → Επιτυχία</string>
+    <string name="energy_core_9">Ολοκλήρωση → Απελευθέρωση → Μεταμόρφωση</string>
+
+    <!-- Grundzahlen -->
+    <string name="energy_0">Πηγή → Συνειδητότητα → Νέα αρχή</string>
+    <string name="energy_1">Ώθηση → Απόφαση → Νέα αρχή</string>
+    <string name="energy_2">Συνάντηση → Ισορροπία → Αρμονία</string>
+    <string name="energy_3">Εμπειρία → Έκφραση → Ανάπτυξη</string>
+    <string name="energy_4">Τάξη → Δομή → Σταθερότητα</string>
+    <string name="energy_5">Κίνηση → Αλλαγή → Ελευθερία</string>
+    <string name="energy_6">Φροντίδα → Θεραπεία → Αρμονία</string>
+    <string name="energy_7">Διαύγεια → Εσωτερική καθοδήγηση → Αφύπνιση</string>
+    <string name="energy_8">Εστίαση → Δράση → Επιτυχία</string>
+    <string name="energy_9">Ολοκλήρωση → Απελευθέρωση → Μεταμόρφωση</string>
+
+    <!-- Dominante Wiederholungen -->
+    <string name="energy_repeat_0">Αρχή → Δυναμικό → Δημιουργία</string>
+    <string name="energy_repeat_1">Ώθηση → Απόφαση → Πρωτοβουλία</string>
+    <string name="energy_repeat_2">Σύνδεση → Ισορροπία → Αρμονία</string>
+    <string name="energy_repeat_3">Χαρά → Έκφραση → Ανάπτυξη</string>
+    <string name="energy_repeat_4">Τάξη → Σταθερότητα → Θεμέλιο</string>
+    <string name="energy_repeat_5">Κίνηση → Αλλαγή → Ελευθερία</string>
+    <string name="energy_repeat_6">Φροντίδα → Θεραπεία → Αρμονία</string>
+    <string name="energy_repeat_7">Σιωπή → Εσωτερική καθοδήγηση → Αφύπνιση</string>
+    <string name="energy_repeat_8">Δύναμη → Αφθονία → Επιτυχία</string>
+    <string name="energy_repeat_9">Ολοκλήρωση → Απελευθέρωση → Μεταμόρφωση</string>
+
+    <!-- Meisterzahlen -->
+    <string name="energy_11">Έμπνευση → Συνειδητότητα → Φώτιση</string>
+    <string name="energy_22">Όραμα → Δομή → Εκδήλωση</string>
+    <string name="energy_33">Αγάπη → Έκφραση → Θεραπεία</string>
+    <string name="energy_44">Πειθαρχία → Σταθερότητα → Δεξιοτεχνία</string>
+
+    <!-- Erweiterte Doppelzahlen -->
+    <string name="energy_55">Κίνηση → Απελευθέρωση → Ρήξη</string>
+    <string name="energy_66">Άνοιγμα καρδιάς → Ευθύνη → Αρμονία</string>
+    <string name="energy_77">Σιωπή → Εσωτερική σοφία → Αφύπνιση</string>
+    <string name="energy_88">Δύναμη → Αφθονία → Εκδήλωση</string>
+    <string name="energy_99">Ολοκλήρωση → Απελευθέρωση → Ανανέωση</string>
+
+    <!-- Meisterzahlen -->
+    <string name="energy_master_11">Έμπνευση → Συνειδητότητα → Φώτιση</string>
+    <string name="energy_master_22">Όραμα → Δομή → Εκδήλωση</string>
+    <string name="energy_master_33">Αγάπη → Έκφραση → Θεραπεία</string>
+    <string name="energy_master_44">Πειθαρχία → Σταθερότητα → Δεξιοτεχνία</string>
+    <string name="energy_multi_master">Εσωτερική καθοδήγηση → Συνειδητή εκδήλωση → Πνευματική επίδραση</string>
+</resources>

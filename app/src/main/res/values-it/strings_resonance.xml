@@ -1,74 +1,53 @@
 <resources>
     <!-- =====================================================
-         Resonance – General labels (shared)
+         Risonanza – Etichette generali (condivise)
     ====================================================== -->
-    <string name="resonance_prefix">🔮</string>
-    <string name="resonance_focus_none">Focus: equilibrato (nessuna duplicazione diretta)</string>
+    <string name="resonance_focus_none">Focus: distribuzione uniforme (nessuna ripetizione diretta)</string>
     <string name="resonance_focus_frame">Focus: inizio &amp; fine (tema cornice)</string>
     <string name="resonance_focus_center">Focus: centro (impulso centrale)</string>
     <string name="resonance_focus_start">Focus: inizio (identità / fase iniziale)</string>
     <string name="resonance_focus_end">Focus: fine (risultato / prossimo passo)</string>
 
     <!-- =====================================================
-         Resonance (4-digit) – IDs
+         Risonanza (4 cifre) – Titoli
     ====================================================== -->
-    <string name="resonance4_id_mono">R4_MONO</string>
-    <string name="resonance4_id_aabb">R4_AABB</string>
-    <string name="resonance4_id_abab">R4_ABAB</string>
-    <string name="resonance4_id_abba">R4_ABBA</string>
-    <string name="resonance4_id_abcd">R4_ABCD</string>
-    <string name="resonance4_id_none">R4_NONE</string>
+    <string name="resonance4_title_mono">🔮 Schema di Risonanza (4): Monotipo</string>
+    <string name="resonance4_title_aabb">🔮 Schema di Risonanza (4): Due fasi</string>
+    <string name="resonance4_title_abab">🔮 Schema di Risonanza (4): Alternanza</string>
+    <string name="resonance4_title_abba">🔮 Schema di Risonanza (4): Specchio</string>
+    <string name="resonance4_title_abcd">🔮 Schema di Risonanza (4): Distribuzione uniforme</string>
+    <string name="resonance4_title_none">🔮 Schema di Risonanza: Combinazione libera</string>
 
     <!-- =====================================================
-         Resonance (4-digit) – Titles
+         Risonanza (4 cifre) – Significati brevi
     ====================================================== -->
-    <string name="resonance4_title_mono">Schema di risonanza (4): Monotipo</string>
-    <string name="resonance4_title_aabb">Schema di risonanza (4): Due fasi</string>
-    <string name="resonance4_title_abab">Schema di risonanza (4): Alternanza</string>
-    <string name="resonance4_title_abba">Schema di risonanza (4): Specchio</string>
-    <string name="resonance4_title_abcd">Schema di risonanza (4): Distribuzione uniforme</string>
-    <string name="resonance4_title_none">Schema di risonanza: Combinazione libera</string>
-
-    <!-- =====================================================
-         Resonance (4-digit) – Short meanings
-    ====================================================== -->
-    <string name="resonance4_meaning_mono">Amplificazione massima – un solo tema domina completamente.</string>
-    <string name="resonance4_meaning_aabb">Transizione chiara – la fase A è seguita dalla fase B.</string>
+    <string name="resonance4_meaning_mono">Amplificazione massima – un tema domina completamente.</string>
+    <string name="resonance4_meaning_aabb">Transizione chiara – la fase A viene sostituita dalla fase B.</string>
     <string name="resonance4_meaning_abab">Tensione tra due poli – ritmo, equilibrio, decisione.</string>
-    <string name="resonance4_meaning_abba">Riflessione – comprensione attraverso il rispecchiamento interno ed esterno.</string>
-    <string name="resonance4_meaning_abcd">Flusso equilibrato – nessuna ripetizione, energia neutra e aperta.</string>
-    <string name="resonance4_meaning_none">Nessun modello dominante – l’energia è liberamente combinata e aperta.</string>
+    <string name="resonance4_meaning_abba">Riflessione – consapevolezza attraverso il rispecchiamento interiore ed esteriore.</string>
+    <string name="resonance4_meaning_abcd">Flusso uniforme – nessuna ripetizione, energia aperta e neutrale.</string>
+    <string name="resonance4_meaning_none">Nessun schema dominante – l’energia è liberamente combinata e aperta.</string>
+    <string name="resonance4_meaning_ababab">Tensione tra due poli – ritmo, equilibrio e decisione consapevole caratterizzano questa energia.</string>
 
     <!-- =====================================================
-         Resonance (6-digit) – IDs
+         Risonanza (6 cifre) – Titoli
     ====================================================== -->
-    <string name="resonance6_id_mono">R6_MONO</string>
-    <string name="resonance6_id_aaabbb">R6_AAABBB</string>
-    <string name="resonance6_id_aabbcc">R6_AABBCC</string>
-    <string name="resonance6_id_ababab">R6_ABABAB</string>
-    <string name="resonance6_id_abcabc">R6_ABCABC</string>
-    <string name="resonance6_id_mirror">R6_MIRROR</string>
-    <string name="resonance6_id_none">R6_NONE</string>
+    <string name="resonance6_title_mono">🔮 Schema di Risonanza (6): Monotipo</string>
+    <string name="resonance6_title_aaabbb">🔮 Schema di Risonanza (6): Transizione</string>
+    <string name="resonance6_title_aabbcc">🔮 Schema di Risonanza (6): Processo graduale</string>
+    <string name="resonance6_title_ababab">🔮 Schema di Risonanza (6): Alternanza / Pendolo</string>
+    <string name="resonance6_title_abcabc">🔮 Schema di Risonanza (6): Ciclo</string>
+    <string name="resonance6_title_mirror">🔮 Schema di Risonanza (6): Specchio</string>
+    <string name="resonance6_title_none">🔮 Schema di Risonanza: Combinazione libera</string>
 
     <!-- =====================================================
-         Resonance (6-digit) – Titles
-    ====================================================== -->
-    <string name="resonance6_title_mono">Schema di risonanza (6): Monotipo</string>
-    <string name="resonance6_title_aaabbb">Schema di risonanza (6): Transizione</string>
-    <string name="resonance6_title_aabbcc">Schema di risonanza (6): Processo graduale</string>
-    <string name="resonance6_title_ababab">Schema di risonanza (6): Alternanza / Oscillazione</string>
-    <string name="resonance6_title_abcabc">Schema di risonanza (6): Ciclo</string>
-    <string name="resonance6_title_mirror">Schema di risonanza (6): Specchio</string>
-    <string name="resonance6_title_none">Schema di risonanza: Combinazione libera</string>
-
-    <!-- =====================================================
-         Resonance (6-digit) – Short meanings
+         Risonanza (6 cifre) – Significati brevi
     ====================================================== -->
     <string name="resonance6_meaning_mono">Amplificazione massima – un tema domina fortemente (benedizione o fissazione).</string>
-    <string name="resonance6_meaning_aaabbb">Cambiamento chiaro: fase A → fase B (chiusura e nuovo inizio).</string>
-    <string name="resonance6_meaning_aabbcc">Sviluppo graduale – apprendimento e integrazione passo dopo passo.</string>
+    <string name="resonance6_meaning_aaabbb">Cambiamento chiaro: fase A → fase B (conclusione e nuovo inizio).</string>
+    <string name="resonance6_meaning_aabbcc">Sviluppo per fasi – apprendimento e integrazione passo dopo passo.</string>
     <string name="resonance6_meaning_ababab">Tensione tra due poli – trovare equilibrio, decisione e ritmo.</string>
     <string name="resonance6_meaning_abcabc">Tema ricorrente – routine, ciclo, consapevolezza attraverso la ripetizione.</string>
-    <string name="resonance6_meaning_mirror">Retroazione – comprensione attraverso il rispecchiamento (interno/esterno).</string>
-    <string name="resonance6_meaning_none">Nessun modello dominante – l’energia è liberamente combinata e aperta.</string>
+    <string name="resonance6_meaning_mirror">Feedback – consapevolezza attraverso il rispecchiamento (interno/esterno).</string>
+    <string name="resonance6_meaning_none">Nessun schema dominante – l’energia è liberamente combinata e aperta.</string>
 </resources>

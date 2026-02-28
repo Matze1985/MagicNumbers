@@ -23,7 +23,7 @@ android {
         applicationId "com.spiritual.magicnumbers"
         minSdk 24
         versionCode 1
-        versionName "1.2.1"
+        versionName "1.2.2"
         targetSdk 36
     }
 
@@ -59,4 +59,5 @@ dependencies {
     implementation("androidx.compose.material3:material3")
     implementation("androidx.compose.runtime:runtime")
     implementation("androidx.compose.material:material-icons-extended-android:1.6.8")
+    implementation 'androidx.constraintlayout:constraintlayout-core:1.1.1'
 }

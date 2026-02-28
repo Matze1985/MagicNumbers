@@ -1,72 +1,97 @@
 <resources>
-    <!-- סדרה 0: מקור ופוטנציאל -->
-    <string name="angel_0_1">0: מקור ונוכחות – היה כאן. שום דבר עדיין לא נקבע.</string>
-    <string name="angel_0_2">00: מרחב מוגן – אתה יכול להיות בשקט. הטמע.</string>
-    <string name="angel_0_3">000: מקור – הכל אחד. בטח בשלם.</string>
-    <string name="angel_0_4">0000: איפוס – התחל מחדש ללא נטל. ציר הזמן פתוח.</string>
-    <string name="angel_0_5">00000: פוטנציאל טהור – אתה קיים, לפני שאתה הופך למשהו.</string>
-    <string name="angel_0_6">000000: ריק אלוהי – הכל אפשרי.</string>
+    <!-- סדרת 0 -->
+    <string name="angel_0_1">0: מקור &amp; נוכחות – היה כאן. עדיין שום דבר לא נקבע.</string>
+    <string name="angel_0_2">00: מרחב קדוש – מותר לך להיות בשקט. הטמע.</string>
+    <string name="angel_0_3">000: מקור – הכול אחד. בטח בשלמות.</string>
+    <string name="angel_0_4">0000: איפוס – התחל מחדש ללא עומס. ציר הזמן פתוח.</string>
+    <string name="angel_0_5">00000: פוטנציאל טהור – אתה קיים לפני שאתה משהו.</string>
+    <string name="angel_0_6">000000: ריק אלוהי – הכול אפשרי.</string>
 
-    <!-- סדרה 1: אינטואיציה והגשמה -->
-    <string name="angel_1_2">11: אינטואיציה – הקשב, ההדרכה הפנימית שלך קוראת.</string>
-    <string name="angel_1_3">111: הגשמה – אתה יוצר ברגע זה ממש, במודע או שלא במודע.</string>
+    <!-- סדרת 1 -->
+    <string name="angel_1_1">1: דחף – מחשבה חדשה מבקשת להיוולד.</string>
+    <string name="angel_1_2">11: אינטואיציה – הקשב, ההכוונה הפנימית שלך מדברת.</string>
+    <string name="angel_1_3">111: התגשמות – אתה יוצר כעת, במודע או שלא במודע.</string>
     <string name="angel_1_4">1111: התעוררות – שער נפתח. בחר במודעות.</string>
-    <string name="angel_1_5">11111: התגלמות – חייה את מה שהבנת.</string>
-    <string name="angel_1_6">111111: כוח יצירתי – המחשבות שלך הופכות למציאות.</string>
+    <string name="angel_1_5">11111: התגלמות – חיה את מה שהבנת.</string>
+    <string name="angel_1_6">111111: כוח יוצר – מחשבותיך הופכות למציאות.</string>
 
-    <!-- סדרה 2: איזון ואמון -->
+    <!-- סדרת 2 -->
+    <string name="angel_2_1">2: מפגש – שים לב לאדם שמולך.</string>
     <string name="angel_2_2">22: איזון – הישאר באמון.</string>
-    <string name="angel_2_3">222: תזמון אלוהי – הכל מסתדר ברגע המושלם.</string>
+    <string name="angel_2_3">222: התאמה – הכול מסתדר בזמן אלוהי.</string>
     <string name="angel_2_4">2222: יציבות – אתה נתמך.</string>
-    <string name="angel_2_5">22222: הרמוניה של הנשמה – אתה במקום הנכון.</string>
-    <string name="angel_2_6">222222: שלווה – אל תכפה כלום, הכל נמצא כאן.</string>
+    <string name="angel_2_5">22222: הרמוניית הנשמה – אתה בדיוק במקום הנכון.</string>
+    <string name="angel_2_6">222222: איזון – אל תכפה דבר, הכול כבר קיים.</string>
 
-    <!-- סדרה 3: ביטוי ואמת -->
+    <!-- סדרת 3 -->
+    <string name="angel_3_1">3: ביטוי – שתף את מחשבותיך ורגשותיך.</string>
     <string name="angel_3_2">33: ביטוי – בטא את עצמך, העולם מקשיב.</string>
-    <string name="angel_3_3">333: צמיחה – אתה מלווה על ידי מאסטרים.</string>
+    <string name="angel_3_3">333: צמיחה – מורים מלווים אותך.</string>
     <string name="angel_3_4">3333: אותנטיות – הראה את עצמך כפי שאתה.</string>
-    <string name="angel_3_5">33333: אמת – האמת שלך רוצה להיראות.</string>
-    <string name="angel_3_6">333333: לב ומילה – אתה מדבר מתוך המהות שלך.</string>
+    <string name="angel_3_5">33333: אמת – האמת שלך מבקשת לחיות.</string>
+    <string name="angel_3_6">333333: לב &amp; מילה – אתה מדבר מתוך מהותך.</string>
 
-    <!-- סדרה 4: יציבות והגנה -->
-    <string name="angel_4_2">44: קרקוע – הסדר מביא שלווה.</string>
+    <!-- סדרת 4 -->
+    <string name="angel_4_1">4: מבנה – סדר מביא בהירות.</string>
+    <string name="angel_4_2">44: קרקוע – סדר מביא שלווה.</string>
     <string name="angel_4_3">444: הגנה – אתה בטוח ומוגן.</string>
-    <string name="angel_4_4">4444: מבנה – היסודות שלך איתנים.</string>
-    <string name="angel_4_5">44444: יציבות – בטח בעמדה שלך.</string>
-    <string name="angel_4_6">444444: עוגן – אתה מושרש חזק בחיים.</string>
+    <string name="angel_4_4">4444: יסוד – הבסיס שלך יציב.</string>
+    <string name="angel_4_5">44444: יציבות – בטח במקומך.</string>
+    <string name="angel_4_6">444444: השתרשות – אתה מושרש עמוק בחיים.</string>
 
-    <!-- סדרה 5: שינוי וחופש -->
-    <string name="angel_5_2">55: שינוי – היה פתוח לחדש.</string>
-    <string name="angel_5_3">555: תפנית – שחרר את הישן.</string>
-    <string name="angel_5_4">5555: טרנספורמציה – שום דבר לא נשאר כשהיה.</string>
+    <!-- סדרת 5 -->
+    <string name="angel_5_1">5: תנועה – שינוי מתקרב.</string>
+    <string name="angel_5_2">55: טרנספורמציה – היה פתוח לחדש.</string>
+    <string name="angel_5_3">555: מפנה – שחרר את הישן.</string>
+    <string name="angel_5_4">5555: שינוי עמוק – דבר לא נשאר כפי שהיה.</string>
     <string name="angel_5_5">55555: זהות – אתה נולד מחדש.</string>
-    <string name="angel_5_6">555555: חופש – חופש הוא המצב החדש שלך.</string>
+    <string name="angel_5_6">555555: חופש – חופש הוא מצבך החדש.</string>
 
-    <!-- סדרה 6: חזרה למרכז -->
-    <string name="angel_6_2">66: טיפול עצמי – דאג היטב לעצמך.</string>
-    <string name="angel_6_3">666: איזון – חזור לעצמך, בין הפנים לחוץ.</string>
+    <!-- סדרת 6 -->
+    <string name="angel_6_1">6: דאגה – דאג ללבך ולביתך.</string>
+    <string name="angel_6_2">66: טיפול עצמי – שמור היטב על עצמך.</string>
+    <string name="angel_6_3">666: איזון – חזור לעצמך בין פנים &amp; חוץ.</string>
     <string name="angel_6_4">6666: סדרי עדיפויות – מה באמת מזין אותך?</string>
-    <string name="angel_6_5">66666: ריפוי – מותר לך להיות עדין עם עצמך.</string>
+    <string name="angel_6_5">66666: ריפוי – היה עדין עם עצמך.</string>
     <string name="angel_6_6">666666: שלמות – אתה בבית בתוך עצמך.</string>
 
-    <!-- סדרה 7: חוכמה ותובנה -->
-    <string name="angel_7_2">77: הדרכה – בטח בידע הפנימי שלך.</string>
+    <!-- סדרת 7 -->
+    <string name="angel_7_1">7: התבוננות פנימית – הקשב לקולך הפנימי.</string>
+    <string name="angel_7_2">77: הכוונה – בטח בחוכמתך הפנימית.</string>
     <string name="angel_7_3">777: רוחניות – אתה לומד ברמת הנשמה.</string>
-    <string name="angel_7_4">7777: תובנה – אתה רואה את הדברים בבהירות.</string>
+    <string name="angel_7_4">7777: תובנה – אתה רואה בבהירות.</string>
     <string name="angel_7_5">77777: חוכמה – אתה חי את מה שאתה יודע.</string>
-    <string name="angel_7_6">777777: הארה – אתה מודרך מבפנים.</string>
+    <string name="angel_7_6">777777: הארה – אתה מונחה מבפנים.</string>
 
-    <!-- סדרה 8: שפע וזרימת אנרגיה -->
-    <string name="angel_8_2">88: איזון – נתינה וקבלה בזרימה.</string>
-    <string name="angel_8_3">888: שפע – ההצלחה אפשרית וקרובה.</string>
-    <string name="angel_8_4">8888: זרימת אנרגיה – הכל זורם אליך.</string>
-    <string name="angel_8_5">88888: קבלה – מותר לך שיהיה לך ולהיות.</string>
-    <string name="angel_8_6">888888: שפע אינסופי – אתה חלק מהשפע האינסופי.</string>
+    <!-- סדרת 8 -->
+    <string name="angel_8_1">8: כוח – השתמש באנרגיה שלך במודעות.</string>
+    <string name="angel_8_2">88: זרימה – נתינה &amp; קבלה בהרמוניה.</string>
+    <string name="angel_8_3">888: שפע – הצלחה אפשרית וקרובה.</string>
+    <string name="angel_8_4">8888: זרימת אנרגיה – הכול זורם אליך.</string>
+    <string name="angel_8_5">88888: קבלה – מותר לך להיות ולהחזיק.</string>
+    <string name="angel_8_6">888888: שפע אינסופי – אתה חלק משפע ללא גבול.</string>
 
-    <!-- סדרה 9: השלמה ומעבר -->
+    <!-- סדרת 9 -->
+    <string name="angel_9_1">9: השלמה – פרק מסתיים.</string>
     <string name="angel_9_2">99: שחרור – סוף מתקרב.</string>
-    <string name="angel_9_3">999: השלמה – מעגל מסתיים. הודה והמשך הלאה.</string>
-    <string name="angel_9_4">9999: טרנספורמציה – הישן עוזב לתמיד.</string>
-    <string name="angel_9_5">99999: בשלות – אתה מוכן למה שיבוא.</string>
-    <string name="angel_9_6">999999: שלמות – המעגל נסגר.</string>
+    <string name="angel_9_3">999: סגירה – מחזור מסתיים. תודה &amp; המשך הלאה.</string>
+    <string name="angel_9_4">9999: טרנספורמציה – הישן עוזב סופית.</string>
+    <string name="angel_9_5">99999: בשלות – אתה מוכן לשלב הבא.</string>
+    <string name="angel_9_6">999999: מימוש – המעגל נסגר.</string>
+
+    <!-- 10 ומספרי מראה -->
+    <string name="angel_10">10: התחלה חדשה – מחזור אחד מסתיים ואחר מתחיל.</string>
+    <string name="angel_12">12: תהליך למידה – התפתחות דרך ניסיון.</string>
+    <string name="angel_21">21: אינטגרציה – ניגודים מתאחדים.</string>
+    <string name="angel_101">101: התעוררות – מודעות ברמה חדשה.</string>
+    <string name="angel_1212">1212: איזון בשינוי – יציבות בתנועה.</string>
+    <string name="angel_123">123: זרימה יצירתית – רעיונות זורמים בחופשיות.</string>
+    <string name="angel_1234">1234: התגשמות מובנית – התוכנית שלך קורמת עור וגידים.</string>
+    <string name="angel_12345">12345: התפתחות דינמית – צמיחה בתחומים רבים.</string>
+    <string name="angel_123456">123456: השלמה מלאה – מחזור נסגר ודרכים חדשות נפתחות.</string>
+    <string name="angel_palindrome">מספר מראה – העולם הפנימי והחיצוני משקפים זה את זה.</string>
+    <string name="angel_mirror">דפוס מראה – הבנה דרך התבוננות עצמית.</string>
+    <string name="angel_alternating">דפוס מתחלף – שתי אנרגיות פועלות בקצב.</string>
+    <string name="angel_sequence_ascending">רצף עולה – ההתפתחות מתרחשת במודעות.</string>
+    <string name="angel_sequence_descending">רצף יורד – שחרור מביא טרנספורמציה.</string>
 </resources>

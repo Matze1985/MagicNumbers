@@ -1,0 +1,59 @@
+<resources>
+    <!-- Default -->
+    <string name="energy_default">Aiškumas → Pasitikėjimas → Veiksmas</string>
+
+    <!-- Pagrindiniai skaičiai -->
+    <string name="energy_core_1">Impulsas → Sprendimas → Nauja pradžia</string>
+    <string name="energy_core_2">Susitikimas → Pusiausvyra → Harmonija</string>
+    <string name="energy_core_3">Patirtis → Išraiška → Augimas</string>
+    <string name="energy_core_4">Tvarka → Kūrimasis → Stabilumas</string>
+    <string name="energy_core_5">Judėjimas → Pokytis → Laisvė</string>
+    <string name="energy_core_6">Rūpestis → Gijimas → Harmonija</string>
+    <string name="energy_core_7">Aiškumas → Vidinis vedimas → Įžvalga</string>
+    <string name="energy_core_8">Dėmesys → Veiksmas → Sėkmė</string>
+    <string name="energy_core_9">Užbaigimas → Paleidimas → Transformacija</string>
+
+    <!-- Pagrindiniai skaičiai -->
+    <string name="energy_0">Šaltinis → Sąmoningumas → Nauja pradžia</string>
+    <string name="energy_1">Impulsas → Sprendimas → Nauja pradžia</string>
+    <string name="energy_2">Susitikimas → Pusiausvyra → Harmonija</string>
+    <string name="energy_3">Patirtis → Išraiška → Augimas</string>
+    <string name="energy_4">Tvarka → Struktūra → Stabilumas</string>
+    <string name="energy_5">Judėjimas → Pokytis → Laisvė</string>
+    <string name="energy_6">Rūpestis → Gijimas → Harmonija</string>
+    <string name="energy_7">Aiškumas → Vidinis vedimas → Pabudimas</string>
+    <string name="energy_8">Dėmesys → Veiksmas → Sėkmė</string>
+    <string name="energy_9">Užbaigimas → Paleidimas → Transformacija</string>
+
+    <!-- Dominuojantys pasikartojimai -->
+    <string name="energy_repeat_0">Pradžia → Potencialas → Kūryba</string>
+    <string name="energy_repeat_1">Impulsas → Sprendimas → Iniciatyva</string>
+    <string name="energy_repeat_2">Ryšys → Pusiausvyra → Harmonija</string>
+    <string name="energy_repeat_3">Džiaugsmas → Išraiška → Augimas</string>
+    <string name="energy_repeat_4">Tvarka → Stabilumas → Pagrindas</string>
+    <string name="energy_repeat_5">Judėjimas → Pokytis → Laisvė</string>
+    <string name="energy_repeat_6">Rūpestis → Gijimas → Harmonija</string>
+    <string name="energy_repeat_7">Tyla → Vidinis vedimas → Pabudimas</string>
+    <string name="energy_repeat_8">Galia → Gausa → Sėkmė</string>
+    <string name="energy_repeat_9">Užbaigimas → Paleidimas → Transformacija</string>
+
+    <!-- Meistro skaičiai -->
+    <string name="energy_11">Įkvėpimas → Sąmoningumas → Nušvitimas</string>
+    <string name="energy_22">Vizija → Struktūra → Įgyvendinimas</string>
+    <string name="energy_33">Meilė → Išraiška → Gijimas</string>
+    <string name="energy_44">Disciplina → Stabilumas → Meistriškumas</string>
+
+    <!-- Išplėstiniai dvigubi skaičiai -->
+    <string name="energy_55">Judėjimas → Išsilaisvinimas → Proveržis</string>
+    <string name="energy_66">Širdies atvėrimas → Atsakomybė → Harmonija</string>
+    <string name="energy_77">Tyla → Vidinė išmintis → Pabudimas</string>
+    <string name="energy_88">Galia → Gausa → Įgyvendinimas</string>
+    <string name="energy_99">Pilnatvė → Paleidimas → Atsinaujinimas</string>
+
+    <!-- Meistro skaičiai -->
+    <string name="energy_master_11">Įkvėpimas → Sąmoningumas → Nušvitimas</string>
+    <string name="energy_master_22">Vizija → Struktūra → Įgyvendinimas</string>
+    <string name="energy_master_33">Meilė → Išraiška → Gijimas</string>
+    <string name="energy_master_44">Disciplina → Stabilumas → Meistriškumas</string>
+    <string name="energy_multi_master">Vidinis vedimas → Sąmoningas įgyvendinimas → Dvasinis poveikis</string>
+</resources>

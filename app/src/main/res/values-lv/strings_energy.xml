@@ -1,0 +1,59 @@
+<resources>
+    <!-- Default -->
+    <string name="energy_default">Skaidrība → Uzticēšanās → Rīcība</string>
+
+    <!-- Galvenie skaitļi -->
+    <string name="energy_core_1">Impulss → Lēmums → Jauns sākums</string>
+    <string name="energy_core_2">Tikšanās → Līdzsvars → Harmonija</string>
+    <string name="energy_core_3">Pieredze → Izpausme → Izaugsme</string>
+    <string name="energy_core_4">Kārtība → Veidošana → Stabilitāte</string>
+    <string name="energy_core_5">Kustība → Pārmaiņas → Brīvība</string>
+    <string name="energy_core_6">Rūpes → Dziedināšana → Harmonija</string>
+    <string name="energy_core_7">Skaidrība → Iekšējā vadība → Atziņa</string>
+    <string name="energy_core_8">Fokuss → Rīcība → Panākumi</string>
+    <string name="energy_core_9">Noslēgums → Atlaišana → Transformācija</string>
+
+    <!-- Pamata skaitļi -->
+    <string name="energy_0">Avots → Apzinātība → Jauns sākums</string>
+    <string name="energy_1">Impulss → Lēmums → Jauns sākums</string>
+    <string name="energy_2">Tikšanās → Līdzsvars → Harmonija</string>
+    <string name="energy_3">Pieredze → Izpausme → Izaugsme</string>
+    <string name="energy_4">Kārtība → Struktūra → Stabilitāte</string>
+    <string name="energy_5">Kustība → Pārmaiņas → Brīvība</string>
+    <string name="energy_6">Rūpes → Dziedināšana → Harmonija</string>
+    <string name="energy_7">Skaidrība → Iekšējā vadība → Atmoda</string>
+    <string name="energy_8">Fokuss → Rīcība → Panākumi</string>
+    <string name="energy_9">Noslēgums → Atlaišana → Transformācija</string>
+
+    <!-- Dominējošie atkārtojumi -->
+    <string name="energy_repeat_0">Sākums → Potenciāls → Radīšana</string>
+    <string name="energy_repeat_1">Impulss → Lēmums → Iniciatīva</string>
+    <string name="energy_repeat_2">Savienojums → Līdzsvars → Harmonija</string>
+    <string name="energy_repeat_3">Prieks → Izpausme → Izaugsme</string>
+    <string name="energy_repeat_4">Kārtība → Stabilitāte → Pamats</string>
+    <string name="energy_repeat_5">Kustība → Pārmaiņas → Brīvība</string>
+    <string name="energy_repeat_6">Rūpes → Dziedināšana → Harmonija</string>
+    <string name="energy_repeat_7">Klusums → Iekšējā vadība → Atmoda</string>
+    <string name="energy_repeat_8">Spēks → Pārpilnība → Panākumi</string>
+    <string name="energy_repeat_9">Noslēgums → Atlaišana → Transformācija</string>
+
+    <!-- Meistara skaitļi -->
+    <string name="energy_11">Iedvesma → Apzinātība → Apgaismība</string>
+    <string name="energy_22">Vīzija → Struktūra → Manifestācija</string>
+    <string name="energy_33">Mīlestība → Izpausme → Dziedināšana</string>
+    <string name="energy_44">Disciplīna → Stabilitāte → Meistarība</string>
+
+    <!-- Paplašinātie dubultskaitļi -->
+    <string name="energy_55">Kustība → Atbrīvošanās → Izrāviens</string>
+    <string name="energy_66">Sirds atvēršana → Atbildība → Harmonija</string>
+    <string name="energy_77">Klusums → Iekšējā gudrība → Atmoda</string>
+    <string name="energy_88">Spēks → Pārpilnība → Manifestācija</string>
+    <string name="energy_99">Pieņemšana → Atlaišana → Atjaunošanās</string>
+
+    <!-- Meistara skaitļi -->
+    <string name="energy_master_11">Iedvesma → Apzinātība → Apgaismība</string>
+    <string name="energy_master_22">Vīzija → Struktūra → Manifestācija</string>
+    <string name="energy_master_33">Mīlestība → Izpausme → Dziedināšana</string>
+    <string name="energy_master_44">Disciplīna → Stabilitāte → Meistarība</string>
+    <string name="energy_multi_master">Iekšējā vadība → Apzināta manifestācija → Garīgā ietekme</string>
+</resources>

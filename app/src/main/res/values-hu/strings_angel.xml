@@ -1,72 +1,97 @@
 <resources>
-    <!-- 0-s Sorozat: Eredet és Potenciál -->
-    <string name="angel_0_1">0: Eredet és Jelenlét – Légy itt. Még semmi sincs eldöntve.</string>
-    <string name="angel_0_2">00: Védett Tér – Megpihenhetsz. Integrálj.</string>
-    <string name="angel_0_3">000: Forrás – Minden egy. Bízz a teljességben.</string>
-    <string name="angel_0_4">0000: Újrakezdés – Kezdj tisztalappal, teher nélkül. Az idővonal nyitott.</string>
-    <string name="angel_0_5">00000: Tiszta Potenciál – Te vagy a létezés, mielőtt bármivé válnál.</string>
-    <string name="angel_0_6">000000: Isteni Üresség – Minden lehetséges.</string>
+    <!-- 0-s sorozat -->
+    <string name="angel_0_1">0: Forrás &amp; Jelenlét – Légy itt. Még semmi sincs eldöntve.</string>
+    <string name="angel_0_2">00: Szent tér – Lehetsz csendben. Integrálj.</string>
+    <string name="angel_0_3">000: Forrás – Minden egy. Bízz az Egészben.</string>
+    <string name="angel_0_4">0000: Újrakezdés – Kezdj tiszta lappal, teher nélkül. Az idővonal nyitott.</string>
+    <string name="angel_0_5">00000: Tiszta potenciál – Vagy, mielőtt bármi lennél.</string>
+    <string name="angel_0_6">000000: Isteni üresség – Minden lehetséges.</string>
 
-    <!-- 1-es Sorozat: Intuíció és Manifesztáció -->
-    <string name="angel_1_2">11: Intuíció – Figyelj, a belső vezetésed hív.</string>
-    <string name="angel_1_3">111: Manifesztáció – Épp most teremtesz, tudatosan vagy tudattalanul.</string>
-    <string name="angel_1_4">1111: Ébredés – Egy kapu nyílik. Válassz tudatosan.</string>
+    <!-- 1-s sorozat -->
+    <string name="angel_1_1">1: Impulzus – Egy új gondolat születni akar.</string>
+    <string name="angel_1_2">11: Intuíció – Figyelj, belső útmutatásod szól hozzád.</string>
+    <string name="angel_1_3">111: Megnyilvánulás – Most teremtesz, tudatosan vagy tudattalanul.</string>
+    <string name="angel_1_4">1111: Ébredés – Egy kapu megnyílik. Válassz tudatosan.</string>
     <string name="angel_1_5">11111: Megtestesülés – Éld azt, amit felismertél.</string>
-    <string name="angel_1_6">111111: Teremtő Erő – A gondolataid valósággá válnak.</string>
+    <string name="angel_1_6">111111: Teremtő erő – Gondolataid valósággá válnak.</string>
 
-    <!-- 2-es Sorozat: Egyensúly és Bizalom -->
+    <!-- 2-s sorozat -->
+    <string name="angel_2_1">2: Találkozás – Figyelj arra, aki előtted áll.</string>
     <string name="angel_2_2">22: Egyensúly – Maradj a bizalomban.</string>
-    <string name="angel_2_3">222: Isteni Időzítés – Minden a tökéletes pillanatban rendeződik.</string>
+    <string name="angel_2_3">222: Összhang – Minden az isteni időzítés szerint alakul.</string>
     <string name="angel_2_4">2222: Stabilitás – Támogatva vagy.</string>
-    <string name="angel_2_5">22222: Lelki Harmónia – A megfelelő helyen vagy.</string>
-    <string name="angel_2_6">222222: Kiegyensúlyozottság – Ne erőltess semmit, minden itt van.</string>
+    <string name="angel_2_5">22222: Lélek-harmónia – Pont ott vagy, ahol lenned kell.</string>
+    <string name="angel_2_6">222222: Kiegyensúlyozottság – Ne erőltess semmit, minden már jelen van.</string>
 
-    <!-- 3-as Sorozat: Kifejezés és Igazság -->
+    <!-- 3-s sorozat -->
+    <string name="angel_3_1">3: Kifejezés – Oszd meg gondolataidat és érzéseidet.</string>
     <string name="angel_3_2">33: Kifejezés – Fejezd ki magad, a világ figyel.</string>
-    <string name="angel_3_3">333: Növekedés – Mesterek kísérik utadat.</string>
-    <string name="angel_3_4">3333: Hitelesség – Mutasd meg magad olyannak, amilyen vagy.</string>
-    <string name="angel_3_5">33333: Igazság – Az igazságod élni akar.</string>
-    <string name="angel_3_6">333333: Szív és Szó – A lényed legmélyéről beszélsz.</string>
+    <string name="angel_3_3">333: Növekedés – Mesterek kísérnek utadon.</string>
+    <string name="angel_3_4">3333: Hitelesség – Mutasd meg valódi önmagad.</string>
+    <string name="angel_3_5">33333: Igazság – Az igazságod élni szeretne.</string>
+    <string name="angel_3_6">333333: Szív &amp; Szó – Lényed mélyéből szólsz.</string>
 
-    <!-- 4-es Sorozat: Stabilitás és Védelem -->
-    <string name="angel_4_2">44: Földelés – A rend békét hoz.</string>
-    <string name="angel_4_3">444: Védelem – Biztonságban vagy és vigyáznak rád.</string>
-    <string name="angel_4_4">4444: Struktúra – Az alapjaid szilárdak.</string>
+    <!-- 4-s sorozat -->
+    <string name="angel_4_1">4: Struktúra – A rend tisztaságot hoz.</string>
+    <string name="angel_4_2">44: Földelés – A rend békét teremt.</string>
+    <string name="angel_4_3">444: Védelem – Biztonságban és védelem alatt állsz.</string>
+    <string name="angel_4_4">4444: Alap – Erős a fundamentumod.</string>
     <string name="angel_4_5">44444: Stabilitás – Bízz a helyzetedben.</string>
-    <string name="angel_4_6">444444: Gyökerezettség – Erősen gyökerezel az életben.</string>
+    <string name="angel_4_6">444444: Gyökerezés – Szilárdan gyökerezel az életben.</string>
 
-    <!-- 5-ös Sorozat: Változás és Szabadság -->
-    <string name="angel_5_2">55: Változás – Légy nyitott az újra.</string>
+    <!-- 5-s sorozat -->
+    <string name="angel_5_1">5: Mozgás – A változás közeleg.</string>
+    <string name="angel_5_2">55: Átalakulás – Légy nyitott az újra.</string>
     <string name="angel_5_3">555: Fordulat – Engedd el a régit.</string>
-    <string name="angel_5_4">5555: Átalakulás – Semmi sem marad a régiben.</string>
+    <string name="angel_5_4">5555: Transzformáció – Semmi sem marad a régi.</string>
     <string name="angel_5_5">55555: Identitás – Újjászületsz.</string>
     <string name="angel_5_6">555555: Szabadság – A szabadság az új állapotod.</string>
 
-    <!-- 6-os Sorozat: Visszatérés a Középpontba -->
-    <string name="angel_6_2">66: Öngondoskodás – Vigyázz jól magadra.</string>
-    <string name="angel_6_3">666: Egyensúly – Térj vissza önmagadhoz, a belső és külső között.</string>
-    <string name="angel_6_4">6666: Prioritások – Mi az, ami valóban táplál téged?</string>
-    <string name="angel_6_5">66666: Gyógyulás – Lehetsz gyengéd önmagadhoz.</string>
+    <!-- 6-s sorozat -->
+    <string name="angel_6_1">6: Gondoskodás – Törődj a szíveddel és az otthonoddal.</string>
+    <string name="angel_6_2">66: Öngondoskodás – Vigyázz magadra.</string>
+    <string name="angel_6_3">666: Egyensúly – Térj vissza önmagadhoz a belső &amp; külső között.</string>
+    <string name="angel_6_4">6666: Prioritások – Mi táplál igazán?</string>
+    <string name="angel_6_5">66666: Gyógyulás – Légy gyengéd önmagadhoz.</string>
     <string name="angel_6_6">666666: Teljesség – Otthon vagy önmagadban.</string>
 
-    <!-- 7-es Sorozat: Bölcsesség és Belátás -->
-    <string name="angel_7_2">77: Útmutatás – Bízz a belső tudásodban.</string>
-    <string name="angel_7_3">777: Spiritualitás – Lélekszinten tanulsz.</string>
+    <!-- 7-s sorozat -->
+    <string name="angel_7_1">7: Befelé figyelés – Hallgasd belső hangodat.</string>
+    <string name="angel_7_2">77: Vezetés – Bízz belső tudásodban.</string>
+    <string name="angel_7_3">777: Spiritualitás – Lélek szinten tanulsz.</string>
     <string name="angel_7_4">7777: Felismerés – Tisztán látod a dolgokat.</string>
     <string name="angel_7_5">77777: Bölcsesség – Azt éled, amit tudsz.</string>
-    <string name="angel_7_6">777777: Megvilágosodás – Belülről vezetnek.</string>
+    <string name="angel_7_6">777777: Megvilágosodás – Belső vezetés irányít.</string>
 
-    <!-- 8-as Sorozat: Bőség és Energiaáramlás -->
-    <string name="angel_8_2">88: Kiegyenlítődés – Adok-kapok áramlásban.</string>
+    <!-- 8-s sorozat -->
+    <string name="angel_8_1">8: Erő – Használd tudatosan az energiádat.</string>
+    <string name="angel_8_2">88: Áramlás – Adás &amp; elfogadás harmóniában.</string>
     <string name="angel_8_3">888: Bőség – A siker lehetséges és közel van.</string>
     <string name="angel_8_4">8888: Energiaáramlás – Minden feléd áramlik.</string>
-    <string name="angel_8_5">88888: Befogadás – Megengedett számodra a birtoklás és a létezés.</string>
-    <string name="angel_8_6">888888: Túlcsordulás – Része vagy a végtelen bőségnek.</string>
+    <string name="angel_8_5">88888: Befogadás – Jogod van birtokolni és létezni.</string>
+    <string name="angel_8_6">888888: Végtelen bőség – A határtalan bőség része vagy.</string>
 
-    <!-- 9-es Sorozat: Lezárás és Átmenet -->
+    <!-- 9-s sorozat -->
+    <string name="angel_9_1">9: Beteljesülés – Egy fejezet lezárul.</string>
     <string name="angel_9_2">99: Elengedés – Egy vég közeleg.</string>
-    <string name="angel_9_3">999: Beteljesülés – Egy ciklus véget ér. Köszönd meg és lépj tovább.</string>
-    <string name="angel_9_4">9999: Transzformáció – A régi végleg távozik.</string>
-    <string name="angel_9_5">99999: Érettség – Készen állsz arra, ami jön.</string>
-    <string name="angel_9_6">999999: Tökéletesség – A kör bezárul.</string>
+    <string name="angel_9_3">999: Lezárás – Egy ciklus véget ér. Légy hálás &amp; lépj tovább.</string>
+    <string name="angel_9_4">9999: Átalakulás – A régi végleg távozik.</string>
+    <string name="angel_9_5">99999: Érettség – Készen állsz a következő lépésre.</string>
+    <string name="angel_9_6">999999: Teljes lezárás – A kör bezárul.</string>
+
+    <!-- 10 & Tükörszámok -->
+    <string name="angel_10">10: Új kezdet – Egy ciklus véget ér, egy új kezdődik.</string>
+    <string name="angel_12">12: Tanulási folyamat – Fejlődés tapasztalat által.</string>
+    <string name="angel_21">21: Integráció – Az ellentétek egyesülnek.</string>
+    <string name="angel_101">101: Ébredés – Tudatosság egy új szinten.</string>
+    <string name="angel_1212">1212: Egyensúly a változásban – Stabilitás mozgásban.</string>
+    <string name="angel_123">123: Kreatív áramlás – Az ötletek szabadon jönnek.</string>
+    <string name="angel_1234">1234: Strukturált megnyilvánulás – Terved formát ölt.</string>
+    <string name="angel_12345">12345: Dinamikus fejlődés – Növekedés több területen.</string>
+    <string name="angel_123456">123456: Teljes beteljesülés – A ciklus lezárul, új utak nyílnak.</string>
+    <string name="angel_palindrome">Tükörszám – A belső és külső világ tükrözi egymást.</string>
+    <string name="angel_mirror">Tükörminta – Megértés önmegfigyelés által.</string>
+    <string name="angel_alternating">Váltakozó minta – Két energia ritmusban működik.</string>
+    <string name="angel_sequence_ascending">Emelkedő sorozat – A fejlődés tudatosan történik.</string>
+    <string name="angel_sequence_descending">Csökkenő sorozat – Az elengedés átalakulást hoz.</string>
 </resources>

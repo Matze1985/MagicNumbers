@@ -1,36 +1,38 @@
 <resources>
     <!-- App Name -->
-    <string name="app_name">Những Con Số Huyền Diệu</string>
+    <string name="app_name">Những Con Số Kỳ Diệu</string>
 
     <!-- UI Texte -->
     <string name="new_message">Thông điệp mới</string>
     <string name="copy_message">Sao chép thông điệp</string>
-    <string name="clipboard_label">Thông điệp huyền diệu</string>
-    <string name="welcome_message">Nhấn “Thông điệp mới” để đón nhận nhịp điệu của khoảnh khắc.</string>
-    <string name="message_for_the_moment">Thông điệp cho khoảnh khắc này: %1$s</string>
-    <string name="your_cross_sum_is">Tổng các chữ số của bạn là: %1$s</string>
+    <string name="clipboard_label">Thông điệp kỳ diệu</string>
+    <string name="welcome_message">Nhấn \"Thông điệp mới\" để đón nhận nhịp điệu của khoảnh khắc này.</string>
+    <string name="your_cross_sum_is">Tổng các chữ số của bạn là:</string>
     <string name="digit_occurrence">(xuất hiện %1$dx lần, được tăng cường)</string>
-    <string name="frequency_label">Tần số</string>
 
-    <!-- Sektions-Überschriften -->
-    <string name="section_vibration">🧬 Dao động của các chữ số:</string>
-    <string name="section_your_message">💌 Thông điệp của bạn:</string>
-    <string name="section_summary">✨ Tóm tắt:</string>
-    <string name="section_energy">⚡️ Dòng năng lượng:</string>
+    <!-- Sections -->
+    <string name="section_message_for_the_moment">💌 Thông điệp cho khoảnh khắc này: %1$s</string>
+    <string name="section_frequency">🌀 Tần số:</string>
+    <string name="section_vibration">🧬 Rung động của các chữ số:</string>
+    <string name="section_master_energy">👑 Năng lượng bậc thầy:</string>
+    <string name="section_angel">🕊️ Thông điệp thiên thần:</string>
+    <string name="section_description_numbers">🔢 Mô tả các chữ số:</string>
+    <string name="section_summary">📖 Tóm tắt:</string>
+    <string name="section_energy">⚡️ Dòng chảy năng lượng:</string>
 
-    <!-- Hauptnachrichten Templates (pro Ziffer) -->
-    <string name="digit_0_intro">✨ Chữ số **\'0\'**%1$s khuếch đại mọi thứ. Đây là dấu hiệu của sự hiện diện thiêng liêng và tiềm năng vô hạn.</string>
-    <string name="digit_1_intro">✨ Chữ số **\'1\'**%1$s kêu gọi bạn đến với **một khởi đầu mới đầy mạnh mẽ**. Những suy nghĩ của bạn đang nhanh chóng trở thành hiện thực.</string>
-    <string name="digit_2_intro">✨ Chữ số **\'2\'**%1$s mang đến **sự cân bằng và hài hòa**, đặc biệt trong các mối quan hệ. Bạn không đơn độc.</string>
-    <string name="digit_3_intro">✨ Chữ số **\'3\'**%1$s kích hoạt **sự sáng tạo và giao tiếp** của bạn. Hãy thể hiện bản thân – thế giới tâm linh đang lắng nghe.</string>
-    <string name="digit_4_intro">✨ Chữ số **\'4\'**%1$s tạo nên **nền tảng vững chắc**. Năng lượng này mang lại sự bảo vệ và cấu trúc cho cuộc sống của bạn.</string>
-    <string name="digit_5_intro">✨ Chữ số **\'5\'**%1$s báo hiệu **làn sóng thay đổi và tự do**. Hãy mở lòng với phiêu lưu và phá vỡ những xiềng xích cũ.</string>
-    <string name="digit_6_intro">✨ Chữ số **\'6\'**%1$s hướng sự chú ý đến **sự chữa lành cho trái tim và mái ấm**. Gia đình và sự hài hòa đang ở trung tâm.</string>
-    <string name="digit_7_intro">✨ Chữ số **\'7\'**%1$s biến **trực giác của bạn thành kim chỉ nam quan trọng nhất**. Lắng nghe bên trong – sự thật nằm trong bạn.</string>
-    <string name="digit_8_intro">✨ Chữ số **\'8\'**%1$s kích hoạt năng lượng của **sự thịnh vượng và thành công**. Hãy mở lòng đón nhận cả vật chất lẫn tinh thần.</string>
-    <string name="digit_9_intro">✨ Chữ số **\'9\'**%1$s cho thấy **sự kết thúc của một chu kỳ quan trọng**. Hãy buông bỏ cái cũ để tạo không gian cho cái mới.</string>
+    <!-- Main Messages -->
+    <string name="digit_0_intro">Số **\'0\'**%1$s khuếch đại mọi thứ. Đây là dấu hiệu của sự hiện diện thiêng liêng và tiềm năng vô hạn.</string>
+    <string name="digit_1_intro">Số **\'1\'**%1$s kêu gọi bạn đến với **một khởi đầu mạnh mẽ**. Những suy nghĩ của bạn đang nhanh chóng trở thành hiện thực.</string>
+    <string name="digit_2_intro">Số **\'2\'**%1$s mang lại **sự cân bằng và hài hòa**, đặc biệt trong các mối quan hệ. Bạn không hề đơn độc.</string>
+    <string name="digit_3_intro">Số **\'3\'**%1$s kích hoạt **sự sáng tạo và giao tiếp** của bạn. Hãy thể hiện bản thân – thế giới tâm linh đang lắng nghe.</string>
+    <string name="digit_4_intro">Số **\'4\'**%1$s tạo nên **nền tảng vững chắc**. Năng lượng này mang lại sự bảo vệ và cấu trúc.</string>
+    <string name="digit_5_intro">Số **\'5\'**%1$s báo hiệu **làn sóng thay đổi và tự do**. Hãy mở lòng với những cuộc phiêu lưu và phá vỡ xiềng xích cũ.</string>
+    <string name="digit_6_intro">Số **\'6\'**%1$s hướng sự chú ý đến **chữa lành trái tim và mái ấm**. Gia đình và sự hài hòa đang ở trung tâm.</string>
+    <string name="digit_7_intro">Số **\'7\'**%1$s biến **trực giác thành chiếc la bàn quan trọng nhất**. Hãy lắng nghe bên trong – sự thật nằm trong bạn.</string>
+    <string name="digit_8_intro">Số **\'8\'**%1$s kích hoạt năng lượng của **sự thịnh vượng và thành công**. Hãy mở lòng với sự giàu có cả vật chất lẫn tinh thần.</string>
+    <string name="digit_9_intro">Số **\'9\'**%1$s cho thấy **sự заверш thành của một chu kỳ quan trọng**. Hãy buông bỏ điều cũ để đón nhận điều mới.</string>
 
-    <!-- Numerologie Grundbedeutungen -->
+    <!-- Core Meanings -->
     <string name="numerology_1">Khởi đầu mới &amp; lãnh đạo</string>
     <string name="numerology_2">Hài hòa &amp; cân bằng</string>
     <string name="numerology_3">Sáng tạo &amp; phát triển</string>
@@ -40,13 +42,19 @@
     <string name="numerology_7">Trực giác &amp; thức tỉnh</string>
     <string name="numerology_8">Thành công &amp; thịnh vượng</string>
     <string name="numerology_9">Hoàn tất &amp; trí tuệ</string>
-    <string name="numerology_11">Trực giác bậc thầy</string>
-    <string name="numerology_22">Hiện thực hóa bậc thầy</string>
-    <string name="numerology_33">Bậc thầy chữa lành</string>
+    <string name="numerology_11">Nhà tiên kiến tâm linh</string>
+    <string name="numerology_22">Bậc thầy kiến tạo</string>
+    <string name="numerology_33">Bậc thầy giảng dạy</string>
+    <string name="numerology_44">Bậc thầy ổn định</string>
+    <string name="numerology_55">Bậc thầy tự do</string>
+    <string name="numerology_66">Bậc thầy tình yêu vô điều kiện</string>
+    <string name="numerology_77">Bậc thầy trí tuệ</string>
+    <string name="numerology_88">Bậc thầy quyền năng</string>
+    <string name="numerology_99">Bậc thầy hoàn tất</string>
     <string name="numerology_unknown">Không xác định</string>
 
-    <!-- Numerologie Keywords -->
-    <string name="keyword_0">Nguồn cội</string>
+    <!-- Keywords -->
+    <string name="keyword_0">Nguồn gốc</string>
     <string name="keyword_1">Khởi đầu</string>
     <string name="keyword_2">Cân bằng</string>
     <string name="keyword_3">Sáng tạo</string>
@@ -57,73 +65,81 @@
     <string name="keyword_8">Thịnh vượng</string>
     <string name="keyword_9">Hoàn tất</string>
 
-    <!-- Numerologie Spezialbedeutungen -->
-    <string name="master_number_11">Con số bậc thầy 11: trực giác &amp; giác ngộ</string>
-    <string name="master_number_22">Con số bậc thầy 22: người kiến tạo &amp; hiện thực hóa</string>
-    <string name="master_number_33">Con số bậc thầy 33: tình yêu phổ quát &amp; chữa lành</string>
-    <string name="master_number_44">Con số bậc thầy 44: bậc thầy chữa lành. Bạn kết nối thế giới vật chất và tinh thần.</string>
-    <string name="special_number_55">Rung động đặc biệt 55: thay đổi triệt để &amp; tự do</string>
-    <string name="special_number_66">Rung động đặc biệt 66: tình yêu phổ quát &amp; lòng trắc ẩn</string>
-    <string name="special_number_77">Rung động đặc biệt 77: sự thấu hiểu tâm linh sâu sắc</string>
-    <string name="special_number_88">Rung động đặc biệt 88: sự thịnh vượng vô hạn &amp; cân bằng</string>
-    <string name="special_number_99">Rung động đặc biệt 99: ý thức phổ quát &amp; phụng sự</string>
+    <!-- Special Meanings -->
+    <string name="master_number_11">11: Trực giác &amp; giác ngộ</string>
+    <string name="master_number_22">22: Kiến tạo &amp; hiện thực hóa</string>
+    <string name="master_number_33">33: Tình yêu phổ quát &amp; chữa lành</string>
+    <string name="master_number_44">44: Bậc thầy chữa lành. Bạn kết nối thế giới vật chất và tinh thần.</string>
+    <string name="special_number_55">55: Thay đổi mạnh mẽ &amp; tự do</string>
+    <string name="special_number_66">66: Tình yêu phổ quát &amp; lòng trắc ẩn</string>
+    <string name="special_number_77">77: Thấu hiểu tâm linh sâu sắc</string>
+    <string name="special_number_88">88: Thịnh vượng vô hạn &amp; cân bằng</string>
+    <string name="special_number_99">99: Ý thức phổ quát &amp; phụng sự</string>
 
-    <!-- Karmische Lektionen -->
-    <string name="karmic_lesson_4">Bài học nghiệp 4: sự ổn định và lao động chăm chỉ.</string>
-    <string name="karmic_lesson_5">Bài học nghiệp 5: tự do và kỷ luật.</string>
-    <string name="karmic_lesson_7">Bài học nghiệp 7: niềm tin và sự cởi mở.</string>
-    <string name="karmic_lesson_8">Bài học nghiệp 8: thịnh vượng và lạm dụng quyền lực.</string>
-    <string name="karmic_lesson_10">Bài học nghiệp 10: bánh xe số phận / khởi đầu mới</string>
-    <string name="karmic_lesson_11">Bài học nghiệp 11: làm chủ tinh thần và sự cân bằng</string>
-    <string name="karmic_lesson_13">Bài học nghiệp 13: lao động và tập trung (chuyển hóa)</string>
-    <string name="karmic_lesson_14">Bài học nghiệp 14: tự do và tiết độ</string>
-    <string name="karmic_lesson_16">Bài học nghiệp 16: thức tỉnh và khiêm nhường</string>
-    <string name="karmic_lesson_19">Bài học nghiệp 19: sức mạnh và độc lập</string>
-    <string name="karmic_lesson_22">Bài học nghiệp 22: bậc thầy sáng tạo và trách nhiệm</string>
-    <string name="karmic_lesson_33">Bài học nghiệp 33: bậc thầy của tình yêu chữa lành</string>
+    <!-- Karmic Details 1–33 -->
+    <string name="karmic_detail_1">Chi tiết nghiệp 1: Trách nhiệm cá nhân\n→ Ngừng đổ lỗi cho bên ngoài\n→ Nhận ra: bạn là người đồng sáng tạo cuộc đời mình\n→ Can đảm bước đi con đường riêng</string>
+    <string name="karmic_detail_2">Chi tiết nghiệp 2: Mối quan hệ &amp; sự phản chiếu\n→ Hiểu luật tấm gương\n→ Người khác phản chiếu phần chưa được chữa lành\n→ Ngoại giao mà không đánh mất bản thân\n→ Giữ sự kiên nhẫn</string>
+    <string name="karmic_detail_3">Chi tiết nghiệp 3: Chân thật &amp; thể hiện\n→ Sống với sự thật của bạn\n→ Bỏ những chiếc mặt nạ và vai diễn\n→ Thể hiện cảm xúc một cách sáng tạo</string>
+    <string name="karmic_detail_4">Chi tiết nghiệp 4: Kiên nhẫn &amp; tin tưởng\n→ Đừng ép buộc mọi thứ\n→ Tin vào thời điểm thiêng liêng\n→ Tạo ổn định thông qua trật tự</string>
+    <string name="karmic_detail_5">Chi tiết nghiệp 5: Chuyển hóa nỗi sợ\n→ Can đảm thay vì trốn tránh\n→ Chuyển hóa nỗi sợ mất mát hoặc thiếu thốn\n→ Tự do thông qua trách nhiệm</string>
+    <string name="karmic_detail_6">Chi tiết nghiệp 6: Tình yêu &amp; ranh giới\n→ Yêu vô điều kiện mà không chiếm hữu\n→ Nói “không” mà không cảm thấy tội lỗi\n→ Đừng hy sinh bản thân quá mức</string>
+    <string name="karmic_detail_7">Chi tiết nghiệp 7: Niềm tin &amp; dẫn dắt\n→ Tin vào sự hướng dẫn tâm linh\n→ Làm theo trực giác\n→ Hướng vào bên trong</string>
+    <string name="karmic_detail_8">Chi tiết nghiệp 8: Quyền lực &amp; thịnh vượng\n→ Buông bỏ tư duy thiếu thốn\n→ Cân bằng giữa cho và nhận\n→ Chữa lành mối quan hệ với quyền lực</string>
+    <string name="karmic_detail_9">Chi tiết nghiệp 9: Buông bỏ &amp; tha thứ\n→ Tha thứ cho người khác và chính mình\n→ Buông những vết thương cũ\n→ Phụng sự cộng đồng</string>
+    <string name="karmic_detail_10">Chi tiết nghiệp 10: Bánh xe số phận\n→ Chấp nhận định mệnh\n→ Buông sự kháng cự\n→ Bắt đầu mới một cách tỉnh thức</string>
+    <string name="karmic_detail_11">Chi tiết nghiệp 11: Người có tầm nhìn\n→ Hợp nhất ánh sáng và bóng tối\n→ Đón nhận vai trò dẫn dắt tâm linh\n→ Truyền cảm hứng cho người khác</string>
+    <string name="karmic_detail_12">Chi tiết nghiệp 12: Thay đổi góc nhìn\n→ Phụng sự mà không đóng vai nạn nhân\n→ Nhìn mọi việc từ góc độ mới\n→ Trí tuệ thông qua sự buông xuôi</string>
+    <string name="karmic_detail_13">Chi tiết nghiệp 13: Bản ngã &amp; chuyển hóa\n→ Buông bỏ kiêu ngạo và cố chấp\n→ Khiêm tốn mà không đánh mất bản thân\n→ Chuyển hóa qua nỗ lực và tập trung</string>
+    <string name="karmic_detail_14">Chi tiết nghiệp 14: Giải phóng khỏi sự phụ thuộc\n→ Tự do thay vì gắn bó vì sợ hãi\n→ Tìm sự điều độ\n→ Củng cố sự độc lập cảm xúc</string>
+    <string name="karmic_detail_15">Chi tiết nghiệp 15: Buông bỏ có ý thức\n→ Nhận diện những ràng buộc cản trở phát triển\n→ Thực hành buông bỏ trong suy nghĩ và hành động\n→ Tin rằng buông bỏ mở ra điều mới</string>
+    <string name="karmic_detail_16">Chi tiết nghiệp 16: Thức tỉnh &amp; chân thật\n→ Cấu trúc cũ sụp đổ\n→ Tìm lại bản ngã chân thật\n→ Ảo tưởng tan biến</string>
+    <string name="karmic_detail_17">Chi tiết nghiệp 17: Thẩm quyền tâm linh\n→ Tin vào trí tuệ nội tâm\n→ Lãnh đạo không có bản ngã\n→ Thành công qua sự chính trực</string>
+    <string name="karmic_detail_18">Chi tiết nghiệp 18: Sự rõ ràng cảm xúc\n→ Biến ảo tưởng thành sự thật\n→ Chữa lành mô thức cũ\n→ Từ bi mà không tự hy sinh</string>
+    <string name="karmic_detail_19">Chi tiết nghiệp 19: Giá trị bản thân &amp; quyền lực\n→ Đừng định nghĩa mình chỉ bằng thành tích\n→ Chữa lành vấn đề quyền lực và bất lực\n→ Học cách đón nhận sự giúp đỡ</string>
+    <string name="karmic_detail_20">Chi tiết nghiệp 20: Thức tỉnh &amp; phán xét\n→ Kiên nhẫn và hiểu biết cao hơn\n→ Ngoại giao tâm linh</string>
+    <string name="karmic_detail_21">Chi tiết nghiệp 21: Thể hiện trong thế giới\n→ Thành công sau hành trình dài\n→ Hợp nhất các mặt đối lập\n→ Hoàn tất bên ngoài</string>
+    <string name="karmic_detail_22">Chi tiết nghiệp 22: Người kiến tạo\n→ Hiện thực hóa những giấc mơ lớn\n→ Chịu trách nhiệm với tài năng\n→ Phụng sự mà không đánh mất mình</string>
+    <string name="karmic_detail_23">Chi tiết nghiệp 23: Sư tử hoàng gia\n→ Bảo vệ &amp; thành công\n→ Tự do thể hiện\n→ Giữ sự linh hoạt</string>
+    <string name="karmic_detail_24">Chi tiết nghiệp 24: Chữa lành trái tim\n→ Hoàn thành và giải phóng khế ước linh hồn\n→ Tình yêu và phụng sự\n→ Ổn định cảm xúc</string>
+    <string name="karmic_detail_25">Chi tiết nghiệp 25: Chữa lành đứa trẻ bên trong\n→ Lắng nghe nhu cầu thầm lặng\n→ Nuôi dưỡng bằng yêu thương và chăm sóc\n→ Tích hợp sự chữa lành vào cuộc sống trưởng thành</string>
+    <string name="karmic_detail_26">Chi tiết nghiệp 26: Hơi thở tỉnh thức\n→ Nhận biết hơi thở từng khoảnh khắc\n→ Dùng hơi thở làm điểm neo\n→ Thấy hơi thở là tấm gương năng lượng</string>
+    <string name="karmic_detail_27">Chi tiết nghiệp 27: Phụng sự toàn thể\n→ Chữa lành không chỉ cho riêng mình\n→ Tạo ảnh hưởng tích cực\n→ Thấu hiểu tâm linh</string>
+    <string name="karmic_detail_28">Chi tiết nghiệp 28: Chuyển hóa xung đột\n→ Nhìn xung đột như cơ hội học hỏi\n→ Thay đổi góc nhìn\n→ Tạo hài hòa thông qua hội nhập</string>
+    <string name="karmic_detail_29">Chi tiết nghiệp 29: Tự hiện thực hóa qua sáng tạo\n→ Cho phép mình sáng tạo\n→ Dùng sáng tạo làm biểu đạt chân thật\n→ Chia sẻ để truyền cảm hứng</string>
+    <string name="karmic_detail_30">Chi tiết nghiệp 30: Biểu đạt sáng tạo\n→ Cho phép cảm xúc chảy\n→ Niềm vui làm kim chỉ nam\n→ Cảm xúc là người thầy</string>
+    <string name="karmic_detail_31">Chi tiết nghiệp 31: Ổn định nội tâm\n→ Sứ mệnh thay vì nghĩa vụ\n→ Đừng che giấu tài năng\n→ Mang trật tự vào hỗn loạn</string>
+    <string name="karmic_detail_32">Chi tiết nghiệp 32: Năng lượng biết ơn\n→ Nuôi dưỡng lòng biết ơn mỗi ngày\n→ Thay đổi góc nhìn bằng sự biết ơn\n→ Thu hút thịnh vượng</string>
+    <string name="karmic_detail_33">Chi tiết nghiệp 33: Bậc thầy giảng dạy\n→ Tình yêu chữa lành phổ quát\n→ Từ bi không đau khổ\n→ Phụng sự nhân loại</string>
 
-    <!-- Karmische Details -->
-    <string name="karmic_detail_1">Chi tiết nghiệp 1: trách nhiệm cá nhân\n→ Ngừng tìm lỗi ở bên ngoài\n→ Nhận ra: tôi là đồng sáng tạo cuộc đời mình\n→ Can đảm đi con đường riêng</string>
-    <string name="karmic_detail_2">Chi tiết nghiệp 2: mối quan hệ &amp; phản chiếu\n→ Nhận ra luật gương: người khác phản ánh phần chưa giải quyết\n→ Ngoại giao mà không đánh mất bản thân\n→ Giữ sự kiên nhẫn</string>
-    <string name="karmic_detail_3">Chi tiết nghiệp 3: tính chân thật &amp; biểu đạt\n→ Sống với sự thật của chính mình\n→ Buông bỏ mặt nạ và vai diễn\n→ Biểu đạt cảm xúc một cách sáng tạo</string>
-    <string name="karmic_detail_4">Chi tiết nghiệp 4: kiên nhẫn &amp; niềm tin\n→ Đừng ép buộc mọi thứ\n→ Tin vào thời điểm thiêng liêng\n→ Tạo sự ổn định thông qua trật tự</string>
-    <string name="karmic_detail_5">Chi tiết nghiệp 5: chuyển hóa nỗi sợ\n→ Can đảm thay cho trốn chạy\n→ Chuyển hóa nỗi sợ mất mát hoặc thiếu thốn\n→ Tự do thông qua trách nhiệm</string>
-    <string name="karmic_detail_6">Chi tiết nghiệp 6: tình yêu &amp; ranh giới\n→ Yêu vô điều kiện mà không chiếm hữu\n→ Nói “không” mà không cảm thấy tội lỗi\n→ Đừng hy sinh bản thân</string>
-    <string name="karmic_detail_7">Chi tiết nghiệp 7: niềm tin &amp; dẫn dắt\n→ Tin vào sự dẫn dắt tâm linh\n→ Theo trực giác và nhận biết dấu hiệu\n→ Quan sát bên trong thay vì kiểm soát bên ngoài</string>
-    <string name="karmic_detail_8">Chi tiết nghiệp 8: sức mạnh &amp; thịnh vượng\n→ Giải phóng tư duy thiếu thốn\n→ Cân bằng giữa cho và nhận\n→ Chữa lành sức mạnh (không thao túng)</string>
-    <string name="karmic_detail_9">Chi tiết nghiệp 9: buông bỏ &amp; tha thứ\n→ Tha thứ cho người khác và chính mình\n→ Buông bỏ những vết thương cũ\n→ Phụng sự cộng đồng</string>
-    <string name="karmic_detail_10">Chi tiết nghiệp 10: bánh xe số phận\n→ Chấp nhận số phận\n→ Buông bỏ sự kháng cự\n→ Dám bắt đầu lại một cách có ý thức</string>
-    <string name="karmic_detail_11">Chi tiết nghiệp 11: nhà tiên kiến\n→ Hợp nhất tính hai mặt (ánh sáng &amp; bóng tối)\n→ Đón nhận sự dẫn dắt tâm linh\n→ Trở thành nguồn cảm hứng cho người khác</string>
-    <string name="karmic_detail_12">Chi tiết nghiệp 12: thay đổi góc nhìn\n→ Phụng sự mà không đóng vai nạn nhân\n→ Nhìn mọi thứ từ góc độ mới\n→ Trí tuệ qua sự buông xả</string>
-    <string name="karmic_detail_13">Chi tiết nghiệp 13: bản ngã &amp; chuyển hóa\n→ Buông bỏ bản ngã (tự cao, muốn đúng)\n→ Thực hành khiêm nhường mà không đánh mất bản thân\n→ Chuyển hóa qua lao động và tập trung</string>
-    <string name="karmic_detail_14">Chi tiết nghiệp 14: giải phóng sự lệ thuộc\n→ Tự do thay vì gắn bó vì sợ hãi\n→ Tìm sự tiết độ\n→ Tăng cường độc lập cảm xúc</string>
-    <string name="karmic_detail_16">Chi tiết nghiệp 16: thức tỉnh &amp; chân thật\n→ Cấu trúc cũ sụp đổ\n→ Tìm sự chân thật đích thực\n→ Ảo tưởng tan biến</string>
-    <string name="karmic_detail_19">Chi tiết nghiệp 19: giá trị bản thân &amp; sức mạnh\n→ Đừng định nghĩa bản thân chỉ qua thành tích\n→ Chữa lành sức mạnh và sự bất lực\n→ Học cách đón nhận sự giúp đỡ</string>
-    <string name="karmic_detail_20">Chi tiết nghiệp 20: thức tỉnh &amp; phán xét\n→ Kiên nhẫn và thấu hiểu cao hơn\n→ Ngoại giao tâm linh</string>
-    <string name="karmic_detail_21">Chi tiết nghiệp 21: biểu hiện trong thế giới\n→ Thành công sau hành trình dài\n→ Hợp nhất các mặt đối lập\n→ Hoàn tất ở thế giới bên ngoài</string>
-    <string name="karmic_detail_22">Chi tiết nghiệp 22: người kiến tạo\n→ Hiện thực hóa những giấc mơ lớn\n→ Nhận trách nhiệm cho tài năng của bạn\n→ Phụng sự mà không đánh mất bản thân</string>
-    <string name="karmic_detail_23">Chi tiết nghiệp 23: sư tử hoàng gia\n→ Bảo vệ &amp; thành công\n→ Tự do trong biểu đạt\n→ Giữ sự linh hoạt</string>
-    <string name="karmic_detail_24">Chi tiết nghiệp 24: chữa lành trái tim\n→ Hoàn tất và buông bỏ các khế ước linh hồn\n→ Tình yêu và phụng sự tha nhân\n→ Ổn định cảm xúc</string>
-    <string name="karmic_detail_27">Chi tiết nghiệp 27: phụng sự toàn thể\n→ Chữa lành không chỉ cho bản thân\n→ Tạo ảnh hưởng cho người khác\n→ Thấu hiểu tâm linh</string>
-    <string name="karmic_detail_30">Chi tiết nghiệp 30: biểu đạt sáng tạo\n→ Cho phép cảm xúc tồn tại (đừng kìm nén)\n→ Niềm vui làm kim chỉ nam\n→ Xem cảm xúc như người thầy</string>
-    <string name="karmic_detail_31">Chi tiết nghiệp 31: sự ổn định nội tâm\n→ Tiếng gọi thay cho nghĩa vụ\n→ Đừng che giấu tài năng của bạn\n→ Mang trật tự vào hỗn loạn</string>
-    <string name="karmic_detail_33">Chi tiết nghiệp 33: bậc thầy – người thầy\n→ Tình yêu chữa lành phổ quát\n→ Lòng trắc ẩn không đau khổ\n→ Phụng sự nhân loại</string>
-
-    <!-- Spezifische Zusammenfassungen & Energieflüsse -->
-    <string name="summary_default">Thông điệp chính của bạn là: hãy lắng nghe tiếng nói nội tâm, bạn đang được dẫn dắt.</string>
-    <string name="energy_flow_default">Rõ ràng → Niềm tin → Hành động</string>
-    <string name="summary_99_1">Một chu kỳ nghiệp vô cùng quan trọng đã hoàn toàn khép lại. Điều này mở ra không gian cho một khởi đầu mới mạnh mẽ được dẫn dắt thiêng liêng.</string>
-    <string name="energy_flow_99_1">Hoàn tất → Giải phóng → Khởi đầu mới</string>
-    <string name="summary_8_55">Một sự thay đổi tích cực mạnh mẽ (số 5 kép) đưa bạn đến sự thịnh vượng và cải thiện vật chất (8). Một bước đột phá đang đến gần.</string>
-    <string name="energy_flow_8_55">Đột phá → Tự do → Ổn định</string>
-    <string name="summary_11_22">Liên minh bậc thầy: tầm nhìn (11) gặp gỡ sự hiện thực hóa (22). Giờ đây bạn có sức mạnh để biến những giấc mơ lớn thành hiện thực.</string>
-    <string name="energy_flow_11_22">Ý tưởng → Kế hoạch → Thực tại</string>
-    <string name="summary_7_77">Sức mạnh huyền bí gấp ba. Kết nối của bạn với thế giới tâm linh được tăng cường mạnh mẽ. Hãy chú ý đến giấc mơ và các dấu hiệu.</string>
-    <string name="energy_flow_7_77">Tĩnh lặng → Thấu hiểu → Thức tỉnh</string>
-    <string name="summary_4_8">Cấu trúc (4) là nền tảng cho thành công lớn (8). Lao động chăm chỉ giờ đây mang lại thành quả tài chính.</string>
-    <string name="energy_flow_4_8">Kỷ luật → Xây dựng → Giàu có</string>
-    <string name="summary_1_9">Khởi đầu và kết thúc chạm vào nhau. Bạn đóng một cánh cửa để ngay lập tức mở ra cánh cửa mới. Một sự chuyển tiếp nhanh chóng.</string>
-    <string name="energy_flow_1_9">Buông bỏ → Can đảm → Khởi động lại</string>
-    <string name="summary_3_33">Mức độ cao nhất của biểu đạt sáng tạo. Lời nói hoặc nghệ thuật của bạn giờ đây có tác dụng chữa lành cho người khác.</string>
-    <string name="energy_flow_3_33">Niềm vui → Biểu đạt → Chữa lành</string>
+    <!-- Summaries -->
+    <string name="summary_default">Năng lượng của con số này hoạt động hài hòa. Hãy ý thức về suy nghĩ và quyết định của bạn – chúng đang định hình thực tại.</string>
+    <string name="summary_master_11">Giác ngộ &amp; cảm hứng. Sự dẫn dắt nội tâm của bạn đặc biệt mạnh mẽ.</string>
+    <string name="summary_master_22">Tầm nhìn trở thành hiện thực qua hành động có trật tự.</string>
+    <string name="summary_master_33">Tình yêu phổ quát &amp; chữa lành.</string>
+    <string name="summary_master_44">Ổn định &amp; bảo vệ.</string>
+    <string name="summary_master_55">Chuyển hóa mạnh mẽ.</string>
+    <string name="summary_master_66">Mở rộng trái tim &amp; trách nhiệm.</string>
+    <string name="summary_master_77">Thức tỉnh tâm linh.</string>
+    <string name="summary_master_88">Quyền năng &amp; thịnh vượng cân bằng.</string>
+    <string name="summary_master_99">Hoàn tất &amp; trưởng thành nghiệp quả.</string>
+    <string name="summary_multi_master">Nhiều năng lượng bậc thầy cùng hoạt động. Giai đoạn mạnh mẽ và mãnh liệt.</string>
+    <string name="summary_repeat_0">Năng lượng nguyên thủy được tăng cường. Suy nghĩ và ý định đặc biệt mạnh.</string>
+    <string name="summary_repeat_1">Năng lượng lãnh đạo mạnh mẽ.</string>
+    <string name="summary_repeat_2">Năng lượng quan hệ được tăng cường.</string>
+    <string name="summary_repeat_3">Năng lượng sáng tạo mạnh mẽ.</string>
+    <string name="summary_repeat_4">Năng lượng cấu trúc mãnh liệt.</string>
+    <string name="summary_repeat_5">Năng lượng thay đổi mạnh mẽ.</string>
+    <string name="summary_repeat_6">Năng lượng trái tim tăng cường.</string>
+    <string name="summary_repeat_7">Năng lượng tâm linh sâu sắc.</string>
+    <string name="summary_repeat_8">Năng lượng hiện thực hóa mạnh.</string>
+    <string name="summary_repeat_9">Năng lượng hoàn tất mãnh liệt.</string>
+    <string name="summary_1">Khởi đầu mới &amp; lãnh đạo – đã đến lúc hành động.</string>
+    <string name="summary_2">Cân bằng &amp; kết nối – hài hòa qua cho và nhận.</string>
+    <string name="summary_3">Sáng tạo &amp; thể hiện – để ý tưởng tỏa sáng.</string>
+    <string name="summary_4">Ổn định &amp; cấu trúc – trật tự mang lại an toàn.</string>
+    <string name="summary_5">Thay đổi &amp; tự do – hãy linh hoạt.</string>
+    <string name="summary_6">Tình yêu &amp; trách nhiệm – trái tim chỉ đường.</string>
+    <string name="summary_7">Trực giác &amp; thức tỉnh – tin vào tiếng nói bên trong.</string>
+    <string name="summary_8">Thành công &amp; thịnh vượng – kết quả đang hiển lộ.</string>
+    <string name="summary_9">Hoàn tất &amp; buông bỏ – chu kỳ mới bắt đầu.</string>
 </resources>

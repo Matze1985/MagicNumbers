@@ -1,0 +1,59 @@
+<resources>
+    <!-- Default -->
+    <string name="energy_default">Jasnosť → Dôvera → Konanie</string>
+
+    <!-- Hlavné čísla -->
+    <string name="energy_core_1">Impulz → Rozhodnutie → Nový začiatok</string>
+    <string name="energy_core_2">Stretnutie → Rovnováha → Harmónia</string>
+    <string name="energy_core_3">Skúsenosť → Vyjadrenie → Rast</string>
+    <string name="energy_core_4">Poriadok → Budovanie → Stabilita</string>
+    <string name="energy_core_5">Pohyb → Zmena → Sloboda</string>
+    <string name="energy_core_6">Starostlivosť → Uzdravenie → Harmónia</string>
+    <string name="energy_core_7">Jasnosť → Vnútorné vedenie → Poznanie</string>
+    <string name="energy_core_8">Zameranie → Konanie → Úspech</string>
+    <string name="energy_core_9">Ukončenie → Pustenie → Transformácia</string>
+
+    <!-- Základné čísla -->
+    <string name="energy_0">Zdroj → Uvedomenie → Nový začiatok</string>
+    <string name="energy_1">Impulz → Rozhodnutie → Nový začiatok</string>
+    <string name="energy_2">Stretnutie → Rovnováha → Harmónia</string>
+    <string name="energy_3">Skúsenosť → Vyjadrenie → Rast</string>
+    <string name="energy_4">Poriadok → Štruktúra → Stabilita</string>
+    <string name="energy_5">Pohyb → Zmena → Sloboda</string>
+    <string name="energy_6">Starostlivosť → Uzdravenie → Harmónia</string>
+    <string name="energy_7">Jasnosť → Vnútorné vedenie → Prebudenie</string>
+    <string name="energy_8">Zameranie → Konanie → Úspech</string>
+    <string name="energy_9">Ukončenie → Pustenie → Transformácia</string>
+
+    <!-- Dominantné opakovania -->
+    <string name="energy_repeat_0">Začiatok → Potenciál → Tvorba</string>
+    <string name="energy_repeat_1">Impulz → Rozhodnutie → Iniciatíva</string>
+    <string name="energy_repeat_2">Prepojenie → Rovnováha → Harmónia</string>
+    <string name="energy_repeat_3">Radosť → Vyjadrenie → Rast</string>
+    <string name="energy_repeat_4">Poriadok → Stabilita → Základ</string>
+    <string name="energy_repeat_5">Pohyb → Zmena → Sloboda</string>
+    <string name="energy_repeat_6">Starostlivosť → Uzdravenie → Harmónia</string>
+    <string name="energy_repeat_7">Ticho → Vnútorné vedenie → Prebudenie</string>
+    <string name="energy_repeat_8">Sila → Hojnosť → Úspech</string>
+    <string name="energy_repeat_9">Ukončenie → Pustenie → Transformácia</string>
+
+    <!-- Majstrovské čísla -->
+    <string name="energy_11">Inšpirácia → Uvedomenie → Osvietenie</string>
+    <string name="energy_22">Vízia → Štruktúra → Manifestácia</string>
+    <string name="energy_33">Láska → Vyjadrenie → Uzdravenie</string>
+    <string name="energy_44">Disciplína → Stabilita → Majstrovstvo</string>
+
+    <!-- Rozšírené dvojité čísla -->
+    <string name="energy_55">Pohyb → Oslobodenie → Prelom</string>
+    <string name="energy_66">Otvorenie srdca → Zodpovednosť → Harmónia</string>
+    <string name="energy_77">Ticho → Vnútorná múdrosť → Prebudenie</string>
+    <string name="energy_88">Sila → Hojnosť → Manifestácia</string>
+    <string name="energy_99">Napĺnenie → Pustenie → Obnova</string>
+
+    <!-- Majstrovské čísla -->
+    <string name="energy_master_11">Inšpirácia → Uvedomenie → Osvietenie</string>
+    <string name="energy_master_22">Vízia → Štruktúra → Manifestácia</string>
+    <string name="energy_master_33">Láska → Vyjadrenie → Uzdravenie</string>
+    <string name="energy_master_44">Disciplína → Stabilita → Majstrovstvo</string>
+    <string name="energy_multi_master">Vnútorné vedenie → Vedomá manifestácia → Duchovný vplyv</string>
+</resources>

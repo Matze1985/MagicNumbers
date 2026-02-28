@@ -1,74 +1,53 @@
 <resources>
     <!-- =====================================================
-         Resonance – General labels (shared)
+         Résonance – Libellés généraux (partagés)
     ====================================================== -->
-    <string name="resonance_prefix">🔮</string>
-    <string name="resonance_focus_none">Focus : répartition équilibrée (aucune répétition directe)</string>
-    <string name="resonance_focus_frame">Focus : début et fin (thème de cadrage)</string>
+    <string name="resonance_focus_none">Focus : répartition équilibrée (pas de répétitions directes)</string>
+    <string name="resonance_focus_frame">Focus : début &amp; fin (thème cadre)</string>
     <string name="resonance_focus_center">Focus : centre (impulsion centrale)</string>
-    <string name="resonance_focus_start">Focus : début (identité / phase de départ)</string>
+    <string name="resonance_focus_start">Focus : début (identité / phase initiale)</string>
     <string name="resonance_focus_end">Focus : fin (résultat / prochaine étape)</string>
 
     <!-- =====================================================
-         Resonance (4-digit) – IDs
+         Résonance (4 chiffres) – Titres
     ====================================================== -->
-    <string name="resonance4_id_mono">R4_MONO</string>
-    <string name="resonance4_id_aabb">R4_AABB</string>
-    <string name="resonance4_id_abab">R4_ABAB</string>
-    <string name="resonance4_id_abba">R4_ABBA</string>
-    <string name="resonance4_id_abcd">R4_ABCD</string>
-    <string name="resonance4_id_none">R4_NONE</string>
+    <string name="resonance4_title_mono">🔮 Motif de Résonance (4) : Monotype</string>
+    <string name="resonance4_title_aabb">🔮 Motif de Résonance (4) : Deux phases</string>
+    <string name="resonance4_title_abab">🔮 Motif de Résonance (4) : Alternance</string>
+    <string name="resonance4_title_abba">🔮 Motif de Résonance (4) : Miroir</string>
+    <string name="resonance4_title_abcd">🔮 Motif de Résonance (4) : Répartition uniforme</string>
+    <string name="resonance4_title_none">🔮 Motif de Résonance : Combinaison libre</string>
 
     <!-- =====================================================
-         Resonance (4-digit) – Titles
+         Résonance (4 chiffres) – Significations courtes
     ====================================================== -->
-    <string name="resonance4_title_mono">Motif de résonance : monotype</string>
-    <string name="resonance4_title_aabb">Motif de résonance : deux phases</string>
-    <string name="resonance4_title_abab">Motif de résonance : alternance</string>
-    <string name="resonance4_title_abba">Motif de résonance : miroir</string>
-    <string name="resonance4_title_abcd">Motif de résonance : répartition uniforme</string>
-    <string name="resonance4_title_none">Motif de résonance : combinaison libre</string>
-
-    <!-- =====================================================
-         Resonance (4-digit) – Short meanings
-    ====================================================== -->
-    <string name="resonance4_meaning_mono">Amplification maximale – un seul thème domine totalement.</string>
-    <string name="resonance4_meaning_aabb">Transition claire – la phase A est suivie par la phase B.</string>
+    <string name="resonance4_meaning_mono">Amplification maximale – un thème domine complètement.</string>
+    <string name="resonance4_meaning_aabb">Transition claire – la phase A est remplacée par la phase B.</string>
     <string name="resonance4_meaning_abab">Tension entre deux pôles – rythme, équilibre, décision.</string>
-    <string name="resonance4_meaning_abba">Effet miroir – prise de conscience par la réflexion intérieure et extérieure.</string>
-    <string name="resonance4_meaning_abcd">Flux équilibré – aucune répétition, énergie ouverte et neutre.</string>
+    <string name="resonance4_meaning_abba">Reflet – prise de conscience par la réflexion intérieure et extérieure.</string>
+    <string name="resonance4_meaning_abcd">Flux régulier – aucune répétition, énergie ouverte et neutre.</string>
     <string name="resonance4_meaning_none">Aucun motif dominant – l’énergie est librement combinée et ouverte.</string>
+    <string name="resonance4_meaning_ababab">Tension entre deux pôles – rythme, équilibre et décision consciente caractérisent cette énergie.</string>
 
     <!-- =====================================================
-         Resonance (6-digit) – IDs
+         Résonance (6 chiffres) – Titres
     ====================================================== -->
-    <string name="resonance6_id_mono">R6_MONO</string>
-    <string name="resonance6_id_aaabbb">R6_AAABBB</string>
-    <string name="resonance6_id_aabbcc">R6_AABBCC</string>
-    <string name="resonance6_id_ababab">R6_ABABAB</string>
-    <string name="resonance6_id_abcabc">R6_ABCABC</string>
-    <string name="resonance6_id_mirror">R6_MIRROR</string>
-    <string name="resonance6_id_none">R6_NONE</string>
+    <string name="resonance6_title_mono">🔮 Motif de Résonance (6) : Monotype</string>
+    <string name="resonance6_title_aaabbb">🔮 Motif de Résonance (6) : Transition</string>
+    <string name="resonance6_title_aabbcc">🔮 Motif de Résonance (6) : Processus par étapes</string>
+    <string name="resonance6_title_ababab">🔮 Motif de Résonance (6) : Alternance / Pendule</string>
+    <string name="resonance6_title_abcabc">🔮 Motif de Résonance (6) : Cycle</string>
+    <string name="resonance6_title_mirror">🔮 Motif de Résonance (6) : Miroir</string>
+    <string name="resonance6_title_none">🔮 Motif de Résonance : Combinaison libre</string>
 
     <!-- =====================================================
-         Resonance (6-digit) – Titles
-    ====================================================== -->
-    <string name="resonance6_title_mono">Motif de résonance : monotype</string>
-    <string name="resonance6_title_aaabbb">Motif de résonance : transition</string>
-    <string name="resonance6_title_aabbcc">Motif de résonance : processus par étapes</string>
-    <string name="resonance6_title_ababab">Motif de résonance : alternance / pendule</string>
-    <string name="resonance6_title_abcabc">Motif de résonance : cycle</string>
-    <string name="resonance6_title_mirror">Motif de résonance : miroir</string>
-    <string name="resonance6_title_none">Motif de résonance : combinaison libre</string>
-
-    <!-- =====================================================
-         Resonance (6-digit) – Short meanings
+         Résonance (6 chiffres) – Significations courtes
     ====================================================== -->
     <string name="resonance6_meaning_mono">Amplification maximale – un thème domine fortement (bénédiction ou fixation).</string>
-    <string name="resonance6_meaning_aaabbb">Changement clair : phase A → phase B (fin et nouveau départ).</string>
-    <string name="resonance6_meaning_aabbcc">Développement progressif – apprentissage et intégration étape par étape.</string>
-    <string name="resonance6_meaning_ababab">Tension entre deux pôles – équilibre, décision, trouver son rythme.</string>
-    <string name="resonance6_meaning_abcabc">Thème récurrent – routine, boucle, prise de conscience par la répétition.</string>
-    <string name="resonance6_meaning_mirror">Rétroaction – compréhension par effet miroir (intérieur / extérieur).</string>
+    <string name="resonance6_meaning_aaabbb">Changement clair : phase A → phase B (achèvement et nouveau départ).</string>
+    <string name="resonance6_meaning_aabbcc">Développement par étapes – apprentissage et intégration pas à pas.</string>
+    <string name="resonance6_meaning_ababab">Tension entre deux pôles – trouver équilibre, décision et rythme.</string>
+    <string name="resonance6_meaning_abcabc">Thème récurrent – routine, boucle, prise de conscience par répétition.</string>
+    <string name="resonance6_meaning_mirror">Rétroaction – compréhension par effet miroir (intérieur/extérieur).</string>
     <string name="resonance6_meaning_none">Aucun motif dominant – l’énergie est librement combinée et ouverte.</string>
 </resources>

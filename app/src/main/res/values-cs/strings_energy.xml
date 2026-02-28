@@ -1,0 +1,59 @@
+<resources>
+    <!-- Default -->
+    <string name="energy_default">Jasnost → Důvěra → Jednání</string>
+
+    <!-- Hauptzahlen -->
+    <string name="energy_core_1">Impuls → Rozhodnutí → Nový začátek</string>
+    <string name="energy_core_2">Setkání → Rovnováha → Harmonie</string>
+    <string name="energy_core_3">Zkušenost → Vyjádření → Růst</string>
+    <string name="energy_core_4">Řád → Budování → Stabilita</string>
+    <string name="energy_core_5">Pohyb → Změna → Svoboda</string>
+    <string name="energy_core_6">Péče → Uzdravení → Harmonie</string>
+    <string name="energy_core_7">Jasnost → Vnitřní vedení → Poznání</string>
+    <string name="energy_core_8">Zaměření → Jednání → Úspěch</string>
+    <string name="energy_core_9">Ukončení → Uvolnění → Transformace</string>
+
+    <!-- Grundzahlen -->
+    <string name="energy_0">Zdroj → Vědomí → Nový začátek</string>
+    <string name="energy_1">Impuls → Rozhodnutí → Nový začátek</string>
+    <string name="energy_2">Setkání → Rovnováha → Harmonie</string>
+    <string name="energy_3">Zkušenost → Vyjádření → Růst</string>
+    <string name="energy_4">Řád → Struktura → Stabilita</string>
+    <string name="energy_5">Pohyb → Změna → Svoboda</string>
+    <string name="energy_6">Péče → Uzdravení → Harmonie</string>
+    <string name="energy_7">Jasnost → Vnitřní vedení → Probuzení</string>
+    <string name="energy_8">Zaměření → Jednání → Úspěch</string>
+    <string name="energy_9">Ukončení → Uvolnění → Transformace</string>
+
+    <!-- Dominante Wiederholungen -->
+    <string name="energy_repeat_0">Původ → Potenciál → Tvoření</string>
+    <string name="energy_repeat_1">Impuls → Rozhodnutí → Iniciativa</string>
+    <string name="energy_repeat_2">Propojení → Vyvážení → Harmonie</string>
+    <string name="energy_repeat_3">Radost → Vyjádření → Růst</string>
+    <string name="energy_repeat_4">Řád → Stabilita → Základ</string>
+    <string name="energy_repeat_5">Pohyb → Změna → Svoboda</string>
+    <string name="energy_repeat_6">Péče → Uzdravení → Harmonie</string>
+    <string name="energy_repeat_7">Ticho → Vnitřní vedení → Probuzení</string>
+    <string name="energy_repeat_8">Síla → Hojnost → Úspěch</string>
+    <string name="energy_repeat_9">Ukončení → Uvolnění → Transformace</string>
+
+    <!-- Meisterzahlen -->
+    <string name="energy_11">Inspirace → Vědomí → Osvícení</string>
+    <string name="energy_22">Vize → Struktura → Manifestace</string>
+    <string name="energy_33">Láska → Vyjádření → Uzdravení</string>
+    <string name="energy_44">Disciplína → Stabilita → Mistrovství</string>
+
+    <!-- Erweiterte Doppelzahlen -->
+    <string name="energy_55">Pohyb → Osvobození → Průlom</string>
+    <string name="energy_66">Otevření srdce → Odpovědnost → Harmonie</string>
+    <string name="energy_77">Ticho → Vnitřní moudrost → Probuzení</string>
+    <string name="energy_88">Síla → Hojnost → Manifestace</string>
+    <string name="energy_99">Dovršení → Uvolnění → Obnova</string>
+
+    <!-- Meisterzahlen -->
+    <string name="energy_master_11">Inspirace → Vědomí → Osvícení</string>
+    <string name="energy_master_22">Vize → Struktura → Manifestace</string>
+    <string name="energy_master_33">Láska → Vyjádření → Uzdravení</string>
+    <string name="energy_master_44">Disciplína → Stabilita → Mistrovství</string>
+    <string name="energy_multi_master">Vnitřní vedení → Vědomá manifestace → Duchovní působení</string>
+</resources>

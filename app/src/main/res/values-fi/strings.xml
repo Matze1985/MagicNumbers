@@ -1,129 +1,145 @@
 <resources>
     <!-- App Name -->
-    <string name="app_name">Maagilised Numbrid</string>
+    <string name="app_name">Maagiset Numerot</string>
 
     <!-- UI Texte -->
-    <string name="new_message">Uus sõnum</string>
-    <string name="copy_message">Kopeeri sõnum</string>
-    <string name="clipboard_label">Maagiline sõnum</string>
-    <string name="welcome_message">Vajuta \"Uus sõnum\", et vastu võtta hetke rütm.</string>
-    <string name="message_for_the_moment">Hetke sõnum: %1$s</string>
-    <string name="your_cross_sum_is">Sinu ristsumma on: %1$s</string>
-    <string name="digit_occurrence">(ilmub %1$dx, võimendatult)</string>
-    <string name="frequency_label">Sagedus</string>
+    <string name="new_message">Uusi viesti</string>
+    <string name="copy_message">Kopioi viesti</string>
+    <string name="clipboard_label">Maaginen viesti</string>
+    <string name="welcome_message">Paina \"Uusi viesti\" vastaanottaaksesi hetken rytmin.</string>
+    <string name="your_cross_sum_is">Numeroidesi summa on:</string>
+    <string name="digit_occurrence">(esiintyy %1$dx kertaa, vahvistettuna)</string>
 
-    <!-- Sektions-Überschriften -->
-    <string name="section_vibration">🧬 Numbrite võnkumine:</string>
-    <string name="section_your_message">💌 Sinu sõnum:</string>
-    <string name="section_summary">✨ Kokkuvõte:</string>
-    <string name="section_energy">⚡️ Energiavoog:</string>
+    <!-- Otsikot -->
+    <string name="section_message_for_the_moment">💌 Viesti tähän hetkeen: %1$s</string>
+    <string name="section_frequency">🌀 Taajuus:</string>
+    <string name="section_vibration">🧬 Numeroiden värähtely:</string>
+    <string name="section_master_energy">👑 Mestari-energia:</string>
+    <string name="section_angel">🕊️ Enkelillinen impulssi:</string>
+    <string name="section_description_numbers">🔢 Numeroiden kuvaus:</string>
+    <string name="section_summary">📖 Yhteenveto:</string>
+    <string name="section_energy">⚡️ Energiavirta:</string>
 
-    <!-- Hauptnachrichten Templates (pro Ziffer) -->
-    <string name="digit_0_intro">✨ **\'0\'**%1$s võimendab kõike. See on jumaliku kohalolu ja lõpmatu potentsiaali märk.</string>
-    <string name="digit_1_intro">✨ **\'1\'**%1$s kutsub sind **võimsale uuele algusele**. Sinu mõtted manifesteeruvad praegu kiiresti.</string>
-    <string name="digit_2_intro">✨ **\'2\'**%1$s toob **tasakaalu ja harmooniat**, eriti suhetes. Sa ei ole üksi.</string>
-    <string name="digit_3_intro">✨ **\'3\'**%1$s aktiveerib sinu **loovuse ja suhtlemise**. Väljenda end — vaimne maailm kuulab.</string>
-    <string name="digit_4_intro">✨ **\'4\'**%1$s loob **stabiilse vundamendi**. See energia toob sinu ellu kaitset ja struktuuri.</string>
-    <string name="digit_5_intro">✨ **\'5\'**%1$s annab märku **muutuse ja vabaduse lainest**. Ole avatud seiklustele ja murra vanad ahelad.</string>
-    <string name="digit_6_intro">✨ **\'6\'**%1$s suunab fookuse **südame ja kodu tervenemisele**. Perekond ja harmoonia on nüüd keskmes.</string>
-    <string name="digit_7_intro">✨ **\'7\'**%1$s teeb sinu **intuitsioonist kõige olulisema kompassi**. Kuula sissepoole — tõde on sinu sees.</string>
-    <string name="digit_8_intro">✨ **\'8\'**%1$s aktiveerib **külluse ja edu** energia. Ole avatud materiaalsele ja vaimsele heaolule.</string>
-    <string name="digit_9_intro">✨ **\'9\'**%1$s näitab **olulise tsükli lõppu**. Lase vanal minna, et teha ruumi uuele.</string>
+    <!-- Pääviestit -->
+    <string name="digit_0_intro">Numero **\'0\'**%1$s vahvistaa kaiken. Se on jumalallisen läsnäolon ja rajattoman potentiaalin merkki.</string>
+    <string name="digit_1_intro">Numero **\'1\'**%1$s kutsuu sinua **voimakkaaseen uuteen alkuun**. Ajatuksesi ilmentyvät nyt nopeasti.</string>
+    <string name="digit_2_intro">Numero **\'2\'**%1$s tuo **tasapainoa ja harmoniaa**, erityisesti ihmissuhteisiin. Et ole yksin.</string>
+    <string name="digit_3_intro">Numero **\'3\'**%1$s aktivoi **luovuutesi ja viestintäsi**. Ilmaise itseäsi – henkinen maailma kuuntelee.</string>
+    <string name="digit_4_intro">Numero **\'4\'**%1$s luo **vakaan perustan**. Tämä energia tuo suojaa ja rakennetta elämääsi.</string>
+    <string name="digit_5_intro">Numero **\'5\'**%1$s merkitsee **muutoksen ja vapauden aaltoa**. Ole avoin seikkailulle ja murra vanhat ketjut.</string>
+    <string name="digit_6_intro">Numero **\'6\'**%1$s ohjaa huomion **sydämen ja kodin parantumiseen**. Perhe ja harmonia ovat keskiössä.</string>
+    <string name="digit_7_intro">Numero **\'7\'**%1$s tekee **intuitiostasi tärkeimmän kompassin**. Kuuntele sisintäsi – totuus on sinussa.</string>
+    <string name="digit_8_intro">Numero **\'8\'**%1$s aktivoi **runsaudan ja menestyksen energian**. Ole avoin sekä aineelliselle että henkiselle hyvinvoinnille.</string>
+    <string name="digit_9_intro">Numero **\'9\'**%1$s osoittaa **tärkeän syklin päättymistä**. Päästä irti vanhasta luodaksesi tilaa uudelle.</string>
 
-    <!-- Numerologie Grundbedeutungen -->
-    <string name="numerology_1">Uus algus &amp; juhtimine</string>
-    <string name="numerology_2">Harmoonia &amp; tasakaal</string>
-    <string name="numerology_3">Loovus &amp; kasv</string>
-    <string name="numerology_4">Stabiilsus &amp; kaitse</string>
-    <string name="numerology_5">Vabadus &amp; muutus</string>
-    <string name="numerology_6">Armastus &amp; harmoonia</string>
-    <string name="numerology_7">Intuitsioon &amp; ärkamine</string>
-    <string name="numerology_8">Edu &amp; küllus</string>
-    <string name="numerology_9">Täiuslikkus &amp; tarkus</string>
-    <string name="numerology_11">Meisternumber: intuitsioon</string>
-    <string name="numerology_22">Meisternumber: manifesteerimine</string>
-    <string name="numerology_33">Meisternumber: tervendaja</string>
-    <string name="numerology_unknown">Tundmatu</string>
+    <!-- Numerologian perusmerkitykset -->
+    <string name="numerology_1">Uusi alku &amp; johtajuus</string>
+    <string name="numerology_2">Harmonia &amp; tasapaino</string>
+    <string name="numerology_3">Luovuus &amp; kasvu</string>
+    <string name="numerology_4">Vakaus &amp; suoja</string>
+    <string name="numerology_5">Vapaus &amp; muutos</string>
+    <string name="numerology_6">Rakkaus &amp; harmonia</string>
+    <string name="numerology_7">Intuitio &amp; herääminen</string>
+    <string name="numerology_8">Menestys &amp; runsaus</string>
+    <string name="numerology_9">Päätös &amp; viisaus</string>
+    <string name="numerology_11">Henkinen visionääri</string>
+    <string name="numerology_22">Mestarirakentaja</string>
+    <string name="numerology_33">Mestariopettaja</string>
+    <string name="numerology_44">Vakauden mestari</string>
+    <string name="numerology_55">Vapauden mestari</string>
+    <string name="numerology_66">Ehdottoman rakkauden mestari</string>
+    <string name="numerology_77">Viisauden mestari</string>
+    <string name="numerology_88">Voiman mestari</string>
+    <string name="numerology_99">Täyttymyksen mestari</string>
+    <string name="numerology_unknown">Tuntematon</string>
 
-    <!-- Numerologie Keywords -->
-    <string name="keyword_0">Allikas</string>
-    <string name="keyword_1">Uus algus</string>
-    <string name="keyword_2">Tasakaal</string>
-    <string name="keyword_3">Loovus</string>
-    <string name="keyword_4">Stabiilsus</string>
-    <string name="keyword_5">Muutus</string>
-    <string name="keyword_6">Harmoonia</string>
-    <string name="keyword_7">Intuitsioon</string>
-    <string name="keyword_8">Küllus</string>
-    <string name="keyword_9">Täiuslikkus</string>
+    <!-- Avainsanat -->
+    <string name="keyword_0">Lähde</string>
+    <string name="keyword_1">Alku</string>
+    <string name="keyword_2">Tasapaino</string>
+    <string name="keyword_3">Luovuus</string>
+    <string name="keyword_4">Vakaus</string>
+    <string name="keyword_5">Muutos</string>
+    <string name="keyword_6">Harmonia</string>
+    <string name="keyword_7">Intuitio</string>
+    <string name="keyword_8">Runsaus</string>
+    <string name="keyword_9">Päätös</string>
 
-    <!-- Numerologie Spezialbedeutungen (Meisterzahlen & Hohe Schwingungen) -->
-    <string name="master_number_11">Meisternumber 11: intuitsioon &amp; valgustumine</string>
-    <string name="master_number_22">Meisternumber 22: ehitaja &amp; manifesteerimine</string>
-    <string name="master_number_33">Meisternumber 33: universaalne armastus &amp; tervenemine</string>
-    <string name="master_number_44">Meisternumber 44: meister-tervendaja. Sa ühendad materiaalse ja vaimse maailma.</string>
-    <string name="special_number_55">Erivõnkumine 55: radikaalne muutus &amp; vabadus</string>
-    <string name="special_number_66">Erivõnkumine 66: universaalne armastus &amp; kaastunne</string>
-    <string name="special_number_77">Erivõnkumine 77: sügav vaimne taipamine</string>
-    <string name="special_number_88">Erivõnkumine 88: lõpmatu küllus &amp; tasakaal</string>
-    <string name="special_number_99">Erivõnkumine 99: universaalne teadvus &amp; teenimine</string>
+    <!-- Erityismerkitykset -->
+    <string name="master_number_11">11: Intuitio &amp; valaistuminen</string>
+    <string name="master_number_22">22: Rakentaja &amp; ilmentäminen</string>
+    <string name="master_number_33">33: Universaali rakkaus &amp; parantuminen</string>
+    <string name="master_number_44">44: Mestari-parantaja. Yhdistät aineellisen ja henkisen maailman.</string>
+    <string name="special_number_55">55: Radikaali muutos &amp; vapaus</string>
+    <string name="special_number_66">66: Universaali rakkaus &amp; myötätunto</string>
+    <string name="special_number_77">77: Syvä henkinen oivallus</string>
+    <string name="special_number_88">88: Ääretön runsaus &amp; tasapaino</string>
+    <string name="special_number_99">99: Universaali tietoisuus &amp; palvelu</string>
 
-    <!-- Karmische Lektionen (Kurztexte für Listen) -->
-    <string name="karmic_lesson_4">Karmiline õppetund 4: stabiilsus ja raske töö.</string>
-    <string name="karmic_lesson_5">Karmiline õppetund 5: vabadus ja distsipliin.</string>
-    <string name="karmic_lesson_7">Karmiline õppetund 7: usaldus ja avatus.</string>
-    <string name="karmic_lesson_8">Karmiline õppetund 8: küllus ja võimu väärkasutus.</string>
-    <string name="karmic_lesson_10">Karmiline õppetund 10: saatuseratas / uus algus</string>
-    <string name="karmic_lesson_11">Karmiline õppetund 11: vaimse meisterlikkuse ja tasakaalu õppetund</string>
-    <string name="karmic_lesson_13">Karmiline õppetund 13: töö ja fookuse õppetund (transformatsioon)</string>
-    <string name="karmic_lesson_14">Karmiline õppetund 14: vabaduse ja mõõdukuse õppetund</string>
-    <string name="karmic_lesson_16">Karmiline õppetund 16: ärkamise ja alandlikkuse õppetund</string>
-    <string name="karmic_lesson_19">Karmiline õppetund 19: jõu ja iseseisvuse õppetund</string>
-    <string name="karmic_lesson_22">Karmiline õppetund 22: meisterlooja ja vastutuse õppetund</string>
-    <string name="karmic_lesson_33">Karmiline õppetund 33: tervendava armastuse meistri õppetund</string>
+    <!-- Karmiset yksityiskohdat 1–33 -->
+    <string name="karmic_detail_1">Karmallinen yksityiskohta 1: Itsevastuu\n→ Lopeta syyllisten etsiminen ulkopuolelta\n→ Ymmärrä: Olen elämäni kanssaluoja\n→ Rohkeus kulkea omaa polkua</string>
+    <string name="karmic_detail_2">Karmallinen yksityiskohta 2: Suhde &amp; peilaus\n→ Ymmärrä peililaki\n→ Toiset heijastavat ratkaisemattomia puolia\n→ Diplomatia ilman itsensä kadottamista\n→ Säilytä kärsivällisyys</string>
+    <string name="karmic_detail_3">Karmallinen yksityiskohta 3: Aitous &amp; ilmaisu\n→ Elä oma totuutesi\n→ Päästä irti naamioista ja rooleista\n→ Ilmaise tunteita luovasti</string>
+    <string name="karmic_detail_4">Karmallinen yksityiskohta 4: Kärsivällisyys &amp; luottamus\n→ Älä pakota asioita\n→ Luota jumalalliseen ajoitukseen\n→ Luo vakautta järjestyksen kautta</string>
+    <string name="karmic_detail_5">Karmallinen yksityiskohta 5: Pelon muuntaminen\n→ Rohkeus paon sijaan\n→ Muunna menetyksen tai puutteen pelko\n→ Vapaus vastuun kautta</string>
+    <string name="karmic_detail_6">Karmallinen yksityiskohta 6: Rakkaus &amp; rajat\n→ Ehdoton rakkaus ilman omistamista\n→ Sano “ei” ilman syyllisyyttä\n→ Älä uhraa itseäsi</string>
+    <string name="karmic_detail_7">Karmallinen yksityiskohta 7: Luottamus &amp; ohjaus\n→ Luota henkiseen johdatukseen\n→ Seuraa intuitiotasi\n→ Käänny sisäänpäin</string>
+    <string name="karmic_detail_8">Karmallinen yksityiskohta 8: Voima &amp; runsaus\n→ Vapauta niukkuusajattelu\n→ Tasapaino antamisen ja vastaanottamisen välillä\n→ Paranna suhteesi voimaan</string>
+    <string name="karmic_detail_9">Karmallinen yksityiskohta 9: Irti päästäminen &amp; anteeksianto\n→ Anna anteeksi muille ja itsellesi\n→ Vapauta vanhat haavat\n→ Palvele kokonaisuutta</string>
+    <string name="karmic_detail_10">Karmallinen yksityiskohta 10: Kohtalon pyörä\n→ Kohtalon hyväksyminen\n→ Päästä irti vastustuksesta\n→ Tietoinen uusi alku</string>
+    <string name="karmic_detail_11">Karmallinen yksityiskohta 11: Visionääri\n→ Yhdistä valo ja varjo\n→ Hyväksy henkinen johtajuus\n→ Ole inspiraation lähde</string>
+    <string name="karmic_detail_12">Karmallinen yksityiskohta 12: Näkökulman muutos\n→ Palvele ilman uhrin roolia\n→ Katso asioita uudesta kulmasta\n→ Viisaus antautumisen kautta</string>
+    <string name="karmic_detail_13">Karmallinen yksityiskohta 13: Ego &amp; muutos\n→ Päästä irti ylpeydestä ja jääräpäisyydestä\n→ Harjoita nöyryyttä ilman itsensä kadottamista\n→ Muutos keskittymisen ja työn kautta</string>
+    <string name="karmic_detail_14">Karmallinen yksityiskohta 14: Kiintymyksistä vapautuminen\n→ Vapaus pelkopohjaisen sitoutumisen sijaan\n→ Löydä kohtuullisuus\n→ Vahvista tunneperäistä itsenäisyyttä</string>
+    <string name="karmic_detail_15">Karmallinen yksityiskohta 15: Tietoinen irtipäästäminen\n→ Tunnista siteet, jotka estävät kasvua\n→ Harjoita tietoista vapauttamista\n→ Luota uuden elämän alkuun</string>
+    <string name="karmic_detail_16">Karmallinen yksityiskohta 16: Herääminen &amp; aitous\n→ Vanhat rakenteet murtuvat\n→ Löydä todellinen itsesi\n→ Harhat katoavat</string>
+    <string name="karmic_detail_17">Karmallinen yksityiskohta 17: Henkinen auktoriteetti\n→ Luota sisäiseen viisauteesi\n→ Johda ilman egoa\n→ Menestys rehellisyyden kautta</string>
+    <string name="karmic_detail_18">Karmallinen yksityiskohta 18: Emotionaalinen selkeys\n→ Muunna harha totuudeksi\n→ Paranna vanhat tunnekuviot\n→ Elä myötätuntoa ilman itsensä uhraamista</string>
+    <string name="karmic_detail_19">Karmallinen yksityiskohta 19: Itsearvo &amp; voima\n→ Älä määrittele itseäsi vain saavutusten kautta\n→ Paranna voiman ja voimattomuuden teemat\n→ Opettele vastaanottamaan apua</string>
+    <string name="karmic_detail_20">Karmallinen yksityiskohta 20: Herääminen &amp; tuomio\n→ Kärsivällisyys ja korkeampi ymmärrys\n→ Henkinen diplomatia</string>
+    <string name="karmic_detail_21">Karmallinen yksityiskohta 21: Maailmallinen ilmaisu\n→ Menestys pitkän matkan jälkeen\n→ Vastakohtien yhdentyminen\n→ Täyttymys ulkoisessa maailmassa</string>
+    <string name="karmic_detail_22">Karmallinen yksityiskohta 22: Rakentaja\n→ Ilmennä suuria unelmia\n→ Ota vastuu lahjoistasi\n→ Palvele kadottamatta itseäsi</string>
+    <string name="karmic_detail_23">Karmallinen yksityiskohta 23: Kuninkaallinen leijona\n→ Suoja &amp; menestys\n→ Vapaus ilmaisussa\n→ Säilytä joustavuus</string>
+    <string name="karmic_detail_24">Karmallinen yksityiskohta 24: Sydämen parantuminen\n→ Täytä ja vapauta sielusopimukset\n→ Rakkaus ja palvelu\n→ Emotionaalinen vakaus</string>
+    <string name="karmic_detail_25">Karmallinen yksityiskohta 25: Sisäisen lapsen parantaminen\n→ Kuuntele sen hiljaisia tarpeita\n→ Lähesty rakkaudella ja huolenpidolla\n→ Integroi parantuminen</string>
+    <string name="karmic_detail_26">Karmallinen yksityiskohta 26: Tietoinen hengitys\n→ Ole tietoinen hengityksestäsi\n→ Käytä hengitystä ankkurina\n→ Näe hengitys energian peilinä</string>
+    <string name="karmic_detail_27">Karmallinen yksityiskohta 27: Palvelu kokonaisuudelle\n→ Parantuminen ei vain itselle\n→ Luo vaikutusta muille\n→ Henkinen oivallus</string>
+    <string name="karmic_detail_28">Karmallinen yksityiskohta 28: Konfliktin muuntaminen\n→ Näe konflikti oppimismahdollisuutena\n→ Muuta näkökulmaa kasvaaksesi\n→ Luo harmoniaa yhdentymisen kautta</string>
+    <string name="karmic_detail_29">Karmallinen yksityiskohta 29: Itsensä toteuttaminen luovuuden kautta\n→ Salli itsesi luoda\n→ Käytä luovuutta aitona ilmaisuna\n→ Jaa työsi inspiroidaksesi</string>
+    <string name="karmic_detail_30">Karmallinen yksityiskohta 30: Luova ilmaisu\n→ Salli tunteet\n→ Ilo oppaana\n→ Tunteet opettajina</string>
+    <string name="karmic_detail_31">Karmallinen yksityiskohta 31: Sisäinen vakaus\n→ Kutsumus velvollisuuden sijaan\n→ Älä piilota lahjojasi\n→ Tuo järjestys kaaokseen</string>
+    <string name="karmic_detail_32">Karmallinen yksityiskohta 32: Kiitollisuuden energia\n→ Viljele päivittäistä kiitollisuutta\n→ Muuta näkökulmaa kiitollisuuden kautta\n→ Vedä puoleesi runsautta</string>
+    <string name="karmic_detail_33">Karmallinen yksityiskohta 33: Mestariopettaja\n→ Universaali parantava rakkaus\n→ Myötätunto ilman kärsimystä\n→ Palvelu ihmiskunnalle</string>
 
-    <!-- Karmische Details -->
-    <string name="karmic_detail_1">Karmiline detail 1: enesevastutus\n→ Lõpeta süü otsimine väljast\n→ Mõista: ma olen oma elu kaaslooja\n→ Julgus käia oma teed</string>
-    <string name="karmic_detail_2">Karmiline detail 2: suhe &amp; peegeldus\n→ Mõista peegliseadust: teised näitavad lahendamata osi\n→ Diplomaatia ilma ennast kaotamata\n→ Säilita kannatlikkus</string>
-    <string name="karmic_detail_3">Karmiline detail 3: autentsus &amp; väljendus\n→ Ela oma tõde\n→ Heida maskid ja rollid\n→ Väljenda tundeid loovalt</string>
-    <string name="karmic_detail_4">Karmiline detail 4: kannatlikkus &amp; usaldus\n→ Ära sunni kõike\n→ Usalda jumalikku ajastust\n→ Loo kord, et kasvatada stabiilsust</string>
-    <string name="karmic_detail_5">Karmiline detail 5: hirmu transformatsioon\n→ Julgus põgenemise asemel\n→ Muuda hirm kaotuse või puuduse ees\n→ Vabadus läbi vastutuse</string>
-    <string name="karmic_detail_6">Karmiline detail 6: armastus &amp; piirid\n→ Tingimusteta armastus ilma omanditundeta\n→ Ütle “ei” ilma süütundeta\n→ Ära ohverda ennast</string>
-    <string name="karmic_detail_7">Karmiline detail 7: usaldus &amp; juhtimine\n→ Usalda vaimset juhatust\n→ Järgi intuitsiooni ja märka märke\n→ Sisetunnetus enne väliseid mõjutusi</string>
-    <string name="karmic_detail_8">Karmiline detail 8: võim ja küllus\n→ Lahusta puudusetunnetus\n→ Andmine &amp; vastuvõtmine tasakaalus\n→ Tervenda võim (ilma manipuleerimiseta)</string>
-    <string name="karmic_detail_9">Karmiline detail 9: lahtilaskmine &amp; andestus\n→ Andesta teistele ja iseendale\n→ Lase lahti vanadest haavadest\n→ Teeni kogukonda</string>
-    <string name="karmic_detail_10">Karmiline detail 10: saatuseratas\n→ Võta saatus vastu\n→ Lase vastupanul minna\n→ Julge teha teadlik uus algus</string>
-    <string name="karmic_detail_11">Karmiline detail 11: visionäär\n→ Integreeri duaalsus (valgus &amp; vari)\n→ Võta vastu vaimne juhtroll\n→ Ole teistele inspiratsiooniks</string>
-    <string name="karmic_detail_12">Karmiline detail 12: vaatenurga muutus\n→ Teeni ilma ohvrirollita\n→ Vaata asju uue nurga alt\n→ Tarkus läbi pühendumise</string>
-    <string name="karmic_detail_13">Karmiline detail 13: ego &amp; transformatsioon\n→ Lase egost lahti (uhkus, õigus olemine)\n→ Harjuta alandlikkust ennast kaotamata\n→ Transformatsioon läbi töö ja fookuse</string>
-    <string name="karmic_detail_14">Karmiline detail 14: sõltuvustest lahti laskmine\n→ Vabadus hirmupõhise seotuse asemel\n→ Leia mõõdukus\n→ Tugevda emotsionaalset iseseisvust</string>
-    <string name="karmic_detail_16">Karmiline detail 16: ärkamine &amp; autentsus\n→ Vanad struktuurid murduvad\n→ Leia tõeline autentsus\n→ Illusioonid langevad</string>
-    <string name="karmic_detail_19">Karmiline detail 19: eneseväärtus &amp; jõud\n→ Ära defineeri end ainult saavutuste kaudu\n→ Tervenda jõu ja jõuetuse teema\n→ Õpi abi vastu võtma</string>
-    <string name="karmic_detail_20">Karmiline detail 20: ärkamine &amp; hinnang\n→ Kannatlikkus ja kõrgem mõistmine\n→ Vaimne diplomaatia</string>
-    <string name="karmic_detail_21">Karmiline detail 21: maailma väljendus\n→ Edu pärast pikka teekonda\n→ Vastandite integreerimine\n→ Täitumine välises</string>
-    <string name="karmic_detail_22">Karmiline detail 22: ehitaja\n→ Muuda suured unistused teoks\n→ Võta vastutus oma talentide eest\n→ Teeni ennast kaotamata</string>
-    <string name="karmic_detail_23">Karmiline detail 23: kuninglik lõvi\n→ Kaitse &amp; edu\n→ Vabadus väljenduses\n→ Säilita paindlikkus</string>
-    <string name="karmic_detail_24">Karmiline detail 24: südame tervenemine\n→ Täida &amp; vabasta hingelepingud\n→ Armastus ja teenimine\n→ Stabiilsus tunnetes</string>
-    <string name="karmic_detail_27">Karmiline detail 27: teenimine terviku heaks\n→ Tervenemine mitte ainult endale\n→ Loo mõju ka teistele\n→ Vaimne taipamine</string>
-    <string name="karmic_detail_30">Karmiline detail 30: loov väljendus\n→ Luba tundeid (ära suru alla)\n→ Rõõm kui teejuht\n→ Tunneta emotsioone kui õpetajaid</string>
-    <string name="karmic_detail_31">Karmiline detail 31: stabiilsus minas\n→ Kutsumus kohustuse asemel\n→ Ära peida oma ande\n→ Too kord kaosesse</string>
-    <string name="karmic_detail_33">Karmiline detail 33: meister-õpetaja\n→ Universaalne tervendav armastus\n→ Kaastunne ilma kannatuseta\n→ Teenimine inimkonna heaks</string>
-
-    <!-- Spezifische Zusammenfassungen & Energieflüsse (Kombinationen) -->
-    <string name="summary_default">Sinu peamine sõnum on: kuula oma sisemist häält — sind juhitakse.</string>
-    <string name="energy_flow_default">Selgus → Usaldus → Tegutsemine</string>
-    <string name="summary_99_1">Väga oluline karmiline tsükkel on lõplikult lõppenud. See loob ruumi võimsaks, jumalikult juhitud uueks alguseks.</string>
-    <string name="energy_flow_99_1">Lõpetus → Vabanemine → Uus algus</string>
-    <string name="summary_8_55">Massiivne positiivne muutus (topelt 5) viib sind küllusesse ja materiaalsesse paranemisse (8). Läbimurre on lähedal.</string>
-    <string name="energy_flow_8_55">Läbimurre → Vabadus → Stabiilsus</string>
-    <string name="summary_11_22">Meisterliit: visioon (11) kohtub manifesteerimisega (22). Sul on nüüd jõud teha suured unistused tõeliseks.</string>
-    <string name="energy_flow_11_22">Idee → Plaan → Reaalsus</string>
-    <string name="summary_7_77">Kolmekordne müstiline jõud. Sinu ühendus vaimse maailmaga on tugevalt võimendatud. Pane tähele unenägusid ja märke.</string>
-    <string name="energy_flow_7_77">Vaikus → Taipamine → Ärkamine</string>
-    <string name="summary_4_8">Struktuur (4) loob aluse suureks eduks (8). Raske töö tasub end nüüd rahaliselt ära.</string>
-    <string name="energy_flow_4_8">Distsipliin → Ülesehitus → Rikkus</string>
-    <string name="summary_1_9">Algus ja lõpp puudutavad teineteist. Sa sulged ühe ukse, et kohe avada teine — kiire üleminek.</string>
-    <string name="energy_flow_1_9">Lahtilaskmine → Julgus → Uus start</string>
-    <string name="summary_3_33">Kõrgeim loov väljendus. Sinu sõnadel või kunstil on nüüd teistele tervendav mõju.</string>
-    <string name="energy_flow_3_33">Rõõm → Väljendus → Tervenemine</string>
+    <!-- Yhteenvedot -->
+    <string name="summary_default">Tämän numeron energiat toimivat tasapainossa. Ole tietoinen ajatuksistasi ja päätöksistäsi – ne muovaavat todellisuuttasi.</string>
+    <string name="summary_master_11">Valaistuminen &amp; inspiraatio. Sisäinen ohjauksesi on erityisen vahva.</string>
+    <string name="summary_master_22">Visio muuttuu todellisuudeksi järjestelmällisen toiminnan kautta.</string>
+    <string name="summary_master_33">Universaali rakkaus &amp; parantuminen.</string>
+    <string name="summary_master_44">Vakaus &amp; suoja.</string>
+    <string name="summary_master_55">Radikaali muutos.</string>
+    <string name="summary_master_66">Sydämen avautuminen &amp; vastuu.</string>
+    <string name="summary_master_77">Henkinen herääminen.</string>
+    <string name="summary_master_88">Voima &amp; runsaus.</string>
+    <string name="summary_master_99">Päätös &amp; karmallinen kypsyys.</string>
+    <string name="summary_multi_master">Useita mestari-energioita vaikuttaa samanaikaisesti. Voimakas ja merkittävä vaihe.</string>
+    <string name="summary_repeat_0">Vahvistettu alkuenergia. Ajatukset ja aikomukset voimistuvat.</string>
+    <string name="summary_repeat_1">Vahva johtajuusenergia.</string>
+    <string name="summary_repeat_2">Vahvistunut suhde-energia.</string>
+    <string name="summary_repeat_3">Voimakas luova ilmaisu.</string>
+    <string name="summary_repeat_4">Intensiivinen rakenne-energia.</string>
+    <string name="summary_repeat_5">Voimakas muutoksen energia.</string>
+    <string name="summary_repeat_6">Vahvistunut sydänenergia.</string>
+    <string name="summary_repeat_7">Syvä henkinen energia.</string>
+    <string name="summary_repeat_8">Vahva ilmentämisen energia.</string>
+    <string name="summary_repeat_9">Intensiivinen päättymisen energia.</string>
+    <string name="summary_1">Uusi alku &amp; johtajuus – nyt on aika toimia.</string>
+    <string name="summary_2">Tasapaino &amp; yhteys – harmonia syntyy antamisen ja vastaanottamisen kautta.</string>
+    <string name="summary_3">Luovuus &amp; ilmaisu – anna ideoidesi loistaa.</string>
+    <string name="summary_4">Vakaus &amp; rakenne – järjestys tuo turvaa.</string>
+    <string name="summary_5">Muutos &amp; vapaus – pysy joustavana.</string>
+    <string name="summary_6">Rakkaus &amp; vastuu – sydän johdattaa.</string>
+    <string name="summary_7">Intuitio &amp; herääminen – luota sisäiseen ääneesi.</string>
+    <string name="summary_8">Menestys &amp; runsaus – tulokset ilmenevät.</string>
+    <string name="summary_9">Päätös &amp; vapautuminen – uusi sykli alkaa.</string>
 </resources>

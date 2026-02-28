@@ -1,0 +1,59 @@
+<resources>
+    <!-- Default -->
+    <string name="energy_default">Tisztánlátás → Bizalom → Cselekvés</string>
+
+    <!-- Fő számok -->
+    <string name="energy_core_1">Impulzus → Döntés → Új kezdet</string>
+    <string name="energy_core_2">Találkozás → Egyensúly → Harmónia</string>
+    <string name="energy_core_3">Tapasztalat → Kifejezés → Növekedés</string>
+    <string name="energy_core_4">Rend → Építés → Stabilitás</string>
+    <string name="energy_core_5">Mozgás → Változás → Szabadság</string>
+    <string name="energy_core_6">Gondoskodás → Gyógyulás → Harmónia</string>
+    <string name="energy_core_7">Tisztánlátás → Belső vezetés → Felismerés</string>
+    <string name="energy_core_8">Fókusz → Cselekvés → Siker</string>
+    <string name="energy_core_9">Lezárás → Elengedés → Átalakulás</string>
+
+    <!-- Alapszámok -->
+    <string name="energy_0">Forrás → Tudatosság → Új kezdet</string>
+    <string name="energy_1">Impulzus → Döntés → Új kezdet</string>
+    <string name="energy_2">Találkozás → Egyensúly → Harmónia</string>
+    <string name="energy_3">Tapasztalat → Kifejezés → Növekedés</string>
+    <string name="energy_4">Rend → Struktúra → Stabilitás</string>
+    <string name="energy_5">Mozgás → Változás → Szabadság</string>
+    <string name="energy_6">Gondoskodás → Gyógyulás → Harmónia</string>
+    <string name="energy_7">Tisztánlátás → Belső vezetés → Ébredés</string>
+    <string name="energy_8">Fókusz → Cselekvés → Siker</string>
+    <string name="energy_9">Lezárás → Elengedés → Átalakulás</string>
+
+    <!-- Domináns ismétlődések -->
+    <string name="energy_repeat_0">Kezdet → Potenciál → Teremtés</string>
+    <string name="energy_repeat_1">Impulzus → Döntés → Kezdeményezés</string>
+    <string name="energy_repeat_2">Kapcsolódás → Egyensúly → Harmónia</string>
+    <string name="energy_repeat_3">Öröm → Kifejezés → Növekedés</string>
+    <string name="energy_repeat_4">Rend → Stabilitás → Alap</string>
+    <string name="energy_repeat_5">Mozgás → Változás → Szabadság</string>
+    <string name="energy_repeat_6">Gondoskodás → Gyógyulás → Harmónia</string>
+    <string name="energy_repeat_7">Csend → Belső vezetés → Ébredés</string>
+    <string name="energy_repeat_8">Erő → Bőség → Siker</string>
+    <string name="energy_repeat_9">Lezárás → Elengedés → Átalakulás</string>
+
+    <!-- Mesterszámok -->
+    <string name="energy_11">Inspiráció → Tudatosság → Megvilágosodás</string>
+    <string name="energy_22">Vízió → Struktúra → Megvalósulás</string>
+    <string name="energy_33">Szeretet → Kifejezés → Gyógyulás</string>
+    <string name="energy_44">Fegyelem → Stabilitás → Mesteri szint</string>
+
+    <!-- Kiterjesztett dupla számok -->
+    <string name="energy_55">Mozgás → Felszabadulás → Áttörés</string>
+    <string name="energy_66">Szívmegnyílás → Felelősség → Harmónia</string>
+    <string name="energy_77">Csend → Belső bölcsesség → Ébredés</string>
+    <string name="energy_88">Erő → Bőség → Megvalósulás</string>
+    <string name="energy_99">Beteljesedés → Elengedés → Megújulás</string>
+
+    <!-- Mesterszámok -->
+    <string name="energy_master_11">Inspiráció → Tudatosság → Megvilágosodás</string>
+    <string name="energy_master_22">Vízió → Struktúra → Megvalósulás</string>
+    <string name="energy_master_33">Szeretet → Kifejezés → Gyógyulás</string>
+    <string name="energy_master_44">Fegyelem → Stabilitás → Mesteri szint</string>
+    <string name="energy_multi_master">Belső vezetés → Tudatos megvalósítás → Spirituális hatás</string>
+</resources>

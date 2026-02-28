@@ -1,0 +1,59 @@
+<resources>
+    <!-- Default -->
+    <string name="energy_default">명확함 → 신뢰 → 행동</string>
+
+    <!-- 핵심 숫자 -->
+    <string name="energy_core_1">충동 → 결정 → 새로운 시작</string>
+    <string name="energy_core_2">만남 → 균형 → 조화</string>
+    <string name="energy_core_3">경험 → 표현 → 성장</string>
+    <string name="energy_core_4">질서 → 구축 → 안정</string>
+    <string name="energy_core_5">움직임 → 변화 → 자유</string>
+    <string name="energy_core_6">돌봄 → 치유 → 조화</string>
+    <string name="energy_core_7">명확함 → 내면의 인도 → 깨달음</string>
+    <string name="energy_core_8">집중 → 행동 → 성공</string>
+    <string name="energy_core_9">완료 → 내려놓음 → 변형</string>
+
+    <!-- 기본 숫자 -->
+    <string name="energy_0">근원 → 자각 → 새로운 시작</string>
+    <string name="energy_1">충동 → 결정 → 새로운 시작</string>
+    <string name="energy_2">만남 → 균형 → 조화</string>
+    <string name="energy_3">경험 → 표현 → 성장</string>
+    <string name="energy_4">질서 → 구조 → 안정</string>
+    <string name="energy_5">움직임 → 변화 → 자유</string>
+    <string name="energy_6">돌봄 → 치유 → 조화</string>
+    <string name="energy_7">명확함 → 내면의 인도 → 각성</string>
+    <string name="energy_8">집중 → 행동 → 성공</string>
+    <string name="energy_9">완료 → 내려놓음 → 변형</string>
+
+    <!-- 지배적인 반복 -->
+    <string name="energy_repeat_0">기원 → 잠재력 → 창조</string>
+    <string name="energy_repeat_1">충동 → 결정 → 주도성</string>
+    <string name="energy_repeat_2">연결 → 균형 → 조화</string>
+    <string name="energy_repeat_3">기쁨 → 표현 → 성장</string>
+    <string name="energy_repeat_4">질서 → 안정 → 기반</string>
+    <string name="energy_repeat_5">움직임 → 변화 → 자유</string>
+    <string name="energy_repeat_6">돌봄 → 치유 → 조화</string>
+    <string name="energy_repeat_7">고요 → 내면의 인도 → 각성</string>
+    <string name="energy_repeat_8">힘 → 풍요 → 성공</string>
+    <string name="energy_repeat_9">완료 → 내려놓음 → 변형</string>
+
+    <!-- 마스터 숫자 -->
+    <string name="energy_11">영감 → 자각 → 깨달음</string>
+    <string name="energy_22">비전 → 구조 → 실현</string>
+    <string name="energy_33">사랑 → 표현 → 치유</string>
+    <string name="energy_44">규율 → 안정 → 숙련</string>
+
+    <!-- 확장 이중 숫자 -->
+    <string name="energy_55">움직임 → 해방 → 돌파</string>
+    <string name="energy_66">마음의 열림 → 책임 → 조화</string>
+    <string name="energy_77">고요 → 내면의 지혜 → 각성</string>
+    <string name="energy_88">힘 → 풍요 → 실현</string>
+    <string name="energy_99">완성 → 내려놓음 → 재생</string>
+
+    <!-- 마스터 숫자 -->
+    <string name="energy_master_11">영감 → 자각 → 깨달음</string>
+    <string name="energy_master_22">비전 → 구조 → 실현</string>
+    <string name="energy_master_33">사랑 → 표현 → 치유</string>
+    <string name="energy_master_44">규율 → 안정 → 숙련</string>
+    <string name="energy_multi_master">내면의 인도 → 의식적인 실현 → 영적 영향</string>
+</resources>

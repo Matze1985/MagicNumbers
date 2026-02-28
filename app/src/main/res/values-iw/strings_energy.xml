@@ -1,0 +1,59 @@
+<resources>
+    <!-- Default -->
+    <string name="energy_default">בהירות → אמון → פעולה</string>
+
+    <!-- מספרים עיקריים -->
+    <string name="energy_core_1">דחף → החלטה → התחלה חדשה</string>
+    <string name="energy_core_2">מפגש → איזון → הרמוניה</string>
+    <string name="energy_core_3">חוויה → ביטוי → צמיחה</string>
+    <string name="energy_core_4">סדר → בנייה → יציבות</string>
+    <string name="energy_core_5">תנועה → שינוי → חופש</string>
+    <string name="energy_core_6">דאגה → ריפוי → הרמוניה</string>
+    <string name="energy_core_7">בהירות → הדרכה פנימית → תובנה</string>
+    <string name="energy_core_8">מיקוד → פעולה → הצלחה</string>
+    <string name="energy_core_9">סיום → שחרור → טרנספורמציה</string>
+
+    <!-- מספרים בסיסיים -->
+    <string name="energy_0">מקור → מודעות → התחלה חדשה</string>
+    <string name="energy_1">דחף → החלטה → התחלה חדשה</string>
+    <string name="energy_2">מפגש → איזון → הרמוניה</string>
+    <string name="energy_3">חוויה → ביטוי → צמיחה</string>
+    <string name="energy_4">סדר → מבנה → יציבות</string>
+    <string name="energy_5">תנועה → שינוי → חופש</string>
+    <string name="energy_6">דאגה → ריפוי → הרמוניה</string>
+    <string name="energy_7">בהירות → הדרכה פנימית → התעוררות</string>
+    <string name="energy_8">מיקוד → פעולה → הצלחה</string>
+    <string name="energy_9">סיום → שחרור → טרנספורמציה</string>
+
+    <!-- חזרות דומיננטיות -->
+    <string name="energy_repeat_0">ראשית → פוטנציאל → יצירה</string>
+    <string name="energy_repeat_1">דחף → החלטה → יוזמה</string>
+    <string name="energy_repeat_2">חיבור → איזון → הרמוניה</string>
+    <string name="energy_repeat_3">שמחה → ביטוי → צמיחה</string>
+    <string name="energy_repeat_4">סדר → יציבות → יסוד</string>
+    <string name="energy_repeat_5">תנועה → שינוי → חופש</string>
+    <string name="energy_repeat_6">דאגה → ריפוי → הרמוניה</string>
+    <string name="energy_repeat_7">שקט → הדרכה פנימית → התעוררות</string>
+    <string name="energy_repeat_8">עוצמה → שפע → הצלחה</string>
+    <string name="energy_repeat_9">סיום → שחרור → טרנספורמציה</string>
+
+    <!-- מספרי מאסטר -->
+    <string name="energy_11">השראה → מודעות → הארה</string>
+    <string name="energy_22">חזון → מבנה → התגשמות</string>
+    <string name="energy_33">אהבה → ביטוי → ריפוי</string>
+    <string name="energy_44">משמעת → יציבות → שליטה</string>
+
+    <!-- מספרים כפולים מורחבים -->
+    <string name="energy_55">תנועה → שחרור → פריצת דרך</string>
+    <string name="energy_66">פתיחת הלב → אחריות → הרמוניה</string>
+    <string name="energy_77">שקט → חכמה פנימית → התעוררות</string>
+    <string name="energy_88">עוצמה → שפע → התגשמות</string>
+    <string name="energy_99">השלמה → שחרור → התחדשות</string>
+
+    <!-- מספרי מאסטר -->
+    <string name="energy_master_11">השראה → מודעות → הארה</string>
+    <string name="energy_master_22">חזון → מבנה → התגשמות</string>
+    <string name="energy_master_33">אהבה → ביטוי → ריפוי</string>
+    <string name="energy_master_44">משמעת → יציבות → שליטה</string>
+    <string name="energy_multi_master">הדרכה פנימית → התגשמות מודעת → השפעה רוחנית</string>
+</resources>

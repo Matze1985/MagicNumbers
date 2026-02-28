@@ -1,0 +1,59 @@
+<resources>
+    <!-- Default -->
+    <string name="energy_default">Kejelasan → Kepercayaan → Tindakan</string>
+
+    <!-- Angka inti -->
+    <string name="energy_core_1">Dorongan → Keputusan → Awal baru</string>
+    <string name="energy_core_2">Pertemuan → Keseimbangan → Harmoni</string>
+    <string name="energy_core_3">Pengalaman → Ekspresi → Pertumbuhan</string>
+    <string name="energy_core_4">Keteraturan → Pembangunan → Stabilitas</string>
+    <string name="energy_core_5">Pergerakan → Perubahan → Kebebasan</string>
+    <string name="energy_core_6">Kepedulian → Penyembuhan → Harmoni</string>
+    <string name="energy_core_7">Kejelasan → Bimbingan batin → Pemahaman</string>
+    <string name="energy_core_8">Fokus → Tindakan → Kesuksesan</string>
+    <string name="energy_core_9">Penyelesaian → Melepaskan → Transformasi</string>
+
+    <!-- Angka dasar -->
+    <string name="energy_0">Sumber → Kesadaran → Awal baru</string>
+    <string name="energy_1">Dorongan → Keputusan → Awal baru</string>
+    <string name="energy_2">Pertemuan → Keseimbangan → Harmoni</string>
+    <string name="energy_3">Pengalaman → Ekspresi → Pertumbuhan</string>
+    <string name="energy_4">Keteraturan → Struktur → Stabilitas</string>
+    <string name="energy_5">Pergerakan → Perubahan → Kebebasan</string>
+    <string name="energy_6">Kepedulian → Penyembuhan → Harmoni</string>
+    <string name="energy_7">Kejelasan → Bimbingan batin → Kebangkitan</string>
+    <string name="energy_8">Fokus → Tindakan → Kesuksesan</string>
+    <string name="energy_9">Penyelesaian → Melepaskan → Transformasi</string>
+
+    <!-- Pengulangan dominan -->
+    <string name="energy_repeat_0">Asal → Potensi → Penciptaan</string>
+    <string name="energy_repeat_1">Dorongan → Keputusan → Inisiatif</string>
+    <string name="energy_repeat_2">Koneksi → Keseimbangan → Harmoni</string>
+    <string name="energy_repeat_3">Sukacita → Ekspresi → Pertumbuhan</string>
+    <string name="energy_repeat_4">Keteraturan → Stabilitas → Fondasi</string>
+    <string name="energy_repeat_5">Pergerakan → Perubahan → Kebebasan</string>
+    <string name="energy_repeat_6">Kepedulian → Penyembuhan → Harmoni</string>
+    <string name="energy_repeat_7">Keheningan → Bimbingan batin → Kebangkitan</string>
+    <string name="energy_repeat_8">Kekuatan → Kelimpahan → Kesuksesan</string>
+    <string name="energy_repeat_9">Penyelesaian → Melepaskan → Transformasi</string>
+
+    <!-- Angka master -->
+    <string name="energy_11">Inspirasi → Kesadaran → Pencerahan</string>
+    <string name="energy_22">Visi → Struktur → Manifestasi</string>
+    <string name="energy_33">Cinta → Ekspresi → Penyembuhan</string>
+    <string name="energy_44">Disiplin → Stabilitas → Keunggulan</string>
+
+    <!-- Angka ganda lanjutan -->
+    <string name="energy_55">Pergerakan → Pembebasan → Terobosan</string>
+    <string name="energy_66">Pembukaan hati → Tanggung jawab → Harmoni</string>
+    <string name="energy_77">Keheningan → Kebijaksanaan batin → Kebangkitan</string>
+    <string name="energy_88">Kekuatan → Kelimpahan → Manifestasi</string>
+    <string name="energy_99">Pemenuhan → Melepaskan → Pembaruan</string>
+
+    <!-- Angka master -->
+    <string name="energy_master_11">Inspirasi → Kesadaran → Pencerahan</string>
+    <string name="energy_master_22">Visi → Struktur → Manifestasi</string>
+    <string name="energy_master_33">Cinta → Ekspresi → Penyembuhan</string>
+    <string name="energy_master_44">Disiplin → Stabilitas → Keunggulan</string>
+    <string name="energy_multi_master">Bimbingan batin → Manifestasi sadar → Dampak spiritual</string>
+</resources>

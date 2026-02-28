@@ -2,52 +2,60 @@
     <!-- App Name -->
     <string name="app_name">Magická čísla</string>
 
-    <!-- UI Texts -->
+    <!-- UI Texte -->
     <string name="new_message">Nová zpráva</string>
     <string name="copy_message">Kopírovat zprávu</string>
     <string name="clipboard_label">Magická zpráva</string>
-    <string name="welcome_message">Klepněte na \"Nová zpráva\", abyste přijali rytmus okamžiku.</string>
-    <string name="message_for_the_moment">Zpráva pro tento okamžik: %1$s</string>
-    <string name="your_cross_sum_is">Váš ciferný součet je: %1$s</string>
-    <string name="digit_occurrence">(vyskytuje se %1$dx, zesíleno)</string>
-    <string name="frequency_label">Frekvence</string>
+    <string name="welcome_message">Stiskni „Nová zpráva“ a přijmi rytmus okamžiku.</string>
+    <string name="your_cross_sum_is">Tvůj součet číslic je:</string>
+    <string name="digit_occurrence">(objevuje se %1$dx, zesíleno)</string>
 
-    <!-- Section Headers -->
+    <!-- Sektions-Überschriften -->
+    <string name="section_message_for_the_moment">💌 Zpráva pro tento okamžik: %1$s</string>
+    <string name="section_frequency">🌀 Frekvence:</string>
     <string name="section_vibration">🧬 Vibrace číslic:</string>
-    <string name="section_your_message">💌 Vaše zpráva:</string>
-    <string name="section_summary">✨ Shrnutí:</string>
+    <string name="section_master_energy">👑 Mistrovská energie:</string>
+    <string name="section_angel">🕊️ Andělský impuls:</string>
+    <string name="section_description_numbers">🔢 Popis číslic:</string>
+    <string name="section_summary">📖 Shrnutí:</string>
     <string name="section_energy">⚡️ Tok energie:</string>
 
-    <!-- Main Message Templates (per digit) -->
-    <string name="digit_0_intro">✨ Číslice **\'0\'**%1$s zesiluje vše. Je to znamení božské přítomnosti a nekonečného potenciálu.</string>
-    <string name="digit_1_intro">✨ Číslice **\'1\'**%1$s vás volá k **mocnému novému začátku**. Vaše myšlenky se nyní rychle manifestují.</string>
-    <string name="digit_2_intro">✨ Číslice **\'2\'**%1$s přináší **rovnováhu a harmonii**, zejména ve vztazích. Nejste sami.</string>
-    <string name="digit_3_intro">✨ Číslice **\'3\'**%1$s aktivuje vaši **kreativitu a komunikaci**. Vyjádřete se, duchovní svět naslouchá.</string>
-    <string name="digit_4_intro">✨ Číslice **\'4\'**%1$s vytváří **stabilní základ**. Tato energie přináší do vašeho života ochranu a řád.</string>
-    <string name="digit_5_intro">✨ Číslice **\'5\'**%1$s signalizuje **vlnu změn a svobody**. Buďte otevřeni dobrodružství a zlomte staré okovy.</string>
-    <string name="digit_6_intro">✨ Číslice **\'6\'**%1$s se zaměřuje na **uzdravení srdce a domova**. Rodina a harmonie jsou nyní středem pozornosti.</string>
-    <string name="digit_7_intro">✨ Číslice **\'7\'**%1$s činí vaši **intuici vaším nejdůležitějším kompasem**. Naslouchejte svému nitru, pravda je ve vás.</string>
-    <string name="digit_8_intro">✨ Číslice **\'8\'**%1$s aktivuje energii **hojnosti a úspěchu**. Buďte otevřeni materiálnímu i duchovnímu blahobytu.</string>
-    <string name="digit_9_intro">✨ Číslice **\'9\'**%1$s ukazuje **dokončení důležitého cyklu**. Pusťte staré, abyste udělali místo pro nové.</string>
+    <!-- Hauptnachrichten Templates -->
+    <string name="digit_0_intro">Číslo **\'0\'**%1$s zesiluje vše. Je znamením božské přítomnosti a nekonečného potenciálu.</string>
+    <string name="digit_1_intro">Číslo **\'1\'**%1$s tě vyzývá k **silnému novému začátku**. Tvé myšlenky se nyní rychle manifestují.</string>
+    <string name="digit_2_intro">Číslo **\'2\'**%1$s přináší **rovnováhu a harmonii**, zejména ve vztazích. Nejsi sám.</string>
+    <string name="digit_3_intro">Číslo **\'3\'**%1$s aktivuje tvou **kreativitu a komunikaci**. Vyjádři se – duchovní svět naslouchá.</string>
+    <string name="digit_4_intro">Číslo **\'4\'**%1$s vytváří **stabilní základ**. Tato energie přináší ochranu a strukturu do tvého života.</string>
+    <string name="digit_5_intro">Číslo **\'5\'**%1$s signalizuje **vlnu změny a svobody**. Buď otevřen dobrodružství a prolom stará omezení.</string>
+    <string name="digit_6_intro">Číslo **\'6\'**%1$s zaměřuje pozornost na **uzdravení srdce a domova**. Rodina a harmonie jsou nyní v popředí.</string>
+    <string name="digit_7_intro">Číslo **\'7\'**%1$s činí tvou **intuici nejdůležitějším kompasem**. Naslouchej svému nitru – pravda je v tobě.</string>
+    <string name="digit_8_intro">Číslo **\'8\'**%1$s aktivuje energii **hojnosti a úspěchu**. Buď otevřen materiální i duchovní prosperitě.</string>
+    <string name="digit_9_intro">Číslo **\'9\'**%1$s ukazuje na **ukončení důležitého cyklu**. Pusť staré, aby vznikl prostor pro nové.</string>
 
-    <!-- Numerology Basic Meanings -->
-    <string name="numerology_1">Nový začátek &amp; Vedení</string>
-    <string name="numerology_2">Harmonie &amp; Rovnováha</string>
-    <string name="numerology_3">Kreativita &amp; Růst</string>
-    <string name="numerology_4">Stabilita &amp; Ochrana</string>
-    <string name="numerology_5">Svoboda &amp; Změna</string>
-    <string name="numerology_6">Láska &amp; Harmonie</string>
-    <string name="numerology_7">Intuice &amp; Probuzení</string>
-    <string name="numerology_8">Úspěch &amp; Hojnost</string>
-    <string name="numerology_9">Dokončení &amp; Moudrost</string>
-    <string name="numerology_11">Mistrovská intuice</string>
-    <string name="numerology_22">Mistrovská manifestace</string>
-    <string name="numerology_33">Mistr léčitel</string>
+    <!-- Numerologie Grundbedeutungen -->
+    <string name="numerology_1">Nový začátek &amp; vedení</string>
+    <string name="numerology_2">Harmonie &amp; rovnováha</string>
+    <string name="numerology_3">Kreativita &amp; růst</string>
+    <string name="numerology_4">Stabilita &amp; ochrana</string>
+    <string name="numerology_5">Svoboda &amp; změna</string>
+    <string name="numerology_6">Láska &amp; harmonie</string>
+    <string name="numerology_7">Intuice &amp; probuzení</string>
+    <string name="numerology_8">Úspěch &amp; hojnost</string>
+    <string name="numerology_9">Dokončení &amp; moudrost</string>
+    <string name="numerology_11">Duchovní vizionář</string>
+    <string name="numerology_22">Mistr stavitel</string>
+    <string name="numerology_33">Mistr učitel</string>
+    <string name="numerology_44">Mistr stability</string>
+    <string name="numerology_55">Mistr svobody</string>
+    <string name="numerology_66">Mistr bezpodmínečné lásky</string>
+    <string name="numerology_77">Mistr moudrosti</string>
+    <string name="numerology_88">Mistr síly</string>
+    <string name="numerology_99">Mistr završení</string>
     <string name="numerology_unknown">Neznámé</string>
 
-    <!-- Numerology Keywords -->
+    <!-- Numerologie Keywords -->
     <string name="keyword_0">Zdroj</string>
-    <string name="keyword_1">Nový začátek</string>
+    <string name="keyword_1">Začátek</string>
     <string name="keyword_2">Rovnováha</string>
     <string name="keyword_3">Kreativita</string>
     <string name="keyword_4">Stabilita</string>
@@ -57,73 +65,81 @@
     <string name="keyword_8">Hojnost</string>
     <string name="keyword_9">Dokončení</string>
 
-    <!-- Numerology Special Meanings (Master Numbers & High Vibrations) -->
-    <string name="master_number_11">Mistrovské číslo 11: Intuice &amp; Osvícení</string>
-    <string name="master_number_22">Mistrovské číslo 22: Mistr stavitel &amp; Manifestace</string>
-    <string name="master_number_33">Mistrovské číslo 33: Univerzální láska &amp; Léčení</string>
-    <string name="master_number_44">Mistrovské číslo 44: Mistr léčitel. Spojujete hmotný a duchovní svět.</string>
-    <string name="special_number_55">Speciální vibrace 55: Radikální změna &amp; Svoboda</string>
-    <string name="special_number_66">Speciální vibrace 66: Univerzální láska &amp; Soucit</string>
-    <string name="special_number_77">Speciální vibrace 77: Hluboký duchovní vhled</string>
-    <string name="special_number_88">Speciální vibrace 88: Nekonečná hojnost &amp; Rovnováha</string>
-    <string name="special_number_99">Speciální vibrace 99: Univerzální vědomí &amp; Služba</string>
+    <!-- Numerologie Spezialbedeutungen -->
+    <string name="master_number_11">11: Intuice &amp; osvícení</string>
+    <string name="master_number_22">22: Stavitel &amp; manifestace</string>
+    <string name="master_number_33">33: Univerzální láska &amp; uzdravení</string>
+    <string name="master_number_44">44: Mistr léčitel. Spojuješ hmotný a duchovní svět.</string>
+    <string name="special_number_55">55: Radikální změna &amp; svoboda</string>
+    <string name="special_number_66">66: Univerzální láska &amp; soucit</string>
+    <string name="special_number_77">77: Hluboké duchovní poznání</string>
+    <string name="special_number_88">88: Nekonečná hojnost &amp; rovnováha</string>
+    <string name="special_number_99">99: Univerzální vědomí &amp; služba</string>
 
-    <!-- Karmic Lessons (Short texts for lists) -->
-    <string name="karmic_lesson_4">Karmická lekce 4: Stabilita a tvrdá práce.</string>
-    <string name="karmic_lesson_5">Karmická lekce 5: Svoboda a disciplína.</string>
-    <string name="karmic_lesson_7">Karmická lekce 7: Důvěra a otevřenost.</string>
-    <string name="karmic_lesson_8">Karmická lekce 8: Hojnost a zneužití moci.</string>
-    <string name="karmic_lesson_10">Karmická lekce 10: Kolo štěstí / Nový začátek</string>
-    <string name="karmic_lesson_11">Karmická lekce 11: Lekce duchovního mistrovství &amp; rovnováhy</string>
-    <string name="karmic_lesson_13">Karmická lekce 13: Lekce práce &amp; soustředění (Transformace)</string>
-    <string name="karmic_lesson_14">Karmická lekce 14: Lekce svobody &amp; umírněnosti</string>
-    <string name="karmic_lesson_16">Karmická lekce 16: Lekce probuzení &amp; pokory</string>
-    <string name="karmic_lesson_19">Karmická lekce 19: Lekce moci &amp; nezávislosti</string>
-    <string name="karmic_lesson_22">Karmická lekce 22: Lekce mistra stavitele &amp; odpovědnosti</string>
-    <string name="karmic_lesson_33">Karmická lekce 33: Lekce mistra léčivé lásky</string>
-
-    <!-- Karmic Details: Basis (1-3) -->
-    <string name="karmic_detail_1">Karmický detail 1: Vlastní odpovědnost\n→ Přestaňte hledat vinu venku\n→ Uvědomte si: Já jsem spolutvůrce svého života\n→ Odvaha jít vlastní cestou</string>
-    <string name="karmic_detail_2">Karmický detail 2: Vztah &amp; Zrcadlení\n→ Rozpoznejte zákon zrcadlení: Ostatní ukazují vaše nevyřešené části\n→ Diplomacie bez sebeobětování\n→ Zachovejte trpělivost</string>
-    <string name="karmic_detail_3">Karmický detail 3: Autenticita &amp; Vyjádření\n→ Žijte svou vlastní pravdu\n→ Odložte masky a role\n→ Vyjadřujte pocity kreativně</string>
-    <string name="karmic_detail_4">Karmický detail 4: Trpělivost &amp; Důvěra\n→ Netlačte na věci silou\n→ Důvěřujte v božské načasování\n→ Vytvářejte stabilitu skrze řád</string>
-    <string name="karmic_detail_5">Karmický detail 5: Transformace strachu\n→ Odvaha místo útěku\n→ Transformujte strach ze ztráty nebo nedostatku\n→ Svoboda skrze odpovědnost</string>
-    <string name="karmic_detail_6">Karmický detail 6: Láska &amp; Hranice\n→ Bezpodmínečná láska bez vlastnění\n→ Říkat „ne“ bez pocitu viny\n→ Neobětujte se</string>
-    <string name="karmic_detail_7">Karmický detail 7: Důvěra &amp; Vedení\n→ Důvěřujte v duchovní vedení\n→ Následujte intuici a vnímejte znamení\n→ Pohled do nitra místo vnějšího řízení</string>
-    <string name="karmic_detail_8">Karmický detail 8: Zacházení s mocí &amp; Hojností\n→ Rozpusťte myšlení nedostatku\n→ Dávání a přijímání v rovnováze\n→ Uzdravte vztah k moci (žádná manipulace)</string>
-    <string name="karmic_detail_9">Karmický detail 9: Opuštění &amp; Odpuštění\n→ Odpuštění ostatním i sobě\n→ Opuštění starých zranění\n→ Služba společenství</string>
-    <string name="karmic_detail_10">Karmický detail 10: Kolo štěstí\n→ Přijetí osudu\n→ Vzdejte se odporu\n→ Odvažte se k vědomému novému začátku</string>
-    <string name="karmic_detail_11">Karmický detail 11: Vizionář\n→ Integrujte dualitu (světlo &amp; stín)\n→ Přijměte duchovní vedení\n→ Buďte inspirací pro ostatní</string>
-    <string name="karmic_detail_12">Karmický detail 12: Změna perspektivy\n→ Služte bez role oběti\n→ Podívejte se na věci z nového úhlu\n→ Moudrost skrze odevzdání</string>
-    <string name="karmic_detail_13">Karmický detail 13: Ego &amp; Transformace\n→ Pusťte ego (pýcha, pocit vlastní pravdy)\n→ Praktikujte pokoru bez sebepopření\n→ Transformace skrze práci a soustředění</string>
-    <string name="karmic_detail_14">Karmický detail 14: Opuštění závislostí\n→ Svoboda místo vázání se ze strachu\n→ Najděte umírněnost\n→ Posilte emoční nezávislost</string>
-    <string name="karmic_detail_16">Karmický detail 16: Probuzení &amp; Autenticita\n→ Staré struktury se hroutí\n→ Najděte skutečnou autenticitu\n→ Opusťte iluze</string>
-    <string name="karmic_detail_19">Karmický detail 19: Sebehodnota &amp; Moc\n→ Nedefinujte se skrze výkon\n→ Uzdravte vztah k moci a bezmoci\n→ Naučte se přijmout pomoc</string>
-    <string name="karmic_detail_20">Karmický detail 20: Probuzení &amp; Soud\n→ Trpělivost a vyšší porozumění\n→ Duchovní diplomacie</string>
-    <string name="karmic_detail_21">Karmický detail 21: Vyjádření světa\n→ Úspěch po dlouhé cestě\n→ Integrace protikladů\n→ Dokončení ve vnějším světě</string>
-    <string name="karmic_detail_22">Karmický detail 22: Mistr stavitel\n→ Manifestace velkých snů\n→ Převzetí odpovědnosti za talenty\n→ Služba bez ztráty sebe sama</string>
-    <string name="karmic_detail_23">Karmický detail 23: Královský lev\n→ Ochrana &amp; Úspěch\n→ Svoboda ve vyjádření\n→ Zachovejte flexibilitu</string>
-    <string name="karmic_detail_24">Karmický detail 24: Uzdravení srdce\n→ Naplnění &amp; uvolnění duševních smluv\n→ Láska a služba bližnímu\n→ Stabilita v pocitech</string>
-    <string name="karmic_detail_27">Karmický detail 27: Služba celku\n→ Uzdravení nejen pro sebe\n→ Vytvářejte dopad pro ostatní\n→ Duchovní vhled</string>
-    <string name="karmic_detail_30">Karmický detail 30: Kreativní vyjádření\n→ Dovolte pocitům projevit se (nepotlačujte je)\n→ Radost jako průvodce\n→ Rozpoznejte emoce jako učitele</string>
-    <string name="karmic_detail_31">Karmický detail 31: Stabilita v sobě\n→ Poslání místo povinnosti\n→ Neskrývejte své dary\n→ Vneeste řád do chaosu</string>
+    <!-- Karmische Details 1–33 -->
+    <string name="karmic_detail_1">Karmický detail 1: Sebeodpovědnost\n→ Přestaň hledat vinu venku\n→ Uvědom si: Jsem spolutvůrcem svého života\n→ Odvaha jít vlastní cestou</string>
+    <string name="karmic_detail_2">Karmický detail 2: Vztah &amp; zrcadlení\n→ Pochop zákon zrcadla\n→ Druzí ukazují nevyřešené části\n→ Diplomacie bez ztráty sebe sama\n→ Zachovej trpělivost</string>
+    <string name="karmic_detail_3">Karmický detail 3: Autenticita &amp; vyjádření\n→ Žij svou pravdu\n→ Odlož masky a role\n→ Vyjadřuj pocity tvořivě</string>
+    <string name="karmic_detail_4">Karmický detail 4: Trpělivost &amp; důvěra\n→ Nenuť věci silou\n→ Důvěřuj božskému načasování\n→ Vytvářej stabilitu řádem</string>
+    <string name="karmic_detail_5">Karmický detail 5: Transformace strachu\n→ Odvaha místo útěku\n→ Proměň strach ze ztráty či nedostatku\n→ Svoboda skrze odpovědnost</string>
+    <string name="karmic_detail_6">Karmický detail 6: Láska &amp; hranice\n→ Bezpodmínečná láska bez vlastnění\n→ Říkej „ne“ bez pocitu viny\n→ Neobětuj sám sebe</string>
+    <string name="karmic_detail_7">Karmický detail 7: Důvěra &amp; vedení\n→ Důvěřuj duchovnímu vedení\n→ Následuj intuici\n→ Obrat se dovnitř</string>
+    <string name="karmic_detail_8">Karmický detail 8: Síla &amp; hojnost\n→ Osvoboď se od myšlení nedostatku\n→ Rovnováha mezi dáváním a přijímáním\n→ Uzdrav téma moci</string>
+    <string name="karmic_detail_9">Karmický detail 9: Puštění &amp; odpuštění\n→ Odpuštění sobě i druhým\n→ Uvolni stará zranění\n→ Služba komunitě</string>
+    <string name="karmic_detail_10">Karmický detail 10: Kolo osudu\n→ Přijetí osudu\n→ Pusť odpor\n→ Vědomý nový začátek</string>
+    <string name="karmic_detail_11">Karmický detail 11: Vizionář\n→ Integruj světlo a stín\n→ Přijmi duchovní vedení\n→ Buď inspirací pro druhé</string>
+    <string name="karmic_detail_12">Karmický detail 12: Změna perspektivy\n→ Služ bez role oběti\n→ Dívej se novým pohledem\n→ Moudrost skrze odevzdání</string>
+    <string name="karmic_detail_13">Karmický detail 13: Ego &amp; transformace\n→ Pusť pýchu a tvrdohlavost\n→ Pokora bez ztráty sebe\n→ Proměna skrze práci a soustředění</string>
+    <string name="karmic_detail_14">Karmický detail 14: Osvobození od závislostí\n→ Svoboda místo strachem řízené vazby\n→ Najdi střídmost\n→ Posil emoční nezávislost</string>
+    <string name="karmic_detail_15">Karmický detail 15: Vědomé puštění\n→ Rozpoznej vazby, které tě blokují\n→ Praktikuj vědomé uvolnění\n→ Důvěřuj novému životu</string>
+    <string name="karmic_detail_16">Karmický detail 16: Probuzení &amp; autenticita\n→ Staré struktury se hroutí\n→ Najdi své pravé já\n→ Iluze se rozpadají</string>
+    <string name="karmic_detail_17">Karmický detail 17: Duchovní autorita\n→ Důvěřuj vnitřní moudrosti\n→ Veď bez ega\n→ Úspěch skrze integritu</string>
+    <string name="karmic_detail_18">Karmický detail 18: Emoční jasnost\n→ Proměň iluze v pravdu\n→ Uzdrav staré vzorce\n→ Soucit bez sebeobětování</string>
+    <string name="karmic_detail_19">Karmický detail 19: Sebehodnota &amp; síla\n→ Neidentifikuj se jen výkonem\n→ Uzdrav téma moci\n→ Nauč se přijímat pomoc</string>
+    <string name="karmic_detail_20">Karmický detail 20: Probuzení &amp; soud\n→ Trpělivost a vyšší porozumění\n→ Duchovní diplomacie</string>
+    <string name="karmic_detail_21">Karmický detail 21: Světové vyjádření\n→ Úspěch po dlouhé cestě\n→ Integrace protikladů\n→ Naplnění ve vnějším světě</string>
+    <string name="karmic_detail_22">Karmický detail 22: Stavitel\n→ Manifestuj velké sny\n→ Převezmi odpovědnost za talenty\n→ Služ bez ztráty sebe</string>
+    <string name="karmic_detail_23">Karmický detail 23: Královský lev\n→ Ochrana &amp; úspěch\n→ Svoboda projevu\n→ Zachovej flexibilitu</string>
+    <string name="karmic_detail_24">Karmický detail 24: Uzdravení srdce\n→ Naplň a uvolni duševní smlouvy\n→ Láska a služba druhým\n→ Emoční stabilita</string>
+    <string name="karmic_detail_25">Karmický detail 25: Uzdravení vnitřního dítěte\n→ Naslouchej jeho tichým potřebám\n→ Přistupuj s láskou a péčí\n→ Integruj uzdravení</string>
+    <string name="karmic_detail_26">Karmický detail 26: Vědomé dýchání\n→ Buď si vědom svého dechu\n→ Používej dech jako kotvu\n→ Dech odráží tvou energii</string>
+    <string name="karmic_detail_27">Karmický detail 27: Služba celku\n→ Uzdravení nejen pro sebe\n→ Ovlivňuj druhé pozitivně\n→ Duchovní vhled</string>
+    <string name="karmic_detail_28">Karmický detail 28: Transformace konfliktu\n→ Vnímej konflikt jako lekci\n→ Změň perspektivu\n→ Přines harmonii integrací</string>
+    <string name="karmic_detail_29">Karmický detail 29: Seberealizace skrze kreativitu\n→ Dovol si tvořit\n→ Vyjádři svou pravou identitu\n→ Inspiruj ostatní</string>
+    <string name="karmic_detail_30">Karmický detail 30: Tvořivé vyjádření\n→ Dovol si cítit\n→ Radost jako kompas\n→ Emoce jsou učitelé</string>
+    <string name="karmic_detail_31">Karmický detail 31: Stabilita v sobě\n→ Povolání místo povinnosti\n→ Neskrývej své dary\n→ Vnes řád do chaosu</string>
+    <string name="karmic_detail_32">Karmický detail 32: Energie vděčnosti\n→ Pěstuj každodenní vděčnost\n→ Změň svou perspektivu\n→ Přitahuj hojnost</string>
     <string name="karmic_detail_33">Karmický detail 33: Mistr učitel\n→ Univerzální léčivá láska\n→ Soucit bez utrpení\n→ Služba lidstvu</string>
 
-    <!-- Specific Summaries & Energy Flows (Combinations) -->
-    <string name="summary_default">Vaše hlavní zpráva zní: Naslouchejte svému vnitřnímu hlasu, jste vedeni.</string>
-    <string name="energy_flow_default">Jasnost → Důvěra → Čin</string>
-    <string name="summary_99_1">Velmi významný karmický cyklus je konečně dokončen. To vytváří prostor pro mocný, božsky vedený nový začátek.</string>
-    <string name="energy_flow_99_1">Dokončení → Osvobození → Nový začátek</string>
-    <string name="summary_8_55">Masivní pozitivní změna (dvojitá 5) vás vede k vaší hojnosti a materiálnímu zlepšení (8). Průlom je blízko.</string>
-    <string name="energy_flow_8_55">Průlom → Svoboda → Stabilita</string>
-    <string name="summary_11_22">Mistrovská aliance: Vize (11) se setkává s Manifestací (22). Nyní máte sílu proměnit velké sny ve skutečnost.</string>
-    <string name="energy_flow_11_22">Myšlenka → Plán → Realita</string>
-    <string name="summary_7_77">Trojitá mystická síla. Vaše spojení s duchovním světem je extrémně zesíleno. Věnujte pozornost snům a znamením.</string>
-    <string name="energy_flow_7_77">Ticho → Vhled → Probuzení</string>
-    <string name="summary_4_8">Struktura (4) tvoří základ pro velký úspěch (8). Tvrdá práce se nyní finančně vyplácí.</string>
-    <string name="energy_flow_4_8">Disciplína → Budování → Bohatství</string>
-    <string name="summary_1_9">Začátek a konec se dotýkají. Zavíráte dveře, abyste okamžitě otevřeli nové. Rychlý přechod.</string>
-    <string name="energy_flow_1_9">Opuštění → Odvaha → Restart</string>
-    <string name="summary_3_33">Nejvyšší kreativní vyjádření. Vaše slova nebo umění mají nyní léčivý účinek na ostatní.</string>
-    <string name="energy_flow_3_33">Radost → Vyjádření → Uzdravení</string>
+    <!-- Spezifische Zusammenfassungen -->
+    <string name="summary_default">Energie tohoto čísla působí vyváženě. Vědomě sleduj své myšlenky a rozhodnutí – formují tvou realitu.</string>
+    <string name="summary_master_11">Osvícení &amp; inspirace. Tvé vnitřní vedení je silné.</string>
+    <string name="summary_master_22">Vize se stává skutečností skrze organizované jednání.</string>
+    <string name="summary_master_33">Univerzální láska &amp; uzdravení.</string>
+    <string name="summary_master_44">Stabilita &amp; ochrana.</string>
+    <string name="summary_master_55">Radikální transformace.</string>
+    <string name="summary_master_66">Otevření srdce &amp; odpovědnost.</string>
+    <string name="summary_master_77">Duchovní probuzení.</string>
+    <string name="summary_master_88">Síla &amp; hojnost.</string>
+    <string name="summary_master_99">Dokončení &amp; karmická zralost.</string>
+    <string name="summary_multi_master">Současně působí více mistrovských energií. Období je silné a intenzivní.</string>
+    <string name="summary_repeat_0">Vše se zesiluje – myšlenky i záměry mají velkou sílu.</string>
+    <string name="summary_repeat_1">Silná energie vedení.</string>
+    <string name="summary_repeat_2">Zesílená energie vztahů.</string>
+    <string name="summary_repeat_3">Silné tvůrčí vyjádření.</string>
+    <string name="summary_repeat_4">Intenzivní energie struktury.</string>
+    <string name="summary_repeat_5">Silná energie změny.</string>
+    <string name="summary_repeat_6">Zesílená energie srdce.</string>
+    <string name="summary_repeat_7">Hluboká duchovní energie.</string>
+    <string name="summary_repeat_8">Silná energie manifestace.</string>
+    <string name="summary_repeat_9">Intenzivní energie dokončení.</string>
+    <string name="summary_1">Nový začátek &amp; vedení – je čas jednat.</string>
+    <string name="summary_2">Rovnováha &amp; spojení – harmonie skrze dávání a přijímání.</string>
+    <string name="summary_3">Kreativita &amp; vyjádření – ukaž své nápady.</string>
+    <string name="summary_4">Stabilita &amp; struktura – řád přináší jistotu.</string>
+    <string name="summary_5">Změna &amp; svoboda – buď flexibilní.</string>
+    <string name="summary_6">Láska &amp; odpovědnost – srdce vede.</string>
+    <string name="summary_7">Intuice &amp; probuzení – důvěřuj svému vnitřnímu hlasu.</string>
+    <string name="summary_8">Úspěch &amp; hojnost – výsledky se projevují.</string>
+    <string name="summary_9">Dokončení &amp; uvolnění – začíná nový cyklus.</string>
 </resources>

@@ -1,72 +1,97 @@
 <resources>
-    <!-- Serija 0: Izvor i Potencijal -->
-    <string name="angel_0_1">0: Izvor i Prisutnost – Budi ovdje. Ništa još nije određeno.</string>
-    <string name="angel_0_2">00: Zaštićeni prostor – Možeš biti miran. Integriraj.</string>
+    <!-- 0 serija -->
+    <string name="angel_0_1">0: Izvor &amp; Prisutnost – Budi ovdje. Ništa još nije određeno.</string>
+    <string name="angel_0_2">00: Sveti prostor – Smiješ biti u tišini. Integriraj.</string>
     <string name="angel_0_3">000: Izvor – Sve je jedno. Vjeruj cjelini.</string>
-    <string name="angel_0_4">0000: Reset – Počni ispočetka bez tereta. Vremenska linija je otvorena.</string>
-    <string name="angel_0_5">00000: Čisti potencijal – Ti jesi, prije nego što postaneš nešto.</string>
+    <string name="angel_0_4">0000: Reset – Započni iznova bez tereta. Vremenska linija je otvorena.</string>
+    <string name="angel_0_5">00000: Čisti potencijal – Postojiš prije nego što postaneš nešto.</string>
     <string name="angel_0_6">000000: Božanska praznina – Sve je moguće.</string>
 
-    <!-- Serija 1: Intuicija i Manifestacija -->
-    <string name="angel_1_2">11: Intuicija – Slušaj, tvoje unutarnje vodstvo te zove.</string>
-    <string name="angel_1_3">111: Manifestacija – Upravo sada stvaraš, svjesno ili nesvjesno.</string>
-    <string name="angel_1_4">1111: Buđenje – Vrata se otvaraju. Biraj svjesno.</string>
-    <string name="angel_1_5">11111: Utjelovljenje – Živi ono što si spoznao.</string>
-    <string name="angel_1_6">111111: Stvaralačka moć – Tvoje misli postaju stvarnost.</string>
+    <!-- 1 serija -->
+    <string name="angel_1_1">1: Impuls – Nova misao želi se roditi.</string>
+    <string name="angel_1_2">11: Intuicija – Slušaj, tvoja unutarnja vodstva govori.</string>
+    <string name="angel_1_3">111: Manifestacija – Sada stvaraš, svjesno ili nesvjesno.</string>
+    <string name="angel_1_4">1111: Buđenje – Portal se otvara. Biraj svjesno.</string>
+    <string name="angel_1_5">11111: Utjelovljenje – Živi ono što si spoznao/la.</string>
+    <string name="angel_1_6">111111: Stvaralačka snaga – Tvoje misli postaju stvarnost.</string>
 
-    <!-- Serija 2: Ravnoteža i Povjerenje -->
+    <!-- 2 serija -->
+    <string name="angel_2_1">2: Susret – Obrati pažnju na osobu ispred sebe.</string>
     <string name="angel_2_2">22: Ravnoteža – Ostani u povjerenju.</string>
-    <string name="angel_2_3">222: Božanski tajming – Sve se slaže u savršenom trenutku.</string>
-    <string name="angel_2_4">2222: Stabilnost – Podržan si.</string>
-    <string name="angel_2_5">22222: Harmonija duše – Na pravom si mjestu.</string>
-    <string name="angel_2_6">222222: Smirenost – Ne forsiraj ništa, sve je tu.</string>
+    <string name="angel_2_3">222: Usklađenost – Sve se odvija u božanskom vremenu.</string>
+    <string name="angel_2_4">2222: Stabilnost – Podržan/a si.</string>
+    <string name="angel_2_5">22222: Harmonija duše – Nalaziš se točno tamo gdje trebaš biti.</string>
+    <string name="angel_2_6">222222: Ravnoteža – Ne forsiraj ništa, sve je već prisutno.</string>
 
-    <!-- Serija 3: Izražavanje i Istina -->
-    <string name="angel_3_2">33: Izražavanje – Izrazi se, svijet sluša.</string>
-    <string name="angel_3_3">333: Rast – Prate te majstori.</string>
-    <string name="angel_3_4">3333: Autentičnost – Pokaži se onakvim kakav jesi.</string>
+    <!-- 3 serija -->
+    <string name="angel_3_1">3: Izražavanje – Podijeli svoje misli i osjećaje.</string>
+    <string name="angel_3_2">33: Izražavanje – Izrazi se, svijet te sluša.</string>
+    <string name="angel_3_3">333: Rast – Vode te učitelji.</string>
+    <string name="angel_3_4">3333: Autentičnost – Pokaži se onakav/ona kakav/kakva jesi.</string>
     <string name="angel_3_5">33333: Istina – Tvoja istina želi biti življena.</string>
-    <string name="angel_3_6">333333: Srce i Riječ – Govoriš iz svoje biti.</string>
+    <string name="angel_3_6">333333: Srce &amp; Riječ – Govoriš iz svoje suštine.</string>
 
-    <!-- Serija 4: Stabilnost i Zaštita -->
+    <!-- 4 serija -->
+    <string name="angel_4_1">4: Struktura – Red donosi jasnoću.</string>
     <string name="angel_4_2">44: Uzemljenje – Red donosi mir.</string>
-    <string name="angel_4_3">444: Zaštita – Siguran si i zaštićen.</string>
-    <string name="angel_4_4">4444: Struktura – Tvoj temelj je čvrst.</string>
-    <string name="angel_4_5">44444: Stabilnost – Vjeruj svom stavu.</string>
-    <string name="angel_4_6">444444: Ukorjenjivanje – Čvrsto si ukorijenjen u životu.</string>
+    <string name="angel_4_3">444: Zaštita – Siguran/na si i zaštićen/a.</string>
+    <string name="angel_4_4">4444: Temelj – Tvoja osnova je čvrsta.</string>
+    <string name="angel_4_5">44444: Stabilnost – Vjeruj svom uporištu.</string>
+    <string name="angel_4_6">444444: Ukorijenjenost – Čvrsto si ukorijenjen/a u životu.</string>
 
-    <!-- Serija 5: Promjena i Sloboda -->
-    <string name="angel_5_2">55: Promjena – Budi otvoren za novo.</string>
-    <string name="angel_5_3">555: Preokret – Pusti staro.</string>
-    <string name="angel_5_4">5555: Transformacija – Ništa ne ostaje kao što je bilo.</string>
+    <!-- 5 serija -->
+    <string name="angel_5_1">5: Kretanje – Promjena je blizu.</string>
+    <string name="angel_5_2">55: Transformacija – Budi otvoren/a za novo.</string>
+    <string name="angel_5_3">555: Preokret – Otpusti staro.</string>
+    <string name="angel_5_4">5555: Transformacija – Ništa ne ostaje isto.</string>
     <string name="angel_5_5">55555: Identitet – Ponovno se rađaš.</string>
     <string name="angel_5_6">555555: Sloboda – Sloboda je tvoje novo stanje.</string>
 
-    <!-- Serija 6: Povratak u centar -->
-    <string name="angel_6_2">66: Briga o sebi – Pazi dobro na sebe.</string>
-    <string name="angel_6_3">666: Ravnoteža – Vrati se sebi, između unutarnjeg i vanjskog.</string>
-    <string name="angel_6_4">6666: Prioriteti – Što te zaista hrani?</string>
-    <string name="angel_6_5">66666: Iscjeljenje – Smiješ biti nježan prema sebi.</string>
+    <!-- 6 serija -->
+    <string name="angel_6_1">6: Briga – Brini se o svom srcu i domu.</string>
+    <string name="angel_6_2">66: Briga o sebi – Dobro se pobrini za sebe.</string>
+    <string name="angel_6_3">666: Ravnoteža – Vrati se sebi između unutarnjeg &amp; vanjskog.</string>
+    <string name="angel_6_4">6666: Prioriteti – Što te istinski hrani?</string>
+    <string name="angel_6_5">66666: Iscjeljenje – Budi nježan/na prema sebi.</string>
     <string name="angel_6_6">666666: Cjelovitost – Kod kuće si u sebi.</string>
 
-    <!-- Serija 7: Mudrost i Uvid -->
+    <!-- 7 serija -->
+    <string name="angel_7_1">7: Introspekcija – Slušaj svoj unutarnji glas.</string>
     <string name="angel_7_2">77: Vodstvo – Vjeruj svom unutarnjem znanju.</string>
     <string name="angel_7_3">777: Duhovnost – Učiš na razini duše.</string>
-    <string name="angel_7_4">7777: Uvid – Vidiš stvari jasno.</string>
+    <string name="angel_7_4">7777: Uvid – Jasno vidiš stvari.</string>
     <string name="angel_7_5">77777: Mudrost – Živiš ono što znaš.</string>
-    <string name="angel_7_6">777777: Prosvjetljenje – Vođen si iznutra.</string>
+    <string name="angel_7_6">777777: Prosvjetljenje – Vođen/a si iznutra.</string>
 
-    <!-- Serija 8: Obilje i Protok energije -->
-    <string name="angel_8_2">88: Ravnoteža – Davanje i primanje u toku.</string>
+    <!-- 8 serija -->
+    <string name="angel_8_1">8: Snaga – Svjesno koristi svoju energiju.</string>
+    <string name="angel_8_2">88: Ravnoteža – Davanje &amp; primanje u protoku.</string>
     <string name="angel_8_3">888: Obilje – Uspjeh je moguć i blizu.</string>
-    <string name="angel_8_4">8888: Protok energije – Sve teče k tebi.</string>
-    <string name="angel_8_5">88888: Primanje – Smiješ imati i biti.</string>
-    <string name="angel_8_6">888888: Prelijevanje – Dio si beskonačnog obilja.</string>
+    <string name="angel_8_4">8888: Protok energije – Sve teče prema tebi.</string>
+    <string name="angel_8_5">88888: Primanje – Imaš pravo imati i biti.</string>
+    <string name="angel_8_6">888888: Neograničeno obilje – Dio si beskonačnog obilja.</string>
 
-    <!-- Serija 9: Završetak i Prijelaz -->
-    <string name="angel_9_2">99: Otpuštanje – Kraj se bliži.</string>
-    <string name="angel_9_3">999: Završetak – Ciklus završava. Zahvali i kreni dalje.</string>
+    <!-- 9 serija -->
+    <string name="angel_9_1">9: Završetak – Jedno poglavlje se zatvara.</string>
+    <string name="angel_9_2">99: Otpuštanje – Kraj se približava.</string>
+    <string name="angel_9_3">999: Zatvaranje – Ciklus završava. Zahvali &amp; kreni dalje.</string>
     <string name="angel_9_4">9999: Transformacija – Staro odlazi zauvijek.</string>
-    <string name="angel_9_5">99999: Zrelost – Spreman si za ono što dolazi.</string>
-    <string name="angel_9_6">999999: Savršenstvo – Krug se zatvara.</string>
+    <string name="angel_9_5">99999: Zrelost – Spreman/na si za sljedeće.</string>
+    <string name="angel_9_6">999999: Ispunjenje – Krug se zatvara.</string>
+
+    <!-- 10 i zrcalni brojevi -->
+    <string name="angel_10">10: Novi početak – Jedan ciklus završava, drugi počinje.</string>
+    <string name="angel_12">12: Proces učenja – Razvoj kroz iskustvo.</string>
+    <string name="angel_21">21: Integracija – Suprotnosti se spajaju.</string>
+    <string name="angel_101">101: Buđenje – Svijest na novoj razini.</string>
+    <string name="angel_1212">1212: Ravnoteža u promjeni – Stabilnost u pokretu.</string>
+    <string name="angel_123">123: Kreativni tok – Ideje dolaze slobodno.</string>
+    <string name="angel_1234">1234: Strukturirana manifestacija – Tvoj plan poprima oblik.</string>
+    <string name="angel_12345">12345: Dinamičan razvoj – Rast u mnogim područjima.</string>
+    <string name="angel_123456">123456: Potpuni završetak – Ciklus se zatvara, novi putevi se otvaraju.</string>
+    <string name="angel_palindrome">Zrcalni broj – Unutarnji i vanjski svijet se odražavaju.</string>
+    <string name="angel_mirror">Zrcalni uzorak – Uvid kroz samopromatranje.</string>
+    <string name="angel_alternating">Naizmjenični uzorak – Dvije energije djeluju u ritmu.</string>
+    <string name="angel_sequence_ascending">Uzlazni niz – Razvoj se događa svjesno.</string>
+    <string name="angel_sequence_descending">Silazni niz – Otpuštanje donosi transformaciju.</string>
 </resources>

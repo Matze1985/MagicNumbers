@@ -1,0 +1,59 @@
+<resources>
+    <!-- Default -->
+    <string name="energy_default">Helderheid → Vertrouwen → Actie</string>
+
+    <!-- Kerngetallen -->
+    <string name="energy_core_1">Impuls → Beslissing → Nieuw begin</string>
+    <string name="energy_core_2">Ontmoeting → Balans → Harmonie</string>
+    <string name="energy_core_3">Ervaring → Expressie → Groei</string>
+    <string name="energy_core_4">Orde → Opbouw → Stabiliteit</string>
+    <string name="energy_core_5">Beweging → Verandering → Vrijheid</string>
+    <string name="energy_core_6">Zorg → Heling → Harmonie</string>
+    <string name="energy_core_7">Helderheid → Innerlijke leiding → Inzicht</string>
+    <string name="energy_core_8">Focus → Actie → Succes</string>
+    <string name="energy_core_9">Afronding → Loslaten → Transformatie</string>
+
+    <!-- Basisgetallen -->
+    <string name="energy_0">Bron → Bewustzijn → Nieuw begin</string>
+    <string name="energy_1">Impuls → Beslissing → Nieuw begin</string>
+    <string name="energy_2">Ontmoeting → Balans → Harmonie</string>
+    <string name="energy_3">Ervaring → Expressie → Groei</string>
+    <string name="energy_4">Orde → Structuur → Stabiliteit</string>
+    <string name="energy_5">Beweging → Verandering → Vrijheid</string>
+    <string name="energy_6">Zorg → Heling → Harmonie</string>
+    <string name="energy_7">Helderheid → Innerlijke leiding → Ontwaken</string>
+    <string name="energy_8">Focus → Actie → Succes</string>
+    <string name="energy_9">Afronding → Loslaten → Transformatie</string>
+
+    <!-- Dominante herhalingen -->
+    <string name="energy_repeat_0">Oorsprong → Potentieel → Creatie</string>
+    <string name="energy_repeat_1">Impuls → Beslissing → Initiatief</string>
+    <string name="energy_repeat_2">Verbinding → Balans → Harmonie</string>
+    <string name="energy_repeat_3">Vreugde → Expressie → Groei</string>
+    <string name="energy_repeat_4">Orde → Stabiliteit → Fundament</string>
+    <string name="energy_repeat_5">Beweging → Verandering → Vrijheid</string>
+    <string name="energy_repeat_6">Zorg → Heling → Harmonie</string>
+    <string name="energy_repeat_7">Stilte → Innerlijke leiding → Ontwaken</string>
+    <string name="energy_repeat_8">Kracht → Overvloed → Succes</string>
+    <string name="energy_repeat_9">Afronding → Loslaten → Transformatie</string>
+
+    <!-- Meestergetallen -->
+    <string name="energy_11">Inspiratie → Bewustzijn → Verlichting</string>
+    <string name="energy_22">Visie → Structuur → Manifestatie</string>
+    <string name="energy_33">Liefde → Expressie → Heling</string>
+    <string name="energy_44">Discipline → Stabiliteit → Meesterschap</string>
+
+    <!-- Uitgebreide dubbele getallen -->
+    <string name="energy_55">Beweging → Bevrijding → Doorbraak</string>
+    <string name="energy_66">Hartopening → Verantwoordelijkheid → Harmonie</string>
+    <string name="energy_77">Stilte → Innerlijke wijsheid → Ontwaken</string>
+    <string name="energy_88">Kracht → Overvloed → Manifestatie</string>
+    <string name="energy_99">Vervulling → Loslaten → Vernieuwing</string>
+
+    <!-- Meestergetallen -->
+    <string name="energy_master_11">Inspiratie → Bewustzijn → Verlichting</string>
+    <string name="energy_master_22">Visie → Structuur → Manifestatie</string>
+    <string name="energy_master_33">Liefde → Expressie → Heling</string>
+    <string name="energy_master_44">Discipline → Stabiliteit → Meesterschap</string>
+    <string name="energy_multi_master">Innerlijke leiding → Bewuste manifestatie → Spirituele impact</string>
+</resources>

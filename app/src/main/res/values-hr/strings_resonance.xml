@@ -1,74 +1,53 @@
 <resources>
     <!-- =====================================================
-         Resonance – General labels (shared)
+         Rezonanca – Opće oznake (zajedničke)
     ====================================================== -->
-    <string name="resonance_prefix">🔮</string>
-    <string name="resonance_focus_none">Fokus: ravnomjerno raspoređeno (nema izravnih ponavljanja)</string>
-    <string name="resonance_focus_frame">Fokus: početak i kraj (okvirna tema)</string>
-    <string name="resonance_focus_center">Fokus: središte (temeljni impuls)</string>
+    <string name="resonance_focus_none">Fokus: ravnomjerno raspoređen (bez izravnih ponavljanja)</string>
+    <string name="resonance_focus_frame">Fokus: početak &amp; kraj (okvirna tema)</string>
+    <string name="resonance_focus_center">Fokus: središte (glavni impuls)</string>
     <string name="resonance_focus_start">Fokus: početak (identitet / početna faza)</string>
     <string name="resonance_focus_end">Fokus: kraj (rezultat / sljedeći korak)</string>
 
     <!-- =====================================================
-         Resonance (4-digit) – IDs
+         Rezonanca (4-znamenkasta) – Naslovi
     ====================================================== -->
-    <string name="resonance4_id_mono">R4_MONO</string>
-    <string name="resonance4_id_aabb">R4_AABB</string>
-    <string name="resonance4_id_abab">R4_ABAB</string>
-    <string name="resonance4_id_abba">R4_ABBA</string>
-    <string name="resonance4_id_abcd">R4_ABCD</string>
-    <string name="resonance4_id_none">R_FREE</string>
+    <string name="resonance4_title_mono">🔮 Rezonantni uzorak (4): Monotip</string>
+    <string name="resonance4_title_aabb">🔮 Rezonantni uzorak (4): Dvije faze</string>
+    <string name="resonance4_title_abab">🔮 Rezonantni uzorak (4): Izmjena</string>
+    <string name="resonance4_title_abba">🔮 Rezonantni uzorak (4): Zrcalo</string>
+    <string name="resonance4_title_abcd">🔮 Rezonantni uzorak (4): Ravnomjerna raspodjela</string>
+    <string name="resonance4_title_none">🔮 Rezonantni uzorak: Slobodna kombinacija</string>
 
     <!-- =====================================================
-         Resonance (4-digit) – Titles
+         Rezonanca (4-znamenkasta) – Kratka značenja
     ====================================================== -->
-    <string name="resonance4_title_mono">Rezonantni uzorak: monotip</string>
-    <string name="resonance4_title_aabb">Rezonantni uzorak: dvije faze</string>
-    <string name="resonance4_title_abab">Rezonantni uzorak: izmjena</string>
-    <string name="resonance4_title_abba">Rezonantni uzorak: zrcalo</string>
-    <string name="resonance4_title_abcd">Rezonantni uzorak: ravnomjerna raspodjela</string>
-    <string name="resonance4_title_none">Rezonantni uzorak: slobodna kombinacija</string>
+    <string name="resonance4_meaning_mono">Maksimalno pojačanje – jedna tema potpuno dominira.</string>
+    <string name="resonance4_meaning_aabb">Jasan prijelaz – fazu A zamjenjuje faza B.</string>
+    <string name="resonance4_meaning_abab">Napetost između dva pola – ritam, ravnoteža, odluka.</string>
+    <string name="resonance4_meaning_abba">Odraz – spoznaja kroz unutarnje i vanjsko zrcaljenje.</string>
+    <string name="resonance4_meaning_abcd">Ravnomjeran tok – bez ponavljanja, otvorena i neutralna energija.</string>
+    <string name="resonance4_meaning_none">Nema dominantnog uzorka – energija je slobodno kombinirana i otvorena.</string>
+    <string name="resonance4_meaning_ababab">Napetost između dva pola – ritam, ravnoteža i svjesna odluka oblikuju ovu energiju.</string>
 
     <!-- =====================================================
-         Resonance (4-digit) – Short meanings
+         Rezonanca (6-znamenkasta) – Naslovi
     ====================================================== -->
-    <string name="resonance4_meaning_mono">Maksimalno pojačanje – jedna tema u potpunosti dominira.</string>
-    <string name="resonance4_meaning_aabb">Jasan prijelaz – faza A prelazi u fazu B.</string>
-    <string name="resonance4_meaning_abab">Napetost između dva pola – ritam, ravnoteža i odluka.</string>
-    <string name="resonance4_meaning_abba">Zrcaljenje – spoznaja kroz unutarnju i vanjsku refleksiju.</string>
-    <string name="resonance4_meaning_abcd">Ujednačen tok – bez ponavljanja, otvorena energija.</string>
-    <string name="resonance4_meaning_none">Nema dominantnog uzorka – energija je slobodno kombinirana.</string>
+    <string name="resonance6_title_mono">🔮 Rezonantni uzorak (6): Monotip</string>
+    <string name="resonance6_title_aaabbb">🔮 Rezonantni uzorak (6): Prijelaz</string>
+    <string name="resonance6_title_aabbcc">🔮 Rezonantni uzorak (6): Postupni proces</string>
+    <string name="resonance6_title_ababab">🔮 Rezonantni uzorak (6): Izmjena / Klatno</string>
+    <string name="resonance6_title_abcabc">🔮 Rezonantni uzorak (6): Ciklus</string>
+    <string name="resonance6_title_mirror">🔮 Rezonantni uzorak (6): Zrcalo</string>
+    <string name="resonance6_title_none">🔮 Rezonantni uzorak: Slobodna kombinacija</string>
 
     <!-- =====================================================
-         Resonance (6-digit) – IDs
+         Rezonanca (6-znamenkasta) – Kratka značenja
     ====================================================== -->
-    <string name="resonance6_id_mono">R6_MONO</string>
-    <string name="resonance6_id_aaabbb">R6_AAABBB</string>
-    <string name="resonance6_id_aabbcc">R6_AABBCC</string>
-    <string name="resonance6_id_ababab">R6_ABABAB</string>
-    <string name="resonance6_id_abcabc">R6_ABCABC</string>
-    <string name="resonance6_id_mirror">R6_MIRROR</string>
-    <string name="resonance6_id_none">R_FREE</string>
-
-    <!-- =====================================================
-         Resonance (6-digit) – Titles
-    ====================================================== -->
-    <string name="resonance6_title_mono">Rezonantni uzorak: monotip</string>
-    <string name="resonance6_title_aaabbb">Rezonantni uzorak: prijelaz</string>
-    <string name="resonance6_title_aabbcc">Rezonantni uzorak: stupnjeviti proces</string>
-    <string name="resonance6_title_ababab">Rezonantni uzorak: njihanje / ravnoteža</string>
-    <string name="resonance6_title_abcabc">Rezonantni uzorak: ciklus</string>
-    <string name="resonance6_title_mirror">Rezonantni uzorak: zrcalo</string>
-    <string name="resonance6_title_none">Rezonantni uzorak: slobodna kombinacija</string>
-
-    <!-- =====================================================
-         Resonance (6-digit) – Short meanings
-    ====================================================== -->
-    <string name="resonance6_meaning_mono">Snažno pojačanje – jedna energija izrazito dominira.</string>
-    <string name="resonance6_meaning_aaabbb">Jasna promjena – faza A u fazu B (završetak i novi početak).</string>
+    <string name="resonance6_meaning_mono">Maksimalno pojačanje – jedna tema snažno dominira (blagoslov ili fiksacija).</string>
+    <string name="resonance6_meaning_aaabbb">Jasna promjena: faza A → faza B (završetak i novi početak).</string>
     <string name="resonance6_meaning_aabbcc">Razvoj u fazama – učenje i integracija korak po korak.</string>
-    <string name="resonance6_meaning_ababab">Ravnoteža suprotnih sila – odluka i ritam.</string>
-    <string name="resonance6_meaning_abcabc">Ponavljajuća tema – svijest kroz ponavljanje.</string>
-    <string name="resonance6_meaning_mirror">Povratna sprega – spoznaja kroz unutarnje i vanjsko zrcaljenje.</string>
-    <string name="resonance6_meaning_none">Nema dominantnog uzorka – energija je slobodna i otvorena.</string>
+    <string name="resonance6_meaning_ababab">Napetost između dva pola – pronađi ravnotežu, odluku i ritam.</string>
+    <string name="resonance6_meaning_abcabc">Ponavljajuća tema – rutina, petlja, svjesnost kroz ponavljanje.</string>
+    <string name="resonance6_meaning_mirror">Povratna informacija – spoznaja kroz zrcaljenje (unutra/van).</string>
+    <string name="resonance6_meaning_none">Nema dominantnog uzorka – energija je slobodno kombinirana i otvorena.</string>
 </resources>

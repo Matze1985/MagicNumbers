@@ -1,74 +1,53 @@
 <resources>
     <!-- =====================================================
-         Resonance – General labels (shared)
+         Rezonans – Genel etiketler (ortak)
     ====================================================== -->
-    <string name="resonance_prefix">🔮</string>
-    <string name="resonance_focus_none">Odak: dengeli dağılım (doğrudan tekrar yok)</string>
-    <string name="resonance_focus_frame">Odak: başlangıç ve bitiş (çerçeve teması)</string>
+    <string name="resonance_focus_none">Odak: eşit dağılım (doğrudan tekrar yok)</string>
+    <string name="resonance_focus_frame">Odak: başlangıç &amp; bitiş (çerçeve teması)</string>
     <string name="resonance_focus_center">Odak: merkez (çekirdek dürtü)</string>
     <string name="resonance_focus_start">Odak: başlangıç (kimlik / başlangıç aşaması)</string>
     <string name="resonance_focus_end">Odak: bitiş (sonuç / sonraki adım)</string>
 
     <!-- =====================================================
-         Resonance (4-digit) – IDs
+         Rezonans (4 haneli) – Başlıklar
     ====================================================== -->
-    <string name="resonance4_id_mono">R4_MONO</string>
-    <string name="resonance4_id_aabb">R4_AABB</string>
-    <string name="resonance4_id_abab">R4_ABAB</string>
-    <string name="resonance4_id_abba">R4_ABBA</string>
-    <string name="resonance4_id_abcd">R4_ABCD</string>
-    <string name="resonance4_id_none">R4_NONE</string>
+    <string name="resonance4_title_mono">🔮 Rezonans Deseni (4): Monotip</string>
+    <string name="resonance4_title_aabb">🔮 Rezonans Deseni (4): İki Aşama</string>
+    <string name="resonance4_title_abab">🔮 Rezonans Deseni (4): Değişim</string>
+    <string name="resonance4_title_abba">🔮 Rezonans Deseni (4): Ayna</string>
+    <string name="resonance4_title_abcd">🔮 Rezonans Deseni (4): Dengeli Dağılım</string>
+    <string name="resonance4_title_none">🔮 Rezonans Deseni: Serbest Kombinasyon</string>
 
     <!-- =====================================================
-         Resonance (4-digit) – Titles
-    ====================================================== -->
-    <string name="resonance4_title_mono">Rezonans Deseni (4): Monotip</string>
-    <string name="resonance4_title_aabb">Rezonans Deseni (4): İki Aşama</string>
-    <string name="resonance4_title_abab">Rezonans Deseni (4): Değişim</string>
-    <string name="resonance4_title_abba">Rezonans Deseni (4): Ayna</string>
-    <string name="resonance4_title_abcd">Rezonans Deseni (4): Dengeli Dağılım</string>
-    <string name="resonance4_title_none">Rezonans Deseni: Serbest Karışım</string>
-
-    <!-- =====================================================
-         Resonance (4-digit) – Short meanings
+         Rezonans (4 haneli) – Kısa anlamlar
     ====================================================== -->
     <string name="resonance4_meaning_mono">Maksimum güçlenme – tek bir tema tamamen baskındır.</string>
-    <string name="resonance4_meaning_aabb">Net geçiş – A aşamasını B aşaması takip eder.</string>
+    <string name="resonance4_meaning_aabb">Net geçiş – A aşaması B aşamasıyla yer değiştirir.</string>
     <string name="resonance4_meaning_abab">İki kutup arasında gerilim – ritim, denge, karar.</string>
-    <string name="resonance4_meaning_abba">Yansıma – iç ve dış yansıma yoluyla farkındalık.</string>
-    <string name="resonance4_meaning_abcd">Dengeli akış – tekrar yok, nötr ve açık enerji.</string>
+    <string name="resonance4_meaning_abba">Yansıma – içsel ve dışsal aynalama yoluyla farkındalık.</string>
+    <string name="resonance4_meaning_abcd">Dengeli akış – tekrar yok, açık ve nötr enerji.</string>
     <string name="resonance4_meaning_none">Baskın bir desen yok – enerji serbestçe birleşmiş ve açıktır.</string>
+    <string name="resonance4_meaning_ababab">İki kutup arasında gerilim – ritim, denge ve bilinçli karar bu enerjiyi şekillendirir.</string>
 
     <!-- =====================================================
-         Resonance (6-digit) – IDs
+         Rezonans (6 haneli) – Başlıklar
     ====================================================== -->
-    <string name="resonance6_id_mono">R6_MONO</string>
-    <string name="resonance6_id_aaabbb">R6_AAABBB</string>
-    <string name="resonance6_id_aabbcc">R6_AABBCC</string>
-    <string name="resonance6_id_ababab">R6_ABABAB</string>
-    <string name="resonance6_id_abcabc">R6_ABCABC</string>
-    <string name="resonance6_id_mirror">R6_MIRROR</string>
-    <string name="resonance6_id_none">R6_NONE</string>
+    <string name="resonance6_title_mono">🔮 Rezonans Deseni (6): Monotip</string>
+    <string name="resonance6_title_aaabbb">🔮 Rezonans Deseni (6): Geçiş</string>
+    <string name="resonance6_title_aabbcc">🔮 Rezonans Deseni (6): Aşamalı Süreç</string>
+    <string name="resonance6_title_ababab">🔮 Rezonans Deseni (6): Değişim / Sarkaç</string>
+    <string name="resonance6_title_abcabc">🔮 Rezonans Deseni (6): Döngü</string>
+    <string name="resonance6_title_mirror">🔮 Rezonans Deseni (6): Ayna</string>
+    <string name="resonance6_title_none">🔮 Rezonans Deseni: Serbest Kombinasyon</string>
 
     <!-- =====================================================
-         Resonance (6-digit) – Titles
+         Rezonans (6 haneli) – Kısa anlamlar
     ====================================================== -->
-    <string name="resonance6_title_mono">Rezonans Deseni (6): Monotip</string>
-    <string name="resonance6_title_aaabbb">Rezonans Deseni (6): Geçiş</string>
-    <string name="resonance6_title_aabbcc">Rezonans Deseni (6): Aşamalı Süreç</string>
-    <string name="resonance6_title_ababab">Rezonans Deseni (6): Değişim / Sarkaç</string>
-    <string name="resonance6_title_abcabc">Rezonans Deseni (6): Döngü</string>
-    <string name="resonance6_title_mirror">Rezonans Deseni (6): Ayna</string>
-    <string name="resonance6_title_none">Rezonans Deseni: Serbest Karışım</string>
-
-    <!-- =====================================================
-         Resonance (6-digit) – Short meanings
-    ====================================================== -->
-    <string name="resonance6_meaning_mono">Maksimum güçlenme – bir tema güçlü şekilde baskındır (lütuf ya da saplanma).</string>
+    <string name="resonance6_meaning_mono">Maksimum güçlenme – tek bir tema güçlü şekilde baskındır (nimet ya da takıntı).</string>
     <string name="resonance6_meaning_aaabbb">Net değişim: A aşaması → B aşaması (tamamlanma ve yeni başlangıç).</string>
-    <string name="resonance6_meaning_aabbcc">Aşamalar halinde gelişim – öğrenme ve bütünleşme adım adım.</string>
-    <string name="resonance6_meaning_ababab">İki kutup arasında gerilim – denge, karar, ritmi bulmak.</string>
+    <string name="resonance6_meaning_aabbcc">Aşamalı gelişim – öğrenme ve entegrasyon adım adım gerçekleşir.</string>
+    <string name="resonance6_meaning_ababab">İki kutup arasında gerilim – dengeyi, kararı ve ritmi bul.</string>
     <string name="resonance6_meaning_abcabc">Tekrarlayan tema – rutin, döngü, tekrar yoluyla farkındalık.</string>
-    <string name="resonance6_meaning_mirror">Geri besleme – yansıma yoluyla içgörü (iç / dış).</string>
+    <string name="resonance6_meaning_mirror">Geri bildirim – aynalama yoluyla farkındalık (iç/dış).</string>
     <string name="resonance6_meaning_none">Baskın bir desen yok – enerji serbestçe birleşmiş ve açıktır.</string>
 </resources>

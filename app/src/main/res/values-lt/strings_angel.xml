@@ -1,72 +1,97 @@
 <resources>
-    <!-- 0 Serija: Kilmė ir Potencialas -->
-    <string name="angel_0_1">0: Kilmė ir Buvimas – Būk čia. Dar niekas nenuspręsta.</string>
-    <string name="angel_0_2">00: Saugoma Erdvė – Gali nurimti. Integruok.</string>
+    <!-- 0 serija -->
+    <string name="angel_0_1">0: Šaltinis &amp; Buvimas – Būk čia. Dar niekas nenuspręsta.</string>
+    <string name="angel_0_2">00: Šventa erdvė – Gali būti tyloje. Integruok.</string>
     <string name="angel_0_3">000: Šaltinis – Viskas yra viena. Pasitikėk visuma.</string>
-    <string name="angel_0_4">0000: Perkrovimas – Pradėk iš naujo be naštos. Laiko linija atvira.</string>
-    <string name="angel_0_5">00000: Grynas Potencialas – Tu esi, dar prieš tapdamas kažkuo.</string>
-    <string name="angel_0_6">000000: Dieviškoji Tuštuma – Viskas įmanoma.</string>
+    <string name="angel_0_4">0000: Atkūrimas – Pradėk iš naujo be naštos. Laiko linija atvira.</string>
+    <string name="angel_0_5">00000: Grynas potencialas – Tu esi prieš tapdamas kažkuo.</string>
+    <string name="angel_0_6">000000: Dieviška tuštuma – Viskas įmanoma.</string>
 
-    <!-- 1 Serija: Intuicija ir Manifestacija -->
-    <string name="angel_1_2">11: Intuicija – Klausykis, tavo vidinis vedlys šaukia.</string>
-    <string name="angel_1_3">111: Manifestacija – Tu kuri būtent dabar, sąmoningai ar nesąmoningai.</string>
-    <string name="angel_1_4">1111: Pabudimas – Vartai atsidaro. Rinkis sąmoningai.</string>
-    <string name="angel_1_5">11111: Įkūnijimas – Gyvenk tuo, ką supratai.</string>
-    <string name="angel_1_6">111111: Kūrybinė Galia – Tavo mintys tampa realybe.</string>
+    <!-- 1 serija -->
+    <string name="angel_1_1">1: Impulsas – Nauja mintis nori gimti.</string>
+    <string name="angel_1_2">11: Intuicija – Klausyk, tavo vidinis vedimas kalba.</string>
+    <string name="angel_1_3">111: Manifestacija – Dabar kuri, sąmoningai ar nesąmoningai.</string>
+    <string name="angel_1_4">1111: Pabudimas – Atsiveria vartai. Rinkis sąmoningai.</string>
+    <string name="angel_1_5">11111: Įkūnijimas – Gyvenk tai, ką suvokiai.</string>
+    <string name="angel_1_6">111111: Kūrimo galia – Tavo mintys tampa realybe.</string>
 
-    <!-- 2 Serija: Pusiausvyra ir Pasitikėjimas -->
+    <!-- 2 serija -->
+    <string name="angel_2_1">2: Susitikimas – Atkreipk dėmesį į žmogų priešais.</string>
     <string name="angel_2_2">22: Pusiausvyra – Išlik pasitikėjime.</string>
-    <string name="angel_2_3">222: Dieviškasis Laikas – Viskas susiklosto tobulu metu.</string>
+    <string name="angel_2_3">222: Derėjimas – Viskas vyksta dievišku laiku.</string>
     <string name="angel_2_4">2222: Stabilumas – Tu esi palaikomas.</string>
-    <string name="angel_2_5">22222: Sielos Harmonija – Esi teisingoje vietoje.</string>
-    <string name="angel_2_6">222222: Ramybė – Nieko neversk, viskas jau yra čia.</string>
+    <string name="angel_2_5">22222: Sielos harmonija – Esi būtent ten, kur turi būti.</string>
+    <string name="angel_2_6">222222: Pusiausvyra – Nieko neversk, viskas jau yra.</string>
 
-    <!-- 3 Serija: Raiška ir Tiesa -->
-    <string name="angel_3_2">33: Raiška – Išreikšk save, pasaulis klausosi.</string>
-    <string name="angel_3_3">333: Augimas – Tave lydi dvasiniai mokytojai.</string>
+    <!-- 3 serija -->
+    <string name="angel_3_1">3: Išraiška – Dalinkis savo mintimis ir jausmais.</string>
+    <string name="angel_3_2">33: Išraiška – Išreikšk save, pasaulis klausosi.</string>
+    <string name="angel_3_3">333: Augimas – Tave lydi mokytojai.</string>
     <string name="angel_3_4">3333: Autentiškumas – Parodyk save tokį, koks esi.</string>
-    <string name="angel_3_5">33333: Tiesa – Tavo tiesa nori būti gyvenama.</string>
-    <string name="angel_3_6">333333: Širdis ir Žodis – Kalbi iš savo esmės.</string>
+    <string name="angel_3_5">33333: Tiesa – Tavo tiesa nori būti išgyventa.</string>
+    <string name="angel_3_6">333333: Širdis &amp; Žodis – Kalbi iš savo esmės.</string>
 
-    <!-- 4 Serija: Stabilumas ir Apsauga -->
+    <!-- 4 serija -->
+    <string name="angel_4_1">4: Struktūra – Tvarka suteikia aiškumą.</string>
     <string name="angel_4_2">44: Įsižeminimas – Tvarka atneša ramybę.</string>
     <string name="angel_4_3">444: Apsauga – Esi saugus ir apsaugotas.</string>
-    <string name="angel_4_4">4444: Struktūra – Tavo pamatas tvirtas.</string>
-    <string name="angel_4_5">44444: Stabilumas – Pasitikėk savo pozicija.</string>
-    <string name="angel_4_6">444444: Įsitvirtinimas – Esi tvirtai įsišaknijęs gyvenime.</string>
+    <string name="angel_4_4">4444: Pamatas – Tavo pagrindas tvirtas.</string>
+    <string name="angel_4_5">44444: Stabilumas – Pasitikėk savo padėtimi.</string>
+    <string name="angel_4_6">444444: Įsišaknijimas – Esi giliai įsišaknijęs gyvenime.</string>
 
-    <!-- 5 Serija: Pokyčiai ir Laisvė -->
-    <string name="angel_5_2">55: Pokytis – Būk atviras naujovėms.</string>
-    <string name="angel_5_3">555: Posūkis – Paleisk tai, kas sena.</string>
-    <string name="angel_5_4">5555: Transformacija – Niekas nelieka kaip buvę.</string>
-    <string name="angel_5_5">55555: Tapatybė – Tu gimsti iš naujo.</string>
-    <string name="angel_5_6">555555: Laisvė – Laisvė yra tavo nauja būsena.</string>
+    <!-- 5 serija -->
+    <string name="angel_5_1">5: Judėjimas – Artėja pokytis.</string>
+    <string name="angel_5_2">55: Transformacija – Būk atviras naujam.</string>
+    <string name="angel_5_3">555: Lūžis – Paleisk seną.</string>
+    <string name="angel_5_4">5555: Pokytis – Niekas nelieka taip, kaip buvo.</string>
+    <string name="angel_5_5">55555: Tapatybė – Tu atgimsti.</string>
+    <string name="angel_5_6">555555: Laisvė – Laisvė tampa tavo nauja būsena.</string>
 
-    <!-- 6 Serija: Grįžimas į Centrą -->
-    <string name="angel_6_2">66: Rūpinimasis Savimi – Gerai pasirūpink savimi.</string>
-    <string name="angel_6_3">666: Pusiausvyra – Grįžk į save, tarp vidaus ir išorės.</string>
-    <string name="angel_6_4">6666: Prioritetai – Kas tave iš tikrųjų maitina?</string>
-    <string name="angel_6_5">66666: Gijimas – Gali būti švelnus sau.</string>
-    <string name="angel_6_6">666666: Visybiškumas – Esi namuose savyje.</string>
+    <!-- 6 serija -->
+    <string name="angel_6_1">6: Rūpestis – Rūpinkis savo širdimi ir namais.</string>
+    <string name="angel_6_2">66: Savirūpa – Gerai pasirūpink savimi.</string>
+    <string name="angel_6_3">666: Pusiausvyra – Sugrįžk į save tarp vidaus &amp; išorės.</string>
+    <string name="angel_6_4">6666: Prioritetai – Kas iš tiesų tave maitina?</string>
+    <string name="angel_6_5">66666: Gydymas – Būk švelnus sau.</string>
+    <string name="angel_6_6">666666: Vientisumas – Tu esi namuose savyje.</string>
 
-    <!-- 7 Serija: Išmintis ir Įžvalga -->
-    <string name="angel_7_2">77: Vadovavimas – Pasitikėk savo vidiniu žinojimu.</string>
+    <!-- 7 serija -->
+    <string name="angel_7_1">7: Savistaba – Klausyk savo vidinio balso.</string>
+    <string name="angel_7_2">77: Vedimas – Pasitikėk savo vidine išmintimi.</string>
     <string name="angel_7_3">777: Dvasingumas – Mokaisi sielos lygmeniu.</string>
-    <string name="angel_7_4">7777: Įžvalga – Matai dalykus aiškiai.</string>
+    <string name="angel_7_4">7777: Įžvalga – Aiškiai matai dalykus.</string>
     <string name="angel_7_5">77777: Išmintis – Gyveni tuo, ką žinai.</string>
     <string name="angel_7_6">777777: Nušvitimas – Esi vedamas iš vidaus.</string>
 
-    <!-- 8 Serija: Gausa ir Energijos Srautas -->
-    <string name="angel_8_2">88: Pusiausvyra – Davimas ir gavimas tėkmėje.</string>
-    <string name="angel_8_3">888: Gausa – Sėkmė įmanoma ir yra arti.</string>
-    <string name="angel_8_4">8888: Energijos Srautas – Viskas teka pas tave.</string>
-    <string name="angel_8_5">88888: Priėmimas – Tau leidžiama turėti ir būti.</string>
-    <string name="angel_8_6">888888: Perteklius – Esi begalinės gausos dalis.</string>
+    <!-- 8 serija -->
+    <string name="angel_8_1">8: Galia – Sąmoningai naudok savo energiją.</string>
+    <string name="angel_8_2">88: Srautas – Davimas &amp; gavimas harmonijoje.</string>
+    <string name="angel_8_3">888: Gausa – Sėkmė įmanoma ir arti.</string>
+    <string name="angel_8_4">8888: Energijos srautas – Viskas teka link tavęs.</string>
+    <string name="angel_8_5">88888: Priėmimas – Turi teisę turėti ir būti.</string>
+    <string name="angel_8_6">888888: Begalinė gausa – Esi begalinės gausos dalis.</string>
 
-    <!-- 9 Serija: Užbaigimas ir Perėjimas -->
+    <!-- 9 serija -->
+    <string name="angel_9_1">9: Užbaigimas – Skyrius baigiasi.</string>
     <string name="angel_9_2">99: Paleidimas – Artėja pabaiga.</string>
-    <string name="angel_9_3">999: Užbaigimas – Ciklas baigiasi. Padėkok ir judėk toliau.</string>
-    <string name="angel_9_4">9999: Transformacija – Sena pasitraukia visam laikui.</string>
-    <string name="angel_9_5">99999: Brandumas – Esi pasiruošęs tam, kas ateina.</string>
-    <string name="angel_9_6">999999: Tobulumas – Ratas užsidaro.</string>
+    <string name="angel_9_3">999: Pabaiga – Ciklas baigiasi. Padėkok &amp; eik toliau.</string>
+    <string name="angel_9_4">9999: Transformacija – Sena galutinai pasitraukia.</string>
+    <string name="angel_9_5">99999: Brandumas – Esi pasiruošęs kitam etapui.</string>
+    <string name="angel_9_6">999999: Išsipildymas – Ratas užsidaro.</string>
+
+    <!-- 10 & Veidrodiniai skaičiai -->
+    <string name="angel_10">10: Nauja pradžia – Vienas ciklas baigiasi, kitas prasideda.</string>
+    <string name="angel_12">12: Mokymosi procesas – Augimas per patirtį.</string>
+    <string name="angel_21">21: Integracija – Priešybės susijungia.</string>
+    <string name="angel_101">101: Pabudimas – Sąmoningumas naujame lygmenyje.</string>
+    <string name="angel_1212">1212: Pusiausvyra pokytyje – Stabilumas judėjime.</string>
+    <string name="angel_123">123: Kūrybinis srautas – Idėjos teka laisvai.</string>
+    <string name="angel_1234">1234: Struktūruota manifestacija – Tavo planas įgauna formą.</string>
+    <string name="angel_12345">12345: Dinaminis augimas – Plėtra daugelyje sričių.</string>
+    <string name="angel_123456">123456: Visiškas užbaigimas – Ciklas užsidaro ir atsiveria nauji keliai.</string>
+    <string name="angel_palindrome">Veidrodinis skaičius – Vidinis ir išorinis pasaulis atspindi vienas kitą.</string>
+    <string name="angel_mirror">Veidrodinis raštas – Suvokimas per savistabą.</string>
+    <string name="angel_alternating">Kintantis raštas – Dvi energijos veikia ritme.</string>
+    <string name="angel_sequence_ascending">Kylanti seka – Vystymasis vyksta sąmoningai.</string>
+    <string name="angel_sequence_descending">Mažėjanti seka – Paleidimas atneša transformaciją.</string>
 </resources>

@@ -7,28 +7,30 @@
     <string name="copy_message">Botschaft kopieren</string>
     <string name="clipboard_label">Magische Botschaft</string>
     <string name="welcome_message">Drücke auf \"Neue Botschaft\", um den Rhythmus des Moments zu empfangen.</string>
-    <string name="message_for_the_moment">Botschaft für den Moment: %1$s</string>
-    <string name="your_cross_sum_is">Deine Quersumme lautet: %1$s</string>
+    <string name="your_cross_sum_is">Deine Quersumme lautet:</string>
     <string name="digit_occurrence">(erscheint %1$dx, verstärkt)</string>
-    <string name="frequency_label">Frequenz</string>
 
     <!-- Sektions-Überschriften -->
+    <string name="section_message_for_the_moment">💌 Botschaft für den Moment: %1$s</string>
+    <string name="section_frequency">🌀 Frequenz:</string>
     <string name="section_vibration">🧬 Schwingung der Ziffern:</string>
-    <string name="section_your_message">💌 Deine Botschaft:</string>
-    <string name="section_summary">✨ Zusammenfassung:</string>
+    <string name="section_master_energy">👑 Meisterenergie:</string>
+    <string name="section_angel">🕊️ Engelsimpuls:</string>
+    <string name="section_description_numbers">🔢 Beschreibung der Ziffern:</string>
+    <string name="section_summary">📖 Zusammenfassung:</string>
     <string name="section_energy">⚡️ Energiefluss:</string>
 
     <!-- Hauptnachrichten Templates (pro Ziffer) -->
-    <string name="digit_0_intro">✨ Die **\'0\'**%1$s verstärkt alles. Sie ist ein Zeichen göttlicher Präsenz und unendlichen Potenzials.</string>
-    <string name="digit_1_intro">✨ Die **\'1\'**%1$s ruft dich zu einem **kraftvollen Neubeginn**. Deine Gedanken manifestieren sich jetzt schnell.</string>
-    <string name="digit_2_intro">✨ Die **\'2\'**%1$s bringt **Balance und Harmonie**, besonders in Beziehungen. Du bist nicht allein.</string>
-    <string name="digit_3_intro">✨ Die **\'3\'**%1$s aktiviert deine **Kreativität und Kommunikation**. Drücke dich aus, die geistige Welt hört zu.</string>
-    <string name="digit_4_intro">✨ Die **\'4\'**%1$s schafft ein **stabiles Fundament**. Diese Energie bringt Schutz und Struktur in dein Leben.</string>
-    <string name="digit_5_intro">✨ Die **\'5\'**%1$s signalisiert eine **Welle der Veränderung und Freiheit**. Sei offen für Abenteuer und sprenge alte Ketten.</string>
-    <string name="digit_6_intro">✨ Die **\'6\'**%1$s lenkt den Fokus auf **Heilung für Herz und Heim**. Familie und Harmonie stehen jetzt im Mittelpunkt.</string>
-    <string name="digit_7_intro">✨ Die **\'7\'**%1$s macht deine **Intuition zum wichtigsten Kompass**. Lausche nach innen, die Wahrheit liegt in dir.</string>
-    <string name="digit_8_intro">✨ Die **\'8\'**%1$s aktiviert die Energie von **Fülle und Erfolg**. Sei offen für materiellen und spirituellen Wohlstand.</string>
-    <string name="digit_9_intro">✨ Die **\'9\'**%1$s zeigt den **Abschluss eines wichtigen Zyklus** an. Lass Altes los, um Raum für Neues zu schaffen.</string>
+    <string name="digit_0_intro">Die **\'0\'**%1$s verstärkt alles. Sie ist ein Zeichen göttlicher Präsenz und unendlichen Potenzials.</string>
+    <string name="digit_1_intro">Die **\'1\'**%1$s ruft dich zu einem **kraftvollen Neubeginn**. Deine Gedanken manifestieren sich jetzt schnell.</string>
+    <string name="digit_2_intro">Die **\'2\'**%1$s bringt **Balance und Harmonie**, besonders in Beziehungen. Du bist nicht allein.</string>
+    <string name="digit_3_intro">Die **\'3\'**%1$s aktiviert deine **Kreativität und Kommunikation**. Drücke dich aus, die geistige Welt hört zu.</string>
+    <string name="digit_4_intro">Die **\'4\'**%1$s schafft ein **stabiles Fundament**. Diese Energie bringt Schutz und Struktur in dein Leben.</string>
+    <string name="digit_5_intro">Die **\'5\'**%1$s signalisiert eine **Welle der Veränderung und Freiheit**. Sei offen für Abenteuer und sprenge alte Ketten.</string>
+    <string name="digit_6_intro">Die **\'6\'**%1$s lenkt den Fokus auf **Heilung für Herz und Heim**. Familie und Harmonie stehen jetzt im Mittelpunkt.</string>
+    <string name="digit_7_intro">Die **\'7\'**%1$s macht deine **Intuition zum wichtigsten Kompass**. Lausche nach innen, die Wahrheit liegt in dir.</string>
+    <string name="digit_8_intro">Die **\'8\'**%1$s aktiviert die Energie von **Fülle und Erfolg**. Sei offen für materiellen und spirituellen Wohlstand.</string>
+    <string name="digit_9_intro">Die **\'9\'**%1$s zeigt den **Abschluss eines wichtigen Zyklus** an. Lass Altes los, um Raum für Neues zu schaffen.</string>
 
     <!-- Numerologie Grundbedeutungen -->
     <string name="numerology_1">Neubeginn &amp; Führung</string>
@@ -40,9 +42,15 @@
     <string name="numerology_7">Intuition &amp; Erwachen</string>
     <string name="numerology_8">Erfolg &amp; Fülle</string>
     <string name="numerology_9">Vollendung &amp; Weisheit</string>
-    <string name="numerology_11">Meister-Intuition</string>
-    <string name="numerology_22">Meister-Manifestation</string>
-    <string name="numerology_33">Meister-Heiler</string>
+    <string name="numerology_11">Spiritueller Visionär</string>
+    <string name="numerology_22">Meister-Baumeister</string>
+    <string name="numerology_33">Meister-Lehrer</string>
+    <string name="numerology_44">Meister der Stabilität</string>
+    <string name="numerology_55">Meister der Freiheit</string>
+    <string name="numerology_66">Meister der bedingungslosen Liebe</string>
+    <string name="numerology_77">Meister der Weisheit</string>
+    <string name="numerology_88">Meister der Macht</string>
+    <string name="numerology_99">Meister der Vollendung</string>
     <string name="numerology_unknown">Unbekannt</string>
 
     <!-- Numerologie Keywords -->
@@ -58,29 +66,15 @@
     <string name="keyword_9">Vollendung</string>
 
     <!-- Numerologie Spezialbedeutungen (Meisterzahlen & Hohe Schwingungen) -->
-    <string name="master_number_11">Meisterzahl 11: Intuition &amp; Erleuchtung</string>
-    <string name="master_number_22">Meisterzahl 22: Baumeister &amp; Manifestation</string>
-    <string name="master_number_33">Meisterzahl 33: Universelle Liebe &amp; Heilung</string>
-    <string name="master_number_44">Meisterzahl 44: Der Meister-Heiler. Du verbindest materielle und spirituelle Welten.</string>
-    <string name="special_number_55">Spezialschwingung 55: Radikaler Wandel &amp; Freiheit</string>
-    <string name="special_number_66">Spezialschwingung 66: Universelle Liebe &amp; Mitgefühl</string>
-    <string name="special_number_77">Spezialschwingung 77: Tiefe spirituelle Einsicht</string>
-    <string name="special_number_88">Spezialschwingung 88: Unendliche Fülle &amp; Balance</string>
-    <string name="special_number_99">Spezialschwingung 99: Universelles Bewusstsein &amp; Dienst</string>
-
-    <!-- Karmische Lektionen (Kurztexte für Listen) -->
-    <string name="karmic_lesson_4">Karmische Lektion 4: Stabilität und harte Arbeit.</string>
-    <string name="karmic_lesson_5">Karmische Lektion 5: Freiheit und Disziplin.</string>
-    <string name="karmic_lesson_7">Karmische Lektion 7: Vertrauen und Offenheit.</string>
-    <string name="karmic_lesson_8">Karmische Lektion 8: Fülle und Machtmissbrauch.</string>
-    <string name="karmic_lesson_10">Karmische Lektion 10: Schicksalsrad / Neuanfang</string>
-    <string name="karmic_lesson_11">Karmische Lektion 11: Lektion der spirituellen Meisterschaft &amp; des Gleichgewichts</string>
-    <string name="karmic_lesson_13">Karmische Lektion 13: Lektion der Arbeit &amp; Fokus (Transformation)</string>
-    <string name="karmic_lesson_14">Karmische Lektion 14: Lektion der Freiheit &amp; Mäßigung</string>
-    <string name="karmic_lesson_16">Karmische Lektion 16: Lektion des Erwachens &amp; der Demut</string>
-    <string name="karmic_lesson_19">Karmische Lektion 19: Lektion der Macht &amp; Unabhängigkeit</string>
-    <string name="karmic_lesson_22">Karmische Lektion 22: Lektion des Meisterschöpfers &amp; der Verantwortung</string>
-    <string name="karmic_lesson_33">Karmische Lektion 33: Lektion des Meisters der heilenden Liebe</string>
+    <string name="master_number_11">11: Intuition &amp; Erleuchtung</string>
+    <string name="master_number_22">22: Baumeister &amp; Manifestation</string>
+    <string name="master_number_33">33: Universelle Liebe &amp; Heilung</string>
+    <string name="master_number_44">44: Der Meister-Heiler. Du verbindest materielle und spirituelle Welten.</string>
+    <string name="special_number_55">55: Radikaler Wandel &amp; Freiheit</string>
+    <string name="special_number_66">66: Universelle Liebe &amp; Mitgefühl</string>
+    <string name="special_number_77">77: Tiefe spirituelle Einsicht</string>
+    <string name="special_number_88">88: Unendliche Fülle &amp; Balance</string>
+    <string name="special_number_99">99: Universelles Bewusstsein &amp; Dienst</string>
 
     <!-- Karmische Details -->
     <string name="karmic_detail_1">Karmisches Detail 1: Selbstverantwortung\n→ Höre auf, Schuld im Außen zu suchen\n→ Erkenne: Ich bin Mit-Schöpfer meines Lebens\n→ Mut zum eigenen Weg</string>
@@ -97,33 +91,55 @@
     <string name="karmic_detail_12">Karmisches Detail 12: Perspektivwechsel\n→ Dienen ohne Opferrolle\n→ Dinge aus neuer Sicht betrachten\n→ Weisheit durch Hingabe</string>
     <string name="karmic_detail_13">Karmisches Detail 13: Ego &amp; Transformation\n→ Ego loslassen (Stolz, Rechthaberei)\n→ Demut ohne Selbstaufgabe üben\n→ Transformation durch Arbeit und Fokus</string>
     <string name="karmic_detail_14">Karmisches Detail 14: Loslassen von Abhängigkeiten\n→ Freiheit statt Bindung aus Angst\n→ Mäßigung finden\n→ Emotionale Unabhängigkeit stärken</string>
+    <string name="karmic_detail_15">Karmisches Detail 15: Bewusstes Loslassen\n→ Erkenne, welche Bindungen dein Wachstum blockieren\n→ Praktiziere achtsames Loslassen in Gedanken und Handlungen\n→ Vertrau, dass das, was losgelassen wird, neues Leben einläutet</string>
     <string name="karmic_detail_16">Karmisches Detail 16: Erwachen &amp; Authentizität\n→ Alte Strukturen brechen auf\n→ Wahre Authentizität finden\n→ Illusionen fallen lassen</string>
+    <string name="karmic_detail_17">Karmisches Detail 17: Spirituelle Autorität\n→ Vertraue deiner inneren Weisheit\n→ Führe ohne Ego und Dominanz\n→ Erfolg entsteht durch Integrität</string>
+    <string name="karmic_detail_18">Karmisches Detail 18: Emotionale Klarheit\n→ Illusionen in Wahrheit verwandeln\n→ Alte emotionale Muster heilen\n→ Mitgefühl ohne Selbstaufgabe leben</string>
     <string name="karmic_detail_19">Karmisches Detail 19: Selbstwert &amp; Macht\n→ Sich nicht über Leistung definieren\n→ Macht und Ohnmacht heilen\n→ Hilfe annehmen lernen</string>
     <string name="karmic_detail_20">Karmisches Detail 20: Erwachen &amp; Urteil\n→ Geduld und höheres Verständnis\n→ Spirituelle Diplomatie</string>
     <string name="karmic_detail_21">Karmisches Detail 21: Weltausdruck\n→ Erfolg nach langer Reise\n→ Integration der Gegensätze\n→ Vollendung im Außen</string>
     <string name="karmic_detail_22">Karmisches Detail 22: Der Baumeister\n→ Große Träume manifestieren\n→ Verantwortung für Talente übernehmen\n→ Dienen ohne Selbstverlust</string>
     <string name="karmic_detail_23">Karmisches Detail 23: Der Königliche Löwe\n→ Schutz &amp; Erfolg\n→ Freiheit im Ausdruck\n→ Flexibilität bewahren</string>
     <string name="karmic_detail_24">Karmisches Detail 24: Heilung des Herzens\n→ Seelenverträge erfüllen &amp; lösen\n→ Liebe und Dienst am Nächsten\n→ Stabilität in Gefühlen</string>
+    <string name="karmic_detail_25">Karmisches Detail 25: Das innere Kind heilen\n→ Lausche den stillen Bedürfnissen deines inneren Kindes\n→ Nähere dich mit Liebe, Fürsorge und Vertrauen\n→ Integriere die Heilung in dein volles Erwachsensein</string>
+    <string name="karmic_detail_26">Karmisches Detail 26: Bewusstsein für den Atem\n→ Werde dir deines Atems in jedem Moment bewusst\n→ Nutze bewusstes Atmen als Anker für innere Ruhe\n→ Lerne, Atem als Spiegel deiner aktuellen Energie zu sehen</string>
     <string name="karmic_detail_27">Karmisches Detail 27: Dienst am Ganzen\n→ Heilung nicht nur für sich selbst\n→ Wirkung für andere erzielen\n→ Spirituelle Einsicht</string>
+    <string name="karmic_detail_28">Karmisches Detail 28: Konflikttransformation\n→ Identifiziere inneren und äußeren Konflikt als Lernchance\n→ Verändere Perspektive, um aus dem Konflikt zu wachsen\n→ Bringe Harmonie her, indem du Konflikte integrierst</string>
+    <string name="karmic_detail_29">Karmisches Detail 29: Selbstverwirklichung durch Kreativität\n→ Erlaube dir, deine künstlerische und kreative Seite zu leben\n→ Nutze Kreativität als Ausdruck deiner wahren Identität\n→ Teile dein Werk, um andere zu inspirieren und zu stärken</string>
     <string name="karmic_detail_30">Karmisches Detail 30: Kreativer Ausdruck\n→ Gefühle zulassen (nicht verdrängen)\n→ Freude als Wegweiser\n→ Emotionen als Lehrer erkennen</string>
     <string name="karmic_detail_31">Karmisches Detail 31: Stabilität im Selbst\n→ Berufung statt Pflicht\n→ Gaben nicht verstecken\n→ Ordnung ins Chaos bringen</string>
+    <string name="karmic_detail_32">Karmisches Detail 32: Energie der Dankbarkeit\n→ Kultiviere täglich ein Bewusstsein für das, was du hast\n→ Verändere deine Perspektive durch gezielte Dankbarkeitspraxis\n→ Ansteuern von Fülle und Wohlbefinden, indem du dankbar bist</string>
     <string name="karmic_detail_33">Karmisches Detail 33: Der Meister-Lehrer\n→ Universelle heilende Liebe\n→ Mitgefühl ohne Leiden\n→ Dienst an der Menschheit</string>
 
-    <!-- Spezifische Zusammenfassungen & Energieflüsse (Kombinationen) -->
-    <string name="summary_default">Deine Hauptbotschaft lautet: Höre auf deine innere Stimme, du wirst geführt.</string>
-    <string name="energy_flow_default">Klarheit → Vertrauen → Handlung</string>
-    <string name="summary_99_1">Ein sehr bedeutender karmischer Zyklus ist endgültig abgeschlossen. Dies schafft Raum für einen mächtigen, göttlich geführten Neubeginn.</string>
-    <string name="energy_flow_99_1">Vollendung → Befreiung → Neubeginn</string>
-    <string name="summary_8_55">Ein massiver, positiver Wandel (doppelte 5) bringt dich in deine Fülle und materielle Verbesserung (8). Ein Durchbruch steht bevor.</string>
-    <string name="energy_flow_8_55">Durchbruch → Freiheit → Stabilität</string>
-    <string name="summary_11_22">Meister-Allianz: Vision (11) trifft auf Manifestation (22). Du hast jetzt die Kraft, große Träume real werden zu lassen.</string>
-    <string name="energy_flow_11_22">Idee → Plan → Realität</string>
-    <string name="summary_7_77">Dreifache mystische Kraft. Deine Verbindung zur geistigen Welt ist extrem verstärkt. Achte auf Träume und Zeichen.</string>
-    <string name="energy_flow_7_77">Stille → Einsicht → Erwachen</string>
-    <string name="summary_4_8">Die Struktur (4) bildet das Fundament für den großen Erfolg (8). Harte Arbeit zahlt sich jetzt finanziell aus.</string>
-    <string name="energy_flow_4_8">Disziplin → Aufbau → Reichtum</string>
-    <string name="summary_1_9">Anfang und Ende berühren sich. Du schließt eine Tür, um sofort eine neue zu öffnen. Ein schneller Übergang.</string>
-    <string name="energy_flow_1_9">Loslassen → Mut → Neustart</string>
-    <string name="summary_3_33">Höchster kreativer Ausdruck. Deine Worte oder Kunst haben jetzt eine heilende Wirkung auf andere.</string>
-    <string name="energy_flow_3_33">Freude → Ausdruck → Heilung</string>
+    <!-- Spezifische Zusammenfassungen -->
+    <string name="summary_default">Die Energien dieser Zahl wirken ausgewogen zusammen. Achte bewusst auf deine Gedanken und Entscheidungen – sie formen jetzt deine Realität.</string>
+    <string name="summary_master_11">Erleuchtung &amp; Inspiration. Deine innere Führung ist jetzt besonders stark. Achte auf Zeichen, Intuition und Eingebungen.</string>
+    <string name="summary_master_22">Vision wird durch geordnete Handlung zur Wirklichkeit. Große Manifestation ist möglich.</string>
+    <string name="summary_master_33">Universelle Liebe &amp; Heilung. Deine Worte und Taten tragen eine heilende Kraft für andere.</string>
+    <string name="summary_master_44">Stabilität &amp; Schutz. Du erschaffst tragfähige Strukturen mit langfristiger Wirkung.</string>
+    <string name="summary_master_55">Radikale Transformation. Ein tiefgreifender Wandel bringt Freiheit und neue Möglichkeiten.</string>
+    <string name="summary_master_66">Herzöffnung &amp; Verantwortung. Heilung entsteht durch Mitgefühl und bewusste Fürsorge.</string>
+    <string name="summary_master_77">Spirituelles Erwachen. Deine Verbindung zur geistigen Ebene ist intensiviert.</string>
+    <string name="summary_master_88">Macht &amp; Überfluss. Materieller und spiritueller Erfolg kommen in Balance.</string>
+    <string name="summary_master_99">Vollendung &amp; karmische Reife. Ein bedeutender Zyklus wird abgeschlossen.</string>
+    <string name="summary_multi_master">Mehrere Meisterenergien wirken gleichzeitig. Diese Phase ist kraftvoll, intensiv und von hoher spiritueller Bedeutung.</string>
+    <string name="summary_repeat_0">Verstärkte Urenergie. Alles wird intensiviert – Gedanken, Gefühle und Absichten wirken besonders stark. Bewusstheit ist jetzt entscheidend.</string>
+    <string name="summary_repeat_1">Starke Führungsenergie. Eigeninitiative und klare Entscheidungen bringen dich voran. Du gestaltest deinen Weg aktiv.</string>
+    <string name="summary_repeat_2">Verstärkte Beziehungsenergie. Harmonie entsteht durch bewusstes Zuhören und Ausgleich. Kooperation bringt jetzt Stabilität.</string>
+    <string name="summary_repeat_3">Starker kreativer Ausdruck. Deine Stimme und Ideen wollen sichtbar werden. Kommunikation bringt Wachstum und Inspiration.</string>
+    <string name="summary_repeat_4">Intensive Strukturenergie. Ordnung, Disziplin und klare Grenzen schaffen Sicherheit. Stabilität wird jetzt aufgebaut.</string>
+    <string name="summary_repeat_5">Kraftvolle Wandelenergie. Veränderung ist unausweichlich und öffnet neue Wege. Flexibilität bringt Freiheit.</string>
+    <string name="summary_repeat_6">Verstärkte Herzenergie. Verantwortung, Fürsorge und Heilung stehen im Mittelpunkt. Liebe zeigt sich im Handeln.</string>
+    <string name="summary_repeat_7">Tiefe spirituelle Energie. Innenschau und Erkenntnis führen zu innerer Klarheit. Vertraue deiner Intuition.</string>
+    <string name="summary_repeat_8">Starke Manifestationsenergie. Materielle und geistige Kraft verbinden sich. Fokus und Verantwortung bringen Erfolg.</string>
+    <string name="summary_repeat_9">Intensive Abschlussenergie. Ein Zyklus vollendet sich bewusst. Loslassen schafft Raum für höhere Weisheit.</string>
+    <string name="summary_1">Neubeginn &amp; Führung – Jetzt ist der Moment, Initiative zu ergreifen und deinen eigenen Weg zu gehen.</string>
+    <string name="summary_2">Balance &amp; Verbindung – Harmonie entsteht durch bewusstes Geben und Empfangen.</string>
+    <string name="summary_3">Kreativität &amp; Ausdruck – Deine Stimme, Kunst oder Ideen wollen sichtbar werden.</string>
+    <string name="summary_4">Stabilität &amp; Struktur – Ordnung und Disziplin schaffen Sicherheit und Wachstum.</string>
+    <string name="summary_5">Wandel &amp; Freiheit – Veränderung bringt neue Möglichkeiten. Bleibe flexibel.</string>
+    <string name="summary_6">Liebe &amp; Verantwortung – Herz, Familie und Fürsorge stehen im Mittelpunkt.</string>
+    <string name="summary_7">Intuition &amp; Erwachen – Innere Führung ist jetzt wichtiger als äußere Meinungen.</string>
+    <string name="summary_8">Erfolg &amp; Fülle – Manifestation und sichtbare Ergebnisse treten in dein Leben.</string>
+    <string name="summary_9">Vollendung &amp; Loslassen – Ein Zyklus endet, um Raum für Neues zu schaffen.</string>
 </resources>

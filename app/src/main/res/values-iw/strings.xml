@@ -6,32 +6,34 @@
     <string name="new_message">הודעה חדשה</string>
     <string name="copy_message">העתק הודעה</string>
     <string name="clipboard_label">הודעה קסומה</string>
-    <string name="welcome_message">לחץ על \"הודעה חדשה\" כדי לקבל את קצב הרגע.</string>
-    <string name="message_for_the_moment">המסר לרגע זה: %1$s</string>
-    <string name="your_cross_sum_is">סכום הספרות שלך הוא: %1$s</string>
-    <string name="digit_occurrence">(מופיע %1$dx, בעוצמה מוגברת)</string>
-    <string name="frequency_label">תדר</string>
+    <string name="welcome_message">לחץ על \"הודעה חדשה\" כדי לקבל את הקצב של הרגע.</string>
+    <string name="your_cross_sum_is">סכום הספרות שלך הוא:</string>
+    <string name="digit_occurrence">(מופיע %1$dx פעמים, בעוצמה מוגברת)</string>
 
-    <!-- Sektions-Überschriften -->
-    <string name="section_vibration">🧬 תנודת הספרות:</string>
-    <string name="section_your_message">💌 המסר שלך:</string>
-    <string name="section_summary">✨ סיכום:</string>
+    <!-- Sections -->
+    <string name="section_message_for_the_moment">💌 מסר לרגע זה: %1$s</string>
+    <string name="section_frequency">🌀 תדר:</string>
+    <string name="section_vibration">🧬 רטט הספרות:</string>
+    <string name="section_master_energy">👑 אנרגיית מאסטר:</string>
+    <string name="section_angel">🕊️ דחף מלאכי:</string>
+    <string name="section_description_numbers">🔢 תיאור הספרות:</string>
+    <string name="section_summary">📖 סיכום:</string>
     <string name="section_energy">⚡️ זרימת אנרגיה:</string>
 
-    <!-- Hauptnachrichten Templates (pro Ziffer) -->
-    <string name="digit_0_intro">✨ הספרה **\'0\'**%1$s מגבירה הכול. זהו סימן לנוכחות אלוהית ולפוטנציאל אינסופי.</string>
-    <string name="digit_1_intro">✨ הספרה **\'1\'**%1$s קוראת לך ל**התחלה חדשה ועוצמתית**. מחשבותיך מתגשמות כעת במהירות.</string>
-    <string name="digit_2_intro">✨ הספרה **\'2\'**%1$s מביאה **איזון והרמוניה**, במיוחד במערכות יחסים. אינך לבד.</string>
-    <string name="digit_3_intro">✨ הספרה **\'3\'**%1$s מפעילה את **היצירתיות והתקשורת** שלך. התבטא — העולם הרוחני מקשיב.</string>
-    <string name="digit_4_intro">✨ הספרה **\'4\'**%1$s יוצרת **יסוד יציב**. אנרגיה זו מביאה הגנה ומבנה לחייך.</string>
-    <string name="digit_5_intro">✨ הספרה **\'5\'**%1$s מסמנת **גל של שינוי וחופש**. היה פתוח להרפתקאות ושבור כבלים ישנים.</string>
-    <string name="digit_6_intro">✨ הספרה **\'6\'**%1$s מפנה את המיקוד ל**ריפוי הלב והבית**. משפחה והרמוניה נמצאות כעת במרכז.</string>
-    <string name="digit_7_intro">✨ הספרה **\'7\'**%1$s הופכת את **האינטואיציה שלך למצפן החשוב ביותר**. הקשב פנימה — האמת נמצאת בתוכך.</string>
-    <string name="digit_8_intro">✨ הספרה **\'8\'**%1$s מפעילה את אנרגיית **השפע וההצלחה**. היה פתוח לרווחה חומרית ורוחנית.</string>
-    <string name="digit_9_intro">✨ הספרה **\'9\'**%1$s מציינת **סיום של מחזור חשוב**. שחרר את הישן כדי לפנות מקום לחדש.</string>
+    <!-- Main Messages -->
+    <string name="digit_0_intro">המספר **\'0\'**%1$s מגביר הכול. זהו סימן לנוכחות אלוהית ולפוטנציאל אינסופי.</string>
+    <string name="digit_1_intro">המספר **\'1\'**%1$s קורא לך ל**התחלה חדשה ועוצמתית**. מחשבותיך מתגשמות במהירות.</string>
+    <string name="digit_2_intro">המספר **\'2\'**%1$s מביא **איזון והרמוניה**, במיוחד במערכות יחסים. אינך לבד.</string>
+    <string name="digit_3_intro">המספר **\'3\'**%1$s מפעיל את **היצירתיות והתקשורת** שלך. בטא את עצמך — העולם הרוחני מקשיב.</string>
+    <string name="digit_4_intro">המספר **\'4\'**%1$s יוצר **בסיס יציב**. אנרגיה זו מביאה הגנה ומבנה לחייך.</string>
+    <string name="digit_5_intro">המספר **\'5\'**%1$s מסמן **גל של שינוי וחופש**. היה פתוח להרפתקאות ושבור שרשראות ישנות.</string>
+    <string name="digit_6_intro">המספר **\'6\'**%1$s ממקד את תשומת הלב ב**ריפוי הלב והבית**. משפחה והרמוניה עומדות במרכז.</string>
+    <string name="digit_7_intro">המספר **\'7\'**%1$s הופך את **האינטואיציה למצפן העיקרי** שלך. הקשב פנימה — האמת בתוכך.</string>
+    <string name="digit_8_intro">המספר **\'8\'**%1$s מפעיל אנרגיה של **שפע והצלחה**. היה פתוח לרווחה חומרית ורוחנית.</string>
+    <string name="digit_9_intro">המספר **\'9\'**%1$s מציין **סיום של מחזור חשוב**. שחרר את הישן כדי לפנות מקום לחדש.</string>
 
-    <!-- Numerologie Grundbedeutungen -->
-    <string name="numerology_1">התחלה חדשה &amp; הנהגה</string>
+    <!-- Core Meanings -->
+    <string name="numerology_1">התחלה חדשה &amp; מנהיגות</string>
     <string name="numerology_2">הרמוניה &amp; איזון</string>
     <string name="numerology_3">יצירתיות &amp; צמיחה</string>
     <string name="numerology_4">יציבות &amp; הגנה</string>
@@ -39,13 +41,19 @@
     <string name="numerology_6">אהבה &amp; הרמוניה</string>
     <string name="numerology_7">אינטואיציה &amp; התעוררות</string>
     <string name="numerology_8">הצלחה &amp; שפע</string>
-    <string name="numerology_9">השלמה &amp; חכמה</string>
-    <string name="numerology_11">אינטואיציית מאסטר</string>
-    <string name="numerology_22">מימוש מאסטר</string>
-    <string name="numerology_33">מרפא מאסטר</string>
+    <string name="numerology_9">השלמה &amp; חוכמה</string>
+    <string name="numerology_11">חזון רוחני</string>
+    <string name="numerology_22">מאסטר בונה</string>
+    <string name="numerology_33">מאסטר מורה</string>
+    <string name="numerology_44">מאסטר היציבות</string>
+    <string name="numerology_55">מאסטר החופש</string>
+    <string name="numerology_66">מאסטר האהבה הבלתי מותנית</string>
+    <string name="numerology_77">מאסטר החוכמה</string>
+    <string name="numerology_88">מאסטר הכוח</string>
+    <string name="numerology_99">מאסטר ההשלמה</string>
     <string name="numerology_unknown">לא ידוע</string>
 
-    <!-- Numerologie Keywords -->
+    <!-- Keywords -->
     <string name="keyword_0">מקור</string>
     <string name="keyword_1">התחלה</string>
     <string name="keyword_2">איזון</string>
@@ -57,73 +65,81 @@
     <string name="keyword_8">שפע</string>
     <string name="keyword_9">השלמה</string>
 
-    <!-- Numerologie Spezialbedeutungen (Meisterzahlen & Hohe Schwingungen) -->
-    <string name="master_number_11">מספר מאסטר 11: אינטואיציה &amp; הארה</string>
-    <string name="master_number_22">מספר מאסטר 22: בונה &amp; מימוש</string>
-    <string name="master_number_33">מספר מאסטר 33: אהבה אוניברסלית &amp; ריפוי</string>
-    <string name="master_number_44">מספר מאסטר 44: המרפא המאסטר. אתה מחבר בין העולם החומרי והרוחני.</string>
-    <string name="special_number_55">תדר מיוחד 55: שינוי רדיקלי &amp; חופש</string>
-    <string name="special_number_66">תדר מיוחד 66: אהבה אוניברסלית &amp; חמלה</string>
-    <string name="special_number_77">תדר מיוחד 77: תובנה רוחנית עמוקה</string>
-    <string name="special_number_88">תדר מיוחד 88: שפע אינסופי &amp; איזון</string>
-    <string name="special_number_99">תדר מיוחד 99: תודעה אוניברסלית &amp; שירות</string>
+    <!-- Special Meanings -->
+    <string name="master_number_11">11: אינטואיציה &amp; הארה</string>
+    <string name="master_number_22">22: בונה &amp; התגשמות</string>
+    <string name="master_number_33">33: אהבה אוניברסלית &amp; ריפוי</string>
+    <string name="master_number_44">44: מאסטר מרפא. אתה מחבר בין העולם החומרי והרוחני.</string>
+    <string name="special_number_55">55: שינוי רדיקלי &amp; חופש</string>
+    <string name="special_number_66">66: אהבה אוניברסלית &amp; חמלה</string>
+    <string name="special_number_77">77: תובנה רוחנית עמוקה</string>
+    <string name="special_number_88">88: שפע אינסופי &amp; איזון</string>
+    <string name="special_number_99">99: תודעה אוניברסלית &amp; שירות</string>
 
-    <!-- Karmische Lektionen (Kurztexte für Listen) -->
-    <string name="karmic_lesson_4">שיעור קארמתי 4: יציבות ועבודה קשה.</string>
-    <string name="karmic_lesson_5">שיעור קארמתי 5: חופש ומשמעת.</string>
-    <string name="karmic_lesson_7">שיעור קארמתי 7: אמון ופתיחות.</string>
-    <string name="karmic_lesson_8">שיעור קארמתי 8: שפע ושימוש לרעה בכוח.</string>
-    <string name="karmic_lesson_10">שיעור קארמתי 10: גלגל הגורל / התחלה חדשה</string>
-    <string name="karmic_lesson_11">שיעור קארמתי 11: שליטה רוחנית ואיזון</string>
-    <string name="karmic_lesson_13">שיעור קארמתי 13: עבודה ומיקוד (טרנספורמציה)</string>
-    <string name="karmic_lesson_14">שיעור קארמתי 14: חופש ומידתיות</string>
-    <string name="karmic_lesson_16">שיעור קארמתי 16: התעוררות וענווה</string>
-    <string name="karmic_lesson_19">שיעור קארמתי 19: כוח ועצמאות</string>
-    <string name="karmic_lesson_22">שיעור קארמתי 22: יוצר מאסטר ואחריות</string>
-    <string name="karmic_lesson_33">שיעור קארמתי 33: מאסטר של אהבה מרפאה</string>
+    <!-- Karmic Details 1–33 -->
+    <string name="karmic_detail_1">פרט קרמתי 1: אחריות אישית\n→ הפסק להאשים את החוץ\n→ הכרה: אני שותף ליצירת חיי\n→ אומץ ללכת בדרכך</string>
+    <string name="karmic_detail_2">פרט קרמתי 2: קשר ומראה\n→ הבן את חוק המראה\n→ אחרים משקפים חלקים לא פתורים\n→ דיפלומטיה בלי לוותר על עצמך\n→ שמור על סבלנות</string>
+    <string name="karmic_detail_3">פרט קרמתי 3: אותנטיות וביטוי\n→ חיה את האמת שלך\n→ הסר מסכות ותפקידים\n→ בטא רגשות ביצירתיות</string>
+    <string name="karmic_detail_4">פרט קרמתי 4: סבלנות ואמון\n→ אל תכפה הכול\n→ סמוך על התזמון האלוהי\n→ צור יציבות דרך סדר</string>
+    <string name="karmic_detail_5">פרט קרמתי 5: התמרת פחד\n→ אומץ במקום בריחה\n→ הפוך פחד מאובדן או מחסור\n→ חופש דרך אחריות</string>
+    <string name="karmic_detail_6">פרט קרמתי 6: אהבה וגבולות\n→ אהבה ללא תנאי ללא בעלות\n→ אמור "לא" בלי אשמה\n→ אל תקריב את עצמך</string>
+    <string name="karmic_detail_7">פרט קרמתי 7: אמון והכוונה\n→ סמוך על ההכוונה הרוחנית\n→ עקוב אחר האינטואיציה שלך\n→ פנה פנימה</string>
+    <string name="karmic_detail_8">פרט קרמתי 8: כוח ושפע\n→ שחרר תודעת מחסור\n→ איזון בין נתינה לקבלה\n→ רפא את יחסך לכוח</string>
+    <string name="karmic_detail_9">פרט קרמתי 9: שחרור וסליחה\n→ סלח לאחרים ולעצמך\n→ שחרר פצעים ישנים\n→ שרת את הכלל</string>
+    <string name="karmic_detail_10">פרט קרמתי 10: גלגל הגורל\n→ קבל את הגורל\n→ שחרר התנגדות\n→ התחלה חדשה מודעת</string>
+    <string name="karmic_detail_11">פרט קרמתי 11: החזון\n→ שלב אור וצל\n→ קבל הנהגה רוחנית\n→ היה השראה לאחרים</string>
+    <string name="karmic_detail_12">פרט קרמתי 12: שינוי נקודת מבט\n→ שרת ללא תודעת קורבן\n→ ראה דברים מזווית חדשה\n→ חוכמה דרך התמסרות</string>
+    <string name="karmic_detail_13">פרט קרמתי 13: אגו והתמרה\n→ שחרר גאווה ועקשנות\n→ ענווה בלי לאבד את עצמך\n→ התמרה דרך עבודה ומיקוד</string>
+    <string name="karmic_detail_14">פרט קרמתי 14: שחרור תלות\n→ חופש במקום היקשרות מפחד\n→ מצא מתינות\n→ חזק עצמאות רגשית</string>
+    <string name="karmic_detail_15">פרט קרמתי 15: שחרור מודע\n→ זהה קשרים המעכבים צמיחה\n→ תרגל שחרור במודעות\n→ בטח בהתחלה חדשה</string>
+    <string name="karmic_detail_16">פרט קרמתי 16: התעוררות ואותנטיות\n→ מבנים ישנים קורסים\n→ מצא את האני האמיתי\n→ אשליות נופלות</string>
+    <string name="karmic_detail_17">פרט קרמתי 17: סמכות רוחנית\n→ סמוך על חוכמתך הפנימית\n→ הנהג ללא אגו\n→ הצלחה דרך יושרה</string>
+    <string name="karmic_detail_18">פרט קרמתי 18: בהירות רגשית\n→ הפוך אשליה לאמת\n→ רפא דפוסים ישנים\n→ חמלה ללא הקרבה עצמית</string>
+    <string name="karmic_detail_19">פרט קרמתי 19: ערך עצמי וכוח\n→ אל תגדיר עצמך רק דרך הישגים\n→ רפא נושאי כוח וחוסר אונים\n→ למד לקבל עזרה</string>
+    <string name="karmic_detail_20">פרט קרמתי 20: התעוררות ושיפוט\n→ סבלנות והבנה גבוהה\n→ דיפלומטיה רוחנית</string>
+    <string name="karmic_detail_21">פרט קרמתי 21: ביטוי בעולם\n→ הצלחה לאחר מסע ארוך\n→ שילוב ניגודים\n→ הגשמה חיצונית</string>
+    <string name="karmic_detail_22">פרט קרמתי 22: הבונה\n→ הגשם חלומות גדולים\n→ קח אחריות על כישרונותיך\n→ שרת בלי לאבד עצמך</string>
+    <string name="karmic_detail_23">פרט קרמתי 23: האריה המלכותי\n→ הגנה והצלחה\n→ חופש ביטוי\n→ שמור על גמישות</string>
+    <string name="karmic_detail_24">פרט קרמתי 24: ריפוי הלב\n→ מלא ושחרר חוזי נשמה\n→ אהבה ושירות\n→ יציבות רגשית</string>
+    <string name="karmic_detail_25">פרט קרמתי 25: ריפוי הילד הפנימי\n→ הקשב לצרכים השקטים\n→ גש באהבה ודאגה\n→ שלב את הריפוי</string>
+    <string name="karmic_detail_26">פרט קרמתי 26: נשימה מודעת\n→ היה מודע לנשימתך\n→ השתמש בה כעוגן\n→ ראה בנשימה מראה לאנרגיה</string>
+    <string name="karmic_detail_27">פרט קרמתי 27: שירות לכלל\n→ ריפוי לא רק לעצמך\n→ השפע השפעה חיובית\n→ תובנה רוחנית</string>
+    <string name="karmic_detail_28">פרט קרמתי 28: התמרת קונפליקט\n→ ראה קונפליקט כהזדמנות למידה\n→ שנה נקודת מבט\n→ הבא הרמוניה דרך שילוב</string>
+    <string name="karmic_detail_29">פרט קרמתי 29: מימוש עצמי דרך יצירתיות\n→ הרשה לעצמך ליצור\n→ השתמש ביצירתיות כביטוי אותנטי\n→ שתף כדי להשראה</string>
+    <string name="karmic_detail_30">פרט קרמתי 30: ביטוי יצירתי\n→ אפשר לרגשות לזרום\n→ שמחה כמדריך\n→ רגשות הם מורים</string>
+    <string name="karmic_detail_31">פרט קרמתי 31: יציבות פנימית\n→ ייעוד במקום חובה\n→ אל תסתיר את מתנותיך\n→ הבא סדר לכאוס</string>
+    <string name="karmic_detail_32">פרט קרמתי 32: אנרגיית הכרת תודה\n→ טפח הכרת תודה יומיומית\n→ שנה נקודת מבט דרך תודה\n→ משוך שפע</string>
+    <string name="karmic_detail_33">פרט קרמתי 33: מאסטר מורה\n→ אהבה מרפאת אוניברסלית\n→ חמלה ללא סבל\n→ שירות לאנושות</string>
 
-    <!-- Karmische Details -->
-    <string name="karmic_detail_1">פרט קארמתי 1: אחריות אישית\n→ הפסק לחפש אשמה בחוץ\n→ הכר: אני שותף-יוצר של חיי\n→ אומץ ללכת בדרך שלך</string>
-    <string name="karmic_detail_2">פרט קארמתי 2: קשר &amp; מראה\n→ הכר בחוק המראה: אחרים משקפים חלקים לא פתורים\n→ דיפלומטיה ללא ויתור עצמי\n→ שמור על סבלנות</string>
-    <string name="karmic_detail_3">פרט קארמתי 3: אותנטיות &amp; ביטוי\n→ חיה את האמת שלך\n→ הסר מסכות ותפקידים\n→ בטא רגשות באופן יצירתי</string>
-    <string name="karmic_detail_4">פרט קארמתי 4: סבלנות &amp; אמון\n→ אל תכפה הכול\n→ סמוך על התזמון האלוהי\n→ צור יציבות באמצעות סדר</string>
-    <string name="karmic_detail_5">פרט קארמתי 5: טרנספורמציית פחד\n→ אומץ במקום בריחה\n→ המר פחד מאובדן או מחסור\n→ חופש דרך אחריות</string>
-    <string name="karmic_detail_6">פרט קארמתי 6: אהבה &amp; גבולות\n→ אהבה ללא תנאי בלי בעלות\n→ אמור \"לא\" בלי רגשות אשם\n→ אל תקריב את עצמך</string>
-    <string name="karmic_detail_7">פרט קארמתי 7: אמון &amp; הכוונה\n→ סמוך על ההכוונה הרוחנית\n→ עקוב אחר האינטואיציה והבחן בסימנים\n→ התבוננות פנימית במקום שליטה חיצונית</string>
-    <string name="karmic_detail_8">פרט קארמתי 8: כוח &amp; שפע\n→ שחרר תודעת מחסור\n→ נתינה וקבלה באיזון\n→ רפא כוח (ללא מניפולציה)</string>
-    <string name="karmic_detail_9">פרט קארמתי 9: שחרור &amp; סליחה\n→ סלח לאחרים ולעצמך\n→ שחרר פצעים ישנים\n→ שירות לקהילה</string>
-    <string name="karmic_detail_10">פרט קארמתי 10: גלגל הגורל\n→ קבל את הגורל\n→ שחרר התנגדות\n→ העז להתחלה חדשה ומודעת</string>
-    <string name="karmic_detail_11">פרט קארמתי 11: החוזה\n→ שלב דואליות (אור &amp; צל)\n→ קבל הנהגה רוחנית\n→ היה השראה לאחרים</string>
-    <string name="karmic_detail_12">פרט קארמתי 12: שינוי נקודת מבט\n→ לשרת ללא תפקיד הקורבן\n→ לראות דברים מזווית חדשה\n→ חכמה דרך ויתור</string>
-    <string name="karmic_detail_13">פרט קארמתי 13: אגו &amp; טרנספורמציה\n→ שחרר אגו (גאווה, רצון להיות צודק)\n→ תרגל ענווה בלי לאבד את עצמך\n→ טרנספורמציה דרך עבודה ומיקוד</string>
-    <string name="karmic_detail_14">פרט קארמתי 14: שחרור תלות\n→ חופש במקום היקשרות מתוך פחד\n→ מצא מידה נכונה\n→ חזק עצמאות רגשית</string>
-    <string name="karmic_detail_16">פרט קארמתי 16: התעוררות &amp; אותנטיות\n→ מבנים ישנים קורסים\n→ מצא אותנטיות אמיתית\n→ אשליות נופלות</string>
-    <string name="karmic_detail_19">פרט קארמתי 19: ערך עצמי &amp; כוח\n→ אל תגדיר את עצמך רק דרך הישגים\n→ רפא כוח וחוסר אונים\n→ למד לקבל עזרה</string>
-    <string name="karmic_detail_20">פרט קארמתי 20: התעוררות &amp; שיפוט\n→ סבלנות והבנה גבוהה יותר\n→ דיפלומטיה רוחנית</string>
-    <string name="karmic_detail_21">פרט קארמתי 21: ביטוי בעולם\n→ הצלחה לאחר מסע ארוך\n→ שילוב ניגודים\n→ השלמה במציאות החיצונית</string>
-    <string name="karmic_detail_22">פרט קארמתי 22: הבונה\n→ הגשם חלומות גדולים\n→ קח אחריות על כישרונותיך\n→ שירות בלי לאבד את עצמך</string>
-    <string name="karmic_detail_23">פרט קארמתי 23: האריה המלכותי\n→ הגנה &amp; הצלחה\n→ חופש ביטוי\n→ שמור על גמישות</string>
-    <string name="karmic_detail_24">פרט קארמתי 24: ריפוי הלב\n→ לממש ולשחרר חוזי נשמה\n→ אהבה ושירות לזולת\n→ יציבות רגשית</string>
-    <string name="karmic_detail_27">פרט קארמתי 27: שירות לשלם\n→ ריפוי לא רק לעצמך\n→ יצירת השפעה על אחרים\n→ תובנה רוחנית</string>
-    <string name="karmic_detail_30">פרט קארמתי 30: ביטוי יצירתי\n→ אפשר לרגשות להיות (אל תדכא)\n→ שמחה כמורה דרך\n→ הכרה ברגשות כמורים</string>
-    <string name="karmic_detail_31">פרט קארמתי 31: יציבות פנימית\n→ ייעוד במקום חובה\n→ אל תסתיר את מתנותיך\n→ הבא סדר לכאוס</string>
-    <string name="karmic_detail_33">פרט קארמתי 33: מורה-מאסטר\n→ אהבה אוניברסלית מרפאה\n→ חמלה ללא סבל\n→ שירות לאנושות</string>
-
-    <!-- Spezifische Zusammenfassungen & Energieflüsse (Kombinationen) -->
-    <string name="summary_default">המסר המרכזי שלך הוא: הקשב לקול הפנימי שלך, אתה מונחה.</string>
-    <string name="energy_flow_default">בהירות → אמון → פעולה</string>
-    <string name="summary_99_1">מחזור קארמתי משמעותי מאוד הסתיים לחלוטין. הדבר יוצר מרחב להתחלה חדשה ועוצמתית בהכוונה אלוהית.</string>
-    <string name="energy_flow_99_1">השלמה → שחרור → התחלה חדשה</string>
-    <string name="summary_8_55">שינוי חיובי ועוצמתי (כפול 5) מוביל אותך לשפע ולשיפור חומרי (8). פריצת דרך קרובה.</string>
-    <string name="energy_flow_8_55">פריצת דרך → חופש → יציבות</string>
-    <string name="summary_11_22">ברית מאסטר: חזון (11) פוגש מימוש (22). כעת יש לך את הכוח להגשים חלומות גדולים.</string>
-    <string name="energy_flow_11_22">רעיון → תוכנית → מציאות</string>
-    <string name="summary_7_77">כוח מיסטי משולש. הקשר שלך עם העולם הרוחני מחוזק מאוד. שים לב לחלומות ולסימנים.</string>
-    <string name="energy_flow_7_77">שקט → תובנה → התעוררות</string>
-    <string name="summary_4_8">המבנה (4) מהווה את היסוד להצלחה גדולה (8). עבודה קשה משתלמת כעת כלכלית.</string>
-    <string name="energy_flow_4_8">משמעת → בנייה → עושר</string>
-    <string name="summary_1_9">התחלה וסוף נוגעים זה בזה. אתה סוגר דלת אחת כדי לפתוח מיד אחרת. מעבר מהיר.</string>
-    <string name="energy_flow_1_9">שחרור → אומץ → התחלה מחדש</string>
-    <string name="summary_3_33">הביטוי היצירתי הגבוה ביותר. למילים או לאמנות שלך יש כעת השפעה מרפאה על אחרים.</string>
-    <string name="energy_flow_3_33">שמחה → ביטוי → ריפוי</string>
+    <!-- Summaries -->
+    <string name="summary_default">האנרגיות של מספר זה פועלות באיזון. היה מודע למחשבותיך והחלטותיך — הן יוצרות את מציאותך.</string>
+    <string name="summary_master_11">הארה והשראה. ההכוונה הפנימית שלך חזקה במיוחד כעת.</string>
+    <string name="summary_master_22">חזון הופך למציאות דרך פעולה מסודרת.</string>
+    <string name="summary_master_33">אהבה אוניברסלית וריפוי.</string>
+    <string name="summary_master_44">יציבות והגנה.</string>
+    <string name="summary_master_55">התמרה רדיקלית.</string>
+    <string name="summary_master_66">פתיחת הלב ואחריות.</string>
+    <string name="summary_master_77">התעוררות רוחנית.</string>
+    <string name="summary_master_88">כוח ושפע.</string>
+    <string name="summary_master_99">השלמה ובשלות קרמתית.</string>
+    <string name="summary_multi_master">מספר אנרגיות מאסטר פועלות יחד. שלב עוצמתי ואינטנסיבי.</string>
+    <string name="summary_repeat_0">אנרגיה בסיסית מוגברת. מחשבות וכוונות חזקות במיוחד.</string>
+    <string name="summary_repeat_1">אנרגיית הנהגה חזקה.</string>
+    <string name="summary_repeat_2">אנרגיית קשרים מוגברת.</string>
+    <string name="summary_repeat_3">ביטוי יצירתי עוצמתי.</string>
+    <string name="summary_repeat_4">אנרגיית מבנה אינטנסיבית.</string>
+    <string name="summary_repeat_5">אנרגיית שינוי חזקה.</string>
+    <string name="summary_repeat_6">אנרגיית לב מוגברת.</string>
+    <string name="summary_repeat_7">אנרגיה רוחנית עמוקה.</string>
+    <string name="summary_repeat_8">אנרגיית הגשמה חזקה.</string>
+    <string name="summary_repeat_9">אנרגיית סיום אינטנסיבית.</string>
+    <string name="summary_1">התחלה חדשה ומנהיגות — זה הזמן לפעול.</string>
+    <string name="summary_2">איזון וחיבור — הרמוניה דרך נתינה וקבלה.</string>
+    <string name="summary_3">יצירתיות וביטוי — תן לרעיונותיך לזרוח.</string>
+    <string name="summary_4">יציבות ומבנה — סדר מביא ביטחון.</string>
+    <string name="summary_5">שינוי וחופש — הישאר גמיש.</string>
+    <string name="summary_6">אהבה ואחריות — הלב מוביל את הדרך.</string>
+    <string name="summary_7">אינטואיציה והתעוררות — סמוך על קולך הפנימי.</string>
+    <string name="summary_8">הצלחה ושפע — תוצאות מתגשמות.</string>
+    <string name="summary_9">השלמה ושחרור — מחזור חדש מתחיל.</string>
 </resources>

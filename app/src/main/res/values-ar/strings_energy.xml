@@ -1,0 +1,59 @@
+<resources>
+    <!-- Default -->
+    <string name="energy_default">وضوح → ثقة → عمل</string>
+
+    <!-- Hauptzahlen -->
+    <string name="energy_core_1">دافع → قرار → بداية جديدة</string>
+    <string name="energy_core_2">لقاء → توازن → انسجام</string>
+    <string name="energy_core_3">خبرة → تعبير → نمو</string>
+    <string name="energy_core_4">نظام → بناء → استقرار</string>
+    <string name="energy_core_5">حركة → تغيير → حرية</string>
+    <string name="energy_core_6">رعاية → شفاء → انسجام</string>
+    <string name="energy_core_7">وضوح → إرشاد داخلي → إدراك</string>
+    <string name="energy_core_8">تركيز → عمل → نجاح</string>
+    <string name="energy_core_9">ختام → تحرر → تحول</string>
+
+    <!-- Grundzahlen -->
+    <string name="energy_0">المصدر → وعي → بداية جديدة</string>
+    <string name="energy_1">دافع → قرار → بداية جديدة</string>
+    <string name="energy_2">لقاء → توازن → انسجام</string>
+    <string name="energy_3">خبرة → تعبير → نمو</string>
+    <string name="energy_4">نظام → هيكل → استقرار</string>
+    <string name="energy_5">حركة → تغيير → حرية</string>
+    <string name="energy_6">رعاية → شفاء → انسجام</string>
+    <string name="energy_7">وضوح → إرشاد داخلي → يقظة</string>
+    <string name="energy_8">تركيز → عمل → نجاح</string>
+    <string name="energy_9">ختام → تحرر → تحول</string>
+
+    <!-- Dominante Wiederholungen -->
+    <string name="energy_repeat_0">الأصل → إمكانات → خلق</string>
+    <string name="energy_repeat_1">دافع → قرار → مبادرة</string>
+    <string name="energy_repeat_2">ارتباط → توازن → انسجام</string>
+    <string name="energy_repeat_3">فرح → تعبير → نمو</string>
+    <string name="energy_repeat_4">نظام → استقرار → أساس</string>
+    <string name="energy_repeat_5">حركة → تغيير → حرية</string>
+    <string name="energy_repeat_6">رعاية → شفاء → انسجام</string>
+    <string name="energy_repeat_7">سكون → إرشاد داخلي → يقظة</string>
+    <string name="energy_repeat_8">قوة → وفرة → نجاح</string>
+    <string name="energy_repeat_9">ختام → تحرر → تحول</string>
+
+    <!-- Meisterzahlen -->
+    <string name="energy_11">إلهام → وعي → استنارة</string>
+    <string name="energy_22">رؤية → هيكل → تجلٍ</string>
+    <string name="energy_33">حب → تعبير → شفاء</string>
+    <string name="energy_44">انضباط → استقرار → إتقان</string>
+
+    <!-- Erweiterte Doppelzahlen -->
+    <string name="energy_55">حركة → تحرر → اختراق</string>
+    <string name="energy_66">انفتاح القلب → مسؤولية → انسجام</string>
+    <string name="energy_77">سكون → حكمة داخلية → يقظة</string>
+    <string name="energy_88">قوة → وفرة → تجلٍ</string>
+    <string name="energy_99">اكتمال → تحرر → تجدد</string>
+
+    <!-- Meisterzahlen -->
+    <string name="energy_master_11">إلهام → وعي → استنارة</string>
+    <string name="energy_master_22">رؤية → هيكل → تجلٍ</string>
+    <string name="energy_master_33">حب → تعبير → شفاء</string>
+    <string name="energy_master_44">انضباط → استقرار → إتقان</string>
+    <string name="energy_multi_master">إرشاد داخلي → تجلٍ واعٍ → تأثير روحي</string>
+</resources>

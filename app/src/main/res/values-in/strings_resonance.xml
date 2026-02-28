@@ -1,74 +1,53 @@
 <resources>
     <!-- =====================================================
-         Resonance – General labels (shared)
+         Resonansi – Label umum (bersama)
     ====================================================== -->
-    <string name="resonance_prefix">🔮</string>
-    <string name="resonance_focus_none">Fokus: seimbang (tidak ada pengulangan langsung)</string>
+    <string name="resonance_focus_none">Fokus: terdistribusi merata (tanpa pengulangan langsung)</string>
     <string name="resonance_focus_frame">Fokus: awal &amp; akhir (tema bingkai)</string>
     <string name="resonance_focus_center">Fokus: pusat (impuls inti)</string>
     <string name="resonance_focus_start">Fokus: awal (identitas / fase awal)</string>
     <string name="resonance_focus_end">Fokus: akhir (hasil / langkah berikutnya)</string>
 
     <!-- =====================================================
-         Resonance (4-digit) – IDs
+         Resonansi (4 digit) – Judul
     ====================================================== -->
-    <string name="resonance4_id_mono">R4_MONO</string>
-    <string name="resonance4_id_aabb">R4_AABB</string>
-    <string name="resonance4_id_abab">R4_ABAB</string>
-    <string name="resonance4_id_abba">R4_ABBA</string>
-    <string name="resonance4_id_abcd">R4_ABCD</string>
-    <string name="resonance4_id_none">R4_NONE</string>
+    <string name="resonance4_title_mono">🔮 Pola Resonansi (4): Monotipe</string>
+    <string name="resonance4_title_aabb">🔮 Pola Resonansi (4): Dua Fase</string>
+    <string name="resonance4_title_abab">🔮 Pola Resonansi (4): Pergantian</string>
+    <string name="resonance4_title_abba">🔮 Pola Resonansi (4): Cermin</string>
+    <string name="resonance4_title_abcd">🔮 Pola Resonansi (4): Distribusi Merata</string>
+    <string name="resonance4_title_none">🔮 Pola Resonansi: Kombinasi Bebas</string>
 
     <!-- =====================================================
-         Resonance (4-digit) – Titles
-    ====================================================== -->
-    <string name="resonance4_title_mono">Pola Resonansi (4): Monotipe</string>
-    <string name="resonance4_title_aabb">Pola Resonansi (4): Dua Fase</string>
-    <string name="resonance4_title_abab">Pola Resonansi (4): Pergantian</string>
-    <string name="resonance4_title_abba">Pola Resonansi (4): Cermin</string>
-    <string name="resonance4_title_abcd">Pola Resonansi (4): Distribusi Merata</string>
-    <string name="resonance4_title_none">Pola Resonansi: Kombinasi Bebas</string>
-
-    <!-- =====================================================
-         Resonance (4-digit) – Short meanings
+         Resonansi (4 digit) – Makna singkat
     ====================================================== -->
     <string name="resonance4_meaning_mono">Penguatan maksimal – satu tema mendominasi sepenuhnya.</string>
-    <string name="resonance4_meaning_aabb">Transisi jelas – fase A diikuti oleh fase B.</string>
+    <string name="resonance4_meaning_aabb">Transisi jelas – fase A digantikan oleh fase B.</string>
     <string name="resonance4_meaning_abab">Ketegangan antara dua kutub – ritme, keseimbangan, keputusan.</string>
-    <string name="resonance4_meaning_abba">Pencerminan – wawasan melalui refleksi batin dan luar.</string>
-    <string name="resonance4_meaning_abcd">Aliran seimbang – tanpa pengulangan, energi netral dan terbuka.</string>
-    <string name="resonance4_meaning_none">Tidak ada pola dominan – energi tersusun bebas dan terbuka.</string>
+    <string name="resonance4_meaning_abba">Refleksi – pemahaman melalui cerminan dalam dan luar.</string>
+    <string name="resonance4_meaning_abcd">Aliran merata – tanpa pengulangan, energi terbuka dan netral.</string>
+    <string name="resonance4_meaning_none">Tidak ada pola dominan – energi dikombinasikan secara bebas dan terbuka.</string>
+    <string name="resonance4_meaning_ababab">Ketegangan antara dua kutub – ritme, keseimbangan, dan keputusan sadar membentuk energi ini.</string>
 
     <!-- =====================================================
-         Resonance (6-digit) – IDs
+         Resonansi (6 digit) – Judul
     ====================================================== -->
-    <string name="resonance6_id_mono">R6_MONO</string>
-    <string name="resonance6_id_aaabbb">R6_AAABBB</string>
-    <string name="resonance6_id_aabbcc">R6_AABBCC</string>
-    <string name="resonance6_id_ababab">R6_ABABAB</string>
-    <string name="resonance6_id_abcabc">R6_ABCABC</string>
-    <string name="resonance6_id_mirror">R6_MIRROR</string>
-    <string name="resonance6_id_none">R6_NONE</string>
+    <string name="resonance6_title_mono">🔮 Pola Resonansi (6): Monotipe</string>
+    <string name="resonance6_title_aaabbb">🔮 Pola Resonansi (6): Transisi</string>
+    <string name="resonance6_title_aabbcc">🔮 Pola Resonansi (6): Proses Bertahap</string>
+    <string name="resonance6_title_ababab">🔮 Pola Resonansi (6): Pergantian / Pendulum</string>
+    <string name="resonance6_title_abcabc">🔮 Pola Resonansi (6): Siklus</string>
+    <string name="resonance6_title_mirror">🔮 Pola Resonansi (6): Cermin</string>
+    <string name="resonance6_title_none">🔮 Pola Resonansi: Kombinasi Bebas</string>
 
     <!-- =====================================================
-         Resonance (6-digit) – Titles
+         Resonansi (6 digit) – Makna singkat
     ====================================================== -->
-    <string name="resonance6_title_mono">Pola Resonansi (6): Monotipe</string>
-    <string name="resonance6_title_aaabbb">Pola Resonansi (6): Transisi</string>
-    <string name="resonance6_title_aabbcc">Pola Resonansi (6): Proses Bertahap</string>
-    <string name="resonance6_title_ababab">Pola Resonansi (6): Pergantian / Ayunan</string>
-    <string name="resonance6_title_abcabc">Pola Resonansi (6): Siklus</string>
-    <string name="resonance6_title_mirror">Pola Resonansi (6): Cermin</string>
-    <string name="resonance6_title_none">Pola Resonansi: Kombinasi Bebas</string>
-
-    <!-- =====================================================
-         Resonance (6-digit) – Short meanings
-    ====================================================== -->
-    <string name="resonance6_meaning_mono">Penguatan maksimal – satu tema sangat dominan (berkah atau keterikatan).</string>
-    <string name="resonance6_meaning_aaabbb">Peralihan jelas: fase A → fase B (penutupan dan awal baru).</string>
-    <string name="resonance6_meaning_aabbcc">Perkembangan bertahap – pembelajaran dan integrasi langkah demi langkah.</string>
-    <string name="resonance6_meaning_ababab">Ketegangan antara dua kutub – menemukan keseimbangan, keputusan, dan ritme.</string>
+    <string name="resonance6_meaning_mono">Penguatan maksimal – satu tema sangat mendominasi (berkah atau keterikatan).</string>
+    <string name="resonance6_meaning_aaabbb">Perubahan jelas: fase A → fase B (penyelesaian dan awal baru).</string>
+    <string name="resonance6_meaning_aabbcc">Perkembangan bertahap – belajar dan integrasi langkah demi langkah.</string>
+    <string name="resonance6_meaning_ababab">Ketegangan antara dua kutub – temukan keseimbangan, keputusan, dan ritme.</string>
     <string name="resonance6_meaning_abcabc">Tema berulang – rutinitas, siklus, kesadaran melalui pengulangan.</string>
-    <string name="resonance6_meaning_mirror">Umpan balik – wawasan melalui pencerminan (dalam/luar).</string>
-    <string name="resonance6_meaning_none">Tidak ada pola dominan – energi tersusun bebas dan terbuka.</string>
+    <string name="resonance6_meaning_mirror">Umpan balik – pemahaman melalui pencerminan (dalam/luar).</string>
+    <string name="resonance6_meaning_none">Tidak ada pola dominan – energi dikombinasikan secara bebas dan terbuka.</string>
 </resources>

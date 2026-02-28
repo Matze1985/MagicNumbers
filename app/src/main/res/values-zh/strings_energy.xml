@@ -1,0 +1,59 @@
+<resources>
+    <!-- Default -->
+    <string name="energy_default">清晰 → 信任 → 行动</string>
+
+    <!-- 核心数字 -->
+    <string name="energy_core_1">冲动 → 决定 → 新的开始</string>
+    <string name="energy_core_2">相遇 → 平衡 → 和谐</string>
+    <string name="energy_core_3">体验 → 表达 → 成长</string>
+    <string name="energy_core_4">秩序 → 建立 → 稳定</string>
+    <string name="energy_core_5">移动 → 改变 → 自由</string>
+    <string name="energy_core_6">关怀 → 疗愈 → 和谐</string>
+    <string name="energy_core_7">清晰 → 内在指引 → 觉察</string>
+    <string name="energy_core_8">专注 → 行动 → 成功</string>
+    <string name="energy_core_9">完成 → 放下 → 转化</string>
+
+    <!-- 基础数字 -->
+    <string name="energy_0">源头 → 觉知 → 新的开始</string>
+    <string name="energy_1">冲动 → 决定 → 新的开始</string>
+    <string name="energy_2">相遇 → 平衡 → 和谐</string>
+    <string name="energy_3">体验 → 表达 → 成长</string>
+    <string name="energy_4">秩序 → 结构 → 稳定</string>
+    <string name="energy_5">移动 → 改变 → 自由</string>
+    <string name="energy_6">关怀 → 疗愈 → 和谐</string>
+    <string name="energy_7">清晰 → 内在指引 → 觉醒</string>
+    <string name="energy_8">专注 → 行动 → 成功</string>
+    <string name="energy_9">完成 → 放下 → 转化</string>
+
+    <!-- 主导重复 -->
+    <string name="energy_repeat_0">起源 → 潜能 → 创造</string>
+    <string name="energy_repeat_1">冲动 → 决定 → 主动</string>
+    <string name="energy_repeat_2">连接 → 平衡 → 和谐</string>
+    <string name="energy_repeat_3">喜悦 → 表达 → 成长</string>
+    <string name="energy_repeat_4">秩序 → 稳定 → 基础</string>
+    <string name="energy_repeat_5">移动 → 改变 → 自由</string>
+    <string name="energy_repeat_6">关怀 → 疗愈 → 和谐</string>
+    <string name="energy_repeat_7">宁静 → 内在指引 → 觉醒</string>
+    <string name="energy_repeat_8">力量 → 丰盛 → 成功</string>
+    <string name="energy_repeat_9">完成 → 放下 → 转化</string>
+
+    <!-- 大师数字 -->
+    <string name="energy_11">灵感 → 觉知 → 开悟</string>
+    <string name="energy_22">愿景 → 结构 → 显化</string>
+    <string name="energy_33">爱 → 表达 → 疗愈</string>
+    <string name="energy_44">纪律 → 稳定 → 精通</string>
+
+    <!-- 扩展双数 -->
+    <string name="energy_55">移动 → 解放 → 突破</string>
+    <string name="energy_66">心之开启 → 责任 → 和谐</string>
+    <string name="energy_77">宁静 → 内在智慧 → 觉醒</string>
+    <string name="energy_88">力量 → 丰盛 → 显化</string>
+    <string name="energy_99">圆满 → 放下 → 更新</string>
+
+    <!-- 大师数字 -->
+    <string name="energy_master_11">灵感 → 觉知 → 开悟</string>
+    <string name="energy_master_22">愿景 → 结构 → 显化</string>
+    <string name="energy_master_33">爱 → 表达 → 疗愈</string>
+    <string name="energy_master_44">纪律 → 稳定 → 精通</string>
+    <string name="energy_multi_master">内在指引 → 有意识的显化 → 灵性影响</string>
+</resources>

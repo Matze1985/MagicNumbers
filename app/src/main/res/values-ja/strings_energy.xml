@@ -1,0 +1,59 @@
+<resources>
+    <!-- Default -->
+    <string name="energy_default">明確さ → 信頼 → 行動</string>
+
+    <!-- 主要な数字 -->
+    <string name="energy_core_1">衝動 → 決断 → 新しい始まり</string>
+    <string name="energy_core_2">出会い → バランス → 調和</string>
+    <string name="energy_core_3">経験 → 表現 → 成長</string>
+    <string name="energy_core_4">秩序 → 構築 → 安定</string>
+    <string name="energy_core_5">動き → 変化 → 自由</string>
+    <string name="energy_core_6">思いやり → 癒し → 調和</string>
+    <string name="energy_core_7">明確さ → 内なる導き → 気づき</string>
+    <string name="energy_core_8">集中 → 行動 → 成功</string>
+    <string name="energy_core_9">完了 → 手放し → 変容</string>
+
+    <!-- 基本の数字 -->
+    <string name="energy_0">源 → 意識 → 新しい始まり</string>
+    <string name="energy_1">衝動 → 決断 → 新しい始まり</string>
+    <string name="energy_2">出会い → バランス → 調和</string>
+    <string name="energy_3">経験 → 表現 → 成長</string>
+    <string name="energy_4">秩序 → 構造 → 安定</string>
+    <string name="energy_5">動き → 変化 → 自由</string>
+    <string name="energy_6">思いやり → 癒し → 調和</string>
+    <string name="energy_7">明確さ → 内なる導き → 目覚め</string>
+    <string name="energy_8">集中 → 行動 → 成功</string>
+    <string name="energy_9">完了 → 手放し → 変容</string>
+
+    <!-- 支配的な繰り返し -->
+    <string name="energy_repeat_0">起源 → 可能性 → 創造</string>
+    <string name="energy_repeat_1">衝動 → 決断 → 主体性</string>
+    <string name="energy_repeat_2">つながり → バランス → 調和</string>
+    <string name="energy_repeat_3">喜び → 表現 → 成長</string>
+    <string name="energy_repeat_4">秩序 → 安定 → 基盤</string>
+    <string name="energy_repeat_5">動き → 変化 → 自由</string>
+    <string name="energy_repeat_6">思いやり → 癒し → 調和</string>
+    <string name="energy_repeat_7">静寂 → 内なる導き → 目覚め</string>
+    <string name="energy_repeat_8">力 → 豊かさ → 成功</string>
+    <string name="energy_repeat_9">完了 → 手放し → 変容</string>
+
+    <!-- マスターナンバー -->
+    <string name="energy_11">インスピレーション → 意識 → 悟り</string>
+    <string name="energy_22">ビジョン → 構造 → 実現</string>
+    <string name="energy_33">愛 → 表現 → 癒し</string>
+    <string name="energy_44">規律 → 安定 → 熟達</string>
+
+    <!-- 拡張ダブルナンバー -->
+    <string name="energy_55">動き → 解放 → 突破</string>
+    <string name="energy_66">心の開放 → 責任 → 調和</string>
+    <string name="energy_77">静寂 → 内なる知恵 → 目覚め</string>
+    <string name="energy_88">力 → 豊かさ → 実現</string>
+    <string name="energy_99">完成 → 手放し → 再生</string>
+
+    <!-- マスターナンバー -->
+    <string name="energy_master_11">インスピレーション → 意識 → 悟り</string>
+    <string name="energy_master_22">ビジョン → 構造 → 実現</string>
+    <string name="energy_master_33">愛 → 表現 → 癒し</string>
+    <string name="energy_master_44">規律 → 安定 → 熟達</string>
+    <string name="energy_multi_master">内なる導き → 意識的な実現 → スピリチュアルな影響</string>
+</resources>

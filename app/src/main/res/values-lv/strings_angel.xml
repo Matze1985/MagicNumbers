@@ -1,72 +1,97 @@
 <resources>
-    <!-- 0. sērija: Izcelsme un Potenciāls -->
-    <string name="angel_0_1">0: Izcelsme un Klātbūtne – Esi šeit. Nekas vēl nav izlemts.</string>
-    <string name="angel_0_2">00: Aizsargāta telpa – Tu vari būt mierā. Integrē.</string>
+    <!-- 0 sērija -->
+    <string name="angel_0_1">0: Avots &amp; Klātbūtne – Esi šeit. Vēl nekas nav noteikts.</string>
+    <string name="angel_0_2">00: Svētā telpa – Tu vari būt klusumā. Integrē.</string>
     <string name="angel_0_3">000: Avots – Viss ir viens. Uzticies veselumam.</string>
     <string name="angel_0_4">0000: Atiestatīšana – Sāc no jauna bez nastas. Laika līnija ir atvērta.</string>
-    <string name="angel_0_5">00000: Tīrs potenciāls – Tu esi, pirms kļūsti par kaut ko.</string>
+    <string name="angel_0_5">00000: Tīrs potenciāls – Tu esi pirms kļūsti par kaut ko.</string>
     <string name="angel_0_6">000000: Dievišķais tukšums – Viss ir iespējams.</string>
 
-    <!-- 1. sērija: Intuīcija un Manifestācija -->
-    <string name="angel_1_2">11: Intuīcija – Klausies, tava iekšējā vadība sauc.</string>
-    <string name="angel_1_3">111: Manifestācija – Tu radi tieši tagad, apzināti vai neapzināti.</string>
-    <string name="angel_1_4">1111: Atmoda – Vārti atveras. Izvēlies apzināti.</string>
-    <string name="angel_1_5">11111: Iemiesošanās – Dzīvo to, ko esi sapratis.</string>
-    <string name="angel_1_6">111111: Radošais spēks – Tavas domas kļūst par realitāti.</string>
+    <!-- 1 sērija -->
+    <string name="angel_1_1">1: Impulss – Jauna doma vēlas piedzimt.</string>
+    <string name="angel_1_2">11: Intuīcija – Ieklausies, tava iekšējā vadība runā.</string>
+    <string name="angel_1_3">111: Manifestācija – Tu šobrīd radi, apzināti vai neapzināti.</string>
+    <string name="angel_1_4">1111: Pamošanās – Atveras vārti. Izvēlies apzināti.</string>
+    <string name="angel_1_5">11111: Iemiesojums – Dzīvo to, ko esi sapratis.</string>
+    <string name="angel_1_6">111111: Radītāja spēks – Tavas domas kļūst par realitāti.</string>
 
-    <!-- 2. sērija: Līdzsvars un Uzticēšanās -->
+    <!-- 2 sērija -->
+    <string name="angel_2_1">2: Tikšanās – Pievērs uzmanību cilvēkam sev priekšā.</string>
     <string name="angel_2_2">22: Līdzsvars – Paliec uzticībā.</string>
-    <string name="angel_2_3">222: Dievišķais laiks – Viss sakārtojas ideālā brīdī.</string>
-    <string name="angel_2_4">2222: Stabilitāte – Tu tiec atbalstīts.</string>
-    <string name="angel_2_5">22222: Dvēseles harmonija – Tu esi pareizajā vietā.</string>
-    <string name="angel_2_6">222222: Miers – Neko nespied, viss ir šeit.</string>
+    <string name="angel_2_3">222: Saskaņa – Viss notiek dievišķajā laikā.</string>
+    <string name="angel_2_4">2222: Stabilitāte – Tevi atbalsta.</string>
+    <string name="angel_2_5">22222: Dvēseles harmonija – Tu esi tieši tur, kur jābūt.</string>
+    <string name="angel_2_6">222222: Līdzsvars – Nespied neko, viss jau ir klātesošs.</string>
 
-    <!-- 3. sērija: Izpausme un Patiesība -->
-    <string name="angel_3_2">33: Izpausme – Izpaud sevi, pasaule klausās.</string>
-    <string name="angel_3_3">333: Izaugsme – Tevi pavada garīgie skolotāji.</string>
+    <!-- 3 sērija -->
+    <string name="angel_3_1">3: Izpausme – Dalies savās domās un sajūtās.</string>
+    <string name="angel_3_2">33: Izpausme – Izsaki sevi, pasaule klausās.</string>
+    <string name="angel_3_3">333: Izaugsme – Tevi pavada skolotāji.</string>
     <string name="angel_3_4">3333: Autentiskums – Parādi sevi tādu, kāds esi.</string>
-    <string name="angel_3_5">33333: Patiesība – Tava patiesība vēlas tikt izdzīvota.</string>
-    <string name="angel_3_6">333333: Sirds un Vārds – Tu runā no savas būtības.</string>
+    <string name="angel_3_5">33333: Patiesība – Tava patiesība vēlas tikt dzīvota.</string>
+    <string name="angel_3_6">333333: Sirds &amp; Vārds – Tu runā no savas būtības.</string>
 
-    <!-- 4. sērija: Stabilitāte un Aizsardzība -->
+    <!-- 4 sērija -->
+    <string name="angel_4_1">4: Struktūra – Kārtība nes skaidrību.</string>
     <string name="angel_4_2">44: Iezemēšanās – Kārtība nes mieru.</string>
     <string name="angel_4_3">444: Aizsardzība – Tu esi drošībā un pasargāts.</string>
-    <string name="angel_4_4">4444: Struktūra – Tavs pamats ir stiprs.</string>
-    <string name="angel_4_5">44444: Stabilitāte – Uzticies savai nostājai.</string>
-    <string name="angel_4_6">444444: Noenkurošanās – Tu esi stingri iesakņojies dzīvē.</string>
+    <string name="angel_4_4">4444: Pamats – Tavs pamats ir stabils.</string>
+    <string name="angel_4_5">44444: Stabilitāte – Uzticies savai pozīcijai.</string>
+    <string name="angel_4_6">444444: Iesakņošanās – Tu esi dziļi iesakņojies dzīvē.</string>
 
-    <!-- 5. sērija: Pārmaiņas un Brīvība -->
-    <string name="angel_5_2">55: Pārmaiņas – Esi atvērts jaunajam.</string>
-    <string name="angel_5_3">555: Pavērsiens – Atlaid veco.</string>
-    <string name="angel_5_4">5555: Transformācija – Nekas nepaliek tāds, kā bija.</string>
+    <!-- 5 sērija -->
+    <string name="angel_5_1">5: Kustība – Pārmaiņas tuvojas.</string>
+    <string name="angel_5_2">55: Transformācija – Esi atvērts jaunajam.</string>
+    <string name="angel_5_3">555: Pagrieziens – Atlaid veco.</string>
+    <string name="angel_5_4">5555: Pārveide – Nekas nepaliek kā agrāk.</string>
     <string name="angel_5_5">55555: Identitāte – Tu atdzimsti no jauna.</string>
     <string name="angel_5_6">555555: Brīvība – Brīvība ir tavs jaunais stāvoklis.</string>
 
-    <!-- 6. sērija: Atgriešanās centrā -->
-    <string name="angel_6_2">66: Rūpes par sevi – Rūpējies par sevi labi.</string>
-    <string name="angel_6_3">666: Līdzsvars – Atgriezies pie sevis, starp iekšējo un ārējo.</string>
+    <!-- 6 sērija -->
+    <string name="angel_6_1">6: Rūpes – Rūpējies par savu sirdi un mājām.</string>
+    <string name="angel_6_2">66: Pašaprūpe – Parūpējies par sevi labi.</string>
+    <string name="angel_6_3">666: Līdzsvars – Atgriezies pie sevis starp iekšpusi &amp; ārpusi.</string>
     <string name="angel_6_4">6666: Prioritātes – Kas tevi patiesi baro?</string>
-    <string name="angel_6_5">66666: Dziedināšana – Tu drīksti būt maigs pret sevi.</string>
-    <string name="angel_6_6">666666: Veselums – Tu esi mājās sevī.</string>
+    <string name="angel_6_5">66666: Dziedināšana – Esi maigs pret sevi.</string>
+    <string name="angel_6_6">666666: Veselums – Tu jūties mājās sevī.</string>
 
-    <!-- 7. sērija: Gudrība un Ieskats -->
-    <string name="angel_7_2">77: Vadība – Uzticies savām iekšējām zināšanām.</string>
+    <!-- 7 sērija -->
+    <string name="angel_7_1">7: Iekšējā vērošana – Klausies savā iekšējā balsī.</string>
+    <string name="angel_7_2">77: Vadība – Uzticies savai iekšējai gudrībai.</string>
     <string name="angel_7_3">777: Garīgums – Tu mācies dvēseles līmenī.</string>
-    <string name="angel_7_4">7777: Ieskats – Tu redzi lietas skaidri.</string>
+    <string name="angel_7_4">7777: Atklāsme – Tu redzi lietas skaidri.</string>
     <string name="angel_7_5">77777: Gudrība – Tu dzīvo to, ko zini.</string>
-    <string name="angel_7_6">777777: Apgaismība – Tu tiec vadīts no iekšienes.</string>
+    <string name="angel_7_6">777777: Apgaismība – Tevi vada no iekšienes.</string>
 
-    <!-- 8. sērija: Pārpilnība un Enerģijas plūsma -->
-    <string name="angel_8_2">88: Līdzsvars – Došana un ņemšana plūsmā.</string>
+    <!-- 8 sērija -->
+    <string name="angel_8_1">8: Spēks – Izmanto savu enerģiju apzināti.</string>
+    <string name="angel_8_2">88: Plūsma – Došana &amp; saņemšana harmonijā.</string>
     <string name="angel_8_3">888: Pārpilnība – Panākumi ir iespējami un tuvu.</string>
     <string name="angel_8_4">8888: Enerģijas plūsma – Viss plūst pie tevis.</string>
-    <string name="angel_8_5">88888: Saņemšana – Tev ir atļauts būt un piederēt.</string>
-    <string name="angel_8_6">888888: Pārpilnības straume – Tu esi daļa no bezgalīgās pārpilnības.</string>
+    <string name="angel_8_5">88888: Saņemšana – Tev ir tiesības būt un saņemt.</string>
+    <string name="angel_8_6">888888: Bezgalīga pārpilnība – Tu esi bezgalīgas pārpilnības daļa.</string>
 
-    <!-- 9. sērija: Pabeigšana un Pāreja -->
-    <string name="angel_9_2">99: Atlaišana – Tuvojas beigas.</string>
-    <string name="angel_9_3">999: Pabeigšana – Cikls beidzas. Pasakies un dodies tālāk.</string>
-    <string name="angel_9_4">9999: Transformācija – Vecais aiziet uz visiem laikiem.</string>
-    <string name="angel_9_5">99999: Briedums – Tu esi gatavs tam, kas nāk.</string>
-    <string name="angel_9_6">999999: Pilnība – Aplis noslēdzas.</string>
+    <!-- 9 sērija -->
+    <string name="angel_9_1">9: Noslēgums – Nodaļa beidzas.</string>
+    <string name="angel_9_2">99: Atlaišana – Beigas tuvojas.</string>
+    <string name="angel_9_3">999: Pabeigšana – Cikls noslēdzas. Pateicies &amp; ej tālāk.</string>
+    <string name="angel_9_4">9999: Transformācija – Vecais pilnībā aiziet.</string>
+    <string name="angel_9_5">99999: Briedums – Tu esi gatavs nākamajam solim.</string>
+    <string name="angel_9_6">999999: Piepildījums – Aplis noslēdzas.</string>
+
+    <!-- 10 & Spoguļskaitļi -->
+    <string name="angel_10">10: Jauns sākums – Viens cikls beidzas, cits sākas.</string>
+    <string name="angel_12">12: Mācīšanās process – Izaugsme caur pieredzi.</string>
+    <string name="angel_21">21: Integrācija – Pretstati apvienojas.</string>
+    <string name="angel_101">101: Pamošanās – Apziņa jaunā līmenī.</string>
+    <string name="angel_1212">1212: Līdzsvars pārmaiņās – Stabilitāte kustībā.</string>
+    <string name="angel_123">123: Radošā plūsma – Idejas brīvi plūst.</string>
+    <string name="angel_1234">1234: Strukturēta manifestācija – Tavs plāns iegūst formu.</string>
+    <string name="angel_12345">12345: Dinamiska attīstība – Izaugsme daudzās jomās.</string>
+    <string name="angel_123456">123456: Pilnīgs noslēgums – Cikls noslēdzas un atveras jauni ceļi.</string>
+    <string name="angel_palindrome">Spoguļskaitlis – Iekšējā un ārējā pasaule atspoguļo viena otru.</string>
+    <string name="angel_mirror">Spoguļa raksts – Izpratne caur pašnovērošanu.</string>
+    <string name="angel_alternating">Mainīgs raksts – Divas enerģijas darbojas ritmā.</string>
+    <string name="angel_sequence_ascending">Augoša secība – Attīstība notiek apzināti.</string>
+    <string name="angel_sequence_descending">Dilstoša secība – Atlaišana nes transformāciju.</string>
 </resources>

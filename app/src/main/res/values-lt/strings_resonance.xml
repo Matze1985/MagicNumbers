@@ -1,74 +1,53 @@
 <resources>
     <!-- =====================================================
-         Resonance – General labels (shared)
+         Rezonansas – Bendros žymės (bendros)
     ====================================================== -->
-    <string name="resonance_prefix">🔮</string>
-    <string name="resonance_focus_none">Fokusas: tolygus (be tiesioginių pasikartojimų)</string>
-    <string name="resonance_focus_frame">Fokusas: pradžia ir pabaiga (rėminė tema)</string>
-    <string name="resonance_focus_center">Fokusas: centras (branduolinis impulsas)</string>
+    <string name="resonance_focus_none">Fokusas: tolygiai paskirstytas (be tiesioginių pasikartojimų)</string>
+    <string name="resonance_focus_frame">Fokusas: pradžia &amp; pabaiga (rėmo tema)</string>
+    <string name="resonance_focus_center">Fokusas: centras (pagrindinis impulsas)</string>
     <string name="resonance_focus_start">Fokusas: pradžia (tapatybė / pradinė fazė)</string>
     <string name="resonance_focus_end">Fokusas: pabaiga (rezultatas / kitas žingsnis)</string>
 
     <!-- =====================================================
-         Resonance (4-digit) – IDs
+         Rezonansas (4 skaitmenų) – Pavadinimai
     ====================================================== -->
-    <string name="resonance4_id_mono">R4_MONO</string>
-    <string name="resonance4_id_aabb">R4_AABB</string>
-    <string name="resonance4_id_abab">R4_ABAB</string>
-    <string name="resonance4_id_abba">R4_ABBA</string>
-    <string name="resonance4_id_abcd">R4_ABCD</string>
-    <string name="resonance4_id_none">R4_NONE</string>
+    <string name="resonance4_title_mono">🔮 Rezonanso modelis (4): Monotipas</string>
+    <string name="resonance4_title_aabb">🔮 Rezonanso modelis (4): Dvi fazės</string>
+    <string name="resonance4_title_abab">🔮 Rezonanso modelis (4): Kaita</string>
+    <string name="resonance4_title_abba">🔮 Rezonanso modelis (4): Veidrodis</string>
+    <string name="resonance4_title_abcd">🔮 Rezonanso modelis (4): Tolygus pasiskirstymas</string>
+    <string name="resonance4_title_none">🔮 Rezonanso modelis: Laisvas derinys</string>
 
     <!-- =====================================================
-         Resonance (4-digit) – Titles
-    ====================================================== -->
-    <string name="resonance4_title_mono">Rezonanso modelis (4): Monotipas</string>
-    <string name="resonance4_title_aabb">Rezonanso modelis (4): Dvi fazės</string>
-    <string name="resonance4_title_abab">Rezonanso modelis (4): Kaita</string>
-    <string name="resonance4_title_abba">Rezonanso modelis (4): Veidrodis</string>
-    <string name="resonance4_title_abcd">Rezonanso modelis (4): Tolygus pasiskirstymas</string>
-    <string name="resonance4_title_none">Rezonanso modelis: Laisva kombinacija</string>
-
-    <!-- =====================================================
-         Resonance (4-digit) – Short meanings
+         Rezonansas (4 skaitmenų) – Trumpos reikšmės
     ====================================================== -->
     <string name="resonance4_meaning_mono">Maksimalus sustiprinimas – viena tema visiškai dominuoja.</string>
-    <string name="resonance4_meaning_aabb">Aiškus perėjimas – A fazę pakeičia B fazė.</string>
+    <string name="resonance4_meaning_aabb">Aiškus perėjimas – fazę A pakeičia fazė B.</string>
     <string name="resonance4_meaning_abab">Įtampa tarp dviejų polių – ritmas, pusiausvyra, sprendimas.</string>
-    <string name="resonance4_meaning_abba">Atspindys – įžvalga per vidinį ir išorinį veidrodį.</string>
-    <string name="resonance4_meaning_abcd">Tolygus srautas – be pasikartojimų, atvira neutrali energija.</string>
+    <string name="resonance4_meaning_abba">Atspindys – suvokimas per vidinį ir išorinį atspindėjimą.</string>
+    <string name="resonance4_meaning_abcd">Tolygus srautas – be pasikartojimų, atvira ir neutrali energija.</string>
     <string name="resonance4_meaning_none">Nėra dominuojančio modelio – energija laisvai derinama ir atvira.</string>
+    <string name="resonance4_meaning_ababab">Įtampa tarp dviejų polių – ritmas, pusiausvyra ir sąmoningas sprendimas formuoja šią energiją.</string>
 
     <!-- =====================================================
-         Resonance (6-digit) – IDs
+         Rezonansas (6 skaitmenų) – Pavadinimai
     ====================================================== -->
-    <string name="resonance6_id_mono">R6_MONO</string>
-    <string name="resonance6_id_aaabbb">R6_AAABBB</string>
-    <string name="resonance6_id_aabbcc">R6_AABBCC</string>
-    <string name="resonance6_id_ababab">R6_ABABAB</string>
-    <string name="resonance6_id_abcabc">R6_ABCABC</string>
-    <string name="resonance6_id_mirror">R6_MIRROR</string>
-    <string name="resonance6_id_none">R6_NONE</string>
+    <string name="resonance6_title_mono">🔮 Rezonanso modelis (6): Monotipas</string>
+    <string name="resonance6_title_aaabbb">🔮 Rezonanso modelis (6): Perėjimas</string>
+    <string name="resonance6_title_aabbcc">🔮 Rezonanso modelis (6): Laipsniškas procesas</string>
+    <string name="resonance6_title_ababab">🔮 Rezonanso modelis (6): Kaita / Švytuoklė</string>
+    <string name="resonance6_title_abcabc">🔮 Rezonanso modelis (6): Ciklas</string>
+    <string name="resonance6_title_mirror">🔮 Rezonanso modelis (6): Veidrodis</string>
+    <string name="resonance6_title_none">🔮 Rezonanso modelis: Laisvas derinys</string>
 
     <!-- =====================================================
-         Resonance (6-digit) – Titles
+         Rezonansas (6 skaitmenų) – Trumpos reikšmės
     ====================================================== -->
-    <string name="resonance6_title_mono">Rezonanso modelis (6): Monotipas</string>
-    <string name="resonance6_title_aaabbb">Rezonanso modelis (6): Perėjimas</string>
-    <string name="resonance6_title_aabbcc">Rezonanso modelis (6): Laipsniškas procesas</string>
-    <string name="resonance6_title_ababab">Rezonanso modelis (6): Kaita / svyravimas</string>
-    <string name="resonance6_title_abcabc">Rezonanso modelis (6): Ciklas</string>
-    <string name="resonance6_title_mirror">Rezonanso modelis (6): Veidrodis</string>
-    <string name="resonance6_title_none">Rezonanso modelis: Laisva kombinacija</string>
-
-    <!-- =====================================================
-         Resonance (6-digit) – Short meanings
-    ====================================================== -->
-    <string name="resonance6_meaning_mono">Maksimalus sustiprinimas – viena tema stipriai dominuoja (palaima arba fiksacija).</string>
+    <string name="resonance6_meaning_mono">Maksimalus sustiprinimas – viena tema stipriai dominuoja (palaiminimas arba prisirišimas).</string>
     <string name="resonance6_meaning_aaabbb">Aiškus pokytis: fazė A → fazė B (užbaigimas ir nauja pradžia).</string>
     <string name="resonance6_meaning_aabbcc">Vystymasis etapais – mokymasis ir integracija žingsnis po žingsnio.</string>
-    <string name="resonance6_meaning_ababab">Įtampa tarp dviejų polių – pusiausvyra, sprendimas, ritmo paieška.</string>
+    <string name="resonance6_meaning_ababab">Įtampa tarp dviejų polių – rask pusiausvyrą, sprendimą ir ritmą.</string>
     <string name="resonance6_meaning_abcabc">Pasikartojanti tema – rutina, ciklas, sąmoningumas per kartojimą.</string>
-    <string name="resonance6_meaning_mirror">Grįžtamasis ryšys – įžvalga per atspindį (vidus / išorė).</string>
+    <string name="resonance6_meaning_mirror">Grįžtamasis ryšys – suvokimas per atspindį (vidus/išorė).</string>
     <string name="resonance6_meaning_none">Nėra dominuojančio modelio – energija laisvai derinama ir atvira.</string>
 </resources>

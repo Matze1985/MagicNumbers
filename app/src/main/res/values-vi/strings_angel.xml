@@ -1,72 +1,97 @@
 <resources>
-    <!-- Chuỗi 0: Nguồn gốc & Tiềm năng -->
-    <string name="angel_0_1">0: Nguồn gốc &amp; Sự hiện diện – Hãy ở đây. Chưa có gì được quyết định cả.</string>
-    <string name="angel_0_2">00: Không gian được bảo vệ – Bạn có thể tĩnh lặng. Hãy hòa nhập.</string>
-    <string name="angel_0_3">000: Nguồn cội – Tất cả là một. Hãy tin tưởng vào tổng thể.</string>
-    <string name="angel_0_4">0000: Thiết lập lại – Bắt đầu lại mà không có gánh nặng. Dòng thời gian đang mở.</string>
-    <string name="angel_0_5">00000: Tiềm năng thuần khiết – Bạn là chính bạn, trước khi trở thành bất cứ điều gì.</string>
-    <string name="angel_0_6">000000: Khoảng không thiêng liêng – Mọi thứ đều có thể.</string>
+    <!-- Chuỗi 0 -->
+    <string name="angel_0_1">0: Nguồn cội &amp; Hiện diện – Hãy ở đây. Chưa có điều gì được định sẵn.</string>
+    <string name="angel_0_2">00: Không gian thiêng liêng – Bạn có thể ở trong tĩnh lặng. Hãy hòa nhập.</string>
+    <string name="angel_0_3">000: Nguồn cội – Mọi thứ là một. Hãy tin vào tổng thể.</string>
+    <string name="angel_0_4">0000: Thiết lập lại – Bắt đầu lại mà không gánh nặng. Dòng thời gian đang mở.</string>
+    <string name="angel_0_5">00000: Tiềm năng thuần khiết – Bạn tồn tại trước khi trở thành điều gì đó.</string>
+    <string name="angel_0_6">000000: Hư không thiêng liêng – Mọi điều đều có thể.</string>
 
-    <!-- Chuỗi 1: Trực giác & Biểu hiện -->
-    <string name="angel_1_2">11: Trực giác – Hãy lắng nghe, sự dẫn dắt bên trong đang gọi bạn.</string>
-    <string name="angel_1_3">111: Biểu hiện – Bạn đang kiến tạo ngay lúc này, dù có ý thức hay vô thức.</string>
-    <string name="angel_1_4">1111: Thức tỉnh – Một cánh cổng mở ra. Hãy lựa chọn một cách có ý thức.</string>
-    <string name="angel_1_5">11111: Hiện thân – Hãy sống với những gì bạn đã nhận ra.</string>
-    <string name="angel_1_6">111111: Sức mạnh sáng tạo – Suy nghĩ của bạn trở thành hiện thực.</string>
+    <!-- Chuỗi 1 -->
+    <string name="angel_1_1">1: Xung lực – Một ý nghĩ mới đang muốn được sinh ra.</string>
+    <string name="angel_1_2">11: Trực giác – Hãy lắng nghe, sự dẫn dắt bên trong đang nói với bạn.</string>
+    <string name="angel_1_3">111: Hiển lộ – Bạn đang tạo ra thực tại, dù có ý thức hay không.</string>
+    <string name="angel_1_4">1111: Thức tỉnh – Một cánh cổng mở ra. Hãy chọn một cách tỉnh thức.</string>
+    <string name="angel_1_5">11111: Thể hiện – Hãy sống điều bạn đã nhận ra.</string>
+    <string name="angel_1_6">111111: Sức mạnh sáng tạo – Suy nghĩ của bạn đang trở thành hiện thực.</string>
 
-    <!-- Chuỗi 2: Cân bằng & Tin tưởng -->
-    <string name="angel_2_2">22: Cân bằng – Hãy giữ vững niềm tin.</string>
-    <string name="angel_2_3">222: Thời điểm thiêng liêng – Mọi thứ sắp xếp vào thời điểm hoàn hảo.</string>
-    <string name="angel_2_4">2222: Ổn định – Bạn đang được hỗ trợ.</string>
-    <string name="angel_2_5">22222: Sự hài hòa của linh hồn – Bạn đang ở đúng nơi.</string>
-    <string name="angel_2_6">222222: Thanh thản – Đừng cưỡng cầu điều gì, mọi thứ đều ở đây.</string>
+    <!-- Chuỗi 2 -->
+    <string name="angel_2_1">2: Gặp gỡ – Hãy chú ý đến người trước mặt bạn.</string>
+    <string name="angel_2_2">22: Cân bằng – Hãy ở trong sự tin tưởng.</string>
+    <string name="angel_2_3">222: Đồng điệu – Mọi thứ diễn ra đúng thời điểm thiêng liêng.</string>
+    <string name="angel_2_4">2222: Ổn định – Bạn đang được nâng đỡ.</string>
+    <string name="angel_2_5">22222: Hài hòa linh hồn – Bạn đang ở đúng nơi mình cần.</string>
+    <string name="angel_2_6">222222: Cân bằng – Đừng ép buộc, mọi thứ đã hiện hữu.</string>
 
-    <!-- Chuỗi 3: Biểu đạt & Sự thật -->
+    <!-- Chuỗi 3 -->
+    <string name="angel_3_1">3: Biểu đạt – Hãy chia sẻ suy nghĩ và cảm xúc của bạn.</string>
     <string name="angel_3_2">33: Biểu đạt – Hãy thể hiện bản thân, thế giới đang lắng nghe.</string>
-    <string name="angel_3_3">333: Tăng trưởng – Bạn được các bậc thầy đồng hành.</string>
-    <string name="angel_3_4">3333: Chân thực – Hãy thể hiện con người thật của bạn.</string>
-    <string name="angel_3_5">33333: Sự thật – Sự thật của bạn muốn được sống động.</string>
-    <string name="angel_3_6">333333: Trái tim &amp; Lời nói – Bạn nói từ bản chất của mình.</string>
+    <string name="angel_3_3">333: Phát triển – Bạn được các bậc thầy dẫn dắt.</string>
+    <string name="angel_3_4">3333: Chân thật – Hãy thể hiện con người thật của bạn.</string>
+    <string name="angel_3_5">33333: Sự thật – Sự thật của bạn muốn được sống.</string>
+    <string name="angel_3_6">333333: Trái tim &amp; Lời nói – Bạn đang nói từ bản chất sâu thẳm.</string>
 
-    <!-- Chuỗi 4: Ổn định & Bảo vệ -->
-    <string name="angel_4_2">44: Vững chãi – Trật tự mang lại bình yên.</string>
-    <string name="angel_4_3">444: Bảo vệ – Bạn được an toàn và bảo vệ.</string>
-    <string name="angel_4_4">4444: Cấu trúc – Nền tảng của bạn vững chắc.</string>
-    <string name="angel_4_5">44444: Ổn định – Hãy tin tưởng vào vị trí của bạn.</string>
-    <string name="angel_4_6">444444: Neo đậu – Bạn đã bám rễ vững chắc vào cuộc sống.</string>
+    <!-- Chuỗi 4 -->
+    <string name="angel_4_1">4: Cấu trúc – Trật tự mang lại sự rõ ràng.</string>
+    <string name="angel_4_2">44: Tiếp đất – Trật tự mang lại bình yên.</string>
+    <string name="angel_4_3">444: Bảo vệ – Bạn an toàn và được che chở.</string>
+    <string name="angel_4_4">4444: Nền tảng – Cơ sở của bạn vững chắc.</string>
+    <string name="angel_4_5">44444: Ổn định – Hãy tin vào vị trí của mình.</string>
+    <string name="angel_4_6">444444: Gắn rễ – Bạn được neo vững trong cuộc sống.</string>
 
-    <!-- Chuỗi 5: Thay đổi & Tự do -->
-    <string name="angel_5_2">55: Thay đổi – Hãy cởi mở với những điều mới mẻ.</string>
-    <string name="angel_5_3">555: Bước ngoặt – Hãy buông bỏ cái cũ.</string>
-    <string name="angel_5_4">5555: Chuyển hóa – Không gì còn nguyên vẹn như trước.</string>
-    <string name="angel_5_5">55555: Bản sắc – Bạn đang được tái sinh.</string>
+    <!-- Chuỗi 5 -->
+    <string name="angel_5_1">5: Chuyển động – Sự thay đổi đang đến.</string>
+    <string name="angel_5_2">55: Chuyển hóa – Hãy mở lòng với điều mới.</string>
+    <string name="angel_5_3">555: Bước ngoặt – Hãy buông bỏ điều cũ.</string>
+    <string name="angel_5_4">5555: Thay đổi – Không gì còn như trước.</string>
+    <string name="angel_5_5">55555: Bản sắc – Bạn đang tái sinh.</string>
     <string name="angel_5_6">555555: Tự do – Tự do là trạng thái mới của bạn.</string>
 
-    <!-- Chuỗi 6: Trở về Trung tâm -->
-    <string name="angel_6_2">66: Chăm sóc bản thân – Hãy chăm sóc tốt cho chính mình.</string>
-    <string name="angel_6_3">666: Cân bằng – Trở về với chính mình, giữa bên trong và bên ngoài.</string>
+    <!-- Chuỗi 6 -->
+    <string name="angel_6_1">6: Quan tâm – Hãy chăm sóc trái tim và mái ấm của bạn.</string>
+    <string name="angel_6_2">66: Chăm sóc bản thân – Hãy đối xử tốt với chính mình.</string>
+    <string name="angel_6_3">666: Cân bằng – Trở về với bản thân giữa bên trong &amp; bên ngoài.</string>
     <string name="angel_6_4">6666: Ưu tiên – Điều gì thực sự nuôi dưỡng bạn?</string>
-    <string name="angel_6_5">66666: Chữa lành – Bạn có thể dịu dàng với chính mình.</string>
-    <string name="angel_6_6">666666: Trọn vẹn – Bạn đang ở nhà trong chính mình.</string>
+    <string name="angel_6_5">66666: Chữa lành – Hãy dịu dàng với chính mình.</string>
+    <string name="angel_6_6">666666: Toàn vẹn – Bạn cảm thấy ở nhà trong chính mình.</string>
 
-    <!-- Chuỗi 7: Trí tuệ & Thấu suốt -->
-    <string name="angel_7_2">77: Dẫn dắt – Hãy tin vào sự hiểu biết bên trong của bạn.</string>
-    <string name="angel_7_3">777: Tâm linh – Bạn đang học hỏi ở cấp độ linh hồn.</string>
-    <string name="angel_7_4">7777: Thấu suốt – Bạn nhìn thấy mọi việc rõ ràng.</string>
-    <string name="angel_7_5">77777: Trí tuệ – Bạn sống với những gì bạn biết.</string>
+    <!-- Chuỗi 7 -->
+    <string name="angel_7_1">7: Chiêm nghiệm – Hãy lắng nghe tiếng nói nội tâm.</string>
+    <string name="angel_7_2">77: Dẫn dắt – Hãy tin vào trí tuệ bên trong.</string>
+    <string name="angel_7_3">777: Tâm linh – Bạn đang học ở cấp độ linh hồn.</string>
+    <string name="angel_7_4">7777: Thấu hiểu – Bạn nhìn thấy mọi thứ rõ ràng.</string>
+    <string name="angel_7_5">77777: Minh triết – Bạn sống theo điều mình biết.</string>
     <string name="angel_7_6">777777: Giác ngộ – Bạn được dẫn dắt từ bên trong.</string>
 
-    <!-- Chuỗi 8: Thịnh vượng & Dòng chảy Năng lượng -->
-    <string name="angel_8_2">88: Cân bằng – Cho và nhận trong dòng chảy.</string>
-    <string name="angel_8_3">888: Thịnh vượng – Thành công là khả thi và đang ở gần.</string>
-    <string name="angel_8_4">8888: Dòng chảy năng lượng – Mọi thứ đang chảy về phía bạn.</string>
-    <string name="angel_8_5">88888: Đón nhận – Bạn được phép sở hữu và hiện hữu.</string>
-    <string name="angel_8_6">888888: Tràn đầy – Bạn là một phần của sự thịnh vượng vô tận.</string>
+    <!-- Chuỗi 8 -->
+    <string name="angel_8_1">8: Sức mạnh – Hãy sử dụng năng lượng một cách có ý thức.</string>
+    <string name="angel_8_2">88: Dòng chảy – Cho &amp; nhận trong sự hài hòa.</string>
+    <string name="angel_8_3">888: Thịnh vượng – Thành công đang ở gần.</string>
+    <string name="angel_8_4">8888: Dòng năng lượng – Mọi thứ đang chảy về phía bạn.</string>
+    <string name="angel_8_5">88888: Đón nhận – Bạn xứng đáng được có và được là.</string>
+    <string name="angel_8_6">888888: Thịnh vượng vô hạn – Bạn là một phần của sự dồi dào vô tận.</string>
 
-    <!-- Chuỗi 9: Hoàn thành & Chuyển tiếp -->
+    <!-- Chuỗi 9 -->
+    <string name="angel_9_1">9: Hoàn tất – Một chương đang khép lại.</string>
     <string name="angel_9_2">99: Buông bỏ – Một kết thúc đang đến gần.</string>
-    <string name="angel_9_3">999: Hoàn thành – Một chu kỳ kết thúc. Hãy biết ơn và bước tiếp.</string>
-    <string name="angel_9_4">9999: Chuyển hóa – Cái cũ ra đi mãi mãi.</string>
-    <string name="angel_9_5">99999: Trưởng thành – Bạn đã sẵn sàng cho những gì sắp tới.</string>
-    <string name="angel_9_6">999999: Hoàn hảo – Vòng tròn khép lại.</string>
+    <string name="angel_9_3">999: Kết thúc – Một chu kỳ khép lại. Biết ơn &amp; bước tiếp.</string>
+    <string name="angel_9_4">9999: Chuyển hóa – Điều cũ đang rời đi hoàn toàn.</string>
+    <string name="angel_9_5">99999: Trưởng thành – Bạn đã sẵn sàng cho bước tiếp theo.</string>
+    <string name="angel_9_6">999999: Trọn vẹn – Vòng tròn khép lại.</string>
+
+    <!-- 10 & Số gương -->
+    <string name="angel_10">10: Khởi đầu mới – Một chu kỳ kết thúc, chu kỳ khác bắt đầu.</string>
+    <string name="angel_12">12: Quá trình học hỏi – Phát triển qua trải nghiệm.</string>
+    <string name="angel_21">21: Hội nhập – Những điều đối lập hòa làm một.</string>
+    <string name="angel_101">101: Thức tỉnh – Nhận thức ở một cấp độ mới.</string>
+    <string name="angel_1212">1212: Cân bằng trong thay đổi – Ổn định trong chuyển động.</string>
+    <string name="angel_123">123: Dòng chảy sáng tạo – Ý tưởng đến tự nhiên.</string>
+    <string name="angel_1234">1234: Hiển lộ có cấu trúc – Kế hoạch của bạn đang thành hình.</string>
+    <string name="angel_12345">12345: Phát triển năng động – Tăng trưởng trong nhiều lĩnh vực.</string>
+    <string name="angel_123456">123456: Hoàn tất trọn vẹn – Chu kỳ khép lại và những con đường mới mở ra.</string>
+    <string name="angel_palindrome">Số gương – Thế giới bên trong và bên ngoài phản chiếu lẫn nhau.</string>
+    <string name="angel_mirror">Mẫu gương – Hiểu biết qua sự quan sát bản thân.</string>
+    <string name="angel_alternating">Mẫu luân phiên – Hai nguồn năng lượng hoạt động theo nhịp điệu.</string>
+    <string name="angel_sequence_ascending">Chuỗi tăng dần – Sự phát triển diễn ra có ý thức.</string>
+    <string name="angel_sequence_descending">Chuỗi giảm dần – Buông bỏ mang lại chuyển hóa.</string>
 </resources>

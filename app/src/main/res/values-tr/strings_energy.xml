@@ -1,0 +1,59 @@
+<resources>
+    <!-- Default -->
+    <string name="energy_default">Netlik → Güven → Eylem</string>
+
+    <!-- Ana sayılar -->
+    <string name="energy_core_1">İtki → Karar → Yeni başlangıç</string>
+    <string name="energy_core_2">Karşılaşma → Denge → Uyum</string>
+    <string name="energy_core_3">Deneyim → İfade → Büyüme</string>
+    <string name="energy_core_4">Düzen → İnşa → İstikrar</string>
+    <string name="energy_core_5">Hareket → Değişim → Özgürlük</string>
+    <string name="energy_core_6">Şefkat → Şifa → Uyum</string>
+    <string name="energy_core_7">Netlik → İçsel rehberlik → Farkındalık</string>
+    <string name="energy_core_8">Odak → Eylem → Başarı</string>
+    <string name="energy_core_9">Tamamlanma → Bırakma → Dönüşüm</string>
+
+    <!-- Temel sayılar -->
+    <string name="energy_0">Kaynak → Bilinç → Yeni başlangıç</string>
+    <string name="energy_1">İtki → Karar → Yeni başlangıç</string>
+    <string name="energy_2">Karşılaşma → Denge → Uyum</string>
+    <string name="energy_3">Deneyim → İfade → Büyüme</string>
+    <string name="energy_4">Düzen → Yapı → İstikrar</string>
+    <string name="energy_5">Hareket → Değişim → Özgürlük</string>
+    <string name="energy_6">Şefkat → Şifa → Uyum</string>
+    <string name="energy_7">Netlik → İçsel rehberlik → Uyanış</string>
+    <string name="energy_8">Odak → Eylem → Başarı</string>
+    <string name="energy_9">Tamamlanma → Bırakma → Dönüşüm</string>
+
+    <!-- Baskın tekrarlar -->
+    <string name="energy_repeat_0">Başlangıç → Potansiyel → Yaratım</string>
+    <string name="energy_repeat_1">İtki → Karar → Girişim</string>
+    <string name="energy_repeat_2">Bağlantı → Denge → Uyum</string>
+    <string name="energy_repeat_3">Neşe → İfade → Büyüme</string>
+    <string name="energy_repeat_4">Düzen → İstikrar → Temel</string>
+    <string name="energy_repeat_5">Hareket → Değişim → Özgürlük</string>
+    <string name="energy_repeat_6">Şefkat → Şifa → Uyum</string>
+    <string name="energy_repeat_7">Sessizlik → İçsel rehberlik → Uyanış</string>
+    <string name="energy_repeat_8">Güç → Bolluk → Başarı</string>
+    <string name="energy_repeat_9">Tamamlanma → Bırakma → Dönüşüm</string>
+
+    <!-- Usta sayılar -->
+    <string name="energy_11">İlham → Bilinç → Aydınlanma</string>
+    <string name="energy_22">Vizyon → Yapı → Gerçekleşme</string>
+    <string name="energy_33">Sevgi → İfade → Şifa</string>
+    <string name="energy_44">Disiplin → İstikrar → Ustalık</string>
+
+    <!-- Genişletilmiş çift sayılar -->
+    <string name="energy_55">Hareket → Özgürleşme → Atılım</string>
+    <string name="energy_66">Kalbin açılması → Sorumluluk → Uyum</string>
+    <string name="energy_77">Sessizlik → İçsel bilgelik → Uyanış</string>
+    <string name="energy_88">Güç → Bolluk → Gerçekleşme</string>
+    <string name="energy_99">Tamlık → Bırakma → Yenilenme</string>
+
+    <!-- Usta sayılar -->
+    <string name="energy_master_11">İlham → Bilinç → Aydınlanma</string>
+    <string name="energy_master_22">Vizyon → Yapı → Gerçekleşme</string>
+    <string name="energy_master_33">Sevgi → İfade → Şifa</string>
+    <string name="energy_master_44">Disiplin → İstikrar → Ustalık</string>
+    <string name="energy_multi_master">İçsel rehberlik → Bilinçli gerçekleşme → Ruhsal etki</string>
+</resources>

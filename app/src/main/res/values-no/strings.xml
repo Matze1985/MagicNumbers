@@ -2,35 +2,37 @@
     <!-- App Name -->
     <string name="app_name">Magiske Tall</string>
 
-    <!-- UI Tekster -->
+    <!-- UI Texte -->
     <string name="new_message">Ny melding</string>
     <string name="copy_message">Kopier melding</string>
     <string name="clipboard_label">Magisk melding</string>
     <string name="welcome_message">Trykk på \"Ny melding\" for å motta øyeblikkets rytme.</string>
-    <string name="message_for_the_moment">Melding for øyeblikket: %1$s</string>
-    <string name="your_cross_sum_is">Din tverrsum er: %1$s</string>
-    <string name="digit_occurrence">(forekommer %1$dx ganger, forsterket)</string>
-    <string name="frequency_label">Frekvens</string>
+    <string name="your_cross_sum_is">Din tverrsum er:</string>
+    <string name="digit_occurrence">(vises %1$dx ganger, forsterket)</string>
 
-    <!-- Seksjonsoverskrifter -->
-    <string name="section_vibration">🧬 Sifrenes vibrasjon:</string>
-    <string name="section_your_message">💌 Din melding:</string>
-    <string name="section_summary">✨ Sammendrag:</string>
+    <!-- Sections -->
+    <string name="section_message_for_the_moment">💌 Budskap for øyeblikket: %1$s</string>
+    <string name="section_frequency">🌀 Frekvens:</string>
+    <string name="section_vibration">🧬 Sifferenes vibrasjon:</string>
+    <string name="section_master_energy">👑 Mesterenergi:</string>
+    <string name="section_angel">🕊️ Engelimpuls:</string>
+    <string name="section_description_numbers">🔢 Beskrivelse av sifrene:</string>
+    <string name="section_summary">📖 Sammendrag:</string>
     <string name="section_energy">⚡️ Energistrøm:</string>
 
-    <!-- Hovedmeldinger (per siffer) -->
-    <string name="digit_0_intro">✨ Sifferet **\'0\'**%1$s forsterker alt. Det er et tegn på guddommelig nærvær og uendelig potensial.</string>
-    <string name="digit_1_intro">✨ Sifferet **\'1\'**%1$s kaller deg til en **kraftfull ny begynnelse**. Tankene dine manifesterer seg raskt nå.</string>
-    <string name="digit_2_intro">✨ Sifferet **\'2\'**%1$s bringer **balanse og harmoni**, spesielt i relasjoner. Du er ikke alene.</string>
-    <string name="digit_3_intro">✨ Sifferet **\'3\'**%1$s aktiverer din **kreativitet og kommunikasjon**. Uttrykk deg – den åndelige verden lytter.</string>
-    <string name="digit_4_intro">✨ Sifferet **\'4\'**%1$s skaper et **stabilt fundament**. Denne energien gir beskyttelse og struktur i livet ditt.</string>
-    <string name="digit_5_intro">✨ Sifferet **\'5\'**%1$s signaliserer en **bølge av forandring og frihet**. Vær åpen for eventyr og bryt gamle lenker.</string>
-    <string name="digit_6_intro">✨ Sifferet **\'6\'**%1$s retter fokuset mot **healing av hjerte og hjem**. Familie og harmoni står nå i sentrum.</string>
-    <string name="digit_7_intro">✨ Sifferet **\'7\'**%1$s gjør din **intuisjon til det viktigste kompasset**. Lytt innover – sannheten finnes i deg.</string>
-    <string name="digit_8_intro">✨ Sifferet **\'8\'**%1$s aktiverer energien av **overflod og suksess**. Vær åpen for materiell og åndelig velstand.</string>
-    <string name="digit_9_intro">✨ Sifferet **\'9\'**%1$s indikerer **avslutningen på en viktig syklus**. Slipp det gamle for å gi plass til det nye.</string>
+    <!-- Main Messages -->
+    <string name="digit_0_intro">Tallet **\'0\'**%1$s forsterker alt. Det er et tegn på guddommelig nærvær og uendelig potensial.</string>
+    <string name="digit_1_intro">Tallet **\'1\'**%1$s kaller deg til en **kraftfull ny begynnelse**. Tankene dine manifesterer seg raskt nå.</string>
+    <string name="digit_2_intro">Tallet **\'2\'**%1$s bringer **balanse og harmoni**, spesielt i relasjoner. Du er ikke alene.</string>
+    <string name="digit_3_intro">Tallet **\'3\'**%1$s aktiverer din **kreativitet og kommunikasjon**. Uttrykk deg – den åndelige verden lytter.</string>
+    <string name="digit_4_intro">Tallet **\'4\'**%1$s skaper et **stabilt fundament**. Denne energien bringer beskyttelse og struktur.</string>
+    <string name="digit_5_intro">Tallet **\'5\'**%1$s signaliserer en **bølge av forandring og frihet**. Vær åpen for eventyr og bryt gamle lenker.</string>
+    <string name="digit_6_intro">Tallet **\'6\'**%1$s retter fokus mot **healing for hjerte og hjem**. Familie og harmoni står i sentrum.</string>
+    <string name="digit_7_intro">Tallet **\'7\'**%1$s gjør **intuisjonen til ditt viktigste kompass**. Lytt innover – sannheten finnes i deg.</string>
+    <string name="digit_8_intro">Tallet **\'8\'**%1$s aktiverer energien av **overflod og suksess**. Vær åpen for materiell og åndelig velstand.</string>
+    <string name="digit_9_intro">Tallet **\'9\'**%1$s viser **avslutningen på en viktig syklus**. Slipp det gamle for å gi plass til det nye.</string>
 
-    <!-- Numerologi – grunnbetydninger -->
+    <!-- Core Meanings -->
     <string name="numerology_1">Ny begynnelse &amp; lederskap</string>
     <string name="numerology_2">Harmoni &amp; balanse</string>
     <string name="numerology_3">Kreativitet &amp; vekst</string>
@@ -39,13 +41,19 @@
     <string name="numerology_6">Kjærlighet &amp; harmoni</string>
     <string name="numerology_7">Intuisjon &amp; oppvåkning</string>
     <string name="numerology_8">Suksess &amp; overflod</string>
-    <string name="numerology_9">Fullendelse &amp; visdom</string>
-    <string name="numerology_11">Mesterintuisjon</string>
-    <string name="numerology_22">Mestermanifestasjon</string>
-    <string name="numerology_33">Mesterhealer</string>
+    <string name="numerology_9">Fullføring &amp; visdom</string>
+    <string name="numerology_11">Åndelig visjonær</string>
+    <string name="numerology_22">Mesterbygger</string>
+    <string name="numerology_33">Mesterlærer</string>
+    <string name="numerology_44">Mester av stabilitet</string>
+    <string name="numerology_55">Mester av frihet</string>
+    <string name="numerology_66">Mester av ubetinget kjærlighet</string>
+    <string name="numerology_77">Mester av visdom</string>
+    <string name="numerology_88">Mester av kraft</string>
+    <string name="numerology_99">Mester av fullføring</string>
     <string name="numerology_unknown">Ukjent</string>
 
-    <!-- Numerologi – nøkkelord -->
+    <!-- Keywords -->
     <string name="keyword_0">Kilde</string>
     <string name="keyword_1">Begynnelse</string>
     <string name="keyword_2">Balanse</string>
@@ -55,75 +63,83 @@
     <string name="keyword_6">Harmoni</string>
     <string name="keyword_7">Intuisjon</string>
     <string name="keyword_8">Overflod</string>
-    <string name="keyword_9">Avslutning</string>
+    <string name="keyword_9">Fullføring</string>
 
-    <!-- Numerologi – spesielle betydninger -->
-    <string name="master_number_11">Mestertall 11: intuisjon &amp; opplysning</string>
-    <string name="master_number_22">Mestertall 22: bygger &amp; manifestasjon</string>
-    <string name="master_number_33">Mestertall 33: universell kjærlighet &amp; healing</string>
-    <string name="master_number_44">Mestertall 44: mesterhealer. Du forener den materielle og åndelige verden.</string>
-    <string name="special_number_55">Spesiell vibrasjon 55: radikal forandring &amp; frihet</string>
-    <string name="special_number_66">Spesiell vibrasjon 66: universell kjærlighet &amp; medfølelse</string>
-    <string name="special_number_77">Spesiell vibrasjon 77: dyp åndelig innsikt</string>
-    <string name="special_number_88">Spesiell vibrasjon 88: uendelig overflod &amp; balanse</string>
-    <string name="special_number_99">Spesiell vibrasjon 99: universell bevissthet &amp; tjeneste</string>
+    <!-- Special Meanings -->
+    <string name="master_number_11">11: Intuisjon &amp; opplysning</string>
+    <string name="master_number_22">22: Bygger &amp; manifestasjon</string>
+    <string name="master_number_33">33: Universell kjærlighet &amp; healing</string>
+    <string name="master_number_44">44: Mesterhealer. Du forbinder den materielle og åndelige verden.</string>
+    <string name="special_number_55">55: Radikal forandring &amp; frihet</string>
+    <string name="special_number_66">66: Universell kjærlighet &amp; medfølelse</string>
+    <string name="special_number_77">77: Dyp åndelig innsikt</string>
+    <string name="special_number_88">88: Uendelig overflod &amp; balanse</string>
+    <string name="special_number_99">99: Universell bevissthet &amp; tjeneste</string>
 
-    <!-- Karmiske leksjoner -->
-    <string name="karmic_lesson_4">Karmisk leksjon 4: stabilitet og hardt arbeid.</string>
-    <string name="karmic_lesson_5">Karmisk leksjon 5: frihet og disiplin.</string>
-    <string name="karmic_lesson_7">Karmisk leksjon 7: tillit og åpenhet.</string>
-    <string name="karmic_lesson_8">Karmisk leksjon 8: overflod og maktmisbruk.</string>
-    <string name="karmic_lesson_10">Karmisk leksjon 10: skjebnehjulet / ny begynnelse</string>
-    <string name="karmic_lesson_11">Karmisk leksjon 11: åndelig mesterskap og balanse</string>
-    <string name="karmic_lesson_13">Karmisk leksjon 13: arbeid og fokus (transformasjon)</string>
-    <string name="karmic_lesson_14">Karmisk leksjon 14: frihet og måtehold</string>
-    <string name="karmic_lesson_16">Karmisk leksjon 16: oppvåkning og ydmykhet</string>
-    <string name="karmic_lesson_19">Karmisk leksjon 19: makt og uavhengighet</string>
-    <string name="karmic_lesson_22">Karmisk leksjon 22: mester-skaper og ansvar</string>
-    <string name="karmic_lesson_33">Karmisk leksjon 33: mesteren av helende kjærlighet</string>
+    <!-- Karmic Details 1–33 -->
+    <string name="karmic_detail_1">Karmisk detalj 1: Selvansvar\n→ Slutt å legge skylden utenfor deg selv\n→ Erkjenn: Jeg er medskaper av mitt liv\n→ Mot til å gå din egen vei</string>
+    <string name="karmic_detail_2">Karmisk detalj 2: Relasjon &amp; speiling\n→ Forstå speilloven\n→ Andre viser uløste sider\n→ Diplomati uten selvoppofrelse\n→ Bevar tålmodighet</string>
+    <string name="karmic_detail_3">Karmisk detalj 3: Autentisitet &amp; uttrykk\n→ Lev din sannhet\n→ Legg bort masker og roller\n→ Uttrykk følelser kreativt</string>
+    <string name="karmic_detail_4">Karmisk detalj 4: Tålmodighet &amp; tillit\n→ Ikke tving alt frem\n→ Stol på guddommelig timing\n→ Skap stabilitet gjennom orden</string>
+    <string name="karmic_detail_5">Karmisk detalj 5: Transformasjon av frykt\n→ Mot i stedet for flukt\n→ Forvandle frykt for tap eller mangel\n→ Frihet gjennom ansvar</string>
+    <string name="karmic_detail_6">Karmisk detalj 6: Kjærlighet &amp; grenser\n→ Ubetinget kjærlighet uten eierskap\n→ Si “nei” uten skyldfølelse\n→ Ikke ofre deg selv</string>
+    <string name="karmic_detail_7">Karmisk detalj 7: Tillit &amp; veiledning\n→ Stol på åndelig veiledning\n→ Følg intuisjonen din\n→ Vend blikket innover</string>
+    <string name="karmic_detail_8">Karmisk detalj 8: Makt &amp; overflod\n→ Løs opp mangelmentalitet\n→ Balanse mellom å gi og motta\n→ Heal forholdet til makt</string>
+    <string name="karmic_detail_9">Karmisk detalj 9: Slippe taket &amp; tilgivelse\n→ Tilgi andre og deg selv\n→ Gi slipp på gamle sår\n→ Tjen fellesskapet</string>
+    <string name="karmic_detail_10">Karmisk detalj 10: Skjebnehjulet\n→ Aksept av skjebnen\n→ Slipp motstand\n→ Bevisst ny start</string>
+    <string name="karmic_detail_11">Karmisk detalj 11: Visjonæren\n→ Integrer lys og skygge\n→ Ta imot åndelig lederskap\n→ Vær inspirasjon for andre</string>
+    <string name="karmic_detail_12">Karmisk detalj 12: Perspektivskifte\n→ Tjen uten offerrolle\n→ Se ting fra en ny vinkel\n→ Visdom gjennom overgivelse</string>
+    <string name="karmic_detail_13">Karmisk detalj 13: Ego &amp; transformasjon\n→ Slipp stolthet og stahet\n→ Ydmykhet uten selvoppgivelse\n→ Transformasjon gjennom fokus og arbeid</string>
+    <string name="karmic_detail_14">Karmisk detalj 14: Slippe avhengigheter\n→ Frihet i stedet for fryktbasert binding\n→ Finn måtehold\n→ Styrk emosjonell uavhengighet</string>
+    <string name="karmic_detail_15">Karmisk detalj 15: Bevisst løsrivelse\n→ Gjenkjenn bånd som hindrer vekst\n→ Praktiser bevisst å gi slipp\n→ Stol på at nytt liv begynner</string>
+    <string name="karmic_detail_16">Karmisk detalj 16: Oppvåkning &amp; autentisitet\n→ Gamle strukturer bryter sammen\n→ Finn ditt sanne jeg\n→ Illusjoner faller bort</string>
+    <string name="karmic_detail_17">Karmisk detalj 17: Åndelig autoritet\n→ Stol på din indre visdom\n→ Led uten ego\n→ Suksess gjennom integritet</string>
+    <string name="karmic_detail_18">Karmisk detalj 18: Emosjonell klarhet\n→ Forvandle illusjon til sannhet\n→ Heal gamle mønstre\n→ Medfølelse uten selvoppofrelse</string>
+    <string name="karmic_detail_19">Karmisk detalj 19: Selvverd &amp; makt\n→ Definer deg ikke bare gjennom prestasjon\n→ Heal temaer rundt makt og maktesløshet\n→ Lær å ta imot hjelp</string>
+    <string name="karmic_detail_20">Karmisk detalj 20: Oppvåkning &amp; dom\n→ Tålmodighet og høyere forståelse\n→ Åndelig diplomati</string>
+    <string name="karmic_detail_21">Karmisk detalj 21: Verdensuttrykk\n→ Suksess etter en lang reise\n→ Integrasjon av motsetninger\n→ Ytre fullføring</string>
+    <string name="karmic_detail_22">Karmisk detalj 22: Byggeren\n→ Manifester store drømmer\n→ Ta ansvar for dine talenter\n→ Tjen uten å miste deg selv</string>
+    <string name="karmic_detail_23">Karmisk detalj 23: Den kongelige løve\n→ Beskyttelse &amp; suksess\n→ Frihet i uttrykk\n→ Bevar fleksibilitet</string>
+    <string name="karmic_detail_24">Karmisk detalj 24: Heling av hjertet\n→ Fullfør og løs sjelekontrakter\n→ Kjærlighet og tjeneste\n→ Stabilitet i følelser</string>
+    <string name="karmic_detail_25">Karmisk detalj 25: Heal ditt indre barn\n→ Lytt til stille behov\n→ Møt deg selv med kjærlighet og omsorg\n→ Integrer helingen</string>
+    <string name="karmic_detail_26">Karmisk detalj 26: Bevisst pust\n→ Vær bevisst din pust\n→ Bruk den som anker\n→ Se pusten som speil for energi</string>
+    <string name="karmic_detail_27">Karmisk detalj 27: Tjeneste for helheten\n→ Heling ikke bare for deg selv\n→ Skap positiv innvirkning\n→ Åndelig innsikt</string>
+    <string name="karmic_detail_28">Karmisk detalj 28: Transformasjon av konflikt\n→ Se konflikt som læringsmulighet\n→ Endre perspektiv\n→ Skap harmoni gjennom integrasjon</string>
+    <string name="karmic_detail_29">Karmisk detalj 29: Selvutfoldelse gjennom kreativitet\n→ Tillat deg å skape\n→ Bruk kreativitet som ekte uttrykk\n→ Del for å inspirere andre</string>
+    <string name="karmic_detail_30">Karmisk detalj 30: Kreativt uttrykk\n→ Tillat følelser\n→ Glede som veiviser\n→ Følelser er lærere</string>
+    <string name="karmic_detail_31">Karmisk detalj 31: Stabilitet i selvet\n→ Kall i stedet for plikt\n→ Skjul ikke dine gaver\n→ Bring orden i kaos</string>
+    <string name="karmic_detail_32">Karmisk detalj 32: Takknemlighetens energi\n→ Dyrk daglig takknemlighet\n→ Endre perspektiv gjennom takknemlighet\n→ Tiltrekk overflod</string>
+    <string name="karmic_detail_33">Karmisk detalj 33: Mesterlæreren\n→ Universell helende kjærlighet\n→ Medfølelse uten lidelse\n→ Tjeneste for menneskeheten</string>
 
-    <!-- Karmiske detaljer -->
-    <string name="karmic_detail_1">Karmisk detalj 1: personlig ansvar\n→ Slutt å lete etter skyld utenfor deg selv\n→ Erkjenn: Jeg er medskaper av mitt liv\n→ Mot til å gå din egen vei</string>
-    <string name="karmic_detail_2">Karmisk detalj 2: relasjon &amp; speil\n→ Gjenkjenn speilloven: andre viser uløste sider\n→ Diplomati uten å miste deg selv\n→ Bevar tålmodighet</string>
-    <string name="karmic_detail_3">Karmisk detalj 3: autentisitet &amp; uttrykk\n→ Lev din sannhet\n→ Slipp masker og roller\n→ Uttrykk følelser kreativt</string>
-    <string name="karmic_detail_4">Karmisk detalj 4: tålmodighet &amp; tillit\n→ Ikke press alt frem\n→ Stol på guddommelig timing\n→ Skap stabilitet gjennom orden</string>
-    <string name="karmic_detail_5">Karmisk detalj 5: transformasjon av frykt\n→ Mot i stedet for flukt\n→ Transformer frykt for tap eller mangel\n→ Frihet gjennom ansvar</string>
-    <string name="karmic_detail_6">Karmisk detalj 6: kjærlighet &amp; grenser\n→ Ubetinget kjærlighet uten eierskap\n→ Si «nei» uten skyldfølelse\n→ Ikke ofre deg selv</string>
-    <string name="karmic_detail_7">Karmisk detalj 7: tillit &amp; veiledning\n→ Stol på åndelig veiledning\n→ Følg intuisjonen og legg merke til tegn\n→ Indre refleksjon fremfor ytre kontroll</string>
-    <string name="karmic_detail_8">Karmisk detalj 8: makt &amp; overflod\n→ Slipp knapphetsbevissthet\n→ Balanse mellom å gi og motta\n→ Helbred makt (uten manipulasjon)</string>
-    <string name="karmic_detail_9">Karmisk detalj 9: å gi slipp &amp; tilgivelse\n→ Tilgi andre og deg selv\n→ Slipp gamle sår\n→ Tjen fellesskapet</string>
-    <string name="karmic_detail_10">Karmisk detalj 10: skjebnehjulet\n→ Aksepter skjebnen\n→ Slipp motstand\n→ Våge en bevisst ny begynnelse</string>
-    <string name="karmic_detail_11">Karmisk detalj 11: visjonæren\n→ Integrer dualitet (lys &amp; skygge)\n→ Ta imot åndelig ledelse\n→ Vær en inspirasjon for andre</string>
-    <string name="karmic_detail_12">Karmisk detalj 12: perspektivskifte\n→ Tjen uten offerrolle\n→ Se ting fra et nytt perspektiv\n→ Visdom gjennom overgivelse</string>
-    <string name="karmic_detail_13">Karmisk detalj 13: ego &amp; transformasjon\n→ Slipp egoet (stolthet, behov for å ha rett)\n→ Øv ydmykhet uten å miste deg selv\n→ Transformasjon gjennom arbeid og fokus</string>
-    <string name="karmic_detail_14">Karmisk detalj 14: å gi slipp på avhengigheter\n→ Frihet fremfor fryktbasert binding\n→ Finn måtehold\n→ Styrk emosjonell uavhengighet</string>
-    <string name="karmic_detail_16">Karmisk detalj 16: oppvåkning &amp; autentisitet\n→ Gamle strukturer bryter sammen\n→ Finn ekte autentisitet\n→ Illusjoner faller bort</string>
-    <string name="karmic_detail_19">Karmisk detalj 19: egenverdi &amp; makt\n→ Definer deg ikke kun gjennom prestasjoner\n→ Helbred makt og maktesløshet\n→ Lær å ta imot hjelp</string>
-    <string name="karmic_detail_20">Karmisk detalj 20: oppvåkning &amp; dom\n→ Tålmodighet og høyere forståelse\n→ Åndelig diplomati</string>
-    <string name="karmic_detail_21">Karmisk detalj 21: uttrykk i verden\n→ Suksess etter en lang reise\n→ Integrasjon av motsetninger\n→ Fullendelse i det ytre</string>
-    <string name="karmic_detail_22">Karmisk detalj 22: byggeren\n→ Realiser store drømmer\n→ Ta ansvar for dine talenter\n→ Tjen uten å miste deg selv</string>
-    <string name="karmic_detail_23">Karmisk detalj 23: den kongelige løven\n→ Beskyttelse &amp; suksess\n→ Frihet i uttrykk\n→ Bevar fleksibilitet</string>
-    <string name="karmic_detail_24">Karmisk detalj 24: heling av hjertet\n→ Oppfyll og løs opp sjelskontrakter\n→ Kjærlighet og tjeneste for medmennesker\n→ Emosjonell stabilitet</string>
-    <string name="karmic_detail_27">Karmisk detalj 27: tjeneste for helheten\n→ Heling ikke bare for deg selv\n→ Skap innvirkning for andre\n→ Åndelig innsikt</string>
-    <string name="karmic_detail_30">Karmisk detalj 30: kreativt uttrykk\n→ Tillat følelser (ikke undertrykk)\n→ Glede som veiviser\n→ Anerkjenn følelser som lærere</string>
-    <string name="karmic_detail_31">Karmisk detalj 31: indre stabilitet\n→ Kall fremfor plikt\n→ Skjul ikke dine gaver\n→ Bring orden i kaos</string>
-    <string name="karmic_detail_33">Karmisk detalj 33: mesterlæreren\n→ Universell helende kjærlighet\n→ Medfølelse uten lidelse\n→ Tjeneste for menneskeheten</string>
-
-    <!-- Sammendrag & energistrømmer -->
-    <string name="summary_default">Hovedbudskapet ditt er: lytt til din indre stemme – du blir veiledet.</string>
-    <string name="energy_flow_default">Klarhet → Tillit → Handling</string>
-    <string name="summary_99_1">En svært betydningsfull karmisk syklus er fullført. Dette skaper rom for en kraftfull, guddommelig veiledet ny begynnelse.</string>
-    <string name="energy_flow_99_1">Fullendelse → Frigjøring → Ny begynnelse</string>
-    <string name="summary_8_55">En sterk positiv forandring (dobbel 5) fører deg mot overflod og materiell forbedring (8). Et gjennombrudd er nært.</string>
-    <string name="energy_flow_8_55">Gjennombrudd → Frihet → Stabilitet</string>
-    <string name="summary_11_22">Mesterallianse: visjon (11) møter manifestasjon (22). Du har nå kraften til å virkeliggjøre store drømmer.</string>
-    <string name="energy_flow_11_22">Idé → Plan → Virkelighet</string>
-    <string name="summary_7_77">Tredobbel mystisk kraft. Din forbindelse til den åndelige verden er sterkt forsterket. Vær oppmerksom på drømmer og tegn.</string>
-    <string name="energy_flow_7_77">Stillhet → Innsikt → Oppvåkning</string>
-    <string name="summary_4_8">Struktur (4) danner grunnlaget for stor suksess (8). Hardt arbeid gir nå økonomisk uttelling.</string>
-    <string name="energy_flow_4_8">Disiplin → Oppbygging → Rikdom</string>
-    <string name="summary_1_9">Begynnelse og slutt berører hverandre. Du lukker én dør for straks å åpne en ny. En rask overgang.</string>
-    <string name="energy_flow_1_9">Å gi slipp → Mot → Ny start</string>
-    <string name="summary_3_33">Høyeste kreative uttrykk. Dine ord eller din kunst har nå en helende virkning på andre.</string>
-    <string name="energy_flow_3_33">Glede → Uttrykk → Healing</string>
+    <!-- Summaries -->
+    <string name="summary_default">Energiene i dette tallet virker i balanse. Vær bevisst dine tanker og valg – de former din virkelighet.</string>
+    <string name="summary_master_11">Opplysning &amp; inspirasjon. Din indre veiledning er spesielt sterk nå.</string>
+    <string name="summary_master_22">Visjon blir virkelighet gjennom strukturert handling.</string>
+    <string name="summary_master_33">Universell kjærlighet &amp; healing.</string>
+    <string name="summary_master_44">Stabilitet &amp; beskyttelse.</string>
+    <string name="summary_master_55">Radikal transformasjon.</string>
+    <string name="summary_master_66">Hjerteåpning &amp; ansvar.</string>
+    <string name="summary_master_77">Åndelig oppvåkning.</string>
+    <string name="summary_master_88">Kraft &amp; overflod i balanse.</string>
+    <string name="summary_master_99">Fullføring &amp; karmisk modenhet.</string>
+    <string name="summary_multi_master">Flere mesterenergier virker samtidig. En kraftfull fase.</string>
+    <string name="summary_repeat_0">Forsterket urenergi. Tanker og intensjoner er spesielt sterke.</string>
+    <string name="summary_repeat_1">Sterk lederskapsenergi.</string>
+    <string name="summary_repeat_2">Forsterket relasjonsenergi.</string>
+    <string name="summary_repeat_3">Kraftfull kreativ uttrykk.</string>
+    <string name="summary_repeat_4">Intens strukturenergi.</string>
+    <string name="summary_repeat_5">Sterk forandringsenergi.</string>
+    <string name="summary_repeat_6">Forsterket hjerteenergi.</string>
+    <string name="summary_repeat_7">Dyp åndelig energi.</string>
+    <string name="summary_repeat_8">Sterk manifestasjonsenergi.</string>
+    <string name="summary_repeat_9">Intens fullføringsenergi.</string>
+    <string name="summary_1">Ny begynnelse &amp; lederskap – nå er tiden for handling.</string>
+    <string name="summary_2">Balanse &amp; forbindelse – harmoni gjennom å gi og motta.</string>
+    <string name="summary_3">Kreativitet &amp; uttrykk – la dine ideer bli synlige.</string>
+    <string name="summary_4">Stabilitet &amp; struktur – orden skaper trygghet.</string>
+    <string name="summary_5">Forandring &amp; frihet – vær fleksibel.</string>
+    <string name="summary_6">Kjærlighet &amp; ansvar – hjertet viser veien.</string>
+    <string name="summary_7">Intuisjon &amp; oppvåkning – stol på din indre stemme.</string>
+    <string name="summary_8">Suksess &amp; overflod – resultater manifesterer seg.</string>
+    <string name="summary_9">Fullføring &amp; løsrivelse – en ny syklus begynner.</string>
 </resources>
