@@ -6,6 +6,7 @@
     <td>      <h1>Magic Numbers</h1>
       <p>Magic Numbers is an ad-free, offline, and open-source Android app that generates spiritual numerology messages based on the **Rhythm of the Moment**.
 All calculations are performed locally on the device using a deterministic numerology engine implemented in Kotlin.</p>
+<p>You can <strong><a href="https://github.com/Matze1985/MagicNumbers/releases">download the latest release</a></strong> directly from GitHub.</p>
     </td>
   </tr>
 </table>
