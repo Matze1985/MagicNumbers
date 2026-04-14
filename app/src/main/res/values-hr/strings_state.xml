@@ -1,0 +1,21 @@
+<resources>
+    <string name="state_pure_clarity_short">🟢 Maksimalna jasnoća</string>
+    <string name="state_clarity_strong_short">🟢 Snažna jasnoća</string>
+    <string name="state_clarity_medium_short">🟢 Srednja jasnoća</string>
+    <string name="state_clarity_weak_short">🟢 Lagana jasnoća</string>
+    <string name="state_alignment_strong_short">🟢 Snažna usklađenost</string>
+    <string name="state_alignment_weak_short">🟢 Lagana usklađenost</string>
+    <string name="state_tension_strong_short">🔴 Snažna napetost</string>
+    <string name="state_tension_weak_short">🔴 Lagana napetost</string>
+    <string name="state_focus_strong_short">🟠 Snažan fokus</string>
+    <string name="state_focus_weak_short">🟠 Lagani fokus</string>
+    <string name="state_shift_strong_short">🟡 Snažna promjena</string>
+    <string name="state_shift_weak_short">🟡 Lagana promjena</string>
+    <string name="state_transformation_strong_short">🟣 Snažna transformacija</string>
+    <string name="state_transformation_weak_short">🟣 Lagana transformacija</string>
+    <string name="state_reflection_short">🔵 Razmišljanje</string>
+    <string name="state_open_short">⚪ Otvorenost</string>
+    <string name="state_withdrawal_short">⚫ Povlačenje</string>
+    <string name="state_fragile_short">🌑 Osjetljiv</string>
+    <string name="state_void_short">⚫ Praznina</string>
+</resources>

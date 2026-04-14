@@ -240,6 +240,38 @@ average(digits) / 9.0
 
 ---
 
+## 🎯 State System (Frequency-Based Interpretation)
+
+Implemented in:
+
+```kotlin
+getStateResId(frequency: Float)
+```
+
+### 📊 Frequency → State Mapping
+
+| Frequency Range | State |
+|----------------|------|
+| ≥ 0.95 | Pure Clarity |
+| ≥ 0.90 | Strong Clarity |
+| ≥ 0.85 | Medium Clarity |
+| ≥ 0.80 | Weak Clarity |
+| ≥ 0.75 | Strong Alignment |
+| ≥ 0.70 | Weak Alignment |
+| ≥ 0.65 | Strong Tension |
+| ≥ 0.60 | Weak Tension |
+| ≥ 0.55 | Strong Focus |
+| ≥ 0.50 | Weak Focus |
+| ≥ 0.45 | Strong Shift |
+| ≥ 0.40 | Weak Shift |
+| ≥ 0.35 | Strong Transformation |
+| ≥ 0.30 | Weak Transformation |
+| ≥ 0.20 | Reflection |
+| ≥ 0.15 | Open |
+| ≥ 0.10 | Withdrawal |
+| ≥ 0.05 | Fragile |
+| < 0.05 | Void |
+
 ## 🔥 Energy Flow
 
 Implemented in:

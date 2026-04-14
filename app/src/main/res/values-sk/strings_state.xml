@@ -1,0 +1,21 @@
+<resources>
+    <string name="state_pure_clarity_short">🟢 Maximálna jasnosť</string>
+    <string name="state_clarity_strong_short">🟢 Vysoká jasnosť</string>
+    <string name="state_clarity_medium_short">🟢 Stredná jasnosť</string>
+    <string name="state_clarity_weak_short">🟢 Nízka jasnosť</string>
+    <string name="state_alignment_strong_short">🟢 Silná rovnováha</string>
+    <string name="state_alignment_weak_short">🟢 Ľahká rovnováha</string>
+    <string name="state_tension_strong_short">🔴 Vysoké napätie</string>
+    <string name="state_tension_weak_short">🔴 Nízke napätie</string>
+    <string name="state_focus_strong_short">🟠 Vysoké sústredenie</string>
+    <string name="state_focus_weak_short">🟠 Nízke sústredenie</string>
+    <string name="state_shift_strong_short">🟡 Silná zmena</string>
+    <string name="state_shift_weak_short">🟡 Ľahká zmena</string>
+    <string name="state_transformation_strong_short">🟣 Silná transformácia</string>
+    <string name="state_transformation_weak_short">🟣 Ľahká transformácia</string>
+    <string name="state_reflection_short">🔵 Reflexia</string>
+    <string name="state_open_short">⚪ Otvorenosť</string>
+    <string name="state_withdrawal_short">⚫ Ústup</string>
+    <string name="state_fragile_short">🌑 Citlivý</string>
+    <string name="state_void_short">⚫ Prázdnota</string>
+</resources>

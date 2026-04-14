@@ -1,0 +1,21 @@
+<resources>
+    <string name="state_pure_clarity_short">🟢 Максимальная ясность</string>
+    <string name="state_clarity_strong_short">🟢 Высокая ясность</string>
+    <string name="state_clarity_medium_short">🟢 Средняя ясность</string>
+    <string name="state_clarity_weak_short">🟢 Низкая ясность</string>
+    <string name="state_alignment_strong_short">🟢 Сильный баланс</string>
+    <string name="state_alignment_weak_short">🟢 Лёгкий баланс</string>
+    <string name="state_tension_strong_short">🔴 Высокое напряжение</string>
+    <string name="state_tension_weak_short">🔴 Низкое напряжение</string>
+    <string name="state_focus_strong_short">🟠 Высокая концентрация</string>
+    <string name="state_focus_weak_short">🟠 Низкая концентрация</string>
+    <string name="state_shift_strong_short">🟡 Сильное изменение</string>
+    <string name="state_shift_weak_short">🟡 Лёгкое изменение</string>
+    <string name="state_transformation_strong_short">🟣 Сильная трансформация</string>
+    <string name="state_transformation_weak_short">🟣 Лёгкая трансформация</string>
+    <string name="state_reflection_short">🔵 Размышление</string>
+    <string name="state_open_short">⚪ Открытость</string>
+    <string name="state_withdrawal_short">⚫ Отступление</string>
+    <string name="state_fragile_short">🌑 Чувствительный</string>
+    <string name="state_void_short">⚫ Пустота</string>
+</resources>

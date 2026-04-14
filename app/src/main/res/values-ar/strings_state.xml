@@ -1,0 +1,21 @@
+<resources>
+    <string name="state_pure_clarity_short">🟢 وضوح كامل</string>
+    <string name="state_clarity_strong_short">🟢 وضوح قوي</string>
+    <string name="state_clarity_medium_short">🟢 وضوح متوسط</string>
+    <string name="state_clarity_weak_short">🟢 وضوح خفيف</string>
+    <string name="state_alignment_strong_short">🟢 انسجام قوي</string>
+    <string name="state_alignment_weak_short">🟢 انسجام خفيف</string>
+    <string name="state_tension_strong_short">🔴 توتر قوي</string>
+    <string name="state_tension_weak_short">🔴 توتر خفيف</string>
+    <string name="state_focus_strong_short">🟠 تركيز قوي</string>
+    <string name="state_focus_weak_short">🟠 تركيز خفيف</string>
+    <string name="state_shift_strong_short">🟡 تغيير قوي</string>
+    <string name="state_shift_weak_short">🟡 تغيير خفيف</string>
+    <string name="state_transformation_strong_short">🟣 تحول قوي</string>
+    <string name="state_transformation_weak_short">🟣 تحول خفيف</string>
+    <string name="state_reflection_short">🔵 تأمل</string>
+    <string name="state_open_short">⚪ انفتاح</string>
+    <string name="state_withdrawal_short">⚫ انسحاب</string>
+    <string name="state_fragile_short">🌑 حساسية</string>
+    <string name="state_void_short">⚫ فراغ</string>
+</resources>

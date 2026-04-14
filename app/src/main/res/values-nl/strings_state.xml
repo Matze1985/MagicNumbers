@@ -1,0 +1,21 @@
+<resources>
+    <string name="state_pure_clarity_short">🟢 Maximale helderheid</string>
+    <string name="state_clarity_strong_short">🟢 Hoge helderheid</string>
+    <string name="state_clarity_medium_short">🟢 Gemiddelde helderheid</string>
+    <string name="state_clarity_weak_short">🟢 Lage helderheid</string>
+    <string name="state_alignment_strong_short">🟢 Sterke balans</string>
+    <string name="state_alignment_weak_short">🟢 Lichte balans</string>
+    <string name="state_tension_strong_short">🔴 Hoge spanning</string>
+    <string name="state_tension_weak_short">🔴 Lage spanning</string>
+    <string name="state_focus_strong_short">🟠 Hoge focus</string>
+    <string name="state_focus_weak_short">🟠 Lage focus</string>
+    <string name="state_shift_strong_short">🟡 Sterke verandering</string>
+    <string name="state_shift_weak_short">🟡 Lichte verandering</string>
+    <string name="state_transformation_strong_short">🟣 Sterke transformatie</string>
+    <string name="state_transformation_weak_short">🟣 Lichte transformatie</string>
+    <string name="state_reflection_short">🔵 Reflectie</string>
+    <string name="state_open_short">⚪ Openheid</string>
+    <string name="state_withdrawal_short">⚫ Terugtrekking</string>
+    <string name="state_fragile_short">🌑 Gevoelig</string>
+    <string name="state_void_short">⚫ Leegte</string>
+</resources>

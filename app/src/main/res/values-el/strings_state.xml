@@ -1,0 +1,21 @@
+<resources>
+    <string name="state_pure_clarity_short">🟢 Μέγιστη διαύγεια</string>
+    <string name="state_clarity_strong_short">🟢 Ισχυρή διαύγεια</string>
+    <string name="state_clarity_medium_short">🟢 Μέτρια διαύγεια</string>
+    <string name="state_clarity_weak_short">🟢 Ελαφριά διαύγεια</string>
+    <string name="state_alignment_strong_short">🟢 Ισχυρή ευθυγράμμιση</string>
+    <string name="state_alignment_weak_short">🟢 Ελαφριά ευθυγράμμιση</string>
+    <string name="state_tension_strong_short">🔴 Ισχυρή ένταση</string>
+    <string name="state_tension_weak_short">🔴 Ελαφριά ένταση</string>
+    <string name="state_focus_strong_short">🟠 Ισχυρή συγκέντρωση</string>
+    <string name="state_focus_weak_short">🟠 Ελαφριά συγκέντρωση</string>
+    <string name="state_shift_strong_short">🟡 Ισχυρή αλλαγή</string>
+    <string name="state_shift_weak_short">🟡 Ελαφριά αλλαγή</string>
+    <string name="state_transformation_strong_short">🟣 Ισχυρός μετασχηματισμός</string>
+    <string name="state_transformation_weak_short">🟣 Ελαφρύς μετασχηματισμός</string>
+    <string name="state_reflection_short">🔵 Αναστοχασμός</string>
+    <string name="state_open_short">⚪ Ανοιχτότητα</string>
+    <string name="state_withdrawal_short">⚫ Απόσυρση</string>
+    <string name="state_fragile_short">🌑 Ευαισθησία</string>
+    <string name="state_void_short">⚫ Κενό</string>
+</resources>

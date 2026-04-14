@@ -1,0 +1,21 @@
+<resources>
+    <string name="state_pure_clarity_short">🟢 Maksimal klarhed</string>
+    <string name="state_clarity_strong_short">🟢 Stærk klarhed</string>
+    <string name="state_clarity_medium_short">🟢 Moderat klarhed</string>
+    <string name="state_clarity_weak_short">🟢 Let klarhed</string>
+    <string name="state_alignment_strong_short">🟢 Stærk balance</string>
+    <string name="state_alignment_weak_short">🟢 Let balance</string>
+    <string name="state_tension_strong_short">🔴 Stærk spænding</string>
+    <string name="state_tension_weak_short">🔴 Let spænding</string>
+    <string name="state_focus_strong_short">🟠 Stærkt fokus</string>
+    <string name="state_focus_weak_short">🟠 Let fokus</string>
+    <string name="state_shift_strong_short">🟡 Stærk ændring</string>
+    <string name="state_shift_weak_short">🟡 Let ændring</string>
+    <string name="state_transformation_strong_short">🟣 Stærk transformation</string>
+    <string name="state_transformation_weak_short">🟣 Let transformation</string>
+    <string name="state_reflection_short">🔵 Refleksion</string>
+    <string name="state_open_short">⚪ Åbenhed</string>
+    <string name="state_withdrawal_short">⚫ Tilbagetrækning</string>
+    <string name="state_fragile_short">🌑 Følsom</string>
+    <string name="state_void_short">⚫ Tomhed</string>
+</resources>

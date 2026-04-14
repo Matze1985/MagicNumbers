@@ -1,0 +1,21 @@
+<resources>
+    <string name="state_pure_clarity_short">🟢 Maximális tisztaság</string>
+    <string name="state_clarity_strong_short">🟢 Erős tisztaság</string>
+    <string name="state_clarity_medium_short">🟢 Közepes tisztaság</string>
+    <string name="state_clarity_weak_short">🟢 Enyhe tisztaság</string>
+    <string name="state_alignment_strong_short">🟢 Erős egyensúly</string>
+    <string name="state_alignment_weak_short">🟢 Enyhe egyensúly</string>
+    <string name="state_tension_strong_short">🔴 Erős feszültség</string>
+    <string name="state_tension_weak_short">🔴 Enyhe feszültség</string>
+    <string name="state_focus_strong_short">🟠 Erős fókusz</string>
+    <string name="state_focus_weak_short">🟠 Enyhe fókusz</string>
+    <string name="state_shift_strong_short">🟡 Erős változás</string>
+    <string name="state_shift_weak_short">🟡 Enyhe változás</string>
+    <string name="state_transformation_strong_short">🟣 Erős átalakulás</string>
+    <string name="state_transformation_weak_short">🟣 Enyhe átalakulás</string>
+    <string name="state_reflection_short">🔵 Elmélkedés</string>
+    <string name="state_open_short">⚪ Nyitottság</string>
+    <string name="state_withdrawal_short">⚫ Visszahúzódás</string>
+    <string name="state_fragile_short">🌑 Érzékeny</string>
+    <string name="state_void_short">⚫ Üresség</string>
+</resources>

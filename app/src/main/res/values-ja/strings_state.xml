@@ -1,0 +1,21 @@
+<resources>
+    <string name="state_pure_clarity_short">🟢 最大の明瞭さ</string>
+    <string name="state_clarity_strong_short">🟢 高い明瞭さ</string>
+    <string name="state_clarity_medium_short">🟢 中程度の明瞭さ</string>
+    <string name="state_clarity_weak_short">🟢 軽い明瞭さ</string>
+    <string name="state_alignment_strong_short">🟢 強いバランス</string>
+    <string name="state_alignment_weak_short">🟢 軽いバランス</string>
+    <string name="state_tension_strong_short">🔴 強い緊張</string>
+    <string name="state_tension_weak_short">🔴 軽い緊張</string>
+    <string name="state_focus_strong_short">🟠 高い集中</string>
+    <string name="state_focus_weak_short">🟠 軽い集中</string>
+    <string name="state_shift_strong_short">🟡 強い変化</string>
+    <string name="state_shift_weak_short">🟡 軽い変化</string>
+    <string name="state_transformation_strong_short">🟣 強い変容</string>
+    <string name="state_transformation_weak_short">🟣 軽い変容</string>
+    <string name="state_reflection_short">🔵 内省</string>
+    <string name="state_open_short">⚪ 開放</string>
+    <string name="state_withdrawal_short">⚫ 退避</string>
+    <string name="state_fragile_short">🌑 繊細</string>
+    <string name="state_void_short">⚫ 空</string>
+</resources>

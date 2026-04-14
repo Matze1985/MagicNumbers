@@ -1,0 +1,21 @@
+<resources>
+    <string name="state_pure_clarity_short">🟢 Maksimum netlik</string>
+    <string name="state_clarity_strong_short">🟢 Yüksek netlik</string>
+    <string name="state_clarity_medium_short">🟢 Orta netlik</string>
+    <string name="state_clarity_weak_short">🟢 Düşük netlik</string>
+    <string name="state_alignment_strong_short">🟢 Güçlü denge</string>
+    <string name="state_alignment_weak_short">🟢 Hafif denge</string>
+    <string name="state_tension_strong_short">🔴 Yüksek gerginlik</string>
+    <string name="state_tension_weak_short">🔴 Düşük gerginlik</string>
+    <string name="state_focus_strong_short">🟠 Yüksek odak</string>
+    <string name="state_focus_weak_short">🟠 Düşük odak</string>
+    <string name="state_shift_strong_short">🟡 Güçlü değişim</string>
+    <string name="state_shift_weak_short">🟡 Hafif değişim</string>
+    <string name="state_transformation_strong_short">🟣 Güçlü dönüşüm</string>
+    <string name="state_transformation_weak_short">🟣 Hafif dönüşüm</string>
+    <string name="state_reflection_short">🔵 Yansıma</string>
+    <string name="state_open_short">⚪ Açıklık</string>
+    <string name="state_withdrawal_short">⚫ Geri çekilme</string>
+    <string name="state_fragile_short">🌑 Hassas</string>
+    <string name="state_void_short">⚫ Boşluk</string>
+</resources>

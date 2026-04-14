@@ -101,11 +101,12 @@ class MainActivity : ComponentActivity() {
                                 if (currentNumber.isNotEmpty()) {
                                     Button(
                                         onClick = {
-                                            val copyText = engineResult?.buildVisibleCopyText(context)
+                                            val copyText =
+                                                engineResult?.buildVisibleCopyText(context)
                                             Utils.copyToClipboard(context, copyText.toString())
                                         }
                                     ) {
-                                        Icon (
+                                        Icon(
                                             imageVector = Icons.Default.ContentCopy,
                                             contentDescription = null,
                                             tint = Color.White
@@ -210,7 +211,8 @@ class MainActivity : ComponentActivity() {
                                         number = engineResult.number,
                                         crossReduced = engineResult.crossSum.reducedSum,
                                         masterCore = engineResult.masterCore,
-                                        masterAmplifiers = engineResult.masterAmplifiers)
+                                        masterAmplifiers = engineResult.masterAmplifiers
+                                    )
 
                                     if (masters.isNotEmpty()) {
 
@@ -274,17 +276,23 @@ class MainActivity : ComponentActivity() {
 
                                     // Frequenz
                                     Text(
-                                        text="${stringResource(R.string.section_frequency)} $percent%",
+                                        text = "${stringResource(R.string.section_frequency)} $percent%",
                                         fontWeight = FontWeight.Bold,
                                         color = Color.White
                                     )
 
-                                    val dynamicColor = Utils.frequencyColor(engineResult.frequencyScore)
+                                    val dynamicColor =
+                                        Utils.frequencyColor(engineResult.frequencyScore)
 
                                     LinearProgressIndicator(
                                         progress = engineResult.frequencyScore,
                                         color = dynamicColor,
                                         trackColor = Color.DarkGray
+                                    )
+                                    // State Logic
+                                    Text(
+                                        text = stringResource(engineResult.stateResId),
+                                        color = Color.LightGray
                                     )
 
                                     Divider(color = Color.DarkGray)
@@ -296,7 +304,9 @@ class MainActivity : ComponentActivity() {
                                         color = Color.White
                                     )
 
-                                    val uniqueDigits = engineResult.number.filter { it.isDigit() }.toList().distinct()
+                                    val uniqueDigits =
+                                        engineResult.number.filter { it.isDigit() }.toList()
+                                            .distinct()
                                     uniqueDigits.forEach { digit ->
                                         val keywordRes = when (digit) {
                                             '0' -> R.string.keyword_0
@@ -353,11 +363,27 @@ class MainActivity : ComponentActivity() {
                                     Divider(color = Color.DarkGray)
 
                                     // Resonanzmuster
-                                    engineResult.resonanceTitleResId?.let { Text(stringResource(it), fontWeight = FontWeight.Bold, color = Color.White) }
+                                    engineResult.resonanceTitleResId?.let {
+                                        Text(
+                                            stringResource(it),
+                                            fontWeight = FontWeight.Bold,
+                                            color = Color.White
+                                        )
+                                    }
 
-                                    engineResult.resonanceMeaningResId?.let { Text(stringResource(it), color = Color.LightGray) }
+                                    engineResult.resonanceMeaningResId?.let {
+                                        Text(
+                                            stringResource(it),
+                                            color = Color.LightGray
+                                        )
+                                    }
 
-                                    engineResult.resonanceFocusResId?.let { Text(stringResource(it), color = Color.LightGray) }
+                                    engineResult.resonanceFocusResId?.let {
+                                        Text(
+                                            stringResource(it),
+                                            color = Color.LightGray
+                                        )
+                                    }
 
                                     Divider(color = Color.DarkGray)
 

@@ -1,0 +1,21 @@
+<resources>
+    <string name="state_pure_clarity_short">🟢 Maksimaalne selgus</string>
+    <string name="state_clarity_strong_short">🟢 Tugev selgus</string>
+    <string name="state_clarity_medium_short">🟢 Keskmine selgus</string>
+    <string name="state_clarity_weak_short">🟢 Kerge selgus</string>
+    <string name="state_alignment_strong_short">🟢 Tugev tasakaal</string>
+    <string name="state_alignment_weak_short">🟢 Kerge tasakaal</string>
+    <string name="state_tension_strong_short">🔴 Tugev pinge</string>
+    <string name="state_tension_weak_short">🔴 Kerge pinge</string>
+    <string name="state_focus_strong_short">🟠 Tugev fookus</string>
+    <string name="state_focus_weak_short">🟠 Kerge fookus</string>
+    <string name="state_shift_strong_short">🟡 Tugev muutus</string>
+    <string name="state_shift_weak_short">🟡 Kerge muutus</string>
+    <string name="state_transformation_strong_short">🟣 Tugev transformatsioon</string>
+    <string name="state_transformation_weak_short">🟣 Kerge transformatsioon</string>
+    <string name="state_reflection_short">🔵 Peegeldus</string>
+    <string name="state_open_short">⚪ Avatus</string>
+    <string name="state_withdrawal_short">⚫ Tagasitõmbumine</string>
+    <string name="state_fragile_short">🌑 Tundlik</string>
+    <string name="state_void_short">⚫ Tühjus</string>
+</resources>

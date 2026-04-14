@@ -1,0 +1,21 @@
+<resources>
+    <string name="state_pure_clarity_short">🟢 Maximal klarhet</string>
+    <string name="state_clarity_strong_short">🟢 Hög klarhet</string>
+    <string name="state_clarity_medium_short">🟢 Medel klarhet</string>
+    <string name="state_clarity_weak_short">🟢 Låg klarhet</string>
+    <string name="state_alignment_strong_short">🟢 Stark balans</string>
+    <string name="state_alignment_weak_short">🟢 Lätt balans</string>
+    <string name="state_tension_strong_short">🔴 Hög spänning</string>
+    <string name="state_tension_weak_short">🔴 Låg spänning</string>
+    <string name="state_focus_strong_short">🟠 Högt fokus</string>
+    <string name="state_focus_weak_short">🟠 Lågt fokus</string>
+    <string name="state_shift_strong_short">🟡 Stark förändring</string>
+    <string name="state_shift_weak_short">🟡 Lätt förändring</string>
+    <string name="state_transformation_strong_short">🟣 Stark transformation</string>
+    <string name="state_transformation_weak_short">🟣 Lätt transformation</string>
+    <string name="state_reflection_short">🔵 Reflektion</string>
+    <string name="state_open_short">⚪ Öppenhet</string>
+    <string name="state_withdrawal_short">⚫ Tillbakadragande</string>
+    <string name="state_fragile_short">🌑 Känslig</string>
+    <string name="state_void_short">⚫ Tomhet</string>
+</resources>

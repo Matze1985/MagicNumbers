@@ -1,0 +1,21 @@
+<resources>
+    <string name="state_pure_clarity_short">🟢 Độ rõ tối đa</string>
+    <string name="state_clarity_strong_short">🟢 Độ rõ cao</string>
+    <string name="state_clarity_medium_short">🟢 Độ rõ trung bình</string>
+    <string name="state_clarity_weak_short">🟢 Độ rõ thấp</string>
+    <string name="state_alignment_strong_short">🟢 Cân bằng mạnh</string>
+    <string name="state_alignment_weak_short">🟢 Cân bằng nhẹ</string>
+    <string name="state_tension_strong_short">🔴 Căng thẳng cao</string>
+    <string name="state_tension_weak_short">🔴 Căng thẳng thấp</string>
+    <string name="state_focus_strong_short">🟠 Tập trung cao</string>
+    <string name="state_focus_weak_short">🟠 Tập trung thấp</string>
+    <string name="state_shift_strong_short">🟡 Thay đổi mạnh</string>
+    <string name="state_shift_weak_short">🟡 Thay đổi nhẹ</string>
+    <string name="state_transformation_strong_short">🟣 Chuyển hóa mạnh</string>
+    <string name="state_transformation_weak_short">🟣 Chuyển hóa nhẹ</string>
+    <string name="state_reflection_short">🔵 Suy ngẫm</string>
+    <string name="state_open_short">⚪ Cởi mở</string>
+    <string name="state_withdrawal_short">⚫ Rút lui</string>
+    <string name="state_fragile_short">🌑 Nhạy cảm</string>
+    <string name="state_void_short">⚫ Trống rỗng</string>
+</resources>

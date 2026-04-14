@@ -1,0 +1,21 @@
+<resources>
+    <string name="state_pure_clarity_short">🟢 Kejelasan maksimal</string>
+    <string name="state_clarity_strong_short">🟢 Kejelasan kuat</string>
+    <string name="state_clarity_medium_short">🟢 Kejelasan sedang</string>
+    <string name="state_clarity_weak_short">🟢 Kejelasan ringan</string>
+    <string name="state_alignment_strong_short">🟢 Keseimbangan kuat</string>
+    <string name="state_alignment_weak_short">🟢 Keseimbangan ringan</string>
+    <string name="state_tension_strong_short">🔴 Ketegangan kuat</string>
+    <string name="state_tension_weak_short">🔴 Ketegangan ringan</string>
+    <string name="state_focus_strong_short">🟠 Fokus kuat</string>
+    <string name="state_focus_weak_short">🟠 Fokus ringan</string>
+    <string name="state_shift_strong_short">🟡 Perubahan kuat</string>
+    <string name="state_shift_weak_short">🟡 Perubahan ringan</string>
+    <string name="state_transformation_strong_short">🟣 Transformasi kuat</string>
+    <string name="state_transformation_weak_short">🟣 Transformasi ringan</string>
+    <string name="state_reflection_short">🔵 Refleksi</string>
+    <string name="state_open_short">⚪ Keterbukaan</string>
+    <string name="state_withdrawal_short">⚫ Penarikan diri</string>
+    <string name="state_fragile_short">🌑 Sensitif</string>
+    <string name="state_void_short">⚫ Kekosongan</string>
+</resources>

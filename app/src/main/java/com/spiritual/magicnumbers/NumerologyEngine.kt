@@ -26,21 +26,24 @@ data class EngineResult(
     val resonanceTitleResId: Int?,
     val resonanceMeaningResId: Int?,
     val resonanceFocusResId: Int?,
-    val karmicDetailResId: Int?
+    val karmicDetailResId: Int?,
+    val stateResId: Int
 )
 
 object NumerologyEngine {
 
     private val masterCoreNumbers = listOf(11, 22, 33, 44)
+
     //TODO: example: 55, 66, 77, 88, 99 | For GUI all logics
-    private val masterAmplifierNumbers = listOf(11, 22, 33, 44, 55, 66, 77, 88, 99) // Default: 55 to 99
+    private val masterAmplifierNumbers =
+        listOf(11, 22, 33, 44, 55, 66, 77, 88, 99) // Default: 55 to 99
 
     // =====================================================
     // CROSS SUM
     // =====================================================
     fun calculateCrossSum(number: String): CrossSumResult {
         val clean = number.filter { it.isDigit() }
-        if (clean.isEmpty()) return CrossSumResult(0,0,"")
+        if (clean.isEmpty()) return CrossSumResult(0, 0, "")
 
         val digits = clean.map { it.digitToInt() }
         val steps = mutableListOf<String>()
@@ -228,7 +231,8 @@ object NumerologyEngine {
 
             if (number.length == 4 &&
                 number[0] == number[3] &&
-                number[1] == number[2]) {
+                number[1] == number[2]
+            ) {
                 results.add(R.string.angel_mirror)
             }
         }
@@ -245,27 +249,57 @@ object NumerologyEngine {
         }
     }
 
-    private fun angelZero(r:Int)= when(r){1->R.string.angel_0_1;2->R.string.angel_0_2;3->R.string.angel_0_3;4->R.string.angel_0_4;5->R.string.angel_0_5;6->R.string.angel_0_6;else->0}
-    private fun angelOne(r:Int)= when(r){1->R.string.angel_1_1;2->R.string.angel_1_2;3->R.string.angel_1_3;4->R.string.angel_1_4;5->R.string.angel_1_5;6->R.string.angel_1_6;else->0}
-    private fun angelTwo(r:Int)= when(r){1->R.string.angel_1_2;2->R.string.angel_2_2;3->R.string.angel_2_3;4->R.string.angel_2_4;5->R.string.angel_2_5;6->R.string.angel_2_6;else->0}
-    private fun angelThree(r:Int)= when(r){1->R.string.angel_3_1;2->R.string.angel_3_2;3->R.string.angel_3_3;4->R.string.angel_3_4;5->R.string.angel_3_5;6->R.string.angel_3_6;else->0}
-    private fun angelFour(r:Int)= when(r){1->R.string.angel_4_1;2->R.string.angel_4_2;3->R.string.angel_4_3;4->R.string.angel_4_4;5->R.string.angel_4_5;6->R.string.angel_4_6;else->0}
-    private fun angelFive(r:Int)= when(r){1->R.string.angel_5_1;2->R.string.angel_5_2;3->R.string.angel_5_3;4->R.string.angel_5_4;5->R.string.angel_5_5;6->R.string.angel_5_6;else->0}
-    private fun angelSix(r:Int)= when(r){1->R.string.angel_6_1;2->R.string.angel_6_2;3->R.string.angel_6_3;4->R.string.angel_6_4;5->R.string.angel_6_5;6->R.string.angel_6_6;else->0}
-    private fun angelSeven(r:Int)= when(r){1->R.string.angel_7_1;2->R.string.angel_7_2;3->R.string.angel_7_3;4->R.string.angel_7_4;5->R.string.angel_7_5;6->R.string.angel_7_6;else->0}
-    private fun angelEight(r:Int)= when(r){1->R.string.angel_8_1;2->R.string.angel_8_2;3->R.string.angel_8_3;4->R.string.angel_8_4;5->R.string.angel_8_5;6->R.string.angel_8_6;else->0}
-    private fun angelNine(r:Int)= when(r){1->R.string.angel_9_1;2->R.string.angel_9_2;3->R.string.angel_9_3;4->R.string.angel_9_4;5->R.string.angel_9_5;6->R.string.angel_9_6;else->0}
+    private fun angelZero(r: Int) = when (r) {
+        1 -> R.string.angel_0_1; 2 -> R.string.angel_0_2; 3 -> R.string.angel_0_3; 4 -> R.string.angel_0_4; 5 -> R.string.angel_0_5; 6 -> R.string.angel_0_6; else -> 0
+    }
+
+    private fun angelOne(r: Int) = when (r) {
+        1 -> R.string.angel_1_1; 2 -> R.string.angel_1_2; 3 -> R.string.angel_1_3; 4 -> R.string.angel_1_4; 5 -> R.string.angel_1_5; 6 -> R.string.angel_1_6; else -> 0
+    }
+
+    private fun angelTwo(r: Int) = when (r) {
+        1 -> R.string.angel_1_2; 2 -> R.string.angel_2_2; 3 -> R.string.angel_2_3; 4 -> R.string.angel_2_4; 5 -> R.string.angel_2_5; 6 -> R.string.angel_2_6; else -> 0
+    }
+
+    private fun angelThree(r: Int) = when (r) {
+        1 -> R.string.angel_3_1; 2 -> R.string.angel_3_2; 3 -> R.string.angel_3_3; 4 -> R.string.angel_3_4; 5 -> R.string.angel_3_5; 6 -> R.string.angel_3_6; else -> 0
+    }
+
+    private fun angelFour(r: Int) = when (r) {
+        1 -> R.string.angel_4_1; 2 -> R.string.angel_4_2; 3 -> R.string.angel_4_3; 4 -> R.string.angel_4_4; 5 -> R.string.angel_4_5; 6 -> R.string.angel_4_6; else -> 0
+    }
+
+    private fun angelFive(r: Int) = when (r) {
+        1 -> R.string.angel_5_1; 2 -> R.string.angel_5_2; 3 -> R.string.angel_5_3; 4 -> R.string.angel_5_4; 5 -> R.string.angel_5_5; 6 -> R.string.angel_5_6; else -> 0
+    }
+
+    private fun angelSix(r: Int) = when (r) {
+        1 -> R.string.angel_6_1; 2 -> R.string.angel_6_2; 3 -> R.string.angel_6_3; 4 -> R.string.angel_6_4; 5 -> R.string.angel_6_5; 6 -> R.string.angel_6_6; else -> 0
+    }
+
+    private fun angelSeven(r: Int) = when (r) {
+        1 -> R.string.angel_7_1; 2 -> R.string.angel_7_2; 3 -> R.string.angel_7_3; 4 -> R.string.angel_7_4; 5 -> R.string.angel_7_5; 6 -> R.string.angel_7_6; else -> 0
+    }
+
+    private fun angelEight(r: Int) = when (r) {
+        1 -> R.string.angel_8_1; 2 -> R.string.angel_8_2; 3 -> R.string.angel_8_3; 4 -> R.string.angel_8_4; 5 -> R.string.angel_8_5; 6 -> R.string.angel_8_6; else -> 0
+    }
+
+    private fun angelNine(r: Int) = when (r) {
+        1 -> R.string.angel_9_1; 2 -> R.string.angel_9_2; 3 -> R.string.angel_9_3; 4 -> R.string.angel_9_4; 5 -> R.string.angel_9_5; 6 -> R.string.angel_9_6; else -> 0
+    }
 
     // =====================================================
     // MASTER / DOMINANT
     // =====================================================
-    fun getMasterCore(sum:Int,reduced:Int)= when{
-        sum in masterCoreNumbers->sum
-        reduced in masterCoreNumbers->reduced
-        else->null
+    fun getMasterCore(sum: Int, reduced: Int) = when {
+        sum in masterCoreNumbers -> sum
+        reduced in masterCoreNumbers -> reduced
+        else -> null
     }
 
-    fun getMasterAmplifiers(number:String) = masterAmplifierNumbers.filter{number.contains(it.toString())}
+    fun getMasterAmplifiers(number: String) =
+        masterAmplifierNumbers.filter { number.contains(it.toString()) }
 
     // =====================================================
     // ORDERED MASTER NUMBERS
@@ -279,7 +313,9 @@ object NumerologyEngine {
 
         val result = mutableListOf<Int>()
         // 1. Meisterzahl aus Quersumme zuerst
-        if (crossReduced in masterCoreNumbers) { result.add(crossReduced) }
+        if (crossReduced in masterCoreNumbers) {
+            result.add(crossReduced)
+        }
         // 2. Core falls noch nicht enthalten
         masterCore?.let { if (!result.contains(it)) result.add(it) }
         // 3. Amplifier nach Auftreten im String sortieren
@@ -293,111 +329,185 @@ object NumerologyEngine {
         return result
     }
 
-    fun getDominantRepeatDigit(number:String):Int?{
-        val dominant=number.groupingBy{it}.eachCount().maxByOrNull{it.value}
-        return if(dominant!=null && dominant.value>=3) dominant.key.digitToInt() else null
+    fun getDominantRepeatDigit(number: String): Int? {
+        val dominant = number.groupingBy { it }.eachCount().maxByOrNull { it.value }
+        return if (dominant != null && dominant.value >= 3) dominant.key.digitToInt() else null
     }
 
     // =====================================================
     // FREQUENCY
     // =====================================================
-    fun calculateFrequencyScore(number:String):Float{
-        if(number.isEmpty()) return 0f
-        val avg=number.map{it.digitToInt()}.average()/9.0
-        return avg.coerceIn(0.1,1.0).toFloat()
+    fun calculateFrequencyScore(number: String): Float {
+        if (number.isEmpty()) return 0f
+        val avg = number.map { it.digitToInt() }.average() / 9.0
+        return avg.coerceIn(0.1, 1.0).toFloat()
+    }
+
+    // =====================================================
+    // STATE LOGIC BY FREQUENCY
+    // =====================================================
+    fun getStateResId(frequency: Float): Int {
+        return when {
+            frequency >= 0.95f -> R.string.state_pure_clarity_short
+            frequency >= 0.90f -> R.string.state_clarity_strong_short
+            frequency >= 0.85f -> R.string.state_clarity_medium_short
+            frequency >= 0.80f -> R.string.state_clarity_weak_short
+            frequency >= 0.75f -> R.string.state_alignment_strong_short
+            frequency >= 0.70f -> R.string.state_alignment_weak_short
+            frequency >= 0.65f -> R.string.state_tension_strong_short
+            frequency >= 0.60f -> R.string.state_tension_weak_short
+            frequency >= 0.55f -> R.string.state_focus_strong_short
+            frequency >= 0.50f -> R.string.state_focus_weak_short
+            frequency >= 0.45f -> R.string.state_shift_strong_short
+            frequency >= 0.40f -> R.string.state_shift_weak_short
+            frequency >= 0.35f -> R.string.state_transformation_strong_short
+            frequency >= 0.30f -> R.string.state_transformation_weak_short
+            frequency >= 0.20f -> R.string.state_reflection_short
+            frequency >= 0.15f -> R.string.state_open_short
+            frequency >= 0.10f -> R.string.state_withdrawal_short
+            frequency >= 0.05f -> R.string.state_fragile_short
+            else -> R.string.state_void_short
+        }
     }
 
     // =====================================================
     // ENERGY FLOW
     // =====================================================
-    fun getEnergyFlowResId(masterCore:Int?,dominant:Int?,reduced:Int):Int{
-        masterCore?.let{
-            return when(it){
-                11->R.string.energy_11
-                22->R.string.energy_22
-                33->R.string.energy_33
-                44->R.string.energy_44
-                else->R.string.energy_default
+    fun getEnergyFlowResId(masterCore: Int?, dominant: Int?, reduced: Int): Int {
+        masterCore?.let {
+            return when (it) {
+                11 -> R.string.energy_11
+                22 -> R.string.energy_22
+                33 -> R.string.energy_33
+                44 -> R.string.energy_44
+                else -> R.string.energy_default
             }
         }
 
-        dominant?.let{
-            return when(it){
-                0->R.string.energy_repeat_0
-                1->R.string.energy_repeat_1
-                2->R.string.energy_repeat_2
-                3->R.string.energy_repeat_3
-                4->R.string.energy_repeat_4
-                5->R.string.energy_repeat_5
-                6->R.string.energy_repeat_6
-                7->R.string.energy_repeat_7
-                8->R.string.energy_repeat_8
-                9->R.string.energy_repeat_9
-                else->R.string.energy_default
+        dominant?.let {
+            return when (it) {
+                0 -> R.string.energy_repeat_0
+                1 -> R.string.energy_repeat_1
+                2 -> R.string.energy_repeat_2
+                3 -> R.string.energy_repeat_3
+                4 -> R.string.energy_repeat_4
+                5 -> R.string.energy_repeat_5
+                6 -> R.string.energy_repeat_6
+                7 -> R.string.energy_repeat_7
+                8 -> R.string.energy_repeat_8
+                9 -> R.string.energy_repeat_9
+                else -> R.string.energy_default
             }
         }
 
-        return when(reduced){
-            0->R.string.energy_0
-            1->R.string.energy_1
-            2->R.string.energy_2
-            3->R.string.energy_3
-            4->R.string.energy_4
-            5->R.string.energy_5
-            6->R.string.energy_6
-            7->R.string.energy_7
-            8->R.string.energy_8
-            9->R.string.energy_9
-            else->R.string.energy_default
+        return when (reduced) {
+            0 -> R.string.energy_0
+            1 -> R.string.energy_1
+            2 -> R.string.energy_2
+            3 -> R.string.energy_3
+            4 -> R.string.energy_4
+            5 -> R.string.energy_5
+            6 -> R.string.energy_6
+            7 -> R.string.energy_7
+            8 -> R.string.energy_8
+            9 -> R.string.energy_9
+            else -> R.string.energy_default
         }
     }
 
     // =====================================================
     // RESONANCE
     // =====================================================
-    private fun getResonance(number:String):Triple<Int,Int,Int>?{
-        if(number.length!=4 && number.length!=6) return null
-        val d=number.toCharArray()
+    private fun getResonance(number: String): Triple<Int, Int, Int>? {
+        if (number.length != 4 && number.length != 6) return null
+        val d = number.toCharArray()
 
-        fun allSame()=d.all{it==d[0]}
-        fun isAABB()=d[0]==d[1] && d[2]==d[3] && d[0]!=d[2]
-        fun isABBA()=d[0]==d[3] && d[1]==d[2] && d[0]!=d[1]
-        fun isABAB()=d[0]==d[2] && d[1]==d[3] && d[0]!=d[1]
-        fun isAAABBB()=number.length==6 && d[0]==d[1]&&d[1]==d[2]&&d[3]==d[4]&&d[4]==d[5]&&d[0]!=d[3]
-        fun isABCABC()=number.length==6 && number.substring(0,3)==number.substring(3,6)
-        fun isMirror()=number==number.reversed()
+        fun allSame() = d.all { it == d[0] }
+        fun isAABB() = d[0] == d[1] && d[2] == d[3] && d[0] != d[2]
+        fun isABBA() = d[0] == d[3] && d[1] == d[2] && d[0] != d[1]
+        fun isABAB() = d[0] == d[2] && d[1] == d[3] && d[0] != d[1]
+        fun isAAABBB() = number.length == 6 && d[0] == d[1] && d[1] == d[2] && d[3] == d[4] && d[4] == d[5] && d[0] != d[3]
+        fun isABCABC() = number.length == 6 && number.substring(0, 3) == number.substring(3, 6)
+        fun isMirror() = number == number.reversed()
 
-        return when{
-            allSame()-> if(number.length==4)
-                Triple(R.string.resonance4_title_mono,R.string.resonance4_meaning_mono,R.string.resonance_focus_none)
+        return when {
+            allSame() -> if (number.length == 4)
+                Triple(
+                    R.string.resonance4_title_mono,
+                    R.string.resonance4_meaning_mono,
+                    R.string.resonance_focus_none
+                )
             else
-                Triple(R.string.resonance6_title_mono,R.string.resonance6_meaning_mono,R.string.resonance_focus_none)
+                Triple(
+                    R.string.resonance6_title_mono,
+                    R.string.resonance6_meaning_mono,
+                    R.string.resonance_focus_none
+                )
 
-            isAABB()->Triple(R.string.resonance4_title_aabb,R.string.resonance4_meaning_aabb,R.string.resonance_focus_frame)
-            isABAB()->Triple(R.string.resonance4_title_abab,R.string.resonance4_meaning_abab,R.string.resonance_focus_center)
-            isABBA()->Triple(R.string.resonance4_title_abba,R.string.resonance4_meaning_abba,R.string.resonance_focus_center)
-            isAAABBB()->Triple(R.string.resonance6_title_aaabbb,R.string.resonance6_meaning_aaabbb,R.string.resonance_focus_frame)
-            isABCABC()->Triple(R.string.resonance6_title_abcabc,R.string.resonance6_meaning_abcabc,R.string.resonance_focus_center)
-            isMirror()->Triple(R.string.resonance6_title_mirror,R.string.resonance6_meaning_mirror,R.string.resonance_focus_center)
-            else-> if(number.length==4)
-                Triple(R.string.resonance4_title_none,R.string.resonance4_meaning_none,R.string.resonance_focus_none)
+            isAABB() -> Triple(
+                R.string.resonance4_title_aabb,
+                R.string.resonance4_meaning_aabb,
+                R.string.resonance_focus_frame
+            )
+
+            isABAB() -> Triple(
+                R.string.resonance4_title_abab,
+                R.string.resonance4_meaning_abab,
+                R.string.resonance_focus_center
+            )
+
+            isABBA() -> Triple(
+                R.string.resonance4_title_abba,
+                R.string.resonance4_meaning_abba,
+                R.string.resonance_focus_center
+            )
+
+            isAAABBB() -> Triple(
+                R.string.resonance6_title_aaabbb,
+                R.string.resonance6_meaning_aaabbb,
+                R.string.resonance_focus_frame
+            )
+
+            isABCABC() -> Triple(
+                R.string.resonance6_title_abcabc,
+                R.string.resonance6_meaning_abcabc,
+                R.string.resonance_focus_center
+            )
+
+            isMirror() -> Triple(
+                R.string.resonance6_title_mirror,
+                R.string.resonance6_meaning_mirror,
+                R.string.resonance_focus_center
+            )
+
+            else -> if (number.length == 4)
+                Triple(
+                    R.string.resonance4_title_none,
+                    R.string.resonance4_meaning_none,
+                    R.string.resonance_focus_none
+                )
             else
-                Triple(R.string.resonance6_title_none,R.string.resonance6_meaning_none,R.string.resonance_focus_none)
+                Triple(
+                    R.string.resonance6_title_none,
+                    R.string.resonance6_meaning_none,
+                    R.string.resonance_focus_none
+                )
         }
     }
 
     // =====================================================
     // BUILD RESULT
     // =====================================================
-    fun buildEngineResult(number:String):EngineResult{
-        val cross=calculateCrossSum(number)
-        val reduced=cross.reducedSum
-        val masterCore=getMasterCore(cross.sumBeforeReduce,reduced)
-        val amplifiers=getMasterAmplifiers(number)
-        val dominant=getDominantRepeatDigit(number)
-        val frequency=calculateFrequencyScore(number)
-        val resonance=getResonance(number)
-        val summaryResId = getSummaryResId(masterCore,amplifiers,dominant,reduced)
+    fun buildEngineResult(number: String): EngineResult {
+        val cross = calculateCrossSum(number)
+        val reduced = cross.reducedSum
+        val masterCore = getMasterCore(cross.sumBeforeReduce, reduced)
+        val amplifiers = getMasterAmplifiers(number)
+        val dominant = getDominantRepeatDigit(number)
+        val frequency = calculateFrequencyScore(number)
+        val resonance = getResonance(number)
+        val summaryResId = getSummaryResId(masterCore, amplifiers, dominant, reduced)
+        val stateResId = getStateResId(frequency)
 
         return EngineResult(
             number,
@@ -411,86 +521,92 @@ object NumerologyEngine {
             amplifiers,
             dominant,
             frequency,
-            getEnergyFlowResId(masterCore,dominant,reduced),
+            getEnergyFlowResId(masterCore, dominant, reduced),
             summaryResId,
             resonance?.first,
             resonance?.second,
             resonance?.third,
-            getKarmicDetailResId(number)
+            getKarmicDetailResId(number),
+            stateResId
         )
     }
 
-    fun getSummaryResId(masterCore:Int?,amps:List<Int>,dom:Int?,reduced:Int)=
-        when{
-            masterCore!=null->when(masterCore){
-                11->R.string.summary_master_11
-                22->R.string.summary_master_22
-                33->R.string.summary_master_33
-                44->R.string.summary_master_44
-                else->R.string.summary_default}
-            amps.size>=2->R.string.summary_multi_master
-            dom!=null->when(dom){
-                0->R.string.summary_repeat_0
-                1->R.string.summary_repeat_1
-                2->R.string.summary_repeat_2
-                3->R.string.summary_repeat_3
-                4->R.string.summary_repeat_4
-                5->R.string.summary_repeat_5
-                6->R.string.summary_repeat_6
-                7->R.string.summary_repeat_7
-                8->R.string.summary_repeat_8
-                9->R.string.summary_repeat_9
-                else->R.string.summary_default}
-            else->when(reduced){
-                1->R.string.summary_1
-                2->R.string.summary_2
-                3->R.string.summary_3
-                4->R.string.summary_4
-                5->R.string.summary_5
-                6->R.string.summary_6
-                7->R.string.summary_7
-                8->R.string.summary_8
-                9->R.string.summary_9
-                else->R.string.summary_default}
+    fun getSummaryResId(masterCore: Int?, amps: List<Int>, dom: Int?, reduced: Int) =
+        when {
+            masterCore != null -> when (masterCore) {
+                11 -> R.string.summary_master_11
+                22 -> R.string.summary_master_22
+                33 -> R.string.summary_master_33
+                44 -> R.string.summary_master_44
+                else -> R.string.summary_default
+            }
+
+            amps.size >= 2 -> R.string.summary_multi_master
+            dom != null -> when (dom) {
+                0 -> R.string.summary_repeat_0
+                1 -> R.string.summary_repeat_1
+                2 -> R.string.summary_repeat_2
+                3 -> R.string.summary_repeat_3
+                4 -> R.string.summary_repeat_4
+                5 -> R.string.summary_repeat_5
+                6 -> R.string.summary_repeat_6
+                7 -> R.string.summary_repeat_7
+                8 -> R.string.summary_repeat_8
+                9 -> R.string.summary_repeat_9
+                else -> R.string.summary_default
+            }
+
+            else -> when (reduced) {
+                1 -> R.string.summary_1
+                2 -> R.string.summary_2
+                3 -> R.string.summary_3
+                4 -> R.string.summary_4
+                5 -> R.string.summary_5
+                6 -> R.string.summary_6
+                7 -> R.string.summary_7
+                8 -> R.string.summary_8
+                9 -> R.string.summary_9
+                else -> R.string.summary_default
+            }
         }
 
-    fun getKarmicDetailResId(number:String):Int?{
-        val sum=calculateCrossSum(number).sumBeforeReduce
-        return when(sum){
-            1->R.string.karmic_detail_1
-            2->R.string.karmic_detail_2
-            3->R.string.karmic_detail_3
-            4->R.string.karmic_detail_4
-            5->R.string.karmic_detail_5
-            6->R.string.karmic_detail_6
-            7->R.string.karmic_detail_7
-            8->R.string.karmic_detail_8
-            9->R.string.karmic_detail_9
-            10->R.string.karmic_detail_10
-            11->R.string.karmic_detail_11
-            12->R.string.karmic_detail_12
-            13->R.string.karmic_detail_13
-            14->R.string.karmic_detail_14
-            15->R.string.karmic_detail_15
-            16->R.string.karmic_detail_16
-            17->R.string.karmic_detail_17
-            18->R.string.karmic_detail_18
-            19->R.string.karmic_detail_19
-            20->R.string.karmic_detail_20
-            21->R.string.karmic_detail_21
-            22->R.string.karmic_detail_22
-            23->R.string.karmic_detail_23
-            24->R.string.karmic_detail_24
-            25->R.string.karmic_detail_25
-            26->R.string.karmic_detail_26
-            27->R.string.karmic_detail_27
-            28->R.string.karmic_detail_28
-            29->R.string.karmic_detail_29
-            30->R.string.karmic_detail_30
-            31->R.string.karmic_detail_31
-            32->R.string.karmic_detail_32
-            33->R.string.karmic_detail_33
-            else->null
+    fun getKarmicDetailResId(number: String): Int? {
+        val sum = calculateCrossSum(number).sumBeforeReduce
+        return when (sum) {
+            1 -> R.string.karmic_detail_1
+            2 -> R.string.karmic_detail_2
+            3 -> R.string.karmic_detail_3
+            4 -> R.string.karmic_detail_4
+            5 -> R.string.karmic_detail_5
+            6 -> R.string.karmic_detail_6
+            7 -> R.string.karmic_detail_7
+            8 -> R.string.karmic_detail_8
+            9 -> R.string.karmic_detail_9
+            10 -> R.string.karmic_detail_10
+            11 -> R.string.karmic_detail_11
+            12 -> R.string.karmic_detail_12
+            13 -> R.string.karmic_detail_13
+            14 -> R.string.karmic_detail_14
+            15 -> R.string.karmic_detail_15
+            16 -> R.string.karmic_detail_16
+            17 -> R.string.karmic_detail_17
+            18 -> R.string.karmic_detail_18
+            19 -> R.string.karmic_detail_19
+            20 -> R.string.karmic_detail_20
+            21 -> R.string.karmic_detail_21
+            22 -> R.string.karmic_detail_22
+            23 -> R.string.karmic_detail_23
+            24 -> R.string.karmic_detail_24
+            25 -> R.string.karmic_detail_25
+            26 -> R.string.karmic_detail_26
+            27 -> R.string.karmic_detail_27
+            28 -> R.string.karmic_detail_28
+            29 -> R.string.karmic_detail_29
+            30 -> R.string.karmic_detail_30
+            31 -> R.string.karmic_detail_31
+            32 -> R.string.karmic_detail_32
+            33 -> R.string.karmic_detail_33
+            else -> null
         }
     }
 
@@ -580,7 +696,8 @@ object NumerologyEngine {
 
                     if (!shownAngelIds.contains(resId)) {
                         shownAngelIds.add(resId)
-                        builder.appendLine(context.getString(resId).cleanMarkdown()
+                        builder.appendLine(
+                            context.getString(resId).cleanMarkdown()
                         )
                     }
                 }
@@ -595,6 +712,7 @@ object NumerologyEngine {
         // --------------------------------------------------
         val percent = (frequencyScore * 100).toInt()
         builder.appendLine("${context.getString(R.string.section_frequency)} $percent%")
+        builder.appendLine(context.getString(stateResId).cleanMarkdown())
         builder.appendLine()
         // --------------------------------------------------
         // DIGIT VIBRATION

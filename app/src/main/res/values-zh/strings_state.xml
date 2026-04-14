@@ -1,0 +1,21 @@
+<resources>
+    <string name="state_pure_clarity_short">🟢 最大清晰度</string>
+    <string name="state_clarity_strong_short">🟢 高清晰度</string>
+    <string name="state_clarity_medium_short">🟢 中等清晰度</string>
+    <string name="state_clarity_weak_short">🟢 低清晰度</string>
+    <string name="state_alignment_strong_short">🟢 高度平衡</string>
+    <string name="state_alignment_weak_short">🟢 轻度平衡</string>
+    <string name="state_tension_strong_short">🔴 高强度紧张</string>
+    <string name="state_tension_weak_short">🔴 低强度紧张</string>
+    <string name="state_focus_strong_short">🟠 高度专注</string>
+    <string name="state_focus_weak_short">🟠 低度专注</string>
+    <string name="state_shift_strong_short">🟡 强烈变化</string>
+    <string name="state_shift_weak_short">🟡 轻微变化</string>
+    <string name="state_transformation_strong_short">🟣 强烈转变</string>
+    <string name="state_transformation_weak_short">🟣 轻微转变</string>
+    <string name="state_reflection_short">🔵 反思</string>
+    <string name="state_open_short">⚪ 开放</string>
+    <string name="state_withdrawal_short">⚫ 退缩</string>
+    <string name="state_fragile_short">🌑 敏感</string>
+    <string name="state_void_short">⚫ 空</string>
+</resources>

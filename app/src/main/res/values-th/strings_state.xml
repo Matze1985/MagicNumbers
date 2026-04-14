@@ -1,0 +1,21 @@
+<resources>
+    <string name="state_pure_clarity_short">🟢 ความชัดเจนสูงสุด</string>
+    <string name="state_clarity_strong_short">🟢 ความชัดเจนสูง</string>
+    <string name="state_clarity_medium_short">🟢 ความชัดเจนปานกลาง</string>
+    <string name="state_clarity_weak_short">🟢 ความชัดเจนต่ำ</string>
+    <string name="state_alignment_strong_short">🟢 ความสมดุลสูง</string>
+    <string name="state_alignment_weak_short">🟢 ความสมดุลเล็กน้อย</string>
+    <string name="state_tension_strong_short">🔴 ความตึงเครียดสูง</string>
+    <string name="state_tension_weak_short">🔴 ความตึงเครียดต่ำ</string>
+    <string name="state_focus_strong_short">🟠 โฟกัสสูง</string>
+    <string name="state_focus_weak_short">🟠 โฟกัสต่ำ</string>
+    <string name="state_shift_strong_short">🟡 การเปลี่ยนแปลงสูง</string>
+    <string name="state_shift_weak_short">🟡 การเปลี่ยนแปลงเล็กน้อย</string>
+    <string name="state_transformation_strong_short">🟣 การเปลี่ยนแปลงลึก</string>
+    <string name="state_transformation_weak_short">🟣 การเปลี่ยนแปลงเล็กน้อย</string>
+    <string name="state_reflection_short">🔵 การสะท้อน</string>
+    <string name="state_open_short">⚪ เปิดรับ</string>
+    <string name="state_withdrawal_short">⚫ การถอยกลับ</string>
+    <string name="state_fragile_short">🌑 อ่อนไหว</string>
+    <string name="state_void_short">⚫ ว่างเปล่า</string>
+</resources>

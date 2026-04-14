@@ -1,0 +1,21 @@
+<resources>
+    <string name="state_pure_clarity_short">🟢 Maksimalus aiškumas</string>
+    <string name="state_clarity_strong_short">🟢 Aukštas aiškumas</string>
+    <string name="state_clarity_medium_short">🟢 Vidutinis aiškumas</string>
+    <string name="state_clarity_weak_short">🟢 Žemas aiškumas</string>
+    <string name="state_alignment_strong_short">🟢 Stipri pusiausvyra</string>
+    <string name="state_alignment_weak_short">🟢 Lengva pusiausvyra</string>
+    <string name="state_tension_strong_short">🔴 Aukšta įtampa</string>
+    <string name="state_tension_weak_short">🔴 Žema įtampa</string>
+    <string name="state_focus_strong_short">🟠 Aukštas dėmesys</string>
+    <string name="state_focus_weak_short">🟠 Žemas dėmesys</string>
+    <string name="state_shift_strong_short">🟡 Stiprus pokytis</string>
+    <string name="state_shift_weak_short">🟡 Lengvas pokytis</string>
+    <string name="state_transformation_strong_short">🟣 Stipri transformacija</string>
+    <string name="state_transformation_weak_short">🟣 Lengva transformacija</string>
+    <string name="state_reflection_short">🔵 Apmąstymas</string>
+    <string name="state_open_short">⚪ Atvirumas</string>
+    <string name="state_withdrawal_short">⚫ Atsitraukimas</string>
+    <string name="state_fragile_short">🌑 Jautrus</string>
+    <string name="state_void_short">⚫ Tuštuma</string>
+</resources>

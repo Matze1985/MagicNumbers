@@ -1,0 +1,21 @@
+<resources>
+    <string name="state_pure_clarity_short">🟢 최대 명확성</string>
+    <string name="state_clarity_strong_short">🟢 높은 명확성</string>
+    <string name="state_clarity_medium_short">🟢 중간 명확성</string>
+    <string name="state_clarity_weak_short">🟢 낮은 명확성</string>
+    <string name="state_alignment_strong_short">🟢 강한 균형</string>
+    <string name="state_alignment_weak_short">🟢 약한 균형</string>
+    <string name="state_tension_strong_short">🔴 강한 긴장</string>
+    <string name="state_tension_weak_short">🔴 약한 긴장</string>
+    <string name="state_focus_strong_short">🟠 높은 집중</string>
+    <string name="state_focus_weak_short">🟠 낮은 집중</string>
+    <string name="state_shift_strong_short">🟡 강한 변화</string>
+    <string name="state_shift_weak_short">🟡 약한 변화</string>
+    <string name="state_transformation_strong_short">🟣 강한 변화</string>
+    <string name="state_transformation_weak_short">🟣 약한 변화</string>
+    <string name="state_reflection_short">🔵 성찰</string>
+    <string name="state_open_short">⚪ 개방</string>
+    <string name="state_withdrawal_short">⚫ 후퇴</string>
+    <string name="state_fragile_short">🌑 민감</string>
+    <string name="state_void_short">⚫ 공허</string>
+</resources>

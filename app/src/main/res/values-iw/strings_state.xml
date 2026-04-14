@@ -1,0 +1,21 @@
+<resources>
+    <string name="state_pure_clarity_short">🟢 בהירות מלאה</string>
+    <string name="state_clarity_strong_short">🟢 בהירות גבוהה</string>
+    <string name="state_clarity_medium_short">🟢 בהירות בינונית</string>
+    <string name="state_clarity_weak_short">🟢 בהירות נמוכה</string>
+    <string name="state_alignment_strong_short">🟢 איזון חזק</string>
+    <string name="state_alignment_weak_short">🟢 איזון קל</string>
+    <string name="state_tension_strong_short">🔴 מתח גבוה</string>
+    <string name="state_tension_weak_short">🔴 מתח קל</string>
+    <string name="state_focus_strong_short">🟠 ריכוז גבוה</string>
+    <string name="state_focus_weak_short">🟠 ריכוז נמוך</string>
+    <string name="state_shift_strong_short">🟡 שינוי חזק</string>
+    <string name="state_shift_weak_short">🟡 שינוי קל</string>
+    <string name="state_transformation_strong_short">🟣 שינוי עמוק</string>
+    <string name="state_transformation_weak_short">🟣 שינוי קל</string>
+    <string name="state_reflection_short">🔵 התבוננות</string>
+    <string name="state_open_short">⚪ פתיחות</string>
+    <string name="state_withdrawal_short">⚫ נסיגה</string>
+    <string name="state_fragile_short">🌑 רגישות</string>
+    <string name="state_void_short">⚫ ריק</string>
+</resources>

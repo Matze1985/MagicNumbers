@@ -1,0 +1,21 @@
+<resources>
+    <string name="state_pure_clarity_short">🟢 Maksimaalinen selkeys</string>
+    <string name="state_clarity_strong_short">🟢 Vahva selkeys</string>
+    <string name="state_clarity_medium_short">🟢 Keskitasoinen selkeys</string>
+    <string name="state_clarity_weak_short">🟢 Kevyt selkeys</string>
+    <string name="state_alignment_strong_short">🟢 Vahva tasapaino</string>
+    <string name="state_alignment_weak_short">🟢 Kevyt tasapaino</string>
+    <string name="state_tension_strong_short">🔴 Voimakas jännite</string>
+    <string name="state_tension_weak_short">🔴 Kevyt jännite</string>
+    <string name="state_focus_strong_short">🟠 Vahva keskittyminen</string>
+    <string name="state_focus_weak_short">🟠 Kevyt keskittyminen</string>
+    <string name="state_shift_strong_short">🟡 Voimakas muutos</string>
+    <string name="state_shift_weak_short">🟡 Kevyt muutos</string>
+    <string name="state_transformation_strong_short">🟣 Voimakas muutos</string>
+    <string name="state_transformation_weak_short">🟣 Kevyt muutos</string>
+    <string name="state_reflection_short">🔵 Pohdinta</string>
+    <string name="state_open_short">⚪ Avoimuus</string>
+    <string name="state_withdrawal_short">⚫ Vetäytyminen</string>
+    <string name="state_fragile_short">🌑 Herkkä</string>
+    <string name="state_void_short">⚫ Tyhjyys</string>
+</resources>

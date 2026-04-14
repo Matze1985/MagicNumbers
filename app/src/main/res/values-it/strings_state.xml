@@ -1,0 +1,21 @@
+<resources>
+    <string name="state_pure_clarity_short">🟢 Chiarezza massima</string>
+    <string name="state_clarity_strong_short">🟢 Alta chiarezza</string>
+    <string name="state_clarity_medium_short">🟢 Chiarezza media</string>
+    <string name="state_clarity_weak_short">🟢 Bassa chiarezza</string>
+    <string name="state_alignment_strong_short">🟢 Forte allineamento</string>
+    <string name="state_alignment_weak_short">🟢 Leggero allineamento</string>
+    <string name="state_tension_strong_short">🔴 Alta tensione</string>
+    <string name="state_tension_weak_short">🔴 Leggera tensione</string>
+    <string name="state_focus_strong_short">🟠 Alta concentrazione</string>
+    <string name="state_focus_weak_short">🟠 Bassa concentrazione</string>
+    <string name="state_shift_strong_short">🟡 Forte cambiamento</string>
+    <string name="state_shift_weak_short">🟡 Leggero cambiamento</string>
+    <string name="state_transformation_strong_short">🟣 Forte trasformazione</string>
+    <string name="state_transformation_weak_short">🟣 Leggera trasformazione</string>
+    <string name="state_reflection_short">🔵 Riflessione</string>
+    <string name="state_open_short">⚪ Apertura</string>
+    <string name="state_withdrawal_short">⚫ Ritiro</string>
+    <string name="state_fragile_short">🌑 Sensibile</string>
+    <string name="state_void_short">⚫ Vuoto</string>
+</resources>

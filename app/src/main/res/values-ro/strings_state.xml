@@ -1,0 +1,21 @@
+<resources>
+    <string name="state_pure_clarity_short">🟢 Claritate maximă</string>
+    <string name="state_clarity_strong_short">🟢 Claritate ridicată</string>
+    <string name="state_clarity_medium_short">🟢 Claritate medie</string>
+    <string name="state_clarity_weak_short">🟢 Claritate scăzută</string>
+    <string name="state_alignment_strong_short">🟢 Aliniere puternică</string>
+    <string name="state_alignment_weak_short">🟢 Aliniere ușoară</string>
+    <string name="state_tension_strong_short">🔴 Tensiune ridicată</string>
+    <string name="state_tension_weak_short">🔴 Tensiune scăzută</string>
+    <string name="state_focus_strong_short">🟠 Concentrare ridicată</string>
+    <string name="state_focus_weak_short">🟠 Concentrare scăzută</string>
+    <string name="state_shift_strong_short">🟡 Schimbare puternică</string>
+    <string name="state_shift_weak_short">🟡 Schimbare ușoară</string>
+    <string name="state_transformation_strong_short">🟣 Transformare puternică</string>
+    <string name="state_transformation_weak_short">🟣 Transformare ușoară</string>
+    <string name="state_reflection_short">🔵 Reflecție</string>
+    <string name="state_open_short">⚪ Deschidere</string>
+    <string name="state_withdrawal_short">⚫ Retragere</string>
+    <string name="state_fragile_short">🌑 Sensibil</string>
+    <string name="state_void_short">⚫ Gol</string>
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="state_pure_clarity_short">🟢 पूर्ण स्पष्टता</string>
+    <string name="state_clarity_strong_short">🟢 मजबूत स्पष्टता</string>
+    <string name="state_clarity_medium_short">🟢 मध्यम स्पष्टता</string>
+    <string name="state_clarity_weak_short">🟢 हल्की स्पष्टता</string>
+    <string name="state_alignment_strong_short">🟢 मजबूत संतुलन</string>
+    <string name="state_alignment_weak_short">🟢 हल्का संतुलन</string>
+    <string name="state_tension_strong_short">🔴 मजबूत तनाव</string>
+    <string name="state_tension_weak_short">🔴 हल्का तनाव</string>
+    <string name="state_focus_strong_short">🟠 मजबूत ध्यान</string>
+    <string name="state_focus_weak_short">🟠 हल्का ध्यान</string>
+    <string name="state_shift_strong_short">🟡 मजबूत बदलाव</string>
+    <string name="state_shift_weak_short">🟡 हल्का बदलाव</string>
+    <string name="state_transformation_strong_short">🟣 मजबूत परिवर्तन</string>
+    <string name="state_transformation_weak_short">🟣 हल्का परिवर्तन</string>
+    <string name="state_reflection_short">🔵 चिंतन</string>
+    <string name="state_open_short">⚪ खुलापन</string>
+    <string name="state_withdrawal_short">⚫ पीछे हटना</string>
+    <string name="state_fragile_short">🌑 संवेदनशील</string>
+    <string name="state_void_short">⚫ शून्य</string>
+</resources>
