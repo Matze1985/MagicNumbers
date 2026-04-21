@@ -27,7 +27,8 @@ data class EngineResult(
     val resonanceMeaningResId: Int?,
     val resonanceFocusResId: Int?,
     val karmicDetailResId: Int?,
-    val stateResId: Int
+    val stateResId: Int,
+    val frequencyHz: String
 )
 
 object NumerologyEngine {
@@ -371,6 +372,15 @@ object NumerologyEngine {
     }
 
     // =====================================================
+    // PSEUDO HZ FORMATTED
+    // =====================================================
+    fun getPseudoHzFormatted(frequency: Float): String {
+        val safeFrequency = frequency.coerceIn(0.1f, 1.0f)
+        val hz = safeFrequency * 900f + 100f
+        return "~${kotlin.math.round(hz).toInt()}Hz"
+    }
+
+    // =====================================================
     // ENERGY FLOW
     // =====================================================
     fun getEnergyFlowResId(masterCore: Int?, dominant: Int?, reduced: Int): Int {
@@ -505,9 +515,10 @@ object NumerologyEngine {
         val amplifiers = getMasterAmplifiers(number)
         val dominant = getDominantRepeatDigit(number)
         val frequency = calculateFrequencyScore(number)
+        val frequencyHz = getPseudoHzFormatted(frequency)
+        val stateResId = getStateResId(frequency)
         val resonance = getResonance(number)
         val summaryResId = getSummaryResId(masterCore, amplifiers, dominant, reduced)
-        val stateResId = getStateResId(frequency)
 
         return EngineResult(
             number,
@@ -527,7 +538,8 @@ object NumerologyEngine {
             resonance?.second,
             resonance?.third,
             getKarmicDetailResId(number),
-            stateResId
+            stateResId,
+            frequencyHz
         )
     }
 
@@ -705,13 +717,12 @@ object NumerologyEngine {
             builder.appendLine()
         }
 
-
         builder.appendLine()
         // --------------------------------------------------
         // FREQUENCY
         // --------------------------------------------------
         val percent = (frequencyScore * 100).toInt()
-        builder.appendLine("${context.getString(R.string.section_frequency)} $percent%")
+        builder.appendLine("${context.getString(R.string.section_frequency)} ${getPseudoHzFormatted(frequencyScore)} / $percent%")
         builder.appendLine(context.getString(stateResId).cleanMarkdown())
         builder.appendLine()
         // --------------------------------------------------

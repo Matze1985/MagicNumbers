@@ -29,6 +29,7 @@ import androidx.compose.ui.unit.sp
 import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsControllerCompat
 import com.spiritual.magicnumbers.NumerologyEngine.buildVisibleCopyText
+import com.spiritual.magicnumbers.NumerologyEngine.getPseudoHzFormatted
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -274,9 +275,8 @@ class MainActivity : ComponentActivity() {
 
                                     Divider(color = Color.DarkGray)
 
-                                    // Frequenz
                                     Text(
-                                        text = "${stringResource(R.string.section_frequency)} $percent%",
+                                        text = "${stringResource(R.string.section_frequency)} ${getPseudoHzFormatted(engineResult.frequencyScore)} / $percent%",
                                         fontWeight = FontWeight.Bold,
                                         color = Color.White
                                     )
