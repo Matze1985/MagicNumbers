@@ -448,7 +448,7 @@ If a valid time message exists:
 Example:
 
 ```text
-Time Energy 22:22
+Time Energy: 22:22
 Alignment between intention and manifestation is strongest now.
 ```
 ---
