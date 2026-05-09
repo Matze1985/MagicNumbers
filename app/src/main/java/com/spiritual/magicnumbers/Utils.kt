@@ -55,19 +55,6 @@ object Utils {
     }
 
     // --------------------------------------------------
-    // CONSTANT COLOR FREQUENCY
-    // --------------------------------------------------
-    fun frequencyColor(percent: Float): Color {
-        val clamped = percent.coerceIn(0f, 1f)
-        val hue = clamped * 120f
-        return Color.hsv(
-            hue = hue,
-            saturation = 1f,
-            value = 1f
-        )
-    }
-
-    // --------------------------------------------------
     // MARKDOWN TO ANNOTATED STRING
     // --------------------------------------------------
     fun markdownToAnnotatedString(text: String): AnnotatedString {
@@ -80,24 +67,6 @@ object Utils {
                     append(part)
                 }
             }
-        }
-    }
-
-    // --------------------------------------------------
-    // GET SPECIAL MEANING
-    // --------------------------------------------------
-    fun getSpecialMeaningResId(value: Int): Int? {
-        return when (value) {
-            11 -> R.string.master_number_11
-            22 -> R.string.master_number_22
-            33 -> R.string.master_number_33
-            44 -> R.string.master_number_44
-            55 -> R.string.special_number_55
-            66 -> R.string.special_number_66
-            77 -> R.string.special_number_77
-            88 -> R.string.special_number_88
-            99 -> R.string.special_number_99
-            else -> null
         }
     }
 

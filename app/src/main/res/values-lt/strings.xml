@@ -19,6 +19,7 @@
     <string name="section_description_numbers">🔢 Skaitmenų aprašymas:</string>
     <string name="section_summary">📖 Santrauka:</string>
     <string name="section_energy">⚡️ Energijos srautas:</string>
+    <string name="section_time_energy">⏰ Laiko energija:</string>
 
     <!-- Main Messages -->
     <string name="digit_0_intro">Skaičius **\'0\'**%1$s sustiprina viską. Tai dieviško buvimo ir begalinio potencialo ženklas.</string>

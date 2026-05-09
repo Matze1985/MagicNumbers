@@ -19,6 +19,7 @@
     <string name="section_description_numbers">🔢 وصف الأرقام:</string>
     <string name="section_summary">📖 الملخص:</string>
     <string name="section_energy">⚡️ تدفق الطاقة:</string>
+    <string name="section_time_energy">⏰ طاقة الوقت:</string>
 
     <!-- Hauptnachrichten Templates (pro Ziffer) -->
     <string name="digit_0_intro">الرقم **\'0\'**%1$s يعزّز كل شيء. إنه علامة الحضور الإلهي والإمكانات اللانهائية.</string>

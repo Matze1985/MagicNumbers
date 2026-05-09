@@ -19,6 +19,7 @@
     <string name="section_description_numbers">🔢 Beskrivelse af cifrene:</string>
     <string name="section_summary">📖 Resumé:</string>
     <string name="section_energy">⚡️ Energiflow:</string>
+    <string name="section_time_energy">⏰ Tidsenergi:</string>
 
     <!-- Hauptnachrichten Templates -->
     <string name="digit_0_intro">Tallet **\'0\'**%1$s forstærker alt. Det er et tegn på guddommelig tilstedeværelse og uendeligt potentiale.</string>

@@ -19,6 +19,7 @@
     <string name="section_description_numbers">🔢 Περιγραφή των ψηφίων:</string>
     <string name="section_summary">📖 Περίληψη:</string>
     <string name="section_energy">⚡️ Ροή ενέργειας:</string>
+    <string name="section_time_energy">⏰ Ενέργεια χρόνου:</string>
 
     <!-- Hauptnachrichten Templates -->
     <string name="digit_0_intro">Ο αριθμός **\'0\'**%1$s ενισχύει τα πάντα. Είναι σημάδι θεϊκής παρουσίας και απεριόριστου δυναμικού.</string>

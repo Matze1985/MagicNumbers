@@ -19,6 +19,7 @@
     <string name="section_description_numbers">🔢 Descripción de los dígitos:</string>
     <string name="section_summary">📖 Resumen:</string>
     <string name="section_energy">⚡️ Flujo de energía:</string>
+    <string name="section_time_energy">⏰ Energía del tiempo:</string>
 
     <!-- Mensajes principales -->
     <string name="digit_0_intro">El número **\'0\'**%1$s amplifica todo. Es un signo de presencia divina y potencial infinito.</string>

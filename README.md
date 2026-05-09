@@ -272,6 +272,206 @@ getStateResId(frequency: Float)
 | ≥ 0.05 | Fragile |
 | < 0.05 | Void |
 
+---
+
+## ⚡ Pseudo Frequency (Hz Visualization)
+
+Implemented in:
+
+```kotlin
+getPseudoHzFormatted(frequency: Float)
+```
+
+### Behavior
+
+The app derives a symbolic “frequency resonance” value from the calculated frequency score.
+
+Formula:
+
+```text
+Hz = (frequency × 900) + 100
+```
+
+### Range
+
+| Frequency Score | Displayed Hz |
+|---|---|
+| 0.1 | ~190Hz |
+| 0.5 | ~550Hz |
+| 1.0 | ~1000Hz |
+
+### Important Notes
+
+- The Hz value is **symbolic** and not scientifically measured.
+- It is intended as a spiritual visualization layer.
+- The value is always clamped between:
+
+```kotlin
+0.1f – 1.0f
+```
+
+- Final output format:
+
+```text
+~550Hz
+```
+
+---
+
+## 🎨 Visual Frequency Color
+
+The calculated frequency also controls the UI energy color.
+
+Implemented in:
+
+```kotlin
+frequencyColor(percent: Float)
+```
+
+The hue is mapped dynamically:
+
+```text
+Hue = frequency × 120
+```
+
+### Color Spectrum
+
+| Frequency | Color |
+|---|---|
+| Low | Red |
+| Medium | Yellow |
+| High | Green |
+
+The visualization uses the HSV color model:
+
+```kotlin
+Color.hsv(
+    hue = hue,
+    saturation = 1f,
+    value = 1f
+)
+```
+
+---
+
+## ⏰ Time Energy System
+
+Implemented in:
+
+```kotlin
+getTimeEnergyMessage(context, currentTime)
+```
+
+### Purpose
+
+The app can attach a spiritual “time resonance message” to the current moment.
+
+The current device time is formatted as:
+
+```kotlin
+HH:mm
+```
+
+Examples:
+
+```text
+22:22
+07:07
+11:11
+03:33
+```
+
+The engine converts the current time into a dynamic string resource key:
+
+```kotlin
+time_2222
+time_1111
+time_0707
+```
+
+and attempts to load a localized message from Android resources.
+
+---
+
+## 🔍 Dynamic Resource Resolution
+
+Implemented using:
+
+```kotlin
+context.resources.getIdentifier(...)
+```
+
+### Example
+
+```kotlin
+val normalized = currentTime.replace(":", "").trim()
+val resName = "time_$normalized"
+```
+
+If the matching string resource exists:
+
+```xml
+<string name="time_1111">
+A gateway of alignment is opening around you.
+</string>
+```
+
+the message is displayed automatically.
+
+---
+
+## 📌 Behavior
+
+- Fully offline
+- Based on device local time
+- Optional system
+- No internet requests
+- Fully localized through Android string resources
+- Missing entries safely return:
+
+```kotlin
+null
+```
+
+---
+
+## 🧾 Time Energy Display Logic
+
+If a valid time message exists:
+
+- The current time is shown
+- The resonance text is displayed
+- The section becomes part of:
+   - UI output
+   - Clipboard export
+
+Example:
+
+```text
+Time Energy 22:22
+Alignment between intention and manifestation is strongest now.
+```
+---
+
+## 🌍 Localization Support
+
+Time energy messages support all translated languages automatically via:
+
+```text
+res/values-xx/strings_time.xml
+```
+
+This allows culturally adapted interpretations for symbolic times such as:
+
+- 11:11
+- 22:22
+- 03:33
+- 07:07
+- 12:12
+- etc.
+
+---
+
 ## 🔥 Energy Flow
 
 Implemented in:

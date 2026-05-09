@@ -19,6 +19,7 @@
     <string name="section_description_numbers">🔢 数字の説明：</string>
     <string name="section_summary">📖 まとめ：</string>
     <string name="section_energy">⚡️ エネルギーの流れ：</string>
+    <string name="section_time_energy">⏰ 時間のエネルギー:</string>
 
     <!-- Main Messages -->
     <string name="digit_0_intro">数字 **\'0\'**%1$s はすべてを増幅します。それは神聖な存在と無限の可能性の象徴です。</string>

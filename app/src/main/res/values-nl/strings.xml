@@ -19,6 +19,7 @@
     <string name="section_description_numbers">🔢 Beschrijving van de cijfers:</string>
     <string name="section_summary">📖 Samenvatting:</string>
     <string name="section_energy">⚡️ Energiestroom:</string>
+    <string name="section_time_energy">⏰ Tijdenergie:</string>
 
     <!-- Main Messages -->
     <string name="digit_0_intro">Het getal **\'0\'**%1$s versterkt alles. Het is een teken van goddelijke aanwezigheid en oneindig potentieel.</string>

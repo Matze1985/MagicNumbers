@@ -19,6 +19,7 @@
     <string name="section_description_numbers">🔢 Beschreibung der Ziffern:</string>
     <string name="section_summary">📖 Zusammenfassung:</string>
     <string name="section_energy">⚡️ Energiefluss:</string>
+    <string name="section_time_energy">⏰ Zeitenergie:</string>
 
     <!-- Hauptnachrichten Templates (pro Ziffer) -->
     <string name="digit_0_intro">Die **\'0\'**%1$s verstärkt alles. Sie ist ein Zeichen göttlicher Präsenz und unendlichen Potenzials.</string>

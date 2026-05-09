@@ -1,6 +1,7 @@
 package com.spiritual.magicnumbers
 
 import android.content.Context
+import androidx.compose.ui.graphics.Color
 import com.spiritual.magicnumbers.Utils.cleanMarkdown
 
 data class CrossSumResult(
@@ -28,7 +29,9 @@ data class EngineResult(
     val resonanceFocusResId: Int?,
     val karmicDetailResId: Int?,
     val stateResId: Int,
-    val frequencyHz: String
+    val frequencyHz: String,
+    val currentTime: String?,
+    val timeEnergyMessage: String?
 )
 
 object NumerologyEngine {
@@ -36,8 +39,7 @@ object NumerologyEngine {
     private val masterCoreNumbers = listOf(11, 22, 33, 44)
 
     //TODO: example: 55, 66, 77, 88, 99 | For GUI all logics
-    private val masterAmplifierNumbers =
-        listOf(11, 22, 33, 44, 55, 66, 77, 88, 99) // Default: 55 to 99
+    private val masterAmplifierNumbers = listOf(11, 22, 33, 44, 55, 66, 77, 88, 99) // Default: 55 to 99
 
     // =====================================================
     // CROSS SUM
@@ -344,6 +346,19 @@ object NumerologyEngine {
         return avg.coerceIn(0.1, 1.0).toFloat()
     }
 
+    // --------------------------------------------------
+    // CONSTANT COLOR FREQUENCY
+    // --------------------------------------------------
+    fun frequencyColor(percent: Float): Color {
+        val clamped = percent.coerceIn(0f, 1f)
+        val hue = clamped * 120f
+        return Color.hsv(
+            hue = hue,
+            saturation = 1f,
+            value = 1f
+        )
+    }
+
     // =====================================================
     // STATE LOGIC BY FREQUENCY
     // =====================================================
@@ -506,9 +521,30 @@ object NumerologyEngine {
     }
 
     // =====================================================
+    // TIME ENERGY MESSAGE
+    // =====================================================
+    fun getTimeEnergyMessage(context: Context, currentTime: String): String? {
+        val normalized = currentTime.replace(":", "").trim()
+        val resName = "time_$normalized"
+        val resId = context.resources.getIdentifier(resName, "string", context.packageName)
+        return if (resId != 0) {
+            context.getString(resId)
+        } else {
+            null
+        }
+    }
+
+    // =====================================================
+    // TIME FORMATTER
+    // =====================================================
+    private val timeFormatter by lazy {
+        java.text.SimpleDateFormat("HH:mm", java.util.Locale.getDefault())
+    }
+
+    // =====================================================
     // BUILD RESULT
     // =====================================================
-    fun buildEngineResult(number: String): EngineResult {
+    fun buildEngineResult(number: String, context: Context? = null): EngineResult {
         val cross = calculateCrossSum(number)
         val reduced = cross.reducedSum
         val masterCore = getMasterCore(cross.sumBeforeReduce, reduced)
@@ -519,6 +555,8 @@ object NumerologyEngine {
         val stateResId = getStateResId(frequency)
         val resonance = getResonance(number)
         val summaryResId = getSummaryResId(masterCore, amplifiers, dominant, reduced)
+        val currentTime = timeFormatter.format(java.util.Date())
+        val timeMessage = context?.let { getTimeEnergyMessage(context = it, currentTime = currentTime) }
 
         return EngineResult(
             number,
@@ -539,7 +577,9 @@ object NumerologyEngine {
             resonance?.third,
             getKarmicDetailResId(number),
             stateResId,
-            frequencyHz
+            frequencyHz,
+            currentTime,
+            timeMessage
         )
     }
 
@@ -582,6 +622,7 @@ object NumerologyEngine {
             }
         }
 
+    // Get karmic detail
     fun getKarmicDetailResId(number: String): Int? {
         val sum = calculateCrossSum(number).sumBeforeReduce
         return when (sum) {
@@ -694,7 +735,6 @@ object NumerologyEngine {
         if (angelImpulseResId != 0 || angelResIds.isNotEmpty()) {
 
             builder.appendLine(context.getString(R.string.section_angel))
-
             val shownAngelIds = mutableSetOf<Int>()
 
             if (angelImpulseResId != 0) {
@@ -718,6 +758,14 @@ object NumerologyEngine {
         }
 
         builder.appendLine()
+        // -------------------------------------------------
+        // TIME ENERGY
+        // -------------------------------------------------
+        timeEnergyMessage?.let {
+            builder.appendLine("${context.getString(R.string.section_time_energy)} $currentTime")
+            builder.appendLine(it.cleanMarkdown())
+            builder.appendLine()
+        }
         // --------------------------------------------------
         // FREQUENCY
         // --------------------------------------------------
@@ -728,12 +776,10 @@ object NumerologyEngine {
         // --------------------------------------------------
         // DIGIT VIBRATION
         // --------------------------------------------------
-        val uniqueDigits: List<Char> =
-            number.filter { it.isDigit() }.toList().distinct()
+        val uniqueDigits: List<Char> = number.filter { it.isDigit() }.toList().distinct()
 
         if (uniqueDigits.isNotEmpty()) {
             builder.appendLine(context.getString(R.string.section_vibration))
-
             uniqueDigits.forEach { digit: Char ->
                 val res = when (digit) {
                     '0' -> R.string.keyword_0
@@ -764,9 +810,7 @@ object NumerologyEngine {
         val counts = number.groupingBy { it }.eachCount()
 
         if (digitIntroResIds.isNotEmpty()) {
-
             builder.appendLine(context.getString(R.string.section_description_numbers))
-
             digitIntroResIds.forEach { (digit, resId) ->
 
                 val count = counts[digit] ?: 1
@@ -775,9 +819,7 @@ object NumerologyEngine {
                         context.getString(R.string.digit_occurrence, count)
                     else ""
 
-                val formatted =
-                    context.getString(resId, " $amplifyText")
-
+                val formatted = context.getString(resId, " $amplifyText")
                 builder.appendLine(formatted.cleanMarkdown())
                 builder.appendLine()
             }

@@ -30,6 +30,7 @@ import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsControllerCompat
 import com.spiritual.magicnumbers.NumerologyEngine.buildVisibleCopyText
 import com.spiritual.magicnumbers.NumerologyEngine.getPseudoHzFormatted
+import com.spiritual.magicnumbers.NumerologyEngine.getTimeEnergyMessage
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -48,10 +49,12 @@ class MainActivity : ComponentActivity() {
 
         val context = LocalContext.current
         var currentNumber by rememberSaveable { mutableStateOf("") }
-
         val engineResult = remember(currentNumber) {
             if (currentNumber.isNotEmpty())
-                NumerologyEngine.buildEngineResult(currentNumber)
+                NumerologyEngine.buildEngineResult(
+                    number = currentNumber,
+                    context = context
+                )
             else null
         }
 
@@ -274,6 +277,19 @@ class MainActivity : ComponentActivity() {
                                     }
 
                                     Divider(color = Color.DarkGray)
+                                    // Time energy
+                                    engineResult.timeEnergyMessage?.let {
+                                        Text(
+                                            text = "${context.getString(R.string.section_time_energy)} ${engineResult.currentTime}",
+                                            fontWeight = FontWeight.Bold,
+                                            color = Color.White
+                                        )
+                                        Text(
+                                            text = it,
+                                            color = Color.LightGray
+                                        )
+                                        Divider(color = Color.DarkGray)
+                                    }
 
                                     Text(
                                         text = "${stringResource(R.string.section_frequency)} ${getPseudoHzFormatted(engineResult.frequencyScore)} / $percent%",
@@ -281,8 +297,7 @@ class MainActivity : ComponentActivity() {
                                         color = Color.White
                                     )
 
-                                    val dynamicColor =
-                                        Utils.frequencyColor(engineResult.frequencyScore)
+                                    val dynamicColor = NumerologyEngine.frequencyColor(engineResult.frequencyScore)
 
                                     LinearProgressIndicator(
                                         progress = engineResult.frequencyScore,

@@ -19,6 +19,7 @@
     <string name="section_description_numbers">🔢 A számjegyek leírása:</string>
     <string name="section_summary">📖 Összegzés:</string>
     <string name="section_energy">⚡️ Energiaáramlás:</string>
+    <string name="section_time_energy">⏰ Az idő energiája:</string>
 
     <!-- Fő üzenetek -->
     <string name="digit_0_intro">A **\'0\'**%1$s szám mindent felerősít. Az isteni jelenlét és a végtelen lehetőség jele.</string>

@@ -19,6 +19,7 @@
     <string name="section_description_numbers">🔢 Opis cyfr:</string>
     <string name="section_summary">📖 Podsumowanie:</string>
     <string name="section_energy">⚡️ Przepływ energii:</string>
+    <string name="section_time_energy">⏰ Energia czasu:</string>
 
     <!-- Hauptnachrichten Templates (pro Ziffer) -->
     <string name="digit_0_intro">Liczba **\'0\'**%1$s wzmacnia wszystko. Jest znakiem boskiej obecności i nieskończonego potencjału.</string>

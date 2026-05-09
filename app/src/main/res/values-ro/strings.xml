@@ -19,6 +19,7 @@
     <string name="section_description_numbers">🔢 Descrierea cifrelor:</string>
     <string name="section_summary">📖 Rezumat:</string>
     <string name="section_energy">⚡️ Flux energetic:</string>
+    <string name="section_time_energy">⏰ Energia timpului:</string>
 
     <!-- Main Messages -->
     <string name="digit_0_intro">Numărul **\'0\'**%1$s amplifică totul. Este un semn al prezenței divine și al potențialului infinit.</string>

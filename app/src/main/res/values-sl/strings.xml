@@ -19,6 +19,7 @@
     <string name="section_description_numbers">🔢 Opis številk:</string>
     <string name="section_summary">📖 Povzetek:</string>
     <string name="section_energy">⚡️ Pretok energije:</string>
+    <string name="section_time_energy">⏰ Energija časa:</string>
 
     <!-- Main Messages -->
     <string name="digit_0_intro">Število **\'0\'**%1$s okrepi vse. Je znak božanske prisotnosti in neskončnega potenciala.</string>
