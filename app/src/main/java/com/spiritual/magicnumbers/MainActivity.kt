@@ -210,6 +210,8 @@ class MainActivity : ComponentActivity() {
                                         color = Color.LightGray
                                     )
 
+                                    Divider(color = Color.DarkGray)
+
                                     // Masters von getOrderedMasters
                                     val masters = NumerologyEngine.getOrderedMasters(
                                         number = engineResult.number,
@@ -237,6 +239,8 @@ class MainActivity : ComponentActivity() {
                                                     )
                                                 }
                                         }
+
+                                        Divider(color = Color.DarkGray)
                                     }
 
                                     // Engelszahlen
