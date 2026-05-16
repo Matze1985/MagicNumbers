@@ -189,6 +189,8 @@ class MainActivity : ComponentActivity() {
                                         color = Color(0xFFB388FF)
                                     )
 
+                                    Divider(color = Color.DarkGray)
+
                                     // Botschaft für den Moment
                                     Text(
                                         stringResource(
