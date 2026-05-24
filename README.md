@@ -435,6 +435,30 @@ null
 
 ---
 
+# 🌌 Battery Energy Concept
+
+The battery is interpreted as a symbolic spiritual frequency state.
+
+Examples:
+
+| Battery | Meaning |
+|---|---|
+| 11% | Intuition becomes stronger |
+| 22% | Manifestation energy rises |
+| 44% | Protection surrounds you |
+| 77% | Mystical resonance appears |
+| 88% | Infinite energy awakens |
+| 100% | Universal alignment achieved |
+
+---
+
+```text
+🔋 Battery Energy 66%
+Heart energy shines brightly.
+```
+
+---
+
 ## 🧾 Time Energy Display Logic
 
 If a valid time message exists:
@@ -442,8 +466,8 @@ If a valid time message exists:
 - The current time is shown
 - The resonance text is displayed
 - The section becomes part of:
-   - UI output
-   - Clipboard export
+    - UI output
+    - Clipboard export
 
 Example:
 
