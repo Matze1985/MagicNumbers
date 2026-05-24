@@ -20,6 +20,7 @@
     <string name="section_summary">📖 Sammanfattning:</string>
     <string name="section_energy">⚡️ Energiflöde:</string>
     <string name="section_time_energy">⏰ Tidsenergi:</string>
+    <string name="section_battery_energy">🔋Batterienergi:</string>
 
     <!-- Main Messages -->
     <string name="digit_0_intro">Talet **\'0\'**%1$s förstärker allt. Det är ett tecken på gudomlig närvaro och oändlig potential.</string>

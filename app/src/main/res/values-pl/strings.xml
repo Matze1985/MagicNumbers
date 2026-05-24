@@ -20,6 +20,7 @@
     <string name="section_summary">📖 Podsumowanie:</string>
     <string name="section_energy">⚡️ Przepływ energii:</string>
     <string name="section_time_energy">⏰ Energia czasu:</string>
+    <string name="section_battery_energy">🔋Energia baterii:</string>
 
     <!-- Hauptnachrichten Templates (pro Ziffer) -->
     <string name="digit_0_intro">Liczba **\'0\'**%1$s wzmacnia wszystko. Jest znakiem boskiej obecności i nieskończonego potencjału.</string>

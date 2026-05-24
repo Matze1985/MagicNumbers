@@ -20,6 +20,7 @@
     <string name="section_summary">📖 Shrnutí:</string>
     <string name="section_energy">⚡️ Tok energie:</string>
     <string name="section_time_energy">⏰ Energie času:</string>
+    <string name="section_battery_energy">🔋Energie baterie:</string>
 
     <!-- Hauptnachrichten Templates -->
     <string name="digit_0_intro">Číslo **\'0\'**%1$s zesiluje vše. Je znamením božské přítomnosti a nekonečného potenciálu.</string>

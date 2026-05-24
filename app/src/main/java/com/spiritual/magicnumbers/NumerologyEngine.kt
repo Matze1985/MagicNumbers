@@ -1,6 +1,9 @@
 package com.spiritual.magicnumbers
 
 import android.content.Context
+import android.content.Intent
+import android.content.IntentFilter
+import android.os.BatteryManager
 import androidx.compose.ui.graphics.Color
 import com.spiritual.magicnumbers.Utils.cleanMarkdown
 
@@ -31,7 +34,10 @@ data class EngineResult(
     val stateResId: Int,
     val frequencyHz: String,
     val currentTime: String?,
-    val timeEnergyMessage: String?
+    val timeEnergyMessage: String?,
+    val batteryLevel: Int,
+    val batteryTitle: String,
+    val batteryMessage: String
 )
 
 object NumerologyEngine {
@@ -396,6 +402,25 @@ object NumerologyEngine {
     }
 
     // =====================================================
+    // GET BATTERY LEVEL
+    // =====================================================
+    fun getBatteryLevel(context: Context): Int {
+        val intent = context.registerReceiver(
+            null,
+            IntentFilter(Intent.ACTION_BATTERY_CHANGED)
+        )
+
+        val level = intent?.getIntExtra(BatteryManager.EXTRA_LEVEL, -1) ?: -1
+        val scale = intent?.getIntExtra(BatteryManager.EXTRA_SCALE, -1) ?: -1
+
+        return if (level != -1 && scale != -1) {
+            (level * 100 / scale.toFloat()).toInt()
+        } else {
+            0
+        }
+    }
+
+    // =====================================================
     // ENERGY FLOW
     // =====================================================
     fun getEnergyFlowResId(masterCore: Int?, dominant: Int?, reduced: Int): Int {
@@ -405,6 +430,11 @@ object NumerologyEngine {
                 22 -> R.string.energy_22
                 33 -> R.string.energy_33
                 44 -> R.string.energy_44
+                55 -> R.string.energy_55
+                66 -> R.string.energy_66
+                77 -> R.string.energy_77
+                88 -> R.string.energy_88
+                99 -> R.string.energy_99
                 else -> R.string.energy_default
             }
         }
@@ -557,6 +587,12 @@ object NumerologyEngine {
         val summaryResId = getSummaryResId(masterCore, amplifiers, dominant, reduced)
         val currentTime = timeFormatter.format(java.util.Date())
         val timeMessage = context?.let { getTimeEnergyMessage(context = it, currentTime = currentTime) }
+        val batteryLevel = context?.let { getBatteryLevel(it) } ?: 0
+        val batteryTitle = context?.getString(R.string.section_battery_energy) + " $batteryLevel%"
+        val batteryMessage = context?.let {
+            val resId = it.resources.getIdentifier("battery_$batteryLevel", "string", it.packageName)
+            if (resId != 0) { it.getString(resId) } else { "" }
+        } ?: ""
 
         return EngineResult(
             number,
@@ -579,7 +615,10 @@ object NumerologyEngine {
             stateResId,
             frequencyHz,
             currentTime,
-            timeMessage
+            timeMessage,
+            batteryLevel = batteryLevel,
+            batteryTitle = batteryTitle,
+            batteryMessage = batteryMessage
         )
     }
 
@@ -756,11 +795,15 @@ object NumerologyEngine {
 
             builder.appendLine()
         }
-
-        builder.appendLine()
+        // -------------------------------------------------
+        // BATTERY ENERGY
+        // -------------------------------------------------
+        builder.appendLine(batteryTitle)
+        builder.appendLine(batteryMessage)
         // -------------------------------------------------
         // TIME ENERGY
         // -------------------------------------------------
+        builder.appendLine()
         timeEnergyMessage?.let {
             builder.appendLine("${context.getString(R.string.section_time_energy)} $currentTime")
             builder.appendLine(it.cleanMarkdown())

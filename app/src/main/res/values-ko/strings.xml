@@ -20,6 +20,7 @@
     <string name="section_summary">📖 요약:</string>
     <string name="section_energy">⚡️ 에너지 흐름:</string>
     <string name="section_time_energy">⏰ 시간의 에너지:</string>
+    <string name="section_battery_energy">🔋배터리 에너지:</string>
 
     <!-- Main Messages -->
     <string name="digit_0_intro">숫자 **\'0\'**%1$s 는 모든 것을 증폭합니다. 이는 신성한 존재와 무한한 가능성의 상징입니다.</string>

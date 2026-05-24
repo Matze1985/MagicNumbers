@@ -20,6 +20,7 @@
     <string name="section_summary">📖 总结：</string>
     <string name="section_energy">⚡️ 能量流动：</string>
     <string name="section_time_energy">⏰ 时间能量:</string>
+    <string name="section_battery_energy">🔋电池能量：</string>
 
     <!-- Main Messages -->
     <string name="digit_0_intro">数字 **\'0\'**%1$s 会放大一切。它象征神圣的存在与无限的潜能。</string>

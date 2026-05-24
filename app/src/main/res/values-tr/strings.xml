@@ -20,6 +20,7 @@
     <string name="section_summary">📖 Özet:</string>
     <string name="section_energy">⚡️ Enerji akışı:</string>
     <string name="section_time_energy">⏰ Zaman Enerjisi:</string>
+    <string name="section_battery_energy">🔋Batarya Enerjisi:</string>
 
     <!-- Main Messages -->
     <string name="digit_0_intro">**\'0\'** sayısı%1$s her şeyi güçlendirir. İlahi varlığın ve sonsuz potansiyelin işaretidir.</string>

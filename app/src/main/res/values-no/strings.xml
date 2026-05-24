@@ -20,6 +20,7 @@
     <string name="section_summary">📖 Sammendrag:</string>
     <string name="section_energy">⚡️ Energistrøm:</string>
     <string name="section_time_energy">⏰ Tidsenergi:</string>
+    <string name="section_battery_energy">🔋Batterienergi:</string>
 
     <!-- Main Messages -->
     <string name="digit_0_intro">Tallet **\'0\'**%1$s forsterker alt. Det er et tegn på guddommelig nærvær og uendelig potensial.</string>

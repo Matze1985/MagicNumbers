@@ -20,6 +20,7 @@
     <string name="section_summary">📖 Yhteenveto:</string>
     <string name="section_energy">⚡️ Energiavirta:</string>
     <string name="section_time_energy">⏰ Ajan energia:</string>
+    <string name="section_battery_energy">🔋Akun energia:</string>
 
     <!-- Pääviestit -->
     <string name="digit_0_intro">Numero **\'0\'**%1$s vahvistaa kaiken. Se on jumalallisen läsnäolon ja rajattoman potentiaalin merkki.</string>

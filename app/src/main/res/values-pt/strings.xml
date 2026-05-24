@@ -20,6 +20,7 @@
     <string name="section_summary">📖 Resumo:</string>
     <string name="section_energy">⚡️ Fluxo de energia:</string>
     <string name="section_time_energy">⏰ Energia do tempo:</string>
+    <string name="section_battery_energy">🔋Energia da bateria:</string>
 
     <!-- Main Messages -->
     <string name="digit_0_intro">O número **\'0\'**%1$s intensifica tudo. É um sinal de presença divina e potencial infinito.</string>

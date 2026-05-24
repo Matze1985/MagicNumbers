@@ -20,6 +20,7 @@
     <string name="section_summary">📖 Kopsavilkums:</string>
     <string name="section_energy">⚡️ Enerģijas plūsma:</string>
     <string name="section_time_energy">⏰ Laika enerģija:</string>
+    <string name="section_battery_energy">🔋Akumulatora enerģija:</string>
 
     <!-- Main Messages -->
     <string name="digit_0_intro">Skaitlis **\'0\'**%1$s pastiprina visu. Tas ir dievišķās klātbūtnes un bezgalīga potenciāla simbols.</string>

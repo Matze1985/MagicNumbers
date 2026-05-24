@@ -20,6 +20,7 @@
     <string name="section_summary">📖 Обобщение:</string>
     <string name="section_energy">⚡️ Поток на енергията:</string>
     <string name="section_time_energy">⏰ Енергия на времето:</string>
+    <string name="section_battery_energy">🔋Енергия на батерията:</string>
 
     <!-- Hauptnachrichten Templates -->
     <string name="digit_0_intro">Числото **\'0\'**%1$s усилва всичко. То е знак за божествено присъствие и безкраен потенциал.</string>

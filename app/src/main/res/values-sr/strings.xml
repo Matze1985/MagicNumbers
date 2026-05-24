@@ -20,6 +20,7 @@
     <string name="section_summary">📖 Sažetak:</string>
     <string name="section_energy">⚡️ Tok energije:</string>
     <string name="section_time_energy">⏰ Energija vremena:</string>
+    <string name="section_battery_energy">🔋Енергија батерије:</string>
 
     <!-- Main Messages -->
     <string name="digit_0_intro">Broj **\'0\'**%1$s pojačava sve. On je znak božanskog prisustva i beskonačnog potencijala.</string>

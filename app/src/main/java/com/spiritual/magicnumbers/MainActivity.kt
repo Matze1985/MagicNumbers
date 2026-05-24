@@ -283,6 +283,18 @@ class MainActivity : ComponentActivity() {
                                     }
 
                                     Divider(color = Color.DarkGray)
+                                    // Battery energy
+                                    Text(
+                                        text = engineResult.batteryTitle,
+                                        fontWeight = FontWeight.Bold,
+                                        color = Color.White
+                                    )
+                                    Text(
+                                        text = engineResult.batteryMessage,
+                                        color = Color.LightGray
+                                    )
+
+                                    Divider(color = Color.DarkGray)
                                     // Time energy
                                     engineResult.timeEnergyMessage?.let {
                                         Text(

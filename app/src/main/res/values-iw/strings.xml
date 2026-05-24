@@ -20,6 +20,7 @@
     <string name="section_summary">📖 סיכום:</string>
     <string name="section_energy">⚡️ זרימת אנרגיה:</string>
     <string name="section_time_energy">⏰ אנרגיית הזמן:</string>
+    <string name="section_battery_energy">🔋אנרגיית סוללה:</string>
 
     <!-- Main Messages -->
     <string name="digit_0_intro">המספר **\'0\'**%1$s מגביר הכול. זהו סימן לנוכחות אלוהית ולפוטנציאל אינסופי.</string>
