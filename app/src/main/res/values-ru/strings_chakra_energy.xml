@@ -1,0 +1,9 @@
+<resources>
+    <string name="chakra_root">Корневая чакра</string>
+    <string name="chakra_sacral">Сакральная чакра</string>
+    <string name="chakra_solar">Чакра солнечного сплетения</string>
+    <string name="chakra_heart">Сердечная чакра</string>
+    <string name="chakra_throat">Горловая чакра</string>
+    <string name="chakra_third_eye">Чакра Третьего Глаза</string>
+    <string name="chakra_crown">Коронная чакра</string>
+</resources>

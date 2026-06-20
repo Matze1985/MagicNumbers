@@ -1,0 +1,9 @@
+<resources>
+    <string name="chakra_root">मूलाधार चक्र</string>
+    <string name="chakra_sacral">स्वाधिष्ठान चक्र</string>
+    <string name="chakra_solar">मणिपुर चक्र</string>
+    <string name="chakra_heart">अनाहत चक्र</string>
+    <string name="chakra_throat">विशुद्धि चक्र</string>
+    <string name="chakra_third_eye">आज्ञा चक्र</string>
+    <string name="chakra_crown">सहस्रार चक्र</string>
+</resources>

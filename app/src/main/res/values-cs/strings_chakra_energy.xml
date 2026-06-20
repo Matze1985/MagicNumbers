@@ -1,0 +1,9 @@
+<resources>
+    <string name="chakra_root">Kořenová čakra</string>
+    <string name="chakra_sacral">Sakrální čakra</string>
+    <string name="chakra_solar">Čakra solar plexu</string>
+    <string name="chakra_heart">Srdeční čakra</string>
+    <string name="chakra_throat">Krční čakra</string>
+    <string name="chakra_third_eye">Čakra třetího oka</string>
+    <string name="chakra_crown">Korunní čakra</string>
+</resources>

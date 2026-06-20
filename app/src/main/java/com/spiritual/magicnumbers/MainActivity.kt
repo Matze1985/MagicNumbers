@@ -283,6 +283,28 @@ class MainActivity : ComponentActivity() {
                                     }
 
                                     Divider(color = Color.DarkGray)
+                                    // Chakra energy
+                                    Text(
+                                        text = engineResult.chakraTitle,
+                                        fontWeight = FontWeight.Bold,
+                                        color = Color.White
+                                    )
+                                    Text(
+                                        text = engineResult.chakraText,
+                                        color = Color.LightGray
+                                    )
+                                    Divider(color = Color.DarkGray)
+                                    // Harmony / Learning
+                                    Text(
+                                        text = engineResult.harmonyTitle,
+                                        fontWeight = FontWeight.Bold,
+                                        color = Color.White
+                                    )
+                                    Text(
+                                        text = engineResult.harmonyText,
+                                        color = Color.LightGray
+                                    )
+                                    Divider(color = Color.DarkGray)
                                     // Battery energy
                                     Text(
                                         text = engineResult.batteryTitle,

@@ -1,0 +1,9 @@
+<resources>
+    <string name="chakra_root">루트 차크라</string>
+    <string name="chakra_sacral">천골 차크라</string>
+    <string name="chakra_solar">태양신경총 차크라</string>
+    <string name="chakra_heart">심장 차크라</string>
+    <string name="chakra_throat">목 차크라</string>
+    <string name="chakra_third_eye">제3의 눈 차크라</string>
+    <string name="chakra_crown">왕관 차크라</string>
+</resources>

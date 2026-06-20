@@ -1,0 +1,9 @@
+<resources>
+    <string name="chakra_root">Rotchakra</string>
+    <string name="chakra_sacral">Sakralchakra</string>
+    <string name="chakra_solar">Solar Plexus-chakra</string>
+    <string name="chakra_heart">Hjertechakra</string>
+    <string name="chakra_throat">Halschakra</string>
+    <string name="chakra_third_eye">Det Tredje Øyes Chakra</string>
+    <string name="chakra_crown">Kronechakra</string>
+</resources>

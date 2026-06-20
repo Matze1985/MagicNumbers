@@ -21,6 +21,7 @@
     <string name="section_energy">⚡️ Energijos srautas:</string>
     <string name="section_time_energy">⏰ Laiko energija:</string>
     <string name="section_battery_energy">🔋Baterijos energija:</string>
+    <string name="section_chakra_energy">🧿 Čakrų Energija:</string>
 
     <!-- Main Messages -->
     <string name="digit_0_intro">Skaičius **\'0\'**%1$s sustiprina viską. Tai dieviško buvimo ir begalinio potencialo ženklas.</string>

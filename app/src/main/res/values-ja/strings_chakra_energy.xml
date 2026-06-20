@@ -1,0 +1,9 @@
+<resources>
+    <string name="chakra_root">צ\'אקרת השורש</string>
+    <string name="chakra_sacral">צ\'אקרה סקרלית</string>
+    <string name="chakra_solar">צ\'אקרת מקלעת השמש</string>
+    <string name="chakra_heart">צ\'אקרת הלב</string>
+    <string name="chakra_throat">צ\'אקרת הגרון</string>
+    <string name="chakra_third_eye">צ\'אקרת העין השלישית</string>
+    <string name="chakra_crown">צ\'אקרת הכתר</string>
+</resources>

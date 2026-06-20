@@ -1,0 +1,9 @@
+<resources>
+    <string name="chakra_root">Chakra Rădăcină</string>
+    <string name="chakra_sacral">Chakra Sacrală</string>
+    <string name="chakra_solar">Chakra Plexului Solar</string>
+    <string name="chakra_heart">Chakra Inimii</string>
+    <string name="chakra_throat">Chakra Gâtului</string>
+    <string name="chakra_third_eye">Chakra Celui de-al Treilea Ochi</string>
+    <string name="chakra_crown">Chakra Coroană</string>
+</resources>

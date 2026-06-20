@@ -1,0 +1,9 @@
+<resources>
+    <string name="chakra_root">Wortelchakra</string>
+    <string name="chakra_sacral">Sacraalchakra</string>
+    <string name="chakra_solar">Zonnevlechtchakra</string>
+    <string name="chakra_heart">Hartchakra</string>
+    <string name="chakra_throat">Keelchakra</string>
+    <string name="chakra_third_eye">Derde Oog Chakra</string>
+    <string name="chakra_crown">Kruinchakra</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="chakra_root">Šaknies čakra</string>
+    <string name="chakra_sacral">Sakralinė čakra</string>
+    <string name="chakra_solar">Saulės rezginio čakra</string>
+    <string name="chakra_heart">Širdies čakra</string>
+    <string name="chakra_throat">Gerklės čakra</string>
+    <string name="chakra_third_eye">Trečiosios Akies Čakra</string>
+    <string name="chakra_crown">Karūnos čakra</string>
+</resources>

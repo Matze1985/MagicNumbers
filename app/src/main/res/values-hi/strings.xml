@@ -21,6 +21,7 @@
     <string name="section_energy">⚡️ ऊर्जा प्रवाह:</string>
     <string name="section_time_energy">⏰ समय ऊर्जा:</string>
     <string name="section_battery_energy">🔋बैटरी ऊर्जा:</string>
+    <string name="section_chakra_energy">🧿 चक्र ऊर्जा:</string>
 
     <!-- Main Messages -->
     <string name="digit_0_intro">संख्या **\'0\'**%1$s सब कुछ बढ़ाती है। यह दिव्य उपस्थिति और अनंत संभावनाओं का संकेत है।</string>

@@ -21,6 +21,7 @@
     <string name="section_energy">⚡️ Dòng chảy năng lượng:</string>
     <string name="section_time_energy">⏰ Năng lượng thời gian:</string>
     <string name="section_battery_energy">🔋Năng lượng pin:</string>
+    <string name="section_chakra_energy">🧿 Năng Lượng Luân Xa:</string>
 
     <!-- Main Messages -->
     <string name="digit_0_intro">Số **\'0\'**%1$s khuếch đại mọi thứ. Đây là dấu hiệu của sự hiện diện thiêng liêng và tiềm năng vô hạn.</string>

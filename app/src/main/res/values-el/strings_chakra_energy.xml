@@ -1,0 +1,9 @@
+<resources>
+    <string name="chakra_root">Τσάκρα της Ρίζας</string>
+    <string name="chakra_sacral">Ιερό Τσάκρα</string>
+    <string name="chakra_solar">Τσάκρα Ηλιακού Πλέγματος</string>
+    <string name="chakra_heart">Τσάκρα της Καρδιάς</string>
+    <string name="chakra_throat">Τσάκρα του Λαιμού</string>
+    <string name="chakra_third_eye">Τσάκρα του Τρίτου Ματιού</string>
+    <string name="chakra_crown">Τσάκρα του Στέμματος</string>
+</resources>

@@ -21,6 +21,7 @@
     <string name="section_energy">⚡️ Flux energetic:</string>
     <string name="section_time_energy">⏰ Energia timpului:</string>
     <string name="section_battery_energy">🔋Energia bateriei:</string>
+    <string name="section_chakra_energy">🧿 Energia Chakrelor:</string>
 
     <!-- Main Messages -->
     <string name="digit_0_intro">Numărul **\'0\'**%1$s amplifică totul. Este un semn al prezenței divine și al potențialului infinit.</string>

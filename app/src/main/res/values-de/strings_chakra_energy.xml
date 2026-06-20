@@ -1,0 +1,27 @@
+<resources>
+    <string name="chakra_root">Wurzelchakra</string>
+    <string name="chakra_sacral">Sakralchakra</string>
+    <string name="chakra_solar">Solarplexuschakra</string>
+    <string name="chakra_heart">Herzchakra</string>
+    <string name="chakra_throat">Halschakra</string>
+    <string name="chakra_third_eye">Stirnchakra</string>
+    <string name="chakra_crown">Kronenchakra</string>
+    <string name="chakra_1_message">Neubeginn &amp; Selbstvertrauen</string>
+    <string name="chakra_2_message">Balance &amp; Verbundenheit</string>
+    <string name="chakra_3_message">Selbstvertrauen &amp; Ausdruck</string>
+    <string name="chakra_4_message">Erdung &amp; Sicherheit</string>
+    <string name="chakra_5_message">Freiheit &amp; Veränderung</string>
+    <string name="chakra_6_message">Herzenswärme &amp; Verbundenheit</string>
+    <string name="chakra_7_message">Intuition &amp; Erkenntnis</string>
+    <string name="chakra_8_message">Manifestation &amp; Vertrauen</string>
+    <string name="chakra_9_message">Mitgefühl &amp; Vollendung</string>
+    <string name="chakra_11_message">Klarheit &amp; Innere Führung</string>
+    <string name="chakra_22_message">Erdung &amp; Vertrauen</string>
+    <string name="chakra_33_message">Mitgefühl &amp; Herzensweisheit</string>
+    <string name="chakra_44_message">Stabilität &amp; Präsenz</string>
+    <string name="chakra_55_message">Bewegung &amp; Offenheit</string>
+    <string name="chakra_66_message">Fürsorge &amp; Verbundenheit</string>
+    <string name="chakra_77_message">Erkenntnis &amp; Bewusstsein</string>
+    <string name="chakra_88_message">Manifestation &amp; Verantwortung</string>
+    <string name="chakra_99_message">Bewusstsein &amp; Loslassen</string>
+</resources>

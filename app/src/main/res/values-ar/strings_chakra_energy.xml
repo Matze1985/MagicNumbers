@@ -1,0 +1,9 @@
+<resources>
+    <string name="chakra_root">شاكرا الجذر</string>
+    <string name="chakra_sacral">شاكرا العجز</string>
+    <string name="chakra_solar">شاكرا الضفيرة الشمسية</string>
+    <string name="chakra_heart">شاكرا القلب</string>
+    <string name="chakra_throat">شاكرا الحلق</string>
+    <string name="chakra_third_eye">شاكرا العين الثالثة</string>
+    <string name="chakra_crown">شاكرا التاج</string>
+</resources>

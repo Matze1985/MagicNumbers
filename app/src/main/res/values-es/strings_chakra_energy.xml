@@ -1,0 +1,9 @@
+<resources>
+    <string name="chakra_root">Chakra Raíz</string>
+    <string name="chakra_sacral">Chakra Sacro</string>
+    <string name="chakra_solar">Chakra del Plexo Solar</string>
+    <string name="chakra_heart">Chakra del Corazón</string>
+    <string name="chakra_throat">Chakra de la Garganta</string>
+    <string name="chakra_third_eye">Chakra del Tercer Ojo</string>
+    <string name="chakra_crown">Chakra Corona</string>
+</resources>

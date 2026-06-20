@@ -1,0 +1,9 @@
+<resources>
+    <string name="chakra_root">Cakra Akar</string>
+    <string name="chakra_sacral">Cakra Sakral</string>
+    <string name="chakra_solar">Cakra Pleksus Surya</string>
+    <string name="chakra_heart">Cakra Jantung</string>
+    <string name="chakra_throat">Cakra Tenggorokan</string>
+    <string name="chakra_third_eye">Cakra Mata Ketiga</string>
+    <string name="chakra_crown">Cakra Mahkota</string>
+</resources>

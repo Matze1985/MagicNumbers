@@ -1,0 +1,9 @@
+<resources>
+    <string name="chakra_root">Saknes čakra</string>
+    <string name="chakra_sacral">Sakrālā čakra</string>
+    <string name="chakra_solar">Saules pinuma čakra</string>
+    <string name="chakra_heart">Sirds čakra</string>
+    <string name="chakra_throat">Rīkles čakra</string>
+    <string name="chakra_third_eye">Trešās Acs Čakra</string>
+    <string name="chakra_crown">Kroņa čakra</string>
+</resources>

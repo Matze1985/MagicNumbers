@@ -1,0 +1,9 @@
+<resources>
+    <string name="chakra_root">Kök Çakra</string>
+    <string name="chakra_sacral">Sakral Çakra</string>
+    <string name="chakra_solar">Solar Pleksus Çakrası</string>
+    <string name="chakra_heart">Kalp Çakrası</string>
+    <string name="chakra_throat">Boğaz Çakrası</string>
+    <string name="chakra_third_eye">Üçüncü Göz Çakrası</string>
+    <string name="chakra_crown">Taç Çakrası</string>
+</resources>

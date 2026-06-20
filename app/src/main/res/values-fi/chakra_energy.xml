@@ -1,0 +1,9 @@
+<resources>
+    <string name="chakra_root">Juurichakra</string>
+    <string name="chakra_sacral">Sakraalichakra</string>
+    <string name="chakra_solar">Solar Plexus -chakra</string>
+    <string name="chakra_heart">Sydänchakra</string>
+    <string name="chakra_throat">Kurkkuchakra</string>
+    <string name="chakra_third_eye">Kolmannen Silmän Chakra</string>
+    <string name="chakra_crown">Kruunuchakra</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="chakra_root">海底轮</string>
+    <string name="chakra_sacral">生殖轮</string>
+    <string name="chakra_solar">太阳神经丛轮</string>
+    <string name="chakra_heart">心轮</string>
+    <string name="chakra_throat">喉轮</string>
+    <string name="chakra_third_eye">眉心轮</string>
+    <string name="chakra_crown">顶轮</string>
+</resources>

@@ -37,15 +37,17 @@ data class EngineResult(
     val timeEnergyMessage: String?,
     val batteryLevel: Int,
     val batteryTitle: String,
-    val batteryMessage: String
+    val batteryMessage: String,
+    val chakraTitle: String,
+    val chakraText: String,
+    val harmonyTitle: String,
+    val harmonyText: String
 )
 
 object NumerologyEngine {
 
     private val masterCoreNumbers = listOf(11, 22, 33, 44)
-
-    //TODO: example: 55, 66, 77, 88, 99 | For GUI all logics
-    private val masterAmplifierNumbers = listOf(11, 22, 33, 44, 55, 66, 77, 88, 99) // Default: 55 to 99
+    private val masterAmplifierNumbers = listOf(11, 22, 33, 44, 55, 66, 77, 88, 99)
 
     // =====================================================
     // CROSS SUM
@@ -307,6 +309,9 @@ object NumerologyEngine {
         else -> null
     }
 
+    // =====================================================
+    // MASTER AMPLIFIERS
+    // =====================================================
     fun getMasterAmplifiers(number: String) =
         masterAmplifierNumbers.filter { number.contains(it.toString()) }
 
@@ -393,6 +398,32 @@ object NumerologyEngine {
     }
 
     // =====================================================
+    // BUILD HARMONY TEXT
+    // =====================================================
+    fun buildHarmonyText(
+        context: Context,
+        reduced: Int,
+        amplifiers: List<Int>,
+        frequency: Float
+    ): Pair<String, String> {
+
+        val harmony = frequency >= 0.5f
+        val title = context.getString(if (harmony) R.string.harmony_title else R.string.learning_title)
+        val values = (listOf(reduced) + amplifiers).distinct()
+        val text = values.mapNotNull { value ->
+            val key = if (harmony) "harmony_$value" else "learning_$value"
+            val resId = context.resources.getIdentifier(key, "string", context.packageName)
+
+            if (resId != 0) {
+                "$value: ${context.getString(resId)}"
+            } else {
+                null
+            }
+        }.joinToString("\n\n")
+        return Pair(title, text)
+    }
+
+    // =====================================================
     // PSEUDO HZ FORMATTED
     // =====================================================
     fun getPseudoHzFormatted(frequency: Float): String {
@@ -405,11 +436,7 @@ object NumerologyEngine {
     // GET BATTERY LEVEL
     // =====================================================
     fun getBatteryLevel(context: Context): Int {
-        val intent = context.registerReceiver(
-            null,
-            IntentFilter(Intent.ACTION_BATTERY_CHANGED)
-        )
-
+        val intent = context.registerReceiver(null, IntentFilter(Intent.ACTION_BATTERY_CHANGED))
         val level = intent?.getIntExtra(BatteryManager.EXTRA_LEVEL, -1) ?: -1
         val scale = intent?.getIntExtra(BatteryManager.EXTRA_SCALE, -1) ?: -1
 
@@ -418,6 +445,51 @@ object NumerologyEngine {
         } else {
             0
         }
+    }
+
+    // =====================================================
+    // GET CHAKRA NAME - STEP 1
+    // =====================================================
+    fun getChakraNameResId(value: Int): Int =
+        when (value) {
+            1 -> R.string.chakra_root
+            2 -> R.string.chakra_sacral
+            3 -> R.string.chakra_solar
+            4 -> R.string.chakra_heart
+            5 -> R.string.chakra_throat
+            6 -> R.string.chakra_third_eye
+            7 -> R.string.chakra_crown
+            8 -> R.string.chakra_root
+            9 -> R.string.chakra_crown
+            11 -> R.string.chakra_third_eye
+            22 -> R.string.chakra_root
+            33 -> R.string.chakra_heart
+            44 -> R.string.chakra_throat
+            55 -> R.string.chakra_solar
+            66 -> R.string.chakra_sacral
+            77 -> R.string.chakra_crown
+            88 -> R.string.chakra_root
+            99 -> R.string.chakra_crown
+            else -> R.string.chakra_crown
+        }
+
+    // =====================================================
+    // BUILD CHAKRA TEXT - STEP 2
+    // =====================================================
+    fun buildChakraText(context: Context, reduced: Int, amplifiers: List<Int>): String {
+
+        val values = (listOf(reduced) + amplifiers).distinct()
+        return values.map { value ->
+            val chakraName = context.getString(getChakraNameResId(value))
+            val messageKey = "chakra_${value}_message"
+            val messageResId = context.resources.getIdentifier(messageKey, "string", context.packageName)
+            if (messageResId != 0) {
+                val message = context.getString(messageResId)
+                "$value: $chakraName – $message"
+            } else {
+                "$value: $chakraName"
+            }
+        }.joinToString("\n\n")
     }
 
     // =====================================================
@@ -581,6 +653,11 @@ object NumerologyEngine {
         val amplifiers = getMasterAmplifiers(number)
         val dominant = getDominantRepeatDigit(number)
         val frequency = calculateFrequencyScore(number)
+        val harmonyInfo = context?.let { buildHarmonyText(context = it, reduced = reduced, amplifiers = amplifiers, frequency = frequency) }
+        val harmonyTitle = harmonyInfo?.first ?: ""
+        val harmonyText = harmonyInfo?.second ?: ""
+        val chakraTitle = context?.getString(R.string.section_chakra_energy) ?: ""
+        val chakraText = context?.let { buildChakraText(context = it, reduced = reduced, amplifiers = amplifiers) } ?: ""
         val frequencyHz = getPseudoHzFormatted(frequency)
         val stateResId = getStateResId(frequency)
         val resonance = getResonance(number)
@@ -616,9 +693,13 @@ object NumerologyEngine {
             frequencyHz,
             currentTime,
             timeMessage,
+            chakraTitle = chakraTitle,
+            chakraText = chakraText,
             batteryLevel = batteryLevel,
             batteryTitle = batteryTitle,
-            batteryMessage = batteryMessage
+            batteryMessage = batteryMessage,
+            harmonyTitle = harmonyTitle,
+            harmonyText = harmonyText
         )
     }
 
@@ -629,6 +710,11 @@ object NumerologyEngine {
                 22 -> R.string.summary_master_22
                 33 -> R.string.summary_master_33
                 44 -> R.string.summary_master_44
+                55 -> R.string.summary_master_55
+                66 -> R.string.summary_master_66
+                77 -> R.string.summary_master_77
+                88 -> R.string.summary_master_88
+                99 -> R.string.summary_master_99
                 else -> R.string.summary_default
             }
 
@@ -730,12 +816,7 @@ object NumerologyEngine {
         // --------------------------------------------------
         // MESSAGE FOR THE MOMENT
         // --------------------------------------------------
-        builder.appendLine(
-            context.getString(
-                R.string.section_message_for_the_moment,
-                number
-            )
-        )
+        builder.appendLine(context.getString(R.string.section_message_for_the_moment, number))
         builder.appendLine()
         // --------------------------------------------------
         // CROSS SUM
@@ -795,6 +876,18 @@ object NumerologyEngine {
 
             builder.appendLine()
         }
+        // --------------------------------------------------
+        // CHAKRA
+        // --------------------------------------------------
+        builder.appendLine(chakraTitle)
+        builder.appendLine(chakraText.lines().filter { it.isNotBlank() }.joinToString("\n"))
+        builder.appendLine()
+        // --------------------------------------------------
+        // HARMONY / LEARNING
+        // --------------------------------------------------
+        builder.appendLine(harmonyTitle)
+        builder.appendLine(harmonyText.lines().filter { it.isNotBlank() }.joinToString("\n"))
+        builder.appendLine()
         // -------------------------------------------------
         // BATTERY ENERGY
         // -------------------------------------------------

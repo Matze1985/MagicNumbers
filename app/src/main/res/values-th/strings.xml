@@ -21,6 +21,7 @@
     <string name="section_energy">⚡️ การไหลของพลังงาน:</string>
     <string name="section_time_energy">⏰ พลังงานแห่งเวลา:</string>
     <string name="section_battery_energy">🔋พลังงานแบตเตอรี่:</string>
+    <string name="section_chakra_energy">🧿 พลังงานจักระ:</string>
 
     <!-- Main Messages -->
     <string name="digit_0_intro">เลข **\'0\'**%1$s เสริมพลังทุกสิ่ง เป็นสัญลักษณ์ของการปรากฏแห่งพลังศักดิ์สิทธิ์และศักยภาพอันไม่มีที่สิ้นสุด</string>

@@ -21,6 +21,7 @@
     <string name="section_energy">⚡️ Energy flow:</string>
     <string name="section_time_energy">⏰ Time energy:</string>
     <string name="section_battery_energy">🔋Battery energy:</string>
+    <string name="section_chakra_energy">🧿 Chakra energy:</string>
 
     <!-- Main Message Templates -->
     <string name="digit_0_intro">The **\'0\'**%1$s amplifies everything. It is a sign of divine presence and infinite potential.</string>

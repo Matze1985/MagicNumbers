@@ -1,0 +1,9 @@
+<resources>
+    <string name="chakra_root">Juurtšakra</string>
+    <string name="chakra_sacral">Sakraaltšakra</string>
+    <string name="chakra_solar">Päikesepõimiku tšakra</string>
+    <string name="chakra_heart">Südametšakra</string>
+    <string name="chakra_throat">Kurgutšakra</string>
+    <string name="chakra_third_eye">Kolmanda Silma Tšakra</string>
+    <string name="chakra_crown">Kroontšakra</string>
+</resources>

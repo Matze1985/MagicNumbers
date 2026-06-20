@@ -1,0 +1,9 @@
+<resources>
+    <string name="chakra_root">จักระรากฐาน</string>
+    <string name="chakra_sacral">จักระศักดิ์สิทธิ์</string>
+    <string name="chakra_solar">จักระสะดือ</string>
+    <string name="chakra_heart">จักระหัวใจ</string>
+    <string name="chakra_throat">จักระลำคอ</string>
+    <string name="chakra_third_eye">จักระตาที่สาม</string>
+    <string name="chakra_crown">จักระมงกุฎ</string>
+</resources>

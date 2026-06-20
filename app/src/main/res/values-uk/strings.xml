@@ -21,6 +21,7 @@
     <string name="section_energy">⚡️ Потік енергії:</string>
     <string name="section_time_energy">⏰ Енергія часу:</string>
     <string name="section_battery_energy">🔋Енергія батареї:</string>
+    <string name="section_chakra_energy">🧿 Енергія чакр:</string>
 
     <!-- Main Messages -->
     <string name="digit_0_intro">Число **\'0\'**%1$s підсилює все. Це знак божественної присутності та безмежного потенціалу.</string>

@@ -21,6 +21,7 @@
     <string name="section_energy">⚡️ Aliran energi:</string>
     <string name="section_time_energy">⏰ Energi Waktu:</string>
     <string name="section_battery_energy">🔋Energi Baterai:</string>
+    <string name="section_chakra_energy">🧿 Energi Cakra:</string>
 
     <!-- Pesan Utama -->
     <string name="digit_0_intro">Angka **\'0\'**%1$s memperkuat segalanya. Ini adalah tanda kehadiran ilahi dan potensi tanpa batas.</string>

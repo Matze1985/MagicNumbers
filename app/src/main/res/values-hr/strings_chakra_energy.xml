@@ -1,0 +1,9 @@
+<resources>
+    <string name="chakra_root">Korijenska čakra</string>
+    <string name="chakra_sacral">Sakralna čakra</string>
+    <string name="chakra_solar">Čakra solarnog pleksusa</string>
+    <string name="chakra_heart">Srčana čakra</string>
+    <string name="chakra_throat">Grlena čakra</string>
+    <string name="chakra_third_eye">Čakra Trećeg Oka</string>
+    <string name="chakra_crown">Krunska čakra</string>
+</resources>

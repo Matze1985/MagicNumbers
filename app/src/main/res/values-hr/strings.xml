@@ -21,6 +21,7 @@
     <string name="section_energy">⚡️ Protok energije:</string>
     <string name="section_time_energy">⏰ Energija vremena:</string>
     <string name="section_battery_energy">🔋Energija baterije:</string>
+    <string name="section_chakra_energy">🧿 Energija čakri:</string>
 
     <!-- Glavne poruke -->
     <string name="digit_0_intro">Broj **\'0\'**%1$s pojačava sve. On je znak božanske prisutnosti i beskonačnog potencijala.</string>

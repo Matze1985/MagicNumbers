@@ -21,6 +21,7 @@
     <string name="section_energy">⚡️ Energiaáramlás:</string>
     <string name="section_time_energy">⏰ Az idő energiája:</string>
     <string name="section_battery_energy">🔋Akkumulátor energia:</string>
+    <string name="section_chakra_energy">🧿 Csakraenergia:</string>
 
     <!-- Fő üzenetek -->
     <string name="digit_0_intro">A **\'0\'**%1$s szám mindent felerősít. Az isteni jelenlét és a végtelen lehetőség jele.</string>

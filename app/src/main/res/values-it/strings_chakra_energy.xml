@@ -1,0 +1,9 @@
+<resources>
+    <string name="chakra_root">Chakra della Radice</string>
+    <string name="chakra_sacral">Chakra Sacrale</string>
+    <string name="chakra_solar">Chakra del Plesso Solare</string>
+    <string name="chakra_heart">Chakra del Cuore</string>
+    <string name="chakra_throat">Chakra della Gola</string>
+    <string name="chakra_third_eye">Chakra del Terzo Occhio</string>
+    <string name="chakra_crown">Chakra della Corona</string>
+</resources>
