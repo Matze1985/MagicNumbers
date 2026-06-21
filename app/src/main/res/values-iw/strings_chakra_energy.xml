@@ -1,11 +1,11 @@
 <resources>
-    <string name="chakra_root">צ'קרת השורש</string>
-    <string name="chakra_sacral">צ'קרת המין</string>
-    <string name="chakra_solar">צ'קרת מקלעת השמש</string>
-    <string name="chakra_heart">צ'קרת הלב</string>
-    <string name="chakra_throat">צ'קרת הגרון</string>
-    <string name="chakra_third_eye">צ'קרת העין השלישית</string>
-    <string name="chakra_crown">צ'קרת הכתר</string>
+    <string name="chakra_root">צ\'קרת השורש</string>
+    <string name="chakra_sacral">צ\'קרת המין</string>
+    <string name="chakra_solar">צ\'קרת מקלעת השמש</string>
+    <string name="chakra_heart">צ\'קרת הלב</string>
+    <string name="chakra_throat">צ\'קרת הגרון</string>
+    <string name="chakra_third_eye">צ\'קרת העין השלישית</string>
+    <string name="chakra_crown">צ\'קרת הכתר</string>
     <string name="chakra_1_message">התחלה חדשה וביטחון עצמי</string>
     <string name="chakra_2_message">איזון וחיבור</string>
     <string name="chakra_3_message">ביטחון עצמי וביטוי עצמי</string>
