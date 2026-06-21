@@ -300,6 +300,75 @@ Hz = (frequency × 900) + 100
 | 0.5 | ~550Hz |
 | 1.0 | ~1000Hz |
 
+## Harmony & Chakra Interpretation Engine
+
+MagicNumbers analyzes every generated frequency across multiple spiritual layers.
+
+### ☯ Harmony Analysis
+
+The Harmony Engine evaluates the energetic resonance of a number based on its calculated frequency.
+
+- Frequency ≥ 0.5 → Harmony
+- Frequency < 0.5 → Learning Field
+
+For the calculated root number and any detected amplifier numbers (11, 22, 33, 44, 55, 66, 77, 88, 99), individual interpretations are dynamically loaded.
+
+Examples:
+
+- **4** → Stability, structure, and grounding
+- **7** → Inner wisdom and spiritual growth
+- **11** → Intuition and higher awareness
+- **22** → Manifestation and master builder energy
+
+Depending on the resonance score, meanings are presented as:
+
+- Harmony
+- Learning Opportunity
+- Growth Potential
+
+### 🌀 Chakra Mapping
+
+Each frequency is also connected to an energetic center (chakra).
+
+| Number | Chakra |
+|----------|---------|
+| 1 | Root Chakra |
+| 2 | Sacral Chakra |
+| 3 | Solar Plexus Chakra |
+| 4 | Heart Chakra |
+| 5 | Throat Chakra |
+| 6 | Third Eye Chakra |
+| 7 | Crown Chakra |
+
+Master Numbers have dedicated chakra associations:
+
+| Master Number | Chakra |
+|--------------|---------|
+| 11 | Third Eye Chakra |
+| 22 | Root Chakra |
+| 33 | Heart Chakra |
+| 44 | Throat Chakra |
+| 55 | Solar Plexus Chakra |
+| 66 | Sacral Chakra |
+| 77 | Crown Chakra |
+| 88 | Root Chakra |
+| 99 | Crown Chakra |
+
+For every detected frequency, MagicNumbers generates a chakra-specific interpretation, connecting numerological symbolism with energetic awareness.
+
+### 🌌 Multi-Layer Interpretation
+
+Each generated message combines multiple spiritual systems:
+
+- Numerology
+- Master Numbers
+- Angel Numbers
+- Chakra Associations
+- Harmony & Learning Fields
+- Archetypal Symbolism
+
+This creates a multidimensional interpretation of the generated frequency, transforming a simple number sequence into a meaningful spiritual snapshot of the moment.
+
 ### Important Notes
 
 - The Hz value is **symbolic** and not scientifically measured.
@@ -561,6 +630,7 @@ The generated clipboard text includes:
 - Cross sum steps
 - Master energy section
 - Angel section
+- Harmony & Chakra Interpretation Engine
 - Frequency %
 - Digit vibration (unique digits only)
 - Digit descriptions (with amplification text)

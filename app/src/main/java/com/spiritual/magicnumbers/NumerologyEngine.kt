@@ -249,7 +249,9 @@ object NumerologyEngine {
         }
     }
 
+    // =====================================================
     // ALTERNATING PATTERN
+    // =====================================================
     private fun detectAlternating(number: String, results: MutableSet<Int>) {
         if (number.length >= 4) {
             val pattern = number.substring(0, 2)
