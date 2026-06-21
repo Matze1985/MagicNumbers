@@ -6,4 +6,22 @@
     <string name="chakra_throat">شاكرا الحلق</string>
     <string name="chakra_third_eye">شاكرا العين الثالثة</string>
     <string name="chakra_crown">شاكرا التاج</string>
+    <string name="chakra_1_message">بداية جديدة وثقة بالنفس</string>
+    <string name="chakra_2_message">التوازن والارتباط</string>
+    <string name="chakra_3_message">الثقة بالنفس والتعبير</string>
+    <string name="chakra_4_message">التجذر والأمان</string>
+    <string name="chakra_5_message">الحرية والتغيير</string>
+    <string name="chakra_6_message">دفء القلب والارتباط</string>
+    <string name="chakra_7_message">الحدس والبصيرة</string>
+    <string name="chakra_8_message">التجلي والثقة</string>
+    <string name="chakra_9_message">التعاطف والاكتمال</string>
+    <string name="chakra_11_message">الوضوح والإرشاد الداخلي</string>
+    <string name="chakra_22_message">التجذر والثقة</string>
+    <string name="chakra_33_message">التعاطف وحكمة القلب</string>
+    <string name="chakra_44_message">الاستقرار والحضور</string>
+    <string name="chakra_55_message">الحركة والانفتاح</string>
+    <string name="chakra_66_message">الرعاية والارتباط</string>
+    <string name="chakra_77_message">الإدراك والوعي</string>
+    <string name="chakra_88_message">التجلي والمسؤولية</string>
+    <string name="chakra_99_message">الوعي والتخلي</string>
 </resources>

@@ -1,9 +1,27 @@
 <resources>
-    <string name="chakra_root">צ\'אקרת השורש</string>
-    <string name="chakra_sacral">צ\'אקרה סקרלית</string>
-    <string name="chakra_solar">צ\'אקרת מקלעת השמש</string>
-    <string name="chakra_heart">צ\'אקרת הלב</string>
-    <string name="chakra_throat">צ\'אקרת הגרון</string>
-    <string name="chakra_third_eye">צ\'אקרת העין השלישית</string>
-    <string name="chakra_crown">צ\'אקרת הכתר</string>
+    <string name="chakra_root">צ'קרת השורש</string>
+    <string name="chakra_sacral">צ'קרת המין</string>
+    <string name="chakra_solar">צ'קרת מקלעת השמש</string>
+    <string name="chakra_heart">צ'קרת הלב</string>
+    <string name="chakra_throat">צ'קרת הגרון</string>
+    <string name="chakra_third_eye">צ'קרת העין השלישית</string>
+    <string name="chakra_crown">צ'קרת הכתר</string>
+    <string name="chakra_1_message">התחלה חדשה וביטחון עצמי</string>
+    <string name="chakra_2_message">איזון וחיבור</string>
+    <string name="chakra_3_message">ביטחון עצמי וביטוי עצמי</string>
+    <string name="chakra_4_message">קרקוע וביטחון</string>
+    <string name="chakra_5_message">חופש ושינוי</string>
+    <string name="chakra_6_message">חום הלב וחיבור</string>
+    <string name="chakra_7_message">אינטואיציה ותובנה</string>
+    <string name="chakra_8_message">מימוש ואמון</string>
+    <string name="chakra_9_message">חמלה והשלמה</string>
+    <string name="chakra_11_message">בהירות והכוונה פנימית</string>
+    <string name="chakra_22_message">קרקוע ואמון</string>
+    <string name="chakra_33_message">חמלה וחוכמת הלב</string>
+    <string name="chakra_44_message">יציבות ונוכחות</string>
+    <string name="chakra_55_message">תנועה ופתיחות</string>
+    <string name="chakra_66_message">דאגה וחיבור</string>
+    <string name="chakra_77_message">הבנה ומודעות</string>
+    <string name="chakra_88_message">מימוש ואחריות</string>
+    <string name="chakra_99_message">מודעות ושחרור</string>
 </resources>

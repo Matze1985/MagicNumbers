@@ -6,4 +6,22 @@
     <string name="chakra_throat">จักระลำคอ</string>
     <string name="chakra_third_eye">จักระตาที่สาม</string>
     <string name="chakra_crown">จักระมงกุฎ</string>
+    <string name="chakra_1_message">การเริ่มต้นใหม่และความมั่นใจในตนเอง</string>
+    <string name="chakra_2_message">ความสมดุลและความเชื่อมโยง</string>
+    <string name="chakra_3_message">ความมั่นใจในตนเองและการแสดงออก</string>
+    <string name="chakra_4_message">การหยั่งรากและความปลอดภัย</string>
+    <string name="chakra_5_message">อิสรภาพและการเปลี่ยนแปลง</string>
+    <string name="chakra_6_message">ความอบอุ่นของหัวใจและความเชื่อมโยง</string>
+    <string name="chakra_7_message">สัญชาตญาณและความเข้าใจลึกซึ้ง</string>
+    <string name="chakra_8_message">การทำให้เป็นจริงและความไว้วางใจ</string>
+    <string name="chakra_9_message">ความเมตตาและความสมบูรณ์</string>
+    <string name="chakra_11_message">ความชัดเจนและการนำทางจากภายใน</string>
+    <string name="chakra_22_message">การหยั่งรากและความไว้วางใจ</string>
+    <string name="chakra_33_message">ความเมตตาและปัญญาแห่งหัวใจ</string>
+    <string name="chakra_44_message">ความมั่นคงและการมีอยู่</string>
+    <string name="chakra_55_message">การเคลื่อนไหวและความเปิดกว้าง</string>
+    <string name="chakra_66_message">ความเอาใจใส่และความเชื่อมโยง</string>
+    <string name="chakra_77_message">ความเข้าใจและความตระหนักรู้</string>
+    <string name="chakra_88_message">การทำให้เป็นจริงและความรับผิดชอบ</string>
+    <string name="chakra_99_message">ความตระหนักรู้และการปล่อยวาง</string>
 </resources>

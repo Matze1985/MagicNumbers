@@ -6,4 +6,22 @@
     <string name="chakra_throat">विशुद्धि चक्र</string>
     <string name="chakra_third_eye">आज्ञा चक्र</string>
     <string name="chakra_crown">सहस्रार चक्र</string>
+    <string name="chakra_1_message">नई शुरुआत और आत्मविश्वास</string>
+    <string name="chakra_2_message">संतुलन और जुड़ाव</string>
+    <string name="chakra_3_message">आत्मविश्वास और अभिव्यक्ति</string>
+    <string name="chakra_4_message">स्थिरता और सुरक्षा</string>
+    <string name="chakra_5_message">स्वतंत्रता और परिवर्तन</string>
+    <string name="chakra_6_message">हृदय की ऊष्मा और जुड़ाव</string>
+    <string name="chakra_7_message">अंतर्ज्ञान और अंतर्दृष्टि</string>
+    <string name="chakra_8_message">साकार करना और विश्वास</string>
+    <string name="chakra_9_message">करुणा और पूर्णता</string>
+    <string name="chakra_11_message">स्पष्टता और आंतरिक मार्गदर्शन</string>
+    <string name="chakra_22_message">स्थिरता और विश्वास</string>
+    <string name="chakra_33_message">करुणा और हृदय की बुद्धिमत्ता</string>
+    <string name="chakra_44_message">स्थिरता और उपस्थिति</string>
+    <string name="chakra_55_message">गतिशीलता और खुलापन</string>
+    <string name="chakra_66_message">देखभाल और जुड़ाव</string>
+    <string name="chakra_77_message">समझ और जागरूकता</string>
+    <string name="chakra_88_message">साकार करना और जिम्मेदारी</string>
+    <string name="chakra_99_message">जागरूकता और छोड़ना</string>
 </resources>

@@ -1,9 +1,27 @@
 <resources>
-    <string name="chakra_root">Chakra Rădăcină</string>
-    <string name="chakra_sacral">Chakra Sacrală</string>
-    <string name="chakra_solar">Chakra Plexului Solar</string>
-    <string name="chakra_heart">Chakra Inimii</string>
-    <string name="chakra_throat">Chakra Gâtului</string>
-    <string name="chakra_third_eye">Chakra Celui de-al Treilea Ochi</string>
-    <string name="chakra_crown">Chakra Coroană</string>
+    <string name="chakra_root">Chakra rădăcină</string>
+    <string name="chakra_sacral">Chakra sacrală</string>
+    <string name="chakra_solar">Chakra plexului solar</string>
+    <string name="chakra_heart">Chakra inimii</string>
+    <string name="chakra_throat">Chakra gâtului</string>
+    <string name="chakra_third_eye">Chakra celui de-al treilea ochi</string>
+    <string name="chakra_crown">Chakra coroanei</string>
+    <string name="chakra_1_message">Noul început și încrederea în sine</string>
+    <string name="chakra_2_message">Echilibru și conexiune</string>
+    <string name="chakra_3_message">Încredere în sine și exprimare</string>
+    <string name="chakra_4_message">Împământare și siguranță</string>
+    <string name="chakra_5_message">Libertate și schimbare</string>
+    <string name="chakra_6_message">Căldura inimii și conexiune</string>
+    <string name="chakra_7_message">Intuiție și înțelegere</string>
+    <string name="chakra_8_message">Manifestare și încredere</string>
+    <string name="chakra_9_message">Compasiune și împlinire</string>
+    <string name="chakra_11_message">Claritate și ghidare interioară</string>
+    <string name="chakra_22_message">Împământare și încredere</string>
+    <string name="chakra_33_message">Compasiune și înțelepciunea inimii</string>
+    <string name="chakra_44_message">Stabilitate și prezență</string>
+    <string name="chakra_55_message">Mișcare și deschidere</string>
+    <string name="chakra_66_message">Grijă și conexiune</string>
+    <string name="chakra_77_message">Înțelegere și conștientizare</string>
+    <string name="chakra_88_message">Manifestare și responsabilitate</string>
+    <string name="chakra_99_message">Conștientizare și renunțare</string>
 </resources>

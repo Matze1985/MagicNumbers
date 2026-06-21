@@ -1,9 +1,27 @@
 <resources>
-    <string name="chakra_root">Korenska čakra</string>
-    <string name="chakra_sacral">Sakralna čakra</string>
-    <string name="chakra_solar">Čakra solarnog pleksusa</string>
-    <string name="chakra_heart">Srčana čakra</string>
-    <string name="chakra_throat">Grlena čakra</string>
-    <string name="chakra_third_eye">Čakra Trećeg Oka</string>
-    <string name="chakra_crown">Krunska čakra</string>
+    <string name="chakra_root">Коренска чакра</string>
+    <string name="chakra_sacral">Сакрална чакра</string>
+    <string name="chakra_solar">Чакра соларног плексуса</string>
+    <string name="chakra_heart">Срчана чакра</string>
+    <string name="chakra_throat">Грлена чакра</string>
+    <string name="chakra_third_eye">Чакра трећег ока</string>
+    <string name="chakra_crown">Крунска чакра</string>
+    <string name="chakra_1_message">Нови почетак и самопоуздање</string>
+    <string name="chakra_2_message">Равнотежа и повезаност</string>
+    <string name="chakra_3_message">Самопоуздање и изражавање</string>
+    <string name="chakra_4_message">Уземљење и сигурност</string>
+    <string name="chakra_5_message">Слобода и промена</string>
+    <string name="chakra_6_message">Топлина срца и повезаност</string>
+    <string name="chakra_7_message">Интуиција и увид</string>
+    <string name="chakra_8_message">Манифестација и поверење</string>
+    <string name="chakra_9_message">Саосећање и испуњење</string>
+    <string name="chakra_11_message">Јасноћа и унутрашње вођство</string>
+    <string name="chakra_22_message">Уземљење и поверење</string>
+    <string name="chakra_33_message">Саосећање и мудрост срца</string>
+    <string name="chakra_44_message">Стабилност и присутност</string>
+    <string name="chakra_55_message">Кретање и отвореност</string>
+    <string name="chakra_66_message">Брига и повезаност</string>
+    <string name="chakra_77_message">Разумевање и свесност</string>
+    <string name="chakra_88_message">Манифестација и одговорност</string>
+    <string name="chakra_99_message">Свесност и отпуштање</string>
 </resources>

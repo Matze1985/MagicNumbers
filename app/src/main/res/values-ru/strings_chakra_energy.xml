@@ -4,6 +4,24 @@
     <string name="chakra_solar">Чакра солнечного сплетения</string>
     <string name="chakra_heart">Сердечная чакра</string>
     <string name="chakra_throat">Горловая чакра</string>
-    <string name="chakra_third_eye">Чакра Третьего Глаза</string>
+    <string name="chakra_third_eye">Чакра третьего глаза</string>
     <string name="chakra_crown">Коронная чакра</string>
+    <string name="chakra_1_message">Новое начало и уверенность в себе</string>
+    <string name="chakra_2_message">Баланс и связь</string>
+    <string name="chakra_3_message">Уверенность в себе и самовыражение</string>
+    <string name="chakra_4_message">Заземление и безопасность</string>
+    <string name="chakra_5_message">Свобода и перемены</string>
+    <string name="chakra_6_message">Тепло сердца и связь</string>
+    <string name="chakra_7_message">Интуиция и прозрение</string>
+    <string name="chakra_8_message">Манифестация и доверие</string>
+    <string name="chakra_9_message">Сострадание и завершённость</string>
+    <string name="chakra_11_message">Ясность и внутреннее руководство</string>
+    <string name="chakra_22_message">Заземление и доверие</string>
+    <string name="chakra_33_message">Сострадание и мудрость сердца</string>
+    <string name="chakra_44_message">Стабильность и присутствие</string>
+    <string name="chakra_55_message">Движение и открытость</string>
+    <string name="chakra_66_message">Забота и связь</string>
+    <string name="chakra_77_message">Понимание и осознанность</string>
+    <string name="chakra_88_message">Манифестация и ответственность</string>
+    <string name="chakra_99_message">Осознанность и отпускание</string>
 </resources>

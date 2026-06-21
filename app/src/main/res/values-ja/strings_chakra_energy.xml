@@ -1,9 +1,27 @@
 <resources>
-    <string name="chakra_root">צ\'אקרת השורש</string>
-    <string name="chakra_sacral">צ\'אקרה סקרלית</string>
-    <string name="chakra_solar">צ\'אקרת מקלעת השמש</string>
-    <string name="chakra_heart">צ\'אקרת הלב</string>
-    <string name="chakra_throat">צ\'אקרת הגרון</string>
-    <string name="chakra_third_eye">צ\'אקרת העין השלישית</string>
-    <string name="chakra_crown">צ\'אקרת הכתר</string>
+    <string name="chakra_root">ルートチャクラ</string>
+    <string name="chakra_sacral">仙骨チャクラ</string>
+    <string name="chakra_solar">太陽神経叢チャクラ</string>
+    <string name="chakra_heart">ハートチャクラ</string>
+    <string name="chakra_throat">スロートチャクラ</string>
+    <string name="chakra_third_eye">第三の目のチャクラ</string>
+    <string name="chakra_crown">クラウンチャクラ</string>
+    <string name="chakra_1_message">新たな始まりと自信</string>
+    <string name="chakra_2_message">バランスとつながり</string>
+    <string name="chakra_3_message">自信と自己表現</string>
+    <string name="chakra_4_message">グラウンディングと安心感</string>
+    <string name="chakra_5_message">自由と変化</string>
+    <string name="chakra_6_message">心の温かさとつながり</string>
+    <string name="chakra_7_message">直感と洞察</string>
+    <string name="chakra_8_message">具現化と信頼</string>
+    <string name="chakra_9_message">思いやりと完成</string>
+    <string name="chakra_11_message">明晰さと内なる導き</string>
+    <string name="chakra_22_message">グラウンディングと信頼</string>
+    <string name="chakra_33_message">思いやりと心の知恵</string>
+    <string name="chakra_44_message">安定と存在感</string>
+    <string name="chakra_55_message">動きと開放性</string>
+    <string name="chakra_66_message">思いやりとつながり</string>
+    <string name="chakra_77_message">理解と気づき</string>
+    <string name="chakra_88_message">具現化と責任</string>
+    <string name="chakra_99_message">気づきと手放し</string>
 </resources>

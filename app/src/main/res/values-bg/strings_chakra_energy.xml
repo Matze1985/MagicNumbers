@@ -1,9 +1,27 @@
 <resources>
-    <string name="chakra_root">شاكرا الجذر</string>
-    <string name="chakra_sacral">شاكرا العجز</string>
-    <string name="chakra_solar">شاكرا الضفيرة الشمسية</string>
-    <string name="chakra_heart">شاكرا القلب</string>
-    <string name="chakra_throat">شاكرا الحلق</string>
-    <string name="chakra_third_eye">شاكرا العين الثالثة</string>
-    <string name="chakra_crown">شاكرا التاج</string>
+    <string name="chakra_root">Коренна чакра</string>
+    <string name="chakra_sacral">Сакрална чакра</string>
+    <string name="chakra_solar">Чакра на слънчевия сплит</string>
+    <string name="chakra_heart">Сърдечна чакра</string>
+    <string name="chakra_throat">Гърлена чакра</string>
+    <string name="chakra_third_eye">Чакра на третото око</string>
+    <string name="chakra_crown">Коронна чакра</string>
+    <string name="chakra_1_message">Ново начало и самоувереност</string>
+    <string name="chakra_2_message">Баланс и свързаност</string>
+    <string name="chakra_3_message">Самоувереност и изразяване</string>
+    <string name="chakra_4_message">Заземяване и сигурност</string>
+    <string name="chakra_5_message">Свобода и промяна</string>
+    <string name="chakra_6_message">Сърдечна топлина и свързаност</string>
+    <string name="chakra_7_message">Интуиция и прозрение</string>
+    <string name="chakra_8_message">Манифестация и доверие</string>
+    <string name="chakra_9_message">Състрадание и завършеност</string>
+    <string name="chakra_11_message">Яснота и вътрешно напътствие</string>
+    <string name="chakra_22_message">Заземяване и доверие</string>
+    <string name="chakra_33_message">Състрадание и мъдрост на сърцето</string>
+    <string name="chakra_44_message">Стабилност и присъствие</string>
+    <string name="chakra_55_message">Движение и откритост</string>
+    <string name="chakra_66_message">Грижа и свързаност</string>
+    <string name="chakra_77_message">Осъзнаване и съзнание</string>
+    <string name="chakra_88_message">Манифестация и отговорност</string>
+    <string name="chakra_99_message">Съзнание и освобождаване</string>
 </resources>

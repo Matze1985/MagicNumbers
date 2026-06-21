@@ -6,4 +6,22 @@
     <string name="chakra_throat">Throat Chakra</string>
     <string name="chakra_third_eye">Third Eye Chakra</string>
     <string name="chakra_crown">Crown Chakra</string>
+    <string name="chakra_1_message">New Beginnings &amp; Self-Confidence</string>
+    <string name="chakra_2_message">Balance &amp; Connection</string>
+    <string name="chakra_3_message">Self-Confidence &amp; Expression</string>
+    <string name="chakra_4_message">Grounding &amp; Security</string>
+    <string name="chakra_5_message">Freedom &amp; Change</string>
+    <string name="chakra_6_message">Heart Warmth &amp; Connection</string>
+    <string name="chakra_7_message">Intuition &amp; Insight</string>
+    <string name="chakra_8_message">Manifestation &amp; Trust</string>
+    <string name="chakra_9_message">Compassion &amp; Completion</string>
+    <string name="chakra_11_message">Clarity &amp; Inner Guidance</string>
+    <string name="chakra_22_message">Grounding &amp; Trust</string>
+    <string name="chakra_33_message">Compassion &amp; Heart Wisdom</string>
+    <string name="chakra_44_message">Stability &amp; Presence</string>
+    <string name="chakra_55_message">Movement &amp; Openness</string>
+    <string name="chakra_66_message">Care &amp; Connection</string>
+    <string name="chakra_77_message">Insight &amp; Awareness</string>
+    <string name="chakra_88_message">Manifestation &amp; Responsibility</string>
+    <string name="chakra_99_message">Awareness &amp; Letting Go</string>
 </resources>

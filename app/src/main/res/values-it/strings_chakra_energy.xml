@@ -1,9 +1,27 @@
 <resources>
-    <string name="chakra_root">Chakra della Radice</string>
-    <string name="chakra_sacral">Chakra Sacrale</string>
-    <string name="chakra_solar">Chakra del Plesso Solare</string>
-    <string name="chakra_heart">Chakra del Cuore</string>
-    <string name="chakra_throat">Chakra della Gola</string>
-    <string name="chakra_third_eye">Chakra del Terzo Occhio</string>
-    <string name="chakra_crown">Chakra della Corona</string>
+    <string name="chakra_root">Chakra della radice</string>
+    <string name="chakra_sacral">Chakra sacrale</string>
+    <string name="chakra_solar">Chakra del plesso solare</string>
+    <string name="chakra_heart">Chakra del cuore</string>
+    <string name="chakra_throat">Chakra della gola</string>
+    <string name="chakra_third_eye">Chakra del terzo occhio</string>
+    <string name="chakra_crown">Chakra della corona</string>
+    <string name="chakra_1_message">Nuovi inizi e fiducia in sé stessi</string>
+    <string name="chakra_2_message">Equilibrio e connessione</string>
+    <string name="chakra_3_message">Fiducia in sé stessi ed espressione</string>
+    <string name="chakra_4_message">Radicamento e sicurezza</string>
+    <string name="chakra_5_message">Libertà e cambiamento</string>
+    <string name="chakra_6_message">Calore del cuore e connessione</string>
+    <string name="chakra_7_message">Intuizione e comprensione</string>
+    <string name="chakra_8_message">Manifestazione e fiducia</string>
+    <string name="chakra_9_message">Compassione e completamento</string>
+    <string name="chakra_11_message">Chiarezza e guida interiore</string>
+    <string name="chakra_22_message">Radicamento e fiducia</string>
+    <string name="chakra_33_message">Compassione e saggezza del cuore</string>
+    <string name="chakra_44_message">Stabilità e presenza</string>
+    <string name="chakra_55_message">Movimento e apertura</string>
+    <string name="chakra_66_message">Cura e connessione</string>
+    <string name="chakra_77_message">Comprensione e consapevolezza</string>
+    <string name="chakra_88_message">Manifestazione e responsabilità</string>
+    <string name="chakra_99_message">Consapevolezza e lasciare andare</string>
 </resources>

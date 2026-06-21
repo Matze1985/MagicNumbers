@@ -6,4 +6,22 @@
     <string name="chakra_throat">Krční čakra</string>
     <string name="chakra_third_eye">Čakra třetího oka</string>
     <string name="chakra_crown">Korunní čakra</string>
+    <string name="chakra_1_message">Nový začátek a sebedůvěra</string>
+    <string name="chakra_2_message">Rovnováha a propojení</string>
+    <string name="chakra_3_message">Sebedůvěra a vyjádření</string>
+    <string name="chakra_4_message">Uzemnění a bezpečí</string>
+    <string name="chakra_5_message">Svoboda a změna</string>
+    <string name="chakra_6_message">Srdeční vřelost a propojení</string>
+    <string name="chakra_7_message">Intuice a poznání</string>
+    <string name="chakra_8_message">Manifestace a důvěra</string>
+    <string name="chakra_9_message">Soucit a dovršení</string>
+    <string name="chakra_11_message">Jasnost a vnitřní vedení</string>
+    <string name="chakra_22_message">Uzemnění a důvěra</string>
+    <string name="chakra_33_message">Soucit a moudrost srdce</string>
+    <string name="chakra_44_message">Stabilita a přítomnost</string>
+    <string name="chakra_55_message">Pohyb a otevřenost</string>
+    <string name="chakra_66_message">Péče a propojení</string>
+    <string name="chakra_77_message">Poznání a vědomí</string>
+    <string name="chakra_88_message">Manifestace a odpovědnost</string>
+    <string name="chakra_99_message">Vědomí a odpoutání</string>
 </resources>

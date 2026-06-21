@@ -1,9 +1,27 @@
 <resources>
-    <string name="chakra_root">Корневая чакра</string>
-    <string name="chakra_sacral">Сакральная чакра</string>
-    <string name="chakra_solar">Чакра солнечного сплетения</string>
-    <string name="chakra_heart">Сердечная чакра</string>
-    <string name="chakra_throat">Горловая чакра</string>
-    <string name="chakra_third_eye">Чакра Третьего Глаза</string>
-    <string name="chakra_crown">Коронная чакра</string>
+    <string name="chakra_root">Koreňová čakra</string>
+    <string name="chakra_sacral">Sakrálna čakra</string>
+    <string name="chakra_solar">Čakra solar plexu</string>
+    <string name="chakra_heart">Srdcová čakra</string>
+    <string name="chakra_throat">Krčná čakra</string>
+    <string name="chakra_third_eye">Čakra tretieho oka</string>
+    <string name="chakra_crown">Korunná čakra</string>
+    <string name="chakra_1_message">Nový začiatok a sebadôvera</string>
+    <string name="chakra_2_message">Rovnováha a spojenie</string>
+    <string name="chakra_3_message">Sebadôvera a vyjadrenie</string>
+    <string name="chakra_4_message">Uzemnenie a bezpečie</string>
+    <string name="chakra_5_message">Sloboda a zmena</string>
+    <string name="chakra_6_message">Teplo srdca a spojenie</string>
+    <string name="chakra_7_message">Intuícia a poznanie</string>
+    <string name="chakra_8_message">Manifestácia a dôvera</string>
+    <string name="chakra_9_message">Súcit a naplnenie</string>
+    <string name="chakra_11_message">Jasnosť a vnútorné vedenie</string>
+    <string name="chakra_22_message">Uzemnenie a dôvera</string>
+    <string name="chakra_33_message">Súcit a múdrosť srdca</string>
+    <string name="chakra_44_message">Stabilita a prítomnosť</string>
+    <string name="chakra_55_message">Pohyb a otvorenosť</string>
+    <string name="chakra_66_message">Starostlivosť a spojenie</string>
+    <string name="chakra_77_message">Porozumenie a vedomie</string>
+    <string name="chakra_88_message">Manifestácia a zodpovednosť</string>
+    <string name="chakra_99_message">Vedomie a pustenie sa</string>
 </resources>

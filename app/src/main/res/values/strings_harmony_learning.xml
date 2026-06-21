@@ -1,6 +1,6 @@
 <resources>
-    <string name="harmony_title">☯️ Supported Energy:</string>
-    <string name="learning_title">🌱 Growth Opportunity:</string>
+    <string name="harmony_title">☯️ Currently Supports:</string>
+    <string name="learning_title">🌱 Seeking Awareness Of:</string>
     <string name="harmony_1">Self-Confidence</string>
     <string name="learning_1">Ego</string>
     <string name="harmony_2">Balance</string>

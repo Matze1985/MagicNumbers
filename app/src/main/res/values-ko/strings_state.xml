@@ -1,21 +1,21 @@
 <resources>
-    <string name="state_pure_clarity_short">🟢 최대 명확성</string>
-    <string name="state_clarity_strong_short">🟢 높은 명확성</string>
-    <string name="state_clarity_medium_short">🟢 중간 명확성</string>
-    <string name="state_clarity_weak_short">🟢 낮은 명확성</string>
-    <string name="state_alignment_strong_short">🟢 강한 균형</string>
-    <string name="state_alignment_weak_short">🟢 약한 균형</string>
-    <string name="state_tension_strong_short">🔴 강한 긴장</string>
-    <string name="state_tension_weak_short">🔴 약한 긴장</string>
-    <string name="state_focus_strong_short">🟠 높은 집중</string>
-    <string name="state_focus_weak_short">🟠 낮은 집중</string>
-    <string name="state_shift_strong_short">🟡 강한 변화</string>
-    <string name="state_shift_weak_short">🟡 약한 변화</string>
+    <string name="state_pure_clarity_short">🟢 완전한 명료함</string>
+    <string name="state_clarity_strong_short">🟢 강한 명료함</string>
+    <string name="state_clarity_medium_short">🟢 중간 수준의 명료함</string>
+    <string name="state_clarity_weak_short">🟢 가벼운 명료함</string>
+    <string name="state_alignment_strong_short">🟢 강한 조화</string>
+    <string name="state_alignment_weak_short">🟢 가벼운 조화</string>
+    <string name="state_tension_strong_short">🟠 강한 추진력</string>
+    <string name="state_tension_weak_short">🟠 가벼운 추진력</string>
+    <string name="state_focus_strong_short">🟠 강한 집중</string>
+    <string name="state_focus_weak_short">🟠 가벼운 집중</string>
+    <string name="state_shift_strong_short">🟡 큰 성장</string>
+    <string name="state_shift_weak_short">🟡 작은 성장</string>
     <string name="state_transformation_strong_short">🟣 강한 변화</string>
-    <string name="state_transformation_weak_short">🟣 약한 변화</string>
+    <string name="state_transformation_weak_short">🟣 가벼운 변화</string>
     <string name="state_reflection_short">🔵 성찰</string>
-    <string name="state_open_short">⚪ 개방</string>
-    <string name="state_withdrawal_short">⚫ 후퇴</string>
-    <string name="state_fragile_short">🌑 민감</string>
+    <string name="state_open_short">⚪ 개방성</string>
+    <string name="state_withdrawal_short">⚫ 위축</string>
+    <string name="state_fragile_short">🌑 민감함</string>
     <string name="state_void_short">⚫ 공허</string>
 </resources>

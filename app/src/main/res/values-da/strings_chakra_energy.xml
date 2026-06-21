@@ -1,9 +1,27 @@
 <resources>
     <string name="chakra_root">Rodchakra</string>
     <string name="chakra_sacral">Sakralchakra</string>
-    <string name="chakra_solar">Solar Plexus-chakra</string>
+    <string name="chakra_solar">Solar plexus-chakra</string>
     <string name="chakra_heart">Hjertechakra</string>
     <string name="chakra_throat">Halschakra</string>
-    <string name="chakra_third_eye">Det Tredje Øjes Chakra</string>
+    <string name="chakra_third_eye">Pandechakra</string>
     <string name="chakra_crown">Kronechakra</string>
+    <string name="chakra_1_message">Ny begyndelse &amp; selvtillid</string>
+    <string name="chakra_2_message">Balance &amp; forbindelse</string>
+    <string name="chakra_3_message">Selvtillid &amp; udtryk</string>
+    <string name="chakra_4_message">Jordforbindelse &amp; tryghed</string>
+    <string name="chakra_5_message">Frihed &amp; forandring</string>
+    <string name="chakra_6_message">Hjertevarme &amp; forbindelse</string>
+    <string name="chakra_7_message">Intuition &amp; indsigt</string>
+    <string name="chakra_8_message">Manifestation &amp; tillid</string>
+    <string name="chakra_9_message">Medfølelse &amp; fuldendelse</string>
+    <string name="chakra_11_message">Klarhed &amp; indre vejledning</string>
+    <string name="chakra_22_message">Jordforbindelse &amp; tillid</string>
+    <string name="chakra_33_message">Medfølelse &amp; hjertets visdom</string>
+    <string name="chakra_44_message">Stabilitet &amp; nærvær</string>
+    <string name="chakra_55_message">Bevægelse &amp; åbenhed</string>
+    <string name="chakra_66_message">Omsorg &amp; forbindelse</string>
+    <string name="chakra_77_message">Erkendelse &amp; bevidsthed</string>
+    <string name="chakra_88_message">Manifestation &amp; ansvar</string>
+    <string name="chakra_99_message">Bevidsthed &amp; at give slip</string>
 </resources>

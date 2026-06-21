@@ -4,6 +4,24 @@
     <string name="chakra_solar">Чакра сонячного сплетіння</string>
     <string name="chakra_heart">Серцева чакра</string>
     <string name="chakra_throat">Горлова чакра</string>
-    <string name="chakra_third_eye">Чакра Третього Ока</string>
+    <string name="chakra_third_eye">Чакра третього ока</string>
     <string name="chakra_crown">Коронна чакра</string>
+    <string name="chakra_1_message">Новий початок і впевненість у собі</string>
+    <string name="chakra_2_message">Баланс і зв’язок</string>
+    <string name="chakra_3_message">Впевненість у собі та самовираження</string>
+    <string name="chakra_4_message">Заземлення та безпека</string>
+    <string name="chakra_5_message">Свобода та зміни</string>
+    <string name="chakra_6_message">Тепло серця та зв’язок</string>
+    <string name="chakra_7_message">Інтуїція та прозріння</string>
+    <string name="chakra_8_message">Маніфестація та довіра</string>
+    <string name="chakra_9_message">Співчуття та завершеність</string>
+    <string name="chakra_11_message">Ясність і внутрішнє керівництво</string>
+    <string name="chakra_22_message">Заземлення та довіра</string>
+    <string name="chakra_33_message">Співчуття та мудрість серця</string>
+    <string name="chakra_44_message">Стабільність і присутність</string>
+    <string name="chakra_55_message">Рух і відкритість</string>
+    <string name="chakra_66_message">Турбота та зв’язок</string>
+    <string name="chakra_77_message">Розуміння та усвідомленість</string>
+    <string name="chakra_88_message">Маніфестація та відповідальність</string>
+    <string name="chakra_99_message">Усвідомленість і відпускання</string>
 </resources>

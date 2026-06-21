@@ -1,9 +1,27 @@
 <resources>
-    <string name="chakra_root">Luân Xa Gốc</string>
-    <string name="chakra_sacral">Luân Xa Xương Cùng</string>
-    <string name="chakra_solar">Luân Xa Đám Rối Mặt Trời</string>
-    <string name="chakra_heart">Luân Xa Tim</string>
-    <string name="chakra_throat">Luân Xa Cổ Họng</string>
-    <string name="chakra_third_eye">Luân Xa Con Mắt Thứ Ba</string>
-    <string name="chakra_crown">Luân Xa Vương Miện</string>
+    <string name="chakra_root">Luân xa Gốc</string>
+    <string name="chakra_sacral">Luân xa Xương cùng</string>
+    <string name="chakra_solar">Luân xa Đám rối Mặt trời</string>
+    <string name="chakra_heart">Luân xa Tim</string>
+    <string name="chakra_throat">Luân xa Cổ họng</string>
+    <string name="chakra_third_eye">Luân xa Con mắt thứ ba</string>
+    <string name="chakra_crown">Luân xa Vương miện</string>
+    <string name="chakra_1_message">Khởi đầu mới và tự tin</string>
+    <string name="chakra_2_message">Cân bằng và kết nối</string>
+    <string name="chakra_3_message">Tự tin và biểu đạt</string>
+    <string name="chakra_4_message">Tiếp đất và an toàn</string>
+    <string name="chakra_5_message">Tự do và thay đổi</string>
+    <string name="chakra_6_message">Sự ấm áp của trái tim và kết nối</string>
+    <string name="chakra_7_message">Trực giác và thấu hiểu</string>
+    <string name="chakra_8_message">Hiện thực hóa và niềm tin</string>
+    <string name="chakra_9_message">Lòng trắc ẩn và hoàn mãn</string>
+    <string name="chakra_11_message">Minh triết và sự dẫn dắt nội tâm</string>
+    <string name="chakra_22_message">Tiếp đất và niềm tin</string>
+    <string name="chakra_33_message">Lòng trắc ẩn và trí tuệ của trái tim</string>
+    <string name="chakra_44_message">Ổn định và hiện diện</string>
+    <string name="chakra_55_message">Chuyển động và cởi mở</string>
+    <string name="chakra_66_message">Quan tâm và kết nối</string>
+    <string name="chakra_77_message">Thấu hiểu và nhận thức</string>
+    <string name="chakra_88_message">Hiện thực hóa và trách nhiệm</string>
+    <string name="chakra_99_message">Nhận thức và buông bỏ</string>
 </resources>

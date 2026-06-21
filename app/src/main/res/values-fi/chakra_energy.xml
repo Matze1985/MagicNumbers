@@ -1,9 +1,27 @@
 <resources>
     <string name="chakra_root">Juurichakra</string>
     <string name="chakra_sacral">Sakraalichakra</string>
-    <string name="chakra_solar">Solar Plexus -chakra</string>
+    <string name="chakra_solar">Solar plexus -chakra</string>
     <string name="chakra_heart">Sydänchakra</string>
     <string name="chakra_throat">Kurkkuchakra</string>
-    <string name="chakra_third_eye">Kolmannen Silmän Chakra</string>
+    <string name="chakra_third_eye">Kolmannen silmän chakra</string>
     <string name="chakra_crown">Kruunuchakra</string>
+    <string name="chakra_1_message">Uusi alku ja itseluottamus</string>
+    <string name="chakra_2_message">Tasapaino ja yhteys</string>
+    <string name="chakra_3_message">Itseluottamus ja ilmaisu</string>
+    <string name="chakra_4_message">Maadoittuminen ja turvallisuus</string>
+    <string name="chakra_5_message">Vapaus ja muutos</string>
+    <string name="chakra_6_message">Sydämen lämpö ja yhteys</string>
+    <string name="chakra_7_message">Intuitio ja oivallus</string>
+    <string name="chakra_8_message">Manifestointi ja luottamus</string>
+    <string name="chakra_9_message">Myötätunto ja täyttymys</string>
+    <string name="chakra_11_message">Selkeys ja sisäinen ohjaus</string>
+    <string name="chakra_22_message">Maadoittuminen ja luottamus</string>
+    <string name="chakra_33_message">Myötätunto ja sydämen viisaus</string>
+    <string name="chakra_44_message">Vakaus ja läsnäolo</string>
+    <string name="chakra_55_message">Liike ja avoimuus</string>
+    <string name="chakra_66_message">Huolenpito ja yhteys</string>
+    <string name="chakra_77_message">Ymmärrys ja tietoisuus</string>
+    <string name="chakra_88_message">Manifestointi ja vastuu</string>
+    <string name="chakra_99_message">Tietoisuus ja irti päästäminen</string>
 </resources>

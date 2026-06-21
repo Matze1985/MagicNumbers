@@ -4,6 +4,24 @@
     <string name="chakra_solar">Saulės rezginio čakra</string>
     <string name="chakra_heart">Širdies čakra</string>
     <string name="chakra_throat">Gerklės čakra</string>
-    <string name="chakra_third_eye">Trečiosios Akies Čakra</string>
+    <string name="chakra_third_eye">Trečiosios akies čakra</string>
     <string name="chakra_crown">Karūnos čakra</string>
+    <string name="chakra_1_message">Nauja pradžia ir pasitikėjimas savimi</string>
+    <string name="chakra_2_message">Pusiausvyra ir ryšys</string>
+    <string name="chakra_3_message">Pasitikėjimas savimi ir saviraiška</string>
+    <string name="chakra_4_message">Įsižeminimas ir saugumas</string>
+    <string name="chakra_5_message">Laisvė ir pokyčiai</string>
+    <string name="chakra_6_message">Širdies šiluma ir ryšys</string>
+    <string name="chakra_7_message">Intuicija ir įžvalga</string>
+    <string name="chakra_8_message">Manifestacija ir pasitikėjimas</string>
+    <string name="chakra_9_message">Užuojauta ir pilnatvė</string>
+    <string name="chakra_11_message">Aiškumas ir vidinis vedimas</string>
+    <string name="chakra_22_message">Įsižeminimas ir pasitikėjimas</string>
+    <string name="chakra_33_message">Užuojauta ir širdies išmintis</string>
+    <string name="chakra_44_message">Stabilumas ir buvimas</string>
+    <string name="chakra_55_message">Judėjimas ir atvirumas</string>
+    <string name="chakra_66_message">Rūpestis ir ryšys</string>
+    <string name="chakra_77_message">Supratimas ir sąmoningumas</string>
+    <string name="chakra_88_message">Manifestacija ir atsakomybė</string>
+    <string name="chakra_99_message">Sąmoningumas ir paleidimas</string>
 </resources>

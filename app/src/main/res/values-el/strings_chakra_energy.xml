@@ -6,4 +6,22 @@
     <string name="chakra_throat">Τσάκρα του Λαιμού</string>
     <string name="chakra_third_eye">Τσάκρα του Τρίτου Ματιού</string>
     <string name="chakra_crown">Τσάκρα του Στέμματος</string>
+    <string name="chakra_1_message">Νέα αρχή &amp; αυτοπεποίθηση</string>
+    <string name="chakra_2_message">Ισορροπία &amp; σύνδεση</string>
+    <string name="chakra_3_message">Αυτοπεποίθηση &amp; έκφραση</string>
+    <string name="chakra_4_message">Γείωση &amp; ασφάλεια</string>
+    <string name="chakra_5_message">Ελευθερία &amp; αλλαγή</string>
+    <string name="chakra_6_message">Ζεστασιά καρδιάς &amp; σύνδεση</string>
+    <string name="chakra_7_message">Διαίσθηση &amp; επίγνωση</string>
+    <string name="chakra_8_message">Υλοποίηση &amp; εμπιστοσύνη</string>
+    <string name="chakra_9_message">Συμπόνια &amp; ολοκλήρωση</string>
+    <string name="chakra_11_message">Διαύγεια &amp; εσωτερική καθοδήγηση</string>
+    <string name="chakra_22_message">Γείωση &amp; εμπιστοσύνη</string>
+    <string name="chakra_33_message">Συμπόνια &amp; σοφία της καρδιάς</string>
+    <string name="chakra_44_message">Σταθερότητα &amp; παρουσία</string>
+    <string name="chakra_55_message">Κίνηση &amp; ανοιχτότητα</string>
+    <string name="chakra_66_message">Φροντίδα &amp; σύνδεση</string>
+    <string name="chakra_77_message">Κατανόηση &amp; συνειδητότητα</string>
+    <string name="chakra_88_message">Υλοποίηση &amp; ευθύνη</string>
+    <string name="chakra_99_message">Συνειδητότητα &amp; αποδέσμευση</string>
 </resources>

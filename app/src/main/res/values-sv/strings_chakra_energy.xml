@@ -1,9 +1,27 @@
 <resources>
-    <string name="chakra_root">Корневая чакра</string>
-    <string name="chakra_sacral">Сакральная чакра</string>
-    <string name="chakra_solar">Чакра солнечного сплетения</string>
-    <string name="chakra_heart">Сердечная чакра</string>
-    <string name="chakra_throat">Горловая чакра</string>
-    <string name="chakra_third_eye">Чакра Третьего Глаза</string>
-    <string name="chakra_crown">Коронная чакра</string>
+    <string name="chakra_root">Rotchakra</string>
+    <string name="chakra_sacral">Sakralchakra</string>
+    <string name="chakra_solar">Solarplexuschakra</string>
+    <string name="chakra_heart">Hjärtchakra</string>
+    <string name="chakra_throat">Halschakra</string>
+    <string name="chakra_third_eye">Tredje ögats chakra</string>
+    <string name="chakra_crown">Kronchakra</string>
+    <string name="chakra_1_message">Ny början och självförtroende</string>
+    <string name="chakra_2_message">Balans och samhörighet</string>
+    <string name="chakra_3_message">Självförtroende och uttryck</string>
+    <string name="chakra_4_message">Jordning och trygghet</string>
+    <string name="chakra_5_message">Frihet och förändring</string>
+    <string name="chakra_6_message">Hjärtats värme och samhörighet</string>
+    <string name="chakra_7_message">Intuition och insikt</string>
+    <string name="chakra_8_message">Manifestation och tillit</string>
+    <string name="chakra_9_message">Medkänsla och fullbordan</string>
+    <string name="chakra_11_message">Klarhet och inre vägledning</string>
+    <string name="chakra_22_message">Jordning och tillit</string>
+    <string name="chakra_33_message">Medkänsla och hjärtats visdom</string>
+    <string name="chakra_44_message">Stabilitet och närvaro</string>
+    <string name="chakra_55_message">Rörelse och öppenhet</string>
+    <string name="chakra_66_message">Omsorg och samhörighet</string>
+    <string name="chakra_77_message">Förståelse och medvetenhet</string>
+    <string name="chakra_88_message">Manifestation och ansvar</string>
+    <string name="chakra_99_message">Medvetenhet och att släppa taget</string>
 </resources>

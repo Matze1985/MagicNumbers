@@ -5,5 +5,23 @@
     <string name="chakra_heart">Kalp Çakrası</string>
     <string name="chakra_throat">Boğaz Çakrası</string>
     <string name="chakra_third_eye">Üçüncü Göz Çakrası</string>
-    <string name="chakra_crown">Taç Çakrası</string>
+    <string name="chakra_crown">Taç Çakra</string>
+    <string name="chakra_1_message">Yeni Başlangıç ve Özgüven</string>
+    <string name="chakra_2_message">Denge ve Bağlantı</string>
+    <string name="chakra_3_message">Özgüven ve İfade</string>
+    <string name="chakra_4_message">Topraklanma ve Güvenlik</string>
+    <string name="chakra_5_message">Özgürlük ve Değişim</string>
+    <string name="chakra_6_message">Kalp Sıcaklığı ve Bağlantı</string>
+    <string name="chakra_7_message">Sezgi ve İçgörü</string>
+    <string name="chakra_8_message">Tezahür ve Güven</string>
+    <string name="chakra_9_message">Şefkat ve Tamamlanma</string>
+    <string name="chakra_11_message">Netlik ve İçsel Rehberlik</string>
+    <string name="chakra_22_message">Topraklanma ve Güven</string>
+    <string name="chakra_33_message">Şefkat ve Kalp Bilgeliği</string>
+    <string name="chakra_44_message">İstikrar ve Mevcudiyet</string>
+    <string name="chakra_55_message">Hareket ve Açıklık</string>
+    <string name="chakra_66_message">Özen ve Bağlantı</string>
+    <string name="chakra_77_message">Anlayış ve Farkındalık</string>
+    <string name="chakra_88_message">Tezahür ve Sorumluluk</string>
+    <string name="chakra_99_message">Farkındalık ve Bırakabilmek</string>
 </resources>

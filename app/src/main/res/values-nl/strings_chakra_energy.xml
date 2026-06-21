@@ -4,6 +4,24 @@
     <string name="chakra_solar">Zonnevlechtchakra</string>
     <string name="chakra_heart">Hartchakra</string>
     <string name="chakra_throat">Keelchakra</string>
-    <string name="chakra_third_eye">Derde Oog Chakra</string>
+    <string name="chakra_third_eye">Derde-oogchakra</string>
     <string name="chakra_crown">Kruinchakra</string>
+    <string name="chakra_1_message">Nieuw begin en zelfvertrouwen</string>
+    <string name="chakra_2_message">Balans en verbondenheid</string>
+    <string name="chakra_3_message">Zelfvertrouwen en expressie</string>
+    <string name="chakra_4_message">Aarding en veiligheid</string>
+    <string name="chakra_5_message">Vrijheid en verandering</string>
+    <string name="chakra_6_message">Hartwarmte en verbondenheid</string>
+    <string name="chakra_7_message">Intuïtie en inzicht</string>
+    <string name="chakra_8_message">Manifestatie en vertrouwen</string>
+    <string name="chakra_9_message">Compassie en voltooiing</string>
+    <string name="chakra_11_message">Helderheid en innerlijke leiding</string>
+    <string name="chakra_22_message">Aarding en vertrouwen</string>
+    <string name="chakra_33_message">Compassie en wijsheid van het hart</string>
+    <string name="chakra_44_message">Stabiliteit en aanwezigheid</string>
+    <string name="chakra_55_message">Beweging en openheid</string>
+    <string name="chakra_66_message">Zorg en verbondenheid</string>
+    <string name="chakra_77_message">Inzicht en bewustzijn</string>
+    <string name="chakra_88_message">Manifestatie en verantwoordelijkheid</string>
+    <string name="chakra_99_message">Bewustzijn en loslaten</string>
 </resources>

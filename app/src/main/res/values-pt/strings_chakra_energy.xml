@@ -5,5 +5,23 @@
     <string name="chakra_heart">Chakra do Coração</string>
     <string name="chakra_throat">Chakra da Garganta</string>
     <string name="chakra_third_eye">Chakra do Terceiro Olho</string>
-    <string name="chakra_crown">Chakra da Coroa</string>
+    <string name="chakra_crown">Chakra Coronário</string>
+    <string name="chakra_1_message">Novo começo e autoconfiança</string>
+    <string name="chakra_2_message">Equilíbrio e conexão</string>
+    <string name="chakra_3_message">Autoconfiança e expressão</string>
+    <string name="chakra_4_message">Enraizamento e segurança</string>
+    <string name="chakra_5_message">Liberdade e mudança</string>
+    <string name="chakra_6_message">Calor do coração e conexão</string>
+    <string name="chakra_7_message">Intuição e percepção</string>
+    <string name="chakra_8_message">Manifestação e confiança</string>
+    <string name="chakra_9_message">Compaixão e plenitude</string>
+    <string name="chakra_11_message">Clareza e orientação interior</string>
+    <string name="chakra_22_message">Enraizamento e confiança</string>
+    <string name="chakra_33_message">Compaixão e sabedoria do coração</string>
+    <string name="chakra_44_message">Estabilidade e presença</string>
+    <string name="chakra_55_message">Movimento e abertura</string>
+    <string name="chakra_66_message">Cuidado e conexão</string>
+    <string name="chakra_77_message">Compreensão e consciência</string>
+    <string name="chakra_88_message">Manifestação e responsabilidade</string>
+    <string name="chakra_99_message">Consciência e desapego</string>
 </resources>

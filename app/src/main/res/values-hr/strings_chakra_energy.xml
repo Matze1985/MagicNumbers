@@ -4,6 +4,24 @@
     <string name="chakra_solar">Čakra solarnog pleksusa</string>
     <string name="chakra_heart">Srčana čakra</string>
     <string name="chakra_throat">Grlena čakra</string>
-    <string name="chakra_third_eye">Čakra Trećeg Oka</string>
+    <string name="chakra_third_eye">Čakra trećeg oka</string>
     <string name="chakra_crown">Krunska čakra</string>
+    <string name="chakra_1_message">Novi početak i samopouzdanje</string>
+    <string name="chakra_2_message">Ravnoteža i povezanost</string>
+    <string name="chakra_3_message">Samopouzdanje i izražavanje</string>
+    <string name="chakra_4_message">Uzemljenje i sigurnost</string>
+    <string name="chakra_5_message">Sloboda i promjena</string>
+    <string name="chakra_6_message">Toplina srca i povezanost</string>
+    <string name="chakra_7_message">Intuicija i uvid</string>
+    <string name="chakra_8_message">Manifestacija i povjerenje</string>
+    <string name="chakra_9_message">Suosjećanje i ispunjenje</string>
+    <string name="chakra_11_message">Jasnoća i unutarnje vodstvo</string>
+    <string name="chakra_22_message">Uzemljenje i povjerenje</string>
+    <string name="chakra_33_message">Suosjećanje i mudrost srca</string>
+    <string name="chakra_44_message">Stabilnost i prisutnost</string>
+    <string name="chakra_55_message">Kretanje i otvorenost</string>
+    <string name="chakra_66_message">Briga i povezanost</string>
+    <string name="chakra_77_message">Razumijevanje i svjesnost</string>
+    <string name="chakra_88_message">Manifestacija i odgovornost</string>
+    <string name="chakra_99_message">Svjesnost i otpuštanje</string>
 </resources>

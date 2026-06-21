@@ -6,4 +6,22 @@
     <string name="chakra_throat">喉轮</string>
     <string name="chakra_third_eye">眉心轮</string>
     <string name="chakra_crown">顶轮</string>
+    <string name="chakra_1_message">新的开始与自信</string>
+    <string name="chakra_2_message">平衡与连接</string>
+    <string name="chakra_3_message">自信与表达</string>
+    <string name="chakra_4_message">扎根与安全感</string>
+    <string name="chakra_5_message">自由与改变</string>
+    <string name="chakra_6_message">心的温暖与连接</string>
+    <string name="chakra_7_message">直觉与领悟</string>
+    <string name="chakra_8_message">显化与信任</string>
+    <string name="chakra_9_message">慈悲与圆满</string>
+    <string name="chakra_11_message">清晰与内在指引</string>
+    <string name="chakra_22_message">扎根与信任</string>
+    <string name="chakra_33_message">慈悲与心之智慧</string>
+    <string name="chakra_44_message">稳定与临在</string>
+    <string name="chakra_55_message">流动与开放</string>
+    <string name="chakra_66_message">关怀与连接</string>
+    <string name="chakra_77_message">理解与觉知</string>
+    <string name="chakra_88_message">显化与责任</string>
+    <string name="chakra_99_message">觉知与放下</string>
 </resources>

@@ -4,6 +4,24 @@
     <string name="chakra_solar">Saules pinuma čakra</string>
     <string name="chakra_heart">Sirds čakra</string>
     <string name="chakra_throat">Rīkles čakra</string>
-    <string name="chakra_third_eye">Trešās Acs Čakra</string>
+    <string name="chakra_third_eye">Trešās acs čakra</string>
     <string name="chakra_crown">Kroņa čakra</string>
+    <string name="chakra_1_message">Jauns sākums un pašapziņa</string>
+    <string name="chakra_2_message">Līdzsvars un saikne</string>
+    <string name="chakra_3_message">Pašapziņa un pašizpausme</string>
+    <string name="chakra_4_message">Sakņošanās un drošība</string>
+    <string name="chakra_5_message">Brīvība un pārmaiņas</string>
+    <string name="chakra_6_message">Sirds siltums un saikne</string>
+    <string name="chakra_7_message">Intuīcija un atziņa</string>
+    <string name="chakra_8_message">Manifestācija un uzticēšanās</string>
+    <string name="chakra_9_message">Līdzcietība un piepildījums</string>
+    <string name="chakra_11_message">Skaidrība un iekšējā vadība</string>
+    <string name="chakra_22_message">Sakņošanās un uzticēšanās</string>
+    <string name="chakra_33_message">Līdzcietība un sirds gudrība</string>
+    <string name="chakra_44_message">Stabilitāte un klātbūtne</string>
+    <string name="chakra_55_message">Kustība un atvērtība</string>
+    <string name="chakra_66_message">Rūpes un saikne</string>
+    <string name="chakra_77_message">Izpratne un apzinātība</string>
+    <string name="chakra_88_message">Manifestācija un atbildība</string>
+    <string name="chakra_99_message">Apzinātība un atlaišana</string>
 </resources>

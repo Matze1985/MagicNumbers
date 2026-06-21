@@ -1,21 +1,21 @@
 <resources>
-    <string name="state_pure_clarity_short">🟢 Максимальна ясність</string>
-    <string name="state_clarity_strong_short">🟢 Висока ясність</string>
-    <string name="state_clarity_medium_short">🟢 Середня ясність</string>
-    <string name="state_clarity_weak_short">🟢 Низька ясність</string>
-    <string name="state_alignment_strong_short">🟢 Сильний баланс</string>
-    <string name="state_alignment_weak_short">🟢 Легкий баланс</string>
-    <string name="state_tension_strong_short">🔴 Висока напруга</string>
-    <string name="state_tension_weak_short">🔴 Низька напруга</string>
-    <string name="state_focus_strong_short">🟠 Висока концентрація</string>
-    <string name="state_focus_weak_short">🟠 Низька концентрація</string>
-    <string name="state_shift_strong_short">🟡 Сильна зміна</string>
-    <string name="state_shift_weak_short">🟡 Легка зміна</string>
+    <string name="state_pure_clarity_short">🟢 Повна ясність</string>
+    <string name="state_clarity_strong_short">🟢 Сильна ясність</string>
+    <string name="state_clarity_medium_short">🟢 Помірна ясність</string>
+    <string name="state_clarity_weak_short">🟢 Легка ясність</string>
+    <string name="state_alignment_strong_short">🟢 Сильна гармонія</string>
+    <string name="state_alignment_weak_short">🟢 Легка гармонія</string>
+    <string name="state_tension_strong_short">🟠 Сильний імпульс</string>
+    <string name="state_tension_weak_short">🟠 Легкий імпульс</string>
+    <string name="state_focus_strong_short">🟠 Сильна зосередженість</string>
+    <string name="state_focus_weak_short">🟠 Легка зосередженість</string>
+    <string name="state_shift_strong_short">🟡 Сильний розвиток</string>
+    <string name="state_shift_weak_short">🟡 Легкий розвиток</string>
     <string name="state_transformation_strong_short">🟣 Сильна трансформація</string>
     <string name="state_transformation_weak_short">🟣 Легка трансформація</string>
     <string name="state_reflection_short">🔵 Роздуми</string>
     <string name="state_open_short">⚪ Відкритість</string>
-    <string name="state_withdrawal_short">⚫ Відступ</string>
-    <string name="state_fragile_short">🌑 Чутливий</string>
+    <string name="state_withdrawal_short">⚫ Усамітнення</string>
+    <string name="state_fragile_short">🌑 Вразливість</string>
     <string name="state_void_short">⚫ Порожнеча</string>
 </resources>

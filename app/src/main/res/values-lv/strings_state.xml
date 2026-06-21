@@ -1,21 +1,21 @@
 <resources>
-    <string name="state_pure_clarity_short">🟢 Maksimāla skaidrība</string>
-    <string name="state_clarity_strong_short">🟢 Augsta skaidrība</string>
+    <string name="state_pure_clarity_short">🟢 Pilnīga skaidrība</string>
+    <string name="state_clarity_strong_short">🟢 Spēcīga skaidrība</string>
     <string name="state_clarity_medium_short">🟢 Vidēja skaidrība</string>
-    <string name="state_clarity_weak_short">🟢 Zema skaidrība</string>
-    <string name="state_alignment_strong_short">🟢 Spēcīgs līdzsvars</string>
-    <string name="state_alignment_weak_short">🟢 Viegls līdzsvars</string>
-    <string name="state_tension_strong_short">🔴 Augsts spriedzes līmenis</string>
-    <string name="state_tension_weak_short">🔴 Zema spriedze</string>
-    <string name="state_focus_strong_short">🟠 Augsts fokuss</string>
-    <string name="state_focus_weak_short">🟠 Zems fokuss</string>
-    <string name="state_shift_strong_short">🟡 Spēcīga pārmaiņa</string>
-    <string name="state_shift_weak_short">🟡 Vieglā pārmaiņa</string>
+    <string name="state_clarity_weak_short">🟢 Neliela skaidrība</string>
+    <string name="state_alignment_strong_short">🟢 Spēcīga harmonija</string>
+    <string name="state_alignment_weak_short">🟢 Neliela harmonija</string>
+    <string name="state_tension_strong_short">🟠 Spēcīgs impulss</string>
+    <string name="state_tension_weak_short">🟠 Neliels impulss</string>
+    <string name="state_focus_strong_short">🟠 Spēcīga koncentrēšanās</string>
+    <string name="state_focus_weak_short">🟠 Neliela koncentrēšanās</string>
+    <string name="state_shift_strong_short">🟡 Spēcīga attīstība</string>
+    <string name="state_shift_weak_short">🟡 Neliela attīstība</string>
     <string name="state_transformation_strong_short">🟣 Spēcīga transformācija</string>
-    <string name="state_transformation_weak_short">🟣 Vieglā transformācija</string>
+    <string name="state_transformation_weak_short">🟣 Neliela transformācija</string>
     <string name="state_reflection_short">🔵 Pārdomas</string>
     <string name="state_open_short">⚪ Atvērtība</string>
-    <string name="state_withdrawal_short">⚫ Atkāpšanās</string>
-    <string name="state_fragile_short">🌑 Jūtīgs</string>
+    <string name="state_withdrawal_short">⚫ Noslēgšanās</string>
+    <string name="state_fragile_short">🌑 Jutīgums</string>
     <string name="state_void_short">⚫ Tukšums</string>
 </resources>

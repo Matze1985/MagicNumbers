@@ -1,9 +1,27 @@
 <resources>
     <string name="chakra_root">Gyökércsakra</string>
     <string name="chakra_sacral">Szakrális csakra</string>
-    <string name="chakra_solar">Napfonat csakra</string>
+    <string name="chakra_solar">Napfonatcsakra</string>
     <string name="chakra_heart">Szívcsakra</string>
     <string name="chakra_throat">Torokcsakra</string>
-    <string name="chakra_third_eye">Harmadik Szem Csakra</string>
+    <string name="chakra_third_eye">Harmadik szem csakra</string>
     <string name="chakra_crown">Koronacsakra</string>
+    <string name="chakra_1_message">Új kezdet és önbizalom</string>
+    <string name="chakra_2_message">Egyensúly és kapcsolódás</string>
+    <string name="chakra_3_message">Önbizalom és önkifejezés</string>
+    <string name="chakra_4_message">Földeltség és biztonság</string>
+    <string name="chakra_5_message">Szabadság és változás</string>
+    <string name="chakra_6_message">Szívmelegség és kapcsolódás</string>
+    <string name="chakra_7_message">Intuíció és felismerés</string>
+    <string name="chakra_8_message">Megvalósítás és bizalom</string>
+    <string name="chakra_9_message">Együttérzés és beteljesülés</string>
+    <string name="chakra_11_message">Tisztaság és belső útmutatás</string>
+    <string name="chakra_22_message">Földeltség és bizalom</string>
+    <string name="chakra_33_message">Együttérzés és a szív bölcsessége</string>
+    <string name="chakra_44_message">Stabilitás és jelenlét</string>
+    <string name="chakra_55_message">Mozgás és nyitottság</string>
+    <string name="chakra_66_message">Gondoskodás és kapcsolódás</string>
+    <string name="chakra_77_message">Megértés és tudatosság</string>
+    <string name="chakra_88_message">Megvalósítás és felelősség</string>
+    <string name="chakra_99_message">Tudatosság és elengedés</string>
 </resources>

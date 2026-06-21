@@ -1,9 +1,27 @@
 <resources>
     <string name="chakra_root">Cakra Akar</string>
     <string name="chakra_sacral">Cakra Sakral</string>
-    <string name="chakra_solar">Cakra Pleksus Surya</string>
+    <string name="chakra_solar">Cakra Plexus Surya</string>
     <string name="chakra_heart">Cakra Jantung</string>
     <string name="chakra_throat">Cakra Tenggorokan</string>
     <string name="chakra_third_eye">Cakra Mata Ketiga</string>
     <string name="chakra_crown">Cakra Mahkota</string>
+    <string name="chakra_1_message">Awal Baru &amp; Kepercayaan Diri</string>
+    <string name="chakra_2_message">Keseimbangan &amp; Keterhubungan</string>
+    <string name="chakra_3_message">Kepercayaan Diri &amp; Ekspresi</string>
+    <string name="chakra_4_message">Pembumian &amp; Keamanan</string>
+    <string name="chakra_5_message">Kebebasan &amp; Perubahan</string>
+    <string name="chakra_6_message">Kehangatan Hati &amp; Keterhubungan</string>
+    <string name="chakra_7_message">Intuisi &amp; Wawasan</string>
+    <string name="chakra_8_message">Manifestasi &amp; Kepercayaan</string>
+    <string name="chakra_9_message">Welas Asih &amp; Penyelesaian</string>
+    <string name="chakra_11_message">Kejernihan &amp; Bimbingan Batin</string>
+    <string name="chakra_22_message">Pembumian &amp; Kepercayaan</string>
+    <string name="chakra_33_message">Welas Asih &amp; Kebijaksanaan Hati</string>
+    <string name="chakra_44_message">Stabilitas &amp; Kehadiran</string>
+    <string name="chakra_55_message">Pergerakan &amp; Keterbukaan</string>
+    <string name="chakra_66_message">Kepedulian &amp; Keterhubungan</string>
+    <string name="chakra_77_message">Pemahaman &amp; Kesadaran</string>
+    <string name="chakra_88_message">Manifestasi &amp; Tanggung Jawab</string>
+    <string name="chakra_99_message">Kesadaran &amp; Melepaskan</string>
 </resources>
