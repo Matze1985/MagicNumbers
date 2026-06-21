@@ -300,6 +300,22 @@ Hz = (frequency × 900) + 100
 | 0.5 | ~550Hz |
 | 1.0 | ~1000Hz |
 
+### Important Notes
+
+- The Hz value is **symbolic** and not scientifically measured.
+- It is intended as a spiritual visualization layer.
+- The value is always clamped between:
+
+```kotlin
+0.1f – 1.0f
+```
+
+- Final output format:
+
+```text
+~550Hz
+```
+
 ## Harmony & Chakra Interpretation Engine
 
 MagicNumbers analyzes every generated frequency across multiple spiritual layers.
@@ -368,22 +384,6 @@ Each generated message combines multiple spiritual systems:
 - Archetypal Symbolism
 
 This creates a multidimensional interpretation of the generated frequency, transforming a simple number sequence into a meaningful spiritual snapshot of the moment.
-
-### Important Notes
-
-- The Hz value is **symbolic** and not scientifically measured.
-- It is intended as a spiritual visualization layer.
-- The value is always clamped between:
-
-```kotlin
-0.1f – 1.0f
-```
-
-- Final output format:
-
-```text
-~550Hz
-```
 
 ---
 
