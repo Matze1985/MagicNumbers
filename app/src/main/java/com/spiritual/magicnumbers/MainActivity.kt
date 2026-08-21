@@ -305,6 +305,26 @@ class MainActivity : ComponentActivity() {
                                         color = Color.LightGray
                                     )
                                     Divider(color = Color.DarkGray)
+                                    // Personal balance
+                                    Text(
+                                        text = stringResource(R.string.section_personal_balance),
+                                        fontWeight = FontWeight.Bold,
+                                        color = Color.White
+                                    )
+                                    engineResult.personalChakraBalance.forEach { chakra ->
+                                        val name = context.getString(chakra.nameResId)
+                                        val icon = when (chakra.status) {
+                                            BalanceStatus.BALANCED -> "🟢"
+                                            BalanceStatus.ADJUSTMENT -> "🟡"
+                                            BalanceStatus.IMBALANCED -> "🔴"
+                                        }
+
+                                        Text(
+                                            text = "$icon $name: ${chakra.balancePercent}%",
+                                            color = Color.LightGray
+                                        )
+                                    }
+                                    Divider(color = Color.DarkGray)
                                     // Battery energy
                                     Text(
                                         text = engineResult.batteryTitle,
