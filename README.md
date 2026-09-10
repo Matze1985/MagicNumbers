@@ -387,6 +387,331 @@ This creates a multidimensional interpretation of the generated frequency, trans
 
 ---
 
+
+## ⚖️ Personal Resonance Chakra Balance
+
+Implemented in:
+
+```kotlin
+getPersonalResonanceChakraBalance(reduced: Int, amplifiers: List<Int>)
+```
+
+The **Personal Resonance Chakra Balance** extends the existing chakra interpretation with a dynamic seven-chakra balance model. It combines the numerological input with Fibonacci weighting, the Golden Ratio, chakra activation, temporal resonance, and a personal resonance wave.
+
+The result is a balance percentage from **0–100% for each chakra**, together with one of three states:
+
+| Balance | Status |
+|---|---|
+| ≥ 80% | Balanced |
+| ≥ 50% | Adjustment |
+| < 50% | Imbalanced |
+
+### 🔢 1. Resonance Input
+
+The calculation starts with the reduced number and all amplifier numbers:
+
+```kotlin
+val values = (listOf(reduced) + amplifiers).distinct()
+```
+
+Only unique values are used.
+
+The personal resonance value is the sum of all unique input values:
+
+```text
+Resonance Value = Σ unique resonance values
+```
+
+This value is used as an individual parameter throughout the resonance calculation.
+
+### 🌀 2. Fibonacci Chakra Weighting
+
+The seven chakras use the predefined Fibonacci chakra weights:
+
+```text
+Fibonacci Weightᵢ
+```
+
+The weights are normalized first:
+
+```text
+Fibonacciᵢ =
+    Fibonacci Weightᵢ / Σ Fibonacci Weights
+```
+
+This produces a relative Fibonacci distribution across all seven chakras.
+
+### 🟡 3. Golden Ratio Weighting
+
+The Golden Ratio is defined as:
+
+```text
+φ = 1.618033988749895
+```
+
+The Golden Ratio weighting pattern is:
+
+```text
+[1/φ, 1, φ, 1, φ, 1, 1/φ]
+```
+
+These values are also normalized:
+
+```text
+Goldenᵢ =
+    Golden Weightᵢ / Σ Golden Weights
+```
+
+This provides an additional symmetrical Golden Ratio component for the seven-chakra target distribution.
+
+### ⚖️ 4. Combined Target Weight
+
+Fibonacci and Golden Ratio weighting are combined using a **70/30 split**:
+
+```text
+Target Weightᵢ =
+    Fibonacciᵢ × 0.70
+  + Goldenᵢ × 0.30
+```
+
+The resulting target weights are normalized once again:
+
+```text
+Target Percentᵢ =
+    Target Weightᵢ / Σ Target Weights × 100
+```
+
+Thus:
+
+```text
+70% Fibonacci
+30% Golden Ratio
+```
+
+The resulting percentage represents the calculated target distribution for each chakra.
+
+### 🔴 5. Chakra Activation
+
+Each unique resonance value is mapped to its corresponding chakra.
+
+For every value, the matching chakra receives one activation point:
+
+```text
+Activationᵢ =
+    Number of unique resonance values assigned to chakra i
+```
+
+The total activation is:
+
+```text
+Total Activation = Σ Activationᵢ
+```
+
+The activation percentage is:
+
+```text
+Activation Percentᵢ =
+    Activationᵢ / Total Activation × 100
+```
+
+This represents how strongly each chakra is activated by the current numerical input.
+
+### ⏱️ 6. Temporal Resonance
+
+The current device date and time are converted into a continuous numerical time value:
+
+```text
+Time Value =
+    Year × 365.2425
+  + Day of Year
+  + Hour / 24
+  + Minute / 1440
+  + Second / 86400
+```
+
+The fractional day allows the calculation to respond to the current hour, minute, and second.
+
+Each chakra receives an individual frequency:
+
+```text
+Frequencyᵢ =
+    φ + (i + 1) × 0.1618033988749895
+```
+
+where `i` is the zero-based chakra index.
+
+### 🌊 7. Temporal Wave Resonance
+
+The temporal phase combines the current time with the personal resonance value:
+
+```text
+Phaseᵢ =
+    Time Value × Frequencyᵢ
+  + Resonance Value × φ
+```
+
+A sinusoidal wave is then calculated:
+
+```text
+Waveᵢ = |sin(Phaseᵢ)|
+```
+
+Therefore:
+
+```text
+0 ≤ Waveᵢ ≤ 1
+```
+
+The wave is converted into a percentage:
+
+```text
+Wave Percentᵢ =
+    Waveᵢ × 100
+```
+
+This creates a dynamic time-dependent resonance component for each chakra.
+
+### 🔮 8. Personal Resonance Influence
+
+A second sinusoidal component is calculated directly from the personal resonance value and chakra index:
+
+```text
+Resonance Influenceᵢ =
+    (1 + sin(
+        Resonance Value × (i + 1) × 0.618033988749895
+    )) / 2
+```
+
+The result is normalized to:
+
+```text
+0 ≤ Resonance Influenceᵢ ≤ 1
+```
+
+and becomes a 0–100% component when used in the personal state calculation.
+
+### 🧮 9. Personal Chakra State
+
+The three dynamic components are combined using a **40/35/25 weighting**:
+
+```text
+Personal Stateᵢ =
+    Activation Percentᵢ × 0.40
+  + Wave Percentᵢ × 0.35
+  + Resonance Influenceᵢ × 100 × 0.25
+```
+
+The weighting is:
+
+| Component | Weight |
+|---|---:|
+| Chakra Activation | 40% |
+| Temporal Wave Resonance | 35% |
+| Personal Resonance Influence | 25% |
+| **Total** | **100%** |
+
+The resulting `Personal State` represents the calculated current resonance state of the chakra.
+
+### 📏 10. Difference From Target
+
+The personal state is compared with the calculated target distribution:
+
+```text
+Differenceᵢ =
+    |Personal Stateᵢ - Target Percentᵢ|
+```
+
+The difference is normalized:
+
+```text
+Normalized Differenceᵢ =
+    clamp(Differenceᵢ / 100, 0, 1)
+```
+
+A value close to `0` means that the personal state is close to the calculated target. A value close to `1` represents a large deviation.
+
+### 🌀 11. Exponential Harmony Factor
+
+The normalized difference is converted into a harmony factor using exponential decay:
+
+```text
+Harmony Factorᵢ =
+    e^(-2 × Normalized Differenceᵢ)
+```
+
+The final balance percentage is:
+
+```text
+Balance Percentᵢ =
+    Harmony Factorᵢ × 100
+```
+
+The result is constrained to **0–100%** and converted to an integer for display.
+
+The exponential function makes the balance score decrease progressively as the distance from the target increases.
+
+### 🟢 12. Final Balance Status
+
+The final balance percentage determines the displayed state:
+
+```text
+Balance ≥ 80%
+→ BALANCED
+
+Balance ≥ 50%
+→ ADJUSTMENT
+
+Balance < 50%
+→ IMBALANCED
+```
+
+This creates an intuitive interpretation:
+
+- 🟢 **Balanced** — relatively close to the calculated target distribution.
+- 🟡 **Adjustment** — moderate deviation from the target.
+- 🔴 **Imbalanced** — stronger deviation from the target.
+
+### 🔗 Complete Calculation Pipeline
+
+```text
+Reduced Number + Amplifiers
+            ↓
+      Unique Values
+            ↓
+    Personal Resonance
+            ↓
+      Chakra Activation
+            ↓
+ Fibonacci + Golden Ratio
+            ↓
+       Target Balance
+            ↓
+       Current Time
+            ↓
+   Temporal Wave Resonance
+            ↓
+ Personal Resonance Influence
+            ↓
+    Personal Chakra State
+            ↓
+     Difference to Target
+            ↓
+   Exponential Harmony
+            ↓
+      Balance 0–100%
+            ↓
+ Balanced / Adjustment / Imbalanced
+```
+
+### 🧪 Technical Note
+
+The calculation is **deterministic for identical input values at the same date and time**. Because the current device time is part of the formula, the calculated temporal resonance changes continuously over time.
+
+The Fibonacci and Golden Ratio components define the target distribution, while numerical activation, temporal wave resonance, and personal resonance determine the current state that is compared against that target.
+
+This functionality is an **interpretive/spiritual visualization model** implemented mathematically in the app. The calculated percentages represent the application's internal resonance model and are not scientific measurements of physical energy, chakra activity, or frequency.
+
+
 ## 🎨 Visual Frequency Color
 
 The calculated frequency also controls the UI energy color.
