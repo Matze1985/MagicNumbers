@@ -4,25 +4,14 @@ import android.content.ClipData
 import android.content.ClipboardManager
 import android.content.Context
 import android.content.Intent
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.withStyle
 import androidx.core.net.toUri
-import kotlin.random.Random
 
 object Utils {
-    // --------------------------------------------------
-    // RANDOM NUMBER GENERATOR
-    // --------------------------------------------------
-    fun generateNumber(length: Int = 6): String {
-        val random = Random(System.currentTimeMillis())
-        return (1..length).joinToString("") {
-            random.nextInt(0, 10).toString()
-        }
-    }
 
     // --------------------------------------------------
     // OPEN PAYPAL

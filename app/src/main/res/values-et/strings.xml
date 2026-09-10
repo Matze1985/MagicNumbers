@@ -22,6 +22,7 @@
     <string name="section_time_energy">⏰ Aja energia:</string>
     <string name="section_battery_energy">🔋Aku energia:</string>
     <string name="section_chakra_energy">🧿 Tšakraenergia:</string>
+    <string name="section_personal_balance">⚖️ Isiklik tasakaal:</string>
 
     <!-- Põhisõnumid -->
     <string name="digit_0_intro">Number **\'0\'**%1$s võimendab kõike. See on jumaliku kohalolu ja lõpmatu potentsiaali märk.</string>

@@ -30,7 +30,6 @@ import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsControllerCompat
 import com.spiritual.magicnumbers.NumerologyEngine.buildVisibleCopyText
 import com.spiritual.magicnumbers.NumerologyEngine.getPseudoHzFormatted
-import com.spiritual.magicnumbers.NumerologyEngine.getTimeEnergyMessage
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -119,7 +118,7 @@ class MainActivity : ComponentActivity() {
                                 }
 
                                 Button(
-                                    onClick = { currentNumber = Utils.generateNumber() },
+                                    onClick = { currentNumber = NumerologyEngine.generateNumber() },
                                 ) {
                                     Text(
                                         text = stringResource(R.string.new_message)

@@ -22,6 +22,7 @@
     <string name="section_time_energy">⏰ Tijdenergie:</string>
     <string name="section_battery_energy">🔋Batterij-energie:</string>
     <string name="section_chakra_energy">🧿 Chakra-energie:</string>
+    <string name="section_personal_balance">⚖️ Persoonlijke balans:</string>
 
     <!-- Main Messages -->
     <string name="digit_0_intro">Het getal **\'0\'**%1$s versterkt alles. Het is een teken van goddelijke aanwezigheid en oneindig potentieel.</string>

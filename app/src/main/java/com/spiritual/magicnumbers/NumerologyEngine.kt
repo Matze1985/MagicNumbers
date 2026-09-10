@@ -6,6 +6,7 @@ import android.content.IntentFilter
 import android.os.BatteryManager
 import androidx.compose.ui.graphics.Color
 import com.spiritual.magicnumbers.Utils.cleanMarkdown
+import kotlin.random.Random
 
 data class CrossSumResult(
     val sumBeforeReduce: Int,
@@ -64,6 +65,17 @@ object NumerologyEngine {
     private val masterCoreNumbers = listOf(11, 22, 33, 44)
     private val masterAmplifierNumbers = listOf(11, 22, 33, 44, 55, 66, 77, 88, 99)
     private val fibonacciChakraWeights = listOf(1, 1, 2, 3, 5, 8, 13)
+
+    // --------------------------------------------------
+    // RANDOM NUMBER GENERATOR
+    // --------------------------------------------------
+    fun generateNumber(length: Int = 6): String {
+        val random = Random(System.currentTimeMillis())
+        return (1..length).joinToString("") {
+            random.nextInt(0, 10).toString()
+        }
+    }
+
     // =====================================================
     // CROSS SUM
     // =====================================================
@@ -73,7 +85,7 @@ object NumerologyEngine {
 
         val digits = clean.map { it.digitToInt() }
         val steps = mutableListOf<String>()
-        var sum = digits.sum()
+        val sum = digits.sum()
         steps.add(digits.joinToString(" + ") + " = $sum")
         var reduced = sum
 
@@ -511,53 +523,20 @@ object NumerologyEngine {
 
     // =====================================================
     // GET PERSONAL RESONANCE CHAKRA BALANCE
-    //
-    // Calculates a deterministic personal chakra balance
-    // without requiring a birth date.
-    //
-    // The model combines:
-    // - Current numerological resonance
-    // - Current chakra activation
-    // - Fibonacci weighting
-    // - Golden Ratio (φ)
-    // - Time-dependent resonance waves
-    //
-    // No database or persistent storage is required.
-    //
-    // This is a mathematical / quantum-inspired simulation,
-    // not a physical measurement of real chakra energy.
     // =====================================================
     fun getPersonalResonanceChakraBalance(reduced: Int, amplifiers: List<Int>): List<FibonacciChakraBalance> {
         val chakraValues = listOf(1, 2, 3, 4, 5, 6, 7)
-        // -------------------------------------------------
-        // CURRENT TIME
-        // -------------------------------------------------
         val now = java.util.Calendar.getInstance()
         val year = now.get(java.util.Calendar.YEAR)
         val dayOfYear = now.get(java.util.Calendar.DAY_OF_YEAR)
         val hour = now.get(java.util.Calendar.HOUR_OF_DAY)
         val minute = now.get(java.util.Calendar.MINUTE)
         val second = now.get(java.util.Calendar.SECOND)
-        // -------------------------------------------------
-        // CREATE A DETERMINISTIC TIME VALUE
-        // The current date and time create the temporal
-        // position of the personal resonance simulation.
-        // -------------------------------------------------
         val timeValue = year.toDouble() * 365.2425 + dayOfYear.toDouble() + hour.toDouble() / 24.0 + minute.toDouble() / 1440.0 + second.toDouble() / 86400.0
-        // -------------------------------------------------
-        // GOLDEN RATIO
-        // -------------------------------------------------
         val phi = 1.618033988749895
-        // Symmetric Golden Ratio profile.
         val goldenWeights = listOf(1.0 / phi, 1.0, phi, 1.0, phi, 1.0, 1.0 / phi)
         val goldenTotal = goldenWeights.sum()
-        // -------------------------------------------------
-        // FIBONACCI PROFILE
-        // -------------------------------------------------
         val fibonacciTotal = fibonacciChakraWeights.sum().toDouble()
-        // -------------------------------------------------
-        // COMBINED FIBONACCI + GOLDEN RATIO PROFILE
-        // -------------------------------------------------
         val fibonacciRatio = 0.70
         val goldenRatioWeight = 0.30
         val targetWeights = chakraValues.mapIndexed { index, _ ->
@@ -567,12 +546,8 @@ object NumerologyEngine {
         }
 
         val targetTotal = targetWeights.sum()
-        // -------------------------------------------------
-        // CURRENT CHAKRA ACTIVATION
-        // -------------------------------------------------
         val values = (listOf(reduced) + amplifiers).distinct()
         val activation = IntArray(7)
-
         values.forEach { value ->
             when (getChakraNameResId(value)) {
                 R.string.chakra_root -> activation[0]++
@@ -586,62 +561,25 @@ object NumerologyEngine {
         }
 
         val totalActivation = activation.sum().coerceAtLeast(1).toDouble()
-        // -------------------------------------------------
-        // CURRENT RESONANCE
-        // -------------------------------------------------
         val resonanceValue = values.sum().toDouble()
-        // -------------------------------------------------
-        // CALCULATE PERSONAL RESONANCE BALANCE
-        // -------------------------------------------------
         return chakraValues.mapIndexed { index, chakraValue ->
-            // -------------------------------------------------
-            // TARGET PROFILE
-            // -------------------------------------------------
             val targetPercent = targetWeights[index] / targetTotal * 100.0
-            // -------------------------------------------------
-            // CURRENT ACTIVATION
-            // -------------------------------------------------
             val activationPercent = activation[index].toDouble() / totalActivation * 100.0
-            // -------------------------------------------------
-            // TIME-DEPENDENT RESONANCE WAVE
-            // The Golden Ratio creates a non-repeating phase
-            // progression for the simulation.
-            // -------------------------------------------------
             val frequency = phi + (index + 1) * 0.1618033988749895
             val phase = timeValue * frequency + resonanceValue * phi
             val wave = kotlin.math.abs(kotlin.math.sin(phase))
-            // -------------------------------------------------
-            // RESONANCE INFLUENCE
-            // -------------------------------------------------
             val resonanceInfluence = (1.0 + kotlin.math.sin(resonanceValue * (index + 1) * 0.618033988749895)) / 2.0
-            // -------------------------------------------------
-            // PERSONAL STATE
-            // Current activation: 40%
-            // Time-dependent resonance: 35%
-            // Current numerical resonance: 25%
-            // -------------------------------------------------
             val personalState = activationPercent * 0.40 + wave * 100.0 * 0.35 + resonanceInfluence * 100.0 * 0.25
-            // -------------------------------------------------
-            // COMPARE WITH FIBONACCI + φ TARGET
-            // -------------------------------------------------
             val difference = kotlin.math.abs(personalState - targetPercent)
             val normalizedDifference = (difference / 100.0).coerceIn(0.0, 1.0)
-            // -------------------------------------------------
-            // NON-LINEAR HARMONY FUNCTION
-            // -------------------------------------------------
             val harmonyFactor = kotlin.math.exp(-2.0 * normalizedDifference)
             val balancePercent = (harmonyFactor * 100.0).coerceIn(0.0, 100.0).toInt()
-            // -------------------------------------------------
-            // BALANCE STATUS
-            // -------------------------------------------------
             val status = when {
                 balancePercent >= 80 -> BalanceStatus.BALANCED
                 balancePercent >= 50 -> BalanceStatus.ADJUSTMENT
                 else -> BalanceStatus.IMBALANCED
             }
-            // -------------------------------------------------
-            // RESULT
-            // -------------------------------------------------
+
             FibonacciChakraBalance(
                 chakraValue = chakraValue,
                 nameResId = getChakraNameResId(chakraValue),

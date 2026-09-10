@@ -22,6 +22,7 @@
     <string name="section_time_energy">⏰ طاقة الوقت:</string>
     <string name="section_battery_energy">🔋 طاقة البطارية:</string>
     <string name="section_chakra_energy">🧿 طاقة الشاكرات:</string>
+    <string name="section_personal_balance">⚖️ التوازن الشخصي:</string>
 
     <!-- Hauptnachrichten Templates (pro Ziffer) -->
     <string name="digit_0_intro">الرقم **\'0\'**%1$s يعزّز كل شيء. إنه علامة الحضور الإلهي والإمكانات اللانهائية.</string>

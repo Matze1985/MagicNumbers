@@ -22,6 +22,7 @@
     <string name="section_time_energy">⏰ אנרגיית הזמן:</string>
     <string name="section_battery_energy">🔋אנרגיית סוללה:</string>
     <string name="section_chakra_energy">🧿 אנרגיית הצ\'אקרות:</string>
+    <string name="section_personal_balance">⚖️ איזון אישי:</string>
 
     <!-- Main Messages -->
     <string name="digit_0_intro">המספר **\'0\'**%1$s מגביר הכול. זהו סימן לנוכחות אלוהית ולפוטנציאל אינסופי.</string>
