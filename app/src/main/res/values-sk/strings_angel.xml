@@ -85,13 +85,79 @@
     <string name="angel_21">21: Integrácia – Protiklady sa spájajú.</string>
     <string name="angel_101">101: Prebudenie – Vedomie na novej úrovni.</string>
     <string name="angel_1212">1212: Rovnováha v zmene – Stabilita v pohybe.</string>
-    <string name="angel_123">123: Kreatívny tok – Nápady prichádzajú slobodne.</string>
-    <string name="angel_1234">1234: Štruktúrovaná manifestácia – Tvoj plán nadobúda formu.</string>
+
+    <!-- Vzostupné sekvencie s 3 číslicami -->
+    <string name="angel_012">012: Nový začiatok – Prvý krok na novej ceste.</string>
+    <string name="angel_123">123: Tvorivý tok – Myšlienky prichádzajú voľne.</string>
+    <string name="angel_234">234: Krok za krokom – Dôveruj svojmu rozvoju.</string>
+    <string name="angel_345">345: Dynamická zmena – Rast prostredníctvom zmien.</string>
+    <string name="angel_456">456: Stabilita v zmenách – Vedome urob ďalší krok.</string>
+    <string name="angel_567">567: Poznanie a rast – Objavujú sa nové perspektívy.</string>
+    <string name="angel_678">678: Smerovanie – Sleduj svoje ciele s jasnou víziou.</string>
+    <string name="angel_789">789: Zavŕšenie – Jedna etapa sa blíži ku koncu.</string>
+
+    <!-- Zostupné sekvencie s 3 číslicami -->
+    <string name="angel_210">210: Návrat k pôvodu – Zamyslenie a nové smerovanie.</string>
+    <string name="angel_321">321: Príprava – Začína sa nový krok.</string>
+    <string name="angel_432">432: Jasnosť – Návrat k tomu podstatnému.</string>
+    <string name="angel_543">543: Pustenie – Vytvor priestor na zmenu.</string>
+    <string name="angel_654">654: Zjednodušenie – Sústreď sa na to podstatné.</string>
+    <string name="angel_765">765: Pohľad späť – Uč sa zo svojich skúseností.</string>
+    <string name="angel_876">876: Usporiadanie – Zbav sa všetkého zbytočného.</string>
+    <string name="angel_987">987: Ukončenie – Vedome začleň minulosť do svojho života.</string>
+
+    <!-- Vzostupné sekvencie so 4 číslicami -->
+    <string name="angel_0123">0123: Nový začiatok v pohybe – Postupný rozvoj.</string>
+    <string name="angel_1234">1234: Štruktúrovaná realizácia – Tvoj plán nadobúda konkrétnu podobu.</string>
+    <string name="angel_2345">2345: Dynamický rozvoj – Rast prostredníctvom vedomých krokov.</string>
+    <string name="angel_3456">3456: Neustály pokrok – Každá etapa nadväzuje na predchádzajúcu.</string>
+    <string name="angel_4567">4567: Vedomá zmena – Pokračuj vo svojej ceste s jasným smerovaním.</string>
+    <string name="angel_5678">5678: Rast a poznanie – Objavuj nové možnosti.</string>
+    <string name="angel_6789">6789: Zavŕšenie a prechod – Začína sa črtať nová etapa.</string>
+
+    <!-- Zostupné sekvencie so 4 číslicami -->
+    <string name="angel_3210">3210: Návrat k pôvodu – Vedome ukonči jeden cyklus.</string>
+    <string name="angel_4321">4321: Vnútorný poriadok – Postupne získavaj jasnosť.</string>
+    <string name="angel_5432">5432: Pustenie a premena – Staré sa môže zmeniť.</string>
+    <string name="angel_6543">6543: Zjednodušenie – Zameraj svoju energiu na to podstatné.</string>
+    <string name="angel_7654">7654: Návrat k sebe – Začleň svoje skúsenosti.</string>
+    <string name="angel_8765">8765: Nové smerovanie – Vedome sa zbav zbytočnej záťaže.</string>
+    <string name="angel_9876">9876: Ukončenie a poznanie – Oceň to, čo ti priniesla minulosť.</string>
+
+    <!-- Vzostupné sekvencie s 5 číslicami -->
+    <string name="angel_01234">01234: Postupný nový začiatok – Z prvotného impulzu vzniká rozvoj.</string>
     <string name="angel_12345">12345: Dynamický rozvoj – Rast v mnohých oblastiach.</string>
-    <string name="angel_123456">123456: Úplné dokončenie – Cyklus sa uzatvára a otvárajú sa nové cesty.</string>
-    <string name="angel_palindrome">Zrkadlové číslo – Vnútorný a vonkajší svet sa odrážajú.</string>
-    <string name="angel_mirror">Zrkadlový vzor – Pochopenie cez sebapozorovanie.</string>
+    <string name="angel_23456">23456: Pokrok a rovnováha – Každý krok posilňuje ten nasledujúci.</string>
+    <string name="angel_34567">34567: Zmena a poznanie – Rast prostredníctvom skúseností.</string>
+    <string name="angel_45678">45678: Jasná cesta rozvoja – Vedome smeruj k svojmu cieľu.</string>
+    <string name="angel_56789">56789: Zavŕšenie rozvoja – Otvára sa nový horizont.</string>
+
+    <!-- Zostupné sekvencie s 5 číslicami -->
+    <string name="angel_43210">43210: Návrat k pôvodu – Cesta sa blíži ku koncu.</string>
+    <string name="angel_54321">54321: Vedomý prechod – Pusti staré a začni odznova.</string>
+    <string name="angel_65432">65432: Vnútorné vyjasnenie – Zjednodušuj krok za krokom.</string>
+    <string name="angel_76543">76543: Spätný pohľad a integrácia – Odnes si so sebou získané poznatky.</string>
+    <string name="angel_87654">87654: Pustenie a nové usporiadanie – Vytvor priestor pre nové.</string>
+    <string name="angel_98765">98765: Ukončenie a návrat k sebe – Vedome pusť minulosť.</string>
+
+    <!-- Vzostupné sekvencie so 6 číslicami -->
+    <string name="angel_012345">012345: Od začiatku k rozkvetu – Postupný rozvoj.</string>
+    <string name="angel_123456">123456: Úplné zavŕšenie – Cyklus sa uzatvára a otvárajú sa nové cesty.</string>
+    <string name="angel_234567">234567: Vedomá zmena – Vnímaj rozvoj ako nepretržitý proces.</string>
+    <string name="angel_345678">345678: Rast so smerovaním – Každá etapa nadväzuje na predchádzajúcu.</string>
+    <string name="angel_456789">456789: Zavŕšenie a nový začiatok – Jedna etapa prechádza do ďalšej.</string>
+
+    <!-- Zostupné sekvencie so 6 číslicami -->
+    <string name="angel_543210">543210: Návrat k pôvodu – Vedome ukonči proces rozvoja.</string>
+    <string name="angel_654321">654321: Vedomé ukončenie – Usporiadaj svoje skúsenosti a pusť minulosť.</string>
+    <string name="angel_765432">765432: Zamyslenie a poznanie – Rozpoznaj to podstatné.</string>
+    <string name="angel_876543">876543: Pustenie a transformácia – Vytvor priestor pre nové cesty.</string>
+    <string name="angel_987654">987654: Zavŕšenie a integrácia – Oceň minulosť a pokračuj ďalej.</string>
+
+    <!-- Všeobecné vzory -->
+    <string name="angel_palindrome">Palindromické číslo – Vnútorný a vonkajší svet sa navzájom odrážajú.</string>
+    <string name="angel_mirror">Zrkadlový vzor – Poznanie prostredníctvom sebapozorovania.</string>
     <string name="angel_alternating">Striedavý vzor – Dve energie pôsobia v rytme.</string>
-    <string name="angel_sequence_ascending">Stúpajúca sekvencia – Vývoj prebieha vedome.</string>
-    <string name="angel_sequence_descending">Klesajúca sekvencia – Pustenie prináša transformáciu.</string>
+    <string name="angel_sequence_ascending">Vzostupná sekvencia – Rozvoj prebieha vedome.</string>
+    <string name="angel_sequence_descending">Zostupná sekvencia – Pustenie umožňuje premenu.</string>
 </resources>

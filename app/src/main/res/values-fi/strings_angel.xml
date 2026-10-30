@@ -85,13 +85,79 @@
     <string name="angel_21">21: Integraatio – Vastakohdat yhdistyvät.</string>
     <string name="angel_101">101: Herääminen – Tietoisuus uudella tasolla.</string>
     <string name="angel_1212">1212: Tasapaino muutoksessa – Vakaus liikkeessä.</string>
-    <string name="angel_123">123: Luova virtaus – Ideat virtaavat vapaasti.</string>
-    <string name="angel_1234">1234: Rakenteinen manifestaatio – Suunnitelmasi konkretisoituu.</string>
-    <string name="angel_12345">12345: Dynaaminen kehitys – Kasvua monilla alueilla.</string>
-    <string name="angel_123456">123456: Täydellinen päätös – Sykli sulkeutuu ja uudet polut avautuvat.</string>
-    <string name="angel_palindrome">Peililuku – Sisäinen ja ulkoinen maailma heijastavat toisiaan.</string>
-    <string name="angel_mirror">Peilikuviomalli – Oivallus itsetarkkailun kautta.</string>
-    <string name="angel_alternating">Vuorotteleva kuvio – Kaksi energiaa liikkuu rytmissä.</string>
-    <string name="angel_sequence_ascending">Nouseva sarja – Kehitys tapahtuu tietoisesti.</string>
-    <string name="angel_sequence_descending">Laskeva sarja – Irti päästäminen tuo muutoksen.</string>
+
+    <!-- Aufsteigende 3-stellige Zahlenfolgen -->
+    <string name="angel_012">012: Uudet alut – Ensimmäinen askel uudella polulla.</string>
+    <string name="angel_123">123: Luova virtaus – Ideat syntyvät vapaasti.</string>
+    <string name="angel_234">234: Askel askeleelta – Luota omaan kehitykseesi.</string>
+    <string name="angel_345">345: Dynaaminen muutos – Kasvua muutoksen kautta.</string>
+    <string name="angel_456">456: Vakautta muutoksessa – Ota seuraava askel tietoisesti.</string>
+    <string name="angel_567">567: Oivallus ja kasvu – Uusia näkökulmia avautuu.</string>
+    <string name="angel_678">678: Tasapaino – Tavoittele päämääriäsi selkeästi.</string>
+    <string name="angel_789">789: Päätökseen saattaminen – Yksi luku on lähestymässä loppuaan.</string>
+
+    <!-- Absteigende 3-stellige Zahlenfolgen -->
+    <string name="angel_210">210: Paluu alkuun – Pohdi ja suuntaa uudelleen.</string>
+    <string name="angel_321">321: Valmistautuminen – Uusi vaihe on alkamassa.</string>
+    <string name="angel_432">432: Selkeys – Palaa siihen, mikä on todella tärkeää.</string>
+    <string name="angel_543">543: Irti päästäminen – Tee tilaa muutokselle.</string>
+    <string name="angel_654">654: Yksinkertaistaminen – Keskity olennaiseen.</string>
+    <string name="angel_765">765: Pohdinta – Opi aiemmista kokemuksistasi.</string>
+    <string name="angel_876">876: Uudelleenjärjestely – Päästä irti siitä, mitä et enää tarvitse.</string>
+    <string name="angel_987">987: Päätökseen saattaminen – Sisäistä menneisyys tietoisesti.</string>
+
+    <!-- Aufsteigende 4-stellige Zahlenfolgen -->
+    <string name="angel_0123">0123: Uudet alut liikkeessä – Asteittaista kehitystä.</string>
+    <string name="angel_1234">1234: Jäsennelty toteutus – Suunnitelmasi alkaa hahmottua.</string>
+    <string name="angel_2345">2345: Dynaaminen kehitys – Kasvua tietoisten askelten kautta.</string>
+    <string name="angel_3456">3456: Jatkuva edistyminen – Jokainen vaihe rakentuu edellisen varaan.</string>
+    <string name="angel_4567">4567: Tietoinen muutos – Jatka matkaasi selkein tavoittein.</string>
+    <string name="angel_5678">5678: Kasvu ja oivallus – Löydä uusia mahdollisuuksia.</string>
+    <string name="angel_6789">6789: Päätös ja siirtymä – Uusi luku alkaa häämöttää.</string>
+
+    <!-- Absteigende 4-stellige Zahlenfolgen -->
+    <string name="angel_3210">3210: Paluu alkuun – Päätä yksi sykli tietoisesti.</string>
+    <string name="angel_4321">4321: Sisäinen järjestys – Löydä selkeys askel askeleelta.</string>
+    <string name="angel_5432">5432: Irti päästäminen ja muutos – Anna vanhan muuttua.</string>
+    <string name="angel_6543">6543: Yksinkertaistaminen – Suuntaa energiasi olennaiseen.</string>
+    <string name="angel_7654">7654: Pohdinta – Sisäistä kokemuksesi.</string>
+    <string name="angel_8765">8765: Uudelleensuuntautuminen – Vapauta itsesi tietoisesti tarpeettomista taakoista.</string>
+    <string name="angel_9876">9876: Päätös ja oivallus – Kunnioita sitä, mikä on jäänyt taakse.</string>
+
+    <!-- Aufsteigende 5-stellige Zahlenfolgen -->
+    <string name="angel_01234">01234: Vähittäiset uudet alut – Ensimmäinen sysäys kasvaa kehitykseksi.</string>
+    <string name="angel_12345">12345: Dynaaminen kehitys – Kasvua elämän eri osa-alueilla.</string>
+    <string name="angel_23456">23456: Edistyminen ja tasapaino – Jokainen askel vahvistaa seuraavaa.</string>
+    <string name="angel_34567">34567: Muutos ja oivallus – Kasvua kokemusten kautta.</string>
+    <string name="angel_45678">45678: Selkeä kehityspolku – Etene tietoisesti kohti tavoitettasi.</string>
+    <string name="angel_56789">56789: Matkan päätös – Uusi horisontti avautuu.</string>
+
+    <!-- Absteigende 5-stellige Zahlenfolgen -->
+    <string name="angel_43210">43210: Paluu alkuun – Matka saavuttaa päätöksensä.</string>
+    <string name="angel_54321">54321: Tietoinen siirtymä – Päästä irti vanhasta ja aloita uudelleen.</string>
+    <string name="angel_65432">65432: Sisäinen selkeys – Yksinkertaista asioita askel askeleelta.</string>
+    <string name="angel_76543">76543: Pohdinta ja yhdistäminen – Vie oivalluksesi mukanasi eteenpäin.</string>
+    <string name="angel_87654">87654: Irti päästäminen ja uudelleenjärjestely – Tee tilaa jollekin uudelle.</string>
+    <string name="angel_98765">98765: Päätös ja pohdinta – Päästä tietoisesti irti menneisyydestä.</string>
+
+    <!-- Aufsteigende 6-stellige Zahlenfolgen -->
+    <string name="angel_012345">012345: Alusta kasvuun – Kehity askel askeleelta.</string>
+    <string name="angel_123456">123456: Täysi toteutuminen – Yksi sykli päättyy ja uusia polkuja avautuu.</string>
+    <string name="angel_234567">234567: Tietoinen muutos – Hyväksy kehitys jatkuvana prosessina.</string>
+    <string name="angel_345678">345678: Suunnattu kasvu – Jokainen vaihe rakentuu edellisen varaan.</string>
+    <string name="angel_456789">456789: Päätös ja uudet alut – Yksi luku väistyy seuraavan tieltä.</string>
+
+    <!-- Absteigende 6-stellige Zahlenfolgen -->
+    <string name="angel_543210">543210: Paluu alkuun – Päätä prosessi tietoisesti.</string>
+    <string name="angel_654321">654321: Tietoinen päätös – Jäsennä kokemuksesi ja päästä irti menneestä.</string>
+    <string name="angel_765432">765432: Pohdinta ja oivallus – Tunnista, mikä on todella tärkeää.</string>
+    <string name="angel_876543">876543: Irti päästäminen ja muutos – Tee tilaa uusille poluille.</string>
+    <string name="angel_987654">987654: Päätös ja yhdistäminen – Kunnioita menneisyyttä ja jatka eteenpäin.</string>
+
+    <!-- Allgemeine Muster -->
+    <string name="angel_palindrome">Palindromiluku – Sisäinen ja ulkoinen maailma heijastavat toisiaan.</string>
+    <string name="angel_mirror">Peilikuva – Oivalluksia itsensä tarkkailun kautta.</string>
+    <string name="angel_alternating">Vuorotteleva kuvio – Kaksi energiaa liikkuu samassa rytmissä.</string>
+    <string name="angel_sequence_ascending">Nouseva numerosarja – Kehitys etenee tietoisesti.</string>
+    <string name="angel_sequence_descending">Laskeva numerosarja – Irti päästäminen mahdollistaa muutoksen.</string>
 </resources>

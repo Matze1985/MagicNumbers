@@ -85,13 +85,79 @@
     <string name="angel_21">21: Integracija – Priešybės susijungia.</string>
     <string name="angel_101">101: Pabudimas – Sąmoningumas naujame lygmenyje.</string>
     <string name="angel_1212">1212: Pusiausvyra pokytyje – Stabilumas judėjime.</string>
-    <string name="angel_123">123: Kūrybinis srautas – Idėjos teka laisvai.</string>
-    <string name="angel_1234">1234: Struktūruota manifestacija – Tavo planas įgauna formą.</string>
-    <string name="angel_12345">12345: Dinaminis augimas – Plėtra daugelyje sričių.</string>
-    <string name="angel_123456">123456: Visiškas užbaigimas – Ciklas užsidaro ir atsiveria nauji keliai.</string>
-    <string name="angel_palindrome">Veidrodinis skaičius – Vidinis ir išorinis pasaulis atspindi vienas kitą.</string>
-    <string name="angel_mirror">Veidrodinis raštas – Suvokimas per savistabą.</string>
-    <string name="angel_alternating">Kintantis raštas – Dvi energijos veikia ritme.</string>
-    <string name="angel_sequence_ascending">Kylanti seka – Vystymasis vyksta sąmoningai.</string>
-    <string name="angel_sequence_descending">Mažėjanti seka – Paleidimas atneša transformaciją.</string>
+
+    <!-- Didėjančios 3 skaitmenų sekos -->
+    <string name="angel_012">012: Nauja pradžia – Pirmasis žingsnis nauju keliu.</string>
+    <string name="angel_123">123: Kūrybinis srautas – Idėjos laisvai gimsta.</string>
+    <string name="angel_234">234: Žingsnis po žingsnio – Pasitikėk savo tobulėjimu.</string>
+    <string name="angel_345">345: Dinamiški pokyčiai – Augimas per transformaciją.</string>
+    <string name="angel_456">456: Stabilumas pokyčių metu – Sąmoningai ženk kitą žingsnį.</string>
+    <string name="angel_567">567: Įžvalga ir augimas – Atsiveria naujos perspektyvos.</string>
+    <string name="angel_678">678: Darnumas – Aiškiai siek savo tikslų.</string>
+    <string name="angel_789">789: Užbaigimas – Vienas skyrius artėja prie pabaigos.</string>
+
+    <!-- Mažėjančios 3 skaitmenų sekos -->
+    <string name="angel_210">210: Grįžimas prie ištakų – Apmąstyk ir iš naujo pasirink kryptį.</string>
+    <string name="angel_321">321: Pasiruošimas – Netrukus prasidės naujas etapas.</string>
+    <string name="angel_432">432: Aiškumas – Grįžk prie to, kas iš tiesų svarbu.</string>
+    <string name="angel_543">543: Paleidimas – Sukurk erdvės pokyčiams.</string>
+    <string name="angel_654">654: Supaprastinimas – Sutelk dėmesį į tai, kas iš tikrųjų svarbu.</string>
+    <string name="angel_765">765: Apmąstymas – Mokykis iš ankstesnės patirties.</string>
+    <string name="angel_876">876: Pertvarkymas – Paleisk tai, ko tau nebereikia.</string>
+    <string name="angel_987">987: Užbaigimas – Sąmoningai integruok praeitį.</string>
+
+    <!-- Didėjančios 4 skaitmenų sekos -->
+    <string name="angel_0123">0123: Nauja pradžia judesyje – Laipsniškas tobulėjimas.</string>
+    <string name="angel_1234">1234: Struktūruotas įgyvendinimas – Tavo planas pradeda įgauti formą.</string>
+    <string name="angel_2345">2345: Dinamiškas tobulėjimas – Augimas sąmoningais žingsniais.</string>
+    <string name="angel_3456">3456: Nuolatinė pažanga – Kiekvienas etapas remiasi ankstesniu.</string>
+    <string name="angel_4567">4567: Sąmoningi pokyčiai – Tęsk savo kelią aiškiai suvokdamas kryptį.</string>
+    <string name="angel_5678">5678: Augimas ir įžvalga – Atrask naujų galimybių.</string>
+    <string name="angel_6789">6789: Užbaigimas ir perėjimas – Pradeda ryškėti naujas skyrius.</string>
+
+    <!-- Mažėjančios 4 skaitmenų sekos -->
+    <string name="angel_3210">3210: Grįžimas prie ištakų – Sąmoningai užbaik vieną ciklą.</string>
+    <string name="angel_4321">4321: Vidinė tvarka – Žingsnis po žingsnio atrask aiškumą.</string>
+    <string name="angel_5432">5432: Paleidimas ir transformacija – Leisk senajam keistis.</string>
+    <string name="angel_6543">6543: Supaprastinimas – Nukreipk savo energiją į tai, kas svarbu.</string>
+    <string name="angel_7654">7654: Apmąstymas – Integruok savo patirtį.</string>
+    <string name="angel_8765">8765: Krypties keitimas – Sąmoningai atsikratyk nereikalingos naštos.</string>
+    <string name="angel_9876">9876: Užbaigimas ir įžvalga – Gerbk tai, kas liko praeityje.</string>
+
+    <!-- Didėjančios 5 skaitmenų sekos -->
+    <string name="angel_01234">01234: Laipsniška nauja pradžia – Pradinis impulsas virsta augimu.</string>
+    <string name="angel_12345">12345: Dinamiškas tobulėjimas – Augimas įvairiose gyvenimo srityse.</string>
+    <string name="angel_23456">23456: Pažanga ir pusiausvyra – Kiekvienas žingsnis sustiprina kitą.</string>
+    <string name="angel_34567">34567: Pokyčiai ir įžvalga – Augimas per patirtį.</string>
+    <string name="angel_45678">45678: Aiškus tobulėjimo kelias – Sąmoningai judėk savo tikslo link.</string>
+    <string name="angel_56789">56789: Kelionės užbaigimas – Atsiveria naujas horizontas.</string>
+
+    <!-- Mažėjančios 5 skaitmenų sekos -->
+    <string name="angel_43210">43210: Grįžimas prie ištakų – Kelionė pasiekia pabaigą.</string>
+    <string name="angel_54321">54321: Sąmoningas perėjimas – Paleisk sena ir pradėk iš naujo.</string>
+    <string name="angel_65432">65432: Vidinis aiškumas – Supaprastink viską žingsnis po žingsnio.</string>
+    <string name="angel_76543">76543: Apmąstymas ir integracija – Pasiimk savo įžvalgas į ateitį.</string>
+    <string name="angel_87654">87654: Paleidimas ir pertvarkymas – Sukurk erdvės kažkam naujam.</string>
+    <string name="angel_98765">98765: Užbaigimas ir apmąstymas – Sąmoningai paleisk praeitį.</string>
+
+    <!-- Didėjančios 6 skaitmenų sekos -->
+    <string name="angel_012345">012345: Nuo pradžios iki augimo – Tobulėk žingsnis po žingsnio.</string>
+    <string name="angel_123456">123456: Visiškas išsipildymas – Vienas ciklas baigiasi, o atsiveria nauji keliai.</string>
+    <string name="angel_234567">234567: Sąmoningi pokyčiai – Priimk tobulėjimą kaip nuolatinį procesą.</string>
+    <string name="angel_345678">345678: Kryptingas augimas – Kiekvienas etapas remiasi ankstesniu.</string>
+    <string name="angel_456789">456789: Užbaigimas ir nauja pradžia – Vienas skyrius užleidžia vietą kitam.</string>
+
+    <!-- Mažėjančios 6 skaitmenų sekos -->
+    <string name="angel_543210">543210: Grįžimas prie ištakų – Sąmoningai užbaik procesą.</string>
+    <string name="angel_654321">654321: Sąmoningas užbaigimas – Sutvarkyk savo patirtį ir paleisk praeitį.</string>
+    <string name="angel_765432">765432: Apmąstymas ir įžvalga – Atpažink tai, kas iš tiesų svarbu.</string>
+    <string name="angel_876543">876543: Paleidimas ir transformacija – Sukurk erdvės naujiems keliams.</string>
+    <string name="angel_987654">987654: Užbaigimas ir integracija – Gerbk praeitį ir judėk pirmyn.</string>
+
+    <!-- Bendrieji šablonai -->
+    <string name="angel_palindrome">Palindrominis skaičius – Vidinis ir išorinis pasauliai atspindi vienas kitą.</string>
+    <string name="angel_mirror">Veidrodinis modelis – Įžvalgos per savęs stebėjimą.</string>
+    <string name="angel_alternating">Kaitaliojamas modelis – Dvi energijos juda bendru ritmu.</string>
+    <string name="angel_sequence_ascending">Didėjanti skaičių seka – Tobulėjimas vyksta sąmoningai.</string>
+    <string name="angel_sequence_descending">Mažėjanti skaičių seka – Paleidimas atveria kelią transformacijai.</string>
 </resources>

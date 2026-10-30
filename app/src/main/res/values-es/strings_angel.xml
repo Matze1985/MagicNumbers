@@ -85,13 +85,79 @@
     <string name="angel_21">21: Integración – Los opuestos se unen.</string>
     <string name="angel_101">101: Despertar – Conciencia en un nuevo nivel.</string>
     <string name="angel_1212">1212: Equilibrio en el cambio – Estabilidad en movimiento.</string>
-    <string name="angel_123">123: Flujo creativo – Las ideas fluyen libremente.</string>
-    <string name="angel_1234">1234: Manifestación estructurada – Tu plan toma forma.</string>
-    <string name="angel_12345">12345: Desarrollo dinámico – Crecimiento en múltiples áreas.</string>
-    <string name="angel_123456">123456: Culminación completa – El ciclo se cierra y nuevos caminos se abren.</string>
-    <string name="angel_palindrome">Número espejo – El mundo interior y exterior se reflejan.</string>
+
+    <!-- Aufsteigende 3-stellige Zahlenfolgen -->
+    <string name="angel_012">012: Nuevos comienzos – El primer paso en un nuevo camino.</string>
+    <string name="angel_123">123: Flujo creativo – Las ideas surgen con libertad.</string>
+    <string name="angel_234">234: Paso a paso – Confía en tu desarrollo.</string>
+    <string name="angel_345">345: Cambio dinámico – Crecimiento a través de la transformación.</string>
+    <string name="angel_456">456: Estabilidad en el cambio – Da el siguiente paso con conciencia.</string>
+    <string name="angel_567">567: Comprensión y crecimiento – Surgen nuevas perspectivas.</string>
+    <string name="angel_678">678: Armonía – Persigue tus objetivos con claridad.</string>
+    <string name="angel_789">789: Culminación – Una etapa se acerca a su fin.</string>
+
+    <!-- Absteigende 3-stellige Zahlenfolgen -->
+    <string name="angel_210">210: Regreso al origen – Reflexiona y encuentra una nueva dirección.</string>
+    <string name="angel_321">321: Preparación – Un nuevo paso está a punto de comenzar.</string>
+    <string name="angel_432">432: Claridad – Vuelve a lo que realmente importa.</string>
+    <string name="angel_543">543: Soltar – Haz espacio para el cambio.</string>
+    <string name="angel_654">654: Simplificación – Concéntrate en lo verdaderamente importante.</string>
+    <string name="angel_765">765: Reflexión – Aprende de las experiencias pasadas.</string>
+    <string name="angel_876">876: Reorganización – Suelta lo que ya no necesitas.</string>
+    <string name="angel_987">987: Culminación – Integra conscientemente el pasado.</string>
+
+    <!-- Aufsteigende 4-stellige Zahlenfolgen -->
+    <string name="angel_0123">0123: Nuevos comienzos en movimiento – Desarrollo gradual.</string>
+    <string name="angel_1234">1234: Realización estructurada – Tu plan empieza a tomar forma.</string>
+    <string name="angel_2345">2345: Desarrollo dinámico – Crecimiento mediante pasos conscientes.</string>
+    <string name="angel_3456">3456: Progreso continuo – Cada etapa se apoya en la anterior.</string>
+    <string name="angel_4567">4567: Cambio consciente – Continúa tu camino con claridad.</string>
+    <string name="angel_5678">5678: Crecimiento y comprensión – Descubre nuevas posibilidades.</string>
+    <string name="angel_6789">6789: Culminación y transición – Se vislumbra una nueva etapa.</string>
+
+    <!-- Absteigende 4-stellige Zahlenfolgen -->
+    <string name="angel_3210">3210: Regreso al origen – Completa un ciclo conscientemente.</string>
+    <string name="angel_4321">4321: Orden interior – Encuentra claridad paso a paso.</string>
+    <string name="angel_5432">5432: Soltar y transformar – Permite que lo antiguo cambie.</string>
+    <string name="angel_6543">6543: Simplificación – Dirige tu energía hacia lo esencial.</string>
+    <string name="angel_7654">7654: Reflexión – Integra tus experiencias.</string>
+    <string name="angel_8765">8765: Reorientación – Libérate conscientemente de las cargas innecesarias.</string>
+    <string name="angel_9876">9876: Culminación y comprensión – Honra lo que ha quedado atrás.</string>
+
+    <!-- Aufsteigende 5-stellige Zahlenfolgen -->
+    <string name="angel_01234">01234: Nuevos comienzos graduales – El primer impulso se convierte en crecimiento.</string>
+    <string name="angel_12345">12345: Desarrollo dinámico – Crecimiento en distintas áreas de la vida.</string>
+    <string name="angel_23456">23456: Progreso y equilibrio – Cada paso fortalece el siguiente.</string>
+    <string name="angel_34567">34567: Cambio y comprensión – Crecimiento a través de la experiencia.</string>
+    <string name="angel_45678">45678: Un camino claro de desarrollo – Avanza conscientemente hacia tu objetivo.</string>
+    <string name="angel_56789">56789: Culminación de un viaje – Se abre un nuevo horizonte.</string>
+
+    <!-- Absteigende 5-stellige Zahlenfolgen -->
+    <string name="angel_43210">43210: Regreso al origen – El viaje llega a su fin.</string>
+    <string name="angel_54321">54321: Transición consciente – Suelta lo antiguo y comienza de nuevo.</string>
+    <string name="angel_65432">65432: Claridad interior – Simplifica las cosas paso a paso.</string>
+    <string name="angel_76543">76543: Reflexión e integración – Lleva tus aprendizajes contigo.</string>
+    <string name="angel_87654">87654: Soltar y reorganizar – Haz espacio para algo nuevo.</string>
+    <string name="angel_98765">98765: Culminación y reflexión – Deja atrás el pasado conscientemente.</string>
+
+    <!-- Aufsteigende 6-stellige Zahlenfolgen -->
+    <string name="angel_012345">012345: Del comienzo al crecimiento – Desarrollo paso a paso.</string>
+    <string name="angel_123456">123456: Plenitud – Un ciclo se cierra mientras se abren nuevos caminos.</string>
+    <string name="angel_234567">234567: Cambio consciente – Acepta el desarrollo como un proceso continuo.</string>
+    <string name="angel_345678">345678: Crecimiento con dirección – Cada etapa se apoya en la anterior.</string>
+    <string name="angel_456789">456789: Culminación y nuevos comienzos – Una etapa da paso a otra.</string>
+
+    <!-- Absteigende 6-stellige Zahlenfolgen -->
+    <string name="angel_543210">543210: Regreso al origen – Completa un proceso conscientemente.</string>
+    <string name="angel_654321">654321: Finalización consciente – Organiza tus experiencias y suelta el pasado.</string>
+    <string name="angel_765432">765432: Reflexión y comprensión – Reconoce lo que realmente importa.</string>
+    <string name="angel_876543">876543: Soltar y transformar – Haz espacio para nuevos caminos.</string>
+    <string name="angel_987654">987654: Culminación e integración – Honra el pasado y sigue adelante.</string>
+
+    <!-- Allgemeine Muster -->
+    <string name="angel_palindrome">Número palíndromo – El mundo interior y el exterior se reflejan mutuamente.</string>
     <string name="angel_mirror">Patrón espejo – Comprensión a través de la autoobservación.</string>
-    <string name="angel_alternating">Patrón alternante – Dos energías actúan en ritmo.</string>
-    <string name="angel_sequence_ascending">Secuencia ascendente – La evolución ocurre conscientemente.</string>
-    <string name="angel_sequence_descending">Secuencia descendente – Soltar trae transformación.</string>
+    <string name="angel_alternating">Patrón alternante – Dos energías se mueven al mismo ritmo.</string>
+    <string name="angel_sequence_ascending">Secuencia ascendente – El desarrollo avanza de forma consciente.</string>
+    <string name="angel_sequence_descending">Secuencia descendente – Soltar abre el camino a la transformación.</string>
 </resources>

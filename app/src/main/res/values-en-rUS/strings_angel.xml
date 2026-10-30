@@ -85,13 +85,79 @@
     <string name="angel_21">21: Integration – Opposites merge into unity.</string>
     <string name="angel_101">101: Awakening – Awareness expands to a new level.</string>
     <string name="angel_1212">1212: Balance in Motion – Stability within change.</string>
-    <string name="angel_123">123: Creative Momentum – Ideas flow effortlessly.</string>
-    <string name="angel_1234">1234: Structured Manifesting – Your plan takes shape.</string>
-    <string name="angel_12345">12345: Dynamic Expansion – Growth across multiple areas.</string>
-    <string name="angel_123456">123456: Complete Fulfillment – One cycle closes as new paths unfold.</string>
-    <string name="angel_palindrome">Mirror Number – Your inner and outer worlds reflect one another.</string>
-    <string name="angel_mirror">Mirror Pattern – Awareness through self-reflection.</string>
+
+    <!-- Aufsteigende 3-stellige Zahlenfolgen -->
+    <string name="angel_012">012: New Beginnings – The first step on a new path.</string>
+    <string name="angel_123">123: Creative Flow – Ideas come naturally.</string>
+    <string name="angel_234">234: Step by Step – Trust your growth.</string>
+    <string name="angel_345">345: Dynamic Change – Growth through transformation.</string>
+    <string name="angel_456">456: Stability in Change – Take your next step with intention.</string>
+    <string name="angel_567">567: Insight and Growth – New perspectives emerge.</string>
+    <string name="angel_678">678: Alignment – Pursue your goals with clarity.</string>
+    <string name="angel_789">789: Completion – One chapter is coming to an end.</string>
+
+    <!-- Absteigende 3-stellige Zahlenfolgen -->
+    <string name="angel_210">210: Return to the Beginning – Reflect and find a new direction.</string>
+    <string name="angel_321">321: Preparation – A new step is about to begin.</string>
+    <string name="angel_432">432: Clarity – Return to what truly matters.</string>
+    <string name="angel_543">543: Letting Go – Make room for change.</string>
+    <string name="angel_654">654: Simplification – Focus on what matters most.</string>
+    <string name="angel_765">765: Reflection – Learn from past experiences.</string>
+    <string name="angel_876">876: Reorganization – Release what you no longer need.</string>
+    <string name="angel_987">987: Completion – Consciously integrate the past.</string>
+
+    <!-- Aufsteigende 4-stellige Zahlenfolgen -->
+    <string name="angel_0123">0123: New Beginnings in Motion – Gradual growth.</string>
+    <string name="angel_1234">1234: Structured Manifestation – Your plan is taking shape.</string>
+    <string name="angel_2345">2345: Dynamic Development – Grow through intentional steps.</string>
+    <string name="angel_3456">3456: Steady Progress – Each stage builds on the one before it.</string>
+    <string name="angel_4567">4567: Intentional Change – Keep moving forward with clarity.</string>
+    <string name="angel_5678">5678: Growth and Insight – Discover new possibilities.</string>
+    <string name="angel_6789">6789: Completion and Transition – A new chapter is coming into view.</string>
+
+    <!-- Absteigende 4-stellige Zahlenfolgen -->
+    <string name="angel_3210">3210: Return to the Beginning – Consciously complete a cycle.</string>
+    <string name="angel_4321">4321: Inner Order – Find clarity one step at a time.</string>
+    <string name="angel_5432">5432: Letting Go and Transformation – Allow the old to change.</string>
+    <string name="angel_6543">6543: Simplification – Direct your energy toward what matters.</string>
+    <string name="angel_7654">7654: Reflection – Make sense of your experiences.</string>
+    <string name="angel_8765">8765: Realignment – Consciously release unnecessary burdens.</string>
+    <string name="angel_9876">9876: Completion and Insight – Honor what has passed.</string>
+
+    <!-- Aufsteigende 5-stellige Zahlenfolgen -->
+    <string name="angel_01234">01234: Gradual New Beginnings – A first spark grows into something more.</string>
+    <string name="angel_12345">12345: Dynamic Development – Growth across many areas of life.</string>
+    <string name="angel_23456">23456: Progress and Balance – Each step strengthens the next.</string>
+    <string name="angel_34567">34567: Change and Insight – Grow through experience.</string>
+    <string name="angel_45678">45678: A Clear Path Forward – Move toward your goal with intention.</string>
+    <string name="angel_56789">56789: Completing a Journey – A new horizon opens up.</string>
+
+    <!-- Absteigende 5-stellige Zahlenfolgen -->
+    <string name="angel_43210">43210: Return to the Beginning – The journey reaches its end.</string>
+    <string name="angel_54321">54321: Intentional Transition – Let go of the old and start fresh.</string>
+    <string name="angel_65432">65432: Inner Clarity – Simplify things one step at a time.</string>
+    <string name="angel_76543">76543: Reflection and Integration – Carry your insights forward.</string>
+    <string name="angel_87654">87654: Letting Go and Reorganization – Make room for something new.</string>
+    <string name="angel_98765">98765: Completion and Reflection – Consciously release the past.</string>
+
+    <!-- Aufsteigende 6-stellige Zahlenfolgen -->
+    <string name="angel_012345">012345: From Beginnings to Growth – Develop one step at a time.</string>
+    <string name="angel_123456">123456: Full Realization – One cycle closes as new paths open.</string>
+    <string name="angel_234567">234567: Intentional Change – Embrace growth as an ongoing process.</string>
+    <string name="angel_345678">345678: Growth with Direction – Each stage builds on the one before it.</string>
+    <string name="angel_456789">456789: Completion and New Beginnings – One chapter gives way to another.</string>
+
+    <!-- Absteigende 6-stellige Zahlenfolgen -->
+    <string name="angel_543210">543210: Return to the Beginning – Consciously complete a process.</string>
+    <string name="angel_654321">654321: Intentional Completion – Organize your experiences and let go of the past.</string>
+    <string name="angel_765432">765432: Reflection and Insight – Recognize what truly matters.</string>
+    <string name="angel_876543">876543: Letting Go and Transformation – Make room for new paths.</string>
+    <string name="angel_987654">987654: Completion and Integration – Honor the past and move forward.</string>
+
+    <!-- Allgemeine Muster -->
+    <string name="angel_palindrome">Palindrome Number – Your inner and outer worlds reflect each other.</string>
+    <string name="angel_mirror">Mirror Pattern – Gain insight through self-reflection.</string>
     <string name="angel_alternating">Alternating Pattern – Two energies move in rhythm.</string>
-    <string name="angel_sequence_ascending">Ascending Sequence – Conscious evolution is unfolding.</string>
-    <string name="angel_sequence_descending">Descending Sequence – Letting go leads to transformation.</string>
+    <string name="angel_sequence_ascending">Ascending Sequence – Growth unfolds with intention.</string>
+    <string name="angel_sequence_descending">Descending Sequence – Letting go creates space for transformation.</string>
 </resources>

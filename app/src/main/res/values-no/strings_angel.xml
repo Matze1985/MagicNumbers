@@ -85,13 +85,79 @@
     <string name="angel_21">21: Integrasjon – Motsetninger forenes.</string>
     <string name="angel_101">101: Oppvåkning – Bevissthet på et nytt nivå.</string>
     <string name="angel_1212">1212: Balanse i endring – Stabilitet i bevegelse.</string>
-    <string name="angel_123">123: Kreativ flyt – Ideer kommer fritt.</string>
-    <string name="angel_1234">1234: Strukturert manifestasjon – Planen din tar form.</string>
-    <string name="angel_12345">12345: Dynamisk utvikling – Vekst på mange områder.</string>
-    <string name="angel_123456">123456: Fullstendig fullføring – Syklusen lukkes og nye veier åpnes.</string>
-    <string name="angel_palindrome">Speiltall – Den indre og ytre verden speiler hverandre.</string>
+
+    <!-- Stigende tallsekvenser med 3 sifre -->
+    <string name="angel_012">012: Nye begynnelser – Det første steget på en ny vei.</string>
+    <string name="angel_123">123: Kreativ flyt – Ideer oppstår fritt.</string>
+    <string name="angel_234">234: Steg for steg – Stol på din egen utvikling.</string>
+    <string name="angel_345">345: Dynamisk forandring – Vekst gjennom transformasjon.</string>
+    <string name="angel_456">456: Stabilitet i forandring – Ta neste steg bevisst.</string>
+    <string name="angel_567">567: Innsikt og vekst – Nye perspektiver åpner seg.</string>
+    <string name="angel_678">678: Harmoni – Følg målene dine med klarhet.</string>
+    <string name="angel_789">789: Fullføring – Et kapittel nærmer seg slutten.</string>
+
+    <!-- Synkende tallsekvenser med 3 sifre -->
+    <string name="angel_210">210: Tilbake til utgangspunktet – Reflekter og finn retningen på nytt.</string>
+    <string name="angel_321">321: Forberedelse – En ny fase er i ferd med å begynne.</string>
+    <string name="angel_432">432: Klarhet – Vend tilbake til det som virkelig betyr noe.</string>
+    <string name="angel_543">543: Å gi slipp – Skap rom for forandring.</string>
+    <string name="angel_654">654: Forenkling – Fokuser på det som virkelig er viktig.</string>
+    <string name="angel_765">765: Refleksjon – Lær av tidligere erfaringer.</string>
+    <string name="angel_876">876: Omorganisering – Gi slipp på det du ikke lenger trenger.</string>
+    <string name="angel_987">987: Fullføring – Integrer fortiden på en bevisst måte.</string>
+
+    <!-- Stigende tallsekvenser med 4 sifre -->
+    <string name="angel_0123">0123: Nye begynnelser i bevegelse – Gradvis utvikling.</string>
+    <string name="angel_1234">1234: Strukturert realisering – Planen din begynner å ta form.</string>
+    <string name="angel_2345">2345: Dynamisk utvikling – Vekst gjennom bevisste steg.</string>
+    <string name="angel_3456">3456: Kontinuerlig fremgang – Hvert trinn bygger på det forrige.</string>
+    <string name="angel_4567">4567: Bevisst forandring – Fortsett veien din med klarhet.</string>
+    <string name="angel_5678">5678: Vekst og innsikt – Oppdag nye muligheter.</string>
+    <string name="angel_6789">6789: Fullføring og overgang – Et nytt kapittel begynner å ta form.</string>
+
+    <!-- Synkende tallsekvenser med 4 sifre -->
+    <string name="angel_3210">3210: Tilbake til utgangspunktet – Avslutt en syklus bevisst.</string>
+    <string name="angel_4321">4321: Indre orden – Finn klarhet steg for steg.</string>
+    <string name="angel_5432">5432: Å gi slipp og transformasjon – La det gamle forandre seg.</string>
+    <string name="angel_6543">6543: Forenkling – Rett energien din mot det som betyr noe.</string>
+    <string name="angel_7654">7654: Refleksjon – Integrer erfaringene dine.</string>
+    <string name="angel_8765">8765: Ny retning – Frigjør deg bevisst fra unødvendige byrder.</string>
+    <string name="angel_9876">9876: Fullføring og innsikt – Hedre det som ligger bak deg.</string>
+
+    <!-- Stigende tallsekvenser med 5 sifre -->
+    <string name="angel_01234">01234: Gradvis nye begynnelser – En første impuls utvikler seg til vekst.</string>
+    <string name="angel_12345">12345: Dynamisk utvikling – Vekst på mange områder i livet.</string>
+    <string name="angel_23456">23456: Fremgang og balanse – Hvert steg styrker det neste.</string>
+    <string name="angel_34567">34567: Forandring og innsikt – Vekst gjennom erfaring.</string>
+    <string name="angel_45678">45678: En tydelig utviklingsvei – Gå bevisst mot målet ditt.</string>
+    <string name="angel_56789">56789: Fullføring av en reise – En ny horisont åpner seg.</string>
+
+    <!-- Synkende tallsekvenser med 5 sifre -->
+    <string name="angel_43210">43210: Tilbake til utgangspunktet – Reisen når sin avslutning.</string>
+    <string name="angel_54321">54321: Bevisst overgang – Gi slipp på det gamle og begynn på nytt.</string>
+    <string name="angel_65432">65432: Indre klarhet – Forenkle ting steg for steg.</string>
+    <string name="angel_76543">76543: Refleksjon og integrering – Ta med deg innsikten videre.</string>
+    <string name="angel_87654">87654: Å gi slipp og omorganisering – Skap rom for noe nytt.</string>
+    <string name="angel_98765">98765: Fullføring og refleksjon – Gi bevisst slipp på fortiden.</string>
+
+    <!-- Stigende tallsekvenser med 6 sifre -->
+    <string name="angel_012345">012345: Fra begynnelse til vekst – Utvikling steg for steg.</string>
+    <string name="angel_123456">123456: Fullstendig oppfyllelse – En syklus avsluttes mens nye veier åpner seg.</string>
+    <string name="angel_234567">234567: Bevisst forandring – Se utvikling som en kontinuerlig prosess.</string>
+    <string name="angel_345678">345678: Målrettet vekst – Hvert trinn bygger på det forrige.</string>
+    <string name="angel_456789">456789: Fullføring og nye begynnelser – Ett kapittel gir plass til det neste.</string>
+
+    <!-- Synkende tallsekvenser med 6 sifre -->
+    <string name="angel_543210">543210: Tilbake til utgangspunktet – Fullfør en prosess bevisst.</string>
+    <string name="angel_654321">654321: Bevisst fullføring – Organiser erfaringene dine og gi slipp på fortiden.</string>
+    <string name="angel_765432">765432: Refleksjon og innsikt – Gjenkjenn det som virkelig betyr noe.</string>
+    <string name="angel_876543">876543: Å gi slipp og transformasjon – Skap rom for nye veier.</string>
+    <string name="angel_987654">987654: Fullføring og integrering – Hedre fortiden og gå videre.</string>
+
+    <!-- Generelle mønstre -->
+    <string name="angel_palindrome">Palindromtall – Den indre og den ytre verden speiler hverandre.</string>
     <string name="angel_mirror">Speilmønster – Innsikt gjennom selvobservasjon.</string>
-    <string name="angel_alternating">Vekslende mønster – To energier virker i rytme.</string>
-    <string name="angel_sequence_ascending">Stigende sekvens – Utvikling skjer bevisst.</string>
-    <string name="angel_sequence_descending">Synkende sekvens – Å gi slipp bringer transformasjon.</string>
+    <string name="angel_alternating">Vekslende mønster – To energier beveger seg i samme rytme.</string>
+    <string name="angel_sequence_ascending">Stigende tallsekvens – Utviklingen utfolder seg bevisst.</string>
+    <string name="angel_sequence_descending">Synkende tallsekvens – Å gi slipp åpner for transformasjon.</string>
 </resources>

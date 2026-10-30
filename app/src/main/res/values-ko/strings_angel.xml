@@ -85,13 +85,79 @@
     <string name="angel_21">21: 통합 – 서로 다른 것이 하나가 됩니다.</string>
     <string name="angel_101">101: 각성 – 새로운 수준의 의식.</string>
     <string name="angel_1212">1212: 변화 속의 균형 – 움직임 속의 안정.</string>
-    <string name="angel_123">123: 창조적 흐름 – 아이디어가 자유롭게 흐릅니다.</string>
-    <string name="angel_1234">1234: 구조화된 현실화 – 당신의 계획이 형태를 갖춥니다.</string>
-    <string name="angel_12345">12345: 역동적 성장 – 여러 영역에서의 발전.</string>
-    <string name="angel_123456">123456: 완전한 완성 – 주기가 닫히고 새로운 길이 열립니다.</string>
-    <string name="angel_palindrome">거울 숫자 – 내면과 외면의 세계가 서로를 비춥니다.</string>
-    <string name="angel_mirror">거울 패턴 – 자기 관찰을 통한 깨달음.</string>
-    <string name="angel_alternating">교차 패턴 – 두 에너지가 리듬 속에서 작용합니다.</string>
-    <string name="angel_sequence_ascending">상승 시퀀스 – 의식적인 진화가 일어나고 있습니다.</string>
-    <string name="angel_sequence_descending">하강 시퀀스 – 내려놓음이 변화를 가져옵니다.</string>
+
+    <!-- 3자리 오름차순 숫자 시퀀스 -->
+    <string name="angel_012">012: 새로운 시작 – 새로운 길로 나아가는 첫걸음.</string>
+    <string name="angel_123">123: 창조적 흐름 – 아이디어가 자유롭게 떠오릅니다.</string>
+    <string name="angel_234">234: 한 걸음씩 – 자신의 성장을 믿으세요.</string>
+    <string name="angel_345">345: 역동적인 변화 – 변화를 통한 성장.</string>
+    <string name="angel_456">456: 변화 속의 안정 – 다음 단계를 의식적으로 내딛으세요.</string>
+    <string name="angel_567">567: 통찰과 성장 – 새로운 관점이 열립니다.</string>
+    <string name="angel_678">678: 조화와 정렬 – 명확한 방향으로 목표를 추구하세요.</string>
+    <string name="angel_789">789: 완성 – 하나의 장이 끝을 향해 가고 있습니다.</string>
+
+    <!-- 3자리 내림차순 숫자 시퀀스 -->
+    <string name="angel_210">210: 근원으로의 회귀 – 자신을 돌아보고 방향을 다시 설정하세요.</string>
+    <string name="angel_321">321: 준비 – 새로운 단계가 곧 시작됩니다.</string>
+    <string name="angel_432">432: 명확함 – 진정으로 중요한 것으로 돌아가세요.</string>
+    <string name="angel_543">543: 내려놓기 – 변화를 위한 공간을 만드세요.</string>
+    <string name="angel_654">654: 단순화 – 진정으로 중요한 것에 집중하세요.</string>
+    <string name="angel_765">765: 성찰 – 과거의 경험에서 배우세요.</string>
+    <string name="angel_876">876: 재정비 – 더 이상 필요하지 않은 것을 내려놓으세요.</string>
+    <string name="angel_987">987: 완성 – 과거를 의식적으로 받아들이고 내면에 통합하세요.</string>
+
+    <!-- 4자리 오름차순 숫자 시퀀스 -->
+    <string name="angel_0123">0123: 움직이는 새로운 시작 – 점진적인 발전.</string>
+    <string name="angel_1234">1234: 체계적인 실현 – 계획이 형태를 갖추기 시작합니다.</string>
+    <string name="angel_2345">2345: 역동적인 발전 – 의식적인 단계를 통한 성장.</string>
+    <string name="angel_3456">3456: 지속적인 진전 – 각 단계는 이전 단계를 바탕으로 이루어집니다.</string>
+    <string name="angel_4567">4567: 의식적인 변화 – 명확한 방향으로 자신의 길을 계속 나아가세요.</string>
+    <string name="angel_5678">5678: 성장과 통찰 – 새로운 가능성을 발견하세요.</string>
+    <string name="angel_6789">6789: 완성과 전환 – 새로운 장이 눈앞에 펼쳐집니다.</string>
+
+    <!-- 4자리 내림차순 숫자 시퀀스 -->
+    <string name="angel_3210">3210: 근원으로의 회귀 – 하나의 주기를 의식적으로 마무리하세요.</string>
+    <string name="angel_4321">4321: 내면의 질서 – 한 걸음씩 명확함을 찾아가세요.</string>
+    <string name="angel_5432">5432: 내려놓기와 변화 – 오래된 것이 변화하도록 허용하세요.</string>
+    <string name="angel_6543">6543: 단순화 – 중요한 것에 에너지를 집중하세요.</string>
+    <string name="angel_7654">7654: 성찰 – 자신의 경험을 내면에 통합하세요.</string>
+    <string name="angel_8765">8765: 방향 재설정 – 불필요한 부담을 의식적으로 내려놓으세요.</string>
+    <string name="angel_9876">9876: 완성과 통찰 – 지나간 것을 소중히 받아들이세요.</string>
+
+    <!-- 5자리 오름차순 숫자 시퀀스 -->
+    <string name="angel_01234">01234: 점진적인 새로운 시작 – 처음의 작은 자극이 성장으로 이어집니다.</string>
+    <string name="angel_12345">12345: 역동적인 발전 – 삶의 다양한 영역에서 이루어지는 성장.</string>
+    <string name="angel_23456">23456: 진전과 균형 – 모든 단계가 다음 단계를 더욱 강하게 만듭니다.</string>
+    <string name="angel_34567">34567: 변화와 통찰 – 경험을 통한 성장.</string>
+    <string name="angel_45678">45678: 명확한 발전 경로 – 목표를 향해 의식적으로 나아가세요.</string>
+    <string name="angel_56789">56789: 여정의 완성 – 새로운 지평이 열립니다.</string>
+
+    <!-- 5자리 내림차순 숫자 시퀀스 -->
+    <string name="angel_43210">43210: 근원으로의 회귀 – 여정이 마무리에 이릅니다.</string>
+    <string name="angel_54321">54321: 의식적인 전환 – 오래된 것을 내려놓고 새롭게 시작하세요.</string>
+    <string name="angel_65432">65432: 내면의 명확함 – 한 걸음씩 상황을 단순하게 만드세요.</string>
+    <string name="angel_76543">76543: 성찰과 통합 – 깨달음을 앞으로 나아가는 길에 활용하세요.</string>
+    <string name="angel_87654">87654: 내려놓기와 재정비 – 새로운 것을 위한 공간을 만드세요.</string>
+    <string name="angel_98765">98765: 완성과 성찰 – 과거를 의식적으로 내려놓으세요.</string>
+
+    <!-- 6자리 오름차순 숫자 시퀀스 -->
+    <string name="angel_012345">012345: 시작에서 성장으로 – 한 걸음씩 발전하세요.</string>
+    <string name="angel_123456">123456: 완전한 성취 – 하나의 주기가 끝나고 새로운 길이 열립니다.</string>
+    <string name="angel_234567">234567: 의식적인 변화 – 발전을 지속적인 과정으로 받아들이세요.</string>
+    <string name="angel_345678">345678: 방향성 있는 성장 – 각 단계는 이전 단계를 바탕으로 이루어집니다.</string>
+    <string name="angel_456789">456789: 완성과 새로운 시작 – 하나의 장이 끝나고 다음 장이 시작됩니다.</string>
+
+    <!-- 6자리 내림차순 숫자 시퀀스 -->
+    <string name="angel_543210">543210: 근원으로의 회귀 – 하나의 과정을 의식적으로 마무리하세요.</string>
+    <string name="angel_654321">654321: 의식적인 완성 – 경험을 정리하고 과거를 내려놓으세요.</string>
+    <string name="angel_765432">765432: 성찰과 통찰 – 진정으로 중요한 것이 무엇인지 알아보세요.</string>
+    <string name="angel_876543">876543: 내려놓기와 변화 – 새로운 길을 위한 공간을 만드세요.</string>
+    <string name="angel_987654">987654: 완성과 통합 – 과거를 소중히 여기고 앞으로 나아가세요.</string>
+
+    <!-- 일반적인 숫자 패턴 -->
+    <string name="angel_palindrome">회문 숫자 – 내면의 세계와 외부 세계가 서로를 비춥니다.</string>
+    <string name="angel_mirror">거울 패턴 – 자기 관찰을 통해 통찰을 얻습니다.</string>
+    <string name="angel_alternating">교대 패턴 – 두 에너지가 리듬에 맞춰 움직입니다.</string>
+    <string name="angel_sequence_ascending">오름차순 숫자 시퀀스 – 발전이 의식적으로 펼쳐집니다.</string>
+    <string name="angel_sequence_descending">내림차순 숫자 시퀀스 – 내려놓음이 변화를 가능하게 합니다.</string>
 </resources>

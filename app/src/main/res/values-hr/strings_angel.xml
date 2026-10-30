@@ -85,13 +85,79 @@
     <string name="angel_21">21: Integracija – Suprotnosti se spajaju.</string>
     <string name="angel_101">101: Buđenje – Svijest na novoj razini.</string>
     <string name="angel_1212">1212: Ravnoteža u promjeni – Stabilnost u pokretu.</string>
-    <string name="angel_123">123: Kreativni tok – Ideje dolaze slobodno.</string>
-    <string name="angel_1234">1234: Strukturirana manifestacija – Tvoj plan poprima oblik.</string>
-    <string name="angel_12345">12345: Dinamičan razvoj – Rast u mnogim područjima.</string>
-    <string name="angel_123456">123456: Potpuni završetak – Ciklus se zatvara, novi putevi se otvaraju.</string>
-    <string name="angel_palindrome">Zrcalni broj – Unutarnji i vanjski svijet se odražavaju.</string>
-    <string name="angel_mirror">Zrcalni uzorak – Uvid kroz samopromatranje.</string>
-    <string name="angel_alternating">Naizmjenični uzorak – Dvije energije djeluju u ritmu.</string>
-    <string name="angel_sequence_ascending">Uzlazni niz – Razvoj se događa svjesno.</string>
-    <string name="angel_sequence_descending">Silazni niz – Otpuštanje donosi transformaciju.</string>
+
+    <!-- Uzlazni nizovi od 3 znamenke -->
+    <string name="angel_012">012: Novi počeci – Prvi korak na novom putu.</string>
+    <string name="angel_123">123: Kreativni tok – Ideje se slobodno rađaju.</string>
+    <string name="angel_234">234: Korak po korak – Vjeruj u vlastiti razvoj.</string>
+    <string name="angel_345">345: Dinamična promjena – Rast kroz transformaciju.</string>
+    <string name="angel_456">456: Stabilnost u promjeni – Svjesno napravi sljedeći korak.</string>
+    <string name="angel_567">567: Uvid i rast – Otvaraju se nove perspektive.</string>
+    <string name="angel_678">678: Usklađenost – Jasno slijedi svoje ciljeve.</string>
+    <string name="angel_789">789: Dovršetak – Jedno se poglavlje približava kraju.</string>
+
+    <!-- Silazni nizovi od 3 znamenke -->
+    <string name="angel_210">210: Povratak izvoru – Razmisli i ponovno usmjeri svoj put.</string>
+    <string name="angel_321">321: Priprema – Uskoro započinje novi korak.</string>
+    <string name="angel_432">432: Jasnoća – Vrati se onome što je doista važno.</string>
+    <string name="angel_543">543: Otpuštanje – Napravi prostor za promjenu.</string>
+    <string name="angel_654">654: Pojednostavljenje – Usredotoči se na ono što je zaista važno.</string>
+    <string name="angel_765">765: Promišljanje – Uči iz prošlih iskustava.</string>
+    <string name="angel_876">876: Preustroj – Otpusti ono što ti više nije potrebno.</string>
+    <string name="angel_987">987: Dovršetak – Svjesno prihvati i integriraj prošlost.</string>
+
+    <!-- Uzlazni nizovi od 4 znamenke -->
+    <string name="angel_0123">0123: Novi počeci u pokretu – Postupan razvoj.</string>
+    <string name="angel_1234">1234: Strukturirano ostvarenje – Tvoj plan poprima oblik.</string>
+    <string name="angel_2345">2345: Dinamičan razvoj – Rast kroz svjesne korake.</string>
+    <string name="angel_3456">3456: Stalan napredak – Svaka se faza nadovezuje na prethodnu.</string>
+    <string name="angel_4567">4567: Svjesna promjena – Nastavi svojim putem s jasnoćom.</string>
+    <string name="angel_5678">5678: Rast i uvid – Otkrij nove mogućnosti.</string>
+    <string name="angel_6789">6789: Dovršetak i prijelaz – Nazire se novo poglavlje.</string>
+
+    <!-- Silazni nizovi od 4 znamenke -->
+    <string name="angel_3210">3210: Povratak izvoru – Svjesno dovrši jedan ciklus.</string>
+    <string name="angel_4321">4321: Unutarnji red – Pronađi jasnoću korak po korak.</string>
+    <string name="angel_5432">5432: Otpuštanje i transformacija – Dopusti starome da se promijeni.</string>
+    <string name="angel_6543">6543: Pojednostavljenje – Usmjeri svoju energiju na ono što je važno.</string>
+    <string name="angel_7654">7654: Promišljanje – Integriraj svoja iskustva.</string>
+    <string name="angel_8765">8765: Ponovno usmjeravanje – Svjesno se oslobodi nepotrebnih tereta.</string>
+    <string name="angel_9876">9876: Dovršetak i uvid – Poštuj ono što je ostalo iza tebe.</string>
+
+    <!-- Uzlazni nizovi od 5 znamenki -->
+    <string name="angel_01234">01234: Postupni novi počeci – Početni poticaj prerasta u razvoj.</string>
+    <string name="angel_12345">12345: Dinamičan razvoj – Rast u mnogim područjima života.</string>
+    <string name="angel_23456">23456: Napredak i ravnoteža – Svaki korak osnažuje sljedeći.</string>
+    <string name="angel_34567">34567: Promjena i uvid – Rast kroz iskustvo.</string>
+    <string name="angel_45678">45678: Jasan put razvoja – Svjesno kreni prema svom cilju.</string>
+    <string name="angel_56789">56789: Završetak putovanja – Otvara se novi horizont.</string>
+
+    <!-- Silazni nizovi od 5 znamenki -->
+    <string name="angel_43210">43210: Povratak izvoru – Putovanje dolazi do svog završetka.</string>
+    <string name="angel_54321">54321: Svjestan prijelaz – Otpusti staro i započni iznova.</string>
+    <string name="angel_65432">65432: Unutarnja jasnoća – Pojednostavljuj stvari korak po korak.</string>
+    <string name="angel_76543">76543: Promišljanje i integracija – Ponesi svoje uvide sa sobom.</string>
+    <string name="angel_87654">87654: Otpuštanje i preustroj – Napravi prostor za nešto novo.</string>
+    <string name="angel_98765">98765: Dovršetak i promišljanje – Svjesno otpusti prošlost.</string>
+
+    <!-- Uzlazni nizovi od 6 znamenki -->
+    <string name="angel_012345">012345: Od početka do rasta – Razvoj korak po korak.</string>
+    <string name="angel_123456">123456: Potpuno ispunjenje – Jedan ciklus završava, a novi se putovi otvaraju.</string>
+    <string name="angel_234567">234567: Svjesna promjena – Prihvati razvoj kao neprekidan proces.</string>
+    <string name="angel_345678">345678: Usmjeren rast – Svaka se faza nadovezuje na prethodnu.</string>
+    <string name="angel_456789">456789: Dovršetak i novi počeci – Jedno poglavlje ustupa mjesto drugome.</string>
+
+    <!-- Silazni nizovi od 6 znamenki -->
+    <string name="angel_543210">543210: Povratak izvoru – Svjesno dovrši proces.</string>
+    <string name="angel_654321">654321: Svjestan završetak – Uredi svoja iskustva i otpusti ono što je prošlo.</string>
+    <string name="angel_765432">765432: Promišljanje i uvid – Prepoznaj što je doista važno.</string>
+    <string name="angel_876543">876543: Otpuštanje i transformacija – Napravi prostor za nove putove.</string>
+    <string name="angel_987654">987654: Dovršetak i integracija – Poštuj prošlost i nastavi dalje.</string>
+
+    <!-- Opći obrasci -->
+    <string name="angel_palindrome">Palindromski broj – Unutarnji i vanjski svijet odražavaju jedan drugoga.</string>
+    <string name="angel_mirror">Zrcalni obrazac – Uvid kroz promatranje samoga sebe.</string>
+    <string name="angel_alternating">Naizmjenični obrazac – Dvije energije kreću se u ritmu.</string>
+    <string name="angel_sequence_ascending">Uzlazni niz – Razvoj se odvija svjesno.</string>
+    <string name="angel_sequence_descending">Silazni niz – Otpuštanje omogućuje transformaciju.</string>
 </resources>

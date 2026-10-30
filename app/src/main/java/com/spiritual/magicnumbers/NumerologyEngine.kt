@@ -144,6 +144,9 @@ object NumerologyEngine {
             if (res != 0) it to res else null
         }
 
+    // =====================================================
+    // GET DIGIT INTRODUCTION
+    // =====================================================
     fun getDigitIntroResIds(number: String) =
         number.groupingBy { it }.eachCount().mapNotNull { (digit, _) ->
             val res = when (digit) {
@@ -163,9 +166,8 @@ object NumerologyEngine {
         }
 
     // =====================================================
-    // ANGEL NUMBERS (RUN DETECTION)
+    // ANGEL IMPULSE FROM REDUCED
     // =====================================================
-    // ANGEL IMPULSE FROM REDUCED CROSS SUM (1–9)
     fun getAngelImpulseFromReduced(reduced: Int): Int {
         return when (reduced) {
             0 -> R.string.angel_0_1
@@ -191,6 +193,9 @@ object NumerologyEngine {
         }
     }
 
+    // =====================================================
+    // GET ANGEL RES ID'S
+    // =====================================================
     fun getAngelResIds(number: String): List<Int> {
         val results = mutableSetOf<Int>()
         if (number.length < 2) return emptyList()
@@ -201,7 +206,9 @@ object NumerologyEngine {
         return results.toList()
     }
 
-    // ANGEL RUN DETECTION
+    // =====================================================
+    // DETECT RUNS
+    // =====================================================
     private fun detectRuns(number: String, results: MutableSet<Int>) {
         var i = 0
         while (i < number.length) {
@@ -232,7 +239,9 @@ object NumerologyEngine {
         }
     }
 
+    // =====================================================
     // ASCENDING / DESCENDING SEQUENCES
+    // =====================================================
     private fun detectSequences(number: String, results: MutableSet<Int>) {
         for (start in 0 until number.length - 2) {
             for (end in start + 3..number.length) {
@@ -244,23 +253,77 @@ object NumerologyEngine {
                 if (ascending) {
                     results.add(
                         when (sub) {
+                            "012" -> R.string.angel_012
                             "123" -> R.string.angel_123
+                            "234" -> R.string.angel_234
+                            "345" -> R.string.angel_345
+                            "456" -> R.string.angel_456
+                            "567" -> R.string.angel_567
+                            "678" -> R.string.angel_678
+                            "789" -> R.string.angel_789
+                            "0123" -> R.string.angel_0123
                             "1234" -> R.string.angel_1234
+                            "2345" -> R.string.angel_2345
+                            "3456" -> R.string.angel_3456
+                            "4567" -> R.string.angel_4567
+                            "5678" -> R.string.angel_5678
+                            "6789" -> R.string.angel_6789
+                            "01234" -> R.string.angel_01234
                             "12345" -> R.string.angel_12345
+                            "23456" -> R.string.angel_23456
+                            "34567" -> R.string.angel_34567
+                            "45678" -> R.string.angel_45678
+                            "56789" -> R.string.angel_56789
+                            "012345" -> R.string.angel_012345
                             "123456" -> R.string.angel_123456
+                            "234567" -> R.string.angel_234567
+                            "345678" -> R.string.angel_345678
+                            "456789" -> R.string.angel_456789
                             else -> R.string.angel_sequence_ascending
                         }
                     )
                 }
 
                 if (descending) {
-                    results.add(R.string.angel_sequence_descending)
+                    results.add(
+                        when (sub) {
+                            "210" -> R.string.angel_210
+                            "321" -> R.string.angel_321
+                            "432" -> R.string.angel_432
+                            "543" -> R.string.angel_543
+                            "654" -> R.string.angel_654
+                            "765" -> R.string.angel_765
+                            "876" -> R.string.angel_876
+                            "987" -> R.string.angel_987
+                            "3210" -> R.string.angel_3210
+                            "4321" -> R.string.angel_4321
+                            "5432" -> R.string.angel_5432
+                            "6543" -> R.string.angel_6543
+                            "7654" -> R.string.angel_7654
+                            "8765" -> R.string.angel_8765
+                            "9876" -> R.string.angel_9876
+                            "43210" -> R.string.angel_43210
+                            "54321" -> R.string.angel_54321
+                            "65432" -> R.string.angel_65432
+                            "76543" -> R.string.angel_76543
+                            "87654" -> R.string.angel_87654
+                            "98765" -> R.string.angel_98765
+                            "543210" -> R.string.angel_543210
+                            "654321" -> R.string.angel_654321
+                            "765432" -> R.string.angel_765432
+                            "876543" -> R.string.angel_876543
+                            "987654" -> R.string.angel_987654
+                            else -> R.string.angel_sequence_descending
+                        }
+                    )
                 }
             }
         }
     }
 
-    // MIRROR / PALINDROME
+    // =====================================================
+    // DETECT MIRROR / PALINDROME
+    // =====================================================
     private fun detectMirror(number: String, results: MutableSet<Int>) {
         if (number.length >= 4) {
             if (number == number.reversed()) {

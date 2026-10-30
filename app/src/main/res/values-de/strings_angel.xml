@@ -85,13 +85,79 @@
     <string name="angel_21">21: Integration – Gegensätze verbinden sich.</string>
     <string name="angel_101">101: Erwachen – Bewusstheit auf neuer Ebene.</string>
     <string name="angel_1212">1212: Balance im Wandel – Stabilität in Bewegung.</string>
+
+    <!-- Aufsteigende 3er-Folgen -->
+    <string name="angel_012">012: Neubeginn – Der erste Schritt auf einem neuen Weg.</string>
     <string name="angel_123">123: Kreativer Fluss – Ideen kommen ungehemmt.</string>
+    <string name="angel_234">234: Schritt für Schritt – Vertrauen in deine Entwicklung.</string>
+    <string name="angel_345">345: Dynamischer Wandel – Wachstum durch Veränderung.</string>
+    <string name="angel_456">456: Stabilität im Wandel – Bewusst den nächsten Schritt gehen.</string>
+    <string name="angel_567">567: Erkenntnis und Wachstum – Neue Perspektiven entstehen.</string>
+    <string name="angel_678">678: Ausrichtung – Ziele mit Klarheit verfolgen.</string>
+    <string name="angel_789">789: Vollendung – Ein Abschnitt nähert sich seinem Abschluss.</string>
+
+    <!-- Absteigende 3er-Folgen -->
+    <string name="angel_210">210: Rückkehr zum Ursprung – Besinnung und Neuorientierung.</string>
+    <string name="angel_321">321: Vorbereitung – Ein neuer Schritt beginnt.</string>
+    <string name="angel_432">432: Klarheit – Zurück zum Wesentlichen finden.</string>
+    <string name="angel_543">543: Loslassen – Raum für Veränderung schaffen.</string>
+    <string name="angel_654">654: Vereinfachung – Konzentration auf das Wesentliche.</string>
+    <string name="angel_765">765: Rückblick – Aus Erfahrungen lernen.</string>
+    <string name="angel_876">876: Neuordnung – Überflüssiges loslassen.</string>
+    <string name="angel_987">987: Abschluss – Vergangenes bewusst integrieren.</string>
+
+    <!-- Aufsteigende 4er-Folgen -->
+    <string name="angel_0123">0123: Neubeginn in Bewegung – Schrittweise Entwicklung.</string>
     <string name="angel_1234">1234: Strukturierte Manifestation – Dein Plan wird greifbar.</string>
+    <string name="angel_2345">2345: Dynamische Entwicklung – Wachstum durch bewusste Schritte.</string>
+    <string name="angel_3456">3456: Kontinuierlicher Fortschritt – Eine Entwicklung baut auf der nächsten auf.</string>
+    <string name="angel_4567">4567: Bewusster Wandel – Deinen Weg klar weitergehen.</string>
+    <string name="angel_5678">5678: Wachstum und Erkenntnis – Neue Möglichkeiten entdecken.</string>
+    <string name="angel_6789">6789: Vollendung und Übergang – Ein neuer Abschnitt wird sichtbar.</string>
+
+    <!-- Absteigende 4er-Folgen -->
+    <string name="angel_3210">3210: Rückkehr zum Ursprung – Einen Zyklus bewusst abschließen.</string>
+    <string name="angel_4321">4321: Innere Ordnung – Schrittweise Klarheit gewinnen.</string>
+    <string name="angel_5432">5432: Loslassen und Wandlung – Altes darf sich verändern.</string>
+    <string name="angel_6543">6543: Vereinfachung – Energie auf das Wesentliche richten.</string>
+    <string name="angel_7654">7654: Rückbesinnung – Erfahrungen integrieren.</string>
+    <string name="angel_8765">8765: Neuorientierung – Bewusst Ballast ablegen.</string>
+    <string name="angel_9876">9876: Abschluss und Erkenntnis – Vergangenes würdigen.</string>
+
+    <!-- Aufsteigende 5er-Folgen -->
+    <string name="angel_01234">01234: Schrittweiser Neubeginn – Aus einem Impuls wird Entwicklung.</string>
     <string name="angel_12345">12345: Dynamische Entwicklung – Wachstum in vielen Bereichen.</string>
+    <string name="angel_23456">23456: Fortschritt und Balance – Jeder Schritt stärkt den nächsten.</string>
+    <string name="angel_34567">34567: Veränderung und Erkenntnis – Wachstum durch Erfahrung.</string>
+    <string name="angel_45678">45678: Klarer Entwicklungsweg – Bewusst auf das Ziel zugehen.</string>
+    <string name="angel_56789">56789: Vollendung einer Entwicklung – Ein neuer Horizont öffnet sich.</string>
+
+    <!-- Absteigende 5er-Folgen -->
+    <string name="angel_43210">43210: Rückkehr zum Ursprung – Ein Weg findet seinen Abschluss.</string>
+    <string name="angel_54321">54321: Bewusster Übergang – Loslassen und neu beginnen.</string>
+    <string name="angel_65432">65432: Innere Klärung – Schritt für Schritt vereinfachen.</string>
+    <string name="angel_76543">76543: Rückblick und Integration – Erkenntnisse mitnehmen.</string>
+    <string name="angel_87654">87654: Loslassen und Neuordnung – Raum für Neues schaffen.</string>
+    <string name="angel_98765">98765: Abschluss und Rückbesinnung – Vergangenes bewusst loslassen.</string>
+
+    <!-- Aufsteigende 6er-Folgen -->
+    <string name="angel_012345">012345: Vom Anfang zur Entfaltung – Schrittweise Entwicklung.</string>
     <string name="angel_123456">123456: Vollständige Vollendung – Der Zyklus schließt sich, neue Wege öffnen sich.</string>
-    <string name="angel_palindrome">Spiegelzahl – Innere und äußere Welt reflektieren sich.</string>
-    <string name="angel_mirror">Spiegelmuster – Erkenntnis durch Selbstbeobachtung.</string>
-    <string name="angel_alternating">Wechselmuster – Zwei Energien wirken im Rhythmus.</string>
-    <string name="angel_sequence_ascending">Aufsteigende Sequenz – Entwicklung geschieht bewusst.</string>
-    <string name="angel_sequence_descending">Absteigende Sequenz – Loslassen bringt Transformation.</string>
+    <string name="angel_234567">234567: Bewusster Wandel – Entwicklung als fortlaufenden Prozess verstehen.</string>
+    <string name="angel_345678">345678: Wachstum mit Ausrichtung – Eine Entwicklung baut auf der nächsten auf.</string>
+    <string name="angel_456789">456789: Vollendung und Neubeginn – Ein Abschnitt geht in einen neuen über.</string>
+
+    <!-- Absteigende 6er-Folgen -->
+    <string name="angel_543210">543210: Rückkehr zum Ursprung – Eine Entwicklung bewusst abschließen.</string>
+    <string name="angel_654321">654321: Bewusster Abschluss – Erfahrungen ordnen und loslassen.</string>
+    <string name="angel_765432">765432: Rückbesinnung und Erkenntnis – Das Wesentliche erkennen.</string>
+    <string name="angel_876543">876543: Loslassen und Transformation – Platz für neue Wege schaffen.</string>
+    <string name="angel_987654">987654: Vollendung und Integration – Vergangenes würdigen und weitergehen.</string>
+
+    <!-- Allgemeine Muster -->
+    <string name="angel_palindrome">Spiegelzahl - Innere und äußere Welt reflektieren sich.</string>
+    <string name="angel_mirror">Spiegelmuster - Erkenntnis durch Selbstbeobachtung.</string>
+    <string name="angel_alternating">Wechselmuster - Zwei Energien wirken im Rhythmus.</string>
+    <string name="angel_sequence_ascending">Aufsteigende Sequenz - Entwicklung geschieht bewusst.</string>
+    <string name="angel_sequence_descending">Absteigende Sequenz - Loslassen bringt Transformation.</string>
 </resources>

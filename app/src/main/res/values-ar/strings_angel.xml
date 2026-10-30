@@ -85,13 +85,79 @@
     <string name="angel_21">21: اندماج – الأضداد تتحد.</string>
     <string name="angel_101">101: يقظة – وعي على مستوى جديد.</string>
     <string name="angel_1212">1212: توازن في التغيير – ثبات في الحركة.</string>
-    <string name="angel_123">123: تدفق إبداعي – الأفكار تتدفق بحرية.</string>
-    <string name="angel_1234">1234: تجلٍ منظم – خطتك تصبح ملموسة.</string>
-    <string name="angel_12345">12345: تطور ديناميكي – نمو في مجالات عديدة.</string>
-    <string name="angel_123456">123456: اكتمال تام – الدورة تُغلق وتفتح طرق جديدة.</string>
-    <string name="angel_palindrome">رقم مرآتي – العالم الداخلي والخارجي ينعكسان.</string>
-    <string name="angel_mirror">نمط مرآتي – إدراك عبر مراقبة الذات.</string>
-    <string name="angel_alternating">نمط متناوب – طاقتان تعملان بإيقاع.</string>
-    <string name="angel_sequence_ascending">تسلسل تصاعدي – التطور يحدث بوعي.</string>
-    <string name="angel_sequence_descending">تسلسل تنازلي – التحرر يجلب التحول.</string>
+
+    <!-- Aufsteigende 3-stellige Zahlenfolgen -->
+    <string name="angel_012">012: بدايات جديدة – الخطوة الأولى على طريق جديد.</string>
+    <string name="angel_123">123: التدفق الإبداعي – تنبثق الأفكار بحرية.</string>
+    <string name="angel_234">234: خطوة بخطوة – ثق بتطورك.</string>
+    <string name="angel_345">345: تغيير ديناميكي – النمو من خلال التحول.</string>
+    <string name="angel_456">456: الاستقرار في التغيير – اتخذ خطوتك التالية بوعي.</string>
+    <string name="angel_567">567: البصيرة والنمو – تظهر آفاق جديدة.</string>
+    <string name="angel_678">678: الانسجام مع المسار – تابع أهدافك بوضوح.</string>
+    <string name="angel_789">789: الاكتمال – يقترب فصل من نهايته.</string>
+
+    <!-- Absteigende 3-stellige Zahlenfolgen -->
+    <string name="angel_210">210: العودة إلى الأصل – التأمل وإعادة توجيه المسار.</string>
+    <string name="angel_321">321: الاستعداد – توشك خطوة جديدة على البدء.</string>
+    <string name="angel_432">432: الوضوح – عد إلى ما هو مهم حقًا.</string>
+    <string name="angel_543">543: التحرر – أفسح المجال للتغيير.</string>
+    <string name="angel_654">654: التبسيط – ركز على ما يهم حقًا.</string>
+    <string name="angel_765">765: التأمل – تعلم من تجارب الماضي.</string>
+    <string name="angel_876">876: إعادة التنظيم – تخلَّ عما لم تعد بحاجة إليه.</string>
+    <string name="angel_987">987: الاكتمال – استوعب الماضي بوعي.</string>
+
+    <!-- Aufsteigende 4-stellige Zahlenfolgen -->
+    <string name="angel_0123">0123: بدايات جديدة تتحرك – تطور تدريجي.</string>
+    <string name="angel_1234">1234: التجسيد المنظم – خطتك تتخذ شكلًا واضحًا.</string>
+    <string name="angel_2345">2345: تطور ديناميكي – النمو من خلال خطوات واعية.</string>
+    <string name="angel_3456">3456: تقدم مستمر – كل مرحلة تبني على المرحلة السابقة.</string>
+    <string name="angel_4567">4567: تغيير واعٍ – واصل طريقك بوضوح.</string>
+    <string name="angel_5678">5678: النمو والبصيرة – اكتشف إمكانيات جديدة.</string>
+    <string name="angel_6789">6789: الاكتمال والانتقال – يلوح فصل جديد في الأفق.</string>
+
+    <!-- Absteigende 4-stellige Zahlenfolgen -->
+    <string name="angel_3210">3210: العودة إلى الأصل – أكمل دورة بوعي.</string>
+    <string name="angel_4321">4321: النظام الداخلي – اعثر على الوضوح خطوة بخطوة.</string>
+    <string name="angel_5432">5432: التحرر والتحول – اسمح للماضي أن يتغير.</string>
+    <string name="angel_6543">6543: التبسيط – وجّه طاقتك نحو ما يهم.</string>
+    <string name="angel_7654">7654: التأمل – استوعب تجاربك.</string>
+    <string name="angel_8765">8765: إعادة توجيه المسار – تخلَّ بوعي عن الأعباء غير الضرورية.</string>
+    <string name="angel_9876">9876: الاكتمال والبصيرة – قدّر ما مضى.</string>
+
+    <!-- Aufsteigende 5-stellige Zahlenfolgen -->
+    <string name="angel_01234">01234: بدايات جديدة تدريجية – يتحول الدافع الأول إلى نمو.</string>
+    <string name="angel_12345">12345: تطور ديناميكي – النمو في مجالات متعددة من الحياة.</string>
+    <string name="angel_23456">23456: التقدم والتوازن – كل خطوة تعزز الخطوة التالية.</string>
+    <string name="angel_34567">34567: التغيير والبصيرة – النمو من خلال التجربة.</string>
+    <string name="angel_45678">45678: مسار واضح للتطور – تحرك بوعي نحو هدفك.</string>
+    <string name="angel_56789">56789: اكتمال الرحلة – أفق جديد ينفتح أمامك.</string>
+
+    <!-- Absteigende 5-stellige Zahlenfolgen -->
+    <string name="angel_43210">43210: العودة إلى الأصل – تصل الرحلة إلى نهايتها.</string>
+    <string name="angel_54321">54321: انتقال واعٍ – تخلَّ عن القديم وابدأ من جديد.</string>
+    <string name="angel_65432">65432: الوضوح الداخلي – بسّط الأمور خطوة بخطوة.</string>
+    <string name="angel_76543">76543: التأمل والتكامل – احمل رؤاك معك إلى الأمام.</string>
+    <string name="angel_87654">87654: التحرر وإعادة التنظيم – أفسح المجال لشيء جديد.</string>
+    <string name="angel_98765">98765: الاكتمال والتأمل – تخلَّ عن الماضي بوعي.</string>
+
+    <!-- Aufsteigende 6-stellige Zahlenfolgen -->
+    <string name="angel_012345">012345: من البداية إلى النمو – التطور خطوة بخطوة.</string>
+    <string name="angel_123456">123456: الاكتمال التام – تنتهي دورة وتُفتح طرق جديدة.</string>
+    <string name="angel_234567">234567: تغيير واعٍ – تقبّل التطور بوصفه عملية مستمرة.</string>
+    <string name="angel_345678">345678: نمو ذو اتجاه واضح – كل مرحلة تبني على المرحلة السابقة.</string>
+    <string name="angel_456789">456789: الاكتمال والبدايات الجديدة – يفسح فصل المجال لفصل آخر.</string>
+
+    <!-- Absteigende 6-stellige Zahlenfolgen -->
+    <string name="angel_543210">543210: العودة إلى الأصل – أكمل عملية بوعي.</string>
+    <string name="angel_654321">654321: إتمام واعٍ – نظّم تجاربك وتحرر مما مضى.</string>
+    <string name="angel_765432">765432: التأمل والبصيرة – أدرك ما يهم حقًا.</string>
+    <string name="angel_876543">876543: التحرر والتحول – أفسح المجال لمسارات جديدة.</string>
+    <string name="angel_987654">987654: الاكتمال والتكامل – قدّر الماضي وواصل التقدم.</string>
+
+    <!-- Allgemeine Muster -->
+    <string name="angel_palindrome">العدد المتناظر – يعكس العالم الداخلي والعالم الخارجي أحدهما الآخر.</string>
+    <string name="angel_mirror">النمط المرآتي – اكتساب البصيرة من خلال مراقبة الذات.</string>
+    <string name="angel_alternating">النمط المتناوب – تتحرك طاقتان في إيقاع متناغم.</string>
+    <string name="angel_sequence_ascending">التسلسل التصاعدي – يتكشف التطور بوعي.</string>
+    <string name="angel_sequence_descending">التسلسل التنازلي – يفتح التحرر الطريق للتحول.</string>
 </resources>

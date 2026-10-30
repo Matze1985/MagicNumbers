@@ -85,13 +85,79 @@
     <string name="angel_21">21：整合 —— 对立面融合。</string>
     <string name="angel_101">101：觉醒 —— 意识提升到新的层次。</string>
     <string name="angel_1212">1212：变化中的平衡 —— 流动中的稳定。</string>
-    <string name="angel_123">123：创造之流 —— 灵感自由涌现。</string>
-    <string name="angel_1234">1234：有序显化 —— 你的计划逐渐成形。</string>
-    <string name="angel_12345">12345：动态发展 —— 多方面的成长。</string>
-    <string name="angel_123456">123456：完整圆满 —— 循环闭合，新道路开启。</string>
-    <string name="angel_palindrome">镜像数字 —— 内在与外在世界相互映照。</string>
-    <string name="angel_mirror">镜像模式 —— 通过自我观察获得领悟。</string>
-    <string name="angel_alternating">交替模式 —— 两种能量在节奏中运作。</string>
-    <string name="angel_sequence_ascending">上升序列 —— 成长有意识地展开。</string>
-    <string name="angel_sequence_descending">下降序列 —— 放下带来转化。</string>
+
+    <!-- 3位升序数字序列 -->
+    <string name="angel_012">012：全新开始 – 踏上新道路的第一步。</string>
+    <string name="angel_123">123：创意流动 – 灵感自由涌现。</string>
+    <string name="angel_234">234：循序渐进 – 相信自己的成长。</string>
+    <string name="angel_345">345：动态变化 – 在变化中成长。</string>
+    <string name="angel_456">456：变化中的稳定 – 有意识地迈出下一步。</string>
+    <string name="angel_567">567：领悟与成长 – 新的视角正在形成。</string>
+    <string name="angel_678">678：明确方向 – 清晰地朝着目标前进。</string>
+    <string name="angel_789">789：圆满 – 一个阶段即将结束。</string>
+
+    <!-- 3位降序数字序列 -->
+    <string name="angel_210">210：回归本源 – 反思与重新定位。</string>
+    <string name="angel_321">321：准备 – 新的一步即将开始。</string>
+    <string name="angel_432">432：清晰 – 重新找到真正重要的事物。</string>
+    <string name="angel_543">543：放下 – 为改变创造空间。</string>
+    <string name="angel_654">654：简化 – 专注于最重要的事情。</string>
+    <string name="angel_765">765：回顾 – 从过往经历中学习。</string>
+    <string name="angel_876">876：重新整理 – 放下不再需要的事物。</string>
+    <string name="angel_987">987：结束 – 有意识地接纳并整合过去。</string>
+
+    <!-- 4位升序数字序列 -->
+    <string name="angel_0123">0123：新的开始与行动 – 循序渐进地发展。</string>
+    <string name="angel_1234">1234：有序实现 – 你的计划正在变得具体。</string>
+    <string name="angel_2345">2345：动态发展 – 通过有意识的行动不断成长。</string>
+    <string name="angel_3456">3456：持续进步 – 每一个阶段都建立在前一个阶段之上。</string>
+    <string name="angel_4567">4567：有意识的改变 – 清晰坚定地继续前行。</string>
+    <string name="angel_5678">5678：成长与领悟 – 探索新的可能性。</string>
+    <string name="angel_6789">6789：圆满与过渡 – 新的阶段逐渐显现。</string>
+
+    <!-- 4位降序数字序列 -->
+    <string name="angel_3210">3210：回归本源 – 有意识地结束一个周期。</string>
+    <string name="angel_4321">4321：内在秩序 – 一步一步获得清晰。</string>
+    <string name="angel_5432">5432：放下与转变 – 旧有事物可以发生改变。</string>
+    <string name="angel_6543">6543：简化 – 将能量集中在真正重要的事情上。</string>
+    <string name="angel_7654">7654：回归自我 – 整合自己的经历。</string>
+    <string name="angel_8765">8765：重新定位 – 有意识地卸下不必要的负担。</string>
+    <string name="angel_9876">9876：结束与领悟 – 珍惜过去带给你的经验。</string>
+
+    <!-- 5位升序数字序列 -->
+    <string name="angel_01234">01234：循序渐进的新开始 – 一个念头逐渐发展成新的成长。</string>
+    <string name="angel_12345">12345：动态发展 – 在多个领域不断成长。</string>
+    <string name="angel_23456">23456：进步与平衡 – 每一步都为下一步积蓄力量。</string>
+    <string name="angel_34567">34567：改变与领悟 – 在经历中成长。</string>
+    <string name="angel_45678">45678：清晰的发展道路 – 有意识地朝目标前进。</string>
+    <string name="angel_56789">56789：发展圆满 – 一个新的视野正在展开。</string>
+
+    <!-- 5位降序数字序列 -->
+    <string name="angel_43210">43210：回归本源 – 一段旅程即将走向终点。</string>
+    <string name="angel_54321">54321：有意识的过渡 – 放下旧事，重新开始。</string>
+    <string name="angel_65432">65432：内在澄明 – 一步一步让生活变得简单。</string>
+    <string name="angel_76543">76543：回顾与整合 – 带走从经历中获得的领悟。</string>
+    <string name="angel_87654">87654：放下与重新整理 – 为新的事物腾出空间。</string>
+    <string name="angel_98765">98765：结束与反思 – 有意识地放下过去。</string>
+
+    <!-- 6位升序数字序列 -->
+    <string name="angel_012345">012345：从开始走向绽放 – 循序渐进地成长。</string>
+    <string name="angel_123456">123456：完整圆满 – 一个周期结束，新的道路随之开启。</string>
+    <string name="angel_234567">234567：有意识的改变 – 将发展视为一个持续不断的过程。</string>
+    <string name="angel_345678">345678：有方向的成长 – 每个阶段都建立在前一个阶段之上。</string>
+    <string name="angel_456789">456789：圆满与新生 – 一个阶段过渡到另一个阶段。</string>
+
+    <!-- 6位降序数字序列 -->
+    <string name="angel_543210">543210：回归本源 – 有意识地完成一段发展历程。</string>
+    <string name="angel_654321">654321：有意识的结束 – 整理经历，放下过去。</string>
+    <string name="angel_765432">765432：反思与领悟 – 看清真正重要的事情。</string>
+    <string name="angel_876543">876543：放下与转化 – 为新的道路创造空间。</string>
+    <string name="angel_987654">987654：圆满与整合 – 珍惜过去，继续向前。</string>
+
+    <!-- 通用数字模式 -->
+    <string name="angel_palindrome">回文数字 – 内在世界与外在世界相互映照。</string>
+    <string name="angel_mirror">镜像模式 – 通过自我观察获得领悟。</string>
+    <string name="angel_alternating">交替模式 – 两种能量按照节奏交替作用。</string>
+    <string name="angel_sequence_ascending">升序序列 – 成长在有意识中发生。</string>
+    <string name="angel_sequence_descending">降序序列 – 放下能够带来转化。</string>
 </resources>

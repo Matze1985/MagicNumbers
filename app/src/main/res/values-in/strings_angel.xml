@@ -85,13 +85,79 @@
     <string name="angel_21">21: Integrasi – Hal-hal yang berlawanan bersatu.</string>
     <string name="angel_101">101: Kebangkitan – Kesadaran pada tingkat baru.</string>
     <string name="angel_1212">1212: Keseimbangan dalam Perubahan – Stabilitas dalam gerakan.</string>
-    <string name="angel_123">123: Aliran Kreatif – Ide mengalir bebas.</string>
-    <string name="angel_1234">1234: Manifestasi Terstruktur – Rencanamu mulai terbentuk.</string>
-    <string name="angel_12345">12345: Perkembangan Dinamis – Pertumbuhan di berbagai bidang.</string>
-    <string name="angel_123456">123456: Penyelesaian Sempurna – Siklus berakhir dan jalan baru terbuka.</string>
-    <string name="angel_palindrome">Angka Cermin – Dunia batin dan luar saling mencerminkan.</string>
-    <string name="angel_mirror">Pola Cermin – Pemahaman melalui pengamatan diri.</string>
-    <string name="angel_alternating">Pola Bergantian – Dua energi bergerak dalam ritme.</string>
-    <string name="angel_sequence_ascending">Urutan Naik – Perkembangan terjadi secara sadar.</string>
-    <string name="angel_sequence_descending">Urutan Turun – Melepaskan membawa transformasi.</string>
+
+    <!-- Urutan angka 3 digit menaik -->
+    <string name="angel_012">012: Awal yang Baru – Langkah pertama menuju jalan baru.</string>
+    <string name="angel_123">123: Aliran Kreatif – Ide-ide muncul dengan bebas.</string>
+    <string name="angel_234">234: Selangkah demi Selangkah – Percayalah pada perkembangan dirimu.</string>
+    <string name="angel_345">345: Perubahan Dinamis – Bertumbuh melalui transformasi.</string>
+    <string name="angel_456">456: Stabilitas dalam Perubahan – Ambil langkah berikutnya dengan penuh kesadaran.</string>
+    <string name="angel_567">567: Wawasan dan Pertumbuhan – Perspektif baru mulai terbuka.</string>
+    <string name="angel_678">678: Keselarasan – Kejar tujuanmu dengan jelas.</string>
+    <string name="angel_789">789: Penyelesaian – Sebuah bab sedang mendekati akhirnya.</string>
+
+    <!-- Urutan angka 3 digit menurun -->
+    <string name="angel_210">210: Kembali ke Asal – Renungkan dan tentukan kembali arahmu.</string>
+    <string name="angel_321">321: Persiapan – Tahap baru akan segera dimulai.</string>
+    <string name="angel_432">432: Kejelasan – Kembalilah pada hal yang benar-benar penting.</string>
+    <string name="angel_543">543: Melepaskan – Berikan ruang bagi perubahan.</string>
+    <string name="angel_654">654: Penyederhanaan – Fokuslah pada hal yang benar-benar penting.</string>
+    <string name="angel_765">765: Refleksi – Belajarlah dari pengalaman masa lalu.</string>
+    <string name="angel_876">876: Penataan Ulang – Lepaskan hal-hal yang tidak lagi kamu butuhkan.</string>
+    <string name="angel_987">987: Penyelesaian – Integrasikan masa lalu dengan penuh kesadaran.</string>
+
+    <!-- Urutan angka 4 digit menaik -->
+    <string name="angel_0123">0123: Awal Baru yang Bergerak – Perkembangan secara bertahap.</string>
+    <string name="angel_1234">1234: Perwujudan Terstruktur – Rencanamu mulai terbentuk.</string>
+    <string name="angel_2345">2345: Perkembangan Dinamis – Bertumbuh melalui langkah-langkah yang sadar.</string>
+    <string name="angel_3456">3456: Kemajuan Berkelanjutan – Setiap tahap dibangun di atas tahap sebelumnya.</string>
+    <string name="angel_4567">4567: Perubahan Sadar – Lanjutkan perjalananmu dengan kejelasan.</string>
+    <string name="angel_5678">5678: Pertumbuhan dan Wawasan – Temukan berbagai kemungkinan baru.</string>
+    <string name="angel_6789">6789: Penyelesaian dan Peralihan – Bab baru mulai terlihat.</string>
+
+    <!-- Urutan angka 4 digit menurun -->
+    <string name="angel_3210">3210: Kembali ke Asal – Selesaikan satu siklus dengan penuh kesadaran.</string>
+    <string name="angel_4321">4321: Keteraturan Batin – Temukan kejelasan selangkah demi selangkah.</string>
+    <string name="angel_5432">5432: Melepaskan dan Transformasi – Biarkan hal-hal lama berubah.</string>
+    <string name="angel_6543">6543: Penyederhanaan – Arahkan energimu pada hal yang penting.</string>
+    <string name="angel_7654">7654: Refleksi – Integrasikan pengalamanmu.</string>
+    <string name="angel_8765">8765: Menentukan Arah Baru – Lepaskan beban yang tidak diperlukan dengan sadar.</string>
+    <string name="angel_9876">9876: Penyelesaian dan Wawasan – Hargai hal-hal yang telah berlalu.</string>
+
+    <!-- Urutan angka 5 digit menaik -->
+    <string name="angel_01234">01234: Awal Baru Bertahap – Dorongan awal berkembang menjadi pertumbuhan.</string>
+    <string name="angel_12345">12345: Perkembangan Dinamis – Pertumbuhan dalam berbagai bidang kehidupan.</string>
+    <string name="angel_23456">23456: Kemajuan dan Keseimbangan – Setiap langkah memperkuat langkah berikutnya.</string>
+    <string name="angel_34567">34567: Perubahan dan Wawasan – Bertumbuh melalui pengalaman.</string>
+    <string name="angel_45678">45678: Jalur Perkembangan yang Jelas – Bergeraklah dengan sadar menuju tujuanmu.</string>
+    <string name="angel_56789">56789: Penyelesaian Perjalanan – Cakrawala baru terbuka.</string>
+
+    <!-- Urutan angka 5 digit menurun -->
+    <string name="angel_43210">43210: Kembali ke Asal – Perjalanan mencapai akhirnya.</string>
+    <string name="angel_54321">54321: Peralihan Sadar – Lepaskan yang lama dan mulailah kembali.</string>
+    <string name="angel_65432">65432: Kejernihan Batin – Sederhanakan berbagai hal selangkah demi selangkah.</string>
+    <string name="angel_76543">76543: Refleksi dan Integrasi – Bawalah wawasanmu untuk melangkah maju.</string>
+    <string name="angel_87654">87654: Melepaskan dan Penataan Ulang – Berikan ruang bagi sesuatu yang baru.</string>
+    <string name="angel_98765">98765: Penyelesaian dan Refleksi – Lepaskan masa lalu dengan penuh kesadaran.</string>
+
+    <!-- Urutan angka 6 digit menaik -->
+    <string name="angel_012345">012345: Dari Awal Menuju Pertumbuhan – Berkembang selangkah demi selangkah.</string>
+    <string name="angel_123456">123456: Pemenuhan Menyeluruh – Satu siklus berakhir saat jalan-jalan baru terbuka.</string>
+    <string name="angel_234567">234567: Perubahan Sadar – Terimalah perkembangan sebagai proses yang berkelanjutan.</string>
+    <string name="angel_345678">345678: Pertumbuhan Terarah – Setiap tahap dibangun di atas tahap sebelumnya.</string>
+    <string name="angel_456789">456789: Penyelesaian dan Awal Baru – Satu bab memberi jalan bagi bab berikutnya.</string>
+
+    <!-- Urutan angka 6 digit menurun -->
+    <string name="angel_543210">543210: Kembali ke Asal – Selesaikan suatu proses dengan penuh kesadaran.</string>
+    <string name="angel_654321">654321: Penyelesaian Sadar – Tata pengalamanmu dan lepaskan masa lalu.</string>
+    <string name="angel_765432">765432: Refleksi dan Wawasan – Kenali apa yang benar-benar penting.</string>
+    <string name="angel_876543">876543: Melepaskan dan Transformasi – Berikan ruang bagi jalan-jalan baru.</string>
+    <string name="angel_987654">987654: Penyelesaian dan Integrasi – Hargai masa lalu dan teruslah melangkah maju.</string>
+
+    <!-- Pola umum -->
+    <string name="angel_palindrome">Angka Palindrom – Dunia batin dan dunia luar saling mencerminkan.</string>
+    <string name="angel_mirror">Pola Cermin – Wawasan melalui pengamatan diri.</string>
+    <string name="angel_alternating">Pola Bergantian – Dua energi bergerak dalam irama yang selaras.</string>
+    <string name="angel_sequence_ascending">Urutan Menaik – Perkembangan berlangsung secara sadar.</string>
+    <string name="angel_sequence_descending">Urutan Menurun – Melepaskan membuka jalan menuju transformasi.</string>
 </resources>
