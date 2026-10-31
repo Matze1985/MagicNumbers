@@ -79,13 +79,6 @@
     <string name="angel_9_5">99999: Zrelost – Pripravljen si na naslednji korak.</string>
     <string name="angel_9_6">999999: Izpolnitev – Krog se sklene.</string>
 
-    <!-- 10 & Zrcalne številke -->
-    <string name="angel_10">10: Nov začetek – En cikel se konča, drugi začne.</string>
-    <string name="angel_12">12: Učni proces – Rast skozi izkušnje.</string>
-    <string name="angel_21">21: Integracija – Nasprotja se povežejo.</string>
-    <string name="angel_101">101: Prebujenje – Zavest na novi ravni.</string>
-    <string name="angel_1212">1212: Ravnovesje v spremembi – Stabilnost v gibanju.</string>
-
     <!-- Naraščajoča zaporedja s 3 števkami -->
     <string name="angel_012">012: Nov začetek – Prvi korak na novi poti.</string>
     <string name="angel_123">123: Ustvarjalni tok – Ideje prihajajo svobodno.</string>
@@ -155,9 +148,12 @@
     <string name="angel_987654">987654: Dovršitev in vključevanje – Ceni preteklost in nadaljuj svojo pot.</string>
 
     <!-- Splošni vzorci -->
-    <string name="angel_palindrome">Palindromsko število – Notranji in zunanji svet se zrcalita drug v drugem.</string>
-    <string name="angel_mirror">Zrcalni vzorec – Spoznanje skozi samoopazovanje.</string>
     <string name="angel_alternating">Izmenični vzorec – Dve energiji delujeta v ritmu.</string>
     <string name="angel_sequence_ascending">Naraščajoče zaporedje – Razvoj poteka zavestno.</string>
     <string name="angel_sequence_descending">Padajoče zaporedje – Spuščanje omogoča preobrazbo.</string>
+    <string name="angel_palindrome">Zrcalna podoba – Začetek in konec se srečata. To zaporedje števil te vabi, da se za trenutek ustaviš, prepoznaš lastne vzorce in zavestno povežeš svoje izkušnje.</string>
+    <string name="angel_mirror">Zrcaljenje – Nasprotja in podobnosti vstopajo v medsebojni odnos. Poišči svoje ravnovesje in poskusi pogledati na situacije tudi z druge perspektive.</string>
+    <string name="angel_mirror_exchange">Zrcalna izmenjava – Dva impulza se izmenjujeta in ustvarjata skupen ritem. Bodi pozoren na to, kako različne sile sodelujejo in odpirajo nove perspektive.</string>
+    <string name="angel_mirror_frame">Zrcalni okvir – Zunanji števki tvorita skupen okvir. Vabita te, da povežeš izhodišče s ciljem in bolj zavestno zaznavaš svojo lastno pot.</string>
+    <string name="angel_mirror_center">Zrcalno središče – V središču se srečata dva enaka impulza. Simbolizirata povezanost, ravnovesje in možnost, da različne izkušnje združiš v novo razumevanje.</string>
 </resources>

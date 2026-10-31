@@ -79,13 +79,6 @@
     <string name="angel_9_5">99999: Mognad – Du är redo för nästa steg.</string>
     <string name="angel_9_6">999999: Fulländning – Cirkeln sluts.</string>
 
-    <!-- 10 & Spegelnummer -->
-    <string name="angel_10">10: Ny början – En cykel slutar, en annan börjar.</string>
-    <string name="angel_12">12: Lärandeprocess – Tillväxt genom erfarenhet.</string>
-    <string name="angel_21">21: Integration – Motsatser förenas.</string>
-    <string name="angel_101">101: Uppvaknande – Medvetenhet på en ny nivå.</string>
-    <string name="angel_1212">1212: Balans i förändring – Stabilitet i rörelse.</string>
-
     <!-- Stigande sekvenser med 3 siffror -->
     <string name="angel_012">012: Ny början – Det första steget på en ny väg.</string>
     <string name="angel_123">123: Kreativt flöde – Idéerna kommer fritt.</string>
@@ -155,9 +148,12 @@
     <string name="angel_987654">987654: Fullbordan och integration – Värdesätt det förflutna och gå vidare.</string>
 
     <!-- Allmänna mönster -->
-    <string name="angel_palindrome">Palindromtal – Den inre och yttre världen speglar varandra.</string>
-    <string name="angel_mirror">Speg el mönster – Insikt genom självobservation.</string>
     <string name="angel_alternating">Växlande mönster – Två energier verkar i en rytm.</string>
     <string name="angel_sequence_ascending">Stigande sekvens – Utvecklingen sker medvetet.</string>
     <string name="angel_sequence_descending">Fallande sekvens – Att släppa taget möjliggör omvandling.</string>
+    <string name="angel_palindrome">Spegelbild – Början och slut möts. Denna siffersekvens inbjuder dig att stanna upp en stund, känna igen dina egna mönster och medvetet förena dina erfarenheter.</string>
+    <string name="angel_mirror">Återspegling – Motsatser och likheter står i relation till varandra. Hitta din egen balans och betrakta situationer även ur ett annat perspektiv.</string>
+    <string name="angel_mirror_exchange">Spegelväxling – Två impulser växlar med varandra och bildar en gemensam rytm. Lägg märke till hur olika krafter samverkar och öppnar nya perspektiv.</string>
+    <string name="angel_mirror_frame">Spegellram – De yttre siffrorna bildar en gemensam ram. De inbjuder dig att förena utgångspunkt och mål och bli mer medveten om din egen väg.</string>
+    <string name="angel_mirror_center">Spegelcentrum – I mitten möts två likadana impulser. De symboliserar samhörighet, balans och möjligheten att förena olika erfarenheter till en ny förståelse.</string>
 </resources>

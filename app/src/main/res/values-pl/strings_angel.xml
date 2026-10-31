@@ -79,13 +79,6 @@
     <string name="angel_9_5">99999: Dojrzałość – Jesteś gotowy na następny etap.</string>
     <string name="angel_9_6">999999: Spełnienie – Krąg się zamyka.</string>
 
-    <!-- Liczby 10+ i liczby lustrzane -->
-    <string name="angel_10">10: Nowy początek – Jeden cykl się zamyka, a drugi się rozpoczyna.</string>
-    <string name="angel_12">12: Proces uczenia się – Rozwój poprzez doświadczenie.</string>
-    <string name="angel_21">21: Integracja – Przeciwieństwa łączą się w całość.</string>
-    <string name="angel_101">101: Przebudzenie – Świadomość wkracza na nowy poziom.</string>
-    <string name="angel_1212">1212: Równowaga w zmianie – Stabilność w ruchu.</string>
-
     <!-- Rosnące sekwencje 3-cyfrowe -->
     <string name="angel_012">012: Nowy początek – Pierwszy krok na nowej drodze.</string>
     <string name="angel_123">123: Kreatywny przepływ – Pomysły pojawiają się swobodnie.</string>
@@ -155,9 +148,12 @@
     <string name="angel_987654">987654: Dopełnienie i integracja – Doceń przeszłość i idź dalej.</string>
 
     <!-- Wzorce ogólne -->
-    <string name="angel_palindrome">Liczba lustrzana - Świat wewnętrzny i zewnętrzny wzajemnie się odzwierciedlają.</string>
-    <string name="angel_mirror">Wzorzec lustrzany - Poznanie poprzez samoobserwację.</string>
     <string name="angel_alternating">Wzorzec naprzemienny - Dwie energie działają w rytmie.</string>
     <string name="angel_sequence_ascending">Sekwencja rosnąca - Rozwój dokonuje się świadomie.</string>
     <string name="angel_sequence_descending">Sekwencja malejąca - Puszczanie przynosi przemianę.</string>
+    <string name="angel_palindrome">Lustrzane odbicie – Początek i koniec spotykają się. Ten ciąg cyfr zachęca cię do zatrzymania się na chwilę, rozpoznania własnych wzorców i świadomego połączenia swoich doświadczeń.</string>
+    <string name="angel_mirror">Odbicie – Przeciwieństwa i podobieństwa wchodzą ze sobą w relację. Znajdź własną równowagę i spróbuj spojrzeć na sytuacje również z innej perspektywy.</string>
+    <string name="angel_mirror_exchange">Lustrzana wymiana – Dwa impulsy przeplatają się, tworząc wspólny rytm. Zwróć uwagę na to, jak różne siły współdziałają i otwierają nowe perspektywy.</string>
+    <string name="angel_mirror_frame">Lustrzana rama – Zewnętrzne cyfry tworzą wspólne obramowanie. Zachęcają cię do połączenia punktu wyjścia z celem i bardziej świadomego postrzegania własnej drogi.</string>
+    <string name="angel_mirror_center">Lustrzane centrum – W centrum spotykają się dwa jednakowe impulsy. Symbolizują one połączenie, równowagę oraz możliwość połączenia różnych doświadczeń w nowe zrozumienie.</string>
 </resources>

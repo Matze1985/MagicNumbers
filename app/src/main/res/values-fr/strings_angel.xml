@@ -79,13 +79,6 @@
     <string name="angel_9_5">99999 : Maturité – Tu es prêt(e) pour la suite.</string>
     <string name="angel_9_6">999999 : Achèvement – Le cercle se referme.</string>
 
-    <!-- 10 & Nombres miroir -->
-    <string name="angel_10">10 : Nouveau départ – Un cycle s’achève, un autre commence.</string>
-    <string name="angel_12">12 : Processus d’apprentissage – Évolution par l’expérience.</string>
-    <string name="angel_21">21 : Intégration – Les opposés s’unissent.</string>
-    <string name="angel_101">101 : Éveil – Conscience à un nouveau niveau.</string>
-    <string name="angel_1212">1212 : Équilibre dans le changement – Stabilité en mouvement.</string>
-
     <!-- Suites numériques croissantes à 3 chiffres -->
     <string name="angel_012">012 : Nouveaux départs – Le premier pas sur un nouveau chemin.</string>
     <string name="angel_123">123 : Flux créatif – Les idées émergent librement.</string>
@@ -155,9 +148,12 @@
     <string name="angel_987654">987654 : Achèvement et intégration – Honorez le passé et avancez.</string>
 
     <!-- Motifs généraux -->
-    <string name="angel_palindrome">Nombre palindrome – Le monde intérieur et le monde extérieur se reflètent mutuellement.</string>
-    <string name="angel_mirror">Motif miroir – Une prise de conscience grâce à l’observation de soi.</string>
     <string name="angel_alternating">Motif alterné – Deux énergies évoluent en rythme.</string>
     <string name="angel_sequence_ascending">Suite croissante – Le développement progresse consciemment.</string>
     <string name="angel_sequence_descending">Suite décroissante – Le lâcher-prise favorise la transformation.</string>
+    <string name="angel_palindrome">Image miroir – Le début et la fin se rencontrent. Cette séquence numérique t’invite à faire une pause, à reconnaître tes propres schémas et à relier consciemment tes expériences.</string>
+    <string name="angel_mirror">Reflet – Les opposés et les similitudes entrent en relation. Trouve ton propre équilibre et observe les situations sous un autre angle.</string>
+    <string name="angel_mirror_exchange">Échange miroir – Deux impulsions alternent et créent un rythme commun. Observe comment différentes forces interagissent et ouvrent de nouvelles perspectives.</string>
+    <string name="angel_mirror_frame">Cadre miroir – Les chiffres extérieurs forment un cadre commun. Ils t’invitent à relier ton point de départ à ton objectif et à prendre davantage conscience de ton propre chemin.</string>
+    <string name="angel_mirror_center">Centre miroir – Deux impulsions identiques se rencontrent au centre. Elles symbolisent le lien, l’équilibre et la possibilité de réunir différentes expériences pour parvenir à une nouvelle compréhension.</string>
 </resources>

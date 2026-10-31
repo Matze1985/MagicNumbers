@@ -79,13 +79,6 @@
     <string name="angel_9_5">99999: Rijpheid – Je bent klaar voor de volgende stap.</string>
     <string name="angel_9_6">999999: Voltooiing – De cirkel sluit zich.</string>
 
-    <!-- 10 & Spiegelgetallen -->
-    <string name="angel_10">10: Nieuw begin – Een cyclus sluit, een nieuwe begint.</string>
-    <string name="angel_12">12: Leerproces – Groei door ervaring.</string>
-    <string name="angel_21">21: Integratie – Tegenpolen verbinden zich.</string>
-    <string name="angel_101">101: Ontwaken – Bewustzijn op een nieuw niveau.</string>
-    <string name="angel_1212">1212: Balans in verandering – Stabiliteit in beweging.</string>
-
     <!-- Oplopende getallenreeksen van 3 cijfers -->
     <string name="angel_012">012: Nieuwe beginnen – De eerste stap op een nieuw pad.</string>
     <string name="angel_123">123: Creatieve stroom – Ideeën ontstaan vrijelijk.</string>
@@ -155,9 +148,12 @@
     <string name="angel_987654">987654: Voltooiing en integratie – Eer het verleden en ga verder.</string>
 
     <!-- Algemene patronen -->
-    <string name="angel_palindrome">Palindroomgetal – De innerlijke en uiterlijke wereld weerspiegelen elkaar.</string>
-    <string name="angel_mirror">Spiegelpatroon – Inzicht door zelfobservatie.</string>
     <string name="angel_alternating">Afwisselend patroon – Twee energieën bewegen in hetzelfde ritme.</string>
     <string name="angel_sequence_ascending">Oplopende getallenreeks – Ontwikkeling ontvouwt zich bewust.</string>
     <string name="angel_sequence_descending">Aflopende getallenreeks – Loslaten maakt transformatie mogelijk.</string>
+    <string name="angel_palindrome">Spiegelbeeld – Begin en einde ontmoeten elkaar. Deze cijferreeks nodigt je uit om even stil te staan, je eigen patronen te herkennen en je ervaringen bewust met elkaar te verbinden.</string>
+    <string name="angel_mirror">Weerspiegeling – Tegenstellingen en overeenkomsten komen met elkaar in relatie. Vind je eigen balans en bekijk situaties ook eens vanuit een ander perspectief.</string>
+    <string name="angel_mirror_exchange">Spiegelwisseling – Twee impulsen wisselen elkaar af en vormen samen een ritme. Let op hoe verschillende krachten samenwerken en nieuwe perspectieven openen.</string>
+    <string name="angel_mirror_frame">Spiegelkader – De buitenste cijfers vormen samen een kader. Ze nodigen je uit om beginpunt en doel met elkaar te verbinden en je eigen weg bewuster waar te nemen.</string>
+    <string name="angel_mirror_center">Spiegelcentrum – In het midden ontmoeten twee gelijke impulsen elkaar. Ze symboliseren verbinding, evenwicht en de mogelijkheid om verschillende ervaringen samen te brengen tot een nieuw inzicht.</string>
 </resources>

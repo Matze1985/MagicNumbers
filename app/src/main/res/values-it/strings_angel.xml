@@ -79,13 +79,6 @@
     <string name="angel_9_5">99999: Maturità – Sei pronto/a per il prossimo passo.</string>
     <string name="angel_9_6">999999: Realizzazione – Il cerchio si chiude.</string>
 
-    <!-- 10 & Numeri specchio -->
-    <string name="angel_10">10: Nuovo inizio – Un ciclo finisce, un altro comincia.</string>
-    <string name="angel_12">12: Processo di apprendimento – Crescita attraverso l’esperienza.</string>
-    <string name="angel_21">21: Integrazione – Gli opposti si uniscono.</string>
-    <string name="angel_101">101: Risveglio – Consapevolezza a un nuovo livello.</string>
-    <string name="angel_1212">1212: Equilibrio nel cambiamento – Stabilità in movimento.</string>
-
     <!-- Sequenze numeriche crescenti a 3 cifre -->
     <string name="angel_012">012: Nuovi inizi – Il primo passo su un nuovo percorso.</string>
     <string name="angel_123">123: Flusso creativo – Le idee emergono liberamente.</string>
@@ -155,9 +148,12 @@
     <string name="angel_987654">987654: Completamento e integrazione – Onora il passato e vai avanti.</string>
 
     <!-- Schemi generali -->
-    <string name="angel_palindrome">Numero palindromo – Il mondo interiore e quello esteriore si rispecchiano a vicenda.</string>
-    <string name="angel_mirror">Schema speculare – Comprensione attraverso l’osservazione di sé.</string>
     <string name="angel_alternating">Schema alternato – Due energie si muovono in armonia ritmica.</string>
     <string name="angel_sequence_ascending">Sequenza crescente – Lo sviluppo procede consapevolmente.</string>
     <string name="angel_sequence_descending">Sequenza decrescente – Lasciar andare favorisce la trasformazione.</string>
+    <string name="angel_palindrome">Immagine speculare – L’inizio e la fine si incontrano. Questa sequenza numerica ti invita a fermarti, riconoscere i tuoi schemi personali e collegare consapevolmente le tue esperienze.</string>
+    <string name="angel_mirror">Riflesso – Gli opposti e le somiglianze entrano in relazione. Trova il tuo equilibrio e osserva le situazioni da una prospettiva diversa.</string>
+    <string name="angel_mirror_exchange">Scambio speculare – Due impulsi si alternano e creano un ritmo condiviso. Osserva come le diverse forze interagiscono e aprono nuove prospettive.</string>
+    <string name="angel_mirror_frame">Cornice speculare – Le cifre esterne formano una cornice comune. Ti invitano a collegare il punto di partenza con la tua meta e a prendere maggiore consapevolezza del tuo percorso.</string>
+    <string name="angel_mirror_center">Centro speculare – Due impulsi identici si incontrano al centro. Simboleggiano connessione, equilibrio e la possibilità di unire esperienze diverse per raggiungere una nuova comprensione.</string>
 </resources>

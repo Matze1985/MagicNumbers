@@ -79,13 +79,6 @@
     <string name="angel_9_5">99999: Kematangan – Kamu siap untuk langkah berikutnya.</string>
     <string name="angel_9_6">999999: Kepenuhan – Lingkaran tertutup.</string>
 
-    <!-- 10 & Angka Cermin -->
-    <string name="angel_10">10: Awal Baru – Satu siklus berakhir, yang lain dimulai.</string>
-    <string name="angel_12">12: Proses Belajar – Perkembangan melalui pengalaman.</string>
-    <string name="angel_21">21: Integrasi – Hal-hal yang berlawanan bersatu.</string>
-    <string name="angel_101">101: Kebangkitan – Kesadaran pada tingkat baru.</string>
-    <string name="angel_1212">1212: Keseimbangan dalam Perubahan – Stabilitas dalam gerakan.</string>
-
     <!-- Urutan angka 3 digit menaik -->
     <string name="angel_012">012: Awal yang Baru – Langkah pertama menuju jalan baru.</string>
     <string name="angel_123">123: Aliran Kreatif – Ide-ide muncul dengan bebas.</string>
@@ -155,9 +148,12 @@
     <string name="angel_987654">987654: Penyelesaian dan Integrasi – Hargai masa lalu dan teruslah melangkah maju.</string>
 
     <!-- Pola umum -->
-    <string name="angel_palindrome">Angka Palindrom – Dunia batin dan dunia luar saling mencerminkan.</string>
-    <string name="angel_mirror">Pola Cermin – Wawasan melalui pengamatan diri.</string>
     <string name="angel_alternating">Pola Bergantian – Dua energi bergerak dalam irama yang selaras.</string>
     <string name="angel_sequence_ascending">Urutan Menaik – Perkembangan berlangsung secara sadar.</string>
     <string name="angel_sequence_descending">Urutan Menurun – Melepaskan membuka jalan menuju transformasi.</string>
+    <string name="angel_palindrome">प्रतिबिंब – शुरुआत और अंत एक-दूसरे से मिलते हैं। यह संख्या क्रम तुम्हें कुछ पल ठहरने, अपने पैटर्न पहचानने और अपने अनुभवों को सचेत रूप से जोड़ने के लिए प्रेरित करता है।</string>
+    <string name="angel_mirror">प्रतिबिंबन – विरोधाभास और समानताएँ एक-दूसरे से जुड़ती हैं। अपना संतुलन खोजो और परिस्थितियों को एक अलग दृष्टिकोण से देखो।</string>
+    <string name="angel_mirror_exchange">दर्पण परिवर्तन – दो आवेग बारी-बारी से आते हैं और एक साझा लय बनाते हैं। ध्यान दो कि अलग-अलग शक्तियाँ किस तरह एक-दूसरे के साथ मिलकर काम करती हैं और नए दृष्टिकोण खोलती हैं।</string>
+    <string name="angel_mirror_frame">दर्पण रूपरेखा – बाहरी अंक एक साझा रूपरेखा बनाते हैं। वे तुम्हें अपने शुरुआती बिंदु को अपने लक्ष्य से जोड़ने और अपनी यात्रा को अधिक जागरूकता के साथ समझने के लिए प्रेरित करते हैं।</string>
+    <string name="angel_mirror_center">दर्पण केंद्र – दो समान आवेग केंद्र में मिलते हैं। वे जुड़ाव, संतुलन और विभिन्न अनुभवों को जोड़कर नई समझ विकसित करने की संभावना का प्रतीक हैं।</string>
 </resources>

@@ -79,13 +79,6 @@
     <string name="angel_9_5">99999: Trưởng thành – Bạn đã sẵn sàng cho bước tiếp theo.</string>
     <string name="angel_9_6">999999: Trọn vẹn – Vòng tròn khép lại.</string>
 
-    <!-- 10 & Số gương -->
-    <string name="angel_10">10: Khởi đầu mới – Một chu kỳ kết thúc, chu kỳ khác bắt đầu.</string>
-    <string name="angel_12">12: Quá trình học hỏi – Phát triển qua trải nghiệm.</string>
-    <string name="angel_21">21: Hội nhập – Những điều đối lập hòa làm một.</string>
-    <string name="angel_101">101: Thức tỉnh – Nhận thức ở một cấp độ mới.</string>
-    <string name="angel_1212">1212: Cân bằng trong thay đổi – Ổn định trong chuyển động.</string>
-
     <!-- Các chuỗi tăng dần gồm 3 chữ số -->
     <string name="angel_012">012: Khởi đầu mới – Bước đầu tiên trên một con đường mới.</string>
     <string name="angel_123">123: Dòng chảy sáng tạo – Ý tưởng tuôn trào tự do.</string>
@@ -155,9 +148,12 @@
     <string name="angel_987654">987654: Hoàn tất và hòa nhập – Trân trọng quá khứ và tiếp tục tiến bước.</string>
 
     <!-- Các mẫu hình tổng quát -->
-    <string name="angel_palindrome">Số đối xứng – Thế giới nội tâm và ngoại cảnh phản chiếu lẫn nhau.</string>
-    <string name="angel_mirror">Mẫu hình phản chiếu – Nhận thức thông qua việc quan sát bản thân.</string>
     <string name="angel_alternating">Mẫu hình luân phiên – Hai nguồn năng lượng vận hành theo nhịp điệu.</string>
     <string name="angel_sequence_ascending">Dãy số tăng dần – Sự phát triển diễn ra một cách có ý thức.</string>
     <string name="angel_sequence_descending">Dãy số giảm dần – Buông bỏ mở đường cho sự chuyển hóa.</string>
+    <string name="angel_palindrome">Hình ảnh phản chiếu – Điểm bắt đầu và kết thúc gặp nhau. Dãy số này mời bạn dừng lại một chút, nhận ra những khuôn mẫu của bản thân và kết nối những trải nghiệm của mình một cách có ý thức.</string>
+    <string name="angel_mirror">Sự phản chiếu – Những điều đối lập và tương đồng có mối liên hệ với nhau. Hãy tìm sự cân bằng của riêng bạn và thử nhìn nhận tình huống từ một góc độ khác.</string>
+    <string name="angel_mirror_exchange">Sự luân phiên phản chiếu – Hai xung lực luân phiên nhau và tạo nên một nhịp điệu chung. Hãy chú ý cách những nguồn lực khác nhau tương tác và mở ra những góc nhìn mới.</string>
+    <string name="angel_mirror_frame">Khung phản chiếu – Các chữ số bên ngoài tạo thành một khung chung. Chúng mời bạn kết nối điểm khởi đầu với mục tiêu và ý thức rõ hơn về con đường của chính mình.</string>
+    <string name="angel_mirror_center">Tâm điểm phản chiếu – Hai xung lực giống nhau gặp nhau ở trung tâm. Chúng tượng trưng cho sự kết nối, cân bằng và khả năng kết hợp những trải nghiệm khác nhau thành một nhận thức mới.</string>
 </resources>

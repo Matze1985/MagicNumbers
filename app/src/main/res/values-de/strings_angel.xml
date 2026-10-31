@@ -79,13 +79,6 @@
     <string name="angel_9_5">99999: Reife – Du bist bereit für das Nächste.</string>
     <string name="angel_9_6">999999: Vollendung – Der Kreis schließt sich.</string>
 
-    <!-- 10er & Spiegelzahlen -->
-    <string name="angel_10">10: Neubeginn – Ein Zyklus schließt, ein neuer beginnt.</string>
-    <string name="angel_12">12: Lernprozess – Entwicklung durch Erfahrung.</string>
-    <string name="angel_21">21: Integration – Gegensätze verbinden sich.</string>
-    <string name="angel_101">101: Erwachen – Bewusstheit auf neuer Ebene.</string>
-    <string name="angel_1212">1212: Balance im Wandel – Stabilität in Bewegung.</string>
-
     <!-- Aufsteigende 3er-Folgen -->
     <string name="angel_012">012: Neubeginn – Der erste Schritt auf einem neuen Weg.</string>
     <string name="angel_123">123: Kreativer Fluss – Ideen kommen ungehemmt.</string>
@@ -155,9 +148,12 @@
     <string name="angel_987654">987654: Vollendung und Integration – Vergangenes würdigen und weitergehen.</string>
 
     <!-- Allgemeine Muster -->
-    <string name="angel_palindrome">Spiegelzahl - Innere und äußere Welt reflektieren sich.</string>
-    <string name="angel_mirror">Spiegelmuster - Erkenntnis durch Selbstbeobachtung.</string>
     <string name="angel_alternating">Wechselmuster - Zwei Energien wirken im Rhythmus.</string>
     <string name="angel_sequence_ascending">Aufsteigende Sequenz - Entwicklung geschieht bewusst.</string>
     <string name="angel_sequence_descending">Absteigende Sequenz - Loslassen bringt Transformation.</string>
+    <string name="angel_palindrome">Spiegelbild – Anfang und Ende begegnen sich. Diese Zahlenfolge lädt dich ein, innezuhalten, eigene Muster zu erkennen und deine Erfahrungen bewusst miteinander zu verbinden.</string>
+    <string name="angel_mirror">Spiegelung – Gegensätze und Gemeinsamkeiten treten in Beziehung. Finde deine eigene Balance und betrachte Situationen auch aus einer anderen Perspektive.</string>
+    <string name="angel_mirror_exchange">Spiegelwechsel – Zwei Impulse wechseln sich ab und bilden einen gemeinsamen Rhythmus. Achte darauf, wie unterschiedliche Kräfte zusammenwirken und neue Perspektiven eröffnen.</string>
+    <string name="angel_mirror_frame">Spiegelrahmen – Die äußeren Ziffern bilden einen gemeinsamen Rahmen. Sie laden dich ein, Ausgangspunkt und Ziel miteinander zu verbinden und deinen eigenen Weg bewusster wahrzunehmen.</string>
+    <string name="angel_mirror_center">Spiegelmitte – Im Zentrum begegnen sich zwei gleiche Impulse. Sie symbolisieren Verbindung, Ausgleich und die Möglichkeit, unterschiedliche Erfahrungen zu einem neuen Verständnis zusammenzuführen.</string>
 </resources>

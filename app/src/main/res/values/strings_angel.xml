@@ -79,13 +79,6 @@
     <string name="angel_9_5">99999: Maturity – You are ready for what comes next.</string>
     <string name="angel_9_6">999999: Completion – The circle closes.</string>
 
-    <!-- 10s & Mirror Numbers -->
-    <string name="angel_10">10: New Beginnings – One cycle ends and another begins.</string>
-    <string name="angel_12">12: Learning Process – Growth through experience.</string>
-    <string name="angel_21">21: Integration – Opposites come together.</string>
-    <string name="angel_101">101: Awakening – Awareness reaches a new level.</string>
-    <string name="angel_1212">1212: Balance in Change – Stability in motion.</string>
-
     <!-- Ascending 3-Digit Sequences -->
     <string name="angel_012">012: New Beginnings – The first step on a new path.</string>
     <string name="angel_123">123: Creative Flow – Ideas emerge freely.</string>
@@ -155,9 +148,12 @@
     <string name="angel_987654">987654: Completion and Integration – Honor the past and move forward.</string>
 
     <!-- General Patterns -->
-    <string name="angel_palindrome">Mirror Number - The inner and outer worlds reflect one another.</string>
-    <string name="angel_mirror">Mirror Pattern - Insight through self-observation.</string>
     <string name="angel_alternating">Alternating Pattern - Two energies move in rhythm.</string>
     <string name="angel_sequence_ascending">Ascending Sequence - Development unfolds consciously.</string>
     <string name="angel_sequence_descending">Descending Sequence - Letting go brings transformation.</string>
+    <string name="angel_palindrome">Mirror Image – Beginning and end meet. This number sequence invites you to pause, recognize your own patterns, and consciously connect your experiences.</string>
+    <string name="angel_mirror">Reflection – Opposites and similarities come into relationship. Find your own balance and consider situations from a different perspective.</string>
+    <string name="angel_mirror_exchange">Mirror Exchange – Two impulses alternate and form a shared rhythm. Pay attention to how different forces interact and open up new perspectives.</string>
+    <string name="angel_mirror_frame">Mirror Frame – The outer digits form a shared frame. They invite you to connect your starting point with your destination and become more aware of your own path.</string>
+    <string name="angel_mirror_center">Mirror Center – Two identical impulses meet at the center. They symbolize connection, balance, and the possibility of bringing different experiences together to create a new understanding.</string>
 </resources>

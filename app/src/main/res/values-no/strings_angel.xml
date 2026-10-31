@@ -79,13 +79,6 @@
     <string name="angel_9_5">99999: Modenhet – Du er klar for neste steg.</string>
     <string name="angel_9_6">999999: Fullendelse – Sirkelen lukkes.</string>
 
-    <!-- 10 & Speiltall -->
-    <string name="angel_10">10: Ny begynnelse – En syklus slutter, en ny starter.</string>
-    <string name="angel_12">12: Læreprosess – Vekst gjennom erfaring.</string>
-    <string name="angel_21">21: Integrasjon – Motsetninger forenes.</string>
-    <string name="angel_101">101: Oppvåkning – Bevissthet på et nytt nivå.</string>
-    <string name="angel_1212">1212: Balanse i endring – Stabilitet i bevegelse.</string>
-
     <!-- Stigende tallsekvenser med 3 sifre -->
     <string name="angel_012">012: Nye begynnelser – Det første steget på en ny vei.</string>
     <string name="angel_123">123: Kreativ flyt – Ideer oppstår fritt.</string>
@@ -155,9 +148,12 @@
     <string name="angel_987654">987654: Fullføring og integrering – Hedre fortiden og gå videre.</string>
 
     <!-- Generelle mønstre -->
-    <string name="angel_palindrome">Palindromtall – Den indre og den ytre verden speiler hverandre.</string>
-    <string name="angel_mirror">Speilmønster – Innsikt gjennom selvobservasjon.</string>
     <string name="angel_alternating">Vekslende mønster – To energier beveger seg i samme rytme.</string>
     <string name="angel_sequence_ascending">Stigende tallsekvens – Utviklingen utfolder seg bevisst.</string>
     <string name="angel_sequence_descending">Synkende tallsekvens – Å gi slipp åpner for transformasjon.</string>
+    <string name="angel_palindrome">Speilbilde – Begynnelse og slutt møtes. Denne tallrekken inviterer deg til å stoppe opp et øyeblikk, gjenkjenne dine egne mønstre og bevisst knytte sammen erfaringene dine.</string>
+    <string name="angel_mirror">Gjenspeiling – Motsetninger og likheter kommer i relasjon til hverandre. Finn din egen balanse og se situasjoner også fra et annet perspektiv.</string>
+    <string name="angel_mirror_exchange">Speilveksling – To impulser veksler på å komme til uttrykk og danner en felles rytme. Legg merke til hvordan ulike krefter virker sammen og åpner for nye perspektiver.</string>
+    <string name="angel_mirror_frame">Speilramme – De ytterste sifrene danner en felles ramme. De inviterer deg til å knytte utgangspunkt og mål sammen og bli mer bevisst på din egen vei.</string>
+    <string name="angel_mirror_center">Speilsentrum – I sentrum møtes to like impulser. De symboliserer forbindelse, balanse og muligheten til å samle ulike erfaringer til en ny forståelse.</string>
 </resources>

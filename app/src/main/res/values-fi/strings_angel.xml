@@ -79,13 +79,6 @@
     <string name="angel_9_5">99999: Kypsyys – Olet valmis seuraavaan.</string>
     <string name="angel_9_6">999999: Täydentyminen – Ympyrä sulkeutuu.</string>
 
-    <!-- 10 & Peililuvut -->
-    <string name="angel_10">10: Uusi alku – Yksi sykli päättyy, uusi alkaa.</string>
-    <string name="angel_12">12: Oppimisprosessi – Kehitys kokemuksen kautta.</string>
-    <string name="angel_21">21: Integraatio – Vastakohdat yhdistyvät.</string>
-    <string name="angel_101">101: Herääminen – Tietoisuus uudella tasolla.</string>
-    <string name="angel_1212">1212: Tasapaino muutoksessa – Vakaus liikkeessä.</string>
-
     <!-- Aufsteigende 3-stellige Zahlenfolgen -->
     <string name="angel_012">012: Uudet alut – Ensimmäinen askel uudella polulla.</string>
     <string name="angel_123">123: Luova virtaus – Ideat syntyvät vapaasti.</string>
@@ -155,9 +148,12 @@
     <string name="angel_987654">987654: Päätös ja yhdistäminen – Kunnioita menneisyyttä ja jatka eteenpäin.</string>
 
     <!-- Allgemeine Muster -->
-    <string name="angel_palindrome">Palindromiluku – Sisäinen ja ulkoinen maailma heijastavat toisiaan.</string>
-    <string name="angel_mirror">Peilikuva – Oivalluksia itsensä tarkkailun kautta.</string>
     <string name="angel_alternating">Vuorotteleva kuvio – Kaksi energiaa liikkuu samassa rytmissä.</string>
     <string name="angel_sequence_ascending">Nouseva numerosarja – Kehitys etenee tietoisesti.</string>
     <string name="angel_sequence_descending">Laskeva numerosarja – Irti päästäminen mahdollistaa muutoksen.</string>
+    <string name="angel_palindrome">Peilikuva – Alku ja loppu kohtaavat. Tämä numerosarja kutsuu sinua pysähtymään hetkeksi, tunnistamaan omat toimintamallisi ja yhdistämään kokemuksesi tietoisesti.</string>
+    <string name="angel_mirror">Heijastus – Vastakohdat ja yhtäläisyydet muodostavat keskinäisen suhteen. Löydä oma tasapainosi ja tarkastele tilanteita toisesta näkökulmasta.</string>
+    <string name="angel_mirror_exchange">Peilivaihtelu – Kaksi impulssia vuorottelee ja muodostaa yhteisen rytmin. Kiinnitä huomiota siihen, miten erilaiset voimat vaikuttavat toisiinsa ja avaavat uusia näkökulmia.</string>
+    <string name="angel_mirror_frame">Peilikehys – Ulommaiset numerot muodostavat yhteisen kehyksen. Ne kutsuvat sinua yhdistämään lähtökohtasi päämäärääsi ja tiedostamaan oman polkusi entistä paremmin.</string>
+    <string name="angel_mirror_center">Peilikeskus – Kaksi samanlaista impulssia kohtaa keskellä. Ne symboloivat yhteyttä, tasapainoa ja mahdollisuutta yhdistää erilaiset kokemukset uudeksi ymmärrykseksi.</string>
 </resources>

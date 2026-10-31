@@ -79,13 +79,6 @@
     <string name="angel_9_5">99999: Zrelost – Spreman/na si za sljedeće.</string>
     <string name="angel_9_6">999999: Ispunjenje – Krug se zatvara.</string>
 
-    <!-- 10 i zrcalni brojevi -->
-    <string name="angel_10">10: Novi početak – Jedan ciklus završava, drugi počinje.</string>
-    <string name="angel_12">12: Proces učenja – Razvoj kroz iskustvo.</string>
-    <string name="angel_21">21: Integracija – Suprotnosti se spajaju.</string>
-    <string name="angel_101">101: Buđenje – Svijest na novoj razini.</string>
-    <string name="angel_1212">1212: Ravnoteža u promjeni – Stabilnost u pokretu.</string>
-
     <!-- Uzlazni nizovi od 3 znamenke -->
     <string name="angel_012">012: Novi počeci – Prvi korak na novom putu.</string>
     <string name="angel_123">123: Kreativni tok – Ideje se slobodno rađaju.</string>
@@ -155,9 +148,12 @@
     <string name="angel_987654">987654: Dovršetak i integracija – Poštuj prošlost i nastavi dalje.</string>
 
     <!-- Opći obrasci -->
-    <string name="angel_palindrome">Palindromski broj – Unutarnji i vanjski svijet odražavaju jedan drugoga.</string>
-    <string name="angel_mirror">Zrcalni obrazac – Uvid kroz promatranje samoga sebe.</string>
     <string name="angel_alternating">Naizmjenični obrazac – Dvije energije kreću se u ritmu.</string>
     <string name="angel_sequence_ascending">Uzlazni niz – Razvoj se odvija svjesno.</string>
     <string name="angel_sequence_descending">Silazni niz – Otpuštanje omogućuje transformaciju.</string>
+    <string name="angel_palindrome">Zrcalna slika – Početak i kraj se susreću. Ovaj niz brojeva poziva te da zastaneš, prepoznaš vlastite obrasce i svjesno povežeš svoja iskustva.</string>
+    <string name="angel_mirror">Odraz – Suprotnosti i sličnosti stupaju u međusobni odnos. Pronađi vlastitu ravnotežu i sagledaj situacije iz drugačije perspektive.</string>
+    <string name="angel_mirror_exchange">Zrcalna izmjena – Dva se impulsa izmjenjuju i stvaraju zajednički ritam. Obrati pozornost na to kako različite sile međusobno djeluju i otvaraju nove perspektive.</string>
+    <string name="angel_mirror_frame">Zrcalni okvir – Vanjske znamenke tvore zajednički okvir. Pozivaju te da povežeš svoju polaznu točku sa svojim ciljem i postaneš svjesniji vlastitog puta.</string>
+    <string name="angel_mirror_center">Zrcalno središte – Dva jednaka impulsa susreću se u središtu. Simboliziraju povezanost, ravnotežu i mogućnost objedinjavanja različitih iskustava u novo razumijevanje.</string>
 </resources>

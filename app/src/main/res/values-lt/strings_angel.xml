@@ -79,13 +79,6 @@
     <string name="angel_9_5">99999: Brandumas – Esi pasiruošęs kitam etapui.</string>
     <string name="angel_9_6">999999: Išsipildymas – Ratas užsidaro.</string>
 
-    <!-- 10 & Veidrodiniai skaičiai -->
-    <string name="angel_10">10: Nauja pradžia – Vienas ciklas baigiasi, kitas prasideda.</string>
-    <string name="angel_12">12: Mokymosi procesas – Augimas per patirtį.</string>
-    <string name="angel_21">21: Integracija – Priešybės susijungia.</string>
-    <string name="angel_101">101: Pabudimas – Sąmoningumas naujame lygmenyje.</string>
-    <string name="angel_1212">1212: Pusiausvyra pokytyje – Stabilumas judėjime.</string>
-
     <!-- Didėjančios 3 skaitmenų sekos -->
     <string name="angel_012">012: Nauja pradžia – Pirmasis žingsnis nauju keliu.</string>
     <string name="angel_123">123: Kūrybinis srautas – Idėjos laisvai gimsta.</string>
@@ -155,9 +148,12 @@
     <string name="angel_987654">987654: Užbaigimas ir integracija – Gerbk praeitį ir judėk pirmyn.</string>
 
     <!-- Bendrieji šablonai -->
-    <string name="angel_palindrome">Palindrominis skaičius – Vidinis ir išorinis pasauliai atspindi vienas kitą.</string>
-    <string name="angel_mirror">Veidrodinis modelis – Įžvalgos per savęs stebėjimą.</string>
     <string name="angel_alternating">Kaitaliojamas modelis – Dvi energijos juda bendru ritmu.</string>
     <string name="angel_sequence_ascending">Didėjanti skaičių seka – Tobulėjimas vyksta sąmoningai.</string>
     <string name="angel_sequence_descending">Mažėjanti skaičių seka – Paleidimas atveria kelią transformacijai.</string>
+    <string name="angel_palindrome">Veidrodinis atspindys – Pradžia ir pabaiga susitinka. Ši skaičių seka kviečia tave trumpam sustoti, atpažinti savo asmeninius dėsningumus ir sąmoningai susieti savo patirtis.</string>
+    <string name="angel_mirror">Atspindys – Priešybės ir panašumai užmezga tarpusavio ryšį. Atrask savo pusiausvyrą ir pažvelk į situacijas iš kitos perspektyvos.</string>
+    <string name="angel_mirror_exchange">Veidrodinė kaita – Du impulsai keičia vienas kitą ir sukuria bendrą ritmą. Atkreipk dėmesį, kaip skirtingos jėgos sąveikauja ir atveria naujas perspektyvas.</string>
+    <string name="angel_mirror_frame">Veidrodinis rėmas – Išoriniai skaitmenys sudaro bendrą rėmą. Jie kviečia susieti savo pradžios tašką su tikslu ir sąmoningiau suvokti savo kelią.</string>
+    <string name="angel_mirror_center">Veidrodinis centras – Du vienodi impulsai susitinka centre. Jie simbolizuoja ryšį, pusiausvyrą ir galimybę sujungti skirtingas patirtis į naują supratimą.</string>
 </resources>

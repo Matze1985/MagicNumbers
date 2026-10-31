@@ -79,13 +79,6 @@
     <string name="angel_9_5">99999: Briedums – Tu esi gatavs nākamajam solim.</string>
     <string name="angel_9_6">999999: Piepildījums – Aplis noslēdzas.</string>
 
-    <!-- 10 & Spoguļskaitļi -->
-    <string name="angel_10">10: Jauns sākums – Viens cikls beidzas, cits sākas.</string>
-    <string name="angel_12">12: Mācīšanās process – Izaugsme caur pieredzi.</string>
-    <string name="angel_21">21: Integrācija – Pretstati apvienojas.</string>
-    <string name="angel_101">101: Pamošanās – Apziņa jaunā līmenī.</string>
-    <string name="angel_1212">1212: Līdzsvars pārmaiņās – Stabilitāte kustībā.</string>
-
     <!-- Augošas 3 ciparu skaitļu virknes -->
     <string name="angel_012">012: Jauni sākumi – Pirmais solis uz jauna ceļa.</string>
     <string name="angel_123">123: Radošā plūsma – Idejas rodas brīvi.</string>
@@ -155,9 +148,12 @@
     <string name="angel_987654">987654: Noslēgums un integrācija – Godā pagātni un dodies uz priekšu.</string>
 
     <!-- Vispārīgi raksti -->
-    <string name="angel_palindrome">Palindroms – Iekšējā un ārējā pasaule atspoguļo viena otru.</string>
-    <string name="angel_mirror">Spoguļraksts – Atklāsme caur sevis vērošanu.</string>
     <string name="angel_alternating">Mainīgs raksts – Divas enerģijas kustas vienā ritmā.</string>
     <string name="angel_sequence_ascending">Augoša skaitļu virkne – Attīstība norisinās apzināti.</string>
     <string name="angel_sequence_descending">Dilstoša skaitļu virkne – Atlaišana paver ceļu pārmaiņām.</string>
+    <string name="angel_palindrome">Spoguļattēls – Sākums un beigas satiekas. Šī skaitļu virkne aicina tevi uz brīdi apstāties, atpazīt savus personīgos modeļus un apzināti savienot savu pieredzi.</string>
+    <string name="angel_mirror">Atspulgs – Pretstati un līdzības veido savstarpēju saikni. Atrodi savu līdzsvaru un paskaties uz situācijām no cita skatpunkta.</string>
+    <string name="angel_mirror_exchange">Spoguļmaiņa – Divi impulsi mijas un veido kopīgu ritmu. Pievērs uzmanību tam, kā dažādi spēki mijiedarbojas un paver jaunas perspektīvas.</string>
+    <string name="angel_mirror_frame">Spoguļrāmis – Ārējie cipari veido kopīgu ietvaru. Tie aicina tevi sasaistīt sākumpunktu ar mērķi un apzinātāk uztvert savu ceļu.</string>
+    <string name="angel_mirror_center">Spoguļcentrs – Divi vienādi impulsi satiekas centrā. Tie simbolizē saikni, līdzsvaru un iespēju apvienot dažādu pieredzi, lai rastos jauna izpratne.</string>
 </resources>

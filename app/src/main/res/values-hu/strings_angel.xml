@@ -79,13 +79,6 @@
     <string name="angel_9_5">99999: Érettség – Készen állsz a következő lépésre.</string>
     <string name="angel_9_6">999999: Teljes lezárás – A kör bezárul.</string>
 
-    <!-- 10 & Tükörszámok -->
-    <string name="angel_10">10: Új kezdet – Egy ciklus véget ér, egy új kezdődik.</string>
-    <string name="angel_12">12: Tanulási folyamat – Fejlődés tapasztalat által.</string>
-    <string name="angel_21">21: Integráció – Az ellentétek egyesülnek.</string>
-    <string name="angel_101">101: Ébredés – Tudatosság egy új szinten.</string>
-    <string name="angel_1212">1212: Egyensúly a változásban – Stabilitás mozgásban.</string>
-
     <!-- Növekvő, 3 számjegyű számsorozatok -->
     <string name="angel_012">012: Új kezdetek – Az első lépés egy új úton.</string>
     <string name="angel_123">123: Kreatív áramlás – Az ötletek szabadon születnek.</string>
@@ -155,9 +148,12 @@
     <string name="angel_987654">987654: Lezárás és integráció – Becsüld meg a múltat, és haladj tovább.</string>
 
     <!-- Általános mintázatok -->
-    <string name="angel_palindrome">Palindromszám – A belső és a külső világ tükrözi egymást.</string>
-    <string name="angel_mirror">Tükörmintázat – Felismerések önmagunk megfigyelésén keresztül.</string>
     <string name="angel_alternating">Váltakozó mintázat – Két energia közös ritmusban mozog.</string>
     <string name="angel_sequence_ascending">Növekvő számsorozat – A fejlődés tudatosan bontakozik ki.</string>
     <string name="angel_sequence_descending">Csökkenő számsorozat – Az elengedés elősegíti az átalakulást.</string>
+    <string name="angel_palindrome">Tükörkép – A kezdet és a vég találkozik. Ez a számsor arra hív, hogy állj meg egy pillanatra, ismerd fel saját mintáidat, és tudatosan kapcsold össze tapasztalataidat.</string>
+    <string name="angel_mirror">Tükröződés – Az ellentétek és a hasonlóságok kapcsolatba kerülnek egymással. Találd meg saját egyensúlyodat, és tekints a helyzetekre más nézőpontból.</string>
+    <string name="angel_mirror_exchange">Tükörcsere – Két impulzus váltakozik, és közös ritmust alkot. Figyeld meg, hogyan hatnak egymásra a különböző erők, és hogyan nyitnak új perspektívákat.</string>
+    <string name="angel_mirror_frame">Tükörkeret – A külső számjegyek közös keretet alkotnak. Arra hívnak, hogy összekapcsold a kiindulópontodat a céloddal, és tudatosabban érzékeld saját utadat.</string>
+    <string name="angel_mirror_center">Tükörközép – Két azonos impulzus találkozik a középpontban. Az összetartozást, az egyensúlyt és a különböző tapasztalatok egyesítésének lehetőségét jelképezik, amely új megértéshez vezethet.</string>
 </resources>

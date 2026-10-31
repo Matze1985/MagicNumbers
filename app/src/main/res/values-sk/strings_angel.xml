@@ -79,13 +79,6 @@
     <string name="angel_9_5">99999: Zrelosť – Si pripravený na ďalší krok.</string>
     <string name="angel_9_6">999999: Naplnenie – Kruh sa uzatvára.</string>
 
-    <!-- 10 & Zrkadlové čísla -->
-    <string name="angel_10">10: Nový začiatok – Jeden cyklus končí, ďalší začína.</string>
-    <string name="angel_12">12: Proces učenia – Rast cez skúsenosť.</string>
-    <string name="angel_21">21: Integrácia – Protiklady sa spájajú.</string>
-    <string name="angel_101">101: Prebudenie – Vedomie na novej úrovni.</string>
-    <string name="angel_1212">1212: Rovnováha v zmene – Stabilita v pohybe.</string>
-
     <!-- Vzostupné sekvencie s 3 číslicami -->
     <string name="angel_012">012: Nový začiatok – Prvý krok na novej ceste.</string>
     <string name="angel_123">123: Tvorivý tok – Myšlienky prichádzajú voľne.</string>
@@ -155,9 +148,12 @@
     <string name="angel_987654">987654: Zavŕšenie a integrácia – Oceň minulosť a pokračuj ďalej.</string>
 
     <!-- Všeobecné vzory -->
-    <string name="angel_palindrome">Palindromické číslo – Vnútorný a vonkajší svet sa navzájom odrážajú.</string>
-    <string name="angel_mirror">Zrkadlový vzor – Poznanie prostredníctvom sebapozorovania.</string>
     <string name="angel_alternating">Striedavý vzor – Dve energie pôsobia v rytme.</string>
     <string name="angel_sequence_ascending">Vzostupná sekvencia – Rozvoj prebieha vedome.</string>
     <string name="angel_sequence_descending">Zostupná sekvencia – Pustenie umožňuje premenu.</string>
+    <string name="angel_palindrome">Zrkadlový obraz – Začiatok a koniec sa stretávajú. Táto číselná sekvencia ťa pozýva na chvíľu sa zastaviť, rozpoznať vlastné vzorce a vedome prepojiť svoje skúsenosti.</string>
+    <string name="angel_mirror">Zrkadlenie – Protiklady a podobnosti vstupujú do vzájomného vzťahu. Nájdi vlastnú rovnováhu a skús sa na situácie pozrieť aj z inej perspektívy.</string>
+    <string name="angel_mirror_exchange">Zrkadlové striedanie – Dva impulzy sa striedajú a vytvárajú spoločný rytmus. Všímaj si, ako rôzne sily vzájomne pôsobia a otvárajú nové perspektívy.</string>
+    <string name="angel_mirror_frame">Zrkadlový rám – Vonkajšie číslice vytvárajú spoločný rámec. Pozývajú ťa prepojiť východiskový bod s cieľom a vedomejšie vnímať svoju vlastnú cestu.</string>
+    <string name="angel_mirror_center">Zrkadlový stred – V strede sa stretávajú dva rovnaké impulzy. Symbolizujú spojenie, rovnováhu a možnosť spojiť rôzne skúsenosti do nového pochopenia.</string>
 </resources>

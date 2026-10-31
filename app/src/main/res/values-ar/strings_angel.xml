@@ -79,13 +79,6 @@
     <string name="angel_9_5">99999: نضج – أنت مستعد لما هو قادم.</string>
     <string name="angel_9_6">999999: اكتمال – الدائرة تُغلق.</string>
 
-    <!-- 10er & Spiegelzahlen -->
-    <string name="angel_10">10: بداية جديدة – دورة تنتهي وأخرى تبدأ.</string>
-    <string name="angel_12">12: عملية تعلم – تطور من خلال التجربة.</string>
-    <string name="angel_21">21: اندماج – الأضداد تتحد.</string>
-    <string name="angel_101">101: يقظة – وعي على مستوى جديد.</string>
-    <string name="angel_1212">1212: توازن في التغيير – ثبات في الحركة.</string>
-
     <!-- Aufsteigende 3-stellige Zahlenfolgen -->
     <string name="angel_012">012: بدايات جديدة – الخطوة الأولى على طريق جديد.</string>
     <string name="angel_123">123: التدفق الإبداعي – تنبثق الأفكار بحرية.</string>
@@ -155,9 +148,12 @@
     <string name="angel_987654">987654: الاكتمال والتكامل – قدّر الماضي وواصل التقدم.</string>
 
     <!-- Allgemeine Muster -->
-    <string name="angel_palindrome">العدد المتناظر – يعكس العالم الداخلي والعالم الخارجي أحدهما الآخر.</string>
-    <string name="angel_mirror">النمط المرآتي – اكتساب البصيرة من خلال مراقبة الذات.</string>
     <string name="angel_alternating">النمط المتناوب – تتحرك طاقتان في إيقاع متناغم.</string>
     <string name="angel_sequence_ascending">التسلسل التصاعدي – يتكشف التطور بوعي.</string>
     <string name="angel_sequence_descending">التسلسل التنازلي – يفتح التحرر الطريق للتحول.</string>
+    <string name="angel_palindrome">الصورة المرآوية – تلتقي البداية بالنهاية. تدعوك هذه السلسلة الرقمية إلى التوقف قليلًا، والتعرّف على أنماطك الخاصة، وربط تجاربك بوعي.</string>
+    <string name="angel_mirror">الانعكاس – تلتقي الأضداد وأوجه التشابه في علاقة متبادلة. ابحث عن توازنك الخاص، وانظر إلى المواقف من منظور مختلف.</string>
+    <string name="angel_mirror_exchange">التبادل المرآوي – يتناوب تأثيران ليشكّلا إيقاعًا مشتركًا. انتبه إلى كيفية تفاعل القوى المختلفة وفتح آفاق جديدة.</string>
+    <string name="angel_mirror_frame">الإطار المرآوي – يشكّل الرقمان الخارجيان إطارًا مشتركًا. إنهما يدعوانك إلى الربط بين نقطة انطلاقك ووجهتك، وإلى إدراك مسارك الخاص بوعي أكبر.</string>
+    <string name="angel_mirror_center">المركز المرآوي – يلتقي تأثيران متطابقان في المركز. وهما يرمزان إلى الترابط والتوازن وإمكانية جمع التجارب المختلفة للوصول إلى فهم جديد.</string>
 </resources>

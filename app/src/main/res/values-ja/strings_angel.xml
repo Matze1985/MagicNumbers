@@ -79,13 +79,6 @@
     <string name="angel_9_5">99999：成熟 – 次の段階への準備ができています。</string>
     <string name="angel_9_6">999999：達成 – 円が閉じます。</string>
 
-    <!-- 10 & ミラーナンバー -->
-    <string name="angel_10">10：新しい始まり – 一つのサイクルが終わり、新しいサイクルが始まります。</string>
-    <string name="angel_12">12：学びのプロセス – 経験を通して成長します。</string>
-    <string name="angel_21">21：統合 – 対極が一つになります。</string>
-    <string name="angel_101">101：目覚め – 新しいレベルの意識。</string>
-    <string name="angel_1212">1212：変化の中のバランス – 動きの中の安定。</string>
-
     <!-- 3桁の昇順数字列 -->
     <string name="angel_012">012: 新たな始まり – 新しい道への第一歩。</string>
     <string name="angel_123">123: 創造の流れ – アイデアが自由に生まれる。</string>
@@ -155,9 +148,12 @@
     <string name="angel_987654">987654: 完了と統合 – 過去を大切に受け止め、前へ進む。</string>
 
     <!-- 一般的な数字のパターン -->
-    <string name="angel_palindrome">回文数 – 内面の世界と外の世界が互いを映し出す。</string>
-    <string name="angel_mirror">鏡のパターン – 自分自身を観察することで気づきを得る。</string>
     <string name="angel_alternating">交互のパターン – 二つのエネルギーがリズムを合わせて動く。</string>
     <string name="angel_sequence_ascending">昇順の数字列 – 成長が意識的に進んでいく。</string>
     <string name="angel_sequence_descending">降順の数字列 – 手放すことで変容への道が開かれる。</string>
+    <string name="angel_palindrome">鏡像 – 始まりと終わりが出会います。この数字の並びは、立ち止まり、自分自身のパターンに気づき、これまでの経験を意識的につなげるよう促しています。</string>
+    <string name="angel_mirror">反映 – 対立するものと共通点が互いに関係し合います。自分自身のバランスを見つけ、異なる視点から物事を見つめてみましょう。</string>
+    <string name="angel_mirror_exchange">鏡の交替 – 2つのインパルスが交互に現れ、ひとつのリズムを生み出します。異なる力がどのように作用し合い、新たな視点を切り開くのかに注目してみましょう。</string>
+    <string name="angel_mirror_frame">鏡の枠 – 外側の数字がひとつの枠を形成します。それらは、出発点と目標を結びつけ、自分自身の歩みをより深く意識するよう促しています。</string>
+    <string name="angel_mirror_center">鏡の中心 – 2つの同じインパルスが中心で出会います。それらは、つながり、調和、そして異なる経験をひとつに結び、新たな理解へと導く可能性を象徴しています。</string>
 </resources>

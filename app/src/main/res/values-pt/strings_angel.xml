@@ -79,13 +79,6 @@
     <string name="angel_9_5">99999: Maturidade – Você está pronto para o próximo passo.</string>
     <string name="angel_9_6">999999: Plenitude – O círculo se fecha.</string>
 
-    <!-- 10 & Números Espelho -->
-    <string name="angel_10">10: Novo começo – Um ciclo termina, outro começa.</string>
-    <string name="angel_12">12: Processo de aprendizagem – Crescimento através da experiência.</string>
-    <string name="angel_21">21: Integração – Os opostos se unem.</string>
-    <string name="angel_101">101: Despertar – Consciência em um novo nível.</string>
-    <string name="angel_1212">1212: Equilíbrio na mudança – Estabilidade em movimento.</string>
-
     <!-- Sequências ascendentes de 3 dígitos -->
     <string name="angel_012">012: Novo começo – O primeiro passo num novo caminho.</string>
     <string name="angel_123">123: Fluxo criativo – As ideias fluem livremente.</string>
@@ -155,9 +148,12 @@
     <string name="angel_987654">987654: Conclusão e integração – Reconhece o valor do passado e segue em frente.</string>
 
     <!-- Padrões gerais -->
-    <string name="angel_palindrome">Número palíndromo – O mundo interior e o exterior refletem-se mutuamente.</string>
-    <string name="angel_mirror">Padrão espelhado – Compreensão através da auto-observação.</string>
     <string name="angel_alternating">Padrão alternado – Duas energias atuam em ritmo.</string>
     <string name="angel_sequence_ascending">Sequência ascendente – O desenvolvimento acontece conscientemente.</string>
     <string name="angel_sequence_descending">Sequência descendente – Deixar ir permite a transformação.</string>
+    <string name="angel_palindrome">Imagem espelhada – O início e o fim encontram-se. Esta sequência numérica convida-te a parar por um momento, reconhecer os teus próprios padrões e conectar conscientemente as tuas experiências.</string>
+    <string name="angel_mirror">Reflexo – Os opostos e as semelhanças entram em relação. Encontra o teu próprio equilíbrio e observa as situações também a partir de outra perspetiva.</string>
+    <string name="angel_mirror_exchange">Alternância espelhada – Dois impulsos alternam entre si e formam um ritmo comum. Presta atenção à forma como diferentes forças interagem e abrem novas perspetivas.</string>
+    <string name="angel_mirror_frame">Moldura espelhada – Os algarismos exteriores formam uma moldura comum. Convidam-te a ligar o ponto de partida ao objetivo e a reconhecer o teu próprio caminho de forma mais consciente.</string>
+    <string name="angel_mirror_center">Centro espelhado – No centro encontram-se dois impulsos iguais. Simbolizam ligação, equilíbrio e a possibilidade de reunir diferentes experiências numa nova compreensão.</string>
 </resources>

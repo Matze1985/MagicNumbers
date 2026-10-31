@@ -79,13 +79,6 @@
     <string name="angel_9_5">99999: Madurez – Estás listo/a para lo siguiente.</string>
     <string name="angel_9_6">999999: Finalización – El círculo se cierra.</string>
 
-    <!-- 10 y números espejo -->
-    <string name="angel_10">10: Nuevo comienzo – Un ciclo termina y otro comienza.</string>
-    <string name="angel_12">12: Proceso de aprendizaje – Crecimiento a través de la experiencia.</string>
-    <string name="angel_21">21: Integración – Los opuestos se unen.</string>
-    <string name="angel_101">101: Despertar – Conciencia en un nuevo nivel.</string>
-    <string name="angel_1212">1212: Equilibrio en el cambio – Estabilidad en movimiento.</string>
-
     <!-- Aufsteigende 3-stellige Zahlenfolgen -->
     <string name="angel_012">012: Nuevos comienzos – El primer paso en un nuevo camino.</string>
     <string name="angel_123">123: Flujo creativo – Las ideas surgen con libertad.</string>
@@ -155,9 +148,12 @@
     <string name="angel_987654">987654: Culminación e integración – Honra el pasado y sigue adelante.</string>
 
     <!-- Allgemeine Muster -->
-    <string name="angel_palindrome">Número palíndromo – El mundo interior y el exterior se reflejan mutuamente.</string>
-    <string name="angel_mirror">Patrón espejo – Comprensión a través de la autoobservación.</string>
     <string name="angel_alternating">Patrón alternante – Dos energías se mueven al mismo ritmo.</string>
     <string name="angel_sequence_ascending">Secuencia ascendente – El desarrollo avanza de forma consciente.</string>
     <string name="angel_sequence_descending">Secuencia descendente – Soltar abre el camino a la transformación.</string>
+    <string name="angel_palindrome">Imagen especular – El principio y el final se encuentran. Esta secuencia numérica te invita a detenerte, reconocer tus propios patrones y conectar conscientemente tus experiencias.</string>
+    <string name="angel_mirror">Reflejo – Los opuestos y las similitudes entran en relación. Encuentra tu propio equilibrio y contempla las situaciones desde una perspectiva diferente.</string>
+    <string name="angel_mirror_exchange">Intercambio especular – Dos impulsos se alternan y crean un ritmo compartido. Presta atención a cómo interactúan las distintas fuerzas y abren nuevas perspectivas.</string>
+    <string name="angel_mirror_frame">Marco especular – Los dígitos exteriores forman un marco común. Te invitan a conectar tu punto de partida con tu destino y a tomar mayor conciencia de tu propio camino.</string>
+    <string name="angel_mirror_center">Centro especular – Dos impulsos idénticos se encuentran en el centro. Simbolizan conexión, equilibrio y la posibilidad de unir diferentes experiencias para alcanzar una nueva comprensión.</string>
 </resources>

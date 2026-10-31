@@ -79,13 +79,6 @@
     <string name="angel_9_5">99999: Olgunluk – Bir sonraki adıma hazırsın.</string>
     <string name="angel_9_6">999999: Tamlık – Çember kapanıyor.</string>
 
-    <!-- 10 & Ayna Sayıları -->
-    <string name="angel_10">10: Yeni Başlangıç – Bir döngü biter, yenisi başlar.</string>
-    <string name="angel_12">12: Öğrenme Süreci – Deneyimle büyüme.</string>
-    <string name="angel_21">21: Entegrasyon – Zıtlıklar birleşir.</string>
-    <string name="angel_101">101: Uyanış – Farkındalık yeni bir seviyede.</string>
-    <string name="angel_1212">1212: Değişimde Denge – Hareket içinde istikrar.</string>
-
     <!-- 3 basamaklı artan sayı dizileri -->
     <string name="angel_012">012: Yeni başlangıç – Yeni bir yoldaki ilk adım.</string>
     <string name="angel_123">123: Yaratıcı akış – Fikirler özgürce ortaya çıkar.</string>
@@ -155,9 +148,12 @@
     <string name="angel_987654">987654: Tamamlanma ve bütünleşme – Geçmişin değerini bil ve yoluna devam et.</string>
 
     <!-- Genel sayı örüntüleri -->
-    <string name="angel_palindrome">Palindrom sayı – İç ve dış dünya birbirini yansıtır.</string>
-    <string name="angel_mirror">Ayna örüntüsü – Kendini gözlemleyerek farkındalık kazanma.</string>
     <string name="angel_alternating">Değişimli örüntü – İki enerji ritmik olarak birlikte işler.</string>
     <string name="angel_sequence_ascending">Artan sayı dizisi – Gelişim bilinçli bir şekilde gerçekleşir.</string>
     <string name="angel_sequence_descending">Azalan sayı dizisi – Bırakmak dönüşümü mümkün kılar.</string>
+    <string name="angel_palindrome">Ayna görüntüsü – Başlangıç ve bitiş bir araya gelir. Bu sayı dizisi seni bir an durmaya, kendi kalıplarını fark etmeye ve deneyimlerini bilinçli bir şekilde birbiriyle ilişkilendirmeye davet eder.</string>
+    <string name="angel_mirror">Yansıma – Zıtlıklar ve benzerlikler birbiriyle ilişki kurar. Kendi dengeni bul ve olaylara farklı bir bakış açısından da bakmayı dene.</string>
+    <string name="angel_mirror_exchange">Ayna değişimi – İki dürtü sırayla ortaya çıkar ve ortak bir ritim oluşturur. Farklı güçlerin nasıl etkileşim kurduğuna ve yeni bakış açıları sunduğuna dikkat et.</string>
+    <string name="angel_mirror_frame">Ayna çerçevesi – Dıştaki rakamlar ortak bir çerçeve oluşturur. Seni başlangıç noktanı hedefinle birleştirmeye ve kendi yolunu daha bilinçli algılamaya davet eder.</string>
+    <string name="angel_mirror_center">Ayna merkezi – Merkezde iki aynı dürtü buluşur. Bağlantıyı, dengeyi ve farklı deneyimleri yeni bir anlayışta birleştirme olasılığını simgeler.</string>
 </resources>

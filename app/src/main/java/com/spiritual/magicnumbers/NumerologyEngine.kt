@@ -325,17 +325,30 @@ object NumerologyEngine {
     // DETECT MIRROR / PALINDROME
     // =====================================================
     private fun detectMirror(number: String, results: MutableSet<Int>) {
-        if (number.length >= 4) {
-            if (number == number.reversed()) {
-                results.add(R.string.angel_palindrome)
-            }
+        if (number.length !in 4..6 || !number.all { it.isDigit() }) return
+        // 1. Complete palindrome
+        if (number == number.reversed()) {
+            results.add(R.string.angel_palindrome)
+            return
+        }
+        // 2. Alternating pattern ABAB / ABABAB
+        val alternating = number.length >= 4 && number[0] != number[1] && number.indices.all { index -> number[index] == number[index % 2] }
 
-            if (number.length == 4 &&
-                number[0] == number[3] &&
-                number[1] == number[2]
-            ) {
-                results.add(R.string.angel_mirror)
-            }
+        if (alternating) {
+            results.add(R.string.angel_mirror_exchange)
+            return
+        }
+        // 3. Double center
+        val middle = number.length / 2
+        val doubleCenter = number.length % 2 == 0 && number[middle - 1] == number[middle]
+
+        if (doubleCenter) {
+            results.add(R.string.angel_mirror_center)
+            return
+        }
+        // 4. Outer frame
+        if (number.first() == number.last()) {
+            results.add(R.string.angel_mirror_frame)
         }
     }
 

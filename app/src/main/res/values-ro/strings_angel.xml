@@ -79,13 +79,6 @@
     <string name="angel_9_5">99999: Maturitate – Ești pregătit pentru următorul pas.</string>
     <string name="angel_9_6">999999: Finalizare – Cercul se închide.</string>
 
-    <!-- 10 & Numere oglindă -->
-    <string name="angel_10">10: Nou început – Un ciclu se încheie, altul începe.</string>
-    <string name="angel_12">12: Proces de învățare – Creștere prin experiență.</string>
-    <string name="angel_21">21: Integrare – Opusele se unesc.</string>
-    <string name="angel_101">101: Trezire – Conștiență la un nou nivel.</string>
-    <string name="angel_1212">1212: Echilibru în schimbare – Stabilitate în mișcare.</string>
-
     <!-- Secvențe ascendente de 3 cifre -->
     <string name="angel_012">012: Un nou început – Primul pas pe un drum nou.</string>
     <string name="angel_123">123: Flux creativ – Ideile curg liber.</string>
@@ -155,9 +148,12 @@
     <string name="angel_987654">987654: Împlinire și integrare – Apreciază trecutul și mergi mai departe.</string>
 
     <!-- Tipare generale -->
-    <string name="angel_palindrome">Număr palindrom – Lumea interioară și cea exterioară se reflectă reciproc.</string>
-    <string name="angel_mirror">Tipar în oglindă – Înțelegere prin autoobservare.</string>
     <string name="angel_alternating">Tipar alternant – Două energii acționează în ritm.</string>
     <string name="angel_sequence_ascending">Secvență ascendentă – Evoluția are loc în mod conștient.</string>
     <string name="angel_sequence_descending">Secvență descendentă – Renunțarea permite transformarea.</string>
+    <string name="angel_palindrome">Imagine în oglindă – Începutul și sfârșitul se întâlnesc. Această secvență de cifre te invită să te oprești pentru o clipă, să-ți recunoști propriile tipare și să-ți conectezi în mod conștient experiențele.</string>
+    <string name="angel_mirror">Reflexie – Opozițiile și asemănările intră în relație. Găsește-ți propriul echilibru și privește situațiile și dintr-o altă perspectivă.</string>
+    <string name="angel_mirror_exchange">Alternanță în oglindă – Doi impulsuri alternează și formează un ritm comun. Observă cum interacționează diferite forțe și deschid noi perspective.</string>
+    <string name="angel_mirror_frame">Cadru în oglindă – Cifrele exterioare formează un cadru comun. Ele te invită să conectezi punctul de plecare cu obiectivul și să-ți percepi propriul drum mai conștient.</string>
+    <string name="angel_mirror_center">Centru în oglindă – În centru se întâlnesc două impulsuri identice. Ele simbolizează conexiunea, echilibrul și posibilitatea de a reuni experiențe diferite într-o nouă înțelegere.</string>
 </resources>

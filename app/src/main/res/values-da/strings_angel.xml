@@ -79,13 +79,6 @@
     <string name="angel_9_5">99999: Modenhed – Du er klar til det næste.</string>
     <string name="angel_9_6">999999: Fuldendelse – Cirklen slutter sig.</string>
 
-    <!-- 10 & Spejltal -->
-    <string name="angel_10">10: Ny begyndelse – En cyklus slutter, en ny begynder.</string>
-    <string name="angel_12">12: Læreproces – Udvikling gennem erfaring.</string>
-    <string name="angel_21">21: Integration – Modsætninger forenes.</string>
-    <string name="angel_101">101: Opvågning – Bevidsthed på et nyt niveau.</string>
-    <string name="angel_1212">1212: Balance i forandring – Stabilitet i bevægelse.</string>
-
     <!-- Aufsteigende 3-stellige Zahlenfolgen -->
     <string name="angel_012">012: Nye begyndelser – Det første skridt på en ny vej.</string>
     <string name="angel_123">123: Kreativt flow – Ideer opstår frit.</string>
@@ -155,9 +148,12 @@
     <string name="angel_987654">987654: Fuldendelse og integration – Ær fortiden, og gå videre.</string>
 
     <!-- Allgemeine Muster -->
-    <string name="angel_palindrome">Palindromtal – Den indre og den ydre verden afspejler hinanden.</string>
-    <string name="angel_mirror">Spejlmønster – Indsigt gennem selvobservation.</string>
     <string name="angel_alternating">Skiftende mønster – To energier bevæger sig i takt.</string>
     <string name="angel_sequence_ascending">Stigende talfølge – Udviklingen udfolder sig bevidst.</string>
     <string name="angel_sequence_descending">Faldende talfølge – At give slip fører til forvandling.</string>
+    <string name="angel_palindrome">Spejlbillede – Begyndelse og afslutning mødes. Denne talrække inviterer dig til at standse op, genkende dine egne mønstre og bevidst forbinde dine oplevelser.</string>
+    <string name="angel_mirror">Spejling – Modsætninger og ligheder indgår i et samspil. Find din egen balance, og betragt situationer fra et andet perspektiv.</string>
+    <string name="angel_mirror_exchange">Spejludveksling – To impulser afløser hinanden og skaber en fælles rytme. Læg mærke til, hvordan forskellige kræfter spiller sammen og åbner for nye perspektiver.</string>
+    <string name="angel_mirror_frame">Spejlramme – De ydre cifre danner en fælles ramme. De inviterer dig til at forbinde dit udgangspunkt med dit mål og blive mere bevidst om din egen vej.</string>
+    <string name="angel_mirror_center">Spejlcentrum – To identiske impulser mødes i centrum. De symboliserer forbindelse, balance og muligheden for at samle forskellige oplevelser og opnå en ny forståelse.</string>
 </resources>

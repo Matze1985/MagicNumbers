@@ -79,13 +79,6 @@
     <string name="angel_9_5">99999：成熟 —— 你已准备好迎接下一步。</string>
     <string name="angel_9_6">999999：圆满 —— 圆环闭合。</string>
 
-    <!-- 10 & 镜像数字 -->
-    <string name="angel_10">10：新的开始 —— 一个循环结束，新的循环开始。</string>
-    <string name="angel_12">12：学习过程 —— 通过经验成长。</string>
-    <string name="angel_21">21：整合 —— 对立面融合。</string>
-    <string name="angel_101">101：觉醒 —— 意识提升到新的层次。</string>
-    <string name="angel_1212">1212：变化中的平衡 —— 流动中的稳定。</string>
-
     <!-- 3位升序数字序列 -->
     <string name="angel_012">012：全新开始 – 踏上新道路的第一步。</string>
     <string name="angel_123">123：创意流动 – 灵感自由涌现。</string>
@@ -155,9 +148,12 @@
     <string name="angel_987654">987654：圆满与整合 – 珍惜过去，继续向前。</string>
 
     <!-- 通用数字模式 -->
-    <string name="angel_palindrome">回文数字 – 内在世界与外在世界相互映照。</string>
-    <string name="angel_mirror">镜像模式 – 通过自我观察获得领悟。</string>
     <string name="angel_alternating">交替模式 – 两种能量按照节奏交替作用。</string>
     <string name="angel_sequence_ascending">升序序列 – 成长在有意识中发生。</string>
     <string name="angel_sequence_descending">降序序列 – 放下能够带来转化。</string>
+    <string name="angel_palindrome">镜像——起点与终点相遇。这组数字邀请你停下脚步，觉察自身的模式，并有意识地将自己的经历联系起来。</string>
+    <string name="angel_mirror">映照——对立与相似之处彼此产生联系。寻找属于自己的平衡，并尝试从不同的角度看待事物。</string>
+    <string name="angel_mirror_exchange">交替镜像——两种力量交替出现，形成共同的节奏。留意不同力量如何相互作用，并开启新的视角。</string>
+    <string name="angel_mirror_frame">镜像框架——两端的数字构成一个共同的框架。它们邀请你连接起点与目标，更清晰地感知自己的道路。</string>
+    <string name="angel_mirror_center">镜像中心——两个相同的力量在中心相遇。它们象征着连接、平衡，以及将不同经历融合为全新理解的可能性。</string>
 </resources>

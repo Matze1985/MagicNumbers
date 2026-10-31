@@ -79,13 +79,6 @@
     <string name="angel_9_5">99999: Küpsus – Oled valmis järgmiseks.</string>
     <string name="angel_9_6">999999: Täitumine – Ring sulgub.</string>
 
-    <!-- 10 ja peegelnumbrid -->
-    <string name="angel_10">10: Uus algus – Üks tsükkel lõpeb, teine algab.</string>
-    <string name="angel_12">12: Õppeprotsess – Areng läbi kogemuse.</string>
-    <string name="angel_21">21: Integratsioon – Vastandid ühinevad.</string>
-    <string name="angel_101">101: Ärkamine – Teadlikkus uuel tasandil.</string>
-    <string name="angel_1212">1212: Tasakaal muutuses – Stabiilsus liikumises.</string>
-
     <!-- Aufsteigende 3-stellige Zahlenfolgen -->
     <string name="angel_012">012: Uued algused – Esimene samm uuel teel.</string>
     <string name="angel_123">123: Loominguline voog – Ideed sünnivad vabalt.</string>
@@ -155,9 +148,12 @@
     <string name="angel_987654">987654: Lõpulejõudmine ja lõimimine – Väärtusta minevikku ja liigu edasi.</string>
 
     <!-- Allgemeine Muster -->
-    <string name="angel_palindrome">Palindroomarv – Sise- ja välismaailm peegeldavad teineteist.</string>
-    <string name="angel_mirror">Peegelmuster – Enesevaatlus aitab jõuda taipamiseni.</string>
     <string name="angel_alternating">Vahelduv muster – Kaks energiat liiguvad ühises rütmis.</string>
     <string name="angel_sequence_ascending">Kasvav jada – Areng avaneb teadlikult.</string>
     <string name="angel_sequence_descending">Kahanev jada – Lahtilaskmine loob ruumi muutumiseks.</string>
+    <string name="angel_palindrome">Peegelpilt – Algus ja lõpp kohtuvad. See numbrijada kutsub sind hetkeks peatuma, märkama oma mustreid ja ühendama teadlikult oma kogemusi.</string>
+    <string name="angel_mirror">Peegeldus – Vastandid ja sarnasused astuvad omavahelisse suhtesse. Leia oma tasakaal ja vaata olukordi teisest vaatenurgast.</string>
+    <string name="angel_mirror_exchange">Peegelduste vaheldumine – Kaks impulssi vahelduvad ja loovad ühise rütmi. Pööra tähelepanu sellele, kuidas erinevad jõud koos toimivad ja avavad uusi vaatenurki.</string>
+    <string name="angel_mirror_frame">Peegliraam – Välimised numbrid moodustavad ühise raami. Need kutsuvad sind ühendama oma lähtepunkti eesmärgiga ning teadvustama selgemalt oma teekonda.</string>
+    <string name="angel_mirror_center">Peegli keskpunkt – Kaks identset impulssi kohtuvad keskpunktis. Need sümboliseerivad seotust, tasakaalu ja võimalust ühendada erinevad kogemused uueks arusaamiseks.</string>
 </resources>

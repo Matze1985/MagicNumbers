@@ -79,13 +79,6 @@
     <string name="angel_9_5">99999: Zrelost – Spreman si za sledeći korak.</string>
     <string name="angel_9_6">999999: Ispunjenje – Krug se zatvara.</string>
 
-    <!-- 10 & Ogledalski brojevi -->
-    <string name="angel_10">10: Novi početak – Jedan ciklus se završava, drugi počinje.</string>
-    <string name="angel_12">12: Proces učenja – Rast kroz iskustvo.</string>
-    <string name="angel_21">21: Integracija – Suprotnosti se spajaju.</string>
-    <string name="angel_101">101: Buđenje – Svest na novom nivou.</string>
-    <string name="angel_1212">1212: Ravnoteža u promeni – Stabilnost u pokretu.</string>
-
     <!-- Rastući nizovi od 3 cifre -->
     <string name="angel_012">012: Novi početak – Prvi korak na novom putu.</string>
     <string name="angel_123">123: Kreativni tok – Ideje slobodno dolaze.</string>
@@ -155,9 +148,12 @@
     <string name="angel_987654">987654: Dovršetak i integracija – Uvaži prošlost i nastavi dalje.</string>
 
     <!-- Opšti obrasci -->
-    <string name="angel_palindrome">Palindromski broj – Unutrašnji i spoljašnji svet odražavaju jedan drugog.</string>
-    <string name="angel_mirror">Obrazac ogledala – Spoznaja kroz samoposmatranje.</string>
     <string name="angel_alternating">Naizmenični obrazac – Dve energije deluju u ritmu.</string>
     <string name="angel_sequence_ascending">Rastući niz – Razvoj se odvija svesno.</string>
     <string name="angel_sequence_descending">Opadajući niz – Otpuštanje omogućava preobražaj.</string>
+    <string name="angel_palindrome">Ogledalna slika – Početak i kraj se susreću. Ovaj niz brojeva poziva te da zastaneš na trenutak, prepoznaš sopstvene obrasce i svesno povežeš svoja iskustva.</string>
+    <string name="angel_mirror">Odraz – Suprotnosti i sličnosti stupaju u međusobni odnos. Pronađi sopstvenu ravnotežu i sagledaj situacije i iz drugačije perspektive.</string>
+    <string name="angel_mirror_exchange">Ogledalna smena – Dva impulsa se smenjuju i stvaraju zajednički ritam. Obrati pažnju na to kako različite sile međusobno deluju i otvaraju nove perspektive.</string>
+    <string name="angel_mirror_frame">Ogledalni okvir – Spoljne cifre formiraju zajednički okvir. Pozivaju te da povežeš polaznu tačku sa ciljem i svesnije sagledaš sopstveni put.</string>
+    <string name="angel_mirror_center">Ogledalni centar – U središtu se susreću dva jednaka impulsa. Oni simbolizuju povezanost, ravnotežu i mogućnost da različita iskustva objediniš u novo razumevanje.</string>
 </resources>
