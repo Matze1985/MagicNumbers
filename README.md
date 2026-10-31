@@ -139,16 +139,38 @@ Detected dynamically (e.g., 654, 4321).
 
 ---
 
-### 4️⃣ Mirror / Palindrome
+### 4️⃣ Mirror / Palindrome Detection
 
-Detected if:
+Detects mirror and palindrome patterns in 4–6 digit numbers.
 
-```kotlin
-number == number.reversed()
-```
+The detection checks the following patterns in order:
 
-Special handling for 4-digit mirror format (ABBA).
+1. **Complete Palindrome**
+   - The number reads identically forwards and backwards.
+   - Examples: `123321`, `1221`
+   - Result: `angel_palindrome`
 
+2. **Alternating Mirror Pattern (ABAB / ABABAB)**
+   - Two different digits alternate throughout the number.
+   - Examples: `1212`, `121212`
+   - Result: `angel_mirror_exchange`
+
+3. **Double Center**
+   - The two middle digits are identical.
+   - Examples: `953358`, `607745`
+   - Result: `angel_mirror_center`
+
+4. **Outer Frame**
+   - The first and last digits are identical.
+   - Examples: `501095`, `228592`
+   - Result: `angel_mirror_frame`
+
+**Detection Rules:**
+- Only numbers with 4 to 6 digits are considered.
+- Non-numeric input is ignored.
+- Patterns are checked sequentially.
+- Only the first matching pattern is returned.
+- A complete palindrome takes priority over all other mirror patterns.
 ---
 
 ### 5️⃣ Alternating Pattern
