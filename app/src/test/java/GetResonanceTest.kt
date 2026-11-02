@@ -199,7 +199,7 @@ class GetResonanceTest {
                 it,
                 R.string.resonance6_title_aabbcc,
                 R.string.resonance6_meaning_aabbcc,
-                R.string.resonance_focus_start
+                R.string.resonance_focus_none
             )
         }
     }

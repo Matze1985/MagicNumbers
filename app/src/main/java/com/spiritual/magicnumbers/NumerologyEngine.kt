@@ -753,7 +753,7 @@ object NumerologyEngine {
         return when {
             isMono6() -> Triple(R.string.resonance6_title_mono, R.string.resonance6_meaning_mono, R.string.resonance_focus_none)
             isAAABBB() -> Triple(R.string.resonance6_title_aaabbb, R.string.resonance6_meaning_aaabbb, R.string.resonance_focus_frame)
-            isAABBCC() -> Triple(R.string.resonance6_title_aabbcc, R.string.resonance6_meaning_aabbcc, R.string.resonance_focus_start)
+            isAABBCC() -> Triple(R.string.resonance6_title_aabbcc, R.string.resonance6_meaning_aabbcc, R.string.resonance_focus_none)
             isABABAB() -> Triple(R.string.resonance6_title_ababab, R.string.resonance6_meaning_ababab, R.string.resonance_focus_center)
             isABCABC() -> Triple(R.string.resonance6_title_abcabc, R.string.resonance6_meaning_abcabc, R.string.resonance_focus_center)
             isMirror6() -> Triple(R.string.resonance6_title_mirror, R.string.resonance6_meaning_mirror, R.string.resonance_focus_center)
