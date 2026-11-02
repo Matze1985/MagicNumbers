@@ -719,80 +719,45 @@ object NumerologyEngine {
     // =====================================================
     // RESONANCE
     // =====================================================
-    private fun getResonance(number: String): Triple<Int, Int, Int>? {
+    public fun getResonance(number: String): Triple<Int, Int, Int>? {
         if (number.length != 4 && number.length != 6) return null
+        if (!number.all { it.isDigit() }) return null
+
         val d = number.toCharArray()
-
-        fun allSame() = d.all { it == d[0] }
-        fun isAABB() = d[0] == d[1] && d[2] == d[3] && d[0] != d[2]
-        fun isABBA() = d[0] == d[3] && d[1] == d[2] && d[0] != d[1]
-        fun isABAB() = d[0] == d[2] && d[1] == d[3] && d[0] != d[1]
-        fun isAAABBB() = number.length == 6 && d[0] == d[1] && d[1] == d[2] && d[3] == d[4] && d[4] == d[5] && d[0] != d[3]
-        fun isABCABC() = number.length == 6 && number.substring(0, 3) == number.substring(3, 6)
-        fun isMirror() = number == number.reversed()
-
+        val length = number.length
+        // 4-DIGIT PATTERNS
+        fun isMono4() = length == 4 && d.all { it == d[0] }
+        fun isAABB() = length == 4 && d[0] == d[1] && d[2] == d[3] && d[0] != d[2]
+        fun isABAB() = length == 4 && d[0] == d[2] && d[1] == d[3] && d[0] != d[1]
+        fun isABBA() = length == 4 && d[0] == d[3] && d[1] == d[2] && d[0] != d[1]
+        fun isABCD() = length == 4 && number.toSet().size == 4
+        // 6-DIGIT PATTERNS
+        fun isMono6() = length == 6 && d.all { it == d[0] }
+        fun isAAABBB() = length == 6 && d[0] == d[1] && d[1] == d[2] && d[3] == d[4] && d[4] == d[5] && d[0] != d[3]
+        fun isAABBCC() = length == 6 && d[0] == d[1] && d[2] == d[3] && d[4] == d[5] && d[0] != d[2] && d[0] != d[4] && d[2] != d[4]
+        fun isABABAB() = length == 6 && d[0] == d[2] && d[2] == d[4] && d[1] == d[3] && d[3] == d[5] && d[0] != d[1]
+        fun isABCABC() = length == 6 && number.substring(0, 3) == number.substring(3, 6)
+        fun isMirror6() = length == 6 && number == number.reversed()
+        // 4-DIGIT RESONANCE
+        if (length == 4) {
+            return when {
+                isMono4() -> Triple(R.string.resonance4_title_mono, R.string.resonance4_meaning_mono, R.string.resonance_focus_none)
+                isAABB() -> Triple(R.string.resonance4_title_aabb, R.string.resonance4_meaning_aabb, R.string.resonance_focus_frame)
+                isABAB() -> Triple(R.string.resonance4_title_abab, R.string.resonance4_meaning_abab, R.string.resonance_focus_center)
+                isABBA() -> Triple(R.string.resonance4_title_abba, R.string.resonance4_meaning_abba, R.string.resonance_focus_center)
+                isABCD() -> Triple(R.string.resonance4_title_abcd, R.string.resonance4_meaning_abcd, R.string.resonance_focus_none)
+                else -> Triple(R.string.resonance4_title_none, R.string.resonance4_meaning_none, R.string.resonance_focus_none)
+            }
+        }
+        // 6-DIGIT RESONANCE
         return when {
-            allSame() -> if (number.length == 4)
-                Triple(
-                    R.string.resonance4_title_mono,
-                    R.string.resonance4_meaning_mono,
-                    R.string.resonance_focus_none
-                )
-            else
-                Triple(
-                    R.string.resonance6_title_mono,
-                    R.string.resonance6_meaning_mono,
-                    R.string.resonance_focus_none
-                )
-
-            isAABB() -> Triple(
-                R.string.resonance4_title_aabb,
-                R.string.resonance4_meaning_aabb,
-                R.string.resonance_focus_frame
-            )
-
-            isABAB() -> Triple(
-                R.string.resonance4_title_abab,
-                R.string.resonance4_meaning_abab,
-                R.string.resonance_focus_center
-            )
-
-            isABBA() -> Triple(
-                R.string.resonance4_title_abba,
-                R.string.resonance4_meaning_abba,
-                R.string.resonance_focus_center
-            )
-
-            isAAABBB() -> Triple(
-                R.string.resonance6_title_aaabbb,
-                R.string.resonance6_meaning_aaabbb,
-                R.string.resonance_focus_frame
-            )
-
-            isABCABC() -> Triple(
-                R.string.resonance6_title_abcabc,
-                R.string.resonance6_meaning_abcabc,
-                R.string.resonance_focus_center
-            )
-
-            isMirror() -> Triple(
-                R.string.resonance6_title_mirror,
-                R.string.resonance6_meaning_mirror,
-                R.string.resonance_focus_center
-            )
-
-            else -> if (number.length == 4)
-                Triple(
-                    R.string.resonance4_title_none,
-                    R.string.resonance4_meaning_none,
-                    R.string.resonance_focus_none
-                )
-            else
-                Triple(
-                    R.string.resonance6_title_none,
-                    R.string.resonance6_meaning_none,
-                    R.string.resonance_focus_none
-                )
+            isMono6() -> Triple(R.string.resonance6_title_mono, R.string.resonance6_meaning_mono, R.string.resonance_focus_none)
+            isAAABBB() -> Triple(R.string.resonance6_title_aaabbb, R.string.resonance6_meaning_aaabbb, R.string.resonance_focus_frame)
+            isAABBCC() -> Triple(R.string.resonance6_title_aabbcc, R.string.resonance6_meaning_aabbcc, R.string.resonance_focus_start)
+            isABABAB() -> Triple(R.string.resonance6_title_ababab, R.string.resonance6_meaning_ababab, R.string.resonance_focus_center)
+            isABCABC() -> Triple(R.string.resonance6_title_abcabc, R.string.resonance6_meaning_abcabc, R.string.resonance_focus_center)
+            isMirror6() -> Triple(R.string.resonance6_title_mirror, R.string.resonance6_meaning_mirror, R.string.resonance_focus_center)
+            else -> Triple(R.string.resonance6_title_none, R.string.resonance6_meaning_none, R.string.resonance_focus_none)
         }
     }
 
