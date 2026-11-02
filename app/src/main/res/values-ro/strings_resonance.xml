@@ -5,8 +5,6 @@
     <string name="resonance_focus_none">Focalizare: distribuit uniform (fără repetiții directe)</string>
     <string name="resonance_focus_frame">Focalizare: început &amp; sfârșit (temă de cadru)</string>
     <string name="resonance_focus_center">Focalizare: centru (impuls central)</string>
-    <string name="resonance_focus_start">Focalizare: început (identitate / fază inițială)</string>
-    <string name="resonance_focus_end">Focalizare: sfârșit (rezultat / pas următor)</string>
 
     <!-- =====================================================
          Rezonanță (4 cifre) – Titluri
@@ -27,7 +25,6 @@
     <string name="resonance4_meaning_abba">Reflecție – conștientizare prin oglindire interioară și exterioară.</string>
     <string name="resonance4_meaning_abcd">Flux uniform – fără repetiție, energie deschisă și neutră.</string>
     <string name="resonance4_meaning_none">Fără model dominant – energia este combinată liber și deschisă.</string>
-    <string name="resonance4_meaning_ababab">Tensiune între doi poli – ritmul, echilibrul și decizia conștientă modelează această energie.</string>
 
     <!-- =====================================================
          Rezonanță (6 cifre) – Titluri

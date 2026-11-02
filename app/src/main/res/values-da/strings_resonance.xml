@@ -5,8 +5,6 @@
     <string name="resonance_focus_none">Fokus: jævnt fordelt (ingen direkte gentagelser)</string>
     <string name="resonance_focus_frame">Fokus: begyndelse &amp; slutning (rammetema)</string>
     <string name="resonance_focus_center">Fokus: centrum (kerneimpuls)</string>
-    <string name="resonance_focus_start">Fokus: begyndelse (identitet / startfase)</string>
-    <string name="resonance_focus_end">Fokus: slutning (resultat / næste skridt)</string>
 
     <!-- =====================================================
          Resonans (4-cifret) – Titler
@@ -27,7 +25,6 @@
     <string name="resonance4_meaning_abba">Spejling – erkendelse gennem indre og ydre refleksion.</string>
     <string name="resonance4_meaning_abcd">Jævnt flow – ingen gentagelse, åben og neutral energi.</string>
     <string name="resonance4_meaning_none">Intet dominerende mønster – energien er frit kombineret og åben.</string>
-    <string name="resonance4_meaning_ababab">Spænding mellem to poler – rytme, balance og bevidst beslutning præger denne energi.</string>
 
     <!-- =====================================================
          Resonans (6-cifret) – Titler

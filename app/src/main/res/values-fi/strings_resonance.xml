@@ -5,8 +5,6 @@
     <string name="resonance_focus_none">Fokus: tasaisesti jakautunut (ei suoria toistoja)</string>
     <string name="resonance_focus_frame">Fokus: alku &amp; loppu (kehysteema)</string>
     <string name="resonance_focus_center">Fokus: keskus (ydinimpulssi)</string>
-    <string name="resonance_focus_start">Fokus: alku (identiteetti / aloitusvaihe)</string>
-    <string name="resonance_focus_end">Fokus: loppu (tulos / seuraava askel)</string>
 
     <!-- =====================================================
          Resonanssi (4-numeroinen) – Otsikot
@@ -27,7 +25,6 @@
     <string name="resonance4_meaning_abba">Peilaus – oivallus sisäisen ja ulkoisen heijastuksen kautta.</string>
     <string name="resonance4_meaning_abcd">Tasainen virtaus – ei toistoa, avoin ja neutraali energia.</string>
     <string name="resonance4_meaning_none">Ei hallitsevaa kuviota – energia on vapaasti yhdistetty ja avoin.</string>
-    <string name="resonance4_meaning_ababab">Jännite kahden navan välillä – rytmi, tasapaino ja tietoinen päätös muovaavat tätä energiaa.</string>
 
     <!-- =====================================================
          Resonanssi (6-numeroinen) – Otsikot

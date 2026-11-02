@@ -5,8 +5,6 @@
     <string name="resonance_focus_none">Fokuss: vienmērīgi sadalīts (nav tiešu atkārtojumu)</string>
     <string name="resonance_focus_frame">Fokuss: sākums &amp; beigas (rāmja tēma)</string>
     <string name="resonance_focus_center">Fokuss: centrs (pamata impulss)</string>
-    <string name="resonance_focus_start">Fokuss: sākums (identitāte / sākuma posms)</string>
-    <string name="resonance_focus_end">Fokuss: beigas (rezultāts / nākamais solis)</string>
 
     <!-- =====================================================
          Rezonanse (4 cipari) – Nosaukumi
@@ -27,7 +25,6 @@
     <string name="resonance4_meaning_abba">Atspoguļojums – izpratne caur iekšējo un ārējo spoguļošanos.</string>
     <string name="resonance4_meaning_abcd">Vienmērīga plūsma – bez atkārtojumiem, atvērta un neitrāla enerģija.</string>
     <string name="resonance4_meaning_none">Nav dominējoša modeļa – enerģija ir brīvi kombinēta un atvērta.</string>
-    <string name="resonance4_meaning_ababab">Spriedze starp diviem poliem – ritms, līdzsvars un apzināts lēmums veido šo enerģiju.</string>
 
     <!-- =====================================================
          Rezonanse (6 cipari) – Nosaukumi

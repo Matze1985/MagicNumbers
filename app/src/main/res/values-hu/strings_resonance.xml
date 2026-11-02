@@ -5,8 +5,6 @@
     <string name="resonance_focus_none">Fókusz: egyenletes eloszlás (nincs közvetlen ismétlődés)</string>
     <string name="resonance_focus_frame">Fókusz: kezdet &amp; vég (kerettéma)</string>
     <string name="resonance_focus_center">Fókusz: középpont (alapimpulzus)</string>
-    <string name="resonance_focus_start">Fókusz: kezdet (identitás / induló szakasz)</string>
-    <string name="resonance_focus_end">Fókusz: vég (eredmény / következő lépés)</string>
 
     <!-- =====================================================
          Rezonancia (4 számjegy) – Címek
@@ -27,7 +25,6 @@
     <string name="resonance4_meaning_abba">Tükröződés – felismerés belső és külső visszatükröződés által.</string>
     <string name="resonance4_meaning_abcd">Egyenletes áramlás – nincs ismétlés, nyitott és semleges energia.</string>
     <string name="resonance4_meaning_none">Nincs domináns minta – az energia szabadon kombinált és nyitott.</string>
-    <string name="resonance4_meaning_ababab">Feszültség két pólus között – ritmus, egyensúly és tudatos döntés formálja ezt az energiát.</string>
 
     <!-- =====================================================
          Rezonancia (6 számjegy) – Címek

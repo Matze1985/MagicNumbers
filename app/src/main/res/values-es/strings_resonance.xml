@@ -5,8 +5,6 @@
     <string name="resonance_focus_none">Enfoque: distribución uniforme (sin repeticiones directas)</string>
     <string name="resonance_focus_frame">Enfoque: inicio &amp; final (tema marco)</string>
     <string name="resonance_focus_center">Enfoque: centro (impulso central)</string>
-    <string name="resonance_focus_start">Enfoque: inicio (identidad / fase inicial)</string>
-    <string name="resonance_focus_end">Enfoque: final (resultado / siguiente paso)</string>
 
     <!-- =====================================================
          Resonancia (4 dígitos) – Títulos
@@ -27,7 +25,6 @@
     <string name="resonance4_meaning_abba">Reflejo – comprensión a través del espejo interior y exterior.</string>
     <string name="resonance4_meaning_abcd">Flujo uniforme – sin repetición, energía abierta y neutral.</string>
     <string name="resonance4_meaning_none">Sin patrón dominante – la energía está libremente combinada y abierta.</string>
-    <string name="resonance4_meaning_ababab">Tensión entre dos polos – ritmo, equilibrio y decisión consciente marcan esta energía.</string>
 
     <!-- =====================================================
          Resonancia (6 dígitos) – Títulos

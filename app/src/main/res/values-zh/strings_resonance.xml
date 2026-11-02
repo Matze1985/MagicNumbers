@@ -5,8 +5,6 @@
     <string name="resonance_focus_none">焦点：均匀分布（无直接重复）</string>
     <string name="resonance_focus_frame">焦点：开始 &amp; 结束（框架主题）</string>
     <string name="resonance_focus_center">焦点：中心（核心动力）</string>
-    <string name="resonance_focus_start">焦点：开始（身份 / 起始阶段）</string>
-    <string name="resonance_focus_end">焦点：结束（结果 / 下一步）</string>
 
     <!-- =====================================================
          共振（4位）– 标题
@@ -27,7 +25,6 @@
     <string name="resonance4_meaning_abba">镜像反映——通过内在与外在的映照获得觉察。</string>
     <string name="resonance4_meaning_abcd">均匀流动——无重复，开放且中性的能量。</string>
     <string name="resonance4_meaning_none">无主导模式——能量自由组合且开放。</string>
-    <string name="resonance4_meaning_ababab">两极之间的张力——节奏、平衡与有意识的选择塑造此能量。</string>
 
     <!-- =====================================================
          共振（6位）– 标题

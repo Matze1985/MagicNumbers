@@ -5,8 +5,6 @@
     <string name="resonance_focus_none">Zameranie: rovnomerne rozložené (bez priamych opakovaní)</string>
     <string name="resonance_focus_frame">Zameranie: začiatok &amp; koniec (rámcová téma)</string>
     <string name="resonance_focus_center">Zameranie: stred (jadrový impulz)</string>
-    <string name="resonance_focus_start">Zameranie: začiatok (identita / počiatočná fáza)</string>
-    <string name="resonance_focus_end">Zameranie: koniec (výsledok / ďalší krok)</string>
 
     <!-- =====================================================
          Rezonancia (4 číslice) – Názvy
@@ -27,7 +25,6 @@
     <string name="resonance4_meaning_abba">Zrkadlenie – uvedomenie cez vnútorné a vonkajšie odrazy.</string>
     <string name="resonance4_meaning_abcd">Rovnomerný tok – bez opakovania, otvorená a neutrálna energia.</string>
     <string name="resonance4_meaning_none">Žiadny dominantný vzor – energia je voľne kombinovaná a otvorená.</string>
-    <string name="resonance4_meaning_ababab">Napätie medzi dvoma pólmi – rytmus, rovnováha a vedomé rozhodnutie formujú túto energiu.</string>
 
     <!-- =====================================================
          Rezonancia (6 číslic) – Názvy

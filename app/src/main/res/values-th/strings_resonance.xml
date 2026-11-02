@@ -5,8 +5,6 @@
     <string name="resonance_focus_none">โฟกัส: กระจายอย่างสม่ำเสมอ (ไม่มีการซ้ำโดยตรง)</string>
     <string name="resonance_focus_frame">โฟกัส: จุดเริ่มต้น &amp; จุดสิ้นสุด (ธีมกรอบ)</string>
     <string name="resonance_focus_center">โฟกัส: ศูนย์กลาง (แรงกระตุ้นหลัก)</string>
-    <string name="resonance_focus_start">โฟกัส: จุดเริ่มต้น (ตัวตน / ระยะเริ่มต้น)</string>
-    <string name="resonance_focus_end">โฟกัส: จุดสิ้นสุด (ผลลัพธ์ / ก้าวถัดไป)</string>
 
     <!-- =====================================================
          เรโซแนนซ์ (4 หลัก) – ชื่อรูปแบบ
@@ -27,7 +25,6 @@
     <string name="resonance4_meaning_abba">การสะท้อน – การตระหนักรู้ผ่านการสะท้อนภายในและภายนอก</string>
     <string name="resonance4_meaning_abcd">การไหลสม่ำเสมอ – ไม่มีการซ้ำ พลังงานเปิดและเป็นกลาง</string>
     <string name="resonance4_meaning_none">ไม่มีรูปแบบเด่น – พลังงานถูกผสมอย่างอิสระและเปิดกว้าง</string>
-    <string name="resonance4_meaning_ababab">ความตึงเครียดระหว่างสองขั้ว – จังหวะ สมดุล และการตัดสินใจอย่างมีสติหล่อหลอมพลังงานนี้</string>
 
     <!-- =====================================================
          เรโซแนนซ์ (6 หลัก) – ชื่อรูปแบบ

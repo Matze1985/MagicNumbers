@@ -5,8 +5,6 @@
     <string name="resonance_focus_none">Фокус: равномерно (без директни повторения)</string>
     <string name="resonance_focus_frame">Фокус: начало и край (рамкова тема)</string>
     <string name="resonance_focus_center">Фокус: център (основен импулс)</string>
-    <string name="resonance_focus_start">Фокус: начало (идентичност / стартова фаза)</string>
-    <string name="resonance_focus_end">Фокус: край (резултат / следваща стъпка)</string>
 
     <!-- =====================================================
          Resonance (4-digit) – Titles
@@ -27,7 +25,6 @@
     <string name="resonance4_meaning_abba">Отражение – осъзнаване чрез вътрешна и външна рефлексия.</string>
     <string name="resonance4_meaning_abcd">Равномерен поток – без повторения, отворена неутрална енергия.</string>
     <string name="resonance4_meaning_none">Няма доминиращ модел – енергията е свободно комбинирана и отворена.</string>
-    <string name="resonance4_meaning_ababab">Напрежение между два полюса – ритъмът, балансът и съзнателният избор оформят тази енергия.</string>
 
     <!-- =====================================================
          Resonance (6-digit) – Titles

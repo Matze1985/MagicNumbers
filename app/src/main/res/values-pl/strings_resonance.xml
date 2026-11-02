@@ -5,8 +5,6 @@
     <string name="resonance_focus_none">Fokus: równomierny (brak bezpośrednich powtórzeń)</string>
     <string name="resonance_focus_frame">Fokus: początek &amp; koniec (motyw ramowy)</string>
     <string name="resonance_focus_center">Fokus: centrum (impuls rdzeniowy)</string>
-    <string name="resonance_focus_start">Fokus: początek (tożsamość / faza startowa)</string>
-    <string name="resonance_focus_end">Fokus: koniec (rezultat / następny krok)</string>
 
     <!-- =====================================================
          Resonance (4-digit) – Titles
@@ -27,7 +25,6 @@
     <string name="resonance4_meaning_abba">Odbicie lustrzane – zrozumienie poprzez wewnętrzną i zewnętrzną refleksję.</string>
     <string name="resonance4_meaning_abcd">Równomierny przepływ – brak powtórzeń, otwarta neutralna energia.</string>
     <string name="resonance4_meaning_none">Brak dominującego wzorca – energia jest swobodnie połączona i otwarta.</string>
-    <string name="resonance4_meaning_ababab">Napięcie między dwoma biegunami – rytm, równowaga i świadoma decyzja kształtują tę energię.</string>
 
     <!-- =====================================================
          Resonance (6-digit) – Titles

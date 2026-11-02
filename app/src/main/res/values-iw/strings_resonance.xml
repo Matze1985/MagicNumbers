@@ -5,8 +5,6 @@
     <string name="resonance_focus_none">מיקוד: מפוזר באופן שווה (ללא חזרות ישירות)</string>
     <string name="resonance_focus_frame">מיקוד: התחלה &amp; סוף (נושא מסגרת)</string>
     <string name="resonance_focus_center">מיקוד: מרכז (דחף ליבה)</string>
-    <string name="resonance_focus_start">מיקוד: התחלה (זהות / שלב פתיחה)</string>
-    <string name="resonance_focus_end">מיקוד: סוף (תוצאה / צעד הבא)</string>
 
     <!-- =====================================================
          תהודה (4 ספרות) – כותרות
@@ -27,7 +25,6 @@
     <string name="resonance4_meaning_abba">שיקוף – תובנה דרך השתקפות פנימית וחיצונית.</string>
     <string name="resonance4_meaning_abcd">זרימה אחידה – ללא חזרות, אנרגיה פתוחה ונייטרלית.</string>
     <string name="resonance4_meaning_none">אין דפוס דומיננטי – האנרגיה משולבת בחופשיות ופתוחה.</string>
-    <string name="resonance4_meaning_ababab">מתח בין שני קטבים – קצב, איזון והחלטה מודעת מעצבים אנרגיה זו.</string>
 
     <!-- =====================================================
          תהודה (6 ספרות) – כותרות

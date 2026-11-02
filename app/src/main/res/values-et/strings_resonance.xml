@@ -5,8 +5,6 @@
     <string name="resonance_focus_none">Fookus: ühtlaselt jaotunud (otseseid kordusi pole)</string>
     <string name="resonance_focus_frame">Fookus: algus &amp; lõpp (raamteema)</string>
     <string name="resonance_focus_center">Fookus: keskpunkt (tuumimpulss)</string>
-    <string name="resonance_focus_start">Fookus: algus (identiteet / algfaas)</string>
-    <string name="resonance_focus_end">Fookus: lõpp (tulemus / järgmine samm)</string>
 
     <!-- =====================================================
          Resonants (4-kohaline) – Pealkirjad
@@ -27,7 +25,6 @@
     <string name="resonance4_meaning_abba">Peegeldus – taipamine sisemise ja välise peegli kaudu.</string>
     <string name="resonance4_meaning_abcd">Ühtlane voog – kordusi pole, avatud ja neutraalne energia.</string>
     <string name="resonance4_meaning_none">Puudub domineeriv muster – energia on vabalt kombineeritud ja avatud.</string>
-    <string name="resonance4_meaning_ababab">Pinge kahe polaarsuse vahel – rütm, tasakaal ja teadlik otsus kujundavad seda energiat.</string>
 
     <!-- =====================================================
          Resonants (6-kohaline) – Pealkirjad

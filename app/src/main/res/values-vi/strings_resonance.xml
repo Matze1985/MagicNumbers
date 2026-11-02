@@ -5,8 +5,6 @@
     <string name="resonance_focus_none">Trọng tâm: phân bố đồng đều (không lặp trực tiếp)</string>
     <string name="resonance_focus_frame">Trọng tâm: bắt đầu &amp; kết thúc (chủ đề khung)</string>
     <string name="resonance_focus_center">Trọng tâm: trung tâm (xung lực cốt lõi)</string>
-    <string name="resonance_focus_start">Trọng tâm: bắt đầu (bản sắc / giai đoạn khởi đầu)</string>
-    <string name="resonance_focus_end">Trọng tâm: kết thúc (kết quả / bước tiếp theo)</string>
 
     <!-- =====================================================
          Cộng hưởng (4 chữ số) – Tiêu đề
@@ -27,7 +25,6 @@
     <string name="resonance4_meaning_abba">Phản chiếu – nhận thức thông qua sự soi chiếu bên trong và bên ngoài.</string>
     <string name="resonance4_meaning_abcd">Dòng chảy đều – không lặp lại, năng lượng mở và trung tính.</string>
     <string name="resonance4_meaning_none">Không có mẫu chi phối – năng lượng được kết hợp tự do và mở.</string>
-    <string name="resonance4_meaning_ababab">Căng thẳng giữa hai cực – nhịp điệu, cân bằng và quyết định có ý thức định hình năng lượng này.</string>
 
     <!-- =====================================================
          Cộng hưởng (6 chữ số) – Tiêu đề

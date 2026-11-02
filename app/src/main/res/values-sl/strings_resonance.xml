@@ -5,8 +5,6 @@
     <string name="resonance_focus_none">Fokus: enakomerno porazdeljen (brez neposrednih ponovitev)</string>
     <string name="resonance_focus_frame">Fokus: začetek &amp; konec (okvirna tema)</string>
     <string name="resonance_focus_center">Fokus: središče (jedrni impulz)</string>
-    <string name="resonance_focus_start">Fokus: začetek (identiteta / začetna faza)</string>
-    <string name="resonance_focus_end">Fokus: konec (rezultat / naslednji korak)</string>
 
     <!-- =====================================================
          Resonanca (4-mestna) – Naslovi
@@ -27,7 +25,6 @@
     <string name="resonance4_meaning_abba">Odsev – uvid skozi notranje in zunanje zrcaljenje.</string>
     <string name="resonance4_meaning_abcd">Enakomeren tok – brez ponovitev, odprta in nevtralna energija.</string>
     <string name="resonance4_meaning_none">Ni prevladujočega vzorca – energija je prosto kombinirana in odprta.</string>
-    <string name="resonance4_meaning_ababab">Napetost med dvema poloma – ritem, ravnovesje in zavestna odločitev oblikujejo to energijo.</string>
 
     <!-- =====================================================
          Resonanca (6-mestna) – Naslovi

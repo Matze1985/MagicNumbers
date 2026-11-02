@@ -5,8 +5,6 @@
     <string name="resonance_focus_none">Εστίαση: ομοιόμορφη (χωρίς άμεσες επαναλήψεις)</string>
     <string name="resonance_focus_frame">Εστίαση: αρχή &amp; τέλος (θέμα-πλαίσιο)</string>
     <string name="resonance_focus_center">Εστίαση: κέντρο (πυρηνική ώθηση)</string>
-    <string name="resonance_focus_start">Εστίαση: αρχή (ταυτότητα / αρχική φάση)</string>
-    <string name="resonance_focus_end">Εστίαση: τέλος (αποτέλεσμα / επόμενο βήμα)</string>
 
     <!-- =====================================================
          Αντήχηση (4-ψηφίων) – Τίτλοι
@@ -27,7 +25,6 @@
     <string name="resonance4_meaning_abba">Αντανάκλαση – επίγνωση μέσω εσωτερικού και εξωτερικού καθρεφτίσματος.</string>
     <string name="resonance4_meaning_abcd">Ομαλή ροή – χωρίς επανάληψη, ανοιχτή και ουδέτερη ενέργεια.</string>
     <string name="resonance4_meaning_none">Κανένα κυρίαρχο μοτίβο – η ενέργεια είναι ελεύθερα συνδυασμένη και ανοιχτή.</string>
-    <string name="resonance4_meaning_ababab">Ένταση μεταξύ δύο πόλων – ρυθμός, ισορροπία και συνειδητή απόφαση χαρακτηρίζουν αυτή την ενέργεια.</string>
 
     <!-- =====================================================
          Αντήχηση (6-ψηφίων) – Τίτλοι

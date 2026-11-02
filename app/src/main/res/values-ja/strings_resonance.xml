@@ -5,8 +5,6 @@
     <string name="resonance_focus_none">フォーカス：均等（直接的な重複なし）</string>
     <string name="resonance_focus_frame">フォーカス：始まり &amp; 終わり（フレームテーマ）</string>
     <string name="resonance_focus_center">フォーカス：中心（コアインパルス）</string>
-    <string name="resonance_focus_start">フォーカス：始まり（アイデンティティ / 開始段階）</string>
-    <string name="resonance_focus_end">フォーカス：終わり（結果 / 次のステップ）</string>
 
     <!-- =====================================================
          レゾナンス（4桁）– タイトル
@@ -27,7 +25,6 @@
     <string name="resonance4_meaning_abba">鏡映 ― 内外の反映を通じた気づき。</string>
     <string name="resonance4_meaning_abcd">均一な流れ ― 繰り返しなし、開かれた中立的なエネルギー。</string>
     <string name="resonance4_meaning_none">支配的なパターンなし ― エネルギーは自由に組み合わされ、開かれている。</string>
-    <string name="resonance4_meaning_ababab">二極間の緊張 ― リズム、バランス、そして意識的な決断がこのエネルギーを形作る。</string>
 
     <!-- =====================================================
          レゾナンス（6桁）– タイトル

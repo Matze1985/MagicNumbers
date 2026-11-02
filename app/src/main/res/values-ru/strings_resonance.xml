@@ -5,8 +5,6 @@
     <string name="resonance_focus_none">Фокус: равномерное распределение (без прямых повторов)</string>
     <string name="resonance_focus_frame">Фокус: начало &amp; конец (рамочная тема)</string>
     <string name="resonance_focus_center">Фокус: центр (ключевой импульс)</string>
-    <string name="resonance_focus_start">Фокус: начало (идентичность / начальная фаза)</string>
-    <string name="resonance_focus_end">Фокус: конец (результат / следующий шаг)</string>
 
     <!-- =====================================================
          Резонанс (4 цифры) – Заголовки
@@ -27,7 +25,6 @@
     <string name="resonance4_meaning_abba">Отражение — осознание через внутреннее и внешнее зеркалирование.</string>
     <string name="resonance4_meaning_abcd">Равномерный поток — без повторов, открытая и нейтральная энергия.</string>
     <string name="resonance4_meaning_none">Нет доминирующего узора — энергия свободно комбинируется и открыта.</string>
-    <string name="resonance4_meaning_ababab">Напряжение между двумя полюсами — ритм, баланс и осознанное решение формируют эту энергию.</string>
 
     <!-- =====================================================
          Резонанс (6 цифр) – Заголовки

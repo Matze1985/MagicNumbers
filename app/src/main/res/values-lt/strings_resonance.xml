@@ -5,8 +5,6 @@
     <string name="resonance_focus_none">Fokusas: tolygiai paskirstytas (be tiesioginių pasikartojimų)</string>
     <string name="resonance_focus_frame">Fokusas: pradžia &amp; pabaiga (rėmo tema)</string>
     <string name="resonance_focus_center">Fokusas: centras (pagrindinis impulsas)</string>
-    <string name="resonance_focus_start">Fokusas: pradžia (tapatybė / pradinė fazė)</string>
-    <string name="resonance_focus_end">Fokusas: pabaiga (rezultatas / kitas žingsnis)</string>
 
     <!-- =====================================================
          Rezonansas (4 skaitmenų) – Pavadinimai
@@ -27,7 +25,6 @@
     <string name="resonance4_meaning_abba">Atspindys – suvokimas per vidinį ir išorinį atspindėjimą.</string>
     <string name="resonance4_meaning_abcd">Tolygus srautas – be pasikartojimų, atvira ir neutrali energija.</string>
     <string name="resonance4_meaning_none">Nėra dominuojančio modelio – energija laisvai derinama ir atvira.</string>
-    <string name="resonance4_meaning_ababab">Įtampa tarp dviejų polių – ritmas, pusiausvyra ir sąmoningas sprendimas formuoja šią energiją.</string>
 
     <!-- =====================================================
          Rezonansas (6 skaitmenų) – Pavadinimai

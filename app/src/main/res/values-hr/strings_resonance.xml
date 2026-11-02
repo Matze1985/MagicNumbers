@@ -5,8 +5,6 @@
     <string name="resonance_focus_none">Fokus: ravnomjerno raspoređen (bez izravnih ponavljanja)</string>
     <string name="resonance_focus_frame">Fokus: početak &amp; kraj (okvirna tema)</string>
     <string name="resonance_focus_center">Fokus: središte (glavni impuls)</string>
-    <string name="resonance_focus_start">Fokus: početak (identitet / početna faza)</string>
-    <string name="resonance_focus_end">Fokus: kraj (rezultat / sljedeći korak)</string>
 
     <!-- =====================================================
          Rezonanca (4-znamenkasta) – Naslovi
@@ -27,7 +25,6 @@
     <string name="resonance4_meaning_abba">Odraz – spoznaja kroz unutarnje i vanjsko zrcaljenje.</string>
     <string name="resonance4_meaning_abcd">Ravnomjeran tok – bez ponavljanja, otvorena i neutralna energija.</string>
     <string name="resonance4_meaning_none">Nema dominantnog uzorka – energija je slobodno kombinirana i otvorena.</string>
-    <string name="resonance4_meaning_ababab">Napetost između dva pola – ritam, ravnoteža i svjesna odluka oblikuju ovu energiju.</string>
 
     <!-- =====================================================
          Rezonanca (6-znamenkasta) – Naslovi

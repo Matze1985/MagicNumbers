@@ -5,8 +5,6 @@
     <string name="resonance_focus_none">초점: 균등 분포 (직접적인 반복 없음)</string>
     <string name="resonance_focus_frame">초점: 시작 &amp; 끝 (프레임 주제)</string>
     <string name="resonance_focus_center">초점: 중심 (핵심 충동)</string>
-    <string name="resonance_focus_start">초점: 시작 (정체성 / 시작 단계)</string>
-    <string name="resonance_focus_end">초점: 끝 (결과 / 다음 단계)</string>
 
     <!-- =====================================================
          공명 (4자리) – 제목
@@ -27,7 +25,6 @@
     <string name="resonance4_meaning_abba">반영 – 내적·외적 거울을 통한 통찰.</string>
     <string name="resonance4_meaning_abcd">균일한 흐름 – 반복 없음, 열린 중립적 에너지.</string>
     <string name="resonance4_meaning_none">지배적인 패턴 없음 – 에너지가 자유롭게 결합되고 열려 있습니다.</string>
-    <string name="resonance4_meaning_ababab">두 극 사이의 긴장 – 리듬, 균형, 의식적인 결정이 이 에너지를 형성합니다.</string>
 
     <!-- =====================================================
          공명 (6자리) – 제목

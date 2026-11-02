@@ -5,8 +5,6 @@
     <string name="resonance_focus_none">التركيز: متوازن (لا تكرارات مباشرة)</string>
     <string name="resonance_focus_frame">التركيز: البداية والنهاية (موضوع الإطار)</string>
     <string name="resonance_focus_center">التركيز: المركز (الدافع الأساسي)</string>
-    <string name="resonance_focus_start">التركيز: البداية (الهوية / مرحلة الانطلاق)</string>
-    <string name="resonance_focus_end">التركيز: النهاية (النتيجة / الخطوة التالية)</string>
 
     <!-- =====================================================
          Resonance (4-digit) – Titles
@@ -27,7 +25,6 @@
     <string name="resonance4_meaning_abba">انعكاس – إدراك عبر التأمل الداخلي والخارجي.</string>
     <string name="resonance4_meaning_abcd">تدفق متوازن – دون تكرار، طاقة مفتوحة ومحايدة.</string>
     <string name="resonance4_meaning_none">لا نمط مهيمن – الطاقة مركبة بحرية ومفتوحة.</string>
-    <string name="resonance4_meaning_ababab">توتر بين قطبين – الإيقاع والتوازن والقرار الواعي يميز هذه الطاقة.</string>
 
     <!-- =====================================================
          Resonance (6-digit) – Titles

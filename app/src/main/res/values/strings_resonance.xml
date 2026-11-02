@@ -5,8 +5,6 @@
     <string name="resonance_focus_none">Focus: evenly distributed (no direct repetitions)</string>
     <string name="resonance_focus_frame">Focus: beginning &amp; end (framing theme)</string>
     <string name="resonance_focus_center">Focus: center (core impulse)</string>
-    <string name="resonance_focus_start">Focus: beginning (identity / start phase)</string>
-    <string name="resonance_focus_end">Focus: end (outcome / next step)</string>
 
     <!-- =====================================================
          Resonance (4-digit) – Titles
@@ -27,7 +25,6 @@
     <string name="resonance4_meaning_abba">Reflection – insight through inner and outer mirroring.</string>
     <string name="resonance4_meaning_abcd">Even flow – no repetition, open and neutral energy.</string>
     <string name="resonance4_meaning_none">No dominant pattern – the energy is freely mixed and open.</string>
-    <string name="resonance4_meaning_ababab">Tension between two poles – rhythm, balance, and conscious decision shape this energy.</string>
 
     <!-- =====================================================
          Resonance (6-digit) – Titles

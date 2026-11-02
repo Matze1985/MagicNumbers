@@ -5,8 +5,6 @@
     <string name="resonance_focus_none">फोकस: समान रूप से वितरित (कोई प्रत्यक्ष पुनरावृत्ति नहीं)</string>
     <string name="resonance_focus_frame">फोकस: शुरुआत &amp; अंत (फ्रेम थीम)</string>
     <string name="resonance_focus_center">फोकस: केंद्र (मुख्य प्रेरणा)</string>
-    <string name="resonance_focus_start">फोकस: शुरुआत (पहचान / प्रारंभिक चरण)</string>
-    <string name="resonance_focus_end">फोकस: अंत (परिणाम / अगला कदम)</string>
 
     <!-- =====================================================
          अनुनाद (4-अंकीय) – शीर्षक
@@ -27,7 +25,6 @@
     <string name="resonance4_meaning_abba">प्रतिबिंब – आंतरिक और बाहरी परावर्तन से अंतर्दृष्टि।</string>
     <string name="resonance4_meaning_abcd">समान प्रवाह – कोई पुनरावृत्ति नहीं, खुली और तटस्थ ऊर्जा।</string>
     <string name="resonance4_meaning_none">कोई प्रमुख पैटर्न नहीं – ऊर्जा स्वतंत्र रूप से संयोजित और खुली है।</string>
-    <string name="resonance4_meaning_ababab">दो ध्रुवों के बीच तनाव – लय, संतुलन और सचेत निर्णय इस ऊर्जा को आकार देते हैं।</string>
 
     <!-- =====================================================
          अनुनाद (6-अंकीय) – शीर्षक

@@ -5,8 +5,6 @@
     <string name="resonance_focus_none">Odak: eşit dağılım (doğrudan tekrar yok)</string>
     <string name="resonance_focus_frame">Odak: başlangıç &amp; bitiş (çerçeve teması)</string>
     <string name="resonance_focus_center">Odak: merkez (çekirdek dürtü)</string>
-    <string name="resonance_focus_start">Odak: başlangıç (kimlik / başlangıç aşaması)</string>
-    <string name="resonance_focus_end">Odak: bitiş (sonuç / sonraki adım)</string>
 
     <!-- =====================================================
          Rezonans (4 haneli) – Başlıklar
@@ -27,7 +25,6 @@
     <string name="resonance4_meaning_abba">Yansıma – içsel ve dışsal aynalama yoluyla farkındalık.</string>
     <string name="resonance4_meaning_abcd">Dengeli akış – tekrar yok, açık ve nötr enerji.</string>
     <string name="resonance4_meaning_none">Baskın bir desen yok – enerji serbestçe birleşmiş ve açıktır.</string>
-    <string name="resonance4_meaning_ababab">İki kutup arasında gerilim – ritim, denge ve bilinçli karar bu enerjiyi şekillendirir.</string>
 
     <!-- =====================================================
          Rezonans (6 haneli) – Başlıklar

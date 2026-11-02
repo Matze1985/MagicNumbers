@@ -5,8 +5,6 @@
     <string name="resonance_focus_none">Zaměření: rovnoměrné (bez přímých opakování)</string>
     <string name="resonance_focus_frame">Zaměření: začátek a konec (rámcové téma)</string>
     <string name="resonance_focus_center">Zaměření: střed (hlavní impuls)</string>
-    <string name="resonance_focus_start">Zaměření: začátek (identita / počáteční fáze)</string>
-    <string name="resonance_focus_end">Zaměření: konec (výsledek / další krok)</string>
 
     <!-- =====================================================
          Resonance (4-digit) – Titles
@@ -27,7 +25,6 @@
     <string name="resonance4_meaning_abba">Zrcadlení – poznání skrze vnitřní a vnější reflexi.</string>
     <string name="resonance4_meaning_abcd">Rovnoměrný tok – bez opakování, otevřená neutrální energie.</string>
     <string name="resonance4_meaning_none">Žádný dominantní vzorec – energie je volně kombinovaná a otevřená.</string>
-    <string name="resonance4_meaning_ababab">Napětí mezi dvěma póly – rytmus, rovnováha a vědomé rozhodnutí formují tuto energii.</string>
 
     <!-- =====================================================
          Resonance (6-digit) – Titles

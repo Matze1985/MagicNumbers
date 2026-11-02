@@ -5,8 +5,6 @@
     <string name="resonance_focus_none">Focus : répartition équilibrée (pas de répétitions directes)</string>
     <string name="resonance_focus_frame">Focus : début &amp; fin (thème cadre)</string>
     <string name="resonance_focus_center">Focus : centre (impulsion centrale)</string>
-    <string name="resonance_focus_start">Focus : début (identité / phase initiale)</string>
-    <string name="resonance_focus_end">Focus : fin (résultat / prochaine étape)</string>
 
     <!-- =====================================================
          Résonance (4 chiffres) – Titres
@@ -27,7 +25,6 @@
     <string name="resonance4_meaning_abba">Reflet – prise de conscience par la réflexion intérieure et extérieure.</string>
     <string name="resonance4_meaning_abcd">Flux régulier – aucune répétition, énergie ouverte et neutre.</string>
     <string name="resonance4_meaning_none">Aucun motif dominant – l’énergie est librement combinée et ouverte.</string>
-    <string name="resonance4_meaning_ababab">Tension entre deux pôles – rythme, équilibre et décision consciente caractérisent cette énergie.</string>
 
     <!-- =====================================================
          Résonance (6 chiffres) – Titres

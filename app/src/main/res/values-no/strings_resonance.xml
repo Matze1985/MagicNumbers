@@ -5,8 +5,6 @@
     <string name="resonance_focus_none">Fokus: jevnt fordelt (ingen direkte gjentakelser)</string>
     <string name="resonance_focus_frame">Fokus: begynnelse &amp; slutt (rammetema)</string>
     <string name="resonance_focus_center">Fokus: sentrum (kjerneimpuls)</string>
-    <string name="resonance_focus_start">Fokus: begynnelse (identitet / startfase)</string>
-    <string name="resonance_focus_end">Fokus: slutt (resultat / neste steg)</string>
 
     <!-- =====================================================
          Resonans (4-sifret) – Titler
@@ -27,7 +25,6 @@
     <string name="resonance4_meaning_abba">Speiling – innsikt gjennom indre og ytre refleksjon.</string>
     <string name="resonance4_meaning_abcd">Jevn flyt – ingen gjentakelse, åpen og nøytral energi.</string>
     <string name="resonance4_meaning_none">Ingen dominerende struktur – energien er fritt kombinert og åpen.</string>
-    <string name="resonance4_meaning_ababab">Spenning mellom to poler – rytme, balanse og bevisst beslutning former denne energien.</string>
 
     <!-- =====================================================
          Resonans (6-sifret) – Titler
