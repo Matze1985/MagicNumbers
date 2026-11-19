@@ -359,7 +359,8 @@ object NumerologyEngine {
         if (number.length >= 4) {
             val pattern = number.substring(0, 2)
             val repeated = pattern.repeat(number.length / 2)
-            if (number == repeated) {
+
+            if (pattern[0] != pattern[1] && number == repeated) {
                 results.add(R.string.angel_alternating)
             }
         }
