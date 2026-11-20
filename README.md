@@ -11,6 +11,14 @@ All calculations are performed locally on the device using a deterministic numer
   </tr>
 </table>
 
+## 🌐 Live Experience
+
+The number generation and numerological interpretations can also be explored online.
+
+**Live Website:** [magic-numbers.de](https://magic-numbers.de)
+
+The website provides a live experience of the Magic Numbers concept, allowing visitors to discover numerical patterns, their cross sums, and symbolic interpretations directly in their browser.
+
 ## ✨ Core Functionality (Based on Actual Engine Logic)
 
 ---
