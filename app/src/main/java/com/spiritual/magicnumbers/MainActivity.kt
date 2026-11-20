@@ -437,27 +437,24 @@ class MainActivity : ComponentActivity() {
                                     Divider(color = Color.DarkGray)
 
                                     // Resonanzmuster
-                                    engineResult.resonanceTitleResId?.let {
-                                        Text(
-                                            stringResource(it),
-                                            fontWeight = FontWeight.Bold,
-                                            color = Color.White
-                                        )
-                                    }
+                                    Text(
+                                        stringResource(engineResult.resonanceTitleResId
+                                            ?: R.string.resonance4_title_none),
+                                        fontWeight = FontWeight.Bold,
+                                        color = Color.White
+                                    )
 
-                                    engineResult.resonanceMeaningResId?.let {
-                                        Text(
-                                            stringResource(it),
-                                            color = Color.LightGray
-                                        )
-                                    }
+                                    Text(
+                                        stringResource(engineResult.resonanceMeaningResId
+                                            ?: R.string.resonance4_meaning_none),
+                                        color = Color.LightGray
+                                    )
 
-                                    engineResult.resonanceFocusResId?.let {
-                                        Text(
-                                            stringResource(it),
-                                            color = Color.LightGray
-                                        )
-                                    }
+                                    Text(
+                                        stringResource(engineResult.resonanceFocusResId
+                                            ?: R.string.resonance_focus_none),
+                                        color = Color.LightGray
+                                    )
 
                                     Divider(color = Color.DarkGray)
 

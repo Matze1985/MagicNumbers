@@ -69,8 +69,9 @@ object NumerologyEngine {
     // --------------------------------------------------
     // RANDOM NUMBER GENERATOR
     // --------------------------------------------------
-    fun generateNumber(length: Int = 6): String {
+    fun generateNumber(): String {
         val random = Random(System.currentTimeMillis())
+        val length = random.nextInt(4, 7)
         return (1..length).joinToString("") {
             random.nextInt(0, 10).toString()
         }
@@ -1122,17 +1123,9 @@ object NumerologyEngine {
         // RESONANCE
         // --------------------------------------------------
         if (resonanceTitleResId != null) {
-
             builder.appendLine(context.getString(resonanceTitleResId))
-
-            resonanceMeaningResId?.let {
-                builder.appendLine(context.getString(it).cleanMarkdown())
-            }
-
-            resonanceFocusResId?.let {
-                builder.appendLine(context.getString(it).cleanMarkdown())
-            }
-
+            resonanceMeaningResId?.let { builder.appendLine(context.getString(it).cleanMarkdown()) }
+            resonanceFocusResId?.let { builder.appendLine(context.getString(it).cleanMarkdown()) }
             builder.appendLine()
         }
         // --------------------------------------------------
