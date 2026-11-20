@@ -17,16 +17,20 @@ All calculations are performed locally on the device using a deterministic numer
 
 ## 🔢 Rhythm of the Moment – Number Generation
 
-- Numbers are generated on demand.
-- The random generator is seeded using:
+Magic Numbers generates a new number on demand using a time-seeded random number generator.
+
+The number length is randomly selected between **4 and 6 digits**.
 
 ```kotlin
-Random(System.currentTimeMillis())
-```
+fun generateNumber(): String {
+   val random = Random(System.currentTimeMillis())
+   val length = random.nextInt(4, 7)
 
-- Default length: **6 digits**
-- Leading zeros are preserved.
-- Fully deterministic per millisecond of interaction.
+   return (1..length).joinToString("") {
+      random.nextInt(0, 10).toString()
+   }
+}
+```
 
 ---
 
